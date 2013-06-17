@@ -1,9 +1,10 @@
-# DE LA IDEA A LA OPORTUNIDAD: TEST DE POTENCIAL DE LA OPORTUNIDAD DE NEGOCIO
+# De la idea a la oportunidad:
+# Test de potencial de la oportunidad de negocio.
 
 
 ## La necesidad.
 
-	Es importante analizar el grado de satisfacción de la necesidad que se pretende cubrir.
+> Es importante analizar el grado de satisfacción de la necesidad que se pretende cubrir.
 
 La principal necesidad que se quiere cubrir es la conectividad fija incluyendo telefonía y internet. El producto cubre esa necesidad aunque es posible que no cubra servicios de valor añadido como la televisión por cable que ofrecen las telefónicas.
 
@@ -11,7 +12,7 @@ Otra necesidad que cubrimos, más intangible, es la necesidad de encontrar alter
 
 ## Los clientes.
 
- * Las características de los clientes potenciales son importantes para valorar la viabilidad de la oportunidad de negocio. Su grado de receptividad o lealtad a los productos o servicios darán pistas para analizar en qué medida la oportunidad es realmente una gran oportunidad. Asimismo, en la medida en que sea posible elaborar una lista de clientes potenciales será más fácil realizar una clasificación en segmentos o nichos.
+> Las características de los clientes potenciales son importantes para valorar la viabilidad de la oportunidad de negocio. Su grado de receptividad o lealtad a los productos o servicios darán pistas para analizar en qué medida la oportunidad es realmente una gran oportunidad. Asimismo, en la medida en que sea posible elaborar una lista de clientes potenciales será más fácil realizar una clasificación en segmentos o nichos.
 
 Los clientes seran principalmente comunidades de vecinos de Sant Joan Despí en un principio del Eixample y el Barri Centre aunque con el tiempo podriamos cubrir otros barrios y hacer instalaciones en otros pueblos de la comarca. Hogares unifamiliares y negocios son perfiles que hay que considerar aunque no son el target principal.
 
@@ -29,7 +30,7 @@ TODO: Lealtad. La buscamos?
 
 ## La innovación.
 
-	El grado de innovación que supone el producto o servicio es otro componente que se debe tener en cuenta a la hora de evaluar la oportunidad. Una oportunidad de negocio en la que el grado de innovación sea elevado significa que posee, a igualdad de condiciones, más probabilidades de éxito que aquella cuyo componente innovador sea escaso.
+> El grado de innovación que supone el producto o servicio es otro componente que se debe tener en cuenta a la hora de evaluar la oportunidad. Una oportunidad de negocio en la que el grado de innovación sea elevado significa que posee, a igualdad de condiciones, más probabilidades de éxito que aquella cuyo componente innovador sea escaso.
 
 Guifi.net en Sant Joan Despí no esta implantado más allá de las instalaciones que hemos realizado la gente implicada en este mismo proyecto. Y nadie está ofertándolo aún a comunidades de vecinos. Es un mercado totalmente nuevo en el municipio, aunque hay empresas que lo estan ofertando en otros municipios cercanos como Torrellas.
 
@@ -37,7 +38,7 @@ Ademas el guifi.net que estamos implantando en Sant Joan Despí es una tecnolog�
 
 ## El valor añadido.
 
- * Aquellas oportunidades que generen mayor valor añadido son las que poseen mayores posibilidades de éxito.
+> Aquellas oportunidades que generen mayor valor añadido son las que poseen mayores posibilidades de éxito.
 
 Frente a una antena guifi.net que pueda instalar un voluntario podriamos ofrecer:
  * Instalaciones con calidad profesional
@@ -53,13 +54,13 @@ Además somos los mismos que hemos diseñado la red de Sant Joan Despí así que
 
 ## La vida del producto/servicio.
 
- * Los productos de vida duradera suelen ser más atractivos que los perecederos, los cuales a medida que pasa el tiempo pierden todo su valor comercial.
+> Los productos de vida duradera suelen ser más atractivos que los perecederos, los cuales a medida que pasa el tiempo pierden todo su valor comercial.
 
 Las  antenas que se colocan en los terrados se pueden administrar y  actualizar de forma remota de forma que siempre tendremos instalado la  última versión del software de gestión de tráfico. Vienen con una  garantía de 2 años aunque no tenemos clara su vida útil. A pesar de las actualizaciones, habrá un momento en que haya algun cambio tecnológico que no baste con cambiar la antena. En esos casos, hemos visto que es factible conectar nubes de antenas funcionando con sistemas diferentes lo que facilitaria la transición.
 
 ## El crecimiento del mercado.
 
- * Una elevada tasa de crecimiento anual de mercado es una buena señal para entrar a competir en el mismo. Las tasas más altas de crecimiento de un mercado suelen coincidir con las fases de introducción y crecimiento del producto/servicio que se va a comercializar.
+> Una elevada tasa de crecimiento anual de mercado es una buena señal para entrar a competir en el mismo. Las tasas más altas de crecimiento de un mercado suelen coincidir con las fases de introducción y crecimiento del producto/servicio que se va a comercializar.
 
 El mercado no existe aún en el pueblo así que tiene potencial de crecimiento, pero, por eso mismo, desconocemos cual va a ser la tasa de crecimiento.
 
@@ -67,14 +68,14 @@ Por efecto red, contra más antenas haya en el pueblo, más fácil será colocar
 
 ## Los márgenes comerciales.
 
- * Los márgenes comerciales más elevados también se suelen obtener en las fases iniciales del ciclo de vida del producto, por lo que éstas son las oportunidades de negocio con mayor potencial.
+> Los márgenes comerciales más elevados también se suelen obtener en las fases iniciales del ciclo de vida del producto, por lo que éstas son las oportunidades de negocio con mayor potencial.
 
 Aún no hemos hecho este analisis.
 
 
 ## El liderazgo del mercado.
 
- * Es importante analizar en qué medida podríamos conseguir una situación de liderazgo en el mercado en el que se desarrollará la oportunidad.
+> Es importante analizar en qué medida podríamos conseguir una situación de liderazgo en el mercado en el que se desarrollará la oportunidad.
 
 La visión de empresa es local. Pero como red, guifi.net es la red wifi abierta más grande del mundo. Dentro de los instaladores hay muchas otras empresas que dan el servicio en Catalunya y Valencia. No pretendemos ningún tipo de liderazgo aunque si que queremos ser ejemplo en como hacerlo con una visión de economía social.
 
@@ -82,7 +83,7 @@ Localmente, si pretendemos ser los instaladores de referencia de guifi.net o inc
 
 ## Los costes.
 
- * Lógicamente las oportunidades de negocio cuya explotación requiera soportar elevados costes puede reducir el potencial de la oportunidad.
+> Lógicamente las oportunidades de negocio cuya explotación requiera soportar elevados costes puede reducir el potencial de la oportunidad.
 
 ### Costes de constitución:
 
@@ -109,19 +110,24 @@ Localmente, si pretendemos ser los instaladores de referencia de guifi.net o inc
 
 ### Costes de desarrollo:
 
-    El coste de desarrollo de producto son horas que en parte ya se han invertido. Aún así aun están por desarrollar el aspecto comercial y unas cuantas soluciones técnicas. Debería de cubrir a 2 técnicos a tiempo parcial mientras que se estan desarrollando.
+El coste de desarrollo de producto son horas que en parte ya se han invertido. Aún así aun están por desarrollar el aspecto comercial y unas cuantas soluciones técnicas. Debería de cubrir a 2 técnicos a tiempo parcial mientras que se estan desarrollando.
 
 ### Costes de instalación:
 
-    Las antenas, los routers y el cable son relativamente baratos (entre 200€ y  300€ por instalación), y en el caso de las antenas, los precios estan bajando. La mayor parte del coste se lo llevará la mano de obra. Dos o tres personas durante 
+* Las antenas, los routers y el cable son relativamente baratos (entre 200€ y  300€ por instalación),
+  y en el caso de las antenas, los precios estan bajando.
+* La mayor parte del coste se lo llevará la mano de obra. Una estimación que se ha hecho es:
+	* una o dos personas durante un dia para la evaluacion y planificación (muy variable)
+	* dos o tres personas durante medio día para la ejecución
+
 
 ### Costes de mantenimiento:
 
-    Uno o dos técnicos a tiempo parcial.
+* Uno o dos técnicos a tiempo parcial.
 
 ## Plazo de recuperación de la inversión.
 
- * Normalmente son más atractivas aquellas oportunidades cuyo plazo de recuperación se prevé corto.
+> Normalmente son más atractivas aquellas oportunidades cuyo plazo de recuperación se prevé corto.
 
 Como la inversión es progresiva, es decir, que se puede comprar material a medida que se instala, la recuperación de la inversión es tan inmediata como su pago. Si los pagos no se retrasan, son un problema.
 
