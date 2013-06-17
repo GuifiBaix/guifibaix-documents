@@ -1,7 +1,8 @@
 # Primera instalació del firmware a una NanoStation M5
 
 Aquest pas-a-pas explica com instal·lar el firmware a les NanoStation quan venen de fàbrica.
-Per defecte venen amb AirOS i l'hem de substiuir per un qMp.
+Per defecte venen amb AirOS pensada per enllaços punt a punt,
+i l'hem de substiuir per un qMp pensada per funcionar en maia.
 
 
 Primer, cal baixar el darrer firmware qMp disponible per la nostra antena.
@@ -47,15 +48,20 @@ Es normal.
 qMp canvia l'adreça de l'antena.
 Ens hem de connectar a http://172.30.22.1 .
 
+TOCHECK: Aquesta és l'adreça que sempre està disponible encara que canviis la IP cap en fora?
+
 Usuari 'root', contrasenya, pregunta als altres guifibaixeros.
 
 ![](pantallazos/8-qmp-login.png)
 
+Un cop a dintre sortira la pantalla principal de qMp:
 
 ![](pantallazos/9-qmp-welcome.png)
 
 
 TODO: Cal explicar com canviar la password com la primera cosa a fer.
+
+
 
 ![](pantallazos/10-qmp-AdminSistemaSistema.png)
 ![](pantallazos/10-qmp-MenuConfigNode.png)
