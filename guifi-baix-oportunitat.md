@@ -1,3 +1,4 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 # De la idea a la oportunidad:
 # Test de potencial de la oportunidad de negocio.
 

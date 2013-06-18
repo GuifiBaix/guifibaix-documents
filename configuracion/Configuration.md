@@ -1,3 +1,4 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 * Todas las antenas tienen una IP4 de mesh y una IP4 de LAN.
 * La IP4 de mesh es 10.139.81.xx/32 donde xx es el número de antena

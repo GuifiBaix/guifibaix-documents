@@ -1,3 +1,5 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 # Primera instalació del firmware a una NanoStation M5
 
 Aquest pas-a-pas explica com instal·lar el firmware a les NanoStation quan venen de fàbrica.
