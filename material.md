@@ -2,104 +2,22 @@
 
 Entre [corchetes] la referencia que buscar aqui: http://cablematic.cat (Precios de 2013-06-21 sin descuentos y sin IVA)
 
+* Per entendre les lletres dels cables i connectors
+	* Protecció contra soroll SSTP>STP>FTP>UTP
+	* LSHF i LSF indica que el recobriment no es de PVC normal sino de un plastico que hace poco humo en caso de incendio
+	* Categoria la 5e ja ens va be per 100M, la 6 per 1G, la 7 10G
+	* awg es el diametre dels coures interns, 24=0.511mm, 26=0.405mm
+	* El rigid te un filament ductil que li fa mantenir la forma, el flexible es deixa fer.
+	* CCA  vol dir que no es coure sino un alumini recobert de coure.
+	  Més barat  pero que te major perduda amb la distància.
+	  De fet la qualitat depen dels gruixos perque no están normalitzats.
+	  Vàlid per fer connexions curtes.
+
 * Crimpadora
 	* [HT01] Eina crimpadora RJ45 (8P8C): 8.96€
 	* [RC93] Eina Crimpadora RJ45 (8P): 14.15€
 
-* Terminales ethernet:
-	* [RH03] 100 Connectors UTP Cat.5e RJ45-Macho: 11.79€
-	* [RH06] 100 Connectors FTP Cat.5e RJ45-Macho: 24.53€
-	* [RH16] 100 Connectors FTP Cat.6 RJ45-Mascle (dos peces): 40.75€
-	* [RH12] 25 Connectors UTP Cat.6 RJ45 mascle: 8.49€
-	* [RH05] 25 Connectors FTP Cat.5e RJ45 mascle: 7.36€
-	* [RH01] Connector UTP Cat.5e RJ45-Macho (unitat): 0.16€
-	* [RH04] Connector FTP Cat.5e RJ45-Macho (unitat): 0.30€
-	* [RH11] Connector UTP Cat.6 RJ45-Macho (unitat): 0.32€
-	* [RH14] Connector FTP Cat.6 RJ45-Mascle (unitat): 0.70€
-	* [RP51] Coberta de goma per connector RJ45 de color gris/blanc: 0.34€
-	* [RP52] Coberta de goma per connector RJ45 de color vermell: 0.34€
-	* [RP53] Coberta de goma per connector RJ45 de color blau: 0.34€
-	* [RP54] Coberta de goma per connector RJ45 de color groc: 0.34€
-	* [RP55] Coberta de goma per connector RJ45 de color verd: 0.34€
-	* [RP56] Coberta de goma per connector RJ45 de color negre: 0.34€
-
-* Cajas hembras de pared o superficie para los domicilios:
-	* [RL72] Caixa de paret o canaleta de 80x80 amb 2 RJ45 UTP Cat.5e 568B: 5.66€
-	* [RJ73] Caixa de paret o canaleta de 80x80 amb 1 RJ45 FTP Cat.6 568B: 3.62€
-	* [RJ71] Caixa de paret o canaleta de 80x80 amb 1 RJ45 UTP Cat.6 568B: 3.78€
-	* [RI61] Placa de paret de 80x80 de 1 RJ45 Cat.6 UTP: 3.17€
-	* [RI64] Placa de paret de 80x80 de 1 RJ45 Cat.6 FTP: 4.43€
-	* [RI52] Placa de paret de 80x80 de 2 RJ45 Cat.5e UTP: 5.02€
-	* [RI34] Caixa de superfície 1 RJ45 Cat.5e FTP: 5.09€
-	* [RI44] Caixa de superfície 1 RJ45 Cat.6 FTP: 5.85€
-	* [RI41] Caixa de superfície 1 RJ45 Cat.6 UTP: 4.53€
-	* [RI45] Caixa de superfície 2 RJ45 Cat.6 FTP: 8.94€
-	* [RI32] Caixa de superfície 2 RJ45 Cat.5e UTP: 6.45€
-	* [RI11] Caixa de superfície 1 RJ11 Cat.3 i 1 RJ45 Cat.5e UTP: 3.74€
-	* [RI23] Caixa de superfície 1 RJ11 Cat.3 i 1 RJ45 Cat.6 FTP: 5.43€
-	* [RI42] Caixa de superfície 2 RJ45 Cat.6 UTP: 7.55
-	* [RI31] Caixa de superfície 1 RJ45 Cat.5e UTP: 3.40€
-	* [RI35] Caixa de superfície 2 RJ45 Cat.5e FTP: 7.81€
-	* [RI13] Caixa de superfície 1 RJ11 Cat.3 i 1 RJ45 Cat.5e FTP: 5.09€
-	* [RL73] Caixa de paret o canaleta de 80x80 amb 1 RJ45 FTP Cat.5e 568B: 3.28€
-	* [RL71] Caixa de paret o canaleta de 80x80 amb 1 RJ45 UTP Cat.5e 568B: 3.62€
-	* [RL74] Caixa de paret o canaleta de 80x80 amb 2 RJ45 FTP Cat.5e 568B: 6.66€
-	* [RJ74] Caixa de paret o canaleta de 80x80 amb 2 RJ45 FTP Cat.6 568B: 6.00€
-	* [RI51] Placa de paret de 80x80 de 1 RJ45 Cat.5e UTP: 3.77€
-	* [RI54] Placa de paret de 80x80 de 1 RJ45 Cat.5e FTP: 4.15€
-	* [RI55] Placa de paret de 80x80 de 2 RJ45 Cat.5e FTP: 5.77€
-	* [RI65] Placa de paret de 80x80 de 2 RJ45 Cat.6 FTP: 5.85€
-	* [RX71] Placa de paret per caixetí de 80x80 compatible TB110 1 port: 1.89€
-	* [RX72] Placa de paret per caixetí de 80x80 compatible TB110 2 port: 2.26€
-
-	* [HP01] Adaptador Powerline USB 14Mbps: 18.87€
-	* [HP06] Adaptador Powerline TCP/IP RJ45 200Mbps: 67.92€
-	* [HP05] Adaptador Powerline TCP/IP RJ45 200Mbps compacte: 72.45€
-	* [HP07] Adaptador Powerline sense fil 802.11g WiFi TCP/IP RJ45 200Mbps: 140.38€
-	* [RC63] Adaptador UTP Cat.6 RJ45 N/H Creuat 15cm: 3.11€
-	* [RA71] PoE-Switch 10/100Mbps IEEE802.3af (7UTP +1 PoE): 54.34€
-	* [RH13] Connector UTP Cat.6 RJ45-Mascle (100-Pack): 29.43€
-	* [RH15] Connector FTP Cat.6 RJ45 mascle 25 unitats: 11.32€
-	* [RH02] Connector UTP Cat.5e RJ45 mascle 25 unitats: 3.21€
-	* [RC58] Enllaç Cable UTP Cat.5 RJ45 femella a RJ45 femella Creuat: 1.75€
-	* [RD81] Enllaç Cable UTP Cat.6 RJ45 H/H: 3.27€
-	* [RD82] Enllaç Cable FTP Cat.6 RJ45 H/H: 5.02€
-	* [RX21] Enllaç Cable UTP Cat.5e (Cable): 2.83€
-	* [RX31] Enllaç Cable UTP Cat.6 (Cable): 3.21€
-
-
-
-* Connectores hembra para cajas:
-	* [RX81] Caixa de connexió universal 1 sòcol compatible TB110: 0.75€
-	* [RX82] Caixa de connexió universal de 2 sòcols compatible TB110: 0.91€
-	* [RD61] Keystone RJ45-Femella a TB110 Cat.6 UTP sense eines: 3.96€
-	* [RC66] Keystone RJ45-Femella a TB110 Cat.5e UTP sense eines: 2.45€
-	* [RD62] Keystone RJ45-Femella a TB110 Cat.6 STP sense eines: 5.28€
-	* [RD59] Keystone RJ45-Femella a TB110 Cat.6 UTP: 3.64€
-	* [RC60] Keystone RJ45-Femella a TB110 Cat.5e FTP: 3.64€
-	* [RC65] Keystone RJ45-Femella a TB110 Cat.5e UTP negra: 2.21€
-	* [RC67] Keystone RJ45-Femella a TB110 Cat.5e UTP blanca: 2.26€
-	* [RC59] Keystone RJ45-Femella a TB110 Cat.5e UTP beix: 2.18
-	* [RD60] Keystone RJ45-Femella a TB110 Cat.6 FTP: 4.73€
-	* [RX23] Keystone RJ45 femella a RJ45 femella Cat.5e UTP: 2.83€
-	* [RX24] Keystone RJ45 femella a RJ45 femella Cat.5e FTP: 3.40€
-
-* Duplicadores:
-	* [RC21] Duplicador de 1 RJ45 mascle a 2 RJ45 femella: 2.18€
-	* [RC22] Duplicador RJ45 UTP Cat.5e T-MOD (1 RJ45 mascle a 2 RJ45 femella): 6.36€
-	* [RC23] Duplicador RJ45 FTP Cat.5e T-MOD (1 RJ45 mascle a 2 RJ45 femella): 8.18€
-
 * Cable ethernet:
-	* Per entendre les lletres
-		* Protecció contra soroll SSTP>STP>FTP>UTP
-		* LSHF i LSF indica no es de PVC normal sino de un plastico que hace poco humo en caso de incendio
-		* Categoria la 5e ja ens va be per 100M, la 6 per 1G, la 7 10G
-		* awg es el diametre dels coures interns, 24=0.511mm, 26=0.405mm
-		* El rigid te un filament ductil que li fa mantenir la forma, el flexible es deixa fer.
-		* CCA  vol dir que no es coure sino un alumini recobert de coure.
-		  Més barat  pero que te major perduda amb la distància.
-		  De fet la qualitat depen dels gruixos perque no están normalitzats.
-		  Vàlid per fer connexions curtes.
 	* Cables con terminales:
 		* [RX01] Cable UTP Cruzado Cat.5e Gris (25cm): 0.68€
 		* [HF41] Cable LSHF UTP Cat.5e (25cm): 1.81€
@@ -247,6 +165,91 @@ Entre [corchetes] la referencia que buscar aqui: http://cablematic.cat (Precios 
 		* [LM82] Bobina Cable Exterior FTP Cat.5e 24awg Rígid (305m): 237.74€
 		* [LM92] Bobina Cable Exterior STP Cat.6 24awg Rígid (305m): 441.51€
 
+
+* Conectores ethernet:
+	* [RH03] 100 Connectors UTP Cat.5e RJ45-Mascle: 11.79€
+	* [RH06] 100 Connectors FTP Cat.5e RJ45-Mascle: 24.53€
+	* [RH13] 100 Connectors UTP Cat.6 RJ45-Mascle (dos peces): 29.43€
+	* [RH16] 100 Connectors FTP Cat.6 RJ45-Mascle: 40.75€
+	* [RH02] 25 Connectors UTP Cat.5e RJ45-Mascle: 3.21€
+	* [RH05] 25 Connectors FTP Cat.5e RJ45-Mascle: 7.36€
+	* [RH12] 25 Connectors UTP Cat.6 RJ45-Mascle (dos peces): 8.49€ (mas caro que de una en una!)
+	* [RH15] 25 Connectors FTP Cat.6 RJ45-Mascle: 11.32€
+	* [RH01] Connector UTP Cat.5e RJ45-Mascle (unitat): 0.16€
+	* [RH04] Connector FTP Cat.5e RJ45-Mascle (unitat): 0.30€
+	* [RH11] Connector UTP Cat.6 RJ45-Mascle (unitat) (dos peces): 0.32€
+	* [RH14] Connector FTP Cat.6 RJ45-Mascle (unitat): 0.70€
+	* [RP51] Coberta de goma per connector RJ45 de color gris/blanc: 0.34€
+	* [RP52] Coberta de goma per connector RJ45 de color vermell: 0.34€
+	* [RP53] Coberta de goma per connector RJ45 de color blau: 0.34€
+	* [RP54] Coberta de goma per connector RJ45 de color groc: 0.34€
+	* [RP55] Coberta de goma per connector RJ45 de color verd: 0.34€
+	* [RP56] Coberta de goma per connector RJ45 de color negre: 0.34€
+
+* Cajas hembras de pared o superficie para los domicilios:
+	* [RL73] Caixa de paret o canaleta de 80x80 amb 1 RJ45 FTP Cat.5e 568B: 3.28€
+	* [RL71] Caixa de paret o canaleta de 80x80 amb 1 RJ45 UTP Cat.5e 568B: 3.62€
+	* [RJ73] Caixa de paret o canaleta de 80x80 amb 1 RJ45 FTP Cat.6 568B: 3.62€
+	* [RJ71] Caixa de paret o canaleta de 80x80 amb 1 RJ45 UTP Cat.6 568B: 3.78€
+	* [RL74] Caixa de paret o canaleta de 80x80 amb 2 RJ45 FTP Cat.5e 568B: 6.66€
+	* [RJ74] Caixa de paret o canaleta de 80x80 amb 2 RJ45 FTP Cat.6 568B: 6.00€
+	* [RL72] Caixa de paret o canaleta de 80x80 amb 2 RJ45 UTP Cat.5e 568B: 5.66€
+	* [RI51] Placa de paret de 80x80 de 1 RJ45 Cat.5e UTP: 3.77€
+	* [RI61] Placa de paret de 80x80 de 1 RJ45 Cat.6 UTP: 3.17€
+	* [RI54] Placa de paret de 80x80 de 1 RJ45 Cat.5e FTP: 4.15€
+	* [RI64] Placa de paret de 80x80 de 1 RJ45 Cat.6 FTP: 4.43€
+	* [RI52] Placa de paret de 80x80 de 2 RJ45 Cat.5e UTP: 5.02€
+	* [RI55] Placa de paret de 80x80 de 2 RJ45 Cat.5e FTP: 5.77€
+	* [RI65] Placa de paret de 80x80 de 2 RJ45 Cat.6 FTP: 5.85€
+	* [RI31] Caixa de superfície 1 RJ45 Cat.5e UTP: 3.40€
+	* [RI34] Caixa de superfície 1 RJ45 Cat.5e FTP: 5.09€
+	* [RI41] Caixa de superfície 1 RJ45 Cat.6 UTP: 4.53€
+	* [RI44] Caixa de superfície 1 RJ45 Cat.6 FTP: 5.85€
+	* [RI32] Caixa de superfície 2 RJ45 Cat.5e UTP: 6.45€
+	* [RI35] Caixa de superfície 2 RJ45 Cat.5e FTP: 7.81€
+	* [RI42] Caixa de superfície 2 RJ45 Cat.6 UTP: 7.55
+	* [RI45] Caixa de superfície 2 RJ45 Cat.6 FTP: 8.94€
+	* [RI11] Caixa de superfície 1 RJ11 Cat.3 i 1 RJ45 Cat.5e UTP: 3.74€
+	* [RI23] Caixa de superfície 1 RJ11 Cat.3 i 1 RJ45 Cat.6 FTP: 5.43€
+	* [RI13] Caixa de superfície 1 RJ11 Cat.3 i 1 RJ45 Cat.5e FTP: 5.09€
+
+
+* Connectores hembra para cajas:
+	* [RX71] Placa de paret per caixetí de 80x80 compatible TB110 1 port: 1.89€
+	* [RX72] Placa de paret per caixetí de 80x80 compatible TB110 2 port: 2.26€
+	* [RX81] Caixa de connexió universal 1 sòcol compatible TB110: 0.75€
+	* [RX82] Caixa de connexió universal de 2 sòcols compatible TB110: 0.91€
+	* [RD61] Keystone RJ45-Femella a TB110 Cat.6 UTP sense eines: 3.96€
+	* [RC66] Keystone RJ45-Femella a TB110 Cat.5e UTP sense eines: 2.45€
+	* [RD62] Keystone RJ45-Femella a TB110 Cat.6 STP sense eines: 5.28€
+	* [RD59] Keystone RJ45-Femella a TB110 Cat.6 UTP: 3.64€
+	* [RC60] Keystone RJ45-Femella a TB110 Cat.5e FTP: 3.64€
+	* [RC65] Keystone RJ45-Femella a TB110 Cat.5e UTP negra: 2.21€
+	* [RC67] Keystone RJ45-Femella a TB110 Cat.5e UTP blanca: 2.26€
+	* [RC59] Keystone RJ45-Femella a TB110 Cat.5e UTP beix: 2.18
+	* [RD60] Keystone RJ45-Femella a TB110 Cat.6 FTP: 4.73€
+	* [RX23] Keystone RJ45 femella a RJ45 femella Cat.5e UTP: 2.83€
+	* [RX24] Keystone RJ45 femella a RJ45 femella Cat.5e FTP: 3.40€
+
+* Duplicadores:
+	* [RC21] Duplicador de 1 RJ45 mascle a 2 RJ45 femella: 2.18€
+	* [RC22] Duplicador RJ45 UTP Cat.5e T-MOD (1 RJ45 mascle a 2 RJ45 femella): 6.36€
+	* [RC23] Duplicador RJ45 FTP Cat.5e T-MOD (1 RJ45 mascle a 2 RJ45 femella): 8.18€
+
+* Solucion Powerline para dentro de los domicilios
+	* [HP01] Adaptador Powerline USB 14Mbps: 18.87€
+	* [HP06] Adaptador Powerline TCP/IP RJ45 200Mbps: 67.92€
+	* [HP05] Adaptador Powerline TCP/IP RJ45 200Mbps compacte: 72.45€
+	* [HP07] Adaptador Powerline sense fil 802.11g WiFi TCP/IP RJ45 200Mbps: 140.38€
+
+* Otras cosas utiles
+	* [RC63] Adaptador UTP Cat.6 RJ45 N/H Creuat 15cm: 3.11€
+	* [RA71] PoE-Switch 10/100Mbps IEEE802.3af (7UTP +1 PoE): 54.34€
+	* [RC58] Enllaç Cable UTP Cat.5 RJ45 femella a RJ45 femella Creuat: 1.75€
+	* [RD81] Enllaç Cable UTP Cat.6 RJ45 H/H: 3.27€
+	* [RD82] Enllaç Cable FTP Cat.6 RJ45 H/H: 5.02€
+	* [RX21] Enllaç Cable UTP Cat.5e (Cable): 2.83€
+	* [RX31] Enllaç Cable UTP Cat.6 (Cable): 3.21€
 
 
 Metros:
