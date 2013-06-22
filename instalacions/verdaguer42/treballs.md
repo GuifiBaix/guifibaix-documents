@@ -77,43 +77,6 @@ En caso de querer compartir ADSL, se configurará el router adsl debidamente.
 
 
 Pendiente: Añadir fotos.
-Pendiente: Añadir mediciones
-
-
-Estado de mediciones:
-
-
-* A: Antena a cornisa: 2m
-* B: Ancho del patio: 3.5m
-* C: Cornisa a caja patio: 1.70m
-* D: Antena a hierro del gas: ??m
-* E: Hierro del gas: 7m (5.5m de largo y 1.5m de altura)
-* F: Largo de patio (perpendicular a la pared de la caseta): 4m
-* G: Profundidad del balcon de los 4os: aprox 1.5m
-* H: Del techo a la parte baja de la ventana del primero: 2m
-* I: El muro del patio hace 1.20m
-* J: El muro de la fachada hace 1.20m
-* K: De la caja estanca a la vertical del patio hay 2m ??
-* L: De extremo de balcón a extremo del otro balcón hay ??m
-* M: Del rincon del patio a la ventana del 1o en horizontal: 2m
-* P: De planta a planta: 3m
-
-* Cable de red antena-caja-patio: A+B+C = 7.20m
-* Cable de red antena-caja-fachada: A+D+E > 12m
-* Cable al 4o1a: I+G+H+M
-* Cable al 3o1a: I+G+H+M+1*P
-* Cable al 2o1a: I+G+H+M+2*P
-* Cable al 1o1a: I+G+H+M+3*P
-* Cable al Bo1a: I+G+H+M+4*P
-* Cable al 4o4a: I+G+F+B
-* Cable al 3o4a: I+G+F+B+1*P
-* Cable al 2o4a: I+G+F+B+2*P
-* Cable al 1o4a: I+G+F+B+3*P
-* Cable al local: I+G+F+B+4*P
-
-
-
-
 
 
 
