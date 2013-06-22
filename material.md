@@ -17,6 +17,17 @@ Entre [corchetes] la referencia que buscar aqui: http://cablematic.cat (Precios 
 	* [HT01] Eina crimpadora RJ45 (8P8C): 8.96€
 	* [RC93] Eina Crimpadora RJ45 (8P): 14.15€
 
+* Tester Ethernet
+	* [CT07] Multi Network Modular Cable Tester: 24.53€
+	* [CT05] Network Cable Tester SC6106: 37.55€
+	* [CT03] 4-in-1 Cable Tester (RJ45 + RJ11 + USB + BNC): 37.74€
+	* [CT02] 5-in-1 Cable Tester (RJ45 + RJ11 + 1.394 + USB + BNC): 42.91€
+	* [CT04] Network Cable Tester TL-828-A: 101.89€
+	* [CT01] Network Cable Tester SC8108: 130.19€
+	* [CT13] Multimèdia LAN cable tester TM-903: 142.64€
+	* [CT12] Network Cable Tester SM-8868: 147.17€
+
+
 * Cable ethernet:
 	* Cables con terminales:
 		* [RX01] Cable UTP Cruzado Cat.5e Gris (25cm): 0.68€

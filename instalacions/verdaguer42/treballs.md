@@ -9,12 +9,12 @@ mientras que otra abajo comprueba el nivel de señal en el portátil.
 Este paso ya estaba realizado antes de empezar GuifiBaix.
 
 2. **Instalación de dos cajas estancas.**
-una arriba en la boca del terrado que da al del patio comun de 1os y 4os,
+Una caja en la boca del terrado que da al del patio comun de 1os y 4os,
 y otra en el muro del terrado que da a la fachada de Les Torres
 sobre los balcones que tienen colindantes 2os y 3os.
 
 3. **Empalme eléctrico**
-de dos mangueras en la caja de luces de la comunidad que hay dentro de la escalera
+Se empalmarán dos mangueras en la caja de luces de la comunidad que hay dentro de la escalera
 llevandolas al exterior mediante un taladro
 y hasta cada una de las cajas estancas
 acollandolas con tacos y bridas por debajo de la cornisa
@@ -37,8 +37,6 @@ Habrá que colocar los routers o switches que puedan dar servicio
 al cable de la antena más los 10 (como máximo) cables de red para 9 domicilios y 1 local.
 En esta caja también se colocará un dispositivo PoE que llevará alimentación
 a la antena por el cable de red que llega de ella.
-
-
 
 7. **Tirada de cables por el patio.**
 Los cables se acollarán con tacos y bridas
@@ -78,11 +76,45 @@ Esto son paquetes que aún estamos valorando como ofertar.
 En caso de querer compartir ADSL, se configurará el router adsl debidamente.
 
 
-Mediciones:
+Pendiente: Añadir fotos.
+Pendiente: Añadir mediciones
 
-	* Bajada: 2 pisos * 3 m/planta * (1 4os + 2 3os + 3 2os + 4 1os + 5 bajos = 15 plantas) = 90m
-	* 1os: 3m * 4 plantas = 12m
-	* 4os: 12m (aprox) * 4 plantas = 48m
-	* Salida del router: 3m (aprox) * 10 = 30m
-	* Llegada a la antena: (aprox) 1
-	* Total Patio: 180m
+
+Estado de mediciones:
+
+
+* A: Antena a cornisa: 2m
+* B: Ancho del patio: 3.5m
+* C: Cornisa a caja patio: 1.70m
+* D: Antena a hierro del gas: ??m
+* E: Hierro del gas: 7m (5.5m de largo y 1.5m de altura)
+* F: Largo de patio (perpendicular a la pared de la caseta): 4m
+* G: Profundidad del balcon de los 4os: aprox 1.5m
+* H: Del techo a la parte baja de la ventana del primero: 2m
+* I: El muro del patio hace 1.20m
+* J: El muro de la fachada hace 1.20m
+* K: De la caja estanca a la vertical del patio hay 2m ??
+* L: De extremo de balcón a extremo del otro balcón hay ??m
+* M: Del rincon del patio a la ventana del 1o en horizontal: 2m
+* P: De planta a planta: 3m
+
+* Cable de red antena-caja-patio: A+B+C = 7.20m
+* Cable de red antena-caja-fachada: A+D+E > 12m
+* Cable al 4o1a: I+G+H+M
+* Cable al 3o1a: I+G+H+M+1*P
+* Cable al 2o1a: I+G+H+M+2*P
+* Cable al 1o1a: I+G+H+M+3*P
+* Cable al Bo1a: I+G+H+M+4*P
+* Cable al 4o4a: I+G+F+B
+* Cable al 3o4a: I+G+F+B+1*P
+* Cable al 2o4a: I+G+F+B+2*P
+* Cable al 1o4a: I+G+F+B+3*P
+* Cable al local: I+G+F+B+4*P
+
+
+
+
+
+
+
+
