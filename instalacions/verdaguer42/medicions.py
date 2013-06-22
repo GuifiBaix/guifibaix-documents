@@ -41,10 +41,10 @@ print "Cable de la caja al 1o 1a:", MinimoALaVertical + AcometidaPatio1o + 3 * A
 print "Cable de la caja al local:", MinimoALaVertical + AcometidaPatio4o + 4 * AlturaEntrePisos
 print "Cable de la caja al bj 1a:", MinimoALaVertical + AcometidaPatio1o + 4 * AlturaEntrePisos
 
-print "Total cable para el patio:", 10*MinimoALaVertical + 5*AcometidaPatio1o + 5*AcometidaPatio4o + 20*AlturaEntrePisos + AntenaACajaPatio
+TotalPatio = 10*MinimoALaVertical + 5*AcometidaPatio1o + 5*AcometidaPatio4o + 20*AlturaEntrePisos + AntenaACajaPatio
 
 CasetaParedVerdaguer = 5.10
-CasetaEsquinaVerdagerTorresABarra = 1.60
+CasetaEsquinaVerdagerTorresABarra = 4.00
 BarraTramoHorizontal = 4.50
 BarraTramoVertical = 0.66
 AntenaACajaFachada = CasetaParedVerdaguer + CasetaEsquinaVerdagerTorresABarra + BarraTramoHorizontal + BarraTramoVertical
@@ -71,8 +71,29 @@ print "Cable de la caja al 1o 3a:", Comun3os + 3*AlturaEntrePisos
 print "Cable de la caja al local 2a:", Comun2os + 4*AlturaEntrePisos
 print "Cable de la caja al local 3a:", Comun3os + 4*AlturaEntrePisos
 
-print "Total cable para fachada:", 5* Comun3os + 5 * Comun2os + 20*AlturaEntrePisos
+TotalFachada  = 5* Comun3os + 5 * Comun2os + 20*AlturaEntrePisos + AntenaACajaFachada
 
+print "Total cable para el patio:", TotalPatio
+print "Total cable para fachada:", TotalFachada
+print "Total:", TotalFachada + TotalPatio
+
+print "Con router en 3os (patio):", (0
+	+ AntenaACajaPatio
+	+ MinimoALaVertical
+	+ 15 * AlturaEntrePisos
+	+ 4 * VerticalAVentana1o
+	+ 11 * HorizontalAVentana1o
+	+ 4 * (PatioLargo + PatioLargo)
+	)
+
+print "Con router en 3os (fachada):", (0
+	+ AntenaACajaFachada
+	+ 17 * TechoBalconApuntoDeEntrada
+	+ 13 * AlturaEntrePisos
+	+ 9 * BalconABalcon
+	+ GrosorMuroFachada + FachadaHastaElPrimerBalcon
+	)
+	
 
 
 
