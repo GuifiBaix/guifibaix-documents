@@ -5,8 +5,8 @@
 # Distancias en m
 
 AntenaTerradillo = 2.00 # Distancia de la antena hasta el suelo del terradillo
-AltoCornisa = .50 # Grosor de la cornisa
-VoladoCornisa = .20 # La parte de la cornisa del tejadillo que esta volada más allá de la pared
+AltoCornisa = 0.50 # Grosor de la cornisa
+VoladoCornisa = 0.20 # La parte de la cornisa del tejadillo que esta volada más allá de la pared
 AntenaCornisa = AntenaTerradillo + AltoCornisa + VoladoCornisa # 2.70   # Distancia para llegar de la antena al interior de la cornisa
 CasetaLadoPatio = 5.10 # Longitud de la pared de la caseta que está dando al patio.
 EsquinaPuertaACaja = 1.25 # Longitud de la caja a la esquina de la caseta mas cercana.
