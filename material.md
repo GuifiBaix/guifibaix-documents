@@ -243,8 +243,8 @@ Entre [corchetes] la referencia que buscar aqui: http://cablematic.cat (Precios 
 	* [HP07] Adaptador Powerline sense fil 802.11g WiFi TCP/IP RJ45 200Mbps: 140.38€
 
 * Otras cosas utiles
-	* [RC63] Adaptador UTP Cat.6 RJ45 N/H Creuat 15cm: 3.11€
 	* [RA71] PoE-Switch 10/100Mbps IEEE802.3af (7UTP +1 PoE): 54.34€
+	* [RC63] Adaptador UTP Cat.6 RJ45 N/H Creuat 15cm: 3.11€
 	* [RC58] Enllaç Cable UTP Cat.5 RJ45 femella a RJ45 femella Creuat: 1.75€
 	* [RD81] Enllaç Cable UTP Cat.6 RJ45 H/H: 3.27€
 	* [RD82] Enllaç Cable FTP Cat.6 RJ45 H/H: 5.02€
@@ -252,14 +252,12 @@ Entre [corchetes] la referencia que buscar aqui: http://cablematic.cat (Precios 
 	* [RX31] Enllaç Cable UTP Cat.6 (Cable): 3.21€
 
 
-Metros:
-	Bajada: 2 pisos * 3 m/planta * (1 4os + 2 3os + 3 2os + 4 1os + 5 bajos = 15 plantas) = 90m
-	1os: 3m * 4 plantas = 12m
-	4os: 12m (aprox) * 4 plantas = 48m
-	Salida del router: 3m (aprox) * 10 = 30m
-	Llegada a la antena: (aprox) 1
-	Total Patio: 180m
-	
+
+
+
+
+
+
 
 
 
