@@ -1,0 +1,41 @@
+Para la caja superior:
+
+Mikrotik RouterBOARD RB450G: 68.77EUR
+http://landashop.com/catalog/mikrotik-routerboard-rb450g-p-915.html
+
+Caja para RB450G Aluminio: 14.50EUR
+http://landashop.com/catalog/caja-aluminio-negro-para-mikrotik-rb450-p-191.html
+
+
+
+Para la protección desde casa: 
+
+Mikrotik RouterBOARD 750GL: 42.15EUR
+http://landashop.com/catalog/mikrotik-router-rb750gl-gibabit-ethernet-64mb-sobremesa-p-1202.html
+
+TP-Link TL-R402M Router cable/DSL con 4 puertos: 11.53EUR
+http://www.ciudadwireless.com/tp-link_tl-r402m_port_ports-_cable-dsl_router_home-_dial-on-demand-_firewall-_dhcp-_host-_pass-through-p-2602.html
+http://landashop.com/catalog/tlrt402m-cabledsl-router-firewall-dhcp-dmzrouter-p-1095.html
+http://www.tp-link.es/products/details/?categoryid=228&model=TL-R402M#app
+
+
+
+
+Switches 8 puertos NO administrables:
+
+Fast Ethernet Switch, TL-SF1008D 8 puertos 10/100M RJ45 caja plastico [TL-SF1008D]: 10.29EUR 
+http://landashop.com/catalog/fast-ethernet-switch-tlsf1008d-puertos-10100m-rj45-caja-plastico-p-976.html
+
+Gigabit Switch, TL-SG108 8 puertos 10/100/1000M RJ45 caja metal [TL-SG108]: 28.38EUR 
+http://landashop.com/catalog/gigabit-switch-tlsg108-puertos-101001000m-rj45-caja-metal-p-2747.html
+
+
+Switches 8 puertos administrables:
+
+Mangeable L2 Jetstream Switch TL-SG3210 8 puertos 10/100/1000M RJ45 - 2 SFP [TL-SG3210]: 82.46EUR
+http://landashop.com/catalog/mangeable-jetstream-switch-tlsg3210-puertos-101001000m-rj45-p-2224.html
+
+
+Dell PowerConnect 2808: 153€
+http://www.dell.com/es/empresas/p/powerconnect-2800/pd?refid=powerconnect-2800&baynote_bnrank=0&baynote_irrank=1&~ck=dellSearch&isredir=true
+

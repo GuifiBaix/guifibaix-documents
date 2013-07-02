@@ -1,7 +1,7 @@
 ﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 * Todas las antenas tienen una IP4 de mesh y una IP4 de LAN.
-* La IP4 de mesh es 10.139.81.xx/32 donde xx es el número de antena
+* La IP4 de mesh es 10.139.81.xx/24 donde xx es el número de antena
 * La IP4 de LAN es normalmente 172.30.22.1
 	* Por condiciones de la red interna puede cambiarse
 * La IP de rescate es 169.254.232.1
