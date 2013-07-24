@@ -3,8 +3,8 @@
 ## Què és GuifiBaix?
 
 GuifiBaix som un conjunt de professionals organitzats en cooperativa
-amb l'objectiu de que els ciutadans puguin progressivament
-independitzar-se de les grans empreses que controlen
+amb l'objectiu de que els ciutadans del nostre entorn puguin progressivament
+desvincular-se de les grans empreses que controlen
 de forma abusiva el mercat de les telecomunicacions.
 Per aconseguir-ho volem facilitar
 a les comunitats de veins de la comarca,
@@ -18,20 +18,47 @@ on cadascú es construeix el tram que passa per casa seva
 i, que, pel fet de tenir cura del seu propi tram, hom tingués
 dret de passar per la resta de trams.
 
-Guifi.net és aquesta idea aplicada a les autopistes de la informació.
-Una xarxa telemàtica ciutadana, neutral i lliure
+Guifi.net és, simplement, aplicar aquesta idea a les autopistes de la informació.
+Guifi.net és una xarxa telemàtica ciutadana, neutral i lliure
 on els membres de la comunitat fan crèixer la xarxa
 afegint nodes, normalment antenes Wifi direccionals,
-que es conecten amb els ja existents.
+que es conecten amb els nodes ja existents.
+La tecnologia sense fils fa que mantenir la teva part de la 'carretera' sigui molt barat
+i tens dret a que les teves dades arribin a qualsevol punt de la xarxa.
 
-Els participants de la xarxa poden compartir recursos com ara
+Els participants de la xarxa comparteixen recursos i serveis
+com ara 
 les conexions a Internet,
-fitxers compartits,
+emmagatzematge i compartició de fitxers,
 emisores de radio i televisió online...
 
 A data d'avui Guifi.net té més de 25.000 nodes actius.
 Està molt desenvolupat per zones com ara 
 Osona (on va nèixer), El Maresme, El Penedés, Castellò...
+
+
+## Quin és el paper de GuifiBaix?
+
+GuifiBaix facilita que els participants de Guifi.net que no tinguin
+coneixements tècnics puguin incorporar-se a la xarxa
+oferint a les comunitats de veins solucions llestes per fer funcionar.
+Manté i coordina la xarxa de la zona, repartint el fluxe de dades,
+i oferint serveis convenients als usuaris.
+
+
+## Perquè GuifiBaix és una alternativa ètica?
+
+Les operadores tradicionals abusen dels seus usuaris i dels seus treballadors.
+L'objectiu de GuifiBaix és que aixó no passi.
+
+Per un costat, els treballadors de GuifiBaix estem organitzats de forma cooperativa
+per tenir unes condicions laborals justes.
+
+D'altra banda, la xarxa no ens pertany a nosaltres sinó als usuaris.
+Això evita que oferim condicions abusives, perque si ho fem,
+els participants de la xarxa tenen la llibertat d'organitzar 
+un altre projecte que ens substitueixi.
+
 
 ## Puc tenir internet amb Guifi.net?
 
@@ -40,113 +67,99 @@ De fet, les instal·lacions que fa GuifiBaix queden llestes per connectar i nave
 
 És important entendre, però, que
 Guifi.net no és Internet en sí mateix,
-ni GuifiBaix és el proveidor d'aquest Internet.
-Són els mateixos participants de la xarxa que comparteixen els ADSL's o fibres òptiques de les que disposen.
+i que GuifiBaix no és el proveidor d'aquest Internet.
+Són els mateixos participants de la xarxa que comparteixen,
+mitjançant Guifi.net, el cabdal sobrant
+dels ADSL's i fibres òptiques de les que disposen.
 
-La connectivitat Internet és un recurs que es pot compartir a Guifi.net.
-Són els participants els que ofereixen el seu cabdal sobrant als altres.
-Per aixó demanem a les comunitats de veïns de més de 8 
+Per això, GuifiBaix recomana a les comunitats de veins no massa petites
+que mantinguin un o dos ADSL per expandir el cabdal de la xarxa.
+Els veins d'un edifici, surten per aquest ADSL amb preferència
+i si l'ADSL es satura, el tràfic automàticament es redirigeix
+per l'antena cap a un altre edifici amb capacitat sobrant.
 
-la connexió a internet és un recurs que comparteixen els nodes.
-
-ni Internet és quelcom que proveeixi GuifiBaix.
-Són els usuaris que comparteixen els seus ADSL's i connexions de fibra òptica amb els altres.
-
-## Perquè demaneu mantenir alguna connexió ADSL als edificis amb mes de 8 veïns?
-
-Recomanem a les comunitats de veins de tamany mitja o gran que mantinguin
-un o dos ADSL's compartits.
-La major part dels veïns sortiran per aquests ADSL's compartits,
-si sobra capdal, podrà ser utilitzat per altres comunitats,
-i si en falta, es podrà sortir per les antenes
-
-Si més endevant es trobés una via de sortida amb cabdal suficient,
-són els usuaris que haurien de 
-Per això recomanem que les comunitats de veins mantinguin un o dos ADSL's compartits a l'edifici.
-De forma transparent a l'usuari, el sistema reparteix la càrrega entre els diferents
-ADSL's compartits al poble.
-
-Com l'objectiu és no fer servir per res les grans telecos,
-la nostra idea a la llarga és arribar a un proveidor de cable extern
+L'objectiu final és desvincular-nos totalment de les grans telecos.
+De moment, depenem encara d'aquests ADSL's.
+En tot cas, és un estalvi i reduim la nostra dependència.
+Qualsevol sortida a internet conectada es suma.
+A la llarga, cal trobar un proveidor de fibra òptica extern
 que ens ofereixi cabdal suficient i poder prescindir de tots els ADSL's.
 
 
 ## Puc tenir telefonia fixa amb Guifi.net?
 
+Es clar que sí. Fins i tot pots conservar el número.
 
-## Quin és l'estat de la xarxa Guifi.net
+Un cop que tens internet amb Guifi.net,
+pots prescindir de la linia de telèfon fixa
+i demanar la portabilitat del teu número a un proveidor de telefonia IP (veu per internet),
+que són molt més barats que els convencionals.
 
+TODO: Link a les tarifes
+
+Per fer servir telefonia IP, necessites comprar un telèfon IP (cost aproximat 30€),
+o reaprofitar els telèfons que tinguis comprant un adaptador.
+
+Només per la vostra conveniència GuifiBaix us plantejarà
+paquets de aparells i tarifes amb operadors
+adequats pel vostre cas i llestos per funcionar.
+Ho oferim només per la vostra conveniencia,
+els participants de la xarxa teniu la llibertat de buscar-vos pel vostre compte
+on comprar els aparells i a qui contractar la telefonia IP.
+
+Un altre detall beneficiós és que
+els telèfons IP permeten fer trucades gratis directes
+entre usuaris de Guifi.net sense passar per cap operador.
 
 
 ## Quin és l'estat de la xarxa Guifi.net a Sant Joan Despí
 
-Fa alguns anys, es va muntar una xarxa pionera a l'Eixample
-que donava cobertura a 10 families saltant de balconada a balconada
-i compartint 2 ADSL's.
+A Sant Joan Despí som pioners pel sistema que fem servir a Guifi.net.
+En comptes de fer servir nodes centrals als que apunten els usuaris finals,
+cada edifici afegit és un posible camí per les dades.
+Això fa sigui molt fàcil donar cobertura a noves arees i
+els camins alternatius fan que la xarxa sigui més flexible i tolerant a falles i a saturació.
 
-El darrer any, hem estés la xarxa al Centre i properament a Les Planes i TV3.
+La xarxa al poble va començar a la zona de l'Eixample,
+impulsada per la AAVV del barri,
+amb una xarxa que donava cobertura a 10 families
+saltant de balconada a balconada i que compartien 2 ADSL's.
+Entre els anys 2011 i 2013 hem expandit la xarxa al barri centre
+i properament a arribarem a Les Planes i TV3.
 
-
-## Cóm facilita GuifiBaix l'adopció de Gufi.net?
-
-La instal·lació d'un node requereix coneixements tècnics
-i això limita el perfil dels membres de la comunitat.
-Sovint es recorreix a voluntariat, per donar cobertura als membres no tècnics.
-
-
-- Ens encarreguem de la instal·lació i manteniment dels elements tècnics
-- Facilitem que els serveis bàsics com ara Internet i telefonia fixa estiguin disponibles
-
-
+La xarxa de Sant Joan ha estat, fins fa poc, una illa i no estava connectada
+a la resta de Guifi.net.
+Des del 2012 esta connectada mitjantçant un node a Santa Coloma de Cervellò.
 
 
+## Són perilloses per la salut les antenes que poseu?
+
+La perillositat de les ones electromagnètiques no ionitzants
+(llum visible, ràdio, televisió, telefonia mòbil, wifi, wimax...)
+és un tema científicament controvertit.
+Un estudi ben fet implica 
+
+El que sí que està clar és que 
+
+
+Les emisions de les nostres antenes estan ordres de magnitud per sota
+de les emisions que pot fer, per exemple, un mòbil.
+Per que et facis una idea:
+Les mega antenes de telefonia mòbil tènen potència per creuar murs
+i donar-te cobertura, per exemple, en un sòtan, estant l'antena
+dos i tres carrers enllà.
+És més, els mòbils que tenim a les butxaques, contesten
+amb prou potència per fer el camí de tornada.
+
+Les nostres antenes necessiten tenir visió directa entre elles
+perquè a la que poses quelcom entremig, la senyal desapareix.
+
+Les antenes de Guifi.net que més potència tenen són les que conecten poblacions entre sí.
+El mateix tècnic de la campanya contra les antenes de telefonia
+ha fet messures 
 
 
 
-## Amb Guifi.net tindré Internet?
-
-Resposta curta: No necessàriament però, GuifiBaix ens assegurem de que en tinguis.
-
-Resposta llarga:
-
-Estar connectar a Guifi.net no implica directament tenir connexió a la resta d'Internet.
-Hi ha nodes que ofereixen portes cap a Internet, 
-alguns lliures, altres necessiten compte i altres requereixen pagar.
-
-A GuifiBaix suggerim que cada edifici mantingui un o dos ADSL's
-per donar sortida de primera mà
-
-
-
-Això no vol dir que alguns nodes no donin aquest servei, sigui pagant o ofert de forma voluntària.
-
-Guifi.net ens assegurem
-
-
-## Si hom pot fer-se el seu node, perquè és necessari GuifiBaix?
-
-
-Normalment els membres de la comunitat Guifi.net es limiten a ser
-persones amb coneixements tècnics suficients com per poder muntar i mantenir un node.
-Això limita enormement la massa potencial de gent independitzada de les telecos.
-
-A més, tindre un node actiu no implica accés directe als serveis telemàtics
-bàsics com ara internet i telefonia fixa.
-Per això, a GuifiBaix facilitem que els usuaris.
-
-
-## Guifi.net dòna Internet?
-
-Conectar-se a guifi.net no implica poder accedir a la resta d'Internet.
-Es necessita que algú ofereixi una via enfora
-que pot ser un ADSL, una conexió de fibra òptica...
-Es pot donar de forma desinteressada, o 
-
-A GuifiBaix tenim cura de que els usuaris conectats tinguin aquest accés.
-
-Guifi.net no és en sí Internet, però 
-
-## Com de gran és la xarxa?
 
 
 
