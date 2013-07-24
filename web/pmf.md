@@ -48,16 +48,17 @@ i oferint serveis convenients als usuaris.
 
 ## Perquè GuifiBaix és una alternativa ètica?
 
-Les operadores tradicionals abusen dels seus usuaris i dels seus treballadors.
+Les operadores de telefonia tradicionals
+sovint abusen dels seus usuaris i dels seus treballadors.
 L'objectiu de GuifiBaix és que aixó no passi.
 
 Per un costat, els treballadors de GuifiBaix estem organitzats de forma cooperativa
 per tenir unes condicions laborals justes.
 
 D'altra banda, la xarxa no ens pertany a nosaltres sinó als usuaris.
-Això evita que oferim condicions abusives, perque si ho fem,
-els participants de la xarxa tenen la llibertat d'organitzar 
-un altre projecte que ens substitueixi.
+I alguna vegada oferíssim condicions abusives als usuaris,
+els participants de la xarxa tenen dret d'organitzar o contractar a
+un altre projecte, empresarial o voluntari, que ens substitueixi.
 
 
 ## Puc tenir internet amb Guifi.net?
@@ -70,20 +71,26 @@ Guifi.net no és Internet en sí mateix,
 i que GuifiBaix no és el proveidor d'aquest Internet.
 Són els mateixos participants de la xarxa que comparteixen,
 mitjançant Guifi.net, el cabdal sobrant
-dels ADSL's i fibres òptiques de les que disposen.
+dels ADSL's i fibres òptiques de que disposen.
 
-Per això, GuifiBaix recomana a les comunitats de veins no massa petites
-que mantinguin un o dos ADSL per expandir el cabdal de la xarxa.
+Per això, GuifiBaix recomana a les comunitats de veins de sis o més domicilis
+que mantinguin una o dos connexions ADSL compartides
+per expandir el cabdal disponible a la xarxa.
 Els veins d'un edifici, surten per aquest ADSL amb preferència
 i si l'ADSL es satura, el tràfic automàticament es redirigeix
 per l'antena cap a un altre edifici amb capacitat sobrant.
 
-L'objectiu final és desvincular-nos totalment de les grans telecos.
+
+## Com es que feu servir ADSL's si l'objectiu es desvincular-nos d'aquestes companyies?
+
 De moment, depenem encara d'aquests ADSL's.
-En tot cas, és un estalvi i reduim la nostra dependència.
+En tot cas, és una dependència menor i un estalvi sobre
+la situació de que cada vei tingui una línia.
+
 Qualsevol sortida a internet conectada es suma.
-A la llarga, cal trobar un proveidor de fibra òptica extern
-que ens ofereixi cabdal suficient i poder prescindir de tots els ADSL's.
+Si ens estenem a zones amb fibra òptica, ho sumem i podrem anar prescindint d'ADSL's.
+La situació ideal a la llarga seria trobar un proveidor de fibra òptica extern
+que ens ofereixi cabdal suficient a preu de majorista.
 
 
 ## Puc tenir telefonia fixa amb Guifi.net?
@@ -132,32 +139,101 @@ a la resta de Guifi.net.
 Des del 2012 esta connectada mitjantçant un node a Santa Coloma de Cervellò.
 
 
+## Quin tipus d'instaŀlació fa GuifiBaix?
+
+GuifiBaix instaŀla majoritariament a comunitats de veins.
+
+Normalment es fa el següent:
+
+- Es posa una o més antenes al terrat de l'edifici.
+- S'instaŀlen al terrat routers i altres elements de distribució de xarxa
+- Es baixen cables de xarxa fins als veïns.
+- A cada veí se li deixa una roseta de xarxa on pot conectar els seus aparells.
+- Es conecta i es configura les connexions ADSL que es compartiran.
+
+Opcionalment els veins poden demanar pagant-ho ells:
+
+- Arribar a d'altres punts del domicili, per exemple, extenent més cable, instalant un sistema PLC (pels endolls de llum) o posant un router Wifi.
+- Instalar aparells de telefonia IP, fer la portabilitat del número de telèfon...
+- Configurar ordinadors, consoles, routers...
+
+
+## Quins serveis ofereix GuifiBaix un cop feta la instal·lació?
+
+GuifiBaix es compromet a fer les següents tasques:
+
+- Coordinar l'assignació d'adreces d'Internet
+- Mantenir i administrar els elements comuns de la xarxa
+
+Les comunitat de veins que paguin la quota trimestral tindran a més 
+
+TODO
+
+
+
+## Qui té la propietat dels equips que instaŀlem?
+
+Els equips que instalem a un edifici resten en propietat de la comunitat de veins.
+
+Llevat de les degudes garanties o d'una mala manipulació per part nostra,
+els dispositius són responsabilitat dels veins, per exemple,
+en cas de robatori o desperfectes.
+
+
+Si deixeu de fer servir Guifi.net o cambieu els equips,
+no estem obligats però és possible que us poguem fer una recompra dels equips.
+
+Tot i que els equips siguin propietat i responsabilitat de la 
+Donar-nos accés tant físic com per xarxa als elements de xarxa comunitaris
+com ara l'antena i els dispositius de distribució (routers, switches...)
+per poder fer feines de manteniment.
+
+
+
+
 ## Són perilloses per la salut les antenes que poseu?
 
 La perillositat de les ones electromagnètiques no ionitzants
 (llum visible, ràdio, televisió, telefonia mòbil, wifi, wimax...)
 és un tema científicament controvertit.
-Un estudi ben fet implica 
+És complicat fer un estudi complert a llarg termini aillant altres variables.
 
-El que sí que està clar és que 
+El que sí que està clar és que la probabilitat de que sigui perillós
+depén de coses com ara
+la distància i el temps d'exposició,
+la potència rebuda, i la freqüència de les ones.
+Exposicións prolongades de molta alta potència (radars) i a curtes distàncies sí que han tingut efectes nocius demostrats.
 
+Tenint en compte això, cal dir que,
+les emisions de les nostres antenes estan ordres de magnitud per sota en potència
+de les emisions que pot fer, per exemple, un mòbil,
+que a més, normalment portem pegat al cos.
 
-Les emisions de les nostres antenes estan ordres de magnitud per sota
-de les emisions que pot fer, per exemple, un mòbil.
 Per que et facis una idea:
 Les mega antenes de telefonia mòbil tènen potència per creuar murs
-i donar-te cobertura, per exemple, en un sòtan, estant l'antena
-dos i tres carrers enllà.
+i donar-te cobertura, per exemple, en un sòtan,
+estant l'antena dos i tres carrers enllà.
 És més, els mòbils que tenim a les butxaques, contesten
 amb prou potència per fer el camí de tornada.
 
-Les nostres antenes necessiten tenir visió directa entre elles
-perquè a la que poses quelcom entremig, la senyal desapareix.
+Les nostres antenes emeteixen tan poca potència
+que necessiten tenir visió directa entre elles.
+A la que poses un obstacle entremig, un arbre o una paret, la senyal desapareix.
 
 Les antenes de Guifi.net que més potència tenen són les que conecten poblacions entre sí.
-El mateix tècnic de la campanya contra les antenes de telefonia
-ha fet messures 
+El mateix tècnic de la campanya contra les antenes de telefonia a Matarò,
+va evaluar com a no riscoses les emissions d'una d'aquestes antenes 'grans'.
 
+
+## És legal el que feu, com ara...
+
+### Donar serveis de telecomunicacions?
+
+Totes les actuacions que es fan per expandir la xarxa Guifi.net
+es fan sota el paraigües de la Fundació Guifi.net que està
+registrada com operador de telecomunicacions a la CNMT.
+
+### Compartir els ADSL's entre els usuaris?
 
 
 
