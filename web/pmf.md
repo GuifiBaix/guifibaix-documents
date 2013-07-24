@@ -52,13 +52,30 @@ Les operadores de telefonia tradicionals
 sovint abusen dels seus usuaris i dels seus treballadors.
 L'objectiu de GuifiBaix és que aixó no passi.
 
-Per un costat, els treballadors de GuifiBaix estem organitzats de forma cooperativa
-per tenir unes condicions laborals justes.
+Per una banda, la xarxa no ens pertany a nosaltres sinó als usuaris.
+Si alguna vegada ens tornèssim malvats i
+oferíssim condicions abusives als usuaris,
+els participants de la xarxa tenen dret a cercar
+una fòrmula, empresarial o a base de voluntaris, que ens substitueixi.
 
-D'altra banda, la xarxa no ens pertany a nosaltres sinó als usuaris.
-I alguna vegada oferíssim condicions abusives als usuaris,
-els participants de la xarxa tenen dret d'organitzar o contractar a
-un altre projecte, empresarial o voluntari, que ens substitueixi.
+Per un una altra banda,
+els treballadors de GuifiBaix estem organitzats sota principis cooperatius,
+assegurant unes condicions laborals justes.
+
+
+## Quin estat té GuifiBaix ara mateix?
+
+GuifiBaix encara no té encara forma jurídica propia.
+Som a una incubadora de projectes que es qui factura i fa els contractes.
+Aquest temps d'incubació ens dona un plaç entre 6 i 12 mesos per avaluar
+la forma jurídica que adoptarem:
+Associació, cooperativa, societat laboral, fundació...
+o si incorporant usuaris o només treballadors...
+De fet en procés de constitució convidarem als usuaris per que
+estableixin com es volen organitzar ells.
+
+En tot cas, sigui quina sigui la forma jurídica final,
+l'objectiu serà preservar la viabilitat del projecte tot seguint els principis ètics abans esmentats.
 
 
 ## Puc tenir internet amb Guifi.net?
@@ -233,7 +250,13 @@ Totes les actuacions que es fan per expandir la xarxa Guifi.net
 es fan sota el paraigües de la Fundació Guifi.net que està
 registrada com operador de telecomunicacions a la CNMT.
 
+### Fer servir l'espectre electromagnètic?
+
 ### Compartir els ADSL's entre els usuaris?
+
+### Instaŀlar coses a una comunitat de veins?
+
+
 
 
 
