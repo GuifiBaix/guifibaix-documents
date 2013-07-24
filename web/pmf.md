@@ -13,12 +13,12 @@ l'accés a la xarxa ciutadana Guifi.net.
 
 ## Què és Guifi.net?
 
-Imagina que volguèssim fer una xarxa de carreteres,
-on cadascú es construeix el tram que passa per casa seva
-i, que, pel fet de tenir cura del seu propi tram, hom tingués
-dret de passar per la resta de trams.
+Imagina construir una xarxa de carreteres on
+cadascú construeix el tram que passa per davant de casa seva
+i pel fet de deixar passar als altres pel teu tram,
+tens dret a passar pels trams dels altres.
+Aquest principi aplicat a les autopistes de la informació és el que construeix Guifi.net.
 
-Guifi.net és, simplement, aplicar aquesta idea a les autopistes de la informació.
 Guifi.net és una xarxa telemàtica ciutadana, neutral i lliure
 on els membres de la comunitat fan crèixer la xarxa
 afegint nodes, normalment antenes Wifi direccionals,
