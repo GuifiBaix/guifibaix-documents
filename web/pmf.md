@@ -1,6 +1,6 @@
 
 
-== Què és GuifiBaix?
+## Què és GuifiBaix?
 
 GuifiBaix som un conjunt de professionals organitzats en cooperativa
 amb l'objectiu de que els ciutadans puguin progressivament
@@ -11,7 +11,7 @@ a les comunitats de veins de la comarca,
 l'accés a la xarxa ciutadana Guifi.net.
 
 
-== Què és Guifi.net?
+## Què és Guifi.net?
 
 Imagina que volguèssim fer una xarxa de carreteres,
 on cadascú es construeix el tram que passa per casa seva
@@ -33,7 +33,7 @@ A data d'avui Guifi.net té més de 25.000 nodes actius.
 Està molt desenvolupat per zones com ara 
 Osona (on va nèixer), El Maresme, El Penedés, Castellò...
 
-== Puc tenir internet amb Guifi.net?
+## Puc tenir internet amb Guifi.net?
 
 Es clar que sí.
 De fet, les instal·lacions que fa GuifiBaix queden llestes per connectar i navegar.
@@ -52,7 +52,7 @@ la connexió a internet és un recurs que comparteixen els nodes.
 ni Internet és quelcom que proveeixi GuifiBaix.
 Són els usuaris que comparteixen els seus ADSL's i connexions de fibra òptica amb els altres.
 
-== Perquè demaneu mantenir alguna connexió ADSL als edificis amb mes de 8 veïns?
+## Perquè demaneu mantenir alguna connexió ADSL als edificis amb mes de 8 veïns?
 
 Recomanem a les comunitats de veins de tamany mitja o gran que mantinguin
 un o dos ADSL's compartits.
@@ -71,14 +71,14 @@ la nostra idea a la llarga és arribar a un proveidor de cable extern
 que ens ofereixi cabdal suficient i poder prescindir de tots els ADSL's.
 
 
-== Puc tenir telefonia fixa amb Guifi.net?
+## Puc tenir telefonia fixa amb Guifi.net?
 
 
-== Quin és l'estat de la xarxa Guifi.net
+## Quin és l'estat de la xarxa Guifi.net
 
 
 
-== Quin és l'estat de la xarxa Guifi.net a Sant Joan Despí
+## Quin és l'estat de la xarxa Guifi.net a Sant Joan Despí
 
 Fa alguns anys, es va muntar una xarxa pionera a l'Eixample
 que donava cobertura a 10 families saltant de balconada a balconada
@@ -87,7 +87,7 @@ i compartint 2 ADSL's.
 El darrer any, hem estés la xarxa al Centre i properament a Les Planes i TV3.
 
 
-== Cóm facilita GuifiBaix l'adopció de Gufi.net?
+## Cóm facilita GuifiBaix l'adopció de Gufi.net?
 
 La instal·lació d'un node requereix coneixements tècnics
 i això limita el perfil dels membres de la comunitat.
@@ -103,7 +103,7 @@ Sovint es recorreix a voluntariat, per donar cobertura als membres no tècnics.
 
 
 
-== Amb Guifi.net tindré Internet?
+## Amb Guifi.net tindré Internet?
 
 Resposta curta: No necessàriament però, GuifiBaix ens assegurem de que en tinguis.
 
@@ -123,7 +123,7 @@ Això no vol dir que alguns nodes no donin aquest servei, sigui pagant o ofert d
 Guifi.net ens assegurem
 
 
-== Si hom pot fer-se el seu node, perquè és necessari GuifiBaix?
+## Si hom pot fer-se el seu node, perquè és necessari GuifiBaix?
 
 
 Normalment els membres de la comunitat Guifi.net es limiten a ser
@@ -135,7 +135,7 @@ bàsics com ara internet i telefonia fixa.
 Per això, a GuifiBaix facilitem que els usuaris.
 
 
-== Guifi.net dòna Internet?
+## Guifi.net dòna Internet?
 
 Conectar-se a guifi.net no implica poder accedir a la resta d'Internet.
 Es necessita que algú ofereixi una via enfora
@@ -146,7 +146,7 @@ A GuifiBaix tenim cura de que els usuaris conectats tinguin aquest accés.
 
 Guifi.net no és en sí Internet, però 
 
-== Com de gran és la xarxa?
+## Com de gran és la xarxa?
 
 
 
