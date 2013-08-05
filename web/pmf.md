@@ -14,7 +14,8 @@ l'accés a la xarxa ciutadana Guifi.net.
 ## Què és Guifi.net?
 
 Imagina construir una xarxa de carreteres on
-cadascú construeix el tram que passa per davant de casa seva
+cadascú és responsable de mantenir
+el tram que passa per davant de casa seva
 i pel fet de deixar passar als altres pel teu tram,
 tens dret a passar pels trams dels altres.
 Aquest principi aplicat a les autopistes de la informació és el que construeix Guifi.net.
@@ -48,8 +49,8 @@ i oferint serveis convenients als usuaris.
 
 ## Perquè GuifiBaix és una alternativa ètica?
 
-Les operadores de telefonia tradicionals
-sovint abusen dels seus usuaris i dels seus treballadors.
+Les operadores de telefonia
+sovint abusen tant dels seus usuaris com dels seus treballadors.
 L'objectiu de GuifiBaix és que aixó no passi.
 
 Per una banda, la xarxa no ens pertany a nosaltres sinó als usuaris.
@@ -125,7 +126,7 @@ Per fer servir telefonia IP, necessites comprar un telèfon IP (cost aproximat 3
 o reaprofitar els telèfons que tinguis comprant un adaptador.
 
 Només per la vostra conveniència GuifiBaix us plantejarà
-paquets de aparells i tarifes amb operadors
+paquets d'aparells i tarifes amb operadors
 adequats pel vostre cas i llestos per funcionar.
 Ho oferim només per la vostra conveniencia,
 els participants de la xarxa teniu la llibertat de buscar-vos pel vostre compte
@@ -135,8 +136,7 @@ Un altre detall beneficiós és que
 els telèfons IP permeten fer trucades gratis directes
 entre usuaris de Guifi.net sense passar per cap operador.
 
-
-## Quin és l'estat de la xarxa Guifi.net a Sant Joan Despí
+## Com està muntada la xarxa Guifi.net a Sant Joan Despí?
 
 A Sant Joan Despí som pioners pel sistema que fem servir a Guifi.net.
 En comptes de fer servir nodes centrals als que apunten els usuaris finals,
@@ -196,16 +196,19 @@ Llevat de les degudes garanties o d'una mala manipulació per part nostra,
 els dispositius són responsabilitat dels veins, per exemple,
 en cas de robatori o desperfectes.
 
-
-Si deixeu de fer servir Guifi.net o cambieu els equips,
-no estem obligats però és possible que us poguem fer una recompra dels equips.
-
-Tot i que els equips siguin propietat i responsabilitat de la 
-Donar-nos accés tant físic com per xarxa als elements de xarxa comunitaris
+Tot i que els equips siguin propietat i responsabilitat de la comunitat,
+GuifiBaix es reserva el dret d'accés tant físic com digital als elements de xarxa comunitaris
 com ara l'antena i els dispositius de distribució (routers, switches...)
 per poder fer feines de manteniment.
 
 
+## Què passa si no volem fer servir més els equips?
+
+Si en un moment donat no feu servir més els equips,
+ens agradaria recomprar-los, a un preu adient a la seva amortització i estat.
+GuifiBaix en cap cas està obligat a la recompra
+però ho volem potencia amb l'objectiu de reduir la basura electrònica
+reutilitzant-los a d'altres instaŀlacions.
 
 
 ## Són perilloses per la salut les antenes que poseu?
@@ -239,27 +242,52 @@ A la que poses un obstacle entremig, un arbre o una paret, la senyal desapareix.
 
 Les antenes de Guifi.net que més potència tenen són les que conecten poblacions entre sí.
 El mateix tècnic de la campanya contra les antenes de telefonia a Matarò,
-va evaluar com a no riscoses les emissions d'una d'aquestes antenes 'grans'.
+va certificar com a no riscoses les emissions d'una d'aquestes antenes 'grans'.
 
 
 ## És legal el que feu, com ara...
 
+
 ### Donar serveis de telecomunicacions?
+
+GuifiBaix no donem la connectivitat.
+Són les comunitats de veins que comparteixen entre elles els punts de sortida (ADSL's, fibra optica) dels que disposen.
 
 Totes les actuacions que es fan per expandir la xarxa Guifi.net
 es fan sota el paraigües de la Fundació Guifi.net que està
 registrada com operador de telecomunicacions a la CNMT.
 
+
 ### Fer servir l'espectre electromagnètic?
+
+La llei estableix un seguit de bandes de freqüència reservades
+per comunicar antenes WiFi entre elles sense que calgui cap licència administrativa.
+Els equips que fem servir vénen limitats de fàbrica
+per fer servir només aquestes freqüències i per sota
+de la màxima potència permesa.
+
 
 ### Compartir els ADSL's entre els usuaris?
 
+La llei permet que les persones comparteixin l'ADSL en mode de auto-prestació
+sense cap tipus d'autorització administrativa
+(Art. 6.2 de la Ley 32/2003 General de Telecomunicaciones).
+Segons la Comisió Nacional de Telecomunicacions,
+perquè sigui auto-prestació,
+ha de estar encaminat a cobrir les necessitats pròpies de comunicació,
+no ha d'haver ànim de lucre i estar limitat als usuaris que en formen part.
+
+* El blog de la CMT: http://blogcmt.com/2010/09/14/vecinos-que-comparten-wifi/
+* La resolucion: http://www.localret.cat/serveis/ambit-juridic/docs/sensefils/ro_2009_630
+
+
 ### Instaŀlar coses a una comunitat de veins?
 
+Els serveis de telecomunicacions es considera servei bàsic.
+La instaŀlació només requereix de notificació a la comunitat, no d'aprovació.
 
-
-
-
+Però, és molt convenient, tot i que no pas necessari, vehicular-ho per la comunitat de veïns,
+de cara a gestionar-ho i fer els pagaments comunitaris, i per això sí que cal aprovació.
 
 
 
