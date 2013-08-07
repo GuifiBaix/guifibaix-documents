@@ -239,8 +239,8 @@ Entre [corchetes] la referencia que buscar aqui: http://cablematic.cat (Precios 
 	* [RC67] Keystone RJ45-Femella a TB110 Cat.5e UTP blanca: 2.26€
 	* [RC59] Keystone RJ45-Femella a TB110 Cat.5e UTP beix: 2.18
 	* [RD60] Keystone RJ45-Femella a TB110 Cat.6 FTP: 4.73€
-	* [RX23] Keystone RJ45 femella a RJ45 femella Cat.5e UTP: 2.83€
-	* [RX24] Keystone RJ45 femella a RJ45 femella Cat.5e FTP: 3.40€
+	* [RX23] Keystone RJ45-Femella a RJ45 femella Cat.5e UTP: 2.83€
+	* [RX24] Keystone RJ45-Femella a RJ45 femella Cat.5e FTP: 3.40€
 
 * Duplicadores:
 	* [RC21] Duplicador de 1 RJ45 mascle a 2 RJ45 femella: 2.18€
