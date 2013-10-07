@@ -4,14 +4,17 @@
 
 ## Actividad
 
-La actividad de la cooperativa es conectar a los vecinos y vecinas a la red ciudadana guifi.net para dar respuesta a sus necesidades de telefonía fija y Internet.
+La actividad de la cooperativa consiste en
+conectar a los vecinos y vecinas de la zona a la red ciudadana guifi.net
+para dar respuesta a sus necesidades de telefonía fija y Internet.
 
-Ofrecer a las comunidades de vecinos soluciones a punto para conectar y funcionar,
-incluyendo el cableado del edificio y la configuración de los aparatos de red.
-Mantener y coordinar la red de la zona repartiendo el flujo de datos,
-hacia los puntos de salida disponibles,
+Para ello, se ofrecerá a las comunidades de vecinos soluciones a punto para conectar y funcionar
+que incluyen
+el cableado del edificio,
+la configuración de los aparatos de red,
+el mantenimiento y la gestión de la red de la zona,
+repartiendo el flujo de datos hacia los puntos de salida disponibles,
 y ofreciendo servicios de valor añadido a los usuarios.
-
 
 
 ## Oportunidades de negocio
