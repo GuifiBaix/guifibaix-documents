@@ -56,6 +56,8 @@ Guifibaix vendría a cubrir esta TODO.
 
 ## Los promotores
 
+TODO: Reredactar esto con perfiles más fieles
+
 La cooperativa estará formada por profesionales especializados en distintos campos:
 
 - Profesionales en el campo del desarrollo de redes locales y telecomunicaciones
@@ -79,7 +81,58 @@ La cooperativa estará formada por profesionales especializados en distintos cam
 ### Raúl Sanz Serrano
 
 
+# Plan de marketing
 
+## Servicio
+ 
+### Descripción del producto/servicio
+
+El producto y servicio consiste en
+la instalación y configuración en edificios de los dispositivos
+que permitirá a los vecinos tener teléfono y Internet,
+así como el mantenimiento de esta red.
+
+Junto a esto, se ofrecerán otros servicios de valor añadido sobre 
+
+
+Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
+
+* Instalar la antena Guifi.net en el terrado del edificio para hacer red con otros edificios
+* Hacer llegar la red a los diferentes vecinos del edificio que estén interesados mediante conexión cableada o Wi-Fi
+* Facilitar el paso a telefonía IP, ofreciendo terminales y conversores preconfigurados y tarifas de portabilidad con terceras empresas
+* Opcionalmente, configurar una puerta local a internet (ADSL o Fibra) que pague la comunidad (por ejemplo en la linea del ascensor)
+* Opcionalmente, ofrecer alternativas de conectividad a internet fuera del edificio mediante la red Guifi.net
+* Dar soporte y servicio técnico para la infraestructura de red
+* Mantener una serie de servicios internos disponible dentro de Guifi.net
+	* Almacenamiento, compartición y respaldo de ficheros
+	* Correo, web
+	* Emisión de radio y televisión on-line
+
+
+### Necesidades
+
+- Conectividad a telefonía fija y Internet
+
+### Aspectos diferenciales
+
+- Ofrecemos una alternativa de consumo ética y fuera de oligopolios
+- Damos servicios internos de alta velocidad dentro de guifi.net
+- TODO: More!!!
+
+### Servicios futuros
+
+- Conectividad común de alta capacidad
+
+## Mercado
+
+
+Àmbit geogràfic
+En la zona del Baix Llobregat y l’Hospitalet. Es una zona de alta densidad, con una comunidad de usuarios cada vez más concienciado y pocas empresas especializadas en la instalación de estas redes locales.
+
+  
+Públic objectiu
+
+Comunidades donde existan varios usuarios interesados en compartir sus accesos a internet, compartiendo gastos y reduciendo costes.
 
 
 
