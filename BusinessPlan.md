@@ -2,62 +2,42 @@
 
 # Plan de negocio
 
-## Misión
+## Actividad
 
-La misión de la cooperativa es facilitar
-a las comunidades de vecinos de la zona
-una transición fácil a la red Guifi.net
-viabilizando que se desconecten de las grandes telecos en el mayor grado posible,
-permitiéndoles ahorrar en costes fijos de telecomunicaciones,
-y generando trabajo de calidad en el municipio
-en labores de desarrollo, instalación y mantenimiento
-de la red y los servicios telemáticos asociados.
+La actividad de la cooperativa es conectar a los vecinos y vecinas a la red ciudadana guifi.net para dar respuesta a sus necesidades de telefonía fija y Internet.
 
-Los clientes naturales de la cooperativa serán comunidades de vecinos de Sant Joan Despí,
-concretamente a los del Barri Centre y Eixample, pero con previsión de extendernos
-a los otros barrios y a pueblos cercanos según exista conectividad.
+Ofrecer a las comunidades de vecinos soluciones a punto para conectar y funcionar,
+incluyendo el cableado del edificio y la configuración de los aparatos de red.
+Mantener y coordinar la red de la zona repartiendo el flujo de datos,
+hacia los puntos de salida disponibles,
+y ofreciendo servicios de valor añadido a los usuarios.
 
-Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 
-* Instalar la antena Guifi.net en el terrado del edificio para hacer red con otros edificios
-* Hacer llegar la red a los diferentes vecinos del edificio que esten interesados mediante conexión cableada o Wi-Fi
-* Facilitar el paso a telefonía IP, ofreciendo terminales y conversores y tarifas de portabilidad con terceras empresas
-* Opcionalmente, configurar una puerta local a internet (ADSL o Fibra) que pague la comunidad (por ejemplo en la linea del ascensor)
-* Opcionalmente, ofrecer alternativas de conectividad a internet fuera del edificio mediante la red Guifi.net
-* Dar soporte y servicio técnico para la infraestructura de red
-* Mantener una serie de servicios locales disponible dentro de Guifi.net
-	* Almacenamiento, compartición y respaldo de ficheros
-	* Correo, web
-	* Emisión de radio y televisión online
 
-## Contexto y motivación
+## Oportunidades de negocio
 
-La telefonía fija y el acceso a Internet en España es muy poco competitiva
-comparada con otros paises europeos.
-Bajas velocidades,
-altos precios,
-muy deficiente atención al cliente,
-ausencia de servicio en zonas aisladas...
-A pesar de los procesos de liberalización,
-la oferta aún es un oligopolio comercial de muy pocas compañías.
-De hecho, todas las empresas que ofrecen ADSL
-aunque tengan red troncal própia,
-para llegar hasta el hogar de los clientes,
-aún alquilan el par de cobre
-que es propiedad de Telefónica en monopolio
-heredado del periodo público.
+Cada vez son más las personas que creen que otro modelo de consumo es posible,
+un consumo más responsable
+intentando abandonar a las grandes empresas que acaparan los mercados a modo de oligopolio.
 
-Esta situación dio pie a la aparición de la red Guifi.net.
-Guifi.net se basa en una licencia de conexión libre y viral.
-Es decir, la condición para que cualquier nodo se conecte a la red,
-es dejar que otros nodos se le conecten sin hacer discriminación de tráfico.
-La red en sí, no da conectividad a Internet, pero
-dicha conectividad es ofrecida como servicio por algunos nodos que la forman.
+Por otro lado, la telefonía fija y el acceso a Internet en España es muy poco competitiva, 
+con bajas velocidades, altos precios y una atención a cliente muy deficiente.
+Año tras año copan, junto las empresas de telefonía móvil, la mayoría de reclamaciones de consumo. 
 
-La red ha crecido rapidamente en todo el estado español
-sobretodo en Cataluña y en Valencia.
-En la construccion y mantenimiento de la red
-están involucradas asociaciones, fundaciones y empresas siempre de ámbito local.
+Una posible alternativa a esta situación es Guifi.net.
+Guifi.net es una red pública basada en una licencia de conexión libre y viral.
+TODO: Como se llama la licencia de guifi.net
+Cuando un usuario monta un nuevo nodo,
+si lo quiere conectar a guifi.net,
+la licencia le condiciona a permitir que otros nodos se conecten al suyo.
+
+La red en sí, no da conectividad a Internet,
+pero dicha conectividad es ofrecida como servicio por algunos nodos que la forman.
+Guifi.net ha crecido rápidamente en todo el estado español
+sobretodo en Cataluña y en Valencia,
+involucrando a asociaciones y empresas locales
+en la construccion y mantenimiento de esta red.
+
 Toda la red esta bajo el paraguas de la Fundacion Guifi.net
 que está registrada como operador de telecomunicaciones en la CNMT.
 La mayoría de nodos se conectan mediante enlaces WiFi,
@@ -66,16 +46,45 @@ en Osona, la comarca catalana donde empezó la red,
 ya hay empresas que estan tirando cable de fibra óptica
 financiado con aportaciones voluntarias de los mismos usuarios.
 
-Un inconveniente para la adopción extendida de Guifi.net
-es que su instalación requiere unos mínimos de conocimientos técnicos.
-Ello limita el número de personas que se podrían hacer cargo de su instalación y mantenimiento de forma voluntaria.
-En zonas densamente pobladas, como el àrea metropolitana de Barcelona,
-una instalación masiva desbordaría a los posibles voluntarios.
+No todos los usuarios interesados en este modelo de conexión
+tienen los conocimientos necesarios para incorporarse a la red por ellos mismos.
+Esto limita su extensión y mantenimiento de la red afectando a la calidad de servicio.
+Estos problemas se minimizan en zonas
+en las que se ha profesionalizado la instalación y el mantenimiento.
+No es el caso del municipio de Sant Joan Despí y alrededores.
+Guifibaix vendría a cubrir esta TODO.
 
-En este contexto se plantea la siguiente iniciativa.
+## Los promotores
+
+La cooperativa estará formada por profesionales especializados en distintos campos:
+
+- Profesionales en el campo del desarrollo de redes locales y telecomunicaciones
+- Profesionales en la instalación de redes físicas y cableado.
+- Profesionales en el campo de la atención a clientes y gestión de incidencias.
+
+### David García Garzón
+
+* Profesor del Departamento de Tecnologia de la Universidad Pompeu Fabra
+* Master en Tecnologias de la Información y la Comunicacion y los Medios Audiovisuales por la Universidad Pompeu Fabra.
+* Ingeniero Informatico por la Universidad Ramon Llull.
+* Miembro del 15M de Sant Joan Despí y responsable de la campaña DesconexionIBEX35
+* Activista y desarrollador de software libre.
+
+### Aitor 
+
+### Víctor Viudez
+
+### Raúl Beas
+
+### Raúl Sanz Serrano
 
 
-## Promotores
+
+
+
+
+
+
 
 * Venimos de los movimientos sociales de Sant Joan Despí y su comarca
 	* 15M Sant Joan Despí
@@ -99,6 +108,35 @@ En este contexto se plantea la siguiente iniciativa.
 	* Josep Maria Segura
 	* Jordi Ossó
 	* ...
+
+
+
+
+
+
+
+
+Los clientes naturales de la cooperativa serán comunidades de vecinos de Sant Joan Despí,
+concretamente a los del Barri Centre y Eixample, pero con previsión de extendernos
+a los otros barrios y a pueblos cercanos según exista conectividad.
+
+Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
+
+* Instalar la antena Guifi.net en el terrado del edificio para hacer red con otros edificios
+* Hacer llegar la red a los diferentes vecinos del edificio que esten interesados mediante conexión cableada o Wi-Fi
+* Facilitar el paso a telefonía IP, ofreciendo terminales y conversores y tarifas de portabilidad con terceras empresas
+* Opcionalmente, configurar una puerta local a internet (ADSL o Fibra) que pague la comunidad (por ejemplo en la linea del ascensor)
+* Opcionalmente, ofrecer alternativas de conectividad a internet fuera del edificio mediante la red Guifi.net
+* Dar soporte y servicio técnico para la infraestructura de red
+* Mantener una serie de servicios locales disponible dentro de Guifi.net
+	* Almacenamiento, compartición y respaldo de ficheros
+	* Correo, web
+	* Emisión de radio y televisión online
+
+## Contexto y motivación
+
+
+## Promotores
 
 
 
