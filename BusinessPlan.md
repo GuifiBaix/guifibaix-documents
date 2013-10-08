@@ -40,7 +40,7 @@ que se compromete a mantener:
 - Cooperación 
 	- Facilitando la interconexión de sistemas
 	- Difundiendo experiencias para que otras empresas pueden replicar el modelo
-- Minimización del impacto ecológico y social negativo
+- Minimización del impacto medioambiental y social negativo
 	- Re-comprando aparatos en desuso
 	- Minimizando el consumo de nuestras instalaciones
 	- Tratando los residuos adecuadamente
@@ -179,20 +179,31 @@ Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 
 ### Ámbito geográfico
 
-El ámbito geográfico es la zona centro y centro-sur de la comarca del Baix Llobregat,
-en el entorno local de los socios que son de Sant Joan Despí y el Prat de Llobregat.
-Básicamente porque el desarrollo local es uno de los valores de los que que se quiere hacer bandera.
-Pero también existen razones, o más bien, limitaciones de tipo tecnológicas
+El ámbito geográfico es la comarca del Baix Llobregat,
+concretamente, en el entorno local de los promotores del proyecto
+que son de Sant Joan Despí y el Prat de Llobregat.
+La zona se caracteriza por una alta densidad de población
+con predominio de los edificios multi-viviendas
+que se prestan a plantear instalaciones comunitarias.
+
+Se limita la actividad a esta zona, por un lado,
+porque lo que se quiere potenciar
+es el desarrollo de la economía local.
+Pero, por otro lado,
+también existen limitaciones de tipo tecnológicas
 que determinan la expansión geográfica de la oferta.
 
-Los nodos con tecnología qMp, que es la que se está instalando,
-tienen que tener visión directa con al menos otro nodo existente
-y no pueden estar tampoco muy lejos uno de otro,
-necesitando enlaces punto a punto mas caros para conectarse cuando están lejos.
+Las antenas que instalamos requieren una visión directa a distancia limitada entre ellas.
+Por eso, tiene sentido empezar con islas de unos pocos nodos en un nucleo urbanos
+para después densificar la red al mismo tiempo que se expande a las conurbaciones.
+Para conectar nodos distantes que salven zonas interurbanas,
+se usan enlaces punto a punto que son más caros.
 
-Los nodos qMp existentes actualmente están en Sant Joan Despí,
-por eso, sobretodo al principio, el objetivo será densificar la zona
-y expandirnos progresivamente a los municipios colindantes:
+Concretamente, se plantean dos centros de expansión,
+uno en El Prat que está en fase de estudio
+y otro en Sant Joan Despí que ya dispone de algunos nodos
+y está listo para densificarse y expandirse a municipios
+colindantes como
 Cornellá, 
 Sant Boi de Llobregat, 
 Sant Feliu de llobregat,
@@ -200,18 +211,8 @@ Sant Just Desvern,
 Esplugues
 o Santa Coloma de Cervelló.
 
-Esto no implica rechazar clientes de zonas algo más alejadas de Sant Joan Despí o sin visión directa.
-Se puede plantea empezar a hacer islas de nodos que funcionen de forma autónoma,
-como se va a hacer en el caso del Prat de Llobregat.
-A partir de un cierto número de nodos la isla adquiere valor por sí misma
-y se pueden establecer enlaces punto a punto o esperar a que la expansión la una al resto de la red.
-
-La zona se caracteriza por una alta densidad de población
-con predominio de los edificios multi-viviendas.
-No es viable considerar una implantación masiva sin considerar instalaciones comunitarias.
-
-Hay una carencia de empresas que se dediquen a instalar guifi.net en la zona
-con la notable excepción de las empresas que instalan en Torrelles de Llobregat.
+Se deja la puerta abierta a empezar islas de nodos en otros núcleos urbanos
+que habría que considerar.
 
 
 ### Público objetivo
