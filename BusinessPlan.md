@@ -71,9 +71,11 @@ intentando abandonar a las grandes empresas que acaparan los mercados a modo de 
 
 Por otro lado, la telefonía fija y el acceso a Internet en España es muy poco competitiva, 
 con bajas velocidades, altos precios y una atención a cliente muy deficiente.
-Año tras año copan, junto las empresas de telefonía móvil, la mayoría de reclamaciones de consumo. 
+Las empresas de telecomunicaciones copan, año tras año,
+la mayoría de reclamaciones de consumo,
+junto a las eléctricas y los bancos,
 
-Una posible alternativa a esta situación es Guifi.net.
+Una posible alternativa a esta situación en el sector es Guifi.net.
 Guifi.net es una red pública basada en una licencia de conexión libre y viral.
 TODO: Como se llama la licencia de guifi.net
 Cuando un usuario monta un nuevo nodo,
@@ -212,22 +214,58 @@ Hay una carencia de empresas que se dediquen a instalar guifi.net en la zona
 con la notable excepción de las empresas que instalan en Torrelles de Llobregat.
 
 
+### Público objetivo
 
-## Contexto y motivación
+Los clientes naturales de la cooperativa serán comunidades de vecinos.
+Es interesante que varios vecinos de la comunidad estén interesados
+para que puedan compartir gastos de la instalación
+y se pueda dejar algún acceso a Internet.
+
+También son clientes potenciales 
+si solo hay un vecino interesado en la comunidad 
+o si se trata de una vivienda unifamiliar,
+no es tan prioritario para nosotros puesto que es más difícil
+compensar ADSL's que soporten ese tipo de usuarios.
 
 
-## Promotores
+### Perfiles de consumidor/cliente
+
+
+---- Vamos por aqui
 
 
 
-## Otros jugadores del mercado
+
+
+En este proyecto, el cliente será la comunidad de vecinos interesados en este proyecto, pero los consumidores serán todos los usuarios que comparten la red. Así pues, las facturaciones ser realizarán a comunidades de vecinos pero las incidencias y dudas vendrán de cada unos de los usuarios finales.
+
+A grandes rasgos, los usuarios finales se pueden dividir en 2 grupos:
+Usuarios concienciados de que existe modelos de consumos alternativos a las grandes empresas y quieren desligarses a estos monopolios. Por lo general son personas abiertas a nuevos modelos económicos  donde prima más los valores de compartir y de solidaridad que cuestiones puramente económicas.
+Usuarios que quieren compartir gastos y reducir costes en sus conexiones de Internet y de telefonía fija. Por lo general son personas que verán en el precio el principal atractivo de la propuesta, interesándoles bien poco el acabar con monopolios ni compartir recursos con el resto de usuarios. Si consideran que el precio no es atractivo o creen que verán reducidas sus velocidades de conexión podrían desligarse facilmente del proyecto.
+
+
+
+Situació del mercat
+
+En un momento en que los valores individuales priman sobre la solidaridad entre las personas propuestas como las de GuifiBaix no van a obtener frutos a corto plazo.
+
+Por otro lado, las pocas iniciativas parecidas no tienen gran desarrollo y se limitan a lugares muy concretos, municipios o barrios de la zona metropolitana de Barcelona.
+
+Una labor de concienciación y de posicionamiento como alternativa real a las grandes empresas que monopolizan el sector es clave para extender este modelo. En determinadas áreas de Catalunya, como la plana de Vic, iniciativas como estas son bien aceptadas por la sociedad y funcionan con éxito.
+
+
+
+
+
+
+### Otros jugadores del mercado
 
 * Hay tres tipos de jugadores ante los cuales nuestra actitud sera diferente:
 	* Grandes telecos (Substitución)
 	* Otras redes alternatives (Interconnexión)
 	* Otros instaladores de guifi.net (Colaboración)
 
-### Redes alternativas y instaladores de guifi.net existentes
+#### Redes alternativas y instaladores de guifi.net existentes
 
 * Hay un [directorio de instaladores](https://guifi.net/ca/directori), no muy completo ni actualizado
 * Las de Vic son las que tienen mas experiencia
@@ -245,14 +283,15 @@ con la notable excepción de las empresas que instalan en Torrelles de Llobregat
 	* [Sunsioneta](http://www.sunsioneta.es/guifinet.php) (Alacant)
 	* [inode64](http://www.inode64.com/info/instalador-guifi-net) (Castelló)
 
-### Analisis
+#### Analisis
 
 * Compañias establecidas
 	* Bulo de que es ilegal compartir conexión
 	* Pueden bajar la calidad en las lineas ADSL que aún usemos
-	* Pueden augmentar la calidad de su servicio o bajar precios
-		* En sí, seria una
-	* Focalitzar en la part ètica
+	* Pueden aumentar la calidad de su servicio o bajar precios
+		* En sí, seria una cosa buena!
+		* Sería solo circunstancial hasta que acabaran con nosotros
+	* Focalizar en la parte ética
 * Otras posibles empresas que ofrezcan guifi.net
 	* Promover una actitud cooperativa
 	* Contra más nodos, mejor para todos
@@ -301,7 +340,7 @@ con la notable excepción de las empresas que instalan en Torrelles de Llobregat
 
 
 
-## Incertidumbres
+# Incertidumbres
 
 * Red edificios
 	* Como usar las dos ethernets de las antenas
