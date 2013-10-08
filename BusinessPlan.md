@@ -101,7 +101,8 @@ Esto limita su extensión y mantenimiento de la red afectando a la calidad de se
 Estos problemas se minimizan en zonas
 en las que se ha profesionalizado la instalación y el mantenimiento.
 No es el caso del municipio de Sant Joan Despí y alrededores.
-Guifibaix vendría a cubrir esta TODO.
+Guifibaix vendría a cubrir esta carencia.
+
 
 ## Los promotores
 
@@ -115,11 +116,11 @@ La cooperativa estará formada por profesionales especializados en distintos cam
 
 ### David García Garzón
 
-* Profesor del Departamento de Tecnologia de la Universidad Pompeu Fabra
-* Master en Tecnologias de la Información y la Comunicacion y los Medios Audiovisuales por la Universidad Pompeu Fabra.
-* Ingeniero Informatico por la Universidad Ramon Llull.
-* Miembro del 15M de Sant Joan Despí y responsable de la campaña DesconexionIBEX35
+* Profesor del Departamento de Tecnología de la Universidad Pompeu Fabra
+* Máster en Tecnologías de la Información, la Comunicación y los Medios Audiovisuales por la Universidad Pompeu Fabra.
+* Ingeniero Informático por la Universidad Ramón Llull.
 * Activista y desarrollador de software libre.
+* Miembro del 15M de Sant Joan Despí y responsable de la campaña DesconexionIBEX35
 
 ### Aitor 
 
@@ -174,66 +175,43 @@ Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 
 ## Mercado
 
+### Ámbito geográfico
 
-Àmbit geogràfic
-En la zona del Baix Llobregat y l’Hospitalet. Es una zona de alta densidad, con una comunidad de usuarios cada vez más concienciado y pocas empresas especializadas en la instalación de estas redes locales.
+El ámbito geográfico es la zona centro y centro-sur de la comarca del Baix Llobregat,
+en el entorno local de los socios que son de Sant Joan Despí y el Prat de Llobregat.
+Básicamente porque el desarrollo local es uno de los valores de los que que se quiere hacer bandera.
+Pero también existen razones, o más bien, limitaciones de tipo tecnológicas
+que determinan la expansión geográfica de la oferta.
 
-  
-Públic objectiu
+Los nodos con tecnología qMp, que es la que se está instalando,
+tienen que tener visión directa con al menos otro nodo existente
+y no pueden estar tampoco muy lejos uno de otro,
+necesitando enlaces punto a punto mas caros para conectarse cuando están lejos.
 
-Comunidades donde existan varios usuarios interesados en compartir sus accesos a internet, compartiendo gastos y reduciendo costes.
+Los nodos qMp existentes actualmente están en Sant Joan Despí,
+por eso, sobretodo al principio, el objetivo será densificar la zona
+y expandirnos progresivamente a los municipios colindantes:
+Cornellá, 
+Sant Boi de Llobregat, 
+Sant Feliu de llobregat,
+Sant Just Desvern,
+Esplugues
+o Santa Coloma de Cervelló.
 
+Esto no implica rechazar clientes de zonas algo más alejadas de Sant Joan Despí o sin visión directa.
+Se puede plantea empezar a hacer islas de nodos que funcionen de forma autónoma,
+como se va a hacer en el caso del Prat de Llobregat.
+A partir de un cierto número de nodos la isla adquiere valor por sí misma
+y se pueden establecer enlaces punto a punto o esperar a que la expansión la una al resto de la red.
 
+La zona se caracteriza por una alta densidad de población
+con predominio de los edificios multi-viviendas.
+No es viable considerar una implantación masiva sin considerar instalaciones comunitarias.
 
-
-
-
-* Venimos de los movimientos sociales de Sant Joan Despí y su comarca
-	* 15M Sant Joan Despí
-	* AAVV del Eixample
-	* Gats
-	* ...
-* La idea surge de la campaña Desconexion del IBEX-35 del 15M de Sant Joan Despí
-	* Tiene como objetivo el empoderamiento ciudadano facilitando alternativas que permitan
-	  desconectarnos de las grandes compañías que controlan la política del país.
-* En concreto, esta iniciativa se dirige al mercado de las telecomunicaciones fijas.
-	* Promoviendo una solución de economia social y local como alternativa a los oligopolios actuales.
-* Los promotores de la idea son:
-	* David García Garzón
-		* Profesor del Departamento de Tecnologia de la Universidad Pompeu Fabra
-		* Master en Tecnologias de la Información y la Comunicacion y los Medios Audiovisuales por la Universidad Pompeu Fabra.
-		* Ingeniero Informatico por la Universidad Ramon Llull.
-		* Miembro del 15M de Sant Joan Despí y responsable de la campaña DesconexionIBEX35
-		* Activista y desarrollador de software libre.
-	* Aitor
-	* Victor Viudez
-	* Josep Maria Segura
-	* Jordi Ossó
-	* ...
-
+Hay una carencia de empresas que se dediquen a instalar guifi.net en la zona
+con la notable excepción de las empresas que instalan en Torrelles de Llobregat.
 
 
-
-
-
-
-
-Los clientes naturales de la cooperativa serán comunidades de vecinos de Sant Joan Despí,
-concretamente a los del Barri Centre y Eixample, pero con previsión de extendernos
-a los otros barrios y a pueblos cercanos según exista conectividad.
-
-Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
-
-* Instalar la antena Guifi.net en el terrado del edificio para hacer red con otros edificios
-* Hacer llegar la red a los diferentes vecinos del edificio que esten interesados mediante conexión cableada o Wi-Fi
-* Facilitar el paso a telefonía IP, ofreciendo terminales y conversores y tarifas de portabilidad con terceras empresas
-* Opcionalmente, configurar una puerta local a internet (ADSL o Fibra) que pague la comunidad (por ejemplo en la linea del ascensor)
-* Opcionalmente, ofrecer alternativas de conectividad a internet fuera del edificio mediante la red Guifi.net
-* Dar soporte y servicio técnico para la infraestructura de red
-* Mantener una serie de servicios locales disponible dentro de Guifi.net
-	* Almacenamiento, compartición y respaldo de ficheros
-	* Correo, web
-	* Emisión de radio y televisión online
 
 ## Contexto y motivación
 
