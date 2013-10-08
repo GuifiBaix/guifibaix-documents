@@ -2,6 +2,52 @@
 
 # Plan de negocio
 
+## Misión
+
+TODO: Plantearse donde meter esto
+
+El presente plan de negocio es el de una empresa de economía social
+con un conjunto de valores y con unos objetivos que
+no persiguen la rentabilidad a cualquier precio,
+más allá de la propia viabilidad económica del proyecto,
+sinó un beneficio para la sociedad
+
+Entre los objetivos sociales cabe destacar los siguientes:
+
+- Proporcionar a la ciudadanía una alternativa factible al oligopolio existente en el sector de las telecomunicaciones fijas.
+- Abaratar los costes de acceso a las tecnologías de la información para universalizarlas.
+- Desarrollar la economía local, habilitando vías de empleo en sectores actualmente en recesión como el de la construcción.
+
+TODO: Se puede o conviene especificar más lo de construcción?
+
+Al mismo tiempo, la iniciativa está ligada a unos valores éticos
+que se compromete a mantener:
+
+- Empleo de calidad
+	- Usando fórmulas cooperativas para el control del entorno de trabajo por parte de los trabajadores
+	- Facilitando el crecimiento profesional de los mismos
+	- No haciendo subcontratas, out-sourcing que precaricen el trabajo o creen intermediarios extractivos
+- Trato justo a los usuarios
+	- No haciéndolos dependientes de nuestra empresa
+	- Cobrando lo mínimo que sea necesario para hacer viable el proyecto
+	- Haciéndoles partícipes de la evolución de la red
+	- Promocionando su formación y su auto-organización para que puedan tomar decisiones sobre los servicios
+	- Reinvirtiendo en la mejora del servicio los beneficios que no vayan a una mejora equitativa de las condiciones laborales
+- Conocimiento abierto
+	- Usando, generando y difundiendo software, cultura y hardware libre
+	- Adhiriendo-se a los estándares abiertos
+	- No usando patentes para constreñir el desarrollo tecnológico de otras partes
+- Cooperación 
+	- Facilitando la interconexión de sistemas
+	- Difundiendo experiencias para que otras empresas pueden replicar el modelo
+- Minimización del impacto ecológico y social negativo
+	- Re-comprando aparatos en desuso
+	- Minimizando el consumo de nuestras instalaciones
+	- Tratando los residuos adecuadamente
+
+TODO: Dejar aquí los puntos generales y detallar más adelante
+
+
 ## Actividad
 
 La actividad de la cooperativa consiste en
