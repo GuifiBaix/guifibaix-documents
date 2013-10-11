@@ -202,10 +202,10 @@ también existen limitaciones de tipo tecnológicas
 que determinan la expansión geográfica de la oferta.
 
 Las antenas que instalamos requieren una visión directa a distancia limitada entre ellas.
-Por eso, tiene sentido empezar con islas de unos pocos nodos en un nucleo urbanos
+Por eso, tiene sentido empezar con islas de unos pocos nodos en un núcleo urbano dado
 para después densificar la red al mismo tiempo que se expande a las conurbaciones.
 Para conectar nodos distantes que salven zonas interurbanas,
-se usan enlaces punto a punto que son más caros.
+se usan enlaces punto a punto que son más caros que las antenas que solemos poner.
 
 Concretamente, se plantean dos centros de expansión,
 uno en El Prat que está en fase de estudio
@@ -225,24 +225,62 @@ que habría que considerar.
 
 ### Público objetivo
 
-Los clientes naturales de la cooperativa serán comunidades de vecinos.
+Los clientes naturales de la cooperativa serán las comunidades de vecinos.
 Es interesante que varios vecinos de la comunidad estén interesados
 para que puedan compartir gastos de la instalación
 y se pueda dejar algún acceso a Internet.
 
-También son clientes potenciales 
-si solo hay un vecino interesado en la comunidad 
-o si se trata de una vivienda unifamiliar,
-no es tan prioritario para nosotros puesto que es más difícil
-compensar ADSL's que soporten ese tipo de usuarios.
+Aún así, también consideraremos los casos en los que
+solo haya un vecino interesado en una comunidad 
+o si se trata de una vivienda unifamiliar.
+No es tan prioritario para nosotros
+puesto que el tráfico que generan lo absorbe íntegramente la red.
 
 
 ### Perfiles de consumidor/cliente
 
 
+- Respecto la motivación
+	- Económica
+	- Ética, activista
+	- Despecho, hartura
+	- De calidad de conexión
+- Respecto a la cultura digital
+	- Ninguna
+	- Básica
+	- Usuarios
+	- Técnicos
+- Respecto al tipo de edificio
+	- Vivienda unifamiliar
+	- Adosados (muchas casas unifamiliares pero con espacios comunes)
+	- Mini bloque (un vecino por rellano)
+	- Bloque
+	- Multi-bloque
+- Respecto al régimen de propiedad
+	- Propiedad
+	- Alquiler
+	- ADSA
+- Respecto al contrato actual
+	- Bono social
+	- Línea bàsica 21€
+	- Negociadores 30€
+	- Cambiadores 42€
+	- Fusionados 50€
+	- Llamadas incluidas
+	- Otros 140€
+- Respecto los usos especiales
+	- Películas en streaming (flujo continuo)
+	- Programas P2P (muchas conexiones simultáneas)
+	- Juegos en linea a tiempo real (bajas latencias)
+- Respecto a su dependencia del oligopolio
+	- Permanencia
+	- Tele-asistencia
+	- Contrato con móvil incluido
+	- Imagenio
+	- Ofertas especiales
+
+
 ---- Vamos por aqui
-
-
 
 
 
