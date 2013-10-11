@@ -1,23 +1,4 @@
 ﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style>
-<!--
-    body {
-        counter-reset: h2counter;
-    }
-    h1 {
-        counter-reset: h2counter;
-    }
-    h2:before {
-        content: counter(h2counter) ".\0000a0\0000a0";
-        counter-increment: h2counter;
-        counter-reset: h3counter;
-    }
-    h3:before {
-        content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
-        counter-increment: h3counter;
-    }
--->
-</style>
 
 # Plan de negocio
 
@@ -132,7 +113,7 @@ La cooperativa estará formada por profesionales especializados en distintos cam
 
 # Plan de marketing
 
-## Servicio
+## Producto/Servicio
  
 ### Descripción del producto/servicio
 
@@ -140,9 +121,7 @@ El producto y servicio consiste en
 la instalación y configuración, en edificios, de los dispositivos
 que permitirá a los vecinos tener teléfono y Internet,
 así como el mantenimiento de esta red.
-
-Junto a esto, se ofrecerán otros servicios de valor añadido sobre 
-
+Junto a esto, se ofrecerán otros servicios de valor añadido dentro de la red.
 
 Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 
@@ -258,6 +237,7 @@ puesto que el tráfico que generan lo absorbe íntegramente la red.
 
 ### Perfiles de consumidor/cliente
 
+Podemos caracterizar a los posibles clientes por diferentes aspectos que se enumeran a continuación:
 
 - Respecto la motivación
 	- Económica
@@ -275,6 +255,7 @@ puesto que el tráfico que generan lo absorbe íntegramente la red.
 	- Mini bloque (un vecino por rellano)
 	- Bloque
 	- Multi-bloque
+- Respecto la existencia o no de teléfono comunitario (ascensor)
 - Respecto al régimen de propiedad
 	- Propiedad
 	- Alquiler
@@ -284,7 +265,8 @@ puesto que el tráfico que generan lo absorbe íntegramente la red.
 	- Línea bàsica 21€
 	- Negociadores 30€
 	- Cambiadores 42€
-	- Fusionados 50€
+	- No cambiadores 50€
+	- Fusionados 60€
 	- Llamadas incluidas
 	- Otros 140€
 - Respecto los usos especiales
@@ -292,40 +274,23 @@ puesto que el tráfico que generan lo absorbe íntegramente la red.
 	- Programas P2P (muchas conexiones simultáneas)
 	- Juegos en linea a tiempo real (bajas latencias)
 - Respecto a su dependencia del oligopolio
-	- Permanencia
 	- Tele-asistencia
-	- Contrato con móvil incluido
+	- Permanencia
 	- Imagenio
+	- Contrato con móvil incluido
 	- Ofertas especiales
 
 
----- Vamos por aqui
+### Situación del mercado
 
+Nuestro producto es un producto sustitutivo
+con prácticamente nula introducción en el mercado objetivo.
+El volumen de mercado potencial es todo el volumen del producto substituido
+es decir toda la población que use, o quiera usar, telecomunicaciones fijas.
+El inconveniente es que, al ser un producto nuevo en la zona,
+puede suscitar desconfianza hasta que esté más implantado.
 
-
-En este proyecto, el cliente será la comunidad de vecinos interesados en este proyecto, pero los consumidores serán todos los usuarios que comparten la red. Así pues, las facturaciones ser realizarán a comunidades de vecinos pero las incidencias y dudas vendrán de cada unos de los usuarios finales.
-
-A grandes rasgos, los usuarios finales se pueden dividir en 2 grupos:
-Usuarios concienciados de que existe modelos de consumos alternativos a las grandes empresas
-y quieren desligarses a estos monopolios. 
-Por lo general son personas abiertas a nuevos modelos económicos  
-donde prima más los valores de compartir y de solidaridad que cuestiones puramente económicas.
-Usuarios que quieren compartir gastos y reducir costes en sus conexiones de Internet y de telefonía fija. Por lo general son personas que verán en el precio el principal atractivo de la propuesta, interesándoles bien poco el acabar con monopolios ni compartir recursos con el resto de usuarios. Si consideran que el precio no es atractivo o creen que verán reducidas sus velocidades de conexión podrían desligarse facilmente del proyecto.
-
-
-
-Situació del mercat
-
-En un momento en que los valores individuales priman sobre la solidaridad entre las personas propuestas como las de GuifiBaix no van a obtener frutos a corto plazo.
-
-Por otro lado, las pocas iniciativas parecidas no tienen gran desarrollo y se limitan a lugares muy concretos, municipios o barrios de la zona metropolitana de Barcelona.
-
-Una labor de concienciación y de posicionamiento como alternativa real a las grandes empresas que monopolizan el sector es clave para extender este modelo. En determinadas áreas de Catalunya, como la plana de Vic, iniciativas como estas son bien aceptadas por la sociedad y funcionan con éxito.
-
-
-
-
-
+TODO: Como atajarlo?
 
 ### Otros jugadores del mercado
 
@@ -334,10 +299,11 @@ Una labor de concienciación y de posicionamiento como alternativa real a las gr
 	* Otras redes alternatives (Interconnexión)
 	* Otros instaladores de guifi.net (Colaboración)
 
+
 #### Redes alternativas y instaladores de guifi.net existentes
 
 * Hay un [directorio de instaladores](https://guifi.net/ca/directori), no muy completo ni actualizado
-* Las de Vic son las que tienen mas experiencia
+* Las de Vic son las que tienen más experiencia
 	* [SIM Informatica](http://www.sim-informatica.com/) (Vic)
 	* [Setup informàtica](http://www.setup.cat/) (Vic)
 * Tenemos algunos instaladores cerca:
@@ -346,13 +312,13 @@ Una labor de concienciación y de posicionamiento como alternativa real a las gr
 * Otras iniciativas colaborativas interesantes:
 	* [Marsupi.org](http://marsupi.org/) (ONG, con autónomos trabajando, en Cataluña, mobilidad por todo el estado)
 	* [delanIT](http://delanit.net/)
-	* [rLan](http://www.rlan.biz/spain/) (Barcelona ciutat, en expansió)
+	* [rLan](http://www.rlan.biz/spain/) (Barcelona ciutat, fibra óptica pública, en expansió)
 	* [Xarxa SenseFils Cooperativa](http://xsf-coop.net/) (Barcelona ciutat)
 * Mas empresas en el resto del estado:
 	* [Sunsioneta](http://www.sunsioneta.es/guifinet.php) (Alacant)
 	* [inode64](http://www.inode64.com/info/instalador-guifi-net) (Castelló)
 
-#### Analisis
+#### Análisis del mercado
 
 * Compañias establecidas
 	* Bulo de que es ilegal compartir conexión
@@ -386,16 +352,18 @@ Una labor de concienciación y de posicionamiento como alternativa real a las gr
 	* Nos ofrecemos como red de acceso a clientes potenciales para ellos
 	* Si tienen puertas a internet, negociar tarifas de puertas de acceso
 
+	
 * Riesgos y contra-medidas:
 	* Que las telefonicas empiecen a hacer campaña de FUD contra nosotros
 		* Hacer charlas informativas para desmontar esos bulos
 		* Aparecer en medios contrastando informaciones
 		* Asociarse con entidades que den respetabilidad (AAVV, Gats...)
 		* Promover el boca a boca desde la gente que ya lo usa
-	* Que las telefónicas emprendan acciones legales contra nosotros
-		* Revisar mejor la legalidad compartir el caudal ADSL
-		* Revisar la Fundación Guifi.net basta basta y en que punto tenemos que registrarnos como operadores.
-		* Revisar hasta que punto podemos criticar las operadoras en nuestra publicidad sin recibir demandas.
+	* Aunque no haya base para ello, una empresa grande puede acabar con otra pequeña metiéndola en un proceso legal.
+		* Asegurar nuestros puntos debiles legales
+			* Revisar mejor la legalidad compartir el caudal ADSL
+			* Revisar que con la Fundación Guifi.net basta y en que punto tenemos que registrarnos como operadores.
+			* Revisar hasta que punto podemos criticar las operadoras en nuestra publicidad sin recibir demandas.
 	* Nuestros equipos estan en casa de los usuarios, el acceso físico a los equipos puede ser un handicap.
 	* Accidentes laborales durante la instalación
 		* Minimizar riesgos
@@ -406,15 +374,30 @@ Una labor de concienciación y de posicionamiento como alternativa real a las gr
 	* La densidad de antenas puede tener un límite o simplemente degenerar
 		* Investigar que límites son esos
 	* Interferencias externas
+	* Que con un ADSL por cada cinco vecinos no sea suficiente
+		* La solución seria accelerar las alternativas para salir a Internet
+			* ADSL's propios
+			* Salidas de fibra óptica minorista
+			* Salidas de fibra óptica mayorista
+
+	* Impagos en cuotas
+		* Antes de tomar medidas, intentar la mediación
+		* Si es un vecino puntual que no paga a la comunidad, la comunidad nos puede pedir deshabilitar al usuario.
+			* Para hacer esto, se requiere introducir un sistema de registro de direcciones MAC por vecino.
+		* Si es la comunidad la que deja de pagar, deshabilitamos el uso de los otros ADSLs para esa antena.
+	* Impagos en instalaciones
+		* Si la antena esta instalada bloquearla como en el caso de impago de cuota
+		* Tanto por ciento por aceptar presupuesto, se comprometen a seguir adelante
+		* Tanto por cierto al empezar la obra de instalación, garantizamos cubrir costes de materiales
+		* Resto al finalizar la instalación
+		* TODO: Decidir portentajes
+		* Fondo de reserva inicial que cubra 3 instalaciones impagadas
+		* En el momento que tengamos 2 impagos, asegurarnos los pagos de las nuevas instalaciones.
+
 
 
 # Incertidumbres
 
-* Red edificios
-	* Como usar las dos ethernets de las antenas
-	* Compartir ADSL con una de esas ethernets
-	* Como compartir mas de un ADSL en un edificio
-	* Que control tenemos o queremos tener del trafico
 * Presupuestos
 	* Buscar precios de:
 		* Antenas
@@ -449,6 +432,12 @@ Una labor de concienciación y de posicionamiento como alternativa real a las gr
 	* Emision de radio/television
 	* ...
 
+
+	
+
+
+
+
 ## Valores
 
 - Empleo de calidad
@@ -472,6 +461,30 @@ Una labor de concienciación y de posicionamiento como alternativa real a las gr
 	- Re-comprando aparatos en desuso
 	- Minimizando el consumo de nuestras instalaciones
 	- Tratando los residuos adecuadamente
+
+### Forma Jurídica
+
+Para realizar la actividad se constituirá una cooperativa de iniciativa social sin ánimo de lucro.
+
+Las cooperativas son un modelo de empresa sostenible, comprometida y basada en principios y valores.
+Porque son empresas propiedad de los asociados y que se gestionan de manera democrática.
+Porque las cooperativas se ayudan entre ellas para crecer y cuentan estructuras de soporte propias.
+Porque es un modelo de crecimiento que conjuga democracia, eficiencia y responsabilidad social con éxito empresarial.
+
+Los asociados estaremos en el régimen general de la Seguridad Social un mínimo de 5 años. Pasado este tiempo, podemos replantearnos la forma más adecuada de continuar.
+
+Capital social: 3000€
+Registro del nombre: 13€
+Registro del notario: 270€
+
+
+
+504 Instalaciones y montajes
+5041 Instalaciones eléctricas en general. Instalación de redes telegráficas, telefónicas, telefonía sin hilos y televisión. Instalaciones de
+sistemas de balización de puertos y aeropuertos
+
+Régimen general de la seguridad social.
+
 
 
 
