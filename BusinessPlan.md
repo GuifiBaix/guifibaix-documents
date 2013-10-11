@@ -4,8 +4,6 @@
 
 ## Misión
 
-TODO: Plantearse donde meter esto
-
 El presente plan de negocio es el de una empresa de economía social
 con un conjunto de valores y con unos objetivos que
 no persiguen la rentabilidad a cualquier precio,
@@ -14,39 +12,19 @@ sinó un beneficio para la sociedad
 
 Entre los objetivos sociales cabe destacar los siguientes:
 
-- Proporcionar a la ciudadanía una alternativa factible al oligopolio existente en el sector de las telecomunicaciones fijas.
-- Abaratar los costes de acceso a las tecnologías de la información para universalizarlas.
+- Proporcionar a la ciudadanía una alternativa eficaz al oligopolio existente en el sector de las telecomunicaciones fijas.
+- Abaratar los costes de acceso a las tecnologías de la información para universalizarlo.
 - Desarrollar la economía local, habilitando vías de empleo en sectores actualmente en recesión como el de la construcción.
 
 TODO: Se puede o conviene especificar más lo de construcción?
 
 Al mismo tiempo, la iniciativa está ligada a unos valores éticos
-que se compromete a mantener:
-
-- Empleo de calidad
-	- Usando fórmulas cooperativas para el control del entorno de trabajo por parte de los trabajadores
-	- Facilitando el crecimiento profesional de los mismos
-	- No haciendo subcontratas, out-sourcing que precaricen el trabajo o creen intermediarios extractivos
-- Trato justo a los usuarios
-	- No haciéndolos dependientes de nuestra empresa
-	- Cobrando lo mínimo que sea necesario para hacer viable el proyecto
-	- Haciéndoles partícipes de la evolución de la red
-	- Promocionando su formación y su auto-organización para que puedan tomar decisiones sobre los servicios
-	- Reinvirtiendo en la mejora del servicio los beneficios que no vayan a una mejora equitativa de las condiciones laborales
-- Conocimiento abierto
-	- Usando, generando y difundiendo software, cultura y hardware libre
-	- Adhiriendo-se a los estándares abiertos
-	- No usando patentes para constreñir el desarrollo tecnológico de otras partes
-- Cooperación 
-	- Facilitando la interconexión de sistemas
-	- Difundiendo experiencias para que otras empresas pueden replicar el modelo
-- Minimización del impacto medioambiental y social negativo
-	- Re-comprando aparatos en desuso
-	- Minimizando el consumo de nuestras instalaciones
-	- Tratando los residuos adecuadamente
-
-TODO: Dejar aquí los puntos generales y detallar más adelante
-
+que se compromete a mantener.
+Empleo de calidad,
+trato justo a los usuarios,
+conocimiento abierto,
+cooperación con otras fuerzas de la economía social,
+y minimización del impacto medioambiental y social negativo.
 
 ## Actividad
 
@@ -76,25 +54,25 @@ la mayoría de reclamaciones de consumo,
 junto a las eléctricas y los bancos,
 
 Una posible alternativa a esta situación en el sector es Guifi.net.
-Guifi.net es una red pública basada en una licencia de conexión libre y viral.
-TODO: Como se llama la licencia de guifi.net
+Guifi.net es una red pública basada en el *Procomún de la red libre y abierta*,
+una licencia de conexión libre y viral.
 Cuando un usuario monta un nuevo nodo,
 si lo quiere conectar a guifi.net,
-la licencia le condiciona a permitir que otros nodos se conecten al suyo.
+la licencia le condiciona a permitir que datos de otros nodos transiten libremente por suyo.
 
 La red en sí, no da conectividad a Internet,
 pero dicha conectividad es ofrecida como servicio por algunos nodos que la forman.
 Guifi.net ha crecido rápidamente en todo el estado español
 sobretodo en Cataluña y en Valencia,
 involucrando a asociaciones y empresas locales
-en la construccion y mantenimiento de esta red.
+en la construcción y mantenimiento de esta red.
 
-Toda la red esta bajo el paraguas de la Fundacion Guifi.net
+Toda la red esta bajo el paraguas de la Fundación Guifi.net
 que está registrada como operador de telecomunicaciones en la CNMT.
 La mayoría de nodos se conectan mediante enlaces WiFi,
 pero, por ejemplo,
 en Osona, la comarca catalana donde empezó la red,
-ya hay empresas que estan tirando cable de fibra óptica
+ya hay empresas que están tirando cable de fibra óptica
 financiado con aportaciones voluntarias de los mismos usuarios.
 
 No todos los usuarios interesados en este modelo de conexión
@@ -103,7 +81,7 @@ Esto limita su extensión y mantenimiento de la red afectando a la calidad de se
 Estos problemas se minimizan en zonas
 en las que se ha profesionalizado la instalación y el mantenimiento.
 No es el caso del municipio de Sant Joan Despí y alrededores.
-Guifibaix vendría a cubrir esta carencia.
+Guifibaix vendría a cubrir dicha carencia.
 
 
 ## Los promotores
@@ -140,7 +118,7 @@ La cooperativa estará formada por profesionales especializados en distintos cam
 ### Descripción del producto/servicio
 
 El producto y servicio consiste en
-la instalación y configuración en edificios de los dispositivos
+la instalación y configuración, en edificios, de los dispositivos
 que permitirá a los vecinos tener teléfono y Internet,
 así como el mantenimiento de esta red.
 
@@ -152,10 +130,10 @@ Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 * Instalar la antena Guifi.net en el terrado del edificio para hacer red con otros edificios
 * Hacer llegar la red a los diferentes vecinos del edificio que estén interesados mediante conexión cableada o Wi-Fi
 * Facilitar el paso a telefonía IP, ofreciendo terminales y conversores preconfigurados y tarifas de portabilidad con terceras empresas
-* Opcionalmente, configurar una puerta local a internet (ADSL o Fibra) que pague la comunidad (por ejemplo en la linea del ascensor)
+* Opcionalmente, configurar una puerta local a internet (ADSL o Fibra) que pague la comunidad (por ejemplo, en la linea del ascensor) o que acuerde ceder un vecino.
 * Opcionalmente, ofrecer alternativas de conectividad a internet fuera del edificio mediante la red Guifi.net
 * Dar soporte y servicio técnico para la infraestructura de red
-* Mantener una serie de servicios internos disponible dentro de Guifi.net
+* Ofrecer una serie de servicios internos disponible dentro de Guifi.net
 	* Almacenamiento, compartición y respaldo de ficheros
 	* Correo, web
 	* Emisión de radio y televisión on-line
@@ -167,9 +145,39 @@ Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 
 ### Aspectos diferenciales
 
-- Ofrecemos una alternativa de consumo ética y fuera de oligopolios
+El principal aspecto diferencial es el ético.
+Ofrecemos una alternativa de consumo local, ética y fuera de oligopolios.
+
+Nos caracterizamos por un trato justo a los usuarios.
+No los atamos. La red es de ellos.
+Nosotros sólo le simplificamos el tenerla y,
+si en cualquier momento consideran que no lo hacemos como debemos,
+tienen la libertad de escoger otra empresa que lo mantenga,
+encontrar a voluntarios que lo hagan,
+o incluso de volver al oligopolio.
+
+Los paquetes que ofrecemos son solo para simplificar la oferta.
+Si algún usuario no quiere algo del paquete, se le descuenta del precio.
+
+
 - Damos servicios internos de alta velocidad dentro de guifi.net
+	- Servicios 'en la nube' con acceso de alta velocidad desde dentro de guifi.net
+	- Servicio de P2P comunitario.
+- Aunque ofrecemos paquetes para simplificar la oferta, si un cliente no quiere algo del paquete, se lo descontamos del precio.
+- No atamos a los usuarios.
+- Generamos trabajo local de calidad:
+	- No deslocalizamos, ni hacemos "out-sourcing"
+	- Somos una cooperativa: Los trabajadores de la cooperativa tenemos control sobre la empresa
+	- Si subcontratamos, los trabajadores tienen las mismas condiciones económicas que los socios.
+	- Los beneficios
 - TODO: More!!!
+
+El otro aspecto diferencial es el precio.
+Aunque dicho aspecto diferencial es solo circunstancial
+y como tal es un aspecto en el cual no debemos de depender.
+Si, en un futuro, las empresas del oligopolio se ven obligadas
+a bajar precios, aunque sea temporalmente, desarmarían este aspecto.
+
 
 ### Servicios futuros
 
@@ -241,7 +249,10 @@ compensar ADSL's que soporten ese tipo de usuarios.
 En este proyecto, el cliente será la comunidad de vecinos interesados en este proyecto, pero los consumidores serán todos los usuarios que comparten la red. Así pues, las facturaciones ser realizarán a comunidades de vecinos pero las incidencias y dudas vendrán de cada unos de los usuarios finales.
 
 A grandes rasgos, los usuarios finales se pueden dividir en 2 grupos:
-Usuarios concienciados de que existe modelos de consumos alternativos a las grandes empresas y quieren desligarses a estos monopolios. Por lo general son personas abiertas a nuevos modelos económicos  donde prima más los valores de compartir y de solidaridad que cuestiones puramente económicas.
+Usuarios concienciados de que existe modelos de consumos alternativos a las grandes empresas
+y quieren desligarses a estos monopolios. 
+Por lo general son personas abiertas a nuevos modelos económicos  
+donde prima más los valores de compartir y de solidaridad que cuestiones puramente económicas.
 Usuarios que quieren compartir gastos y reducir costes en sus conexiones de Internet y de telefonía fija. Por lo general son personas que verán en el precio el principal atractivo de la propuesta, interesándoles bien poco el acabar con monopolios ni compartir recursos con el resto de usuarios. Si consideran que el precio no es atractivo o creen que verán reducidas sus velocidades de conexión podrían desligarse facilmente del proyecto.
 
 
@@ -340,7 +351,6 @@ Una labor de concienciación y de posicionamiento como alternativa real a las gr
 	* Interferencias externas
 
 
-
 # Incertidumbres
 
 * Red edificios
@@ -381,6 +391,30 @@ Una labor de concienciación y de posicionamiento como alternativa real a las gr
 	* Servicios de hosting (web, correo...)
 	* Emision de radio/television
 	* ...
+
+## Valores
+
+- Empleo de calidad
+	- Usando fórmulas cooperativas para el control del entorno de trabajo por parte de los trabajadores
+	- Facilitando el crecimiento profesional de los mismos
+	- No haciendo subcontratas, out-sourcing que precaricen el trabajo o creen intermediarios extractivos
+- Trato justo a los usuarios
+	- No haciéndolos dependientes de nuestra empresa
+	- Cobrando lo mínimo que sea necesario para hacer viable el proyecto
+	- Haciéndoles partícipes de la evolución de la red
+	- Promocionando su formación y su auto-organización para que puedan tomar decisiones sobre los servicios
+	- Reinvirtiendo en la mejora del servicio los beneficios que no vayan a una mejora equitativa de las condiciones laborales
+- Conocimiento abierto
+	- Usando, generando y difundiendo software, cultura y hardware libre
+	- Adhiriendo-se a los estándares abiertos
+	- No usando patentes para constreñir el desarrollo tecnológico de otras partes
+- Cooperación 
+	- Facilitando la interconexión de sistemas
+	- Difundiendo experiencias para que otras empresas pueden replicar el modelo
+- Minimización del impacto medioambiental y social negativo
+	- Re-comprando aparatos en desuso
+	- Minimizando el consumo de nuestras instalaciones
+	- Tratando los residuos adecuadamente
 
 
 
