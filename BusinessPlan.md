@@ -239,11 +239,10 @@ puesto que el tráfico que generan lo absorbe íntegramente la red.
 
 Podemos caracterizar a los posibles clientes por diferentes aspectos que se enumeran a continuación:
 
-- Respecto la motivación
-	- Económica
-	- Ética, activista
-	- Despecho, hartura
-	- De calidad de conexión
+- Respecto a las motivaciones
+	- Econòmica
+	- Social
+	- Despecho
 - Respecto a la cultura digital
 	- Ninguna
 	- Básica
@@ -280,17 +279,190 @@ Podemos caracterizar a los posibles clientes por diferentes aspectos que se enum
 	- Contrato con móvil incluido
 	- Ofertas especiales
 
+A continuación se detalla cada aspecto
+así como las implicaciones de cara a consideraciones como presentarles el producto.
+Estas consideraciones las tomamos de los primeros contactos que hemos tenido
+con posibles clientes en el periodo de incubación del proyecto.
+
+
+#### Respecto a la motivación de compra
+
+La motivación del posible cliente puede ser diversa.
+De hecho en un cliente pueden confluir varios motivos.
+
+La motivación más común que nos hemos encontrado es la económica.
+La relación calidad-precio de la banda ancha en España es bastante mala.
+GuifiBaix, aunque no garantiza un ancho de banda superior,
+al menos consigue precios inferiores.
+En el contexto de crisis actual es un factor de venta importante.
+
+Sin embargo basar la fuerza de ventas en el precio puede convertirse en un handicap
+puesto que el diferencial de precios de nuestro producto con el producto substituido
+es algo coyuntural que puede cambiar en el futuro.
+Los grandes margenes de beneficios de las grandes empresas son también margen para bajar los precios
+aunque sea puntualmente para deshacerse de las pequeñas.
+
+Por eso, nos interesa potenciar los usuarios con otras motivaciones.
+Principalmente las motivaciones éticas
+o las que tienen que ver con el hartazgo con los abusos que supone la situación actual de oligopolio.
+
+Los clientes con motivaciones éticas valorarán la diferente forma de hacer del proyecto:
+La relacion con los trabajadores, con el medio-ambiente y con la sociedad.
+Sobretodo lo que no hace que sí hacen las oligo-empresas:
+
+* el uso de paraisos fiscales,
+* el abuso de las puertas giratorias entre administración y puestos de dirección en la empresa,
+* la presión sobre las administraciones para legislar contra el usuario,
+* los grandes beneficios basados en unas cuotas que sobrepasan en mucho a los costes reales del servicio,
+* el fichaje a modo de rescate de personajes públicos de dudosa ética,
+* la sobre-incentivación a los altos ejecutivos,
+* la contratación off-shore,
+* la aplicación de ERE's en su plantilla,
+* ...
+
+Ante estas prácticas, GuifiBaix, puede poner en valor su modelo cooperativo,
+sus valores y su implicación en incentivar la economia local y social.
+
+También hay un grupo de clientes, que aunque no dan importancia al resto de cuestiones
+éticas que no les afectan tan directamente,
+sí que tienen cierto resentimiento por el trato recibido.
+Estos clientes valorarán el mejor trato que damos como empresa.
+Al tener un número reducido de clientes,
+estos no son simples números para nosotros.
+Somos sus vecinos.
+Es más, no los atamos.
+Han de saber que, si en algún momento no les tratamos como se merecen,
+los equipos son suyos y pueden escoger a otro proyecto empresarial o basado en el voluntariado
+para que lo mantengan y gestionen.
+
+
+#### Respecto a la cultura digital
+
+La relación que haya tenido el posible cliente con las tecnologías de la información
+es un aspecto importante, 
+tanto a la hora de presentarle el producto
+como en su grado de exigencia, 
+como a la hora de ofrecerle diferentes opciones.
+
+Los clientes potenciales que han tenido poco o ningún contacto con las TI,
+normalmente solo tienen el teléfono,
+o si tienen Internet, confían en algun amigo o familiar que les aconseje.
+En las prospecciones que se han hecho hemos encontrado que
+tienden a ser bastante sensibles a lo que otros,
+que considerán más expertos que ellos digan o insinúen.
+Una mala impresión inicial hace muy difícil cambiar el sentido de su opinión,
+incluso si su referente sí que la cambia.
+Conviene no insistir con este perfil, si se les nota demasiado reacios,
+pues la insistencia suele tener el efecto contrario del deseado.
+Conviene convencer primero a usuarios más familiarizados con el tema,
+a los que se pueda convencer con razones, y,
+en una sesión posterior invitar al resto de forma
+que vean que los más entendidos lo tienen claro.
+Una vez que el sistema esté funcionando bien,
+es posible que se quieran pasar también.
+
+Los usuarios con un nivel técnico elevado,
+también necesitan una atención especial.
+Por un lado, son referentes para el resto,
+por el otro, plantearan necesidades bastante específicas.
+
+#### Respecto a los usos
+
+También es importante considerar el uso que hacen estos usuarios de la red.
+Algunos usos implican optimizar la red de una manera o otra
+y algunos usos afectan a como se percibe la calidad del servicio recibido.
+
+Algunos usos que hay que tener en cuenta son los siguientes:
+
+-  **Visionado de películas en streaming:**
+   Requiere un ancho de banda amplio de forma mantenida.
+   No requiere bajas latencias.
+   Se perciben como mala calidad en el servicio 
+   un caudal insuficiente o interrupciones temporales del mismo.
+   Es posible que las antenas puedan aguantar este tipo de tráfico, pero,
+   los ADSL se pueden llenar si lo hacen varios usuarios simultaneamente.
+   Hay que 
+-  **Uso de redes P2P:**
+   Las redes P2P crean un número alto de conexiones simultàneas.
+   Esto puede saturar la memòria de los dispositivos intermedios
+   afectando a la calidad de servicio de todos los usuarios.
+   Por eso se ofrecerá a los usuarios servicios de descargas P2P comunitarias.
+-  **Juegos on-line en tiempo real:**
+   Este tipo de juegos no requiere un ancho de banda especialmente alto,
+   pero los usuarios son sensibles a los tiempos de respuesta altos.
+   A estos usuarios, no hay nada como dejarle medir los tiempos de respuesta.
+   Si no fueran aceptables, tienen la opción de ser esa vivienda la que mantenga un ADSL.
+
+   
+
+#### Respecto al tipo de edificación y comunidad
+
+Diferentes tipos de viviendas también requieren una diferente forma ofrecer el producto.
+Tanto en los equipos instalados como en la fórmula para compartir la conectividad.
+
+El espacio natural de venta de GuifiBaix son los **bloques de pisos** de 6 o más vecinos,
+donde es fácil conseguir 3 o 4 vecinos interesados.
+De esta forma alguno pueda compartir su ADSL
+y se les pueda aplicar el descuento en las cuotas y les sea viable.
+La antena se pondría en el terrado y se cablearía a los vecinos interesados.
+
+Pero, en los municipios en los que vamos a operar,
+hay bastante variedad en el tipo de edificación.
+
+Por un lado están las **casas unifamiliares** físicamente aisladas.
+En estas, no hace falta instalar equipos de distribución (switches),
+ni de aislamiento/seguridad entre vecinos (routers/cortafuegos).
+La antena ya hace de cortafuegos con el exterior.
+Los equipos instalados se reducen a la antena,
+los cables y los zócalos de conexión.
+La instalación interior puede ser equivalente 
+a la que se hace en el interior de una vivienda en un bloque de pisos.
+
+La otra diferencia es que no hay forma directa de compensar los ADSL's en grupo.
+No es problema si hay suficientes accesos a internet por la zona.
+Pero, si es una zona con mucha densidad de viviendas unifamiliares,
+hay que buscar soluciones alternativas.
+A menudo, las casas unifamiliares comparten zonas comunes.
+Se puede aprovechar este hecho para gestionar del mismo modo la conectividad compartida.
+
+En las comunidades grandes, en las que se incluyen varios bloques de pisos,
+igual que en una comunidad de múltiples casas unifamiliares,
+se pueden comunicar, para reducir costos, 
+una antena principal mayor en uno de los edificios
+con antenas mas baratas en el resto.
+
 
 ### Situación del mercado
 
-Nuestro producto es un producto sustitutivo
+
+Nuestro producto es un producto sustitutivo del ADSL,
 con prácticamente nula introducción en el mercado objetivo.
 El volumen de mercado potencial es todo el volumen del producto substituido
 es decir toda la población que use, o quiera usar, telecomunicaciones fijas.
 El inconveniente es que, al ser un producto nuevo en la zona,
-puede suscitar desconfianza hasta que esté más implantado.
+suscitará algo de desconfianza hasta que esté más implantado.
 
-TODO: Como atajarlo?
+Cabe decir que, si bien Internet fijo tiene una aceptación mayor,
+el uso de telefonía fija está en retroceso respecto a la móbil.
+Mucha gente la mantiene solo porque se necesita para el ADSL.
+El Internet móbil también està ganando aceptación pero
+los anchos de banda y los precios aún no son competitivos para un uso doméstico.
+
+Otro producto substituto del ADSL y de la telefonía fija convencional es la fibra óptica.
+En Sant Joan Despí, existe tendido de fibra en algunos puntos,
+pero no llega apenas a las zonas residenciales.
+Solo alcanza algunas pocas zonas industriales.
+Existe un doble anillo de fibra que cruza todo el pueblo
+para uso interno de las entidades municipales, pero
+no está disponible para el uso doméstico.
+
+Muchas calles que han sido reurbanizadas recientemente,
+apenas se ha dejado tubo corrugado para la linea de fibra municipal.
+Una implantación masiva de fibra óptica en el municipio implicaría
+hacer obra pública.
+Esto dificulta la aparición de este otro producto substituto,
+pero del mismo modo dificulta que GuifiBaix lo oferte más adelante cuando tenga capacidad para ello.
+
 
 ### Otros jugadores del mercado
 
