@@ -2,21 +2,17 @@
 
 # Plan de negocio
 
-## Misión
+## Objetivos y valores
 
 El presente plan de negocio es el de una empresa de economía social
-con un conjunto de valores y con unos objetivos que
-no persiguen la rentabilidad a cualquier precio,
-más allá de la propia viabilidad económica del proyecto,
-sinó un beneficio para la sociedad
+que no persiguen la rentabilidad a cualquier precio,
+sino simplemente la propia viabilidad económica del proyecto,
+en tanto ayude a aconseguir los objetivos sociales a los que se dirige,
+que son:
 
-Entre los objetivos sociales cabe destacar los siguientes:
-
-- Proporcionar a la ciudadanía una alternativa eficaz al oligopolio existente en el sector de las telecomunicaciones fijas.
+- Proporcionar a la ciudadanía una alternativa ética y eficaz al oligopolio existente en el sector de las telecomunicaciones fijas.
 - Abaratar los costes de acceso a las tecnologías de la información para universalizarlo.
 - Desarrollar la economía local, habilitando vías de empleo en sectores actualmente en recesión como el de la construcción.
-
-TODO: Se puede o conviene especificar más lo de construcción?
 
 Al mismo tiempo, la iniciativa está ligada a unos valores éticos
 que se compromete a mantener.
@@ -36,7 +32,7 @@ Para ello, se ofrecerá a las comunidades de vecinos soluciones a punto para con
 que incluyen
 el cableado del edificio,
 la configuración de los aparatos de red,
-el mantenimiento y la gestión de la red de la zona,
+el mantenimiento y la gestión de la red de la zona
 repartiendo el flujo de datos hacia los puntos de salida disponibles,
 y ofreciendo servicios de valor añadido a los usuarios.
 
@@ -86,25 +82,26 @@ Guifibaix vendría a cubrir dicha carencia.
 
 ## Los promotores
 
-TODO: Reredactar esto con perfiles más fieles
+### Víctor Viudez
 
-La cooperativa estará formada por profesionales especializados en distintos campos:
+- Ingeniero en Sistemas Informáticos por la Universitat Politècnica de Catalunya
+- Ha diseñado y montado los sistemas 
 
-- Profesionales en el campo del desarrollo de redes locales y telecomunicaciones
-- Profesionales en la instalación de redes físicas y cableado.
-- Profesionales en el campo de la atención a clientes y gestión de incidencias.
 
 ### David García Garzón
 
-* Profesor del Departamento de Tecnología de la Universidad Pompeu Fabra
-* Máster en Tecnologías de la Información, la Comunicación y los Medios Audiovisuales por la Universidad Pompeu Fabra.
-* Ingeniero Informático por la Universidad Ramón Llull.
-* Activista y desarrollador de software libre.
-* Miembro del 15M de Sant Joan Despí y responsable de la campaña DesconexionIBEX35
+- Ingeniero Informático por la Universidad Ramón Llull.
+- Máster en Tecnologías de la Información, la Comunicación y los Medios Audiovisuales por la Universidad Pompeu Fabra.
+- Profesor del Departamento de Tecnología de la Universidad Pompeu Fabra.
+- Investigador en diversos institutos como el Music Technology Group de la UPF o el grupo de audio de Barcelona Media en campos como el sonido y la ingeniería del software.
+- Activista y desarrollador de software libre.
+- Miembro del 15M de Sant Joan Despí y responsable de la campaña Desconexion IBEX35
 
-### Aitor 
+### Aitor Pueyo
 
-### Víctor Viudez
+- Técnico superior en instalaciones electrotécnicas.
+- Instal·lador electricista
+- Instal·lacions domòtiques
 
 ### Raúl Beas
 
@@ -113,9 +110,9 @@ La cooperativa estará formada por profesionales especializados en distintos cam
 
 # Plan de marketing
 
-## Producto/Servicio
+## El producto/servicio
  
-### Descripción del producto/servicio
+### Descripción
 
 El producto y servicio consiste en
 la instalación y configuración, en edificios, de los dispositivos
@@ -132,7 +129,8 @@ Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 * Opcionalmente, ofrecer alternativas de conectividad a internet fuera del edificio mediante la red Guifi.net
 * Dar soporte y servicio técnico para la infraestructura de red
 * Ofrecer una serie de servicios internos disponible dentro de Guifi.net
-	* Almacenamiento, compartición y respaldo de ficheros
+	* Almacenamiento, compartición y respaldo de ficheros en la nube
+	* Servicios de P2P compartidos de alta velocidad
 	* Correo, web
 	* Emisión de radio y televisión on-line
 
@@ -140,35 +138,58 @@ Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 ### Necesidades
 
 - Conectividad a telefonía fija y Internet
+- Necesidad de dejar de engordar a empresas con las que no se está de acuerdo
+- Necesidad de ahorrar en las facturas
+
 
 ### Aspectos diferenciales
 
-El principal aspecto diferencial es el ético.
+En cuanto el servicio en sí, el aspecto diferencial
+son los servicios añadidos que se dan internamente en guifi.net.
+También la cercanía que damos en cuanto al servicio al cliente
+siendo una empresa local.
+
+Pero el principal aspecto diferencial es el ético.
 Ofrecemos una alternativa de consumo local, ética y fuera de oligopolios.
 
-Nos caracterizamos por un trato justo a los usuarios.
-No los atamos. La red es de ellos.
+Somos una opción ética en diversos aspectos:
+
+- El trato justo a los usuarios y la relación libre con ellos
+- El trato justo a los trabajadores
+- El fomento de la economía local y las relaciones con la economía social de la zona
+
+GuifiBaix no ata a sus usuarios.
+La red no es de GuifiBaix sino de ellos.
 Nosotros sólo le simplificamos el tenerla y,
 si en cualquier momento consideran que no lo hacemos como debemos,
 tienen la libertad de escoger otra empresa que lo mantenga,
 encontrar a voluntarios que lo hagan,
 o incluso de volver al oligopolio.
 
-Los paquetes que ofrecemos son solo para simplificar la oferta.
+Los paquetes que ofrecemos también los ofrecemos para simplificar la oferta.
 Si algún usuario no quiere algo del paquete, se le descuenta del precio.
+No tenemos porque venderle algo que no quiere.
+
+Otro aspecto diferencial es la localidad.
+Generamos trabajo en la zona, no solo para los socios 
+sino también para otras posibles empresas que instalen el sistema
+dando valor añadido tecnológico y de ahorro
+a profesionales de un sector como el de la construcción y la instalación
+que ahora mismo está en crisis.
+
+Además el trabajo que creamos es trabajo de calidad.
+No deslocalizamos, ni hacemos out-sourcing del desarrollo de software.
 
 
 - Damos servicios internos de alta velocidad dentro de guifi.net
-	- Servicios 'en la nube' con acceso de alta velocidad desde dentro de guifi.net
+	- Servicios 'en la nube' sin salir de guifi.net a alta velocidad
 	- Servicio de P2P comunitario.
-- Aunque ofrecemos paquetes para simplificar la oferta, si un cliente no quiere algo del paquete, se lo descontamos del precio.
-- No atamos a los usuarios.
+
 - Generamos trabajo local de calidad:
 	- No deslocalizamos, ni hacemos "out-sourcing"
 	- Somos una cooperativa: Los trabajadores de la cooperativa tenemos control sobre la empresa
 	- Si subcontratamos, los trabajadores tienen las mismas condiciones económicas que los socios.
 	- Los beneficios
-- TODO: More!!!
 
 El otro aspecto diferencial es el precio.
 Aunque dicho aspecto diferencial es solo circunstancial
@@ -180,7 +201,10 @@ a bajar precios, aunque sea temporalmente, desarmarían este aspecto.
 ### Servicios futuros
 
 - Conectividad común de alta capacidad
+- Telefonía IP como distribuidores directos, no solo como comercializadores
+	- Nos permitirá aplicar descuentos
 
+	
 ## Mercado
 
 ### Ámbito geográfico
@@ -240,44 +264,13 @@ puesto que el tráfico que generan lo absorbe íntegramente la red.
 Podemos caracterizar a los posibles clientes por diferentes aspectos que se enumeran a continuación:
 
 - Respecto a las motivaciones
-	- Econòmica
-	- Social
-	- Despecho
 - Respecto a la cultura digital
-	- Ninguna
-	- Básica
-	- Usuarios
-	- Técnicos
 - Respecto al tipo de edificio
-	- Vivienda unifamiliar
-	- Adosados (muchas casas unifamiliares pero con espacios comunes)
-	- Mini bloque (un vecino por rellano)
-	- Bloque
-	- Multi-bloque
 - Respecto la existencia o no de teléfono comunitario (ascensor)
 - Respecto al régimen de propiedad
-	- Propiedad
-	- Alquiler
-	- ADSA
 - Respecto al contrato actual
-	- Bono social
-	- Línea bàsica 21€
-	- Negociadores 30€
-	- Cambiadores 42€
-	- No cambiadores 50€
-	- Fusionados 60€
-	- Llamadas incluidas
-	- Otros 140€
 - Respecto los usos especiales
-	- Películas en streaming (flujo continuo)
-	- Programas P2P (muchas conexiones simultáneas)
-	- Juegos en linea a tiempo real (bajas latencias)
 - Respecto a su dependencia del oligopolio
-	- Tele-asistencia
-	- Permanencia
-	- Imagenio
-	- Contrato con móvil incluido
-	- Ofertas especiales
 
 A continuación se detalla cada aspecto
 así como las implicaciones de cara a consideraciones como presentarles el producto.
@@ -293,14 +286,15 @@ De hecho en un cliente pueden confluir varios motivos.
 La motivación más común que nos hemos encontrado es la económica.
 La relación calidad-precio de la banda ancha en España es bastante mala.
 GuifiBaix, aunque no garantiza un ancho de banda superior,
+porque normalmente sale por ADSL's,
 al menos consigue precios inferiores.
 En el contexto de crisis actual es un factor de venta importante.
 
-Sin embargo basar la fuerza de ventas en el precio puede convertirse en un handicap
+Sin embargo basar la fuerza de ventas en el precio puede convertirse en un obstáculo
 puesto que el diferencial de precios de nuestro producto con el producto substituido
 es algo coyuntural que puede cambiar en el futuro.
 Los grandes margenes de beneficios de las grandes empresas son también margen para bajar los precios
-aunque sea puntualmente para deshacerse de las pequeñas.
+aunque sea sólo puntualmente para deshacerse de las pequeñas.
 
 Por eso, nos interesa potenciar los usuarios con otras motivaciones.
 Principalmente las motivaciones éticas
@@ -308,7 +302,7 @@ o las que tienen que ver con el hartazgo con los abusos que supone la situación
 
 Los clientes con motivaciones éticas valorarán la diferente forma de hacer del proyecto:
 La relacion con los trabajadores, con el medio-ambiente y con la sociedad.
-Sobretodo lo que no hace que sí hacen las oligo-empresas:
+Sobretodo valorará GuifiBaix por lo que no hace que sí hacen las oligo-empresas:
 
 * el uso de paraisos fiscales,
 * el abuso de las puertas giratorias entre administración y puestos de dirección en la empresa,
@@ -317,7 +311,7 @@ Sobretodo lo que no hace que sí hacen las oligo-empresas:
 * el fichaje a modo de rescate de personajes públicos de dudosa ética,
 * la sobre-incentivación a los altos ejecutivos,
 * la contratación off-shore,
-* la aplicación de ERE's en su plantilla,
+* la aplicación de expedientes de regulación de empleo en su plantilla,
 * ...
 
 Ante estas prácticas, GuifiBaix, puede poner en valor su modelo cooperativo,
@@ -325,11 +319,11 @@ sus valores y su implicación en incentivar la economia local y social.
 
 También hay un grupo de clientes, que aunque no dan importancia al resto de cuestiones
 éticas que no les afectan tan directamente,
-sí que tienen cierto resentimiento por el trato recibido.
-Estos clientes valorarán el mejor trato que damos como empresa.
+sí que tienen cierto resentimiento por el trato recibido por las viejas empresas.
+Estos clientes valorarán el mejor trato que le damos.
 Al tener un número reducido de clientes,
 estos no son simples números para nosotros.
-Somos sus vecinos.
+Somos sus vecinos y cercanos de trato.
 Es más, no los atamos.
 Han de saber que, si en algún momento no les tratamos como se merecen,
 los equipos son suyos y pueden escoger a otro proyecto empresarial o basado en el voluntariado
@@ -348,7 +342,7 @@ Los clientes potenciales que han tenido poco o ningún contacto con las TI,
 normalmente solo tienen el teléfono,
 o si tienen Internet, confían en algun amigo o familiar que les aconseje.
 En las prospecciones que se han hecho hemos encontrado que
-tienden a ser bastante sensibles a lo que otros,
+este tipo de usuarios tienden a ser bastante sensibles a lo que otros,
 que considerán más expertos que ellos digan o insinúen.
 Una mala impresión inicial hace muy difícil cambiar el sentido de su opinión,
 incluso si su referente sí que la cambia.
@@ -381,19 +375,22 @@ Algunos usos que hay que tener en cuenta son los siguientes:
    un caudal insuficiente o interrupciones temporales del mismo.
    Es posible que las antenas puedan aguantar este tipo de tráfico, pero,
    los ADSL se pueden llenar si lo hacen varios usuarios simultaneamente.
-   Hay que 
+   Hay que dimensionar bien las salidas.
 -  **Uso de redes P2P:**
    Las redes P2P crean un número alto de conexiones simultàneas.
    Esto puede saturar la memòria de los dispositivos intermedios
    afectando a la calidad de servicio de todos los usuarios.
    Por eso se ofrecerá a los usuarios servicios de descargas P2P comunitarias.
+   Hay que hacer promoción efectiva de ellos.
+   Si se convierte en un problema grave, otra opción es filtrar este tipo de tráfico,
+   informando convenientemente a los usuarios y ofreciéndoles la mencionada alternativa.
 -  **Juegos on-line en tiempo real:**
    Este tipo de juegos no requiere un ancho de banda especialmente alto,
-   pero los usuarios son sensibles a los tiempos de respuesta altos.
-   A estos usuarios, no hay nada como dejarle medir los tiempos de respuesta.
-   Si no fueran aceptables, tienen la opción de ser esa vivienda la que mantenga un ADSL.
+   pero los usuarios son sensibles a los tiempos de respuesta dilatados.
+   Si, tras una prueba, los tiempos de respuesta no fueran aceptables,
+   una solución a proponer sería que ellos fueran los que cedieran el ADSL
+   para mantener los tiempos de respuesta que tuvieran hasta el momento.
 
-   
 
 #### Respecto al tipo de edificación y comunidad
 
@@ -402,8 +399,8 @@ Tanto en los equipos instalados como en la fórmula para compartir la conectivid
 
 El espacio natural de venta de GuifiBaix son los **bloques de pisos** de 6 o más vecinos,
 donde es fácil conseguir 3 o 4 vecinos interesados.
-De esta forma alguno pueda compartir su ADSL
-y se les pueda aplicar el descuento en las cuotas y les sea viable.
+De esta forma, si un vecino decide compartir su ADSL
+y se les pueda aplicar el descuento en las cuotas de la comunidad y les sale a cuenta.
 La antena se pondría en el terrado y se cablearía a los vecinos interesados.
 
 Pero, en los municipios en los que vamos a operar,
@@ -425,12 +422,99 @@ hay que buscar soluciones alternativas.
 A menudo, las casas unifamiliares comparten zonas comunes.
 Se puede aprovechar este hecho para gestionar del mismo modo la conectividad compartida.
 
-En las comunidades grandes, en las que se incluyen varios bloques de pisos,
+En las comunidades grandes, en las que se incluyen **varios bloques de pisos**,
 igual que en una comunidad de múltiples casas unifamiliares,
 se pueden comunicar, para reducir costos, 
 una antena principal mayor en uno de los edificios
-con antenas mas baratas en el resto.
+conectada con antenas más baratas en el resto.
 
+
+#### Respecto a la propiedad de la finca
+
+
+
+
+#### Respecto al contrato actual
+
+La reacción al producto de GuifiBaix varia mucho
+respecto al tipo de contrato que tenga el usuario
+con su anterior compañía de teléfono.
+De hecho, a un aspecto clave que es el precio que está pagando.
+
+El diferencial entre lo que pagan al mes y lo que pagarán
+con GuifiBaix determina el tiempo en que amortizarán la inversión inicial.
+Si ahora pagan mucho, la amortizarán enseguida pero si pagan poco,
+esa inversión inicial puede tardar años en retornar en forma de ahorro.
+
+Normalmente los usuarios que vienen pagando menos son personas mayores con el bono social
+o personas que tienen sólo la línea telefonica básica que son 19€+IVA.
+En estos casos, GuifiBaix supone una ventaja económica sólo
+si el usuario consideraba pasar a tener acceso a Internet
+y era el precio lo que le echaba para atrás.
+En estos casos, como hemos dicho anteriormente,
+el único argumento de venta es el ético o el de hartazgo.
+
+Las personas con el bono social, por ejemplo,
+tienen que justificar cada año que lo merecen
+adjuntando un montón de papeleo, que es difícil de juntar para una persona mayor.
+Cada año, las condiciones son más duras y, 
+cada año, las compañías añaden recargos extras o les cobran las llamadas más caras.
+
+El siguiente segmento de precios son los usuarios
+que han negociado duramente sus condiciones contractuales con su proveedor anterior.
+Tenemos noticia de personas que han conseguido precios de poco mas de 30€+IVA.
+Empresas como Jazztel son las que rebajan los precios de forma más agresiva.
+Igual que negociaron con su anterior compañia,
+es muy posible que negocien con GuifiBaix.
+Pero GuifiBaix ajusta sus precios a los costos y no tiene margen de maniobra
+más allá de poner y quitar prestaciones.
+
+
+
+
+#### Respecto a situaciones de dependéncia con el anterior proveedor
+
+Hay situaciones que hacen que un cliente no vea viable dejar de contratar con el oligopolio.
+Son casos que hay que tener en cuenta.
+Sin embargo, dado que en un edificio con múltiples usuarios
+alguien tiene que dejar su ADSL, estos vecinos son candidatos
+perfectos para compartirlo.
+Por eso si hay pocos de estos casos se les ofrecerá, ser los que comparten su conectividad.
+
+
+-  **Tele-asistencia:** 
+	Es un servicio que puede ofrecer cualquier compañía telefónica,
+	a personas mayores que viven o que pasan tiempo solas
+	que consiste en tener un dispositivo con un botón,
+	básicamente es un teléfono con un solo número,
+	con el que ponerse en contacto con los servicios de emergencias.
+	Para poder ofrecer disponibilidad 100%, por ejemplo,
+	en caso de apagón, deberíamos de tener instalados servicios
+	de alimentación eléctrica continua, por ejemplo con baterías,
+	y eso es algo de lo que aun no podemos disponer.
+	A este perfil de usuario nunca se le puede pedir que se de de baja de su anterior servicio.
+	Al menos mientras que no podamos garantizar 100% la disponibilidad,
+	pues en este caso podría depender una vida de ello.
+	Han empezado a aparecer equipos de tele-asistencia
+	usando telefonía móbil que liberaría la línea.
+-  **Permanencia:**
+	Las compañías, a pesar de las sentencias judiciales en contra,
+	siguen imponiendo a los usuarios condiciones de permanencia.
+	Lo hacen indirectamente 'regalando' dispositivos o haciendo 'descuentos'
+	que hay que pagar en caso de dar por finalizado el contrato antes de tiempo.
+	En estos casos, se puede esperar a que acabe o proponer que ese sea el ADSL compartido.
+-  **Imagenio:**
+	GuifiBaix no puede dar servicios como Imagenio, al menos, de momento, no de la misma manera.
+	Por eso si alguien no quiere prescindir de ese servicio tampoco lo podemos desconectar,
+	aunque sí que le podemos ofrecer ser el ADSL compartido.
+	Sin embargo, mientras se usa Imagenio, se reduce mucho el caudal disponible para Internet.
+	Esto hay que tenerlo en cuenta si se usa esa conexión como salida compartida.
+-  **Contrato con móvil incluido:**
+	Algunas compañías han empezado a ofertar móbil y fijo unificado en una sola factura.
+	En estos casos hay que considerar no solo el diferencial del coste de un contrato móbil.
+-  **Ofertas especiales:**
+	Algunos usuarios tienen algunos tratos específicos con la compañía que
+	hace 
 
 ### Situación del mercado
 
@@ -597,8 +681,6 @@ pero del mismo modo dificulta que GuifiBaix lo oferte más adelante cuando tenga
 	* Por registro
 * Servicios pendientes de desarrollo
 	* Solucion para P2P centralizado
-	* Control de tráfico (filtrar p2p no centralizado)
-	* Backups y compartición de ficheros
 	* Centralita VoiceIP propia
 	* Servicios de hosting (web, correo...)
 	* Emision de radio/television
