@@ -1,11 +1,11 @@
 ﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-# Plan de negocio
+# Presentación
 
 ## Objetivos y valores
 
-El presente plan de negocio es el de una empresa de economía social
-que no persiguen la rentabilidad a cualquier precio,
+El presente plan de negocio es el de una empresa de economía social.
+No se persigue la rentabilidad a cualquier precio,
 sino simplemente la propia viabilidad económica del proyecto,
 en tanto ayude a aconseguir los objetivos sociales a los que se dirige,
 que son:
@@ -14,7 +14,8 @@ que son:
 - Abaratar los costes de acceso a las tecnologías de la información para universalizarlo.
 - Desarrollar la economía local, habilitando vías de empleo en sectores actualmente en recesión como el de la construcción.
 
-Al mismo tiempo, la iniciativa está ligada a unos valores éticos
+Al mismo tiempo,
+la iniciativa está ligada a unos valores éticos
 que se compromete a mantener.
 Empleo de calidad,
 trato justo a los usuarios,
@@ -111,7 +112,7 @@ Guifibaix vendría a cubrir dicha carencia.
 # Plan de marketing
 
 ## El producto/servicio
- 
+
 ### Descripción
 
 El producto y servicio consiste en
@@ -166,19 +167,19 @@ tienen la libertad de escoger otra empresa que lo mantenga,
 encontrar a voluntarios que lo hagan,
 o incluso de volver al oligopolio.
 
-Los paquetes que ofrecemos también los ofrecemos para simplificar la oferta.
-Si algún usuario no quiere algo del paquete, se le descuenta del precio.
-No tenemos porque venderle algo que no quiere.
-
-Otro aspecto diferencial es la localidad.
 Generamos trabajo en la zona, no solo para los socios 
 sino también para otras posibles empresas que instalen el sistema
 dando valor añadido tecnológico y de ahorro
 a profesionales de un sector como el de la construcción y la instalación
 que ahora mismo está en crisis.
 
+Los paquetes que ofrecemos también los ofrecemos para simplificar la oferta.
+Si algún usuario no quiere algo del paquete, se le descuenta del precio.
+No tenemos porque venderle algo que no quiere.
+
 Además el trabajo que creamos es trabajo de calidad.
 No deslocalizamos, ni hacemos out-sourcing del desarrollo de software.
+
 
 
 - Damos servicios internos de alta velocidad dentro de guifi.net
@@ -204,7 +205,7 @@ a bajar precios, aunque sea temporalmente, desarmarían este aspecto.
 - Telefonía IP como distribuidores directos, no solo como comercializadores
 	- Nos permitirá aplicar descuentos
 
-	
+
 ## Mercado
 
 ### Ámbito geográfico
@@ -470,8 +471,6 @@ Pero GuifiBaix ajusta sus precios a los costos y no tiene margen de maniobra
 más allá de poner y quitar prestaciones.
 
 
-
-
 #### Respecto a situaciones de dependéncia con el anterior proveedor
 
 Hay situaciones que hacen que un cliente no vea viable dejar de contratar con el oligopolio.
@@ -518,7 +517,6 @@ Por eso si hay pocos de estos casos se les ofrecerá, ser los que comparten su c
 
 ### Situación del mercado
 
-
 Nuestro producto es un producto sustitutivo del ADSL,
 con prácticamente nula introducción en el mercado objetivo.
 El volumen de mercado potencial es todo el volumen del producto substituido
@@ -547,20 +545,28 @@ hacer obra pública.
 Esto dificulta la aparición de este otro producto substituto,
 pero del mismo modo dificulta que GuifiBaix lo oferte más adelante cuando tenga capacidad para ello.
 
+## Competencia
 
-### Otros jugadores del mercado
 
-* Hay tres tipos de jugadores ante los cuales nuestra actitud sera diferente:
-	* Grandes telecos (Substitución)
-	* Otras redes alternatives (Interconnexión)
-	* Otros instaladores de guifi.net (Colaboración)
+### Descripción
+
+- Medios
+- Volumen
+- Servicios
+- Estratégias de promoción
+
+Hay tres tipos de jugadores ante los cuales nuestra actitud sera diferente:
+
+* Grandes telecos -> (Substitución)
+* Otras redes alternatives (Interconnexión)
+* Otros instaladores de guifi.net (Colaboración)
 
 
 #### Redes alternativas y instaladores de guifi.net existentes
 
 * Hay un [directorio de instaladores](https://guifi.net/ca/directori), no muy completo ni actualizado
 * Las de Vic son las que tienen más experiencia
-	* [SIM Informatica](http://www.sim-informatica.com/) (Vic)
+	* [SIM Informatica](http://www.sim-informatica.cat) (Vic)
 	* [Setup informàtica](http://www.setup.cat/) (Vic)
 * Tenemos algunos instaladores cerca:
 	* [eeeiii](http://www.eeeiii.net/ca/14/GUIFI.NET+A+TORRELLES/) (Torrelles)
@@ -573,6 +579,36 @@ pero del mismo modo dificulta que GuifiBaix lo oferte más adelante cuando tenga
 * Mas empresas en el resto del estado:
 	* [Sunsioneta](http://www.sunsioneta.es/guifinet.php) (Alacant)
 	* [inode64](http://www.inode64.com/info/instalador-guifi-net) (Castelló)
+
+
+
+
+### Comparación
+
+
+## Precios
+
+
+- Razonamiento
+	- Costes directos
+	- Costes indirectos
+	- Margenes de beneficio esperados
+	- Posicionamiento en el mercado
+- Sistema de precios
+
+## Distribución
+
+TODO: Tiene sentido?
+
+## Previsiones de ventas
+
+- Metodología de previsión
+- Previsión
+- Acciones de seguimiento y correctivas
+
+
+### Otros jugadores del mercado
+
 
 #### Análisis del mercado
 
@@ -651,8 +687,121 @@ pero del mismo modo dificulta que GuifiBaix lo oferte más adelante cuando tenga
 		* En el momento que tengamos 2 impagos, asegurarnos los pagos de las nuevas instalaciones.
 
 
+# Plan de producción y operativo
 
-# Incertidumbres
+## Prestación del producto/servicio
+
+- Procedimiento
+- Tecnologías y herramientas
+- Gestión de stocks
+- Costes de producción
+- Temporización de la producción
+
+## Calidad
+
+- Hasta que grado satisface las necesidades para las que ha sido creado
+- Como asegurar que lo hace
+
+## Equipo y infraestructura
+
+- Que hace falta para poner todo en funcionamiento
+	- Servidores
+	- Conexiones de salida
+- Cuanto va a costar
+
+## Seguridad
+
+- Normativa
+- Riesgos
+- Medidas
+
+## Medio ambiente
+
+- Normativa
+- Riesgos
+- Medidas
+
+# Plan organizativo
+
+## Organización
+
+- Equipo: Quien hay, quien falta, cuando se incorpora
+- Distribución de las tareas
+
+## Gestión de personal
+
+- Proceso de selección
+- Formación
+- Retribución promotores
+- Salarios
+
+
+# Plan jurídico-fiscal
+
+## Forma jurídica
+
+- Cual
+- Tramitación
+- Costos
+
+## Régimen Seguridad social
+
+- Cual
+- Costes asociados
+
+## Contratación
+
+- Tipos de contrato
+- Costes asociados
+
+## Obligaciones fiscales
+
+## Permisos y licencias
+
+## Seguros
+
+## Patentes, marcas y registros
+
+- No patentes
+- Licencias libres y virales
+- Webs registradas .net, .coop, .organització
+
+
+# Plan económico-financiero
+
+## Sistema de cobros y pagos
+
+- Como se van ha pagar las cosas (targetas, checkes, transferencias...)
+- Como se van a cobrar las cosas (efectivo, transferencias, domiciliaciones...)
+- Qué costes tienen esos medios de pago
+
+## Plan de inversiones y financiación
+
+## Cuenta de resultados
+
+## Plan de tesorería
+
+## Balance de situación
+
+
+# Valoracion
+
+
+## Aspectos positivos
+
+## Puntos débiles
+
+## Oportunidades externas
+
+## Amenazas externas
+
+## Medidas
+
+
+# TO REMOVE
+
+
+## Incertidumbres
 
 * Presupuestos
 	* Buscar precios de:
