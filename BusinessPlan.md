@@ -69,7 +69,7 @@ que está registrada como operador de telecomunicaciones en la CNMT.
 La mayoría de nodos se conectan mediante enlaces WiFi,
 pero, por ejemplo,
 en Osona, la comarca catalana donde empezó la red,
-ya hay empresas que están tirando cable de fibra óptica
+ya hay empresas que están desplegando cable de fibra óptica
 financiado con aportaciones voluntarias de los mismos usuarios.
 
 No todos los usuarios interesados en este modelo de conexión
@@ -94,7 +94,7 @@ Guifibaix vendría a cubrir dicha carencia.
 - Ingeniero Informático por la Universidad Ramón Llull.
 - Máster en Tecnologías de la Información, la Comunicación y los Medios Audiovisuales por la Universidad Pompeu Fabra.
 - Profesor del Departamento de Tecnología de la Universidad Pompeu Fabra.
-- Investigador en diversos institutos como el Music Technology Group de la UPF o el grupo de audio de Barcelona Media en campos como el sonido y la ingeniería del software.
+- Investigador en campos en como el sonido y la ingeniería del software en diversos institutos como el Music Technology Group de la UPF y el grupo de audio de Barcelona Media. 
 - Activista y desarrollador de software libre.
 - Miembro del 15M de Sant Joan Despí y responsable de la campaña Desconexion IBEX35
 
@@ -555,11 +555,15 @@ pero del mismo modo dificulta que GuifiBaix lo oferte más adelante cuando tenga
 - Servicios
 - Estratégias de promoción
 
-Hay tres tipos de jugadores ante los cuales nuestra actitud sera diferente:
+Hay tres tipos de actores ante los cuales nuestra actitud sera diferente:
 
 * Grandes telecos -> (Substitución)
 * Otras redes alternatives (Interconnexión)
 * Otros instaladores de guifi.net (Colaboración)
+
+
+#### Empresas que ofertan ADSL
+
 
 
 #### Redes alternativas y instaladores de guifi.net existentes
@@ -581,36 +585,7 @@ Hay tres tipos de jugadores ante los cuales nuestra actitud sera diferente:
 	* [inode64](http://www.inode64.com/info/instalador-guifi-net) (Castelló)
 
 
-
-
-### Comparación
-
-
-## Precios
-
-
-- Razonamiento
-	- Costes directos
-	- Costes indirectos
-	- Margenes de beneficio esperados
-	- Posicionamiento en el mercado
-- Sistema de precios
-
-## Distribución
-
-TODO: Tiene sentido?
-
-## Previsiones de ventas
-
-- Metodología de previsión
-- Previsión
-- Acciones de seguimiento y correctivas
-
-
-### Otros jugadores del mercado
-
-
-#### Análisis del mercado
+### Análisis del mercado
 
 * Compañias establecidas
 	* Bulo de que es ilegal compartir conexión
@@ -644,50 +619,47 @@ TODO: Tiene sentido?
 	* Nos ofrecemos como red de acceso a clientes potenciales para ellos
 	* Si tienen puertas a internet, negociar tarifas de puertas de acceso
 
+## Precios
+
+- Posicionamiento: Para que sea atractivo
+	- Pago inicial que no asuste
+	- Amortización en pocos meses
+
+- Costes directos
+	- Material
+	- Mano de obra
+	- Configuración
+	- Mantenimiento
+
+- Costes indirectos
+	- Red de soporte
+	- Caudal propio
+	- Gestión
+	- Desarrollo y mantenimiento de servicios
+	- TODO: lo que se ha ido hablando por aquí
+
+- Conceptos de cobros
+	- Instalación
+	- Cuotas trimestrales
+	- Altas telefonía IP
+	- Mensualidad telefonía IP
+	- ADSL's compartidos
+
+
+## Distribución
+
+TODO: Tiene sentido?
+
+## Previsiones de ventas
+
+- Metodología de previsión
+- Previsión
+- Acciones de seguimiento y correctivas
+
 	
-* Riesgos y contra-medidas:
-	* Que las telefonicas empiecen a hacer campaña de FUD contra nosotros
-		* Hacer charlas informativas para desmontar esos bulos
-		* Aparecer en medios contrastando informaciones
-		* Asociarse con entidades que den respetabilidad (AAVV, Gats...)
-		* Promover el boca a boca desde la gente que ya lo usa
-	* Aunque no haya base para ello, una empresa grande puede acabar con otra pequeña metiéndola en un proceso legal.
-		* Asegurar nuestros puntos debiles legales
-			* Revisar mejor la legalidad compartir el caudal ADSL
-			* Revisar que con la Fundación Guifi.net basta y en que punto tenemos que registrarnos como operadores.
-			* Revisar hasta que punto podemos criticar las operadoras en nuestra publicidad sin recibir demandas.
-	* Nuestros equipos estan en casa de los usuarios, el acceso físico a los equipos puede ser un handicap.
-	* Accidentes laborales durante la instalación
-		* Minimizar riesgos
-			* Se trabaja en patios y fachadas: peligro de caidas
-			* Daños a terceros
-			* ...
-		* Cobertura de seguros
-	* La densidad de antenas puede tener un límite o simplemente degenerar
-		* Investigar que límites son esos
-	* Interferencias externas
-	* Que con un ADSL por cada cinco vecinos no sea suficiente
-		* La solución seria accelerar las alternativas para salir a Internet
-			* ADSL's propios
-			* Salidas de fibra óptica minorista
-			* Salidas de fibra óptica mayorista
-
-	* Impagos en cuotas
-		* Antes de tomar medidas, intentar la mediación
-		* Si es un vecino puntual que no paga a la comunidad, la comunidad nos puede pedir deshabilitar al usuario.
-			* Para hacer esto, se requiere introducir un sistema de registro de direcciones MAC por vecino.
-		* Si es la comunidad la que deja de pagar, deshabilitamos el uso de los otros ADSLs para esa antena.
-	* Impagos en instalaciones
-		* Si la antena esta instalada bloquearla como en el caso de impago de cuota
-		* Tanto por ciento por aceptar presupuesto, se comprometen a seguir adelante
-		* Tanto por cierto al empezar la obra de instalación, garantizamos cubrir costes de materiales
-		* Resto al finalizar la instalación
-		* TODO: Decidir portentajes
-		* Fondo de reserva inicial que cubra 3 instalaciones impagadas
-		* En el momento que tengamos 2 impagos, asegurarnos los pagos de las nuevas instalaciones.
 
 
-# Plan de producción y operativo
+# Plan de productivo-operativo
 
 ## Prestación del producto/servicio
 
@@ -803,19 +775,6 @@ TODO: Tiene sentido?
 
 ## Incertidumbres
 
-* Presupuestos
-	* Buscar precios de:
-		* Antenas
-		* Switches 8x Giga 23€ (landa) 16€ (pcgreen)
-		* Switches 8x Fast 11€
-		* Switches 4x Fast 8€
-		* Cable
-		* IP adapters (25-35€)
-		* IP Phones
-			* Sencillo
-			* Inalambrico
-			* USB
-		* Hora de instalador
 * Pruebas de estrés
 	* Cuantos videos en streaming se soportan simultaneamente sobre un ADSL
 	* Cuantas antenas pueden sobrelaparse sin que degenere el tráfico
@@ -835,6 +794,46 @@ TODO: Tiene sentido?
 	* Emision de radio/television
 	* ...
 
+* Riesgos y contra-medidas:
+	* Que las telefonicas empiecen a hacer campaña de FUD contra nosotros
+		* Hacer charlas informativas para desmontar esos bulos
+		* Aparecer en medios contrastando informaciones
+		* Asociarse con entidades que den respetabilidad (AAVV, Gats...)
+		* Promover el boca a boca desde la gente que ya lo usa
+	* Aunque no haya base para ello, una empresa grande puede acabar con otra pequeña metiéndola en un proceso legal.
+		* Asegurar nuestros puntos debiles legales
+			* Revisar mejor la legalidad compartir el caudal ADSL
+			* Revisar que con la Fundación Guifi.net basta y en que punto tenemos que registrarnos como operadores.
+			* Revisar hasta que punto podemos criticar las operadoras en nuestra publicidad sin recibir demandas.
+	* Nuestros equipos estan en casa de los usuarios, el acceso físico a los equipos puede ser un handicap.
+	* Accidentes laborales durante la instalación
+		* Minimizar riesgos
+			* Se trabaja en patios y fachadas: peligro de caidas
+			* Daños a terceros
+			* ...
+		* Cobertura de seguros
+	* La densidad de antenas puede tener un límite o simplemente degenerar
+		* Investigar que límites son esos
+	* Interferencias externas
+	* Que con un ADSL por cada cinco vecinos no sea suficiente
+		* La solución seria accelerar las alternativas para salir a Internet
+			* ADSL's propios
+			* Salidas de fibra óptica minorista
+			* Salidas de fibra óptica mayorista
+
+	* Impagos en cuotas
+		* Antes de tomar medidas, intentar la mediación
+		* Si es un vecino puntual que no paga a la comunidad, la comunidad nos puede pedir deshabilitar al usuario.
+			* Para hacer esto, se requiere introducir un sistema de registro de direcciones MAC por vecino.
+		* Si es la comunidad la que deja de pagar, deshabilitamos el uso de los otros ADSLs para esa antena.
+	* Impagos en instalaciones
+		* Si la antena esta instalada bloquearla como en el caso de impago de cuota
+		* Tanto por ciento por aceptar presupuesto, se comprometen a seguir adelante
+		* Tanto por cierto al empezar la obra de instalación, garantizamos cubrir costes de materiales
+		* Resto al finalizar la instalación
+		* TODO: Decidir portentajes
+		* Fondo de reserva inicial que cubra 3 instalaciones impagadas
+		* En el momento que tengamos 2 impagos, asegurarnos los pagos de las nuevas instalaciones.
 
 	
 
