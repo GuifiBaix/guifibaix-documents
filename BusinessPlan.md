@@ -436,6 +436,10 @@ conectada con antenas más baratas en el resto.
 
 #### Respecto a la propiedad de la finca
 
+Lo ideal son clientes que tienen el piso en propiedad y pagan ellos directamente la contribución de la comunidad.
+Hay casos en que esto no se da, por ejemplo:
+
+- Vecinos que están en régimen de alquiler
 
 
 
