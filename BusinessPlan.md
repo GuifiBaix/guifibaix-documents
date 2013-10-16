@@ -100,9 +100,13 @@ Guifibaix vendría a cubrir dicha carencia.
 
 ### Aitor Pueyo
 
+
 - Técnico superior en instalaciones electrotécnicas.
-- Instal·lador electricista
-- Instal·lacions domòtiques
+- Ha realizado cursos de electricista industrial.
+- Experiencia en trabajos de instalación, reparación, obra nueva y revisiones de instalaciones.
+- Con experiencia elaborando memorias técnicas de proyectos de instalaciones eléctricas.
+- Miembro del 15M Sant Joan Despí, la CNT-AIT de Cornellà y la distribuidora-librería El Grillo Libertario 
+
 
 ### Raúl Beas
 
