@@ -400,6 +400,11 @@ Algunos usos que hay que tener en cuenta son los siguientes:
    Si, tras una prueba, los tiempos de respuesta no fueran aceptables,
    una solución a proponer sería que ellos fueran los que cedieran el ADSL
    para mantener los tiempos de respuesta que tuvieran hasta el momento.
+-  **Llamadas internacionales:**
+   Si alguien hace llamadas internacionales, hay que vender que según a qué paises
+   las llamadas salen incluso más baratas que las nacionales. Precio locutorio.
+   No está de mas tener a mano para enseñarla las tarifas de uno o dos proveedores de telefonía IP.
+
 
 
 #### Respecto al tipo de edificación y comunidad
@@ -441,11 +446,13 @@ conectada con antenas más baratas en el resto.
 
 #### Respecto a la propiedad de la finca
 
-Lo ideal son clientes que tienen el piso en propiedad y pagan ellos directamente la contribución de la comunidad.
+Lo ideal son clientes que tienen el piso en propiedad y
+pagan ellos directamente la contribución de la comunidad.
 Hay casos en que esto no se da, por ejemplo:
 
 - Vecinos que están en régimen de alquiler
 
+TODO: seguir
 
 
 #### Respecto al contrato actual
@@ -661,7 +668,12 @@ Hay tres tipos de actores ante los cuales nuestra actitud sera diferente:
 
 ## Distribución
 
-TODO: Tiene sentido?
+- Como llegamos a los clientes
+	- Conocidos nuestros y boca a boca
+	- Charlas
+	- Ferias de entidades locales
+	- Gestorías
+	- Cartelería
 
 ## Previsiones de ventas
 
@@ -669,10 +681,17 @@ TODO: Tiene sentido?
 - Previsión
 - Acciones de seguimiento y correctivas
 
-	
-
 
 # Plan de productivo-operativo
+
+- Todo este apartado tendría que considerar las diferentes areas productivas
+	- Instalación
+	- Soporte y atención al cliente
+	- Marqueting
+	- Configuración
+	- Mantenimiento
+	- Desarrollo de software
+	- Desarrollo de redes
 
 ## Prestación del producto/servicio
 
