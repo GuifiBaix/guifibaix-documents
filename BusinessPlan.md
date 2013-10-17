@@ -112,6 +112,11 @@ Guifibaix vendría a cubrir dicha carencia.
 
 ### Raúl Sanz Serrano
 
+- Licenciado en Historia por la Universitat de Barcelona.
+- Ha realizado cursos de diseño web, redes y aplicaciones cliente-servidor.
+- Experiencia en atención a clientes, resolución incidencias, gestión de datos y formación a usuarios de herramientas informáticas.
+- Emprendedor, montaje y desarrollo de la primera tienda on-line de repostería de conventos y monasterios. 
+
 
 # Plan de marketing
 
