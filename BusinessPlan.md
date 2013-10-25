@@ -451,7 +451,8 @@ pagan ellos directamente la contribución de la comunidad.
 Hay casos en que esto no se da, por ejemplo:
 
 - Vecinos que están en régimen de alquiler
-Es posigle que, ahún estando interesados en ser usuario de GuifiBaix i compartir su ADSL
+
+Es posible que, aún estando interesados en ser usuario de GuifiBaix
 no quieran invertir en la instalación de la antena y las conexiones comunes
 o que consideren que debe hacerlo el propietario de la vivienda.
 Es de esperar que los propietarios de la vivienda no quieran hacer esta inversión porque se trata de un servicio
