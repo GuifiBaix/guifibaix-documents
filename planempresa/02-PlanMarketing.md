@@ -330,38 +330,36 @@ Lo ideal son clientes que tienen el piso en propiedad y
 pagan ellos directamente la contribución de la comunidad.
 Hay casos en que esto no se da, por ejemplo:
 
-##### Vecinos que están en régimen de alquiler
+- **Vecinos que están en régimen de alquiler:**
+	Los vecinos en régimen de alquiler es posible 
+	que tengan que ponerse de acuerdo con el propietario por varios motivos.
 
-Los vecinos en régimen de alquiler es posible 
-que tengan que ponerse de acuerdo con el propietario por varios motivos.
+	Los inquilinos pueden tener reticencias a hacer la inversión inicial,
+	si no tienen claro cuanto van a estar en el piso.
+	Por suerte, el retorno de la inversión suele ser corto,
+	con lo cual, aunque estén poco tiempo, un año, ahorrarían dinero.
+	Es posible que convenga hacer
 
-Los inquilinos pueden tener reticencias a hacer la inversión inicial,
-si no tienen claro cuanto van a estar en el piso.
-Por suerte, el retorno de la inversión suele ser corto,
-con lo cual, aunque estén poco tiempo, un año, ahorrarían dinero.
-Es posible que convenga hacer
+	Otro problema es que quien paga las cuotas de la comunidad
+	y quien tiene voz en la junta de vecinos
+	suele ser el propietario, no el inquilino.
+	Al propietario no le supone un ahorro directo instalar.
+	Si que aumenta el valor del piso.
+	Según como se plantee se puede plantear el cargo al alquiler.
 
-Otro problema es que quien paga las cuotas de la comunidad
-y quien tiene voz en la junta de vecinos
-suele ser el propietario, no el inquilino.
-Al propietario no le supone un ahorro directo instalar.
-Si que aumenta el valor del piso.
-Según como se plantee se puede plantear el cargo al alquiler.
+	En cualquier caso, los vecinos en alquiler son casos más complicados de ofrecer una solución simple.
+	La fórmula no depende de nosotros y complica la dinámica de venta.
 
-En cualquier caso, los vecinos en alquiler son casos más complicados de ofrecer una solución simple.
-La fórmula no depende de nosotros y complica la dinámica de venta.
+- **Gestión con empresas municipales (ADSA y otros):**
+	Hay edificios en los que la propiedad es de una empresa municipal,
+	como es el caso de ADSA en Sant Joan Despí.
+	En estos casos, nos encontramos que no existe una comunidad de propietarios,
+	y muchos de los gastos los realiza la empresa municipal,
+	transfiriéndoselos a los vecinos mediante su cuota.
 
-##### Gestión con empresas municipales (ADSA y otros)
-
-Hay edificios en los que la propiedad es de una empresa municipal,
-como es el caso de ADSA en Sant Joan Despí.
-En estos casos, nos encontramos que no existe una comunidad de propietarios,
-y muchos de los gastos los realiza la empresa municipal,
-transfiriéndoselos a los vecinos mediante su cuota.
-
-En estos casos, habría que negociar una fórmula con la empresa municipal o
-sugerir a los vecinos de buscar otras fórmulas asociativas para poder gestionar
-los pagos y los descuentos por ADSL's compartidos.
+	En estos casos, habría que negociar una fórmula con la empresa municipal o
+	sugerir a los vecinos de buscar otras fórmulas asociativas para poder gestionar
+	los pagos y los descuentos por ADSL's compartidos.
 
 
 #### Respecto al contrato actual con el proveedor de telefonía

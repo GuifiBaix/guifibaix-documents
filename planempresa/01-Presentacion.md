@@ -81,13 +81,13 @@ Guifibaix vendría a cubrir dicha carencia.
 
 ## Los promotores
 
-### Víctor Viudez
+### Víctor Viudez {-}
 
 - Ingeniero en Sistemas Informáticos por la Universitat Politècnica de Catalunya
 - Ha diseñado y montado los sistemas 
 
 
-### David García Garzón
+### David García Garzón {-}
 
 - Ingeniero Informático por la Universidad Ramón Llull.
 - Máster en Tecnologías de la Información, la Comunicación y los Medios Audiovisuales por la Universidad Pompeu Fabra.
@@ -96,7 +96,7 @@ Guifibaix vendría a cubrir dicha carencia.
 - Activista y desarrollador de software libre.
 - Miembro del 15M de Sant Joan Despí y responsable de la campaña Desconexion IBEX35
 
-### Aitor Pueyo
+### Aitor Pueyo {-}
 
 
 - Técnico superior en instalaciones electrotécnicas.
@@ -106,9 +106,9 @@ Guifibaix vendría a cubrir dicha carencia.
 - Miembro del 15M Sant Joan Despí, la CNT-AIT de Cornellà y la distribuidora-librería El Grillo Libertario 
 
 
-### Raúl Beas
+### Raúl Beas {-}
 
-### Raúl Sanz Serrano
+### Raúl Sanz Serrano {-}
 
 - Licenciado en Historia por la Universitat de Barcelona.
 - Ha realizado cursos de diseño web, redes y aplicaciones cliente-servidor.
