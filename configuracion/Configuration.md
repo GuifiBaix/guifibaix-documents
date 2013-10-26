@@ -11,6 +11,18 @@
 	* Quedaria SJD14-Major22-0f
 
 
+= Estando en dos redes a la vez
+
+Si un DHCP nos ha asignado direccion (digamos 172.33.22.44)
+y hay un dispositivo físicamente conectado a nosotros
+que esta en otra red (192.168.1.1) al que queremos acceder,
+podemos añadir un interfaz virtual con el comando:
+
+	sudo ifconfig eth0:1 192.168.1.33
+
+El interfaz real es eth0.
+
+
 
 
 
