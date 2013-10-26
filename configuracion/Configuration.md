@@ -11,7 +11,7 @@
 	* Quedaria SJD14-Major22-0f
 
 
-= Estando en dos redes a la vez
+# Estando en dos redes a la vez
 
 Si un DHCP nos ha asignado direccion (digamos 172.33.22.44)
 y hay un dispositivo físicamente conectado a nosotros
@@ -22,6 +22,39 @@ podemos añadir un interfaz virtual con el comando:
 
 El interfaz real es eth0.
 
+# Resolucion de nombres de maquinas (DNS)
+
+Los DNS internos son:
+
+	* 10.1.40.7
+	* 10.1.40.8
+
+En caso de que no estuvieran operativos, se pueden poner estos otros externos
+
+	* 8.8.8.8 (google)
+	* 8.8.4.4 (google)
+
+El servidor DNS és una maquina que tiene almacenados las correspondencias entre
+el nombre de un servidor (pe. guifibaix.coop)
+y su direccion IP, la numérica (pe. 32.23.110.30).
+
+Cuando fallan lo sabemos porque podemos acceder a los servidores
+mediante su direccion numerica pero no responden si usamos el nombre.
+
+Los servidores DNS estan jerarquizados:
+Cada servidor DNS le pide a su DNS superior las correspondencias que le hacen falta.
+Hasta llegar a los servidores raiz, que sirven cada raiz .com, .es, .org...
+
+GuifiBaix tiene un par de servidores DNS internos.
+Estos DNS a parte de recibir los DNS normales tienen dos funciones extra:
+
+	- Resolver los nombres internos de GuifiBaix que no están en DNS públicos
+	- Sobreescribir los nombres de nuestros servidores para que desde dentro se acceda 
+
+
+Los DNS externos no resuelven los nombres internos nuestros.
+Y los nombres como owncloud.guifibaix.coop los resuelve con la ip externa del servicio,
+por lo que salimos por el ADSL y volvemos a entrar por el ADSL del servidor y van mas lentos.
 
 
 
