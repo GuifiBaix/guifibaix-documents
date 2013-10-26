@@ -202,6 +202,18 @@
        y1="-316.11447"
        x2="956.62555"
        y2="-724.24164" />
+    <filter
+       inkscape:collect="always"
+       id="filter16247"
+       x="-0.013036654"
+       width="1.0260733"
+       y="-0.15090839"
+       height="1.3018168">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.4816434"
+         id="feGaussianBlur16249" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -211,8 +223,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="169.91021"
-     inkscape:cy="516.65714"
+     inkscape:cx="267.80388"
+     inkscape:cy="541.50282"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -230,6 +242,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -237,15 +250,19 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.70866143999999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter16247)"
+       d="m 69.495688,274.69769 609.103142,0 c 8.82371,0 15.92728,6.48075 15.92728,14.53083 l 0,26.30931 c 0,8.05008 -7.10357,14.53083 -15.92728,14.53083 l -609.103142,0 c -8.823712,0 -15.927279,-6.48075 -15.927279,-14.53083 l 0,-26.30931 c 0,-8.05008 7.103567,-14.53083 15.927279,-14.53083 z"
+       id="rect15464" />
     <rect
        style="color:#000000;fill:#800000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.70866144;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect15255"
-       width="592.38623"
+       width="640.9577"
        height="55.370972"
-       x="75.854126"
+       x="51.568409"
        y="272.69769"
        ry="14.530831"
-       rx="14.720318" />
+       rx="15.927279" />
     <path
        inkscape:connector-curvature="0"
        d="m 0.35544406,62.632657 745.57140594,0 0,-62.13051315 -745.57140594,0 0,62.13051315 z"
@@ -294,12 +311,12 @@
        xml:space="preserve"
        style="font-size:32.48988342px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
        x="332.68808"
-       y="39.492516"
+       y="41.492516"
        id="text3276"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="332.68808"
-         y="39.492516"
+         y="41.492516"
          id="tspan3280">Campanya de desconnexió de l'IBEX 35</tspan></text>
     <flowRoot
        xml:space="preserve"
@@ -323,7 +340,7 @@
            y="353.33661" /></flowRegion><flowPara
          id="flowPara14611"></flowPara></flowRoot>    <g
        id="g7322"
-       transform="matrix(0.78590193,0,0,0.78590193,173.03042,220.27931)">
+       transform="matrix(0.72349648,0,0,0.72349648,216.45701,225.44311)">
       <path
          sodipodi:nodetypes="cccccccaasccccccccccccccccccccccccccccccccccccc"
          d="m 319.49388,364.82664 c 0,0 -0.15909,-0.23524 -0.4669,-0.69142 -0.15373,-0.22773 -0.345,-0.51088 -0.57237,-0.84729 -0.11369,-0.16839 -0.23632,-0.35 -0.36752,-0.54449 -0.0329,-0.0486 -0.0665,-0.0983 -0.10046,-0.14836 -0.0411,-0.0686 -0.0833,-0.138 -0.12584,-0.20879 -0.0854,-0.14264 -0.1734,-0.28993 -0.2642,-0.44152 -4.2249,-8.07863 -5.00861,-10.56642 -5.87623,-16.26559 -1.02036,-6.70239 -0.62901,-13.71494 0.90523,-20.31867 1.32652,-5.70965 3.11045,-9.3355 7.04244,-16.11341 14.3182,-24.68152 43.88975,-48.40059 73.1135,-62.90817 8.27059,-4.10275 16.75532,-7.71787 25.23826,-10.87002 8.49224,-3.13212 16.99484,-5.76731 25.30368,-7.95597 8.30991,-2.18795 16.42962,-3.91757 24.17145,-5.25465 7.74219,-1.33887 15.10542,-2.28519 21.91415,-2.95766 6.80981,-0.67605 13.07156,-0.99781 18.61507,-1.23412 1.38677,-0.034 2.72957,-0.0668 4.02554,-0.0983 1.29525,-0.0286 2.54331,-0.0744 3.74382,-0.0658 1.1998,-0.004 2.35062,-0.007 3.45067,-0.01 1.09933,-0.002 2.14755,-0.0136 3.14249,0.015 1.98917,0.0375 3.76491,0.0708 5.31006,0.1001 1.54408,0.0472 2.8572,0.11154 3.9215,0.15158 2.12789,0.0865 3.26262,0.13264 3.26262,0.13264 0,0 -1.1358,0.014 -3.26548,0.04 -1.0643,0.0165 -2.37706,0.0211 -3.91971,0.0558 -1.54193,0.0522 -3.3141,0.11262 -5.29898,0.18019 -0.99244,0.0243 -2.03672,0.0908 -3.13177,0.15086 -1.09504,0.0611 -2.2405,0.12513 -3.43493,0.19163 -1.19443,0.0547 -2.43499,0.16624 -3.72201,0.26277 -1.28668,0.0997 -2.61982,0.2027 -3.99694,0.3096 -5.49954,0.52696 -11.69587,1.17513 -18.407,2.20189 -6.71042,1.02319 -13.94173,2.34489 -21.5091,4.06987 -7.56701,1.72318 -15.469,3.84928 -23.51078,6.42834 -8.0407,2.57978 -16.22548,5.60036 -24.34556,9.09285 -8.11077,3.51287 -16.16971,7.46441 -23.95945,11.85567 -18.96288,10.92767 -35.89569,23.42966 -50.11293,39.75736 -8.59261,9.86838 -15.50527,20.86452 -19.16026,33.24965 -0.78161,3.12058 -1.47831,6.60223 -1.55552,9.55511 -0.12466,6.12796 0.92468,11.76027 3.97227,16.71563 0.24847,0.3668 0.46512,0.7025 0.65495,1.00567 0.0468,0.0761 0.0926,0.14979 0.13693,0.2213 l 0.0665,0.10761 c 0.0365,0.0483 0.0726,0.0958 0.10797,0.14264 0.14157,0.18769 0.27349,0.36251 0.39576,0.52447 0.24489,0.3239 0.45082,0.59668 0.61635,0.81619 0.33176,0.43901 0.50265,0.66532 0.50265,0.66532 z"
@@ -385,22 +402,18 @@
     <text
        xml:space="preserve"
        style="font-size:39.28939438px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="717.88879"
-       y="596.02112"
+       x="676.53333"
+       y="567.73541"
        id="text14613-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan14615-5"
-         x="717.88879"
-         y="596.02112">Telefonía fixa i Internet</tspan><tspan
+         x="676.53333"
+         y="567.73541">Telefonía fixa i Internet</tspan><tspan
          sodipodi:role="line"
-         x="717.88879"
-         y="645.13287"
-         id="tspan14638">fora de l'oligopoli</tspan><tspan
-         sodipodi:role="line"
-         x="717.88879"
-         y="694.24463"
-         id="tspan14660">Ètica, social i econòmica</tspan></text>
+         x="676.53333"
+         y="616.84717"
+         id="tspan14660">fora de l'oligopoli</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot14640"
@@ -426,7 +439,7 @@
        inkscape:connector-curvature="0"
        d="m 0.52163688,1030.3039 743.47977312,0 0,-50.83783 -743.47977312,0 0,50.83783 z"
        id="path28"
-       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        id="text106"
        x="378.7178"
@@ -470,91 +483,67 @@
          id="flowPara14716"></flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="157.3735"
-       y="164.0168"
+       x="145.72693"
+       y="165.78679"
        id="text14792"
        sodipodi:linespacing="125%"
        transform="matrix(0.99557032,-0.09401986,0.09401986,0.99557032,0,0)"><tspan
          sodipodi:role="line"
          id="tspan14794"
-         x="157.3735"
-         y="164.0168">Urdangarins i</tspan><tspan
+         x="145.72693"
+         y="165.78679">Urdangarins i</tspan><tspan
          sodipodi:role="line"
-         x="157.3735"
-         y="191.5168"
+         x="145.72693"
+         y="193.28679"
          id="tspan14796">Ratos a la plantilla</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text14798"
-       y="117.37442"
-       x="387.62976"
+       y="121.44549"
+       x="390.78522"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
        transform="matrix(0.9974544,0.07130717,-0.07130717,0.9974544,0,0)"
        inkscape:transform-center-x="-50.70159"
        inkscape:transform-center-y="2.6237125"><tspan
          id="tspan14802"
-         y="117.37442"
-         x="387.62976"
+         y="121.44549"
+         x="390.78522"
          sodipodi:role="line">L'internet més</tspan><tspan
-         y="144.87444"
-         x="387.62976"
+         y="148.9455"
+         x="390.78522"
          sodipodi:role="line"
          id="tspan14806">car d'Europa</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="165.8663"
-       y="210.27739"
-       id="text14840"
-       sodipodi:linespacing="125%"
-       transform="matrix(0.99677142,0.08029155,-0.08029155,0.99677142,0,0)"><tspan
-         sodipodi:role="line"
-         x="165.8663"
-         y="210.27739"
-         id="tspan14846">Encara lligats al</tspan><tspan
-         sodipodi:role="line"
-         x="165.8663"
-         y="237.77739"
-         id="tspan14898">coure de Telefónica</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="597.44623"
-       y="118.00473"
+       x="622.6095"
+       y="175.29994"
        id="text14863"
        sodipodi:linespacing="125%"
-       transform="matrix(0.99919392,0.04014365,-0.04014365,0.99919392,0,0)"><tspan
-         id="tspan14867"
+       transform="matrix(0.99844866,0.05568013,-0.05568013,0.99844866,0,0)"><tspan
          sodipodi:role="line"
-         x="597.44623"
-         y="118.00473">Acomiadaments,</tspan><tspan
-         sodipodi:role="line"
-         x="597.44623"
-         y="145.50473"
-         id="tspan14871">externalitzacions,</tspan><tspan
-         sodipodi:role="line"
-         x="597.44623"
-         y="173.00473"
-         id="tspan14873">deslocalitzacions...</tspan></text>
+         x="622.6095"
+         y="175.29994"
+         id="tspan15433">Abusos laborals</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text14875"
-       y="219.70193"
-       x="388.26108"
+       y="224.08662"
+       x="429.67926"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
        transform="matrix(0.99999715,-0.00238943,0.00238943,0.99999715,0,0)"><tspan
          id="tspan14881"
-         y="219.70193"
-         x="388.26108"
+         y="224.08662"
+         x="429.67926"
          sodipodi:role="line">Líders en queixes</tspan><tspan
-         y="247.20193"
-         x="388.26108"
+         y="251.58662"
+         x="429.67926"
          sodipodi:role="line"
          id="tspan14890">dels consumidors</tspan><tspan
-         y="274.70193"
-         x="388.26108"
+         y="279.08661"
+         x="429.67926"
          sodipodi:role="line"
          id="tspan14888" /></text>
     <text
@@ -592,18 +581,18 @@
          id="flowPara14924"></flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="606.71002"
-       y="314.289"
+       x="557.1701"
+       y="177.56369"
        id="text14968"
        sodipodi:linespacing="125%"
-       transform="matrix(0.9914404,-0.13056007,0.13056007,0.9914404,0,0)"><tspan
+       transform="matrix(0.99805248,-0.06237982,0.06237982,0.99805248,0,0)"><tspan
          sodipodi:role="line"
-         x="606.71002"
-         y="314.289"
+         x="557.1701"
+         y="177.56369"
          id="tspan14981">Beneficis record</tspan><tspan
          sodipodi:role="line"
-         x="606.71002"
-         y="341.789"
+         x="557.1701"
+         y="205.06369"
          id="tspan14985">durant la crisis</tspan></text>
     <flowRoot
        xml:space="preserve"
@@ -617,7 +606,7 @@
            y="533.1438" /></flowRegion><flowPara
          id="flowPara14993"></flowPara></flowRoot>    <path
        inkscape:connector-curvature="0"
-       d="m 22.598144,940.95022 698.898186,0 0,-165.23852 -698.898186,0 0,165.23852 z"
+       d="m 22.598144,932.95022 698.898186,0 0,-165.23852 -698.898186,0 0,165.23852 z"
        id="path132"
        style="fill:none;stroke:#231f20;stroke-width:0.91913861;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
@@ -638,7 +627,7 @@
          id="tspan14908-5"
          x="370.87283"
          y="313.32227"
-         style="font-size:40.01169968px;fill:#ffffff">I encara nodrim a la bèstia??</tspan></text>
+         style="font-size:40.01169968px;fill:#ffffff">I continuem nodrint a la bèstia!?</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot15077"
@@ -654,7 +643,7 @@
        xml:space="preserve"
        id="flowRoot15085"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Serif;-inkscape-font-specification:Droid Serif"
-       transform="matrix(1.1406802,0,0,0.94239998,129.02336,38.56754)"><flowRegion
+       transform="matrix(1.1406802,0,0,0.94239998,129.02336,30.56754)"><flowRegion
          id="flowRegion15087"><rect
            id="rect15089"
            width="459.05209"
@@ -671,7 +660,7 @@
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Serif;-inkscape-font-specification:Droid Serif"
          id="flowPara15295">Cornella de Llobregat</flowPara></flowRoot>    <g
        id="g15297"
-       transform="matrix(1.0609212,0,0,1.0609212,-1.1867376,-44.862412)">
+       transform="matrix(1.0609212,0,0,1.0609212,3.0874055,-62.86241)">
       <text
          sodipodi:linespacing="125%"
          id="text14995"
@@ -764,7 +753,7 @@
       </g>
     </g>
     <image
-       y="790.71936"
+       y="782.71936"
        x="31.928585"
        id="image15406"
        xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
@@ -1256,5 +1245,44 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 "
        height="137.57144"
        width="137.57144" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="202.77454"
+       y="205.87117"
+       id="text14840"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.99677142,0.08029155,-0.08029155,0.99677142,0,0)"><tspan
+         sodipodi:role="line"
+         x="202.77454"
+         y="205.87117"
+         id="tspan14846">Mercat cautiu de la</tspan><tspan
+         sodipodi:role="line"
+         x="202.77454"
+         y="233.37117"
+         id="tspan14898">xarxa de Telefónica</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15456"
+       y="676.59253"
+       x="371.80139"
+       style="font-size:39.28939438px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"><tspan
+         id="tspan15460"
+         y="676.59253"
+         x="371.80139"
+         sodipodi:role="line">Local, Ètica, Social, Econòmica</tspan></text>
+    <text
+       transform="matrix(0.99479253,-0.10192071,0.10192071,0.99479253,0,0)"
+       sodipodi:linespacing="125%"
+       id="text16251"
+       y="305.3779"
+       x="590.23767"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"><tspan
+         id="tspan16255"
+         y="305.3779"
+         x="590.23767"
+         sodipodi:role="line">Evasió fiscal</tspan></text>
   </g>
 </svg>
