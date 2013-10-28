@@ -84,7 +84,6 @@ Guifibaix vendría a cubrir dicha carencia.
 ### Víctor Viudez {-}
 
 - Ingeniero en Sistemas Informáticos por la Universitat Politècnica de Catalunya
-- Ha diseñado y montado los sistemas 
 
 
 ### David García Garzón {-}
@@ -93,11 +92,12 @@ Guifibaix vendría a cubrir dicha carencia.
 - Máster en Tecnologías de la Información, la Comunicación y los Medios Audiovisuales por la Universidad Pompeu Fabra.
 - Profesor del Departamento de Tecnología de la Universidad Pompeu Fabra.
 - Investigador en campos en como el sonido y la ingeniería del software en diversos institutos como el Music Technology Group de la UPF y el grupo de audio de Barcelona Media. 
+- Ha participado como socio y trabajador en un par de start-ups tecnológicas (BMAT i immSound)
 - Activista y desarrollador de software libre.
 - Miembro del 15M de Sant Joan Despí y responsable de la campaña Desconexion IBEX35
 
-### Aitor Pueyo {-}
 
+### Aitor Pueyo {-}
 
 - Técnico superior en instalaciones electrotécnicas.
 - Ha realizado cursos de electricista industrial.
@@ -106,7 +106,14 @@ Guifibaix vendría a cubrir dicha carencia.
 - Miembro del 15M Sant Joan Despí, la CNT-AIT de Cornellà y la distribuidora-librería El Grillo Libertario 
 
 
-### Raúl Beas {-}
+### Raúl Beas Hernández {-}
+
+- Técnico auxiliar en electrónica en el Centro de Estudios Llobregat
+- 15 años de experiencia en trabajos de albañileria y instalaciones
+- Curso de Mantenimiento de Sistemas Industriales y Producción Automatizada
+- Curso de Instalaciones de Energías Renovables en edificios
+- Cursos de Emprendedoría en el Area de Promoció Econòmica, Comerç i Turisme del Ayuntamiento del Prat de Llobregat
+
 
 ### Raúl Sanz Serrano {-}
 
