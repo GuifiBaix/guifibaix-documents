@@ -397,6 +397,11 @@ es muy posible que negocien con GuifiBaix.
 Pero GuifiBaix ajusta sus precios a los costos y no tiene margen de maniobra
 más allá de poner y quitar prestaciones.
 
+TODO: Seguir con los otros segmentos de precios
+
+- El precio tipico del adsl 40-50
+- Gente que esta pagando mucho mas 120€
+
 
 #### Respecto a situaciones de dependéncia con el anterior proveedor
 
