@@ -93,21 +93,35 @@ Guifibaix vendría a cubrir dicho espacio.
 
 ## Los promotores
 
+\begin{wrapfigure}{r}{0.28\textwidth}
+    \includegraphics[width=0.25\textwidth]{VictorViudez.jpg}
+\end{wrapfigure}
+
 ### Víctor Viudez {-}
 
-- Ingeniero en Sistemas Informáticos por la Universitat Politècnica de Catalunya
+- Ingeniero Técnico en Informática de Sistemas por la Universitat Politècnica de Catalunya
+- Experto en sistemas de virtualización y redes de datos.
+- 20 años de experiencia en empresas de servicios informáticos, trato con clientes, gestión de soporte, dando servicio a empresas de gran volumen incluso a nivel internacional.
+- Experto en sistemas web
 
+\begin{wrapfigure}{r}{0.28\textwidth}
+    \includegraphics[width=0.25\textwidth]{DavidGarciaGarzon.png}
+\end{wrapfigure}
 
 ### David García Garzón {-}
 
 - Ingeniero Informático por la Universidad Ramón Llull.
 - Máster en Tecnologías de la Información, la Comunicación y los Medios Audiovisuales por la Universidad Pompeu Fabra.
 - Profesor del Departamento de Tecnología de la Universidad Pompeu Fabra.
-- Investigador en campos en como el sonido y la ingeniería del software en diversos institutos como el Music Technology Group de la UPF y el grupo de audio de Barcelona Media. 
-- Ha participado como socio y trabajador en un par de start-ups tecnológicas (BMAT i immSound)
-- Activista y desarrollador de software libre.
+- Investigador experto en los ámbitos de la Ingeniería del Software, Metodologías Ágiles, Calidad del Software y Audio Digital.
+- Ha participado como socio y trabajador en varias start-ups tecnológicas.
+- Desarrollador y activista en pro del software libre.
 - Miembro del 15M de Sant Joan Despí y responsable de la campaña Desconexion IBEX35
 
+
+\begin{wrapfigure}{r}{0.28\textwidth}
+    \includegraphics[width=0.25\textwidth]{Anonymous.jpg}
+\end{wrapfigure}
 
 ### Aitor Pueyo {-}
 
@@ -118,9 +132,12 @@ Guifibaix vendría a cubrir dicho espacio.
 - Miembro del 15M Sant Joan Despí, la CNT-AIT de Cornellà y la distribuidora-librería El Grillo Libertario 
 
 
+\begin{wrapfigure}{r}{0.28\textwidth}
+    \includegraphics[width=0.25\textwidth]{RaulBeas.jpg}
+\end{wrapfigure}
+
 ### Raúl Beas Hernández {-}
 
-![Raul Beas](RaulBeas.jpg)
 
 - Técnico auxiliar en electrónica en el Centro de Estudios Llobregat
 - 15 años de experiencia en trabajos de albañileria y instalaciones
@@ -128,6 +145,9 @@ Guifibaix vendría a cubrir dicho espacio.
 - Curso de Instalaciones de Energías Renovables en edificios
 - Cursos de Emprendedoría en el Area de Promoció Econòmica, Comerç i Turisme del Ayuntamiento del Prat de Llobregat
 
+\begin{wrapfigure}{r}{0.28\textwidth}
+    \includegraphics[width=0.25\textwidth]{RaulSanz.jpg}
+\end{wrapfigure}
 
 ### Raúl Sanz Serrano {-}
 
