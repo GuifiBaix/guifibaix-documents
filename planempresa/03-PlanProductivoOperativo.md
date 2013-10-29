@@ -261,7 +261,7 @@ en los que no haya tela asfáltica para evitar la perforación de la misma.
 
 - Se usarán materiales homologados
 - El cable la instalación eléctrica serán mangueras aisladas y preparadas para exteriores.
-- Los orificios de calado que hagamos en la pared estarán sellados con silicona para impermeabilización y aislamiento térmico.
+- Los orificios de calado que hagamos en la pared estarán sellados con silicona para tener impermeabilidad y aislamiento térmico.
 - Los orificios de sujeción tambien llevarán silicona para mayor sujeción del taco.
 - Los cables de electricidad se instalarán a mínimo 3 cm por debajo de cualquier canalización de gas existente según especifica la normativa.
 
@@ -277,7 +277,19 @@ TODO:
 
 Respecto al software:
 
-TODO:
+Para mantener la calidad en el software desarrollado
+se seguirán metodologías ágiles y de código abierto.
+
+- Sistemas de control de versiones
+- Sistemas de control de incidencias
+- Separación entre las instalaciones de desarrollo, testeo y producción
+- Iteraciones cortas
+- Desarrollo conducido por pruebas
+- Programación entre pares
+- Revisiones metodológicas semanales
+- Refactorizaciones
+- Cliente incrustado en el equipo de desarrollo
+- Fuentes abiertas
 
 
 ## Equipo y infraestructura
