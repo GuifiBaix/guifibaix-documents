@@ -555,39 +555,45 @@ Hay tres tipos de actores ante los cuales nuestra actitud sera diferente:
 
 ## Precios
 
-- Posicionamiento: Para que sea atractivo
-	- Pago inicial que no asuste
-	- Amortización en pocos meses
+Los principales atractivos que podemos ofrecer a las personas interesadas es por un lado, 
+que somos una alternativa a las grandes empresas y, por otro, que ofrecemos unos precios más ajustados.
 
-- Costes directos
-	- Material
-	- Mano de obra
-	- Configuración
-	- Mantenimiento
+Los pagos que realizan los usuarios son para costear la instalación y el servicio de mantenimiento de la red.
 
-- Costes indirectos
-	- Red de soporte
-	- Caudal propio
-	- Gestión
-	- Desarrollo y mantenimiento de servicios
-	- TODO: lo que se ha ido hablando por aquí
+El coste de la instalación se realiza en base a un presupuesto que analice las horas de mano de obra 
+y el material utilizado y que puede oscilar entre los 150 y 300€. 
+Esta cantidad los usuarios la pueden amortizar en un periodo de entre 6 y 12 meses, 
+dependiendo de lo que cada uno esté pagando hasta ese momento. 
 
-- Conceptos de cobros
-	- Instalación
-	- Cuotas trimestrales
-	- Altas telefonía IP
-	- Mensualidad telefonía IP
-	- ADSL's compartidos
+TODO: Añadir cuadro de amortización.
+
+Mensualmente, los usuarios realizarán un pago a la comunidad de 12€ + IVA en concepto 
+de mantenimiento de la red. Parte de esta cuota se abona como descuento 
+a aquellos usuarios que comparten su ADSL y que se les descuenta de la cuota de la comunidad de vecinos. 
+El resto (unos 6€ por vecino) servirá para pagar los costes del servicio.
+Mensualmente los usuarios realizarán un pago a Guifibaix en concepto a los servicios de telefonía IP 
+que tengan contratados 
+
+TODO: ¿Quien les genera las facturas con los detalles de consumos?
 
 
 ## Distribución
 
-- Como llegamos a los clientes
-	- Conocidos nuestros y boca a boca
-	- Charlas
-	- Ferias de entidades locales
-	- Gestorías
-	- Cartelería
+Con voluntad de diferenciarnos con las prácticas invasivas de las grandes empresas de telecomunicaciones, 
+apostamos por un modelo de difusión de carácter más local, basándono por relaciones personales.
+
+En este caso, la primera fase de difusión se basará en el boca – oreja entre amigos, 
+familiares, conocidos y personas interesadas en este proyecto.
+
+Se acompañará esta fase con diferentes charlas y conferencias, participando de manera constructiva 
+con entidades y asociaciones que compartamos valores similares 
+(asociaciones de vecinos, proyectos de consumo responsable, cooperativas sin ánimo de lucro...) 
+y participando en ferias locales.
+
+En zonas donde no tengamos estos contactos, iniciaremos campañas concretas para darnos a conocer 
+mediante carteles y visitas a gestorías que lleven a comunidades de vecinos.
+
+
 
 ## Previsiones de ventas
 
