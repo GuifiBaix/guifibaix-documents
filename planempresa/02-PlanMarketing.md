@@ -90,10 +90,28 @@ a bajar precios, aunque sea temporalmente, desarmarían este aspecto.
 
 ### Servicios futuros
 
-- Conectividad común de alta capacidad
+- Conectividad común de alta capacidad mediante puntos de acceso de fibra óptica o operadores terceros que ofrezcan conectividad a nodos neutros.
 - Telefonía IP como distribuidores directos, no solo como comercializadores
-	- Nos permitirá aplicar descuentos
-
+	- Nos permitirá definir tarifas propias y más ajustadas
+	- Nos permitirá gestionar mejor el soporte al usuario
+	- Los usuarios verán el producto como un solo paquete
+- Gestionar la telefonía IP mediante una centralita propias lo cual permitirá ofrecer servicios como:
+	- Redirección de llamadas
+	- Buzón de voz
+	- Numeración corta
+	- Llamadas en grupo
+	- Servicios vídeo conferencia
+- Otros servicios internos para los usuarios
+	- Promoción interna de comercios y empresas de la zona
+	- Otros cursos presenciales
+	- Plataforma para ofrecer cursos en linea
+	- Vídeo club virtual
+- Ampliar servicios para tener cobertura de Telefonía Móvil
+- Servicios de tele-asistencia a personas que se pueden encontrar en situaciones de riesgo sin nadie que les ayude.
+- Servicios a la pequeña y mediana empresa local
+	- Alojamiento de servicios informáticos a empresas locales
+	- Interconexión de sedes de empresas locales o interempresas
+	- Escaparate virtual para el pequeño comercio de la zona
 
 ## Mercado
 
@@ -115,7 +133,7 @@ que determinan la expansión geográfica de la oferta.
 
 Las antenas que instalamos requieren una visión directa a distancia limitada entre ellas.
 Por eso, tiene sentido empezar con islas de unos pocos nodos en un núcleo urbano dado
-para después densificar la red al mismo tiempo que se expande a las conurbaciones.
+para después densificar la red al mismo tiempo que se expande dentro de la conurbación.
 Para conectar nodos distantes que salven zonas interurbanas,
 se usan enlaces punto a punto que son más caros que las antenas que solemos poner.
 
@@ -350,12 +368,12 @@ Hay casos en que esto no se da, por ejemplo:
 	En cualquier caso, los vecinos en alquiler son casos más complicados de ofrecer una solución simple.
 	La fórmula no depende de nosotros y complica la dinámica de venta.
 
-- **Gestión con empresas municipales (ADSA y otros):**
+- **Comunidades gestionadas por empresas municipales:**
 	Hay edificios en los que la propiedad es de una empresa municipal,
-	como es el caso de ADSA en Sant Joan Despí.
-	En estos casos, nos encontramos que no existe una comunidad de propietarios,
-	y muchos de los gastos los realiza la empresa municipal,
-	transfiriéndoselos a los vecinos mediante su cuota.
+	como pueden ser las edificaciones de protección oficial.
+	En estos casos, es frecuente que no exista una comunidad de propietarios,
+	y los cobros son gestionados por dicha empresa,
+	transfiriéndoles gastos a los vecinos mediante una cuota.
 
 	En estos casos, habría que negociar una fórmula con la empresa municipal o
 	sugerir a los vecinos de buscar otras fórmulas asociativas para poder gestionar
@@ -392,14 +410,14 @@ El siguiente segmento de precios son los usuarios
 que han negociado duramente sus condiciones contractuales con su proveedor anterior.
 Tenemos noticia de personas que han conseguido precios de poco mas de 30€+IVA.
 Empresas como Jazztel son las que rebajan los precios de forma más agresiva.
-Igual que negociaron con su anterior compañia,
+Igual que negociaron con su anterior compañía,
 es muy posible que negocien con GuifiBaix.
 Pero GuifiBaix ajusta sus precios a los costos y no tiene margen de maniobra
 más allá de poner y quitar prestaciones.
 
-TLos usuarios que no han negociado con su operador de telefonía y están pagando entre 40-50€, 
-son usuarios a quienes podemos enfatizar en el ahorro mensual que supone la conexión mediante guifi.net. Además, 
-tendrían amortizada la instalación de la antena en menos de un año
+Los usuarios que no han negociado con su operador de telefonía y están pagando entre 40-50€, 
+son usuarios a quienes podemos enfatizar en el ahorro mensual que supone la conexión mediante guifi.net.
+Además, tendrían amortizada la instalación de la antena en menos de un año.
 
 Los usuarios que pagan más de 120€, se debe analizar los servicios contratados y verificar que podemos ofrecer
 los mismos servicios.
@@ -496,8 +514,16 @@ Hay tres tipos de actores ante los cuales nuestra actitud sera diferente:
 * Otros instaladores de guifi.net (Colaboración)
 
 
-#### Empresas que ofertan ADSL
+#### Operadoras del oligopolio
 
+Nuestro producto pretende substituir a las grandes compañías
+que ofertan servicios de conectividad a Internet y telefonía fija.
+La mayoría de empresas están ofertando su servicio ADSL
+mediante las líneas de cobre de Telefónica/Movistar,
+que prácticamente mantiene el monopolio de las líneas de acceso.
+Esto limita el margen de negocio para la mayoría de las comercializadoras.
+
+Algunos operadores como ONO tienen lineas propias, normalmente de fibra óptica y tendrían más margen si hubiera una escalada de precios a la baja.
 
 
 #### Redes alternativas y instaladores de guifi.net existentes
@@ -512,6 +538,7 @@ Hay tres tipos de actores ante los cuales nuestra actitud sera diferente:
 * Otras iniciativas colaborativas interesantes:
 	* [Marsupi.org](http://marsupi.org/) (ONG, con autónomos trabajando, en Cataluña, mobilidad por todo el estado)
 	* [delanIT](http://delanit.net/)
+	* [Som Connexio](http://somconnexio.org) 
 	* [rLan](http://www.rlan.biz/spain/) (Barcelona ciutat, fibra óptica pública, en expansió)
 	* [Xarxa SenseFils Cooperativa](http://xsf-coop.net/) (Barcelona ciutat)
 * Mas empresas en el resto del estado:

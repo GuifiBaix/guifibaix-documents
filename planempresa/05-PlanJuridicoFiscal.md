@@ -67,7 +67,8 @@ Los impresos se descargan todos de la web para evitar el coste de 2€ cada uno.
 
 Los trabajadores contratados, incluidos los socios,
 cotizarán al regimen general de la seguridad social.
-Se estima el coste como aproximadamente un 35% de la masa salarial.
+Se estima el coste de los pagos a la seguridad social
+como aproximadamente un 35% de la masa salarial.
 
 ## Contratación
 
@@ -78,12 +79,26 @@ A medida de que aumenten los ingresos, se aumentarán las horas de trabajo.
 En casos puntuales, se puede optar por contratar a una persona no socia. Se le realizaría un contrato por obra y servicio
 y el nº de horas a trabajar no podría superar el 30% de las horas trabajadas por los socios. 
 
+TODO: Preguntar a GATS costes laborales del contrato por obra
 
 ## Obligaciones fiscales
 
+- IRPF:
+- IBI: No hay local, no hay galletita
+- IAE: 
+- IVA: 
+
+
+
 ## Permisos y licencias
 
+En el momento en que se comience a ofrecer conectividad propia de la cooperativa,
+o cuando pase de ser comercializadora a distribuidora de Telefonia IP,
+será necesario el registro en la CMT como proveedor de servicios de telecomunicaciones.
+
 ## Seguros
+
+
 
 ## Patentes, marcas y registros
 

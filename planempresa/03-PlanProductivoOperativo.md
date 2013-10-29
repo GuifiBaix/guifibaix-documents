@@ -424,12 +424,17 @@ Los retales de cable se venderán a una empresa recuperadora de residuos.
 ### Emisiones
 
 Los servidores, dado que están funcionando de forma continua,
-tienen un consuimo eléctrico continuado.
-Para minimizar el impacto que ello produce en el medio ambiente,
+tienen un consumo eléctrico continuado.
+Sin embargo, al poder gestionar los servidores mediante virtualización,
+nos permite aprovisionar las máquinas bajo demanda,
+manteniendolas apagadas en los momentos en los que no tienen carga de trabajo.
+
+Además, para minimizar el impacto que ello produce en el medio ambiente,
 a parte de buscar componentes eficientes,
 se contratará la luz con una empresa cooperativa
 que comercializa solo energia procedente de renovables
 con sus correspondientes certificados.
+
 
 
 
