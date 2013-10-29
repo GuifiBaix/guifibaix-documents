@@ -32,23 +32,27 @@
 
 ## Puntos débiles
 
+- Pueden existir instalaciones complejas
 * Pruebas de estrés
 	* Cuantos videos en streaming se soportan simultaneamente sobre un ADSL
 	* Cuantas antenas pueden sobrelaparse sin que degenere el tráfico
 * Nuestros equipos estan en casa de los usuarios, el acceso físico a los equipos puede ser un handicap.
 * La densidad de antenas puede tener un límite o simplemente degenerar
 * Que con un ADSL por cada cinco vecinos no sea suficiente
-
 - Pueden existir instalaciones complejas
+- Recursos limitados tanto económicamente como en algunos materiales
 
 ## Oportunidades externas
 
 - Producto novedoso aunque ya lleva años funcionando en otros puntos del territorio
+- Búsqueda de ahorro por parte de los usuarios
+- Hay usuarios que están descontentos con el oligopolio y buscan formas alternativas
+- Colaboración con otros proyectos similares a nosotrxs en cuanto a valores éticos (somenergia, arç...)
 
 ## Amenazas externas
 
-- Pueden existir instalaciones complejas
 - Competencia en el mercado sobre precios
+- Que la tenge se cuestione si es legal nuestra actividad
 - Interferencias externas
 - 	* Que las telefonicas empiecen a hacer campaña de FUD contra nosotros
 		* Hacer charlas informativas para desmontar esos bulos
