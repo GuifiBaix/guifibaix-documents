@@ -397,10 +397,12 @@ es muy posible que negocien con GuifiBaix.
 Pero GuifiBaix ajusta sus precios a los costos y no tiene margen de maniobra
 más allá de poner y quitar prestaciones.
 
-TODO: Seguir con los otros segmentos de precios
+TLos usuarios que no han negociado con su operador de telefonía y están pagando entre 40-50€, 
+son usuarios a quienes podemos enfatizar en el ahorro mensual que supone la conexión mediante guifi.net. Además, 
+tendrían amortizada la instalación de la antena en menos de un año
 
-- El precio tipico del adsl 40-50
-- Gente que esta pagando mucho mas 120€
+Los usuarios que pagan más de 120€, se debe analizar los servicios contratados y verificar que podemos ofrecer
+los mismos servicios.
 
 
 #### Respecto a situaciones de dependéncia con el anterior proveedor
