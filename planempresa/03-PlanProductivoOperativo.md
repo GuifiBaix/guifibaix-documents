@@ -224,7 +224,7 @@ en caso de que los vecinos no estén en sus domicilios (mínimo de media hora)
 
 ### Procedimiento para la prestación del servicio
 
-# Soporte y atención al cliente
+- Soporte y atención al cliente
 	- Es imprescindible tener medios de contacto concretos para que los clientes puedan ponerse en contacto con nosotros.
 		- Correo electrónico:  contacte@guifibaix.coop
 		- Teléfono: conseguir un número de teléfono IP para la atención al cliente. A nivel interno conseguir una 
@@ -248,7 +248,7 @@ en caso de que los vecinos no estén en sus domicilios (mínimo de media hora)
 		- Relación con otros proyectos cooperativos - desconexión IBEX 35
 		- Participar en eventos (ferias...)
 		- Posibles descuentos en comercios o material informático (proveedores)
-# Marqueting
+- Marqueting
 	- Herramientas de difusión on-line:
 		- Guifibaix.coop
 		- Redes sociales
@@ -266,15 +266,15 @@ en caso de que los vecinos no estén en sus domicilios (mínimo de media hora)
 		- Calendario de ferias y eventos
 		- Contactos con otras webs
 		- Establecer contactos con entidades y asociaciones afines para informar y dar charlas del proyecto
-# Mantenimiento
+- Mantenimiento
 	- Actualizaciones de sofware
 	- Mismas herramientas de instalación
 	- Herramientas de monitorización
-# Desarrollo de software
+- Desarrollo de software
 	- Estar atentos a las necesidades de los usuarios para desarrollar servicios y aplicaciones de valor añadido. 
 		- OwnClound (descargas compartidas...)
 		- Correo electrónico
-# Desarrollo de redes
+- Desarrollo de redes
 	- Conexiones de islas 
 	- Interconexiones con otras redes (Guifinet)
 	- Conseguir conectividad directa con fibra óptica.
