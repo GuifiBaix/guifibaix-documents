@@ -215,8 +215,11 @@ son las siguientes:
 
 ### Retribución de los promotores
 
-Los beneficios de la empresa se distribuirán semestralmente
-a partes iguales entre los socios.
+Guifibaix es una cooperativa sin ánimo de lucro, por lo que los beneficios que pudieran existir se 
+reinvertirá en la cooperativa, como fondo de aprovisionamiento, como formación o 
+en el apoyo a proyectos concretos que decidamos.
+
+Los promotores recibirían un salario que podría variar a medida de que aumenten los ingresos.
 
 
 ### Salarios
