@@ -139,6 +139,22 @@ Más adelante, una vez se vayan agotando los contactos personales,
 se considerará incorporar alguien especializado en esta función.
 
 
+### Facilitador
+
+Las tareas que desempeña este perfil son:
+
+- Proporcionar metodologías de trabajo en equipo y vigilar que se sigan
+- Facilitar la productividad de las reuniones
+- Recopilar las tareas priorizadas para la reunión semanal de planificación
+- Suaviza los obstáculos o distracciones que los miembros del equipo encuentren para hacer sus tareas.
+
+Las tareas de este perfil las desempeña principalmente el socio trabajador David García,
+aunque la idea es que,
+medida que el resto del equipo se familiarice con las metodologías usadas,
+este rol pueda ir circulando entre los miembros
+y así coger experiencia por si en algún momento tenemos que dividirnos en varios equipos.
+
+
 ## Gestión de personal
 
 ### Proceso de selección
