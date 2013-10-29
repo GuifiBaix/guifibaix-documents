@@ -16,14 +16,11 @@
 
 ## Prestación del producto/servicio
 
-TODO: Elaborar mas como se va a organizar la informacion en este capítulo
-
-Para estimar las instalaciones consideramos una instalación media
-de un edificio, con 10 domicilios que se quieren conectar en 4 verticales.
+Cada instalación es diferente y tendrás sus características propias, pero a grosso modo se seguirán los siguientes pasos:
 
 
 
-### Procedimiento
+### Procedimiento para la instalación
 
 Una instalación típica a una comunidad consta de los siguientes pasos:
 
@@ -31,7 +28,7 @@ Una instalación típica a una comunidad consta de los siguientes pasos:
 - Medición
 - Elaboración del presupuesto
 - Reunión con los vecinos
-- Aceptación de presupuesto y inicio de obra
+- Aceptación de presupuesto e inicio de obra
 - Compras
 	- Antenas
 	- Cableado
@@ -41,13 +38,47 @@ Una instalación típica a una comunidad consta de los siguientes pasos:
 	- Configuración del routers
 	- Configuración de los adaptadores de telefonía IP
 	- Preparación de las cajas estancas
+
 - Instalación común
-	- Colocación de la antena
-		- Colocación del mástil
-			- No es necesaria si se reaprovecha un mástil existente
-			- En caso de que el mástil sea alto se considerará el uso de tensores
-		- Fijación y orientación de la antena
-	- Instalación eléctrica para hacer llegar la luz comunitaria a la caja principal
+        - Colocación de la antena
+                - Colocación del mástil
+                        - No es necesaria si se reaprovecha un mástil existente
+                        - En caso de que el mástil sea alto se considerará el uso de tensores
+                - Fijación y orientación de la antena
+        - Instalación eléctrica para hacer llegar la luz comunitaria a la caja principal
+        - Instalación caja estanca principal
+                - Acollar la caja
+                - Parte electrica
+                - Parte de datos
+                - Probar el router
+        - Despliegue de cables eléctricos hacia las cajas de distribución
+        - Instalación cajas de distribución
+                - Acollado de la caja
+                - Empalme electrico
+                - Prueba que el switch funciona
+        - Despliegue de cableado de datos hacia las cajas de distribución
+        - Prueba de conectividad de los switches
+- Instalación a cada vivienda
+        - Desplegar los cables de datos verticales
+        - Traspasar el cable hacia la vivienda
+        - Grimpado del cajetin
+        - Acollar cajetin
+        - Prueba de connexión
+        - Acollar adaptador telefonía IP
+        - Prueba del adaptador IP
+- Configuración del router ADSL, cuando sea necesario, para que funcione bien con la antena.
+A parte de éstas, 
+hay otras actividades que no están ligadas a la instalación.
+### Tecnologías y herramientas
+Las herramientas que son necesarias para hacer una instalación son las siguientes:
+- Vehículo para transportar el material (se usará uno propio)
+- Walkie-talkies
+- Equipos de Protección Individual de Seguridad (EPIS):
+        - Arneses, cuerdas, mosquetones...
+        - Botas
+Commit summary: Extended description: (optional)
+Galico aitor.pueyo@guifibaix.coop
+
 	- Instalación caja estanca principal
 		- Acollar la caja
 		- Parte electrica
@@ -70,65 +101,8 @@ Una instalación típica a una comunidad consta de los siguientes pasos:
 	- Prueba del adaptador IP
 - Configuración del router ADSL, cuando sea necesario, para que funcione bien con la antena.
 
-A parte de estas, 
+A parte de éstas, 
 hay otras actividades que no están ligadas a la instalación.
-
-TODO: Hay que repartir esto a las diferentes secciones
-
-- Soporte y atención al cliente
-	- Es imprescindible tener medios de contacto concretos para que los clientes puedan ponerse en contacto con nosotros.
-		- Correo electrónico:  contate@guifibaix.coop
-		- Teléfono: TODO: Mirar si se puede poner teléfono IP en los móviles y que se puedan desviar a distintos móviles.
-		- Sitio físico: En la medida de lo posible, establecer un sitio físico para recibir posibles clientes.
-			Llegar a acuerdos con las asociaciones de vecinos para poder utilizar sus espacios de manera puntual.
-	- BBDD de clientes e incidencias.
-	- Herramienta (bancaria?) para gestionar los ingresos.
-	- Herramienta de monitorización que permita ver las conexiones y poder actuar ante fallos. 
-	- Establecer un manual con las posibles incidencias y soluciones.
-	- Tener la capacidad de, que si no se puede solucionar por teléfono, poder estar allí en un máximo de 36h. TODO: Concretar
-	- Herramientas:
-		- Informáticas: Ordenador para gestionar las incidencias, monitorizar conexiones y realizar pruebas de conectividades
-		- Sustinución de elementos por avería (antenas, routers, swichts, conectores...)
-		- Aparatos para verificar conexiones
-	- Valorar la creación de una asociación de usuarios de Guifibaix en la que poder desarrollar actividades complementarias:
-		- Comercio solidario
-		- Talleres
-		- Relación con otros proyectos cooperativos - desconexión IBEX 35
-		- Participar en eventos (ferias...)
-		- Posibles descuentos en comercios o material informático (proveedores)
-- Marqueting
-	- Herramientas de difusión on-line:
-		- Guifibaix.coop
-		- Redes sociales
-		- Participación en foros y otras páginas webs.
-	- Folletos y documentos
-		- Volantes
-		- Carteles
-		- Dosieres técnicos informativos
-	- Ferias y eventos
-		- Pancartas
-		- Carpas y mesas
-		- Elementos de promoción (chapas, pegatinas, llaveros...)
-		- Camisetas (para los socios)
-	- Definir la estrategia:
-		- Calendario de ferias y eventos
-		- Contactos con otras webs
-		- Establecer contactos con entidades y asociaciones afines para informar y dar charlas del proyecto
-- Mantenimiento
-	- Actualizaciones de sofware
-	- Mismas herramientas de instalación
-	- Herramientas de monitorización
-	- TODO: Pendiente
-- Desarrollo de software
-	- Estar atentos a las necesidades de los usuarios para desarrollar servicios y aplicaciones de valor añadido. 
-		- OwnClound (descargas compartidas...)
-		- Correo electrónico
-- Desarrollo de redes
-	- Conexiones de islas 
-	- Interconexiones con otras redes (Guifinet)
-	- Conseguir conectividad directa con fibra óptica.
-	- Estar al tanto de las evoluciones y las actualizaciones.
-
 
 
 ### Tecnologías y herramientas
@@ -249,7 +223,63 @@ Adaptador Teléfono                                 1     27,23 €        27,23
 
 TODO: Revisar que falta
 
-## Calidad
+### Procedimiento para la prestación del servicio
+
+# Soporte y atención al cliente
+	- Es imprescindible tener medios de contacto concretos para que los clientes puedan ponerse en contacto con nosotros.
+		- Correo electrónico:  contacte@guifibaix.coop
+		- Teléfono: TODO: Mirar si se puede poner teléfono IP en los móviles y que se puedan desviar a distintos móviles.
+		- Sitio físico: En la medida de lo posible, establecer un sitio físico para recibir posibles clientes.
+			Llegar a acuerdos con las asociaciones de vecinos para poder utilizar sus espacios de manera puntual.
+	- BBDD de clientes e incidencias.
+	- Herramienta (bancaria?) para gestionar los ingresos.
+	- Herramienta de monitorización que permita ver las conexiones y poder actuar ante fallos. 
+	- Establecer un manual con las posibles incidencias y soluciones.
+	- Tener la capacidad de, que si no se puede solucionar por teléfono, poder estar allí en un máximo de 36h. TODO: Concretar
+	- Herramientas:
+		- Informáticas: Ordenador para gestionar las incidencias, monitorizar conexiones y realizar pruebas de conectividades
+		- Sustinución de elementos por avería (antenas, routers, swichts, conectores...)
+		- Aparatos para verificar conexiones
+	- Valorar la creación de una asociación de usuarios de Guifibaix en la que poder desarrollar actividades complementarias:
+		- Comercio solidario
+		- Talleres
+		- Relación con otros proyectos cooperativos - desconexión IBEX 35
+		- Participar en eventos (ferias...)
+		- Posibles descuentos en comercios o material informático (proveedores)
+# Marqueting
+	- Herramientas de difusión on-line:
+		- Guifibaix.coop
+		- Redes sociales
+		- Participación en foros y otras páginas webs.
+	- Folletos y documentos
+		- Volantes
+		- Carteles
+		- Dosieres técnicos informativos
+	- Ferias y eventos
+		- Pancartas
+		- Carpas y mesas
+		- Elementos de promoción (chapas, pegatinas, llaveros...)
+		- Camisetas (para los socios)
+	- Definir la estrategia:
+		- Calendario de ferias y eventos
+		- Contactos con otras webs
+		- Establecer contactos con entidades y asociaciones afines para informar y dar charlas del proyecto
+# Mantenimiento
+	- Actualizaciones de sofware
+	- Mismas herramientas de instalación
+	- Herramientas de monitorización
+	- TODO: Pendiente
+# Desarrollo de software
+	- Estar atentos a las necesidades de los usuarios para desarrollar servicios y aplicaciones de valor añadido. 
+		- OwnClound (descargas compartidas...)
+		- Correo electrónico
+# Desarrollo de redes
+	- Conexiones de islas 
+	- Interconexiones con otras redes (Guifinet)
+	- Conseguir conectividad directa con fibra óptica.
+	- Estar al tanto de las evoluciones y las actualizaciones.
+
+### Calidad
 
 Respecto a la instalación se realizarán las siguientes medidas para asegurar la calidad:
 
@@ -264,16 +294,21 @@ en los que no haya tela asfáltica para evitar la perforación de la misma.
 - Los orificios de calado que hagamos en la pared estarán sellados con silicona para tener impermeabilidad y aislamiento térmico.
 - Los orificios de sujeción tambien llevarán silicona para mayor sujeción del taco.
 - Los cables de electricidad se instalarán a mínimo 3 cm por debajo de cualquier canalización de gas existente según especifica la normativa.
+- Revisión de la conectividad de la instalación
 
-TODO: Que normativa dice lo del gas
+TODO: normativa gas
 
-Respecto a la conectividad:
 
-TODO:
+Respecto a la conectividad, se realizarán las siguientes medidas para asegurar la calidad:
 
-Respecto a la atención al cliente:
+- Monitorización del funcionamiento correcto de las antenas y equipos.
+- Monitorización del volúmen de datos transferidos, para confirmar el correcto uso de las redes y/o redimensionar la red.
 
-TODO:
+
+Para lograr una correcta atención al cliente, se seguirán los siguientes puntos:
+- Formación básica a los usuarios, para que puedan hacer correcto uso de la red y puedan identificar qué es una incidencia.
+- Registro de incidencias e informes periódicos para poder atacar las más usuales.
+- Elaborar manuales para usuarios donde puedan encontrar soluciones a las incidencias más comunes.
 
 Respecto al software:
 
@@ -301,19 +336,19 @@ se seguirán metodologías ágiles y de código abierto.
 
 ## Seguridad
 
+- Reglamento electrotécnico para baja tensión - Real Decreto 842/2002 del 2 de Agosto 
+- Gas
+- Obras 
 TODO: Normativa que se nos aplica
 
 Haciendo las instalaciones los trabajadores
 estarán expuestos a varios riesgos principales:
 
-- Se trabaja en altura, en azoteas y asomados a balcones
-y el riesgo principal es el de caídas.
-- También se trabaja con instalaciónes eléctricas
-y hay riesgo de shock eléctrico.
-- Se usan herramientas peligrosas tales como taladros, martillos...
-
-
-TODO: mejor forma de decir shock eléctrico
+- Se trabaja en altura, en azoteas y asomados a balcones y el riesgo principal es el de caídas.
+- También se trabaja con instalaciónes eléctricas y hay riesgo de descarga eléctrica.
+- Se usan herramientas peligrosas tales como taladros, martillos, radial...
+- Posturas forzadas en las instalaciones.
+- Caída de materiales encima del trabajador.
 
 Como medida general, y exigida por la normativa vigente,
 los instaladores acreditaran haber hecho con la empresa
@@ -332,7 +367,7 @@ Para evitar el riesgo que implica el trabajo con **instalaciones eléctricas**:
 estarán debidamente acreditados para hacerlas.
 - Mientras que se esté haciendo el empalme a la luz de la comunidad,
 desde la caja de luces existenta hacia la caja principal de la instalación,
-se pondrá un candado en el PIA del la comunidad.
+se pondrá un candado en el PIA de la comunidad.
 - En la caja principal habrá un interruptor que se mantendrá cerrado
 mientras se haga el resto la instalación elèctrica.
 - Para evitar la manipulación accidental del interruptor,
@@ -349,6 +384,17 @@ TODO: revisar seguridad chispas con Aitor
 Para evitar los riesgos con **herramientas peligrosas**,
 
 - Se aplicarán los conocimientos aprendidos en los cursos de PRL.
+
+Para evitar el riesgo de **caída de objetos**
+
+- Cuando se coloque un elemento asegurarse de su correcta fijación
+- El trabajador debe estar provisto de los elementos de seguridad necesarios tales como botas de protección.
+- Las herramientas que no se utilicen, deben estar recogidas debidamente.
+
+Para evitar el riesgo de **malas posturas**
+
+- Se intentará que al diseñar las instalaciones, se eviten riesgos y posiciones forzadas para el trabajador.
+- Se realizarán PRL correspondientes
 
 
 ## Medio ambiente
@@ -372,12 +418,12 @@ El resto de cosas, el polvo del taladro, los tacos o tornillos en mal estado,
 o los restos de cable pelado como no se pueden reciclar y tampoco son
 materiales de especial peligrosidad se tirarán como basura doméstica.
 
-TODO: se puede poner los restos cables a reciclar en el plastico
+Los retales de cable se venderán a una empresa recuperadora de residuos.
 
 ### Emisiones
 
 Los servidores, dado que están funcionando de forma continua,
-consumen bastante electricidad.
+tienen un consuimo eléctrico continuado.
 Para minimizar el impacto que ello produce en el medio ambiente,
 a parte de buscar componentes eficientes,
 se contratará la luz con una empresa cooperativa
