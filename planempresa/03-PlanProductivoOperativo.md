@@ -145,7 +145,7 @@ El equipo del cual no se dispone y que haría falta comprar sería:
 Artículo                                       Unidades    Precio
 --------                                       --------- --------
 Escalera alum. Triple Hailo 3x6 Peld. tijera           1 189.20 €
-Pareja de walkie-talkies                               1   TODO €
+Pareja de walkie-talkies                               1  64,90 €
 Arnés climax 28-c completo                             2  41.44 €
 Gafa contra impactos climax 580                        2   1.97 €
 Guante nylon eco pu                                    2   1.23 €
@@ -219,23 +219,28 @@ Adaptador Teléfono                                 1     27,23 €        27,23
 * La configuración de dispositivos, una vez que tengamos la configuracion básica se puede hacer en unas 3 horas.
 * La instalación comunitaria en azotea se hace en un día entre dos personas.
 * Las instalaciones para conectar a cada domicilio entre esas mismas dos personas se hace en media hora.
+* Las instalaciones para conectar en el interior de cada domicilio se hace en media hora.
 * Una tercera persona, un técnico puede ir haciendo en paralelo las comprobaciones técnicas y la configuración de los routers.
+* Hay que valorar el tiempo de desplazamiento al lugar donde se vaya a realizar la instalación y las veces que haya que volver
+en caso de que los vecinos no estén en sus domicilios (mínimo de media hora)
 
-TODO: Revisar que falta
 
 ### Procedimiento para la prestación del servicio
 
 # Soporte y atención al cliente
 	- Es imprescindible tener medios de contacto concretos para que los clientes puedan ponerse en contacto con nosotros.
 		- Correo electrónico:  contacte@guifibaix.coop
-		- Teléfono: TODO: Mirar si se puede poner teléfono IP en los móviles y que se puedan desviar a distintos móviles.
+		- Teléfono: conseguir un número de teléfono IP para la atención al cliente. A nivel interno conseguir una 
+		  centralita para derivar las llamadas.
 		- Sitio físico: En la medida de lo posible, establecer un sitio físico para recibir posibles clientes.
 			Llegar a acuerdos con las asociaciones de vecinos para poder utilizar sus espacios de manera puntual.
 	- BBDD de clientes e incidencias.
+	- El horario de atención al cliente será de lunes a viernes de 9h a 19h y sábados de 10h a 14h.
 	- Herramienta (bancaria?) para gestionar los ingresos.
 	- Herramienta de monitorización que permita ver las conexiones y poder actuar ante fallos. 
 	- Establecer un manual con las posibles incidencias y soluciones.
-	- Tener la capacidad de, que si no se puede solucionar por teléfono, poder estar allí en un máximo de 36h. TODO: Concretar
+	- Tener la capacidad de que si no se puede solucionar por teléfono la incidencia, poder personarnos en el lugar de 
+	  la incidencia en un plazo máximo de 36 horas. 
 	- Herramientas:
 		- Informáticas: Ordenador para gestionar las incidencias, monitorizar conexiones y realizar pruebas de conectividades
 		- Sustinución de elementos por avería (antenas, routers, swichts, conectores...)
@@ -268,7 +273,6 @@ TODO: Revisar que falta
 	- Actualizaciones de sofware
 	- Mismas herramientas de instalación
 	- Herramientas de monitorización
-	- TODO: Pendiente
 # Desarrollo de software
 	- Estar atentos a las necesidades de los usuarios para desarrollar servicios y aplicaciones de valor añadido. 
 		- OwnClound (descargas compartidas...)
@@ -309,6 +313,9 @@ Para lograr una correcta atención al cliente, se seguirán los siguientes punto
 - Formación básica a los usuarios, para que puedan hacer correcto uso de la red y puedan identificar qué es una incidencia.
 - Registro de incidencias e informes periódicos para poder atacar las más usuales.
 - Elaborar manuales para usuarios donde puedan encontrar soluciones a las incidencias más comunes.
+- Llevar un seguimiento diario de incidencias verificando a final de cada jornada que las incidencias están resueltas.
+- Si la incidencia no se ha resuelto por teléfono, ajustar la planificación para poder atender la incidencia en un plazo 
+  de 36h de días laborables. 
 
 Respecto al software:
 
@@ -377,9 +384,6 @@ están todos aislados debidamente.
 - También se usarán guantes y botas aislantes y
 herramientas con mangos también aislantes.
 
-TODO: Como se llama el candado del PIA
-
-TODO: revisar seguridad chispas con Aitor
 
 Para evitar los riesgos con **herramientas peligrosas**,
 
