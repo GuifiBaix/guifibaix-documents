@@ -27,7 +27,8 @@ La actividad de la cooperativa consiste en
 conectar a los vecinos y vecinas de la zona a la red ciudadana guifi.net
 para dar respuesta a sus necesidades de telefonía fija y Internet.
 
-Para ello, se ofrecerá a las comunidades de vecinos soluciones a punto para conectar y funcionar
+Para ello, se ofrecerá a las comunidades de vecinos
+soluciones a punto para conectar y funcionar
 que incluyen
 el cableado del edificio,
 la configuración de los aparatos de red,
@@ -36,7 +37,7 @@ repartiendo el flujo de datos hacia los puntos de salida disponibles,
 y ofreciendo servicios de valor añadido a los usuarios.
 
 
-## Oportunidades de negocio
+## Contexto y oportunidades de negocio
 
 Cada vez son más las personas que creen que otro modelo de consumo es posible,
 un consumo más responsable
@@ -46,14 +47,22 @@ Por otro lado, la telefonía fija y el acceso a Internet en España es muy poco 
 con bajas velocidades, altos precios y una atención a cliente muy deficiente.
 Las empresas de telecomunicaciones copan, año tras año,
 la mayoría de reclamaciones de consumo,
-junto a las eléctricas y los bancos,
+junto a las eléctricas y los bancos.
+
+Mucha gente también critica la ética de estas empresas por otros hechos
+como el fichaje como directivos de personajes públicos acusados de delitos económicos,
+o las remuneraciones millonarias a sus directivos, 
+mientras, que, en contraste,
+se hacen expedientes de regulación de empleo,
+despidos improcedentes,
+externalizaciones...
 
 Una posible alternativa a esta situación en el sector es Guifi.net.
 Guifi.net es una red pública basada en el *Procomún de la red libre y abierta*,
 una licencia de conexión libre y viral.
 Cuando un usuario monta un nuevo nodo,
 si lo quiere conectar a guifi.net,
-la licencia le condiciona a permitir que datos de otros nodos transiten libremente por suyo.
+la licencia le condiciona a permitir que datos de otros nodos transiten libremente por el suyo.
 
 La red en sí, no da conectividad a Internet,
 pero dicha conectividad es ofrecida como servicio por algunos nodos que la forman.
@@ -71,12 +80,15 @@ ya hay empresas que están desplegando cable de fibra óptica
 financiado con aportaciones voluntarias de los mismos usuarios.
 
 No todos los usuarios interesados en este modelo de conexión
-tienen los conocimientos necesarios para incorporarse a la red por ellos mismos.
-Esto limita su extensión y mantenimiento de la red afectando a la calidad de servicio.
-Estos problemas se minimizan en zonas
+tienen los conocimientos o el tiempo necesarios
+para incorporarse a la red por ellos mismos.
+Esto limita la difusión de la alternativa y
+hace que el mantenimiento de la red sea deficiente.
+Estos problemas se han minimizado en las zonas
 en las que se ha profesionalizado la instalación y el mantenimiento.
-No es el caso del municipio de Sant Joan Despí y alrededores.
-Guifibaix vendría a cubrir dicha carencia.
+No es el caso del municipio de Sant Joan Despí y alrededores,
+en donde no existen aún servicios profesionalizados.
+Guifibaix vendría a cubrir dicho espacio.
 
 
 ## Los promotores
