@@ -71,10 +71,12 @@ Se estima el coste como aproximadamente un 35% de la masa salarial.
 
 ## Contratación
 
-Los trabajadores sean asociados o no,
-se contratarán todos con contrato por obra
-hasta que el volumen de negocio baste para
-tener a plantilla fija.
+
+Los socios estarán contratados a tiempo parcial, dependiendo del volumen de trabajo ( por ejemplo, 8h/ semanales). 
+A medida de que aumenten los ingresos, se aumentarán las horas de trabajo.
+
+En casos puntuales, se puede optar por contratar a una persona no socia. Se le realizaría un contrato por obra y servicio
+y el nº de horas a trabajar no podría superar el 30% de las horas trabajadas por los socios. 
 
 
 ## Obligaciones fiscales
