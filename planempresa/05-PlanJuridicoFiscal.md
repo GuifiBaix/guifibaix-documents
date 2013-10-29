@@ -2,6 +2,7 @@
 
 TODO: Verificar y repartir la informacion en los apartados y ver si falta algo
 
+
 Para realizar la actividad se constituirá una cooperativa de iniciativa social sin ánimo de lucro.
 
 Las cooperativas son un modelo de empresa sostenible, comprometida y basada en principios y valores.
@@ -27,20 +28,54 @@ Régimen general de la seguridad social.
 
 ## Forma jurídica
 
-- Cual
-- Tramitación
-- Costos
+El proyecto se constituirá con la denominación de GuifiBaix SCCL,
+como una  Sociedad Cooperativa de Trabajo Asociado,
+sin ánimo de lucro, 
+sujeta a los principios y disposiciones la Ley 18/2002, de Cooperativas de Cataluña,
+con plena personalidad jurídica y con responsabilidad
+limitada de sus socios por las obligaciones sociales.
+
+Cada socio trabajador aportara al capital social 1.000€.
+
+Los tramites necesarios para constituir la cooperativa en su procedimiento
+abreviado son:
+
+Tramite                                              Coste           Duración
+-------                                             ------   ---------------- 
+Certificación negativa de nombre                        0€           max 48h
+Estatutos sociales y acta de constitución               0€         min 1 dia
+Deposito del capital social en entidad bancaria         0€         inmediato
+Escritura pública de constitución                     270€    agenda notaría
+Declaración censal de inicio de la actividad
+y solicitud del CIF                                     0€         inmediato
+Liquidación ITPAJD*                                    50€         inmediato
+Inscripción en el registro de cooperativas              0€           max 48h
+Declaración censal de alta                              0€         inmediato
+Inscripción de la empresa en la Tesorería General
+de la Seguridad Social                                  0€         inmediato
+Comunicacion de obertura del centro de trabajo          0€         inmediato
+Obtención del libro de visitas                          0€         inmediato
+
+
+Los impresos se descargan todos de la web para evitar el coste de 2€ cada uno.
+
+ * ITPAJD: Impuesto de transmisiones patrimoniales y actos jurídicos documentados. 1% del capital social.
+
+
 
 ## Régimen Seguridad social
 
-- Cual
-- Costes asociados
-
+Los trabajadores contratados, incluidos los socios,
+cotizarán al regimen general de la seguridad social.
+Se estima el coste como aproximadamente un 35% de la masa salarial.
 
 ## Contratación
 
-- Tipos de contrato
-- Costes asociados
+Los trabajadores sean asociados o no,
+se contratarán todos con contrato por obra
+hasta que el volumen de negocio baste para
+tener a plantilla fija.
+
 
 ## Obligaciones fiscales
 

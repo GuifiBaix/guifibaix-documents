@@ -120,6 +120,8 @@ Guifibaix vendría a cubrir dicho espacio.
 
 ### Raúl Beas Hernández {-}
 
+![Raul Beas](RaulBeas.jpg)
+
 - Técnico auxiliar en electrónica en el Centro de Estudios Llobregat
 - 15 años de experiencia en trabajos de albañileria y instalaciones
 - Curso de Mantenimiento de Sistemas Industriales y Producción Automatizada
