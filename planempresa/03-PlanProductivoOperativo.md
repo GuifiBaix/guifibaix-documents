@@ -76,9 +76,6 @@ Las herramientas que son necesarias para hacer una instalación son las siguient
 - Equipos de Protección Individual de Seguridad (EPIS):
         - Arneses, cuerdas, mosquetones...
         - Botas
-Commit summary: Extended description: (optional)
-Galico aitor.pueyo@guifibaix.coop
-
 	- Instalación caja estanca principal
 		- Acollar la caja
 		- Parte electrica
