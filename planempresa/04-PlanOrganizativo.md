@@ -229,6 +229,8 @@ que no estén facturados de forma directa en una instalación,
 trabajarán con contrato por las horas que dediquen
 tan pronto como haya capacidad económica para ello.
 
-TODO: Encontrar una fórmula válida entre los socios
+Los socios tendrán un salario adaptado a los ingresos que se tengan, dejando margen para que la cooperativa tenga 
+un fondo de previsión para su día a día, como para afrontar incidencias. El salario se valorará tanto por las horas 
+dedicadas como por una igualdad salarial entre socios cooperatvos.
 
 
