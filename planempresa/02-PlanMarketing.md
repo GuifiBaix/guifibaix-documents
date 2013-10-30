@@ -110,6 +110,7 @@ a bajar precios, aunque sea temporalmente, desarmarían este aspecto.
 	- Plataforma para ofrecer cursos en linea
 	- Vídeo club virtual
 - Ampliar servicios para tener cobertura de Telefonía Móvil
+- Ofertar terminales de telefonía móvil de comercio justo o basados en componentes intercambiables
 - Servicios de tele-asistencia a personas que se pueden encontrar en situaciones de riesgo sin nadie que les ayude.
 - Servicios a la pequeña y mediana empresa local
 	- Alojamiento de servicios informáticos a empresas locales
@@ -269,7 +270,8 @@ es posible que se quieran pasar también.
 Los usuarios con un nivel técnico elevado,
 también necesitan una atención especial.
 Por un lado, son referentes para el resto,
-por el otro, plantearan necesidades bastante específicas.
+por el otro, plantearan necesidades bastante específicas
+a las que hay que responder correctamente.
 
 #### Respecto a los usos
 
@@ -500,15 +502,8 @@ hacer obra pública.
 Esto dificulta la aparición de este otro producto substituto,
 pero del mismo modo dificulta que GuifiBaix lo oferte más adelante cuando tenga capacidad para ello.
 
-## Competencia
+## Actores del mercado
 
-
-### Descripción
-
-- Medios
-- Volumen
-- Servicios
-- Estratégias de promoción
 
 Hay tres tipos de actores ante los cuales nuestra actitud sera diferente:
 
@@ -517,7 +512,7 @@ Hay tres tipos de actores ante los cuales nuestra actitud sera diferente:
 * Otros instaladores de guifi.net (Colaboración)
 
 
-#### Operadoras del oligopolio
+### Operadoras del oligopolio
 
 Nuestro producto pretende substituir a las grandes compañías
 que ofertan servicios de conectividad a Internet y telefonía fija.
@@ -528,11 +523,58 @@ Esto limita el margen de negocio para la mayoría de las comercializadoras.
 
 Algunos operadores como ONO tienen lineas propias, normalmente de fibra óptica y tendrían más margen si hubiera una escalada de precios a la baja.
 
+La fuerza de mercado de estas operadoras es avasallante.
+Su publicidad sale a todas horas en los medios de comunicación,
+tienen tiendas en casi todos los centros de población,
+y tienen comerciales que insisten continuamente a los consumidores,
+bien vía telefónica o bien a puerta fría.
 
-#### Redes alternativas y instaladores de guifi.net existentes
+Esa brutal fuerza de mercado se puede usar en favor de la propuesta,
+diferenciando los medios y sobretodo las formas de llegar a los clientes,
+siendo menos agresivos y basándonos en el boca a boca.
 
-* Hay un [directorio de instaladores](https://guifi.net/ca/directori), no muy completo ni actualizado
-* Las de Vic son las que tienen más experiencia
+Es muy posible que en algún momento estas compañías reaccionen
+ante alternativas como GuifiBaix.
+Sus posibles vectores de acción podrían ser:
+
+- Propagar bulos sobre las alternativas 
+para generar desconfianza en el consumidor potencial,
+de forma que desmotive el salto.
+Podrían apoyarse en factores que generan desconfianza perse como 
+la legalidad del sistema,
+el efecto de las ondas,
+la calidad del servicio o
+la continuidad de la empresa.
+	- Habría que tener muy claro como desmontar esos bulos:
+		- Los aspectos legales de la alternativa han sido comprobados
+		- La potencia de las ondas emitidas es menor mucho menor que las de otros dispositivos como los móviles.
+		- Si desapareciera GuifiBaix, la red seguiría funcionando, y solo habría que buscar a otro agente voluntario o profesional que la gestione.
+
+- Entablar procesos legales contra nosotros que, tengan o no razón,
+no podríamos mantener económicamente.
+	- Es necesario recurrir a los recursos legales de la Fundacion Guifi.net y de los distintos movimientos sociales con los que tenemos afinidad.
+
+- Pueden aumentar la calidad de su servicio o bajar los precios. 
+En sí, seria conseguir parcialmente los objetivos que nos planteamos, 
+pero solo sería una situación circunstancial mientras se elimina la competencia.
+	- Es necesario potenciar el aspecto ético de la empresa para no ser tan vulnerable a una situación como esta.
+
+- Pueden boicotear las líneas que usemos como salida a Internet.
+	- Hay que reducir la dependencia que tenemos de las líneas de la competencia.
+
+
+### Redes alternativas y instaladores de guifi.net existentes
+
+Hay diversos proyectos que por ser cercanos a lo que hacemos,
+más que competencia nos ponen en una situación de alianza y cooperación.
+Contra más se expandan las alternativas como la nuestra,
+menos desconfianza generará nuestro producto y
+más efectiva será la red de datos que ofertemos,
+si las diferentes alternativas cooperan en interconexión.
+
+Un listado incompleto de estos proyectos sería:
+
+* Las instaladoras de la comarca de Osona son las que tienen más experiencia:
 	* [SIM Informatica](http://www.sim-informatica.cat) (Vic)
 	* [Setup informàtica](http://www.setup.cat/) (Vic)
 * Tenemos algunos instaladores cerca:
@@ -541,23 +583,19 @@ Algunos operadores como ONO tienen lineas propias, normalmente de fibra óptica 
 * Otras iniciativas colaborativas interesantes:
 	* [Marsupi.org](http://marsupi.org/) (ONG, con autónomos trabajando, en Cataluña, mobilidad por todo el estado)
 	* [delanIT](http://delanit.net/)
-	* [Som Connexio](http://somconnexio.org) 
+	* [Som Connexio](http://somconnexio.org) (Coop. de usuarios, Fibra óptica pública, en definición)
 	* [rLan](http://www.rlan.biz/spain/) (Barcelona ciutat, fibra óptica pública, en expansió)
 	* [Xarxa SenseFils Cooperativa](http://xsf-coop.net/) (Barcelona ciutat)
 * Mas empresas en el resto del estado:
 	* [Sunsioneta](http://www.sunsioneta.es/guifinet.php) (Alacant)
 	* [inode64](http://www.inode64.com/info/instalador-guifi-net) (Castelló)
+* Otros disponibles en el [directorio de instaladores](https://guifi.net/ca/directori) de guifi.net
 
 
 ### Análisis del mercado
 
-* Compañias establecidas
-	* Bulo de que es ilegal compartir conexión
-	* Pueden bajar la calidad en las lineas ADSL que aún usemos
-	* Pueden aumentar la calidad de su servicio o bajar precios
-		* En sí, seria una cosa buena!
-		* Sería solo circunstancial hasta que acabaran con nosotros
-	* Focalizar en la parte ética
+Respecto a las compañías establecidas 
+
 * Otras posibles empresas que ofrezcan guifi.net
 	* Promover una actitud cooperativa
 	* Contra más nodos, mejor para todos
@@ -615,48 +653,91 @@ En el último coste hay que considerar el descuento que hace GuifiBaix compartir
 
 ## Distribución
 
-Con voluntad de diferenciarnos con las prácticas invasivas de las grandes empresas de telecomunicaciones, 
-apostamos por un modelo de difusión de carácter más local, basándono por relaciones personales.
+\begin{wrapfigure}{r}{0.40\textwidth}
+	\centering\fbox{
+    \includegraphics[width=0.37\textwidth]{flyer.pdf}}
+    \caption{Folleto de mano}
+\end{wrapfigure}
+
+Con voluntad de diferenciar GuifiBaix
+de las prácticas invasivas de las grandes empresas de telecomunicaciones, 
+apostamos por un modelo de difusión de carácter más local,
+basado en relaciones personales.
 
 En este caso, la primera fase de difusión se basará en el boca – oreja entre amigos, 
 familiares, conocidos y personas interesadas en este proyecto.
+Se contactarán gestorías que lleven a comunidades de vecinos,
+empezando por aquellas que gestionen las primeras instalaciones.
 
-Se acompañará esta fase con diferentes charlas y conferencias, participando de manera constructiva 
+Se acompañará esta fase con diferentes charlas y conferencias,
+participando, de manera constructiva, 
 con entidades y asociaciones que compartamos valores similares 
-(asociaciones de vecinos, proyectos de consumo responsable, cooperativas sin ánimo de lucro...) 
+(asociaciones de vecinos, 
+proyectos de consumo responsable, 
+cooperativas sin ánimo de lucro...) 
 y participando en ferias locales.
+
+Para estas acciones de difusión se crearan materiales 
+como folletos de mano (flyers),
+targetas de visita y
+estandartes (roll-ups).
 
 \begin{figure}[htp]
 	\centering
-    \includegraphics[width=0.7\textwidth]{GuifiBaixFiraEntitatsSJD.jpg}
+    \includegraphics[width=0.9\textwidth]{GuifiBaixFiraEntitatsSJD.jpg}
     \caption{Parada de GuifiBaix en la Fira d'Entitats de Sant Joan Despí}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
-    \includegraphics[width=0.7\textwidth]{GuifiBaixEsperanzah.jpg}
+    \includegraphics[width=0.9\textwidth]{GuifiBaixEsperanzah.jpg}
     \caption{Parada de GuifiBaix en el festival Esperanzah del Prat}
 \end{figure}
 
-En zonas donde no tengamos estos contactos, iniciaremos campañas concretas para darnos a conocer 
-mediante carteles y visitas a gestorías que lleven a comunidades de vecinos.
+En zonas donde no tengamos estos contactos,
+iniciaremos campañas concretas para darnos a conocer mediante carteles.
 
+Además se desplegarán medios digitales para dar difusión 
+y obtener respuesta de los usuarios.
+
+* En la página web <http://guifibaix.coop> el público dispondrá
+de la información necesaria sobre la alternativa que proponemos.
+También tendrá a su disposición formularios de contacto
+para, por ejemplo, resolver dudas o pedir pruebas de conectividad.
+\begin{figure}[htp]
+	\centering
+    \includegraphics[width=0.9\textwidth]{GuifiBaixDotCoop.png}
+    \caption{La página principal de la web de GuifiBaix}
+\end{figure}
+\begin{figure}[htp]
+	\centering
+    \includegraphics[width=0.9\textwidth]{GuifiBaixDotCoopInfo.png}
+    \caption{La página d'informació a la web de GuifiBaix}
+\end{figure}
+
+
+* También se pondrá a disposición del público una página de Facebook,
+donde se publicarán noticias relacionadas con la cooperativa y
+se recibirán comentarios.
+
+* Un tercer medio digital para que los clientes entren en contacto
+con nosotros es el correo electrónico <contacte@guifibaix.coop>.
 
 
 ## Previsiones de ventas
 
 - Metodología de previsión
-	- Basándanos en la experiencia de estos meses previos de incubación del proyecto, vemos la importancia del boca - oreja.
-	- Es imprescindible demostrar, con comunidades operativas, que el proyecto es viable a fin de convencer a otros usuarios.
+	- La previsión de ventas está basada en la experiencia de los meses previos de incubación del proyecto en los que se ha podido apreciar la dinámica de ventas.
+	- Hay un tope de capacidad que es el de 2 comunidades de vecinos por semana entre 2 operadores y un técnico/comercial. Esto contando contando con la instalación y configuración intercalado con la medición y el estudio de viabilidad de las dos siguientes.
 
 - Previsión
-	- El comienzo será muy bajo, costará convencer comunidades y usario. El proceso será muy lento. 
+	- Debido a la incertidumbre de la novedad y a la complejidad de tratar con comunidades, se espera que al principio el ritmo de instalación sera muy bajo. Calculamos que dos o tres instalaciones por mes.
 	- A medida de que existan instalaciones, otros usuarios verán que es viable. El proceso se agilizará.
-	- Cuando el número de usuarios sea mayor, el crecimiento preveemos que será exponencial
-	
+	- Está previsto que en 9 meses hayamos acumulado suficientes margenes de las instalaciones y cuotas de usuarios para poder expandir plantilla y empezar a abarcar más que dos instalaciones por semana.
+
 - Acciones de seguimiento y correctivas
-	- Periódicamente realizaremos un seguimiento de los nodos instalados publicandolos en nuestros medios (web, Fb...)
-	- Si la previsión no se cumple, hay que insistir en difundir el proyecto en nuevas comunidades o nuevos municipios.
+	- Periódicamente realizaremos un seguimiento de los nodos instalados publicándolos en nuestros medios (web, Fb...)
+	- Si la previsión no se cumple, hay que insistir en los medios y espacios de difusión y considerar nuevos.
 
 
 

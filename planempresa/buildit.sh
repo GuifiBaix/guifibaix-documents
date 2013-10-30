@@ -9,7 +9,9 @@ pandoc \
 	-V mainfont='Ubuntu' \
 	-V fontsize='11pt' \
 	-V papersize=a4paper \
-	-N --toc -f markdown *.md \
+	-N --toc \
+	--include-before-body license.tex \
+	-f markdown *.md \
 	--template default.latex -o planempresa-content.pdf
 
 pdftk portada.pdf blank.pdf planempresa-content.pdf cat output planempresa.pdf
