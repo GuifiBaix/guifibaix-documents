@@ -38,44 +38,13 @@ Una instalación típica a una comunidad consta de los siguientes pasos:
 	- Configuración del routers
 	- Configuración de los adaptadores de telefonía IP
 	- Preparación de las cajas estancas
-
 - Instalación común
-        - Colocación de la antena
-                - Colocación del mástil
-                        - No es necesaria si se reaprovecha un mástil existente
-                        - En caso de que el mástil sea alto se considerará el uso de tensores
-                - Fijación y orientación de la antena
-        - Instalación eléctrica para hacer llegar la luz comunitaria a la caja principal
-        - Instalación caja estanca principal
-                - Acollar la caja
-                - Parte electrica
-                - Parte de datos
-                - Probar el router
-        - Despliegue de cables eléctricos hacia las cajas de distribución
-        - Instalación cajas de distribución
-                - Acollado de la caja
-                - Empalme electrico
-                - Prueba que el switch funciona
-        - Despliegue de cableado de datos hacia las cajas de distribución
-        - Prueba de conectividad de los switches
-- Instalación a cada vivienda
-        - Desplegar los cables de datos verticales
-        - Traspasar el cable hacia la vivienda
-        - Grimpado del cajetin
-        - Acollar cajetin
-        - Prueba de connexión
-        - Acollar adaptador telefonía IP
-        - Prueba del adaptador IP
-- Configuración del router ADSL, cuando sea necesario, para que funcione bien con la antena.
-A parte de éstas, 
-hay otras actividades que no están ligadas a la instalación.
-### Tecnologías y herramientas
-Las herramientas que son necesarias para hacer una instalación son las siguientes:
-- Vehículo para transportar el material (se usará uno propio)
-- Walkie-talkies
-- Equipos de Protección Individual de Seguridad (EPIS):
-        - Arneses, cuerdas, mosquetones...
-        - Botas
+	- Colocación de la antena
+		- Colocación del mástil
+			- No es necesaria si se reaprovecha un mástil existente
+			- En caso de que el mástil sea alto se considerará el uso de tensores
+		- Fijación y orientación de la antena
+	- Instalación eléctrica para hacer llegar la luz comunitaria a la caja principal
 	- Instalación caja estanca principal
 		- Acollar la caja
 		- Parte electrica
@@ -101,7 +70,6 @@ Las herramientas que son necesarias para hacer una instalación son las siguient
 A parte de éstas, 
 hay otras actividades que no están ligadas a la instalación.
 
-
 ### Tecnologías y herramientas
 
 Las herramientas que son necesarias para hacer una instalación son las siguientes:
@@ -115,11 +83,11 @@ Las herramientas que son necesarias para hacer una instalación son las siguient
 - Escalera
 - Alargos
 - Taladradora
-- Brocas de madera, hierro y pared de varios milimetrajes.
+- Brocas de madera, hierro y pared de varios diámetros.
 - Crimpadora de conectores de red
-- Crimpadora de apliques de red
+- Crimpadora para cajetínes de red
 - Martillo
-- Herramientas de electricista (destornilladores, alicates, pico de loro, llaves fijas, peladores de cable...)
+- Herramientas de electricista
 - Pistola de silicona
 - Portátil para comprobar las conexiones.
 
@@ -181,7 +149,7 @@ es mucho mas barato y los costes de dicho stock no son elevados.
 	con una compensación de 0,5€ por Km en concepto de gasolina y otros gastos.
 
 
-### Costes de producción
+### Costes de producción {CostesDeProduccion}
 
 Los precios al público,
 sin considerar descuentos y con IVA,
@@ -304,9 +272,12 @@ Respecto a la conectividad, se realizarán las siguientes medidas para asegurar 
 
 - Monitorización del funcionamiento correcto de las antenas y equipos.
 - Monitorización del volúmen de datos transferidos, para confirmar el correcto uso de las redes y/o redimensionar la red.
+- Monitorización del volúmen de datos almacenados en los servidores, para detectar si hay que redimensionar el almacenamiento.
+- Control y monitorización de las alertas de seguridad en las comunicaciones.
 
 
 Para lograr una correcta atención al cliente, se seguirán los siguientes puntos:
+
 - Formación básica a los usuarios, para que puedan hacer correcto uso de la red y puedan identificar qué es una incidencia.
 - Registro de incidencias e informes periódicos para poder atacar las más usuales.
 - Elaborar manuales para usuarios donde puedan encontrar soluciones a las incidencias más comunes.
@@ -333,10 +304,39 @@ se seguirán metodologías ágiles y de código abierto.
 
 ## Equipo y infraestructura
 
-- Que hace falta para poner todo en funcionamiento
-	- Servidores
-	- Conexiones de salida
-- Cuanto va a costar
+
+Se necesitarán **servidores** que soporten tecnología de virtualización.
+Dicha tecnología permite que en un solo servidor se ejecuten
+varios servidores virtuales ejecutando cada uno diferentes servicios.
+
+Las conexiones contra estos servicios están cubiertas gracias al uso
+de diferentes elementos de distribución de red (switches),
+y elementos de seguridad (cortafuegos).
+
+Se dispone inicialmente de algunos servidores para iniciar el proyecto.
+Cuando el número de usuarios comprometa la carga de los servidores,
+se considerará la compra de nuevos servidores.
+El coste de compra y mantenimiento de estos servidores sería de 2000€ por servidor físico.
+
+Los precios de los elementos de red y seguridad están especificados anteriormente.
+
+Se dispondrá de **conectividad a Intenet directa** en la misma ubicación que los servidores
+que permitirá tener acceso a los servicios también desde el exterior de la red guifi.net.
+Estas mismas lineas también se ofrecerán como caudal de salida disponible para los usuarios.
+
+Estas líneas no són facturadas de forma directa a los clientes.
+El coste de las mismas es 40€ al mes.
+
+Para la interconexión entre núcleos donde haya nodos o 
+tengamos la posibilidad de extender la red,
+se colocaran elementos de red para establecer **enlaces punto a punto**,
+que no estarán financiadas por el proyecto de instalación a clientes.
+
+Para un enlace punto a punto se requieren dos antenas especiales 
+que tienen un coste aproximado cada una de TODO.
+
+TODO: Precios de las nanobridge
+
 
 ## Seguridad
 
@@ -413,13 +413,13 @@ Los resíduos que generamos comprenden los siguientes:
 - Polvo de taladro
 
 Los embalajes de los equipos se pueden reciclar en los contenedores
-habilitados para envases de plástico y carton.
+habilitados para envases de plástico y cartón.
 
 El resto de cosas, el polvo del taladro, los tacos o tornillos en mal estado,
 o los restos de cable pelado como no se pueden reciclar y tampoco son
 materiales de especial peligrosidad se tirarán como basura doméstica.
 
-Los retales de cable se venderán a una empresa recuperadora de residuos.
+Los retales de cable se llevarán a una empresa recuperadora de residuos.
 
 ### Emisiones
 
