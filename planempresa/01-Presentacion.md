@@ -97,7 +97,7 @@ Guifibaix vendría a cubrir dicho espacio.
     \includegraphics[width=0.25\textwidth]{VictorViudez.jpg}
 \end{wrapfigure}
 
-### Víctor Viudez {-}
+### Víctor Viudez González {-}
 
 - Ingeniero Técnico en Informática de Sistemas por la Universitat Politècnica de Catalunya
 - Experto en sistemas de virtualización y redes de datos.
@@ -120,10 +120,10 @@ Guifibaix vendría a cubrir dicho espacio.
 
 
 \begin{wrapfigure}{r}{0.28\textwidth}
-    \includegraphics[width=0.25\textwidth]{Anonymous.jpg}
+    \includegraphics[width=0.25\textwidth]{AitorPueyoVispe.jpg}
 \end{wrapfigure}
 
-### Aitor Pueyo {-}
+### Aitor Pueyo Vispe {-}
 
 - Técnico superior en instalaciones electrotécnicas.
 - Ha realizado cursos de electricista industrial.
