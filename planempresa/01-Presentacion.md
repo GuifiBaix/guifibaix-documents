@@ -12,7 +12,7 @@
 El presente plan de negocio es el de una empresa de economía social.
 No se persigue la rentabilidad a cualquier precio,
 sino simplemente la propia viabilidad económica del proyecto,
-en tanto ayude a aconseguir los objetivos sociales a los que se dirige,
+en tanto ayude a conseguir los objetivos sociales a los que se dirige,
 que son:
 
 - Proporcionar a la ciudadanía una alternativa ética y eficaz al oligopolio existente en el sector de las telecomunicaciones fijas.
