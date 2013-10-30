@@ -5,16 +5,17 @@
 ### Descripción
 
 El producto y servicio consiste en
-la instalación y configuración, en edificios, de los dispositivos
-que permitirá a los vecinos tener teléfono y Internet,
-así como el mantenimiento de esta red.
-Junto a esto, se ofrecerán otros servicios de valor añadido dentro de la red.
+la instalación, configuración y mantenimiento, en edificios, 
+de los dispositivos que permitirá a los vecinos tener teléfono y Internet
+mediante la red ciudadana Guifi.net.
+Junto a esto, se ofrecerán otros servicios de valor añadido y alta velocidad
+en la red interna, sin salir a internet.
 
 Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 
 * Instalar la antena Guifi.net en el terrado del edificio para hacer red con otros edificios
 * Hacer llegar la red a los diferentes vecinos del edificio que estén interesados mediante conexión cableada o Wi-Fi
-* Facilitar el paso a telefonía IP, ofreciendo terminales y conversores preconfigurados y tarifas de portabilidad con terceras empresas
+* Facilitar el paso a telefonía IP, comercializando terminales y conversores preconfigurados y tarifas de portabilidad con terceras empresas
 * Opcionalmente, configurar una puerta local a internet (ADSL o Fibra) que pague la comunidad (por ejemplo, en la linea del ascensor) o que acuerde ceder un vecino.
 * Opcionalmente, ofrecer alternativas de conectividad a internet fuera del edificio mediante la red Guifi.net
 * Dar soporte y servicio técnico para la infraestructura de red
@@ -27,9 +28,11 @@ Concretamente se ofrece a las comunidades de vecinos los siguientes servicios:
 
 ### Necesidades
 
+Se cubren básicamente tres necesidades:
+
 - Conectividad a telefonía fija y Internet
-- Necesidad de dejar de engordar a empresas con las que no se está de acuerdo
-- Necesidad de ahorrar en las facturas
+- Dejar de pagar a empresas con las que no se está de acuerdo
+- Ahorro en las facturas familiares
 
 
 ### Aspectos diferenciales
