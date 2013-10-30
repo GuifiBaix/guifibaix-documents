@@ -113,7 +113,7 @@ Guifibaix vendría a cubrir dicho espacio.
 - Experto en sistemas web
 
 \begin{wrapfigure}{r}{0.28\textwidth}
-    \includegraphics[width=0.25\textwidth]{DavidGarciaGarzon.png}
+    \includegraphics[width=0.25\textwidth]{DavidGarciaGarzon.jpg}
 \end{wrapfigure}
 
 ### David García Garzón {-}
