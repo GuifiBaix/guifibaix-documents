@@ -6,6 +6,7 @@
 \usepackage{fixltx2e} % provides \textsubscript
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage{ccicons}
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
@@ -122,6 +123,7 @@ $endif$
 $for(header-includes)$
 $header-includes$
 $endfor$
+\renewcommand*{\familydefault}{\sfdefault}
 
 $if(title)$
 \title{$title$}
@@ -130,9 +132,19 @@ $endif$
 \date{$date$}
 
 \begin{document}
+
 $if(title)$
 \maketitle
 $endif$
+
+\begin{wrapfigure}{l}{88px}
+\includegraphics{ccbysa-88x31.png}
+\end{wrapfigure}
+Esta obra está sujeta a la licencia Reconocimiento-CompartirIgual 3.0 España de Creative Commons.
+
+Para ver una copia de esta licencia, visite: \newline
+\href{http://creativecommons.org/licenses/by-sa/3.0/es/deed.es\_ES}{http://creativecommons.org/licenses/by-sa/3.0/es/deed.es\_ES}
+\newpage
 
 $for(include-before)$
 $include-before$
