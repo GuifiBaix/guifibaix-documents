@@ -1,6 +1,6 @@
 ﻿# Plan productivo-operativo
 
-- Todo este apartado tendría que considerar las diferentes actividades productivas
+- TODO: Todo este apartado tendría que considerar las diferentes actividades productivas
 	- Ligadas a la instalación
 		- Estudio de viabilidad
 		- Instalación
@@ -11,7 +11,6 @@
 		- Soporte y atención al cliente
 		- Desarrollo de software
 		- Desarrollo de las redes
-
 
 
 ## Prestación del producto/servicio

@@ -38,60 +38,33 @@ Se cubren básicamente tres necesidades:
 
 ### Aspectos diferenciales
 
-En cuanto el servicio en sí, el aspecto diferencial
-son los servicios añadidos que se dan internamente en guifi.net.
-También la cercanía que damos en cuanto al servicio al cliente
-siendo una empresa local.
+En resumen, los aspectos diferenciales son:
 
-Pero el principal aspecto diferencial es el ético.
-Ofrecemos una alternativa de consumo local, ética y fuera de oligopolios.
-
-Somos una opción ética en diversos aspectos:
-
-- El trato justo a los usuarios y la relación libre con ellos
-- El trato justo a los trabajadores
-- El fomento de la economía local y las relaciones con la economía social de la zona
-
-GuifiBaix no ata a sus usuarios.
-La red no es de GuifiBaix sino de ellos.
-Nosotros sólo le simplificamos el tenerla y,
-si en cualquier momento consideran que no lo hacemos como debemos,
-tienen la libertad de escoger otra empresa que lo mantenga,
-encontrar a voluntarios que lo hagan,
-o incluso de volver al oligopolio.
-
-Generamos trabajo en la zona, no solo para los socios 
-sino también para otras posibles empresas que instalen el sistema
-dando valor añadido tecnológico y de ahorro
-a profesionales de un sector como el de la construcción y la instalación
-que ahora mismo está en crisis.
-
-Los paquetes que ofrecemos también los ofrecemos para simplificar la oferta.
-Si algún usuario no quiere algo del paquete, se le descuenta del precio.
-No tenemos porque venderle algo que no quiere.
-
-Además el trabajo que creamos es trabajo de calidad.
-No deslocalizamos, ni hacemos out-sourcing del desarrollo de software.
-
-
-
-- Damos servicios internos de alta velocidad dentro de guifi.net
+- Se ofrecen servicios internos de alta velocidad dentro de guifi.net
 	- Servicios 'en la nube' sin salir de guifi.net a alta velocidad
 	- Servicio de P2P comunitario.
-- Generamos trabajo local de calidad:
+- Se genera trabajo local de calidad:
 	- No deslocalizamos, ni hacemos "out-sourcing"
-	- Somos una cooperativa: Los trabajadores de la cooperativa tenemos control sobre la empresa
-	- Si subcontratamos, los trabajadores tienen las mismas condiciones económicas que los socios.
-	- Los beneficios
-
-El otro aspecto diferencial es el precio.
-Aunque dicho aspecto diferencial es solo circunstancial
-y como tal es un aspecto en el cual no debemos de depender.
-Si, en un futuro, las empresas del oligopolio se ven obligadas
-a bajar precios, aunque sea temporalmente, desarmarían este aspecto.
+	- Los trabajadores de la cooperativa tienen el control de sus condiciones laborales
+	- Si se subcontratan trabajos, los trabajadores de la subcontrata tendrán similares condiciones a los trabajadores internos.
+- No se ata a los usuarios
+	- La infraestructura pertenece a la comunidad
+	- Todo está documentado
+	- Todo está basado en estandares abiertos
+	- Se promociona el conocimiento de la red por parte de los usuarios
+	- Los usuarios tienen la libertad de escoger a otra empresa para hacer instalaciones y el mantenimiento o incluso buscar voluntarios que lo hagan.
+- Se trata de una empresa sin ánimo de lucro
+	- No se busca beneficio a toda costa
+	- No hay interés en vender productos innecesarios
+	- Los beneficios se revierten en la red o se traducen en reducción de cuotas
+- El precio es mucho más bajo
+	- Es un factor muy atractivo
+	- No nos podemos apoyar en él porque es circunstancial
 
 
 ### Servicios futuros
+
+En un futuro se plantea ofrecer muchos más servicios como:
 
 - Conectividad común de alta capacidad mediante puntos de acceso de fibra óptica o operadores terceros que ofrezcan conectividad a nodos neutros.
 - Telefonía IP como distribuidores directos, no solo como comercializadores
@@ -152,6 +125,14 @@ Sant Feliu de llobregat,
 Sant Just Desvern,
 Esplugues
 o Santa Coloma de Cervelló.
+
+\begin{figure}[ht]
+	\centering
+    \includegraphics[width=0.9\textwidth]{guifinet-cobertura-santjoandespi.png}
+    \caption{Cobertura en Sant Joan Despí al iniciar el proyecto}
+\end{figure}
+
+
 
 Se deja la puerta abierta a empezar islas de nodos en otros núcleos urbanos
 que habría que considerar.
