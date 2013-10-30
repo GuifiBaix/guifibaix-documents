@@ -3,11 +3,10 @@
 
 pandoc \
 	-V lang=spanish \
-	-V title="Plan de Empresa: GuifiBaix SCCL" \
 	-V title-meta='Plan de Empresa: GuifiBaix SCCL' \
 	-V documentclass=book \
 	-V mainfont='Ubuntu' \
-	-V fontsize='11pt' \
+	-V fontsize='12pt' \
 	-V papersize=a4paper \
 	-N --toc \
 	--include-before-body license.tex \
