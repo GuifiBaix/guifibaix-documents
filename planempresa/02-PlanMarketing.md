@@ -74,7 +74,6 @@ No deslocalizamos, ni hacemos out-sourcing del desarrollo de software.
 - Damos servicios internos de alta velocidad dentro de guifi.net
 	- Servicios 'en la nube' sin salir de guifi.net a alta velocidad
 	- Servicio de P2P comunitario.
-
 - Generamos trabajo local de calidad:
 	- No deslocalizamos, ni hacemos "out-sourcing"
 	- Somos una cooperativa: Los trabajadores de la cooperativa tenemos control sobre la empresa
@@ -582,26 +581,32 @@ Algunos operadores como ONO tienen lineas propias, normalmente de fibra óptica 
 
 ## Precios
 
-Los principales atractivos que podemos ofrecer a las personas interesadas es por un lado, 
-que somos una alternativa a las grandes empresas y, por otro, que ofrecemos unos precios más ajustados.
+Como se ha explicado antes, el precio,
+aunque no es el principal atractivo,
+es uno de los principales criterios para escoger el servicio.
 
-Los pagos que realizan los usuarios son para costear la instalación y el servicio de mantenimiento de la red.
+Los pagos que realizan los usuarios a la cooperativa
+son para costear la instalación y el servicio de mantenimiento de la red.
 
-El coste de la instalación se realiza en base a un presupuesto que analice las horas de mano de obra 
-y el material utilizado y que puede oscilar entre los 150 y 300€. 
-Esta cantidad los usuarios la pueden amortizar en un periodo de entre 6 y 12 meses, 
-dependiendo de lo que cada uno esté pagando hasta ese momento. 
-
-TODO: Añadir cuadro de amortización.
+El coste de la instalación se realiza en base a un presupuesto que analice las horas de mano de obra
+y el material utilizado y que puede oscilar entre los 150 y 300€.
+Esta cantidad los usuarios la pueden amortizar en un periodo de entre 6 y 12 meses,
+dependiendo de lo que cada uno esté pagando hasta ese momento.
 
 Mensualmente, los usuarios realizarán un pago a la comunidad de 12€ + IVA en concepto 
 de mantenimiento de la red. Parte de esta cuota se abona como descuento 
 a aquellos usuarios que comparten su ADSL y que se les descuenta de la cuota de la comunidad de vecinos. 
 El resto (unos 6€ por vecino) servirá para pagar los costes del servicio.
-Mensualmente los usuarios realizarán un pago a Guifibaix en concepto a los servicios de telefonía IP 
-que tengan contratados 
 
-TODO: ¿Quien les genera las facturas con los detalles de consumos?
+Además hay que considerar que el precio total de la solución incluye otros costes
+que los usuarios pueden pagar o no, para mantener los servicios que tenían hasta ahora:
+
+* Alta de telefonía IP: Por tener número geográfico (2€+IVA) y por portabilidad de número (15€+IVA)
+* Cuota mensual telefonía IP: Por tener número geogràfico (2€+IVA)
+* Gasto en llamadas: 1'4¢+IVA/min a fijos, 7¢/min
+* Mensualidad ADSL en caso de estar compartiendo la conectividad: entre 35€ y 50€
+
+En el último coste hay que considerar el descuento que hace GuifiBaix compartir el ADSL.
 
 
 ## Distribución
@@ -627,7 +632,6 @@ mediante carteles y visitas a gestorías que lleven a comunidades de vecinos.
 - Metodología de previsión
 	- Basándanos en la experiencia de estos meses previos de incubación del proyecto, vemos la importancia del boca - oreja.
 	- Es imprescindible demostrar, con comunidades operativas, que el proyecto es viable a fin de convencer a otros usuarios.
-	
 
 - Previsión
 	- El comienzo será muy bajo, costará convencer comunidades y usario. El proceso será muy lento. 
