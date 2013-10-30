@@ -1,5 +1,12 @@
 ﻿# Presentación
 
+\begin{figure}[htp]
+	\centering
+    \includegraphics[width=\textwidth]{PanoramicaTorreDeLaCreu.jpg}
+    \caption{Antena de GuifiBaix en la AAVV el Pi de Sant Joan Despí}
+\end{figure}
+
+
 ## Objetivos y valores
 
 El presente plan de negocio es el de una empresa de economía social.
@@ -82,12 +89,13 @@ financiado con aportaciones voluntarias de los mismos usuarios.
 No todos los usuarios interesados en este modelo de conexión
 tienen los conocimientos o el tiempo necesarios
 para incorporarse a la red por ellos mismos.
-Esto limita la difusión de la alternativa y
-hace que el mantenimiento de la red sea deficiente.
-Estos problemas se han minimizado en las zonas
+Basar su extension y mantenimiento en voluntarios
+tiene un alcance limitado que suele tener impacto
+en la velocidad de expansión y en la calidad de servicio.
+Estos problemas no se dan en las zonas
 en las que se ha profesionalizado la instalación y el mantenimiento.
-No es el caso del municipio de Sant Joan Despí y alrededores,
-en donde no existen aún servicios profesionalizados.
+No es el caso en la mayoria de municipios del Baix Llobregat
+en donde aún no existen servicios profesionalizados.
 Guifibaix vendría a cubrir dicho espacio.
 
 
@@ -116,7 +124,7 @@ Guifibaix vendría a cubrir dicho espacio.
 - Investigador experto en los ámbitos de la Ingeniería del Software, Metodologías Ágiles, Calidad del Software y Audio Digital.
 - Ha participado como socio y trabajador en varias start-ups tecnológicas.
 - Desarrollador y activista en pro del software libre.
-- Miembro del 15M de Sant Joan Despí y responsable de la campaña Desconexion IBEX35
+- Responsable de la campaña *Desconexion del IBEX35* de la assamblea del 15M de Sant Joan Despí.
 
 
 \begin{wrapfigure}{r}{0.28\textwidth}
