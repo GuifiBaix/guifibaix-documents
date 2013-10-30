@@ -149,7 +149,7 @@ es mucho mas barato y los costes de dicho stock no son elevados.
 	con una compensación de 0,5€ por Km en concepto de gasolina y otros gastos.
 
 
-### Costes de producción {CostesDeProduccion}
+### Costes de producción
 
 Los precios al público,
 sin considerar descuentos y con IVA,
