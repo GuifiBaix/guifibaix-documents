@@ -18,7 +18,6 @@
 Cada instalación es diferente y tendrás sus características propias, pero a grosso modo se seguirán los siguientes pasos:
 
 
-
 ### Procedimiento para la instalación
 
 Una instalación típica a una comunidad consta de los siguientes pasos:
@@ -190,6 +189,8 @@ en caso de que los vecinos no estén en sus domicilios (mínimo de media hora)
 
 
 ### Procedimiento para la prestación del servicio
+
+TODO: Organizar esta parte
 
 - Soporte y atención al cliente
 	- Es imprescindible tener medios de contacto concretos para que los clientes puedan ponerse en contacto con nosotros.

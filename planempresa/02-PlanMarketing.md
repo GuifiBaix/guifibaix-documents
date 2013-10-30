@@ -128,8 +128,8 @@ o Santa Coloma de Cervelló.
 
 \begin{figure}[ht]
 	\centering
-    \includegraphics[width=0.9\textwidth]{guifinet-cobertura-santjoandespi.png}
-    \caption{Cobertura en Sant Joan Despí al iniciar el proyecto}
+	\includegraphics[width=0.9\textwidth]{guifinet-cobertura-santjoandespi.png}
+	\caption{Cobertura en Sant Joan Despí al iniciar el proyecto}
 \end{figure}
 
 
@@ -632,13 +632,13 @@ que los usuarios pueden pagar o no, para mantener los servicios que tenían hast
 En el último coste hay que considerar el descuento que hace GuifiBaix compartir el ADSL.
 
 
-## Distribución
-
-\begin{wrapfigure}{r}{0.40\textwidth}
+\begin{figure}[ht]
 	\centering\fbox{
-    \includegraphics[width=0.37\textwidth]{flyer.pdf}}
-    \caption{Folleto de mano}
-\end{wrapfigure}
+	\includegraphics[width=0.33\textwidth]{flyer.pdf}}
+	\caption{Folleto de mano}
+\end{figure}
+
+## Distribución
 
 Con voluntad de diferenciar GuifiBaix
 de las prácticas invasivas de las grandes empresas de telecomunicaciones, 
