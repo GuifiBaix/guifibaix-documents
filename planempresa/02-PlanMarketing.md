@@ -2,6 +2,7 @@
 
 ## El producto/servicio
 
+
 ### Descripción
 
 El producto y servicio consiste en
@@ -624,6 +625,18 @@ Se acompañará esta fase con diferentes charlas y conferencias, participando de
 con entidades y asociaciones que compartamos valores similares 
 (asociaciones de vecinos, proyectos de consumo responsable, cooperativas sin ánimo de lucro...) 
 y participando en ferias locales.
+
+\begin{figure}[htp]
+	\centering
+    \includegraphics[width=0.7\textwidth]{GuifiBaixFiraEntitatsSJD.jpg}
+    \caption{Parada de GuifiBaix en la Fira d'Entitats de Sant Joan Despí}
+\end{figure}
+
+\begin{figure}[htp]
+	\centering
+    \includegraphics[width=0.7\textwidth]{GuifiBaixEsperanzah.jpg}
+    \caption{Parada de GuifiBaix en el festival Esperanzah del Prat}
+\end{figure}
 
 En zonas donde no tengamos estos contactos, iniciaremos campañas concretas para darnos a conocer 
 mediante carteles y visitas a gestorías que lleven a comunidades de vecinos.
