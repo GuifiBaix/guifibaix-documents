@@ -13,16 +13,24 @@
 
 ## Puntos débiles
 
-Se han detectado los siguientes puntos débiles que se
-compensaran como se indica a continuacion.
+Se han detectado los siguientes puntos débiles en la propuesta:
 
-Involucrar a las comunidades en el pago añade complejidad a la oferta.
+- Involucrar a las comunidades de vecinos es lento y complejo
+- El ancho de banda previsto podría no bastar
+- Se podría no tener acceso físico a las antenas
+- Podríamos no ser capaces de atender a tiempo a la demanda
+- No estamos ofreciendo servicios de telefonía móvil
+- No estamos ofreciendo servicios de televisión por cable
+
+A continuación se discuten en detalle estos puntos débiles y las medidas paliativas que se van a adoptar.
+
+Involucrar a las **comunidades de vecinos** en el pago añade complejidad y enlentence el proceso de venta.
 Para compensarlo:
 
 * Se buscarán fórmulas de pago alternativas para los casos en que el pago mediante la comunidad se convierta en un problema.
+* Se promocionará la asociación de los usuarios para cubrir los costes de los puntos de acceso de forma solidaria.
 
-
-El ancho de banda ofrecido podría llegar a no escalar bien con el numero de usuarios según el uso que le den.
+El uso que le dieran los usuarios podría superar el **ancho de banda** previsto.
 Para compensarlo:
 
 * Monitorizaremos el tráfico y adaptaremos las salidas
@@ -30,25 +38,25 @@ disponibles al caudal utilizado.
 * Se buscarán alternativas de conexión externas de fibra óptica.
 * Se podrá plantear variar la compensación por ADSL para que haya mas ADSL's por usuario.
 
-El acceso físico a las antenas, para hacer mantenimientos, depende a veces de la disponibilidad de los vecinos.
+El **acceso físico a las antenas**, para hacer mantenimientos, depende a veces de la disponibilidad de los vecinos.
 Para compensarlo:
 
 * Instalaremos los equipos siempre que sea posible en zonas comunes.
 * Se tendrá en cada edificio varias personas de referencia con las cuales contactar en caso de que haya incidencias que requieran acceso físico a los equipos para solucionarlas.
 
-Si la demanda se dispara, podríamos no ser capaces de abarcar el número de instalaciones, y generar fustración en los clientes potenciales que quedan esperando.
+Ante un **repunte de la demanda de instalaciones**, podríamos no ser capaces de abarcar el número de instalaciones, y generar fustración en los clientes potenciales que quedan esperando.
 Para compensarlo:
 
 * Se buscarán complicidades con otros instaladores para poder cubrirlas.
 * Se contratará a personal adicional.
 
-No ofrecemos servicios de telefonía móvil que la competencia sí ofrece.
+No ofrecemos **servicios de telefonía móvil** que la competencia sí ofrece.
 Para compensarlo:
 
 * Se buscaran alternativas como comercializar con operadores virtuales
 
 
-No ofrecemos servicios de televisión digital por cable que la competencia sí ofrece.
+No ofrecemos servicios de **televisión digital por cable** que la competencia sí ofrece.
 Para compensarlo:
 
 * Se estudiará ofrecer servicios internos de distribución audiovisual.
