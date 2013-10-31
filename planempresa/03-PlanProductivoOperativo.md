@@ -63,43 +63,9 @@ A parte de éstas,
 hay otras actividades productivas que no están ligadas a la instalación
 y que tienen su propio proceso que no se especifica aquí.
 
-- Acciones de marqueting
+- Acciones de venta
 - Mantenimiento
 - Soporte y atención al cliente
-
-
-### Procedimiento para la prestación del servicio
-
-TODO: Organizar esta parte
-
-- Soporte y atención al cliente
-	- Es imprescindible tener medios de contacto concretos para que los clientes puedan ponerse en contacto con nosotros.
-		- Correo electrónico:  contacte@guifibaix.coop
-		- Teléfono: conseguir un número de teléfono IP para la atención al cliente. A nivel interno conseguir una 
-		  centralita para derivar las llamadas.
-		- Sitio físico: En la medida de lo posible, establecer un sitio físico para recibir posibles clientes.
-			Llegar a acuerdos con las asociaciones de vecinos para poder utilizar sus espacios de manera puntual.
-	- BBDD de clientes e incidencias.
-	- El horario de atención al cliente será de lunes a viernes de 9h a 19h y sábados de 10h a 14h.
-	- Herramienta (bancaria?) para gestionar los ingresos.
-	- Herramienta de monitorización que permita ver las conexiones y poder actuar ante fallos. 
-	- Establecer un manual con las posibles incidencias y soluciones.
-	- Tener la capacidad de que si no se puede solucionar por teléfono la incidencia, poder personarnos en el lugar de 
-	  la incidencia en un plazo máximo de 36 horas. 
-	- Herramientas:
-		- Informáticas: Ordenador para gestionar las incidencias, monitorizar conexiones y realizar pruebas de conectividades
-		- Sustitución de elementos por avería (antenas, routers, swichts, conectores...)
-		- Aparatos para verificar conexiones
-	- Valorar la creación de una asociación de usuarios de Guifibaix en la que poder desarrollar actividades complementarias:
-		- Comercio solidario
-		- Talleres
-		- Relación con otros proyectos cooperativos - desconexión IBEX 35
-		- Participar en eventos (ferias...)
-		- Posibles descuentos en comercios o material informático (proveedores)
-- Mantenimiento
-	- Actualizaciones de sofware
-	- Mismas herramientas de instalación
-	- Herramientas de monitorización
 
 
 ### Tecnologías y herramientas
@@ -213,8 +179,6 @@ en los que no haya tela asfáltica para evitar la perforación de la misma.
 - Los cables de electricidad se instalarán a mínimo 3 cm por debajo de cualquier canalización de gas existente según especifica la normativa.
 - Revisión de la conectividad de la instalación
 
-TODO: normativa gas
-
 
 Respecto a la conectividad, se realizarán las siguientes medidas para asegurar la calidad:
 
@@ -280,17 +244,11 @@ se colocaran elementos de red para establecer **enlaces punto a punto**,
 que no estarán financiadas por el proyecto de instalación a clientes.
 
 Para un enlace punto a punto se requieren dos antenas especiales 
-que tienen un coste aproximado cada una de TODO.
+que tienen un coste aproximado cada una de 80€.
 
-TODO: Precios de las nanobridge
 
 
 ## Seguridad
-
-- Reglamento electrotécnico para baja tensión - Real Decreto 842/2002 del 2 de Agosto 
-- Gas
-- Obras 
-TODO: Normativa que se nos aplica
 
 Haciendo las instalaciones los trabajadores
 estarán expuestos a varios riesgos principales:
@@ -314,6 +272,7 @@ y el uso de herramientas en altura.
 
 Para evitar el riesgo que implica el trabajo con **instalaciones eléctricas**:
 
+- Se aplica el reglamento electrotécnico para baja tensión - Real Decreto 842/2002 del 2 de Agosto 
 - Los trabajadores que hagan estas manipulaciones
 estarán debidamente acreditados para hacerlas.
 - Mientras que se esté haciendo el empalme a la luz de la comunidad,
