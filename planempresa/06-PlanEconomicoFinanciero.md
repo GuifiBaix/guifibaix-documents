@@ -9,9 +9,9 @@ Maquinaria                                       0,00€
 Equipos de proceso de información              500,00€
 Adecuación del local y instalaciones             0,00€
 Elements de transport                            0,00€
-Herramientas                                     0,00€
+Herramientas                                   250,00€
 Mobiliario y equipos                             0,00€
-Patentes y marcas                                0,00€
+Patentes y marcas                               30,00€
 Depósitos y fianzas                              0,00€
 Gastos de constitución                           0,00€
 Existencias                                    400,00€
