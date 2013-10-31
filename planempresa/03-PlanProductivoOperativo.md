@@ -1,22 +1,8 @@
 ﻿# Plan productivo-operativo
 
-- TODO: Todo este apartado tendría que considerar las diferentes actividades productivas
-	- Ligadas a la instalación
-		- Estudio de viabilidad
-		- Instalación
-		- Configuración
-	- Continuas
-		- Marqueting
-		- Mantenimiento
-		- Soporte y atención al cliente
-		- Desarrollo de software
-		- Desarrollo de las redes
 
 
 ## Prestación del producto/servicio
-
-Cada instalación es diferente y tendrás sus características propias, pero a grosso modo se seguirán los siguientes pasos:
-
 
 ### Procedimiento para la instalación
 
@@ -66,7 +52,67 @@ Una instalación típica a una comunidad consta de los siguientes pasos:
 - Configuración del router ADSL, cuando sea necesario, para que funcione bien con la antena.
 
 A parte de éstas, 
-hay otras actividades que no están ligadas a la instalación.
+hay otras actividades productivas que no están ligadas a la instalación
+y que tienen su propio proceso que no se especifica aquí.
+
+- Acciones de marqueting
+- Mantenimiento
+- Soporte y atención al cliente
+- Desarrollo de software
+- Desarrollo de las redes
+
+
+### Procedimiento para la prestación del servicio
+
+TODO: Organizar esta parte
+
+- Soporte y atención al cliente
+	- Es imprescindible tener medios de contacto concretos para que los clientes puedan ponerse en contacto con nosotros.
+		- Correo electrónico:  contacte@guifibaix.coop
+		- Teléfono: conseguir un número de teléfono IP para la atención al cliente. A nivel interno conseguir una 
+		  centralita para derivar las llamadas.
+		- Sitio físico: En la medida de lo posible, establecer un sitio físico para recibir posibles clientes.
+			Llegar a acuerdos con las asociaciones de vecinos para poder utilizar sus espacios de manera puntual.
+	- BBDD de clientes e incidencias.
+	- El horario de atención al cliente será de lunes a viernes de 9h a 19h y sábados de 10h a 14h.
+	- Herramienta (bancaria?) para gestionar los ingresos.
+	- Herramienta de monitorización que permita ver las conexiones y poder actuar ante fallos. 
+	- Establecer un manual con las posibles incidencias y soluciones.
+	- Tener la capacidad de que si no se puede solucionar por teléfono la incidencia, poder personarnos en el lugar de 
+	  la incidencia en un plazo máximo de 36 horas. 
+	- Herramientas:
+		- Informáticas: Ordenador para gestionar las incidencias, monitorizar conexiones y realizar pruebas de conectividades
+		- Sustitución de elementos por avería (antenas, routers, swichts, conectores...)
+		- Aparatos para verificar conexiones
+	- Valorar la creación de una asociación de usuarios de Guifibaix en la que poder desarrollar actividades complementarias:
+		- Comercio solidario
+		- Talleres
+		- Relación con otros proyectos cooperativos - desconexión IBEX 35
+		- Participar en eventos (ferias...)
+		- Posibles descuentos en comercios o material informático (proveedores)
+- Marqueting
+	- Herramientas de difusión on-line:
+		- Guifibaix.coop
+		- Redes sociales
+		- Participación en foros y otras páginas webs.
+	- Folletos y documentos
+		- Volantes
+		- Carteles
+		- Dosieres técnicos informativos
+	- Ferias y eventos
+		- Pancartas
+		- Carpas y mesas
+		- Elementos de promoción (chapas, pegatinas, llaveros...)
+		- Camisetas (para los socios)
+	- Definir la estrategia:
+		- Calendario de ferias y eventos
+		- Contactos con otras webs
+		- Establecer contactos con entidades y asociaciones afines para informar y dar charlas del proyecto
+- Mantenimiento
+	- Actualizaciones de sofware
+	- Mismas herramientas de instalación
+	- Herramientas de monitorización
+
 
 ### Tecnologías y herramientas
 
@@ -142,38 +188,11 @@ Se mantendrá stock puesto que comparlo en grandes cantidades
 es mucho mas barato y los costes de dicho stock no son elevados.
 
 
-
-- El vehículo se utilizará para la realización de instalaciones y será compartido, 
-	con una compensación de 0,5€ por Km en concepto de gasolina y otros gastos.
-
-
 ### Costes de producción
 
-Los precios al público,
-sin considerar descuentos y con IVA,
-del material fungible que usaremos en una instalación media seria:
-
-Material                        unidades    Cantidad  Precio/unidad       Total
---------                       ----------  --------- --------------  ----------
-Antena Ubiquity NS M5                              1       81,00 €      81,00 €
-Cable de red UTP Clase 5	            m        350        0,50 €     175,00 €
-Conectores UTP Clase 5                            12        0,12 €       1,44 €
-Fundas Conectores RJ45                            12        0,34 €       4,08 €
-Switch Giga 8p Metalico                            4       20,00 €      80,00 €
-Router Microtik (cortafuegos)                      1       83,27 €      83,27 €
-Manguera de alimentación                m         20        1,00 €      20,00 €
-Enchufes Schuko                                    5        8,11 €      40,55 €
-Cajas estancas switches                            4        5,23 €      20,92 €
-Caja estanca router                                1        9,10 €       9,10 €
-
-Para cada vecino connectado connectado el material fungible sería:
-
-Material                        unidades   Cantidad  Precio/unidad       Total
---------                       ----------  --------- --------------   ---------
-Apliques pared                                     1      3,81 €         3,81 €
-Conectores UTP Clase 5                             1      0,12 €         0,12 €
-Fundas Conectores RJ45                             1      0,34 €         0,34 €
-Adaptador Teléfono                                 1     27,23 €        27,23 €
+Los costes de producción equivalen a los costes facturados
+En una instalación media, con 10 vecinos repartidos en 4 verticales,
+los costes de producción 
 
 
 ### Temporización
@@ -188,65 +207,6 @@ Adaptador Teléfono                                 1     27,23 €        27,23
 en caso de que los vecinos no estén en sus domicilios (mínimo de media hora)
 
 
-### Procedimiento para la prestación del servicio
-
-TODO: Organizar esta parte
-
-- Soporte y atención al cliente
-	- Es imprescindible tener medios de contacto concretos para que los clientes puedan ponerse en contacto con nosotros.
-		- Correo electrónico:  contacte@guifibaix.coop
-		- Teléfono: conseguir un número de teléfono IP para la atención al cliente. A nivel interno conseguir una 
-		  centralita para derivar las llamadas.
-		- Sitio físico: En la medida de lo posible, establecer un sitio físico para recibir posibles clientes.
-			Llegar a acuerdos con las asociaciones de vecinos para poder utilizar sus espacios de manera puntual.
-	- BBDD de clientes e incidencias.
-	- El horario de atención al cliente será de lunes a viernes de 9h a 19h y sábados de 10h a 14h.
-	- Herramienta (bancaria?) para gestionar los ingresos.
-	- Herramienta de monitorización que permita ver las conexiones y poder actuar ante fallos. 
-	- Establecer un manual con las posibles incidencias y soluciones.
-	- Tener la capacidad de que si no se puede solucionar por teléfono la incidencia, poder personarnos en el lugar de 
-	  la incidencia en un plazo máximo de 36 horas. 
-	- Herramientas:
-		- Informáticas: Ordenador para gestionar las incidencias, monitorizar conexiones y realizar pruebas de conectividades
-		- Sustitución de elementos por avería (antenas, routers, swichts, conectores...)
-		- Aparatos para verificar conexiones
-	- Valorar la creación de una asociación de usuarios de Guifibaix en la que poder desarrollar actividades complementarias:
-		- Comercio solidario
-		- Talleres
-		- Relación con otros proyectos cooperativos - desconexión IBEX 35
-		- Participar en eventos (ferias...)
-		- Posibles descuentos en comercios o material informático (proveedores)
-- Marqueting
-	- Herramientas de difusión on-line:
-		- Guifibaix.coop
-		- Redes sociales
-		- Participación en foros y otras páginas webs.
-	- Folletos y documentos
-		- Volantes
-		- Carteles
-		- Dosieres técnicos informativos
-	- Ferias y eventos
-		- Pancartas
-		- Carpas y mesas
-		- Elementos de promoción (chapas, pegatinas, llaveros...)
-		- Camisetas (para los socios)
-	- Definir la estrategia:
-		- Calendario de ferias y eventos
-		- Contactos con otras webs
-		- Establecer contactos con entidades y asociaciones afines para informar y dar charlas del proyecto
-- Mantenimiento
-	- Actualizaciones de sofware
-	- Mismas herramientas de instalación
-	- Herramientas de monitorización
-- Desarrollo de software
-	- Estar atentos a las necesidades de los usuarios para desarrollar servicios y aplicaciones de valor añadido. 
-		- OwnClound (descargas compartidas...)
-		- Correo electrónico
-- Desarrollo de redes
-	- Conexiones de islas 
-	- Interconexiones con otras redes (Guifinet)
-	- Conseguir conectividad directa con fibra óptica.
-	- Estar al tanto de las evoluciones y las actualizaciones.
 
 ### Calidad
 
@@ -278,12 +238,10 @@ Respecto a la conectividad, se realizarán las siguientes medidas para asegurar 
 
 Para lograr una correcta atención al cliente, se seguirán los siguientes puntos:
 
-- Formación básica a los usuarios, para que puedan hacer correcto uso de la red y puedan identificar qué es una incidencia.
-- Registro de incidencias e informes periódicos para poder atacar las más usuales.
-- Elaborar manuales para usuarios donde puedan encontrar soluciones a las incidencias más comunes.
-- Llevar un seguimiento diario de incidencias verificando a final de cada jornada que las incidencias están resueltas.
-- Si la incidencia no se ha resuelto por teléfono, ajustar la planificación para poder atender la incidencia en un plazo 
-  de 36h de días laborables. 
+- Implantar un sistema de tícketing para gestionar las incidencias.
+- Repaso al empezar el día de las incidencias del día anterior
+- Retrospectiva semanal de las incidencias para planear acciones que las minimicen
+- Elaborar asistentes automatizados para ayudar a los usuarios a encontrar la solución por ellos mismos.
 
 Respecto al software:
 
@@ -303,6 +261,7 @@ se seguirán metodologías ágiles y de código abierto.
 
 
 ## Equipo y infraestructura
+
 
 
 Se necesitarán **servidores** que soporten tecnología de virtualización.
