@@ -15,9 +15,9 @@ sino simplemente la propia viabilidad económica del proyecto,
 en tanto ayude a conseguir los objetivos sociales a los que se dirige,
 que son:
 
-- Proporcionar a la ciudadanía una alternativa ética y eficaz al oligopolio existente en el sector de las telecomunicaciones fijas.
-- Abaratar los costes de acceso a las tecnologías de la información para universalizarlo.
-- Desarrollar la economía local, habilitando vías de empleo en sectores actualmente en recesión como el de la construcción.
+1. Proporcionar a la ciudadanía una alternativa ética y eficaz al oligopolio existente en el sector de las telecomunicaciones fijas.
+2. Abaratar los costes de acceso a las tecnologías de la información para universalizarlo.
+3. Desarrollar la economía local, habilitando vías de empleo en sectores actualmente en recesión como el de la construcción.
 
 Al mismo tiempo,
 la iniciativa está ligada a unos valores éticos
@@ -40,9 +40,8 @@ que incluyen
 el cableado del edificio,
 la configuración de los aparatos de red,
 el mantenimiento y la gestión de la red de la zona
-repartiendo el flujo de datos hacia los puntos de salida disponibles,
-y ofreciendo servicios de valor añadido a los usuarios.
-
+repartiendo el flujo de datos hacia los puntos de salida disponibles.
+Además se ofrecerán servicios telemáticos internos complementarios.
 
 ## Contexto y oportunidades de negocio
 
@@ -98,6 +97,50 @@ No es el caso en la mayoria de municipios del Baix Llobregat
 en donde aún no existen servicios profesionalizados.
 Guifibaix vendría a cubrir dicho espacio.
 
+## Precedentes del proyecto
+
+El proyecto surge de una campaña de los movimientos sociales
+del Baix Llobregat llamada *Desconexión del IBEX-35*,
+que llama a dejar de usar los productos y servicios
+de grandes oligo-empresas en diversos sectores que
+por algún motivo se consideran socialmente perniciosas.
+La campaña compila, y publica en una página web[^desconexion], 
+información crítica sobre las alternativas, 
+organiza charlas para darlas a conocer,
+y promueve acciones de salto colectivo y acompañamiento.
+Cuando la alternativa no existe o tiene elementos que dificultan el salto,
+se toma un papel activo construyéndola o complementándola.
+
+[^desconexion]: <http://desconexionibex35.org>
+
+Este fue el caso de la alternativa guifi.net para las telecomunicaciones.
+Una charla de la campaña sobre esta alternativa
+puso en contacto a gente interesada
+con los socios de la Asociación de Vecinos del Eixample de Sant Joan Despí,
+que desde hacía años mantenían una pequeña red de una decena de nodos en el barrio.
+Después de hablarlo, se concluyó que no era viable 
+convertir la alternativa en una opción generalista
+basándose solo en voluntarios como se había hecho hasta entonces
+y se decidió empezar un proyecto para profesionalizarlo.
+
+Buscando la fórmula para ello,
+se encontró el apoyo de la  asociación GATS del Prat de Llobregat.
+GATS se ofreció para hacer de incubadora del proyecto,
+durante un periodo de tiempo acotado.
+De esta forma se reducían los gastos iniciales
+y el riesgo por decisiones precipitadas.
+
+Durante el periodo exploratorio de incubación,
+se juntó un equipo con personas de ambas poblaciones,
+con perfiles complementarios,
+y con valores cooperativos para empezar el proyecto,
+que son los que ahora forman el equipo promotor,
+con el apoyo del resto de voluntarios de la comunidad.
+
+Con la experiencia del periodo exploratorio de incubación,
+se plantea ahora este plan de negocio 
+para empezar la andadura del proyecto en solitario.
+
 
 ## Los promotores
 
@@ -109,7 +152,7 @@ Guifibaix vendría a cubrir dicho espacio.
 
 - Ingeniero Técnico en Informática de Sistemas por la Universitat Politècnica de Catalunya
 - Experto en sistemas de virtualización y redes de datos.
-- 20 años de experiencia en empresas de servicios informáticos, trato con clientes, gestión de soporte, dando servicio a empresas de gran volumen incluso a nivel internacional.
+- 20 años de experiencia en empresas de servicios informáticos, trato con clientes, gestión de soporte, dando servicio a empresas de gran volumen y transnacionales.
 - Experto en sistemas web
 
 \begin{wrapfigure}{r}{0.28\textwidth}
@@ -120,11 +163,11 @@ Guifibaix vendría a cubrir dicho espacio.
 
 - Ingeniero Informático por la Universidad Ramón Llull.
 - Máster en Tecnologías de la Información, la Comunicación y los Medios Audiovisuales por la Universidad Pompeu Fabra.
-- Profesor del Departamento de Tecnología de la Universidad Pompeu Fabra.
-- Investigador experto en los ámbitos de la Ingeniería del Software, Metodologías Ágiles, Calidad del Software y Audio Digital.
-- Ha participado como socio y trabajador en varias start-ups tecnológicas.
+- Profesor y investigador en la Universidad Pompeu Fabra.
+- Experto en Ingeniería del Software, Calidad del Software, Metodologías Ágiles y Audio Digital.
+- Ha participado en varias start-ups tecnológicas.
 - Desarrollador y activista en pro del software libre.
-- Responsable de la campaña *Desconexion del IBEX35* de la assamblea del 15M de Sant Joan Despí.
+- Responsable de la campaña *Desconexión del IBEX35* de la asamblea del 15M de Sant Joan Despí.
 
 
 \begin{wrapfigure}{r}{0.28\textwidth}
