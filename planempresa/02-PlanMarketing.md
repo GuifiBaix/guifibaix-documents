@@ -657,8 +657,11 @@ y participando en ferias locales
 
 Para estas acciones de difusión se crearan materiales 
 como folletos de mano (flyers),
-targetas de visita y
-estandartes (roll-ups).
+dossieres informativos, 
+tarjetas de visita,
+estandartes (roll-ups),
+elementos promocionales como chapas, pegatinas, camisetas, llaveros...
+
 
 \begin{figure}[htp]
 	\centering
