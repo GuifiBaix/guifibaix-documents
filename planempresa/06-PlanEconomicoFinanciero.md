@@ -6,7 +6,7 @@ Concepto                                        Import
 ----------------------------------------   -----------
 Edificios, locales y terrenos                    0,00€
 Maquinaria                                       0,00€
-Equipos de proceso de información              500,00€
+Equipos de proceso de información             1800,00€
 Adecuación del local y instalaciones             0,00€
 Elements de transport                            0,00€
 Herramientas                                   250,00€
@@ -17,7 +17,7 @@ Gastos de constitución                           0,00€
 Existencias                                    400,00€
 Otros gastos                                     0,00€
 Provisión de fondos                              0,00€
-**Total fondos**                                 0,00€
+**Total fondos**                              2480,00€
 ----------------------------------------   -----------
 Table: Plan de inversión inicial
 
@@ -38,36 +38,36 @@ Table: Plan de financiación
 
 Ingresos                                        Import
 ----------------------------------------   -----------
-Ventas                                           0,00€
+Ventas                                       16000,00€
 Existencias finales                              0,00€
 Otros ingresos                                   0,00€
 Subvenciones                                     0,00€
 Pólizas de crédito                               0,00€
-**Total ingresos**                               0,00€
+**Total ingresos**                           16000,00€
 ----------------------------------------   -----------
 Table: Ingresos del primer año
 
 Gastos                                          Import
 ----------------------------------------   -----------
-Compra materias primeras                         0,00€
+Compra materias primeras                      2000,00€
 Existencias iniciales                            0,00€
 Gastos de personal                                    
   Retribución propia                             0,00€
-  Sueldo personal                                0,00€
-  Seguridad social                               0,00€
+  Sueldo personal                             4000,00€
+  Seguridad social                            2300,00€
 Gastos financieros                               0,00€
 Impuestos (IAE, IBI...)                          0,00€
 Alquileres                                       0,00€
-Seguros                                          0,00€
+Seguros                                        150,00€
 Suministros (luz, agua, teléfono...)             0,00€
 Mantenimientos y reparaciones                    0,00€
-Servicios externos (gestoría...)                 0,00€
+Servicios externos (gestoría...)               200,00€
 Transportes                                      0,00€
 Gastos diversos (publicidad...)                600,00€
 Fondo de amortizaciones                               
    Amortizaciones inmobilidado                   0,00€
    Amortizaciones constitución                   0,00€
-**Total gastos**                                 0,00€
+**Total gastos**                              9250,00€
 ----------------------------------------   -----------
 Table: Gastos del primer año
 
