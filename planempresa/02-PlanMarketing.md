@@ -114,9 +114,18 @@ para después densificar la red al mismo tiempo que se expande dentro de la conu
 Para conectar nodos distantes que salven zonas interurbanas,
 se usan enlaces punto a punto que son más caros que las antenas que solemos poner.
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{guifinet-cobertura-santjoandespi.png}
+	\caption{Cobertura en Sant Joan Despí al iniciar el proyecto}
+	\label{fig-cobertura-santjoandespi}
+\end{figure}
+
+
 Concretamente, se plantean dos centros de expansión,
 uno en El Prat que está en fase de estudio
 y otro en Sant Joan Despí que ya dispone de algunos nodos
+(\autoref{fig-cobertura-santjoandespi})
 y está listo para densificarse y expandirse a municipios
 colindantes como
 Cornellá, 
@@ -125,15 +134,6 @@ Sant Feliu de llobregat,
 Sant Just Desvern,
 Esplugues
 o Santa Coloma de Cervelló.
-
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=0.9\textwidth]{guifinet-cobertura-santjoandespi.png}
-	\caption{Cobertura en Sant Joan Despí al iniciar el proyecto}
-\end{figure}
-
-
-
 Se deja la puerta abierta a empezar islas de nodos en otros núcleos urbanos
 que habría que considerar.
 
@@ -639,7 +639,7 @@ En el último coste hay que considerar el descuento que hace GuifiBaix compartir
 Con voluntad de diferenciar GuifiBaix
 de las prácticas invasivas de las grandes empresas de telecomunicaciones, 
 apostamos por un modelo de difusión de carácter más local,
-basado en relaciones personales.
+basado en relaciones personales y en los movimientos sociales.
 
 En este caso, la primera fase de difusión se basará en el boca – oreja entre amigos, 
 familiares, conocidos y personas interesadas en este proyecto.
@@ -652,7 +652,8 @@ con entidades y asociaciones que compartamos valores similares
 (asociaciones de vecinos, 
 proyectos de consumo responsable, 
 cooperativas sin ánimo de lucro...) 
-y participando en ferias locales.
+y participando en ferias locales
+(\autoref{fig-esperanzah}, \autoref{fig-firaentitatssjd}).
 
 Para estas acciones de difusión se crearan materiales 
 como folletos de mano (flyers),
@@ -663,12 +664,14 @@ estandartes (roll-ups).
 	\centering
     \includegraphics[width=0.9\textwidth]{GuifiBaixEsperanzah.jpg}
     \caption{Parada de GuifiBaix en el festival Esperanzah del Prat}
+    \label{fig-esperanzah}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
     \includegraphics[width=0.9\textwidth]{GuifiBaixFiraEntitatsSJD.jpg}
     \caption{Parada de GuifiBaix en la Fira d'Entitats de Sant Joan Despí}
+    \label{fig-firaentitatssjd}
 \end{figure}
 
 En zonas donde no tengamos estos contactos,
