@@ -208,7 +208,7 @@ TODO: Organizar esta parte
 	  la incidencia en un plazo máximo de 36 horas. 
 	- Herramientas:
 		- Informáticas: Ordenador para gestionar las incidencias, monitorizar conexiones y realizar pruebas de conectividades
-		- Sustinución de elementos por avería (antenas, routers, swichts, conectores...)
+		- Sustitución de elementos por avería (antenas, routers, swichts, conectores...)
 		- Aparatos para verificar conexiones
 	- Valorar la creación de una asociación de usuarios de Guifibaix en la que poder desarrollar actividades complementarias:
 		- Comercio solidario
