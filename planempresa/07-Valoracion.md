@@ -9,6 +9,7 @@
 - Al trabajar localmente, hay un conocimiento íntimo del mercado.
 - Los socios ya tienen experiencia en este tipo de instalaciones.
 - Es un proyecto que surge de la comunidad local de guifi.net por lo que hay complicidad con los otros expertos locales que sin participar directamente, apoyan el proyecto.
+- También por simpatía con los movimientos sociales son estos los que a menudo están haciéndo difusión de forma desinteresada.
 
 
 ## Puntos débiles
