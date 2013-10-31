@@ -8,7 +8,7 @@
 - El modelo cooperativo implica a los trabajadores en el éxito de la empresa.
 - Al trabajar localmente, hay un conocimiento íntimo del mercado.
 - Los socios ya tienen experiencia en este tipo de instalaciones.
-- Es un proyecto que surge de la comunidad local de guifi.net por lo que hay complicidad con los otros expertos locales.
+- Es un proyecto que surge de la comunidad local de guifi.net por lo que hay complicidad con los otros expertos locales que sin participar directamente, apoyan el proyecto.
 
 
 ## Puntos débiles
