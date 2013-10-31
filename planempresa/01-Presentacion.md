@@ -139,8 +139,9 @@ con el apoyo del resto de voluntarios de la comunidad.
 
 Con la experiencia del periodo exploratorio de incubación,
 se plantea ahora este plan de negocio 
-para empezar la andadura del proyecto en solitario.
+para empezar la andadura del proyecto con entidad jurídica propia.
 
+\newpage
 
 ## Los promotores
 
