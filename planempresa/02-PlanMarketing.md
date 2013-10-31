@@ -285,10 +285,11 @@ Algunos usos que hay que tener en cuenta son los siguientes:
    una solución a proponer sería que ellos fueran los que cedieran el ADSL
    para mantener los tiempos de respuesta que tuvieran hasta el momento.
 -  **Llamadas internacionales:**
-   Si alguien hace llamadas internacionales, hay que vender que según a qué paises
-   las llamadas salen incluso más baratas que las nacionales. Precio locutorio.
-   No está de mas tener a mano para enseñarla las tarifas de uno o dos proveedores de telefonía IP.
-
+   GuifiBaix es especialmente atractivo a quien haga llamadas internacionales.
+   Con los proveedores de telefonía IP, que son los que usan los locutorios,
+   las llamadas a según que paises salen más baratas que las nacionales.
+   Es aconsejable tener imprimida alguna hoja de tarifas de los proveedores
+   para consultar el país concreto en el que el cliente potencial esté interesado.
 
 
 #### Respecto al tipo de edificación y comunidad
@@ -572,35 +573,30 @@ Un listado incompleto de estos proyectos sería:
 	* [inode64](http://www.inode64.com/info/instalador-guifi-net) (Castelló)
 * Otros disponibles en el [directorio de instaladores](https://guifi.net/ca/directori) de guifi.net
 
+La relación con otras empresas que puedan ofrecer guifi.net en la zona,
+debería de ser colaborativa.
+Contra más nodos existan, mejor cobertura,
+más redundancia y más puntos de acceso para repartir el flujo de salida.
+Además, por el efecto de red, cuanto más gente lo tenga,
+más gente lo querrá.
+Cada instalador tendrá una capacidad de despliegue limitada,
+así que la suma de capacidades es positiva para todos
 
-### Análisis del mercado
+Hay que ir con cuidado en dos aspectos:
 
-Respecto a las compañías establecidas 
+- Hay que asegurar la interoperabilidad,
+	- bien usando sistemas compatibles o,
+	- bien poniendo nodos puente
+- Hay que evitar escaladas bajistas de precios
+	- Los márgenes son estrechos
 
-* Otras posibles empresas que ofrezcan guifi.net
-	* Promover una actitud cooperativa
-	* Contra más nodos, mejor para todos
-		* Más cobertura
-		* Más redundancia
-		* Más puntos de acceso
-	* Reparto de trabajo
-		* Ahora mismo Guifi.net no esta desplegado en Sant Joan, cada edificio es un cliente potencial.
-		* Efecto red: Contra más gente lo tenga más gente lo querrá, así que interesa desplegarlo rápido
-		* Interoperabilidad
-			* Hay que buscar unificar sistemas
-		* Cada instalador tendrá una capacidad de desplegamiento limitada
-		* Si no podemos abarcar un trabajo, lo ofrecemos a los otros y viceversa
-		* Si podemos avanzar mas rápido entre los dos, mejor
-		* De hecho, interesa que haya más gente que lo instale
-	* Precios
-		* Si no son colaborativos, en caso de rebentada de precios tenemos un problema
-		* Tambien lo tendrán ellos si se prolonga mucho la situación
-		* Importante tener una estructura que permita reducir costes fijos
-		* En caso de que no sean economia social, eso es un valor añadido para nosotros
-* Otras posibles redes (alternativas pero no Guifi.net)
-	* Interesa la conexión con ellas
-	* Nos ofrecemos como red de acceso a clientes potenciales para ellos
-	* Si tienen puertas a internet, negociar tarifas de puertas de acceso
+En el caso de otras redes fuera de guifi.net,
+como son los proveedores que usan fibra pública,
+se pueden establecer alianzas en los dos sentidos.
+Por un lado, GuifiBaix les puede servir de red de acceso 
+a unos clientes que no disponen aun de fibra pública.
+Por otro, ellos nos pueden servir de punto de salida de nuestra red interna.
+
 
 ## Precios
 
@@ -635,7 +631,7 @@ En el último coste hay que considerar el descuento que hace GuifiBaix compartir
 \begin{figure}[ht]
 	\centering\fbox{
 	\includegraphics[width=0.33\textwidth]{flyer.pdf}}
-	\caption{Folleto de mano}
+	\caption{Folleto informativo de GuifiBaix}
 \end{figure}
 
 ## Distribución
@@ -665,14 +661,14 @@ estandartes (roll-ups).
 
 \begin{figure}[htp]
 	\centering
-    \includegraphics[width=0.9\textwidth]{GuifiBaixFiraEntitatsSJD.jpg}
-    \caption{Parada de GuifiBaix en la Fira d'Entitats de Sant Joan Despí}
+    \includegraphics[width=0.9\textwidth]{GuifiBaixEsperanzah.jpg}
+    \caption{Parada de GuifiBaix en el festival Esperanzah del Prat}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
-    \includegraphics[width=0.9\textwidth]{GuifiBaixEsperanzah.jpg}
-    \caption{Parada de GuifiBaix en el festival Esperanzah del Prat}
+    \includegraphics[width=0.9\textwidth]{GuifiBaixFiraEntitatsSJD.jpg}
+    \caption{Parada de GuifiBaix en la Fira d'Entitats de Sant Joan Despí}
 \end{figure}
 
 En zonas donde no tengamos estos contactos,
