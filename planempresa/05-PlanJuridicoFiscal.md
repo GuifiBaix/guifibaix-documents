@@ -1,31 +1,5 @@
 ﻿# Plan jurídico-fiscal
 
-TODO: Verificar y repartir la informacion en los apartados y ver si falta algo
-
-
-Para realizar la actividad se constituirá una cooperativa de iniciativa social sin ánimo de lucro.
-
-Las cooperativas son un modelo de empresa sostenible, comprometida y basada en principios y valores.
-Porque son empresas propiedad de los asociados y que se gestionan de manera democrática.
-Porque las cooperativas se ayudan entre ellas para crecer y cuentan estructuras de soporte propias.
-Porque es un modelo de crecimiento que conjuga democracia, eficiencia y responsabilidad social con éxito empresarial.
-
-TODO: Esto no era nuestro
-
-Los asociados estaremos en el régimen general de la Seguridad Social un mínimo de 5 años.
-Pasado este tiempo, podemos replantearnos la forma más adecuada de continuar
-
-Capital social: 3000€
-Registro del nombre: 13€
-Registro del notario: 270€
-
-Epígrafes:
-* 504 Instalaciones y montajes
-* 5041 Instalaciones eléctricas en general. Instalación de redes telegráficas, telefónicas, telefonía sin hilos y televisión. Instalaciones de
-sistemas de balización de puertos y aeropuertos
-
-Régimen general de la seguridad social.
-
 ## Forma jurídica
 
 El proyecto se constituirá con la denominación de GuifiBaix SCCL,
@@ -35,7 +9,11 @@ sujeta a los principios y disposiciones la Ley 18/2002, de Cooperativas de Catal
 con plena personalidad jurídica y con responsabilidad
 limitada de sus socios por las obligaciones sociales.
 
-Cada socio trabajador aportara al capital social 1.000€.
+Los epígrafes fiscales aplicables son: 
+
+* 504 Instalaciones y montajes
+* 5041 Instalaciones eléctricas en general. Instalación de redes telegráficas, telefónicas, telefonía sin hilos y televisión. Instalaciones de
+sistemas de balización de puertos y aeropuertos
 
 Los tramites necesarios para constituir la cooperativa en su procedimiento
 abreviado son:
@@ -52,7 +30,7 @@ Liquidación ITPAJD*                                    50€         inmediato
 Inscripción en el registro de cooperativas              0€           max 48h
 Declaración censal de alta                              0€         inmediato
 Inscripción de la empresa en la Tesorería General
-de la Seguridad Social                                  0€         inmediato
+de la Seguridad Social                                150€         inmediato
 Comunicacion de obertura del centro de trabajo          0€         inmediato
 Obtención del libro de visitas                          0€         inmediato
 
@@ -62,32 +40,48 @@ Los impresos se descargan todos de la web para evitar el coste de 2€ cada uno.
  * ITPAJD: Impuesto de transmisiones patrimoniales y actos jurídicos documentados. 1% del capital social.
 
 
-
 ## Régimen Seguridad social
 
-Los trabajadores contratados, incluidos los socios,
+Los trabajadores contratados, incluidos los promotores,
 cotizarán al regimen general de la seguridad social.
 Se estima el coste de los pagos a la seguridad social
 como aproximadamente un 35% de la masa salarial.
 
 ## Contratación
 
+Los socios estarán contratados a tiempo parcial,
+dependiendo del volumen de trabajo ( por ejemplo, 8h/ semanales). 
+A medida de que aumenten los ingresos, se aumentarán las horas de trabajo
+y se podrá plantear contratar gente indefinida.
 
-Los socios estarán contratados a tiempo parcial, dependiendo del volumen de trabajo ( por ejemplo, 8h/ semanales). 
-A medida de que aumenten los ingresos, se aumentarán las horas de trabajo.
-
-En casos puntuales, se puede optar por contratar a una persona no socia. Se le realizaría un contrato por obra y servicio
+En casos puntuales, se puede optar por contratar a una persona no socia.
+Se le realizaría un contrato por obra y servicio
 y el nº de horas a trabajar no podría superar el 30% de las horas trabajadas por los socios. 
 
-TODO: Preguntar a GATS costes laborales del contrato por obra
+Los costes de contratación son:
+
+* Gastos de gestoría: entre 20 y 30 euros por alta o baja de un trabajador.
+* Seguridad social de empresa es un aprox. 31% del sueldo del trabajador (varia según el tramo y tipo de contrato).
+* Seguridad social trabajador. Es un 6'4%  (varia según el tramo y tipo de contrato).
+
 
 ## Obligaciones fiscales
 
-- IRPF:
+- SS:
+	- Cada mes
+	- Importes que correspondan a las nóminas
 - IBI: No hay local, no hay galletita
-- IAE: 
-- IVA: 
-
+- IAE: Exemptos
+- IVA:
+	- Se paga en abril, julio, octubre y enero
+	- 21% instalaciones y cuotas
+	- 0% formaciones
+- IRPF:
+	- Cada mes se retiene el porcentaje en las nominas
+	- Cada trimestre (abril, julio, octubre y enero) se paga esa retención
+- Impuesto sociedades 
+	- Se paga el siguiente julio despues del ejercicio.
+	- Se paga según beneficios de la sociedad
 
 
 ## Permisos y licencias
@@ -98,13 +92,25 @@ será necesario el registro en la CMT como proveedor de servicios de telecomunic
 
 ## Seguros
 
+Se contratarán los siguientes seguros:
+
+- Prevención de riesgos: 90€/año/trabajador a  jornada completa
+- Responsabilidad civil: Entre 200€ y 600€ al año dependiendo del tipo de
+seguro
+- Accidentes convenio: Unos 120€ al año
 
 
 ## Patentes, marcas y registros
 
-- No patentes
-- Licencias libres y virales
-- Webs registradas .net, .coop, .organització
+Siguiendo los principios de la cooperativa,
+no se van a registrar patentes.
+
+Se cubrirá la propiedad intelectual mediante licencias libres y virales.
+Si se hace alguna patente, se utilizará de forma exclusivamente defensiva.
+
+Se registraran los dominios guifibaix.net, guifibaix.coop, guifibaix.org
+y se registrará la marca y el logo de GuifiBaix.
+
 
 
 
