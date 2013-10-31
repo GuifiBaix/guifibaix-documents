@@ -6,6 +6,14 @@
 
 ### Procedimiento para la instalación
 
+Previo a empezar las instalaciones es necesario desarrollar el producto.
+El desarrollo del producto consiste en diseñar y testear la estructura
+de la red que se quiere implementar.
+
+- Desarrollo de las redes
+- Desarrollo de software
+
+
 Una instalación típica a una comunidad consta de los siguientes pasos:
 
 - Prueba de connectividad y prospección de la azotea
@@ -58,8 +66,6 @@ y que tienen su propio proceso que no se especifica aquí.
 - Acciones de marqueting
 - Mantenimiento
 - Soporte y atención al cliente
-- Desarrollo de software
-- Desarrollo de las redes
 
 
 ### Procedimiento para la prestación del servicio
@@ -90,24 +96,6 @@ TODO: Organizar esta parte
 		- Relación con otros proyectos cooperativos - desconexión IBEX 35
 		- Participar en eventos (ferias...)
 		- Posibles descuentos en comercios o material informático (proveedores)
-- Marqueting
-	- Herramientas de difusión on-line:
-		- Guifibaix.coop
-		- Redes sociales
-		- Participación en foros y otras páginas webs.
-	- Folletos y documentos
-		- Volantes
-		- Carteles
-		- Dosieres técnicos informativos
-	- Ferias y eventos
-		- Pancartas
-		- Carpas y mesas
-		- Elementos de promoción (chapas, pegatinas, llaveros...)
-		- Camisetas (para los socios)
-	- Definir la estrategia:
-		- Calendario de ferias y eventos
-		- Contactos con otras webs
-		- Establecer contactos con entidades y asociaciones afines para informar y dar charlas del proyecto
 - Mantenimiento
 	- Actualizaciones de sofware
 	- Mismas herramientas de instalación
