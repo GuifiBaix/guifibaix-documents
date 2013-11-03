@@ -4,11 +4,25 @@
 # Tareas pendientes
 
 + ~~Recoger los flyers~~
-- Cerrar presupuesto Catalunya
-- Cerrar presupuesto Domenech
+- Proyectos potenciales
+	- Cerrar presupuesto Catalunya
+	- Cerrar presupuesto Domenech
+	- Reunión Verdaguer (pendiente de convocatoria)
+	- Adaptar y resumir el dossier de Verdaguer para la gestora de Gelabert1
+	- Enlace de Santa Coloma
+		- Poner Nanobridge de Josep Maria
+		- Configurar NanoStations que empalmaran Cesalpina-Elisenda con Cesalpina-David
+		- Instalar antenas (NB+NS) de Cesalpina-Elisenda apuntando a Josep Maria
+		- Instalar antenas (NB+NS) de Cesalpina-David apuntando a Hospitalet
+		- Resolver la domiciliación de cuotas para Elisenda
+		- Viabilidad de contectar Cesalpina-David a Torrellas
+- Instalacion prototipo David
+	- Estudiar como meter los cacharros en las cajas estancas
+	- Comprar material
+	- Instalar
 - Reorientar antena AAVV el Pi
-- Pedir cuenta de prueba con Adam
-- Pedir cuenta de prueba con Anescu
+- Pedir cuenta de prueba con Adam (Enviada peticion)
+- Pedir cuenta de prueba con Anescu (Enviada peticion)
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
 - Pruebas remotas de telefonía IP
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
@@ -25,13 +39,6 @@
 		- EPIS
 		- Escaleras (Aitor)
 		- Walkies
-- Reunión Verdaguer (pendiente de convocatoria)
-- Enlace de Santa Coloma
-	- Poner Nanobridge de Josep Maria
-	- Configurar NanoStations que empalmaran Cesalpina-Elisenda con Cesalpina-David
-	- Instalar antenas (NB+NS) de Cesalpina-Elisenda
-	- Instalar antenas (NB+NS) de Cesalpina-David
-	- Resolver la domiciliación de cuotas para Elisenda
 - Desarrollo Software -- David/Victor
 	- Mock-up de la API JSON del MlDonkey
 	- Explorar si podemos desarrollarla nosotros mismos (esta en Ocaml)
