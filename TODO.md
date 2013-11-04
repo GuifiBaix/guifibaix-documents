@@ -1,15 +1,36 @@
 # Tareas semanales
 
+- Cerrar presupuesto Catalunya [Aitor/RaulS martes]
+- Cerrar presupuesto Domenech [Aitor/RaulS martes]
+- Adaptar y resumir el dossier de Verdaguer para la gestora de Gelabert1 [Aitor lunes noche]
+- Burchar al presidente de Verdaguer
+- ~~Burchar a Victor para que hable con Josep Maria~~
+- Fijar fecha cornella
+- Enviar cartell cornella
+- ~~Decidir fecha de convenio~~
+- Imprimir convenio (Aitor)
+- Firmar convenio
+- Llevarlo a Gats
+- Contactar victor
+	- Preguntar app de walkies
+	- Poner a RaulS en contacte@
+	- Mirar cable mas resistente
+- Clientes potenciales
+	- Mailing a los clientes potenciales [RaulS]
+	- Llamar a los que contesten [RaulS con ayudas del resto]
+
+
+- Estudiar como meter los cacharros en las cajas estancas
+	- Comprar cajas
+	- Comprar enchufes
+	- Manguera de luz (cuando estemos listos para una instalación)
+
 
 # Tareas pendientes
 
 + ~~Recoger los flyers~~
 - Proyectos potenciales
-	- Cerrar presupuesto Catalunya
-	- Cerrar presupuesto Domenech
-	- Cerrar presupuesto de Fructuòs Gelabert
 	- Reunión Verdaguer (pendiente de convocatoria)
-	- Adaptar y resumir el dossier de Verdaguer para la gestora de Gelabert1
 	- Enlace de Santa Coloma
 		- Poner Nanobridge de Josep Maria
 		- Configurar NanoStations que empalmaran Cesalpina-Elisenda con Cesalpina-David
@@ -18,7 +39,6 @@
 		- Resolver la domiciliación de cuotas para Elisenda
 		- Viabilidad de contectar Cesalpina-David a Torrellas
 - Instalacion prototipo David
-	- Estudiar como meter los cacharros en las cajas estancas
 	- Comprar material
 	- Instalar
 - Reorientar antena AAVV el Pi
@@ -35,11 +55,10 @@
 			- Comprobar si hay cable con cubierta más resistente que no suba mucho precio
 	- Otros
 		- Manguera de luz (cuando estemos listos para una instalación)
-		- Pasa cables
 		- Cajas estancas
 		- EPIS
 		- Escaleras (Aitor)
-		- Walkies
+		- Walkies 
 - Desarrollo Software -- David/Victor
 	- Mock-up de la API JSON del MlDonkey
 	- Explorar si podemos desarrollarla nosotros mismos (esta en Ocaml)
@@ -47,6 +66,8 @@
 		- Desarrollarla
 	- Programa para obtener exclusividad de conexión
 - Desarrollo redes [Victor/David]
+	- Investigar si hay forma de importar/exportar configuraciones editables de la antena
+	- Investigar si hay forma de importar/exportar configuraciones editables de la microtik
 	- Establecer y documentar configuraciones estandars:
 		- Sin ADSL compartido sin microtik (por defecto?)
 		- Sin ADSL compartido con microtik
@@ -58,7 +79,7 @@
 		- Pendiente de que nos lo traigan [Victor]
 		- Ponerlo en marcha
 		- Migrar los servidores
-
+- Encargar targetas de visita
 
 
 # Plan de empresa
