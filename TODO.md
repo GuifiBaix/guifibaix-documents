@@ -7,6 +7,7 @@
 - Proyectos potenciales
 	- Cerrar presupuesto Catalunya
 	- Cerrar presupuesto Domenech
+	- Cerrar presupuesto de Fructuòs Gelabert
 	- Reunión Verdaguer (pendiente de convocatoria)
 	- Adaptar y resumir el dossier de Verdaguer para la gestora de Gelabert1
 	- Enlace de Santa Coloma
