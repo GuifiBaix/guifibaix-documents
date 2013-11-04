@@ -15,6 +15,7 @@
 	- Preguntar app de walkies
 	- Poner a RaulS en contacte@
 	- Mirar cable mas resistente
+	- Lista de correo equipo@guifibaix.coop
 - Clientes potenciales
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
