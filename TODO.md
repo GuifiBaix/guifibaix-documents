@@ -21,7 +21,7 @@
 - Clientes potenciales
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
-- Fijar fecha con el Ateneu de Cornella [David, enviado pendiente respuesta]
+- ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 26 de Noviembre]
 
 - Estudiar como meter los cacharros en las cajas estancas
 	- Comprar cajas
