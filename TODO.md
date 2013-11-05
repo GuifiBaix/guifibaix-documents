@@ -5,8 +5,8 @@
 - Adaptar y resumir el dossier de Verdaguer para la gestora de Gelabert1 [Aitor lunes noche]
 - Burchar al presidente de Verdaguer
 - ~~Burchar a Victor para que hable con Josep Maria~~
+- ~~Enviar cartell cornella~~
 - Fijar fecha cornella
-- Enviar cartell cornella
 - ~~Decidir fecha de convenio~~
 - Imprimir convenio (Aitor)
 - Firmar convenio
@@ -19,12 +19,22 @@
 - Clientes potenciales
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
-
+- Fijar fecha con el Ateneu de cornella [David, enviado pendiente respuesta]
 
 - Estudiar como meter los cacharros en las cajas estancas
 	- Comprar cajas
 	- Comprar enchufes
 	- Manguera de luz (cuando estemos listos para una instalación)
+- Telefonia IP
+	- ~~Conseguir un número de Adam para recibir llamadas de GuifiBaix.~~
+	- ~~Configurar adaptador~~ [Registered]
+	- ~~Llamada a movil~~  [Works]
+	- ~~Llamada desde movil~~  [Works]
+	- Mas de un telefono configurado con el mismo numero
+	- Calidad de sonido sin tráfico
+	- Calidad de sonido con tráfico
+	- Analizar ancho de banda consumido
+	- Centralita intermedia
 
 
 # Tareas pendientes
@@ -45,7 +55,6 @@
 - Reorientar antena AAVV el Pi
 - Pedir cuenta de prueba con Adam (Enviada peticion)
 - Pedir cuenta de prueba con Anescu (Enviada peticion)
-- Conseguir un número de Adam para recibir llamadas de GuifiBaix.
 - Pruebas remotas de telefonía IP
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
 - Compras:
