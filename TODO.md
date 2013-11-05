@@ -5,23 +5,23 @@
 - Revisar presupuestos (David)
 - Adaptar y resumir el dossier de Verdaguer para la gestora de Gelabert1 [Aitor lunes noche]
 - Burchar al presidente de Verdaguer
-- ~~Burchar a Victor para que hable con Josep Maria~~
+- ~~Burchar a Víctor para que hable con Josep Maria~~
 - ~~Enviar cartell cornella~~
 - Fijar fecha cornella
 - ~~Decidir fecha de convenio~~
 - Imprimir convenio (Aitor)
 - Firmar convenio
 - Llevarlo a Gats
-- Contactar victor
-	- Burxar al Josep Maria
-	- Preguntar app de walkies
-	- Poner a RaulS en contacte@
+- Contactar Víctor
+	- Burxar al Josep María. Pendiente de quedar el día para el montaje
+	- ~~Preguntar app de walkies (ZELLO para Android)~~
+	- ~~Poner a RaulS en contacte@~~
 	- Mirar cable mas resistente
-	- Lista de correo equipo@guifibaix.coop
+	- ~~Lista de correo equipo@guifibaix.coop~~
 - Clientes potenciales
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
-- Fijar fecha con el Ateneu de cornella [David, enviado pendiente respuesta]
+- Fijar fecha con el Ateneu de Cornella [David, enviado pendiente respuesta]
 
 - Estudiar como meter los cacharros en las cajas estancas
 	- Comprar cajas
@@ -30,11 +30,11 @@
 - Telefonia IP
 	- ~~Conseguir un número de Adam para recibir llamadas de GuifiBaix.~~
 	- ~~Configurar adaptador~~ [Registered]
-	- ~~Llamada a movil~~  [Works]
-	- ~~Llamada desde movil~~  [Works]
+	- ~~Llamada a móvil~~  [Works]
+	- ~~Llamada desde móvil~~  [Works]
 	- ~~Calidad de sonido sin tráfico~~
 	- Calidad de sonido con tráfico
-	- ~~Mas de un telefono configurado con el mismo numero reciben llamadas~~
+	- ~~Mas de un teléfono configurado con el mismo numero reciben llamadas~~
 	- Probar cliente Android (LinPhone)
 	- Probar video-llamadas
 	- Analizar ancho de banda consumido
