@@ -2,6 +2,7 @@
 
 - Cerrar presupuesto Catalunya [Aitor/RaulS martes]
 - Cerrar presupuesto Domenech [Aitor/RaulS martes]
+- Revisar presupuestos (David)
 - Adaptar y resumir el dossier de Verdaguer para la gestora de Gelabert1 [Aitor lunes noche]
 - Burchar al presidente de Verdaguer
 - ~~Burchar a Victor para que hable con Josep Maria~~
@@ -12,6 +13,7 @@
 - Firmar convenio
 - Llevarlo a Gats
 - Contactar victor
+	- Burxar al Josep Maria
 	- Preguntar app de walkies
 	- Poner a RaulS en contacte@
 	- Mirar cable mas resistente
@@ -30,11 +32,15 @@
 	- ~~Configurar adaptador~~ [Registered]
 	- ~~Llamada a movil~~  [Works]
 	- ~~Llamada desde movil~~  [Works]
-	- Mas de un telefono configurado con el mismo numero
-	- Calidad de sonido sin tráfico
+	- ~~Calidad de sonido sin tráfico~~
 	- Calidad de sonido con tráfico
+	- ~~Mas de un telefono configurado con el mismo numero reciben llamadas~~
+	- Probar cliente Android (LinPhone)
+	- Probar video-llamadas
 	- Analizar ancho de banda consumido
-	- Centralita intermedia
+	- Centralita
+		- Mapear ids GuifiBaix a ids Anescu/Adam
+
 
 
 # Tareas pendientes
