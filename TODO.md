@@ -1,33 +1,32 @@
 # Tareas semanales
 
-- ~~Cerrar presupuesto Catalunya ~~ [Aitor/RaulS martes]
-- Enviar plantilla de propuesta de presupuesto a Aitor
-- Enviar modificaciones dossier a Aitor
-- Propuesta documento Catalunya
-- Dossier generico
+- ~~Cerrar presupuesto Catalunya~~ [Aitor/RaulS martes]
+- ~~Enviar plantilla de propuesta de presupuesto a Aitor~~
+- ~~Enviar modificaciones dossier a Aitor~~
+- Documento de propuesta de presupuesto para Catalunya
+- Redactar dossier generico
 - Enviar dossier a Gestora de Gelabert
 - ~~Cerrar presupuesto Domenech [Aitor/RaulS martes]~~
 - Revisar presupuesto Domenech (David)
 - Burchar al presidente de Verdaguer
 - ~~Burchar a Víctor para que hable con Josep Maria~~
 - ~~Enviar cartell cornella~~
-- Fijar fecha cornella
 - ~~Decidir fecha de convenio~~
 - ~~Imprimir convenio (Aitor)~~
+- ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 26 de Noviembre]
 - Firmar convenio
 	- Victor
-	- Raul
-- Llevarlo a Gats
-- Contactar Víctor
-	- Burxar al Josep María. Pendiente de quedar el día para el montaje
+- Llevar convenio a Gats
+- Pendiente con Víctor
 	- ~~Preguntar app de walkies (ZELLO para Android)~~
 	- ~~Poner a RaulS en contacte@~~
-	- Mirar cable mas resistente
 	- ~~Lista de correo equipo@guifibaix.coop~~
+	- Mirar cable mas resistente
+	- Burxar al Josep María. Pendiente de quedar el día para el montaje
 - Clientes potenciales
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
-- ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 26 de Noviembre]
+	- Carles Marín: Contactado por facebook esperando respuesta [David]
 - Estudiar como meter los cacharros en las cajas estancas
 	- Comprar cajas
 	- Comprar enchufes
