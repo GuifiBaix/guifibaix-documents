@@ -45,6 +45,9 @@
 	- Preguntar a Anescu encriptacion TSL
 	- Centralita
 		- Mapear ids GuifiBaix a ids Anescu/Adam
+- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
+
+
 
 
 
