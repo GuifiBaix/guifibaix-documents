@@ -1,16 +1,22 @@
 # Tareas semanales
 
-- Cerrar presupuesto Catalunya [Aitor/RaulS martes]
-- Cerrar presupuesto Domenech [Aitor/RaulS martes]
-- Revisar presupuestos (David)
-- Adaptar y resumir el dossier de Verdaguer para la gestora de Gelabert1 [Aitor lunes noche]
+- ~~Cerrar presupuesto Catalunya ~~ [Aitor/RaulS martes]
+- Enviar plantilla de propuesta de presupuesto a Aitor
+- Enviar modificaciones dossier a Aitor
+- Propuesta documento Catalunya
+- Dossier generico
+- Enviar dossier a Gestora de Gelabert
+- ~~Cerrar presupuesto Domenech [Aitor/RaulS martes]~~
+- Revisar presupuesto Domenech (David)
 - Burchar al presidente de Verdaguer
 - ~~Burchar a Víctor para que hable con Josep Maria~~
 - ~~Enviar cartell cornella~~
 - Fijar fecha cornella
 - ~~Decidir fecha de convenio~~
-- Imprimir convenio (Aitor)
+- ~~Imprimir convenio (Aitor)~~
 - Firmar convenio
+	- Victor
+	- Raul
 - Llevarlo a Gats
 - Contactar Víctor
 	- Burxar al Josep María. Pendiente de quedar el día para el montaje
@@ -22,7 +28,6 @@
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 - ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 26 de Noviembre]
-
 - Estudiar como meter los cacharros en las cajas estancas
 	- Comprar cajas
 	- Comprar enchufes
