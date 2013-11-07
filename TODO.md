@@ -59,6 +59,7 @@
 		- Instalar antenas (NB+NS) de Cesalpina-David apuntando a Hospitalet
 		- Resolver la domiciliación de cuotas para Elisenda
 		- Viabilidad de contectar Cesalpina-David a Torrellas
+	- Associación Petanca
 - Instalacion prototipo David
 	- Comprar material
 	- Instalar
@@ -86,8 +87,11 @@
 		- Desarrollarla
 	- Programa para obtener exclusividad de conexión
 - Desarrollo redes [Victor/David]
+	- Investigar gestión de varios gateways en un edificio
+	- Investigar como responde el sistema a desconexiones de gateways
 	- Investigar si hay forma de importar/exportar configuraciones editables de la antena
 	- Investigar si hay forma de importar/exportar configuraciones editables de la microtik
+	- Nonitorizaje de gateways disponibles
 	- Establecer y documentar configuraciones estandars:
 		- Sin ADSL compartido sin microtik (por defecto?)
 		- Sin ADSL compartido con microtik
