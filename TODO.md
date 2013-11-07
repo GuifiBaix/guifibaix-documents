@@ -14,9 +14,8 @@
 - ~~Decidir fecha de convenio~~
 - ~~Imprimir convenio (Aitor)~~
 - ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 26 de Noviembre]
-- Firmar convenio
-	- Victor
-- Llevar convenio a Gats
+- ~~Firmar convenio~~
+- ~~Llevar convenio a Gats~~
 - Pendiente con Víctor
 	- ~~Preguntar app de walkies (ZELLO para Android)~~
 	- ~~Poner a RaulS en contacte@~~
@@ -36,12 +35,14 @@
 	- ~~Configurar adaptador~~ [Registered]
 	- ~~Llamada a móvil~~  [Works]
 	- ~~Llamada desde móvil~~  [Works]
-	- ~~Calidad de sonido sin tráfico~~
+	- ~~Calidad de sonido sin tráfico~~ [Works]
+	- ~~Calidad de sonido en 3G~~ [Glitches como skype y similares]
+	- ~~Mas de un teléfono configurado con el mismo numero reciben llamadas~~ [Si!]
 	- Calidad de sonido con tráfico
-	- ~~Mas de un teléfono configurado con el mismo numero reciben llamadas~~
 	- Probar cliente Android (LinPhone)
 	- Probar video-llamadas
 	- Analizar ancho de banda consumido
+	- Preguntar a Anescu encriptacion TSL
 	- Centralita
 		- Mapear ids GuifiBaix a ids Anescu/Adam
 
