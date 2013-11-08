@@ -11,7 +11,8 @@ Mientras tanto, operamos dentro de AT2, una incubadora de proyectos de economía
 ## ¿Qué es Guifi.net?
 
 \begin{wrapfigure}{r}{0.20\textwidth}
-    \includegraphics[width=0.19\textwidth]{figura-xarxaciutadana-cami.png}
+	{
+    \includegraphics[width=0.2\textwidth]{figura-xarxaciutadana-cami.pdf}}
 \end{wrapfigure}
 
 Es una red pública  construida por los mismos usuarios.
@@ -23,12 +24,16 @@ Es un proyecto reconocido que ha obtenido varios premios locales e internacional
 
 Los participantes usan la red para compartir o ofrecer servicios, como por ejemplo, la conexion a Internet.
 También existen empresas que ofrecen “telefonia IP” con tarifas muy económicas y que pueden substituir el teléfono fijo conservando el número.
-GuifiBaix os facilita el acceso a los productos de dichas empresas.
 
 ## ¿Cual es la función GuifiBaix?
 
-Coordinamos y mantenemos guifi.net en Sant Joan Despí y alrededores, ofrecemos servicio de instalación a comunidades de vecinos y damos servicios extra en guifi.net.
-Coordinamos la compartición de internet entre vecinos y comercializamos paquetes de telefonía de terceros, para que los vecinos tengan un servicio equivalente al que tienen ahora.
+Coordinamos y mantenemos guifi.net en Sant Joan Despí y alrededores,
+ofrecemos servicio de instalación a comunidades de vecinos y
+damos servicios extra en guifi.net.
+Además, nos aseguramos de que los usuarios tengan de forma transparente
+un servicio equivalente al que tenían en el oligopolio,
+coordinando la compartición de internet entre vecionos y
+comercializando paquetes de telefonía IP de terceros.
 
 ## ¿Qué se quiere hacer en el edificio?
 
