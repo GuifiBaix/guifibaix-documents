@@ -253,7 +253,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -666,7 +666,7 @@
            y="799.82404"
            style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Bitstream Vera Serif;-inkscape-font-specification:Droid Serif" /></flowRegion><flowPara
          id="flowPara15093"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Serif;-inkscape-font-specification:Droid Serif">Dissabte, 9 de Novembre a les 19h</flowPara><flowPara
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Serif;-inkscape-font-specification:Droid Serif">Dissabte, 23 de Novembre a les 19h</flowPara><flowPara
          id="flowPara15097"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Serif;-inkscape-font-specification:Droid Serif">a l'Ateneu Popular de Cornellà</flowPara><flowPara
          id="flowPara15099"
@@ -785,7 +785,7 @@
              height="110"
              x="-170"
              y="670.93359" /></flowRegion><flowPara
-           id="flowPara3159"></flowPara></flowRoot>    </g>
+           id="flowPara3159" /></flowRoot>    </g>
     <image
        y="786.71936"
        x="31.928585"
