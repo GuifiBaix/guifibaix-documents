@@ -1,25 +1,20 @@
 # Tareas semanales
 
-- ~~Cerrar presupuesto Catalunya~~ [Aitor/RaulS martes]
-- ~~Enviar plantilla de propuesta de presupuesto a Aitor~~
-- ~~Enviar modificaciones dossier a Aitor~~
+
+# Tareas pendientes
+
+- Dossier generico
+	- Portarlo a md [David]
+	- Insertar las imagenes [David]
+	- Fusionar los documentos
+	- Acabarlo
+	- Enviar dossier a Gestora de Gelabert
 - Documento de propuesta de presupuesto para Catalunya
-- Redactar dossier generico
-- Enviar dossier a Gestora de Gelabert
-- ~~Cerrar presupuesto Domenech [Aitor/RaulS martes]~~
 - Revisar presupuesto Domenech (David)
 - Burchar al presidente de Verdaguer
-- ~~Burchar a Víctor para que hable con Josep Maria~~
-- ~~Enviar cartell cornella~~
-- ~~Decidir fecha de convenio~~
-- ~~Imprimir convenio (Aitor)~~
-- ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 26 de Noviembre]
-- ~~Firmar convenio~~
-- ~~Llevar convenio a Gats~~
+- Renviar cartell catell de ateneu cornella con fecha buena
+- Instarse y probar el ZELLO para Android
 - Pendiente con Víctor
-	- ~~Preguntar app de walkies (ZELLO para Android)~~
-	- ~~Poner a RaulS en contacte@~~
-	- ~~Lista de correo equipo@guifibaix.coop~~
 	- Mirar cable mas resistente
 	- Burxar al Josep María. Pendiente de quedar el día para el montaje
 - Clientes potenciales
@@ -27,31 +22,18 @@
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Carles Marín: Contactado por facebook esperando respuesta [David]
 - Estudiar como meter los cacharros en las cajas estancas
+	- Encontrar una caja buena y barata
 	- Comprar cajas
 	- Comprar enchufes
 	- Manguera de luz (cuando estemos listos para una instalación)
 - Telefonia IP
-	- ~~Conseguir un número de Adam para recibir llamadas de GuifiBaix.~~
-	- ~~Configurar adaptador~~ [Registered]
-	- ~~Llamada a móvil~~  [Works]
-	- ~~Llamada desde móvil~~  [Works]
-	- ~~Calidad de sonido sin tráfico~~ [Works]
-	- ~~Calidad de sonido en 3G~~ [Glitches como skype y similares]
-	- ~~Mas de un teléfono configurado con el mismo numero reciben llamadas~~ [Si!]
 	- Calidad de sonido con tráfico
-	- Probar cliente Android (LinPhone)
 	- Probar video-llamadas
 	- Analizar ancho de banda consumido
 	- Preguntar a Anescu encriptacion TSL
 	- Centralita
 		- Mapear ids GuifiBaix a ids Anescu/Adam
-- ~~Perfil LinkedIn de la cooperativa~~
-- ~~Investigar si hay forma de importar/exportar configuraciones editables de la antena~~  scp user@antena:/etc/config .
-- ~~Investigar si hay forma de importar/exportar configuraciones editables de la microtik~~  ssh user@router /export compact
 
-
-
-# Tareas pendientes
 
 + ~~Recoger los flyers~~
 - Proyectos potenciales
@@ -129,6 +111,35 @@
 + ~~Redactar Marqueting: Analisis del mercado~~
 + ~~Marketing/Distribución~~
 
+
+# Hecho semana 2013-11-08
+
+- ~~Cerrar presupuesto Catalunya~~ [Aitor/RaulS martes]
+- ~~Enviar plantilla de propuesta de presupuesto a Aitor~~
+- ~~Enviar modificaciones dossier a Aitor~~
+- ~~Cerrar presupuesto Domenech [Aitor/RaulS martes]~~
+- ~~Burchar a Víctor para que hable con Josep Maria~~
+- ~~Enviar cartell cornella~~
+- ~~Decidir fecha de convenio~~
+- ~~Imprimir convenio (Aitor)~~
+- ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 26 de Noviembre]
+- ~~Firmar convenio~~
+- ~~Llevar convenio a Gats~~
+- ~~Preguntar app de walkies (ZELLO para Android)~~
+- ~~Poner a RaulS en contacte@~~
+- ~~Lista de correo equipo@guifibaix.coop~~
+- ~~Telefonia IP~~
+	- ~~Conseguir un número de Adam para recibir llamadas de GuifiBaix.~~
+	- ~~Configurar adaptador~~ [Registered]
+	- ~~Llamada a móvil~~  [Works]
+	- ~~Llamada desde móvil~~  [Works]
+	- ~~Calidad de sonido sin tráfico~~ [Works]
+	- ~~Calidad de sonido en 3G~~ [Glitches como skype y similares]
+	- ~~Mas de un teléfono configurado con el mismo numero reciben llamadas~~ [Si!]
+	- ~~Probar cliente Android (LinPhone)~~
+- ~~Perfil LinkedIn de la cooperativa~~
+- ~~Investigar si hay forma de importar/exportar configuraciones editables de la antena~~  scp user@antena:/etc/config .
+- ~~Investigar si hay forma de importar/exportar configuraciones editables de la microtik~~  ssh user@router /export compact
 
 
 
