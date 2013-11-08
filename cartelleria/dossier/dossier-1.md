@@ -1,22 +1,27 @@
 ## ¿Qué es GuifiBaix?
 
-GuifiBaix es una cooperativa cuyo objetivo social es facilitar la instalación y el mantenimiento de la red “guifi.net” en el Baix Llobregat.
+GuifiBaix es una cooperativa social cuyo objetivo es facilitar la instalación y el mantenimiento de la red “guifi.net” en el Baix Llobregat.
+^['social' aqui no significa 'guai', 'objetivo social' significa 'razon para montar la sociedad', igual hay alguna manera mas entendedora de ponerlo]
 
 El proyecto surge de la campaña  "Desconexion del IBEX-35" del 15M de Sant Joan Despí, con la voluntad de proponer alternativas a las grandes empresas de telecomunicaciones, creando una red de comunicación libre.
-
+^[Para no poner que es la campaña no cal mencionarla.
+Nosotros no hemos creado la red, solo la extendemos.
+No es importante decir que recibiran las facturas de At2?]
 
 ## ¿Qué es Guifi.net?
 
+^[Aquí yo he añadido una frase de enlace, porque hablamos de guifi.net]
 Es una red pública  construida por los mismos usuarios.
 Cada participante construye solo el tramo de la red que pasa por su vivienda.
 Al compartir tu tramo, tienes derecho a utilizar los tramos de los demás.
+^[El verbo compartir lo quiero reservar para el ADSL y es diferente la linea que pasar por la antena]
 
 La red, con más de 20.000 nodos, cubre ya gran parte de Catalunya y Valencia y se extiende por muchos puntos del estado.
 Es un proyecto reconocido que ha obtenido varios premios locales e internacionales.
 
 Los participantes usan la red para compartir o ofrecer servicios, principalmente conexion a Internet.
 Existen empresas como GuifiBaix que ofrecemos varios servicios, entre ellos “telefonia IP” con tarifas muy económicas y que pueden substituir el teléfono fijo conservando el número.
-
+^[GuifiBaix no ofrece tal servicio aún. Dejemos las cosas que hace guifibaix para despues]
 
 ## ¿Me interesa conectarme a la red Guifi.net?
 
@@ -54,33 +59,47 @@ Antes de elegir, debes tener en cuenta las siguientes cuestiones:
 
 Conectaremos el edificio a otros edificios cercanos con una antena WiFi en el tejado.
 Pondremos equipos de seguridad (firewall) y distribución (switches) y cablearemos el edificio para que llegue a cada vivienda listo para utilizar.
+^[Como minimo un conectar y listo.
+El tema de reusar el telefono tambien es un argumento de venta.
+No se si añadir que se pueden usar puntos wifi, y routers para extender la red.
+]
 
 ## ¿Hace falta que nos pasemos todos?
 
 No.
 Si no te interesa, no te conectamos.
-
+^[Creo que es importante decir que los que no se conectan no pagan. Me costo un fracaso de reunion.]
 
 Si posteriormente quieres conectarte es sencillo.
+^[Sencillo? nos va muy mal ir haciendo vecino a vecino y sale mas caro]
 Sólo deberías abonar la parte proporcional que te corresponda a la comunidad y la conexión a tu vivienda a GuifiBaix.
+^[y los intereses legales, que despues nos pillan]
 
-## ¿Hace falta que nos apuntemos todos?
+## ¿Hace falta aprovarlo como comunidad?
 
 Al considerarse un servicio básico, con que esté interesado un vecino, puede conectarse.
+^[El problema no es conectarse, sino la instalacion en zonas comunes]
 Sin embargo, buscamos el consenso con la comunidad para:
+^[Consenso? dios no lo quiera. Quiere decir que todos tienen que estar de acuerdo. Se requiere aprovacion]
 
-Facturación: Aunque luego la comunidad cargue el importe sólo a los interesados.
+**Facturación:**
+Aunque luego la comunidad cargue el importe sólo a los interesados.
 Lo ideal sería gestionar la facturación mediante la comunidad de vecinos.
 
-Consumo eléctrico: El consumo de la instalación es aproximadamente el de dos bombillas de 60W cada una.
+**Consumo eléctrico:**
+El consumo de la instalación es aproximadamente el de dos bombillas de 60W cada una.
 Éste consumo será abonado a la comunidad.
+^[
+Lo he adaptado al argumento que dio Victor y lo he adaptado a lo que creo que pretendian tus canvios.
+No veis bien decir que vamos a invitar a los vecinos a sumarse a sumarse?
+]
 
 ## ¿Los equipos son de GuifiBaix?
 
 No.
 Los equipos, una vez instalados pertenecerán a los usuarios.
 GuifiBaix deberá tener derecho a acceso para garantizar su mantenimiento periódico.
-
+^[Lo he reformulado de punta a punta para explicar lo de malevolos bien]
 
 ## Pero, ¿de dónde sale internet?
 
@@ -91,10 +110,12 @@ La idea es que cada 5 ó 6 vecinos compartirán un único ADSL.
 Al vecino que tenga contratado este ADSL se le bonificará esta conexión con hasta 30€, que se descontará de la cuota de servicio y de la cuota de comunidad.
 
 Guifibaix seleccionará, de entre los vecinos que tienen conexión telefónica, quien puede compartirla, de acuerdo a unos criterios de seguridad y permanencia (por ejemplo, priorizando a aquellos vecinos que tengan teleasistencia).
+^[Yo lo haría mas general: los que por algun motivo no pueden darse de baja]
 
-## ¿Y con esto será suficiente?
+## ¿Y, con esto, será suficiente?
 
 Todos los ADSL de Guifi.net se suman.
+^[No es cierto, solo las que preparamos nosotros]
 
 La antena que comunica con otros bloques sirve para distribuir el ancho de banda y así evitar saturación.
 
@@ -105,10 +126,12 @@ La red está en continuo crecimiento, cuanto más conexiones más ancho de banda
 Sí, hay diversas formas de hacerlo según tus necesidades.
 Aún así, será útil a la comunidad porque lo podrá usar cuando no la utilices.
 En tal caso, la bonificación se reduciría a un máximo de 15€ mensuales.
+^[Y esto de los 15€??]
 
 ## ¿Y podré mantener mi teléfono?
 
 Puedes mantener tu teléfono si así quieres, es lo que se llama Telefonía IP.
+^[Mantener SU número de telefono es portabilidad. Tener telefono fijo con nosotros es TelefoniaIP]
 
 Únicamente es necesario un adaptador de teléfono y podrás usarlo para hablar por Internet.
 

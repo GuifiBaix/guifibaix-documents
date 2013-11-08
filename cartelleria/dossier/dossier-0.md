@@ -1,6 +1,6 @@
 ## ¿Qué es GuifiBaix?
 
-GuifiBaix es una cooperativa cuyo objetivo social es facilitar que los vecinos de la zona puedan salirse del oligopolio de las telecos, ahorrándoles dinero y empleando a personas en paro.
+GuifiBaix es una cooperativa cuyo objetivo social es facilitar que los vecinos de la zona puedan salirse del oligopolio de las telecos, ahorrándoles dinero y empleando a personas de la zona.
 Lo queremos hacer conectándolos a la red ciudadana “guifi.net”.
 
 El proyecto surge de la campaña  "Desconexion del IBEX-35" del 15M de Sant Joan Despí, con la voluntad de potenciar alternativas a las grandes empresas, que nos liberen de sus abusos sobre usuarios, trabajadores y la sociedad en general.
@@ -14,7 +14,7 @@ Mientras tanto, operamos dentro de AT2, una incubadora de proyectos de economía
 	{
     \includegraphics[width=0.2\textwidth]{figura-xarxaciutadana-cami.pdf}}
 \end{wrapfigure}
-
+Guifi.net es la red mediante la cual llegan los servicios a los usuarios.
 Es una red pública  construida por los mismos usuarios.
 Cada participante construye solo el tramo de la red que pasa por su vivienda.
 Dejando que otros pasen por tu tramo, tienes derecho a pasar por los tramos de los demás.
@@ -27,9 +27,9 @@ También existen empresas que ofrecen “telefonia IP” con tarifas muy económ
 
 ## ¿Cual es la función GuifiBaix?
 
-Coordinamos y mantenemos guifi.net en Sant Joan Despí y alrededores,
-ofrecemos servicio de instalación a comunidades de vecinos y
-damos servicios extra en guifi.net.
+GuifiBaix facilita a los usuarios el hecho de tener que
+construir y mantener su parte de la red Guifi.net.
+
 Además, nos aseguramos de que los usuarios tengan de forma transparente
 un servicio equivalente al que tenían en el oligopolio,
 coordinando la compartición de internet entre vecionos y
@@ -45,40 +45,68 @@ Os dejaremos un punto de conexión de red en la pared y un adaptador para conect
 
 No.
 Si no te interesa, no te conectamos.
-Solo deberían pagar los interesados.
+Los costes deberían recaer solo sobre los vecinos que se conectan.
 
-Si alguien se quiere conectar después tendría que pagar la instalación de su cableado específico a GuifiBaix y, tiene sentido que pague a los vecinos conectados su parte proporcional de la instalación común, aunque esto es decisión de la comunidad.
+## ¿Y si me quiero conectar después?
 
-## ¿Hace falta que lo aprovemos como comunidad?
+Tendrías que pagar a GuifiBaix la parte específica de tu instalación.
+Y es de justicia que pagaras a los vecinos ya conectados
+la parte proporcional que te corresponda de la instalación común
+más los intereses legales.
+
+## ¿Requiere aprovación de la comunidad?
 
 Para ponerlo no.
 És un servicio básico y no requiere votación, sólo comunicación al presidente.
-Sin embargo hay algunas cosas que conviene hacerlas mediante la comunidad y sí que requieren aprovación.
+Sin embargo hay algunas cosas que convendría hacerlas mediante la comunidad y sí que requieren aprovación.
 
-Facturación: Aunque luego la comunidad cargue el importe sólo a los interesados.
-nos gustaría gestionar la facturación mediante la comunidad de vecinos.
+**Facturación:**
+Es muy conveniente facturar mediante la comunidad de vecinos,
+y que la comunidad repercuta los costes en sus cuotas
+*sólo a los vecinos conectados*.
+Esto nos permite aplicar determinados descuentos que
+van más allá de lo que pagaría un vecino individualmente.
 
-Luz: Los dispositivos del terrado necesitan luz (consumo: 150W) y es mucho mas fácil tomar la luz de la comunidad.
-Si no,  tendríamos que subirla desde el piso de alguno de los conectados.
+**Enganche a la luz de la comunidad:**
+Conviene conectar los equipos a la luz de la escalera
+para no depender de que un vecino no apague su luz
+o se le vaya la luz en ausencia dejando
+a los demás vecinos incomunicados.
+El consumo máximo de los equipos no supera dos bombillas de 60W.
 
-Además, aprovechamos la reunión para invitar a otros vecinos a conectarse, pues contra más seamos, a más repartimos los costes comunes de mantenimiento y instalación.
+Además, se aprovecha la reunión
+en la que hay que aprovar estos puntos
+para invitar a otros vecinos a conectarse,
+pues, si hay más vecinos, más se repartiran los costes comunes
+de mantenimiento y instalación.
+
 
 ## ¿Los equipos son de GuifiBaix?
 
 No.
-Los equipos, una vez instalados pertenecerán a los usuarios.
-GuifiBaix sólo se reserva el derecho de acceso a los equipos para poder mantener la infraestructura.
-Sin embargo, si en algún momento no os gustase como os tratamos como usuarios, teneis derecho a buscar otra empresa que os haga el mantenimiento o a hacerlo vosotros.
-Se asegura así que el trato a los usuarios sea siempre justo.
+A diferencia de la manera de operar del oligopolio,
+los equipos, una vez instalados **pertenecen a los usuarios**.
+Si GuifiBaix desapareciera o fuera comprada por una empresa
+del oligopolio,
+los usuarios tienen la libertad de buscar 
+otra formula empresarial o basada en voluntarios
+para cubrir el servicio que damos, pues los equipos son suyos.
+Que los usuarios no tengan más ataduras con nosotros que la confianza,
+es garantía de un trato justo por nuestra parte.
+
+GuifiBaix sólo se reserva el derecho de acceso físico y telemático a los equipos comunes
+para poder mantener la infraestructura.
 
 ## Pero, ¿de dónde sale internet?
 
 GuifiBaix no es el proveedor de Internet.
 Internet sale de los ADSL's, fibras ópticas u otros puntos de acceso que cada comunidad comparta.
 
-## ¿Y con esto será suficiente?
 
-Todos los ADSL de Guifi.net en Sant Joan Despí se suman.
+
+## ¿Y, con esto, será suficiente?
+
+Todos las conexiones a Internet compartidas que instalamos se suman.
 
 Cuando los ADSL compartidos de un edificio se llenan, el sistema deriva el caudal, de forma transparente, a una antena de otro edificio donde haya caudal sin usar.
 
@@ -88,7 +116,9 @@ Cuando conjuntamente tengamos suficiente caudal, podremos ir dando de baja los A
 ## ¿Y no habría que añadir los costes de los ADSL compartidos?
 
 Exacto.
-Aun así, para promover que haya estos ADSL's, GuifiBaix hace un descuento en la cuota de la comunidad de 30€ por cada ADSL compartido con un tope de 6€ por vecino.
+Aun así, para promover que haya estos ADSL's,
+GuifiBaix hace un descuento mensual a la comunidad
+de 30€ por cada ADSL compartido con un tope de 6€ por vecino.
 La comunidad decide como se reparte ese descuento.
 Esta pensado para que haya un ADSL cada 5 o 6 usuarios.
 
