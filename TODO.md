@@ -1,22 +1,21 @@
 # Tareas semanales
 
-
-# Tareas pendientes
-
+- Documento de propuesta de presupuesto para Catalunya
+- Enviar propuesta de presupuesto para Catalunya
 - Dossier generico
 	- Portarlo a md [David]
 	- Insertar las imagenes [David]
 	- Fusionar los documentos
 	- Acabarlo
-	- Enviar dossier a Gestora de Gelabert
-- Documento de propuesta de presupuesto para Catalunya
+	- Enviar dossier + propuesta de presupuesto a Gestora de Gelabert
 - Revisar presupuesto Domenech (David)
 - Burchar al presidente de Verdaguer
-- Renviar cartell catell de ateneu cornella con fecha buena
-- Instarse y probar el ZELLO para Android
-- Pendiente con Víctor
-	- Mirar cable mas resistente
-	- Burxar al Josep María. Pendiente de quedar el día para el montaje
+- Renviar cartell de l'Ateneu Cornella con fecha buena
+- Victor con Josep Maria este fin de semana
+- SCC-JoanMaragall
+	- Quedar para pensar la instalacion [sabado]
+	- Prueba de conectividad con NB
+	- Mirar donde enganchar los vientos
 - Clientes potenciales
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
@@ -28,30 +27,45 @@
 	- Manguera de luz (cuando estemos listos para una instalación)
 - Telefonia IP
 	- Calidad de sonido con tráfico
-	- Probar video-llamadas
 	- Analizar ancho de banda consumido
+	- Probar video-llamadas
 	- Preguntar a Anescu encriptacion TSL
-	- Centralita
-		- Mapear ids GuifiBaix a ids Anescu/Adam
+- Insistir cuenta de prueba con Adam (Enviada peticion)
+- Investigar porque no se llega a las antenas a traves del microtik
+- Enviar GPS de Gaspar
+- Compra herramientas [lunes Aitor, Raul]
+	- EPIS
+	- Escaleras (Aitor)
+	- Punta fina
+	- Guia
+	- Cinta aislante
+- Hablar con la Associación Petanca [jueves david]
 
 
-+ ~~Recoger los flyers~~
+
+# Tareas pendientes
+
+- Encartelar para charla del ateneu [18 Nov]
+- Enlace de Santa Coloma
+	- Poner Nanobridge de Josep Maria
+	- Configurar NanoStations que empalmaran Cesalpina-Elisenda con Cesalpina-David
+	- Instalar antenas (NB+NS) de Cesalpina-Elisenda apuntando a Josep Maria
+	- Instalar antenas (NB+NS) de Cesalpina-David apuntando a Hospitalet
+	- Resolver la domiciliación de cuotas para Elisenda
+	- Viabilidad de contectar Cesalpina-David a Torrellas
+- Instarse y probar el ZELLO para Android
+- Pendiente con Víctor
+	- Mirar cable mas resistente
+	- Burxar al Josep María. Pendiente de quedar el día para el montaje
+- Centralita
+	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Proyectos potenciales
 	- Reunión Verdaguer (pendiente de convocatoria)
-	- Enlace de Santa Coloma
-		- Poner Nanobridge de Josep Maria
-		- Configurar NanoStations que empalmaran Cesalpina-Elisenda con Cesalpina-David
-		- Instalar antenas (NB+NS) de Cesalpina-Elisenda apuntando a Josep Maria
-		- Instalar antenas (NB+NS) de Cesalpina-David apuntando a Hospitalet
-		- Resolver la domiciliación de cuotas para Elisenda
-		- Viabilidad de contectar Cesalpina-David a Torrellas
 	- Associación Petanca
+	- Reorientar antena AAVV el Pi
 - Instalacion prototipo David
 	- Comprar material
 	- Instalar
-- Reorientar antena AAVV el Pi
-- Pedir cuenta de prueba con Adam (Enviada peticion)
-- Pedir cuenta de prueba con Anescu (Enviada peticion)
 - Pruebas remotas de telefonía IP
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
 - Compras:
@@ -65,7 +79,6 @@
 		- Cajas estancas
 		- EPIS
 		- Escaleras (Aitor)
-		- Walkies 
 - Web
 	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
 	- Web: Firefox no carga las imagenes hasta que le das a recargar
@@ -78,10 +91,9 @@
 - Desarrollo redes [Victor/David]
 	- Investigar gestión de varios gateways en un edificio
 	- Investigar como responde el sistema a desconexiones de gateways
-	- Investigar si hay forma de importar/exportar configuraciones editables de la antena
-	- Investigar si hay forma de importar/exportar configuraciones editables de la microtik
 	- Nonitorizaje de gateways disponibles
 	- Establecer y documentar configuraciones estandars:
+		- Montar el git
 		- Sin ADSL compartido sin microtik (por defecto?)
 		- Sin ADSL compartido con microtik
 		- Compartir ADSL sin microtik
@@ -93,6 +105,7 @@
 		- Ponerlo en marcha
 		- Migrar los servidores
 - Encargar targetas de visita
+- Conseguir un número de Adam para recibir llamadas de GuifiBaix.
 
 
 # Plan de empresa
@@ -110,6 +123,7 @@
 + ~~Redactar Marqueting: Competencia~~
 + ~~Redactar Marqueting: Analisis del mercado~~
 + ~~Marketing/Distribución~~
++ ~~Recoger los flyers~~
 
 
 # Hecho semana 2013-11-08
@@ -122,14 +136,14 @@
 - ~~Enviar cartell cornella~~
 - ~~Decidir fecha de convenio~~
 - ~~Imprimir convenio (Aitor)~~
-- ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 26 de Noviembre]
+- ~~Fijar fecha con el Ateneu de Cornella~~ [David, Sabado 23 de Noviembre]
 - ~~Firmar convenio~~
 - ~~Llevar convenio a Gats~~
 - ~~Preguntar app de walkies (ZELLO para Android)~~
 - ~~Poner a RaulS en contacte@~~
 - ~~Lista de correo equipo@guifibaix.coop~~
 - ~~Telefonia IP~~
-	- ~~Conseguir un número de Adam para recibir llamadas de GuifiBaix.~~
+	- ~~Pedir cuenta de prueba con Anescu (Enviada peticion)~~
 	- ~~Configurar adaptador~~ [Registered]
 	- ~~Llamada a móvil~~  [Works]
 	- ~~Llamada desde móvil~~  [Works]
@@ -140,7 +154,6 @@
 - ~~Perfil LinkedIn de la cooperativa~~
 - ~~Investigar si hay forma de importar/exportar configuraciones editables de la antena~~  scp user@antena:/etc/config .
 - ~~Investigar si hay forma de importar/exportar configuraciones editables de la microtik~~  ssh user@router /export compact
-
 
 
 
