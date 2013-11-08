@@ -7,19 +7,15 @@ que surge de los **movimientos sociales de la comarca**
 con el objetivo de facilitar
 que los vecinos tengan acceso a los servicios de **telefonía fija y internet**,
 reduciendo su dependencia de las empresas que forman el actual oligopolio en el sector,
-y que consideramos poco éticas
-con los usuarios,
-con los trabajadores y
-con la sociedad en general.
+ahorrando dinero y generando trabajo en la comarca.
 
-Instalamos redes locales de datos en edificios
+Lo hacemos instalando redes locales de datos en edificios
 para que los vecinos puedan **compartir sus conexiones a Internet**.
 De esta manera se comparte el gasto y
 se aprovechan unas conexiones que normalmente estan infrautilizadas.
-Cuando esta red de vecinos se satura,
-puede desahogarse mediante una pequeña antena WiFi en la azotea,
-que la conecta con otros edificios
-que también participan de la **red ciudadana Guifi.net**.
+La red vecinal se extiende a otros edificios de la *red Guifi.net*,
+con una pequeña antena WiFi que colocamos en el tejado,
+que proporciona una salida adicional en caso de saturación.
 
 El **teléfono fijo** nos lo proporcionan terceras empresas usando **telefonia IP**,
 un sistema que canaliza líneas telefónicas por Internet.
@@ -50,8 +46,8 @@ conectar los equipos a la luz de la escalera.
 ## ¿Qué se paga?
 
 A) **Instalación:** incluye la parte común en la azotea y la bajada hasta la roseta de cada vecino.
-   El presupuesto depende mucho de las características del edificio.
-   Orientativamente, suele estar en una horquilla entre 150 y 300€ por vecino.
+   El presupuesto depende mucho de las características del edificio y del número de vecinos que repartan costes.
+   Orientativamente, suele salir a entre 150 y 300€ por vecino.
 B) **Cuota de mantenimiento**: 10€+IVA al mes por vecino más 5€+IVA al mes por antena que se reparte entre los vecinos.
 
 Si se hacen los pagos de forma conjunta 
