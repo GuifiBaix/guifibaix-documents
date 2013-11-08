@@ -21,8 +21,8 @@ El **teléfono fijo** nos lo proporcionan terceras empresas usando **telefonia I
 un sistema que canaliza líneas telefónicas por Internet.
 Los precios son mucho mas baratos y incluso podemos mantener nuestro número actual.
 
-La instalación es **conectar y listo**.
-Te dejamos una roseta para conectar
+La instalación queda preparada para **conectar y funcionar**.
+Tendrás una roseta en la pared a la que conectar
 el cable de red del ordenador, sin configuración alguna.
 También se te pondrá un adaptador a telefonía IP para 
 que puedas reutilizar cualquier terminal telefónico que ya tengas.
@@ -38,7 +38,7 @@ funcionan a **muy alta velocidad**.
 
 Para hacer la instalación no es necesario ningún acuerdo de vecinos,
 pues es un servicio básico.
-Pero es conveniente que los vecinos acepten
+Pero es conveniente que los vecinos aprueben
 gestionar los pagos mediante la comunidad y
 conectar los equipos a la luz de la escalera.
 

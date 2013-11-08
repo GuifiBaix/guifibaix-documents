@@ -8,7 +8,7 @@ La red, con más de 20.000 nodos, cubre ya gran parte de Catalunya y Valencia y 
 Es un proyecto reconocido que ha obtenido varios premios locales e internacionales.
 
 Los participantes usan la red para compartir o ofrecer servicios, principalmente conexion a Internet.
- Existen empresas como GuifiBaix que ofrecemos varios servicios, entre ellos “telefonia IP” con tarifas muy económicas y que pueden substituir el teléfono fijo conservando el número.
+Existen empresas como GuifiBaix que ofrecemos varios servicios, entre ellos “telefonia IP” con tarifas muy económicas y que pueden substituir el teléfono fijo conservando el número.
 
 
 ## ¿Qué es GuifiBaix?
@@ -167,7 +167,7 @@ La antena está conectada a la red eléctrica y a un router, quien regula las co
 Del router saldrá un cable de alimentación y otro de datos a   los swiches, los aparatos necesarios para conectar a los vecinos.
 Son necesarios tantos swiches como bajantes verticales (por ejemplo, 3 swiches si son 3 vecinos por planta).
 
-## Los cables pueden bajar por la fachada hasta tu vivienda (como ya hace tu cable telefónico) o por patios interiores, todo dependiendo tus necesidades.
+Los cables pueden bajar por la fachada hasta tu vivienda (como ya hace tu cable telefónico) o por patios interiores, todo dependiendo tus necesidades.
 La instalación convencional incluye una roseta donde conectar tu ordenador, teléfono o red Wifi doméstica.
 
 Si deseas una instalación diferente podemos ayudarte y ofrecerte precios muy ajustados.

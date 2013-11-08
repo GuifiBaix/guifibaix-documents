@@ -10,15 +10,20 @@ Mientras tanto, operamos dentro de AT2, una incubadora de proyectos de economía
 
 ## ¿Qué es Guifi.net?
 
+\begin{wrapfigure}{r}{0.20\textwidth}
+    \includegraphics[width=0.19\textwidth]{figura-xarxaciutadana-cami.png}
+\end{wrapfigure}
+
 Es una red pública  construida por los mismos usuarios.
 Cada participante construye solo el tramo de la red que pasa por su vivienda.
-Al dejar que otros pasen por tu tramo, tienes derecho a pasar por los tramos de los demás.
+Dejando que otros pasen por tu tramo, tienes derecho a pasar por los tramos de los demás.
 
 La red, con más de 20.000 nodos, cubre ya gran parte de Catalunya y Valencia y se extiende por muchos puntos del estado.
 Es un proyecto reconocido que ha obtenido varios premios locales e internacionales.
 
 Los participantes usan la red para compartir o ofrecer servicios, como por ejemplo, la conexion a Internet.
 También existen empresas que ofrecen “telefonia IP” con tarifas muy económicas y que pueden substituir el teléfono fijo conservando el número.
+GuifiBaix os facilita el acceso a los productos de dichas empresas.
 
 ## ¿Cual es la función GuifiBaix?
 
@@ -204,16 +209,16 @@ Eso hace que los servicios internos vayan mucho más rápidos que los que están
 ## ¿Teneis alguna Web donde buscar más información?
 
 La cooperativa GuifiBaix:
- http://guifibaix.coop
+<http://guifibaix.coop>
 
 La red comunitaria Guifi.net
-http://guifi.net
+<http://guifi.net>
 
 La campaña de la que venimos
-http://desconexionibex35.org
+<http://desconexionibex35.org>
 
 La asociación que nos “incuba”:
-http://gats.cat
+<http://gats.cat>
 
 ## Presupuestos
 

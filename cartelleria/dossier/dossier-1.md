@@ -1,3 +1,10 @@
+## ¿Qué es GuifiBaix?
+
+GuifiBaix es una cooperativa cuyo objetivo social es facilitar la instalación y el mantenimiento de la red “guifi.net” en el Baix Llobregat.
+
+El proyecto surge de la campaña  "Desconexion del IBEX-35" del 15M de Sant Joan Despí, con la voluntad de proponer alternativas a las grandes empresas de telecomunicaciones, creando una red de comunicación libre.
+
+
 ## ¿Qué es Guifi.net?
 
 Es una red pública  construida por los mismos usuarios.
@@ -8,14 +15,7 @@ La red, con más de 20.000 nodos, cubre ya gran parte de Catalunya y Valencia y 
 Es un proyecto reconocido que ha obtenido varios premios locales e internacionales.
 
 Los participantes usan la red para compartir o ofrecer servicios, principalmente conexion a Internet.
- Existen empresas como GuifiBaix que ofrecemos varios servicios, entre ellos “telefonia IP” con tarifas muy económicas y que pueden substituir el teléfono fijo conservando el número.
-
-
-## ¿Qué es GuifiBaix?
-
-GuifiBaix es una cooperativa social cuyo objetivo es facilitar la instalación y el mantenimiento de la red “guifi.net” en el Baix Llobregat.
-
-El proyecto surge de la campaña  "Desconexion del IBEX-35" del 15M de Sant Joan Despí, con la voluntad de proponer alternativas a las grandes empresas de telecomunicaciones, creando una red de comunicación libre.
+Existen empresas como GuifiBaix que ofrecemos varios servicios, entre ellos “telefonia IP” con tarifas muy económicas y que pueden substituir el teléfono fijo conservando el número.
 
 
 ## ¿Me interesa conectarme a la red Guifi.net?
@@ -223,16 +223,16 @@ Otra fórmula podría ser, por ejemplo, domiciliar los ADSLs compartidos en la c
 ## ¿Teneis alguna Web donde buscar más información?
 
 La cooperativa GuifiBaix:
- http://guifibaix.coop
+<http://guifibaix.coop>
 
 La red comunitaria Guifi.net
-http://guifi.net
+<http://guifi.net>
 
 La campaña de la que venimos
-http://desconexionibex35.org
+<http://desconexionibex35.org>
 
 La asociación que nos “incuba”:
-http://gats.cat
+<http://gats.cat>
 
 ## Presupuestos
 
