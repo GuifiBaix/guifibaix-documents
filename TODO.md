@@ -45,9 +45,9 @@
 	- Preguntar a Anescu encriptacion TSL
 	- Centralita
 		- Mapear ids GuifiBaix a ids Anescu/Adam
-- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
-
-
+- ~~Perfil LinkedIn de la cooperativa~~
+- ~~Investigar si hay forma de importar/exportar configuraciones editables de la antena~~  scp user@antena:/etc/config .
+- ~~Investigar si hay forma de importar/exportar configuraciones editables de la microtik~~  ssh user@router /export compact
 
 
 
@@ -84,6 +84,9 @@
 		- EPIS
 		- Escaleras (Aitor)
 		- Walkies 
+- Web
+	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
+	- Web: Firefox no carga las imagenes hasta que le das a recargar
 - Desarrollo Software -- David/Victor
 	- Mock-up de la API JSON del MlDonkey
 	- Explorar si podemos desarrollarla nosotros mismos (esta en Ocaml)
