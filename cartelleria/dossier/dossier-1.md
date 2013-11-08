@@ -115,8 +115,3 @@ Tampoco incluye los costos de los ADSL compartidos ni se ha aplicado el descuent
 Los números se pueden concretar una vez sepamos los vecinos que se apuntan y cuantos ADSL's se comparten.
 
 
-Presupuesto para 10 vecinos
-
-
-Presupuesto para 20 vecinos
-
