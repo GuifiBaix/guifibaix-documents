@@ -208,9 +208,10 @@ No hace falta ninguna licencia especial para ello.
 ## ¿Qué otros servicios hay en Guifi.net?
 
 Muchos usuarios de Guifi.net ofrecen servicios, la mayoria gratuitos, a los otros usuarios de la red: almacén y compartición de archivos (nube de datos), television y radio en streaming, descargas compartidas, servidores de juegos...
+^[Que es la 'nube de datos'? se habla de tener los datos en la nube o trabajar en la nube, pero no es la nube de datos]
 
 GuifiBaix también añadirá servicios a la red para cubrir las necesidades especificas que tengamos los usuarios de Sant Joan Despí y el Baix Llobregat.
-Estamos pensando, por ejemplo, en un servidor de descargas compartidas que permitirá ver películas en streaming a mayor velocidad o evitar saturar la red de todos con tráfico P2P (emuler, torrent, ares...).
+Estamos pensando, por ejemplo, en un servidor de descargas compartidas que permitirá ver películas en streaming a mayor velocidad o evitar saturar la red de todos con tráfico P2P (emule, torrent, ares...).
 
 ## ¿Qué ventajas tiene un servicio que esté en Guifi.net sobre otro en Internet?
 
@@ -223,18 +224,20 @@ Eso hace que los servicios internos vayan mucho más rápidos que los que están
 
 ¿Os parece bien gestionar los pagos mediante la comunidad, pagando solo los interesados?
 
-¿Os parece bien que la luz se cogiera de la comunidad (150W máx)?
+¿Os parece bien que la luz se cogiera de la comunidad (<120W)?
 
 ¿Os va bién el sitio propuesto para el punto de conexión?
 
-¿Que opción cogeríais para el teléfono? ¿Mantendriais el número? ¿Necesitáis número propio?
+¿Que opción cogeríais para el teléfono? ¿Mantendriais el número? ¿Necesitais número propio?
 
-¿Cámo pagamos el ADSL compartido a la gente que lo ponga?
+¿Cómo pagamos el ADSL compartido a la gente que lo ponga?
 
 Cómo domiciliar los pagos
+^[Frase a medias? Todo?]
 
 Dado que es un servicio básico, sólo hace falta comunicación al presidente.
 Pero queríamos, por un lado, invitar a los demás vecinos a conectarse para compartir los gastos comunes y, por otro, pedir permiso para gestionar los pagos mediante la comunidad, aunque sólo se repercuta en las cuotas de la comunidad de los interesados.
+^[Ligar esto que se dice aquí]
 
 También queríamos pedir permiso, si parece bién, para conectar los equipos del tejado a la luz de la escalera, pues es más conveniente que subir un cable de alimentación desde uno de los pisos.
 Si se cree conveniente, el consumo eléctrico de los aparatos (150W) podría ir con los gastos repercutidos a los conectados.

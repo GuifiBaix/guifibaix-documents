@@ -69,10 +69,13 @@ Sólo deberías abonar la parte proporcional que te corresponda a la comunidad y
 Al considerarse un servicio básico, con que esté interesado un vecino, puede conectarse.
 Sin embargo, buscamos el consenso con la comunidad para:
 
-Facturación: Gestionamos los pagos a través de las comunidades, quien carga las cuotas a los vecinos apuntados a la red.
-¿Por qué lo hacemos de esta manera? Porque, tal como veremos más adelante, los vecinos que compartan su propio ADSL tendrán una bonificación.
+**Facturación:**
+Gestionamos los pagos a través de las comunidades, quien carga las cuotas a los vecinos apuntados a la red.
+¿Por qué lo hacemos de esta manera?
+Porque, tal como veremos más adelante, los vecinos que compartan su propio ADSL tendrán una bonificación.
 
-Consumo eléctrico: El consumo de la instalación es aproximadamente el de dos bombillas de 60W cada una.
+**Consumo eléctrico:**
+El consumo de la instalación es aproximadamente el de dos bombillas de 60W cada una.
 Éste consumo será abonado a la comunidad.
 
 ## ¿Los equipos son de GuifiBaix?
@@ -91,6 +94,7 @@ La idea es que cada 5 ó 6 vecinos compartirán un único ADSL.
 Al vecino que tenga contratado este ADSL se le bonificará esta conexión con hasta 30€, que se descontará de la cuota de servicio y de la cuota de comunidad.
 
 Guifibaix seleccionará, de entre los vecinos que tienen conexión telefónica, quien puede compartirla, de acuerdo a unos criterios de seguridad y permanencia (por ejemplo, priorizando a aquellos vecinos que tengan teleasistencia).
+^[Nosotros no seleccionamos nada, es decisión de ellos]
 
 ## ¿Es legal compartir los ADSL's?
 
@@ -120,6 +124,7 @@ Puedes mantener tu teléfono si así quieres, es lo que se llama Telefonía IP.
 Únicamente es necesario un adaptador de teléfono y podrás usarlo para hablar por Internet.
 
 Ahora bien, si lo deseas, puedes llamar por teléfono desde tu ordenador utilizando programas específicos para esto (por ejemplo Skype) o incluso desde tu movil.
+^[Skype??]
 
 ## ¿Cuanto me costará el teléfono?
 
@@ -138,6 +143,7 @@ El resto de llamadas son muy económicas, incluso las internacionales.
 TODO: Añadir tabla.
 
 Si realmente llamas mucho te podemos ofrecer paquetes especiales que te ayudará a ahorrar.
+^[Los paquetes que ofrecen no son interesantes, el ahorro es pequeño y se convierte en gasto si no los consumes]
 
 ## ¿Cuanto cuesta la conexión a Guifibaix?
 

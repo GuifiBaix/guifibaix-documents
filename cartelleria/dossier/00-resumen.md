@@ -6,26 +6,26 @@ GuifiBaix es una iniciativa cooperativista
 que surge de los **movimientos sociales de la comarca**
 con el objetivo de facilitar
 que los vecinos tengan acceso a los servicios de **telefonía fija y internet**,
-reduciendo su dependencia de las empresas que forman el actual oligopolio en el sector,
-ahorrando dinero y generando trabajo en la comarca.
+reduciendo su dependencia del actual oligopolio en el sector,
+ahorrándoles dinero y generando trabajo en la comarca.
 
 Lo hacemos instalando redes locales de datos en edificios
 para que los vecinos puedan **compartir sus conexiones a Internet**.
 De esta manera se comparte el gasto y
 se aprovechan unas conexiones que normalmente estan infrautilizadas.
-La red vecinal se extiende a otros edificios de la *red Guifi.net*,
-con una pequeña antena WiFi que colocamos en el tejado,
-que proporciona una salida adicional en caso de saturación.
+Una antena WiFi en el tejado permite extender la red vecinal
+a otros edificios cercanos que estan en la *red Guifi.net*,
+proporcionando una salida adicional en caso de saturación.
 
-El **teléfono fijo** nos lo proporcionan terceras empresas usando **telefonia IP**,
+El **teléfono fijo** lo proporcionan terceras empresas usando **telefonia IP**,
 un sistema que canaliza líneas telefónicas por Internet.
-Los precios son mucho mas baratos y incluso podemos mantener nuestro número actual.
+Los precios son mucho **más económicos** y **se puede conservar nuestro número actual**.
 
 La instalación queda preparada para **conectar y funcionar**.
 Tendrás una roseta en la pared a la que conectar
-el cable de red del ordenador, sin configuración alguna.
-También se te pondrá un adaptador a telefonía IP para 
-que puedas reutilizar cualquier terminal telefónico que ya tengas.
+el cable de red del ordenador, **sin configuración alguna**.
+También se te pondrá un adaptador a telefonía IP para
+**reutilizar los terminales telefónicos de los que ya dispongas**.
 
 GuifiBaix ofrece también algunos **servicios extras**:
 almacenamiento y comparticion de datos en la nube,
@@ -36,10 +36,11 @@ Cuando se usan desde la **red interna**,
 al no necesitar salir por un ADSL,
 funcionan a **muy alta velocidad**.
 
-Para hacer la instalación no es necesario ningún acuerdo de vecinos,
-pues es un servicio básico.
-Pero es conveniente que los vecinos aprueben
-gestionar los pagos mediante la comunidad y
+Al considerarse un servicio básico,
+no es necesario la aprovacion de la comunidad para instalarlo,
+solo comunicarlo al presidente.
+Pero sí es necesario tener la aprovación de los vecinos
+para gestionar los pagos mediante la comunidad y
 conectar los equipos a la luz de la escalera.
 
 
