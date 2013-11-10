@@ -13,7 +13,9 @@
 - Renviar cartell de l'Ateneu Cornella con fecha buena
 - Victor con Josep Maria este fin de semana
 - SCC-JoanMaragall
-	- Quedar para pensar la instalacion [sabado]
+	- ~~Quedar para pensar la instalacion [sabado]~~
+	- ~~Preguntar a la gente si los descuentos del presupuesto estan bien~~ [esperando respuesta]
+	- Preguntar a Elisenda si quiere numero o si quiere adaptador
 	- Prueba de conectividad con NB
 	- Mirar donde enganchar los vientos
 - Clientes potenciales
@@ -39,6 +41,14 @@
 	- Punta fina
 	- Guia
 	- Cinta aislante
+	- Preguntar cajas
+	- Espirros 8
+	- Soportes
+	- Tacos de Bridas
+	- Alcallatas
+- Pensar posible instalacion Petanca
+	- ~~Metros de cable~~ [14m desde la antena, 20m desde la AAVV]
+	- ~~Horas de instalacion~~ [3 entre 2]
 - Hablar con la Associación Petanca [jueves david]
 
 
