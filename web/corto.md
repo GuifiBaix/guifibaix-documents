@@ -1,25 +1,27 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-## Información para la reunion del viernes 8 de agosto
+## Información para la reunion de vecinos del viernes 8 de agosto
+
 
 ### ¿Qué es GuifiBaix?
 
-Somos una cooperativa de trabajadores (en constitución)
-cuyo objetivo social es facilitar que nuestros vecinos se puedan salir
+GuifiBaix es una cooperativa de trabajadores (en constitución)
+cuyo objetivo social es facilitar que los vecinos se puedan salir
 del oligopolio de las telecomunicaciones, ahorrándoles dinero y generando empleo en la zona.
-El proyecto surge de la campaña de Desconexion del IBEX-35 del 15M de Sant Joan Despí,
+El proyecto surge de la campaña "Desconexion del IBEX-35" del 15M de Sant Joan Despí,
 con la voluntad de crear alternativas a los grandes oligopolios
 que sean justas tanto para usuarios como para trabajadores.
-Mientras nos constituimos,
-operamos dentro de AT2, la incubadora de proyectos de economia social
+
+Mientras nos constituimos como cooperativa,
+estaremos operando dentro de AT2, la incubadora de proyectos de economia social
 de la asociación Gats del Prat de Llobregat.
 
 
-### ¿Qué vamos a hacer en el edificio?
+### ¿Qué se quiere hacer en el edificio?
 
-Haremos un cableado de red que conectará a los vecinos, y,
-con una antena en el terrado,
-conectaremos el bloque con otros bloques cercanos.
+Haremos un cableado de red que conectará a los vecinos del edificio,
+y, con una antena wireless en el terrado,
+conectaremos el edificios con otros edificios cercanos.
 
 Este sistema puede substituir el ADSL y la telefonía fija,
 a un precio entre la mitad y un cuarto de los precios que ofrecen las grandes telecos.
@@ -35,15 +37,25 @@ dandole derecho a pasar por el resto de tramos.
 La red cubre gran parte de Cataluña y Valencia,
 y esta empezando a crecer en todo el estado.
 
+
 ### ¿Hace falta que lo construya yo?
 
-No, por eso hemos montado GuifiBaix.
-Para que la gente se pueda pasar a Guifi.net sin preocuparse de temas técnicos.
+No es necesario, para eso hemos montado GuifiBaix,
+para que la gente se pueda pasar a Guifi.net sin preocuparse de temas técnicos.
+
+
+### ¿Y la red esta es vuestra?
+
+No, una vez instalados, los equipos pertenecerán a la comunidad.
+Nosotros solo nos reservamos el derecho de acceso para poder mantener la infraestructura.
+Si en algún momento nos volvemos malvados,
+teneis derecho a buscar otra empresa que os haga el mantenimiento.
+Ello asegura que siempre os trataremos de forma justa.
 
 
 ### ¿Pero de donde sale internet?
 
-De los ADSL's, fibras opticas o otros puntos de acceso
+De los ADSL's, fibras ópticas o otros puntos de acceso
 que cada comunidad comparte con el resto.
 De hecho, dejaremos uno o dos ADSL's en cada bloque.
 No los eliminamos del todo, de momento.
@@ -52,13 +64,12 @@ No los eliminamos del todo, de momento.
 ### ¿Y con esto será suficiente?
 
 Cuando los ADSL del bloque se llenen,
-el sistema deriva, de forma transparente,
-el caudal a una antena de otro bloque donde
+el sistema deriva el caudal, de forma transparente,
+a una antena de otro bloque donde
 el ADSL no se esté usando.
 
-En unos meses llegaremos a zonas donde hay cable de fibra optica,
-y podremos usar el cable aunque no llegue a nuestra calle
-mediante las antenas.
+Esperamos llegar en unos meses a zonas cercanas donde hay cable de fibra óptica.
+Con las antenas, podremos disfrutar de la fibra óptica aunque le quede mucho tiempo hasta que llegue a nuestra calle.
 Cuando conjuntamente tengamos suficiente caudal, podremos ir dando de baja los ADSL's.
 
 
@@ -87,7 +98,7 @@ Haremos descuentos por número de ADSL's que se compartan para que salga a cuent
 ### ¿En cuanto tiempo amortizamos la inversión?
 
 Teniendo en cuenta un ahorro de entre 30 y 40€ respecto un ADSL normal (40-50€)
-y un coste inicial de la instalación entre 200€ i 400€,
+y un coste inicial de la instalación entre 200€ i 400€ por vecino,
 la inversion está amortizada de entre 5 meses y un año,
 y a partir de entonces todo es ahorro.
 
@@ -167,6 +178,8 @@ Cualquier transferencia de datos que hagas entre nodos de Guifi.net
 y no tenga que salir a internet va a altas velocidades (100M/1G)
 tanto para bajada como para subida.
 Eso hace que los servicios internos vayan mucho más rápidos.
+
+
 
 
 

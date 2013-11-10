@@ -4,7 +4,7 @@
 
 Aquest pas-a-pas explica com instal·lar el firmware a les NanoStation quan venen de fàbrica.
 Per defecte venen amb AirOS pensada per enllaços punt a punt,
-i l'hem de substiuir per un qMp pensada per funcionar en maia.
+i l'hem de substiuir per un qMp pensada per funcionar en malla.
 
 
 Primer, cal baixar el darrer firmware qMp disponible per la nostra antena.
@@ -13,16 +13,27 @@ El trobareu al link 'Binary files' de la [pàgina oficial de qmp.cat](http://qmp
 
 ![Pàgina oficial de qmp.cat](pantallazos/1-qmpcat.png)
 
+Anireu a la [pàgina de descàrregues binàries](http://fw.qmp.cat/testing/?C=M;O=D).
 Busqueu i descarregueu el NanoStation-M5-qMp-testing-factory amb la data més recent.
 Per si de cas, pregunteu als altres guifibaixeros, no fós que la darrera versió no estigués funcionant.
 
 ![Llista de descàrregues](pantallazos/2-fwqmpcat.png)
 
-Connecteu l'antena al POE i per Ethernet a l'ordinador que esteu fent servir.
-Si feu servir un router entre mig, es posible que no veieu l'antena
-perque el router fica l'ordinador a una xarxa diferent.
+Connecteu la boca de l'antena etiquetada 'Main' amb la boca del POE etiquetada 'POE'.
+Connecteu la boca del POE etiquetada 'LAN' al vostre ordinador.
 
-Un cop connectats accediu a l'adreça que diu a la caixa de l'antena.
+Si voleu mantenir internet a l'ordinador i connectar el POE a un router,
+és possible que el router hagi ficat l'ordinador a una xarxa diferent.
+En aquest cas, en Linux, podeu assignar una adreça de xarxa addicional
+per poder veure l'antena amb la commanda.
+
+	ifconfig eth0:1 up 192.168.1.21 netmask 255.255.255.0
+
+Suposant que l'adreça de fàbrica (la posa a la caixa) es 192.168.1.XX.
+
+Un cop connectats accediu a l'adreça que diu a la caixa de l'antena,
+normalment http://192.168.1.20 .
+
 Valideu amb l'usuari i la password que tambe posen a la caixa.
 Normalment, son les que surten a la pantallada (la password és igual que l'usuari).
 
@@ -43,14 +54,23 @@ Ens surt aquesta barra de progrés, perque preguis a santa Endesa del Monopolio 
 ![](pantallazos/6-airos-firmware-progress.png)
 
 La càrrega triga poquet i, quan l'antena es reinicia, el navegador donara un error de que no hi ha xarxa.
-Es normal.
+És normal.
 
 ![](pantallazos/7-airos-firmware-aftererror.png)
 
-qMp canvia l'adreça de l'antena.
-Ens hem de connectar a http://172.30.22.1 .
+Instaŀlar qMp canvia l'adreça de l'antena.
+Ara ens hem de connectar a http://172.30.22.1 .
+Per veure-la has d'estar a la mateixa xarxa.
+Cap problema si no estas a una xarxa local,
+Com a molt, desconnectes el cable i el tornes a connectar i
+l'antena donarà a l'ordinador una adreça de la seva xarxa.
 
-TOCHECK: Aquesta és l'adreça que sempre està disponible encara que canviis la IP cap en fora?
+A Linux hi ha un truc per no haver-te de desconnectar a Internet:
+afegir una segona adreça virtual a la targeta de xarxa amb la comanda:
+
+	ifconfig eth0:1 up 172.30.22.20 netmask 255.255.255.0
+
+
 
 Usuari 'root', contrasenya, pregunta als altres guifibaixeros.
 
