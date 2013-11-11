@@ -6,7 +6,6 @@
 \usepackage{fixltx2e} % provides \textsubscript
 \usepackage{graphicx}
 \usepackage{wrapfig}
-\usepackage{ccicons}
 \usepackage{multicol}
 \usepackage[none]{hyphenat}
 \usepackage{layout}

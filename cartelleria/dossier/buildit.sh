@@ -1,5 +1,5 @@
 #!/bin/bash
-# sudo apt-get install pandoc texlive-lang-spanish pdftk
+# sudo apt-get install pandoc texlive-lang-spanish texlive-fonts-recomended pdftk
 
 pandoc \
 	-V lang=spanish \

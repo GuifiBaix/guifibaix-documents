@@ -8,7 +8,9 @@
 GuifiBaix es un proyecto de economía social cuyo objetivo es facilitar que los vecinos de la zona puedan salirse del oligopolio de las telecos, ahorrándoles dinero y empleando a personas de la zona.
 Para ello, usamos la red ciudadana *Guifi.net*.
 
-El proyecto surge de la campaña  "Desconexion del IBEX-35" del 15M de Sant Joan Despí, con la voluntad de potenciar alternativas a las grandes empresas, que nos liberen de sus abusos sobre usuarios, trabajadores y la sociedad en general.
+El proyecto surge de la campaña  "Desconexion del IBEX-35" del 15M de Sant Joan Despí,
+que potencia alternativas a las grandes empresas,
+que nos liberen de los abusos que cometen sobre usuarios, trabajadores y la sociedad en general.
 
 De momento, operamos dentro de
 una incubadora de proyectos de economía social, AT2,
@@ -42,13 +44,9 @@ También existen empresas que ofrecen “telefonia IP” con tarifas muy económ
 
 GuifiBaix facilita la incorporación de los ciudadanos
 a la red Guifi.net, instalando y manteniendo la parte
-de la red que les corresponde.a
-
-No solo eso, sinó que facilita
-que los usuarios puedan disfrutar, de forma transparente,
-de un servicio equivalente al del oligopolio,
-coordinando la compartición de internet entre vecinos y
-comercializando paquetes de telefonía IP de terceros.
+de la red que les corresponde y
+haciendo llegar a los usuarios, de forma transparente,
+servicios equivalentes a los que ofrece el oligopolio.
 
 ## ¿Qué se quiere hacer en el edificio?
 
@@ -82,13 +80,13 @@ y sí que requieren aprobación.
 Gestionamos los pagos a través de la comunidad,
 que la comunidad repercute
 sólo a los vecinos que están conectados.
-¿Porqué?
+¿Porqué mediante la comunidad?
 Entre otras cosas, habilita la fórmula para
 compensar a los vecinos que comparten su conexión,
 como se explica más adelante.
 
 **Enganche a la luz de la comunidad:**
-Conviene conectar los equipos a la luz de la escalera
+Es mejor que los equipos estén conectados a la luz de la escalera
 para no depender de que un vecino no apague su luz
 o se le vaya la luz en ausencia dejando
 a los demás vecinos incomunicados.
@@ -108,7 +106,7 @@ Que la red pertenezca a los usuarios,
 y que esté documentada y basada en estándares abiertos,
 hacen que la única atadura que tengan los usuarios
 con GuifiBaix sea la confianza y su forma de trabajar,
-y no se pueden escudar en un mercado cautivo
+y no se pueda escudar en un mercado cautivo
 para abusar como hace el oligopolio.
 
 ## Pero, ¿de dónde sale internet?
