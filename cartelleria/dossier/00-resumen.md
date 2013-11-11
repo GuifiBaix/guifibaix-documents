@@ -3,9 +3,9 @@
 ## Resumen
 
 GuifiBaix es una iniciativa cooperativista
-que surge de los **movimientos sociales de la comarca**
-con el objetivo de facilitar
-que los vecinos tengan acceso a los servicios de **telefonía fija y internet**,
+que surge de los **movimientos sociales de la comarca**.
+Su objetivo es facilitar
+que los vecinos tengan acceso a los servicios de **telefonía fija e Internet**,
 reduciendo su dependencia del actual oligopolio en el sector,
 ahorrándoles dinero y generando trabajo en la comarca.
 
@@ -37,9 +37,9 @@ al no necesitar salir por un ADSL,
 funcionan a **muy alta velocidad**.
 
 Al considerarse un servicio básico,
-no es necesario la aprovacion de la comunidad para instalarlo,
+no es necesario la aprobacion de la comunidad para instalarlo,
 solo comunicarlo al presidente.
-Pero sí es necesario tener la aprovación de los vecinos
+Pero sí es necesario tener la aprobación de los vecinos
 para gestionar los pagos mediante la comunidad y
 conectar los equipos a la luz de la escalera.
 
@@ -49,21 +49,13 @@ conectar los equipos a la luz de la escalera.
 A) **Instalación:** incluye la parte común en la azotea y la bajada hasta la roseta de cada vecino.
    El presupuesto depende mucho de las características del edificio y del número de vecinos que repartan costes.
    Orientativamente, suele salir a entre 150 y 300€ por vecino.
+
 B) **Cuota de mantenimiento**: 10€+IVA al mes por vecino más 5€+IVA al mes por antena que se reparte entre los vecinos.
 
-Si se hacen los pagos de forma conjunta 
-**mediante la comunidad de vecinos** o otra entidad similar,
-GuifiBaix puede hacer un **descuento** en el monto total
-por cada conexión que los vecinos compartan
-de 30€+IVA/mes con un tope de 6€+IVA/mes por vecino conectado.
+Si se quiere **telefonía IP**, se paga a parte a los proveedores.
+Por ejemplo, las tarifas de la empresa Adam Voz IP son:
 
-A parte hay una serie de costes que van asociados a la Telefonía IP
-y que no se pagan a GufiiBaix sino cada vecino a la empresa proveedora.
-Nótese que los vecinos que esten compartiendo su ADSL o
-los que no quieran teléfono fijo,
-no tendrán estos costes.
-
-C) **Llamadas:**
+A) **Llamadas:**
 	1,4¢/min+IVA a fijos,
 	7¢/min a móviles (excepto Yoigo).
 C) **Número propio:** 2€+IVA de alta y 2€+IVA mensuales.
@@ -71,4 +63,11 @@ C) **Número propio:** 2€+IVA de alta y 2€+IVA mensuales.
 C) **Portabilidad del numero:** Un solo pago de 15€+IVA por la gestion.
 	Solo si se quiere conservar el número actual.
 
+Para potenciar que haya suficientes **accesos compartidos**,
+GuifiBaix hace **descuentos** a las comunidades de vecinos que los aportan.
+Para poder aplicarlo,
+los pagos se tienen que hacer de forma
+**conjunta mediante la comunidad** u otra entidad similar.
+Dicho descuento es de 30€+IVA/mes por cada acceso compartido,
+con un tope de 6€+IVA/mes por cada vecino conectado.
 

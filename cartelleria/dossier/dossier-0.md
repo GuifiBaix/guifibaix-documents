@@ -24,7 +24,7 @@ posiblemente, también de usuarios.
 \figureright{figura-xarxaciutadana-cami.pdf}
 
 Guifi.net es el medio por el que llegan los servicios.
-Es una red pública  construida por los mismos usuarios.
+Es una red pública y libre construida por los mismos usuarios.
 Cada participante construye solo el tramo de la red que pasa por su vivienda.
 Tienes derecho a pasar por los tramos de los demás,
 si dejas que otros pasen por tu tramo.
@@ -49,27 +49,29 @@ como almacenamiento de datos en la nube,
 descargas compartidas, correo, alojamiento,
 television y radio en streaming,
 mediateca...
-Unos servicios que al ser internos y no tener
-que salir por un ADSL se ofrecen a alta velocidad.
+Unos servicios que al ser internos
+funcionan a alta velocidad.
 
 ## ¿Qué se quiere hacer en el edificio?
 
-Conectaremos el edificio a otros edificios cercanos con una antena WiFi en el tejado.
-Pondremos equipos de seguridad (firewall) y distribución (switches) y cablearemos el edificio para que llegue a cada vivienda.
-Os dejaremos un punto de conexión de red en la pared y un adaptador para conectar el teléfono fijo.
+Se conectará el edificio a otros cercanos con una antena WiFi en el tejado.
+Se pondrán equipos de seguridad (firewall) y distribución (switches)
+y se cableará el edificio para que llegue a cada vivienda.
+Os dejaremos un punto de conexión de red en la pared y
+un adaptador para conectar el teléfono fijo.
+
 
 ## ¿Hace falta que nos pasemos todos?
 
-No.
-Si no te interesa, no te conectamos.
-Los costes deberían recaer solo sobre los vecinos que se conectan.
+No. Y sólo pagan los vecinos que se conectan.
 
 Si alguien se quiere conectar a posteriori,
-tendría que pagar a GuifiBaix su instalación particular.
+GuifiBaix le presupuestaría su instalación particular.
 También es de justicia, aunque eso no corresponde a GuifiBaix,
 que el nuevo vecino pague a los otros conectados
 la parte proporcional que le toca de la instalación común
 más los intereses legales.
+
 
 ## ¿Qué tiene que aprobar la comunidad?
 
@@ -82,36 +84,36 @@ y sí que requieren aprobación.
 
 **Facturación:**
 Gestionamos los pagos a través de la comunidad,
-que la comunidad repercute
-sólo a los vecinos que están conectados.
-¿Porqué mediante la comunidad?
+que ésta repercute a los vecinos conectados.
+¿Por qué mediante la comunidad?
 Entre otras cosas, habilita la fórmula para
 compensar a los vecinos que comparten su conexión,
 como se explica más adelante.
 
-**Enganche a la luz de la comunidad:**
-Es mejor que los equipos estén conectados a la luz de la escalera
-para no depender de que un vecino no apague su luz
-o se le vaya la luz en ausencia dejando
-a los demás vecinos incomunicados.
+**Conexión eléctrica a la comunidad:**
+Es mejor que los equipos estén conectados a la luz de la escalera.
+Si se conectara a la de un vecino,
+el edificio quedaría sin servicio
+si, por ejemplo, le saltasen los plomos en ausencia.
 El consumo máximo de los equipos no supera dos bombillas de 60W.
 
 
 ## ¿Los equipos son de GuifiBaix?
 
 No.
-A diferencia de la manera de operar del oligopolio,
+GuifiBaix se reserva el derecho de acceso físico y telemático
+a los equipos comunes para su mantenimiento.
+Pero, a diferencia de la manera de operar del oligopolio,
 los equipos, una vez instalados,
 **pertenecen a los usuarios**.
-GuifiBaix sólo se reserva el derecho de acceso físico y telemático a los equipos comunes
-para poder mantener la infraestructura.
 
-Que la red pertenezca a los usuarios,
-y que esté documentada y basada en estándares abiertos,
-hacen que la única atadura que tengan los usuarios
-con GuifiBaix sea la confianza y su forma de trabajar,
-y no se pueda escudar en un mercado cautivo
-para abusar como hace el oligopolio.
+El papel de GuifiBaix lo podría asumir
+otra empresa o incluso voluntarios.
+La única atadura que pueden tener los usuarios
+con GuifiBaix es la confianza y su forma de trabajar.
+GuifiBaix no se escuda en clientes atados,
+como hace el oligopolio, para abusar de ellos.
+
 
 ## Pero, ¿de dónde sale internet?
 
