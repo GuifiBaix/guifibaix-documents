@@ -1,3 +1,5 @@
+# Contexto
+
 ## ¿Qué es GuifiBaix?
 
 \figureright{logo-guifibaix.pdf}
@@ -35,6 +37,7 @@ Es un proyecto reconocido que ha obtenido varios premios internacionales.
 Los participantes usan la red para compartir o ofrecer servicios, como por ejemplo, la conexion a Internet.
 También existen empresas que ofrecen “telefonia IP” con tarifas muy económicas y que pueden substituir el teléfono fijo conservando el número.
 
+
 ## ¿Cual es la función GuifiBaix?
 
 La función de GuifiBaix es simplificar Guifi.net a los usuarios:
@@ -51,6 +54,121 @@ television y radio en streaming,
 mediateca...
 Unos servicios que al ser internos
 funcionan a alta velocidad.
+
+## ¿En qué webs puedo encontrar más información?
+
+- GuifiBaix:
+	`http://guifibaix.coop`
+- Guifi.net:
+	`http://guifi.net`
+- Campaña de desconexión IBEX-35:
+	`http://desconexionibex35.org`
+- Associació Gats:
+	`http://gats.cat`
+
+Se puede contactar por correo electrónico en <contacte@guifibaix.coop>
+
+# Servicios
+
+## ¿De dónde sale internet?
+
+GuifiBaix no es el proveedor de Internet.
+Internet sale de los ADSL's, fibras ópticas u otros puntos de acceso
+que los vecinos de cada edificio comparten.
+
+Todo acceso a Internet compartido en la red ciudadana,
+se suma al disponible.
+Cuando los accesos de un edificio se llenan,
+el sistema deriva el tráfico por la red Guifi.net
+a otros edificios que tengan accesos libres.
+
+GuifiBaix hace descuentos a las comunidades de vecinos
+que aportan dichos accesos,
+por hacer menor uso del caudal común.
+El descuento es de 30€+IVA al mes por acceso compartido,
+con un máximo de 6€+IVA al mes por vecino.
+Está calculado para que salga a cuenta añadir
+un acceso ADSL por cada 5 vecinos.
+
+La desconexión total del oligopolio no es immediata.
+La idea es irnos desconectando progresivamente
+primero dejando caer unos cuantos accesos al principio,
+y el resto a medida que lleguemos a zonas con fibra óptica
+o dispongamos de canales de salida propios conectados a la red.
+
+
+## ¿Cómo me llega el teléfono?
+
+\begin{table}
+
+Compañía   Portabilidad  Alta  Mes     Fijos    Móbiles
+--------- ------------- ----- ---- ---------  ---------
+Adam                15€    2€   2€  1,4¢/min   7,0¢/min
+Anescu
+
+\end{table}
+
+\figurecolumn{figura-telefoniaip}
+
+El teléfono llega canalizado vía Internet,
+lo que se llama *Telefonía IP*.
+Es un servicio que ofrecen terceras empresas y que nosotros comercializamos en su nombre.
+Las llamadas son muy economicas (es lo que usan los locutorios),
+y puedes conservar el número actual (portabilidad).
+
+Para llamar puedes usar un teléfono IP especial,
+pero GuifiBaix te proporciona con la instalación un
+adaptador para que puedas reutilizar los terminales
+telefónicos que ya tengas en casa.
+También se pueden recibir y hacer llamadas
+con aplicaciones gratis para móbiles por WiFi o para PC.
+De hecho, puedes llamar con tu número fijo y las mismas tarifas
+desde cualquier lugar que tengas disponible Internet.
+
+## ¿Cuanto cuesta la telefonia IP?
+
+El coste se puede adaptar a varios perfiles
+dependiendo del proveedor y de la modalidad que elijas.
+Los mejores proveedores están recogidos en la 
+\autoref{tabla-PreciosTelefoniaIP}.
+
+La modalidad más barata es válida para
+cuando no necesitas tener número propio.
+Te dan una extensión dentro del número del proveedor
+y solo pagas las llamadas que hagas.
+Sin altas ni mensualidades.
+
+Si quieres número propio hay que pagar normalmente un alta
+y una mensualidad casi simbólica como ves en la tabla.
+Si además quieres conservar tu número actual (portabilidad),
+algunos de los proveedores cobran por la gestión.
+
+Las llamadas entre telefonos IP son gratuitas.
+Y las llamadas al extragero son muy baratas.
+No reproducimos aquí esas tarifas porque son largas.
+Pregúntanos por el país concreto o consúltalo en la web
+del proveedor concreto.
+
+## ¿Qué otros servicios hay en Guifi.net?
+
+En Guifi.net los usuarios ofrecen servicios telemáticos,
+la mayoría gratuitos, otros de pago, a los otros usuarios de la red:
+Almacenamiento de archivos,
+televisión y radio en streaming,
+servidores de juegos...
+
+GuifiBaix añade sus propios servicios
+de almacén y compartición de archivos (la nube), 
+descargas P2P compartidas, mediateca...
+
+
+## ¿Qué ventajas tiene un servicio que esté en Guifi.net sobre otro en Internet?
+
+Cualquier transferencia de datos que hagas entre nodos de Guifi.net y no tenga que salir a internet va a altas velocidades (100M/1G simétricos).
+Eso hace que los servicios internos vayan mucho más rápidos que los que están en Internet.
+
+
+# Tu comunidad
 
 ## ¿Qué se quiere hacer en el edificio?
 
@@ -71,6 +189,20 @@ También es de justicia, aunque eso no corresponde a GuifiBaix,
 que el nuevo vecino pague a los otros conectados
 la parte proporcional que le toca de la instalación común
 más los intereses legales.
+
+## ¿A quién pertenecen los equipos?
+
+GuifiBaix se reserva el derecho de acceso físico y telemático
+a los equipos comunes para su mantenimiento.
+Pero, los equipos, una vez instalados,
+**pertenecen a los usuarios**.
+
+Se hace así para no atar a los usuarios como hace el oligopolio.
+El papel de GuifiBaix lo podría asumir
+otra empresa o incluso voluntarios.
+La única atadura que pueden tener los usuarios
+con GuifiBaix es la confianza y su forma de trabajar.
+
 
 
 ## ¿Qué tiene que aprobar la comunidad?
@@ -98,103 +230,14 @@ si, por ejemplo, le saltasen los plomos en ausencia.
 El consumo máximo de los equipos no supera dos bombillas de 60W.
 
 
-## ¿Los equipos son de GuifiBaix?
+# Casos concretos
 
-No.
-GuifiBaix se reserva el derecho de acceso físico y telemático
-a los equipos comunes para su mantenimiento.
-Pero, a diferencia de la manera de operar del oligopolio,
-los equipos, una vez instalados,
-**pertenecen a los usuarios**.
+## ¿Que pasa si el punto de red no cae donde quiero?
 
-El papel de GuifiBaix lo podría asumir
-otra empresa o incluso voluntarios.
-La única atadura que pueden tener los usuarios
-con GuifiBaix es la confianza y su forma de trabajar.
-GuifiBaix no se escuda en clientes atados,
-como hace el oligopolio, para abusar de ellos.
+Se pueden discutir otras alternativas si los vecinos de una vertical así lo acuerdan.
 
-
-## Pero, ¿de dónde sale internet?
-
-GuifiBaix no es el proveedor de Internet.
-Internet sale de los ADSL's, fibras ópticas u otros puntos de acceso
-que cada edificio comparta.
-
-Todo acceso a Internet que se comparta en la red ciudadana,
-se suma al disponible.
-Cuando los accesos de un edificio se llenan,
-el sistema deriva el tráfico por la red Guifi.net
-a otros edificios que tengan accesos libres.
-
-GuifiBaix hace descuentos a las comunidades de vecinos
-que aportan dichos accesos,
-por hacer menor uso del caudal común.
-El descuento es de 30€+IVA al mes por acceso compartido,
-con un máximo de 6€+IVA al mes por vecino.
-Está calculado para que salga a cuenta añadir
-un acceso ADSL por cada 5 vecinos.
-
-A medida que lleguemos a zonas con fibra óptica
-o dispongamos de canales de salida propios,
-podremos desconectarnos totalmente del oligopolio.
-
-## ¿Puedo compartir un ADSL pero mantener preferencia de uso?
-
-Sí, hay diversas formas de hacerlo según tus necesidades.
-Aún será útil a la comunidad porque lo podrá usar cuando no estés.
-Tus vecinos pueden considerar que las condiciones no son las mismas que un ADSL plenamente compartido  y no pagarlo a partes iguales pero todo es hablarlo.
-TODO: Revisar esto
-
-## ¿Y cómo me llega el teléfono?
-
-\begin{table}
-
-Compañía   Portabilidad  Alta  Mes     Fijos    Móbiles
---------- ------------- ----- ---- ---------  ---------
-Adam                15€    2€   2€  1,4¢/min   7,0¢/min
-Anescu
-
-\end{table}
-
-
-El teléfono llega canalizado vía Internet,
-lo que se llama *Telefonía IP*.
-Es un servicio que ofrecen terceras empresas y que nosotros comercializamos en su nombre.
-Las llamadas son muy economicas (es lo que usan los locutorios),
-y puedes conservar el número actual (portabilidad).
-
-Para llamar puedes usar un teléfono IP especial,
-pero GuifiBaix te proporciona con la instalación un
-adaptador para que puedas reutilizar los terminales
-telefónicos que ya tengas en casa.
-También se pueden recibir y hacer llamadas
-con aplicaciones gratis para móbiles por WiFi o para PC.
-De hecho, puedes llamar con tu número fijo y las mismas tarifas
-desde cualquier lugar que tengas disponible Internet.
-
-## ¿Cuanto cuesta la telefonia IP?
-El coste se puede adaptar a varios perfiles
-dependiendo del proveedor y de la modalidad que elijas.
-Los mejores proveedores están recogidos en la 
-\autoref{tabla-PreciosTelefoniaIP}.
-
-La modalidad más barata es válida para
-cuando no necesitas tener número propio.
-Te dan una extensión dentro del número del proveedor
-y solo pagas las llamadas que hagas.
-Sin altas ni mensualidades.
-
-Si quieres número propio hay que pagar normalmente un alta
-y una mensualidad casi simbólica como ves en la tabla.
-Si además quieres conservar tu número actual (portabilidad),
-algunos de los proveedores cobran por la gestión.
-
-Las llamadas entre telefonos IP son gratuitas.
-Y las llamadas al extragero son muy baratas.
-No reproducimos aquí esas tarifas porque son largas.
-Pregúntanos por el país concreto o consúltalo en la web
-del proveedor concreto.
+Cualquier extensión de la red más allá del punto de conexión que se decida corre a cargo del vecino.
+GuifiBaix os puede facilitar el material y/o la instalación a un módico precio, o, sin coste alguno, os podemos orientar sobre las diferentes opciones para hacerlo vosotros mismos: Wi-Fi, cableado, PLC...
 
 ## Y si sólo uso teléfono, ¿vale la pena?
 
@@ -204,26 +247,11 @@ Coméntanos tu caso.
 Las llamadas al extranjero son a menudo más baratas que las nacionales
 y las llamadas entre Telefonos IP (por ejemplo, entre dos personas con guifi.net) son gratuitas.
 
-## Vale y ¿cuanto cuesta ponerlo?
+## ¿Puedo compartir un ADSL pero mantener preferencia de uso?
 
-En el cuadro del final del dossier, aparecen los costes con IVA dependiendo del número de vecinos, y considerando el caso más caro de Telefonía IP, es decir haciendo la portabilidad de número.
-
-## ¿En cuanto tiempo amortizamos la inversión?
-
-En ese cuadro también aparecen los meses en los que se amortiza la inversión dependiendo de lo que estés pagando ahora.
-Si tu caso tiene una amortización de mas de un año, no es recomendable pasarse al menos que tus principales motivos sean mas éticos que económicos.
-
-## ¿Dónde pondreis los puntos de red?
-
-Lo que sugerimos es para los 1os y 4os, bajar los cables por el patio que comparten con puntos de red en las habitaciones.
-Para 2os y 3os por ambos lados de los balcones de la fachada de Las Torres con puntos de conexion en los comedores.
-
-## ¿Que pasa si el punto de red no cae donde quiero?
-
-Se pueden discutir otras alternativas si los vecinos de una vertical así lo acuerdan.
-
-Cualquier extensión de la red más allá del punto de conexión que se decida corre a cargo del vecino.
-GuifiBaix os puede facilitar el material y/o la instalación a un módico precio, o, sin coste alguno, os podemos orientar sobre las diferentes opciones para hacerlo vosotros mismos: Wi-Fi, cableado, PLC...
+Sí, hay diversas formas de hacerlo según tus necesidades.
+Habrá que acordar con los vecinos la forma apropiada
+de aplicar los descuentos al no compartirlo al 100%.
 
 ## ¿Y si no puedo dejar mi compañía?
 
@@ -259,28 +287,19 @@ Dentro de las viviendas aconsejamos distribuir la red con PLC o cableado en vez 
 Según la propia Comision del Mercado de Telecomunicaciones, es legal que una comunidad de vecinos compartan gastos de internet y teléfono.
 GuifiBaix hace la instalación y lleva el manenimiento, pero sois los vecinos los que compartís Internet de acuerdo con esa premisa.
 
+
 ## ¿Teneis los permisos de la CMT?
 
 La Fundacion Guifi.net está registrada como operador de telecomunicaciones, y eso nos cubre mientras lo que hagamos sea solo extender la red.
 
 Algunos de los servicios que planteamos a futuro si pueden requerir que nos registremos como GuifiBaix, pero solo entonces lo haremos.
 
+
 ## ¿Hace falta licencia para emitir?
 
 Las antenas están limitadas a las bandas y potencias establecidas por ley para comunicar redes WiFi.
 No hace falta ninguna licencia especial para ello.
 
-## ¿Qué otros servicios hay en Guifi.net?
-
-Muchos usuarios de Guifi.net ofrecen servicios, la mayoria gratuitos, a los otros usuarios de la red: almacén y compartición de archivos (la nube), television y radio en streaming, descargas compartidas, servidores de juegos...
-
-GuifiBaix también añadirá servicios a la red para cubrir las necesidades especificas que tengamos los usuarios.
-Estamos pensando, por ejemplo, en un servidor de descargas compartidas que permitirá ver películas en streaming a mayor velocidad o evitar saturar la red de todos con tráfico P2P (emule, torrent, ares...).
-
-## ¿Qué ventajas tiene un servicio que esté en Guifi.net sobre otro en Internet?
-
-Cualquier transferencia de datos que hagas entre nodos de Guifi.net y no tenga que salir a internet va a altas velocidades (100M/1G simétricos).
-Eso hace que los servicios internos vayan mucho más rápidos que los que están en Internet.
 
 ## Cuestiones que nos gustaría resolver en la reunión:
 
@@ -296,19 +315,6 @@ Eso hace que los servicios internos vayan mucho más rápidos que los que están
 
 ¿Cómo pagamos el ADSL compartido a la gente que lo ponga?
 
-## ¿Teneis alguna Web donde buscar más información?
-
-La cooperativa GuifiBaix:
-<http://guifibaix.coop>
-
-La red comunitaria Guifi.net
-<http://guifi.net>
-
-La campaña de la que venimos
-<http://desconexionibex35.org>
-
-La asociación que nos “incuba”:
-<http://gats.cat>
 
 
 Además, se aprovecha la reunión
@@ -317,4 +323,4 @@ para invitar a otros vecinos a conectarse,
 pues, si hay más vecinos, más se repartiran los costes comunes
 de mantenimiento y instalación.
 
-
+# the end

@@ -17,6 +17,11 @@
 \end{wrapfigure}
 }
 
+\newcommand{\figurecolumn}[1] {
+\setlength{\intextsep}{5pt}\setlength{\columnsep}{12pt}
+	\includegraphics[width=\linewidth]{#1}
+}
+
 \setlength{\columnsep}{1cm}
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
