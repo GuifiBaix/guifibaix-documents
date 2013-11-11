@@ -37,11 +37,20 @@ También existen empresas que ofrecen “telefonia IP” con tarifas muy económ
 
 ## ¿Cual es la función GuifiBaix?
 
-GuifiBaix facilita la incorporación de los ciudadanos
-a la red Guifi.net, instalando y manteniendo la parte
-de la red que les corresponde y
-haciendo llegar a los usuarios, de forma transparente,
-servicios equivalentes a los que ofrece el oligopolio.
+La función de GuifiBaix es simplificar Guifi.net a los usuarios:
+Instala y mantiene la parte de la red que les corresponde,
+gestiona el tráfico de datos para que la compartición de 
+los accesos a Internet sea transparente a los usuarios,
+y comercializa los servicios de Telefonía IP de terceros
+ofreciendo equipos preconfigurados.
+
+Además desarrolla servicios telemáticos,
+como almacenamiento de datos en la nube,
+descargas compartidas, correo, alojamiento,
+television y radio en streaming,
+mediateca...
+Unos servicios que al ser internos y no tener
+que salir por un ADSL se ofrecen a alta velocidad.
 
 ## ¿Qué se quiere hacer en el edificio?
 
