@@ -10,6 +10,13 @@
 \usepackage[none]{hyphenat}
 \usepackage{layout}
 
+\newcommand{\figureright}[1] {
+\setlength{\intextsep}{5pt}\setlength{\columnsep}{12pt}
+\begin{wrapfigure}{r}{0.18\textwidth} 
+	\includegraphics[width=\linewidth]{#1}
+\end{wrapfigure}
+}
+
 \setlength{\columnsep}{1cm}
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}

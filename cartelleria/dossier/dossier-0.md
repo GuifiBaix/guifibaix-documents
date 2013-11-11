@@ -1,10 +1,7 @@
 ## ¿Qué es GuifiBaix?
 
-\setlength{\intextsep}{5pt}\setlength{\columnsep}{12pt}
-\begin{wrapfigure}{r}{0.18\textwidth}
-	{
-    \includegraphics[width=\linewidth]{logo-guifibaix.pdf}}
-\end{wrapfigure}
+\figureright{logo-guifibaix.pdf}
+
 GuifiBaix es un proyecto de economía social cuyo objetivo es facilitar que los vecinos de la zona puedan salirse del oligopolio de las telecos, ahorrándoles dinero y empleando a personas de la zona.
 Para ello, usamos la red ciudadana *Guifi.net*.
 
@@ -24,9 +21,7 @@ posiblemente, también de usuarios.
 
 ## ¿Qué es Guifi.net?
 
-\begin{wrapfigure}{r}{0.18\textwidth}
-	\includegraphics[width=\linewidth]{figura-xarxaciutadana-cami.pdf}
-\end{wrapfigure}
+\figureright{figura-xarxaciutadana-cami.pdf}
 
 Guifi.net es el medio por el que llegan los servicios.
 Es una red pública  construida por los mismos usuarios.
