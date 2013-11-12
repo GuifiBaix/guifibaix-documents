@@ -3,14 +3,18 @@
 - Documento de propuesta de presupuesto para Catalunya
 - Enviar propuesta de presupuesto para Catalunya
 - Dossier generico
-	- Portarlo a md [David]
+	- ~~Portarlo a md~~ [David]
 	- Insertar las imagenes [David]
+		- ~~Malla~~
+		- ~~Logo~~
+		- Telefonia IP
+		- Diagrama polar
 	- Fusionar los documentos
 	- Acabarlo
 	- Enviar dossier + propuesta de presupuesto a Gestora de Gelabert
 - Revisar presupuesto Domenech (David)
 - Burchar al presidente de Verdaguer
-- Renviar cartell de l'Ateneu Cornella con fecha buena
+- ~~Reenviar cartell de l'Ateneu Cornella con fecha buena~~
 - Victor con Josep Maria este fin de semana
 - SCC-JoanMaragall
 	- ~~Quedar para pensar la instalacion [sabado]~~
