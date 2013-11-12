@@ -8,7 +8,9 @@ pandoc \
 	-V mainfont='Ubuntu' \
 	-V fontsize='11pt,twocolumn,oneside' \
 	-V papersize=a4paper \
-	-f markdown *.md \
+	-f markdown \
+	00-resumen.md \
+	dossier-0.md \
 	--template default.latex -o dossier.pdf
 
 #pdftk portada.pdf blank.pdf planempresa-content.pdf cat output planempresa.pdf
