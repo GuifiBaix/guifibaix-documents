@@ -7,9 +7,9 @@
 	- Insertar las imagenes [David]
 		- ~~Malla~~
 		- ~~Logo~~
-		- Telefonia IP
+		- ~~Telefonia IP~~
 		- Diagrama polar
-	- Fusionar los documentos
+	- ~~Fusionar los documentos~~
 	- Acabarlo
 	- Enviar dossier + propuesta de presupuesto a Gestora de Gelabert
 - Revisar presupuesto Domenech (David)
@@ -19,7 +19,7 @@
 - SCC-JoanMaragall
 	- ~~Quedar para pensar la instalacion [sabado]~~
 	- ~~Preguntar a la gente si los descuentos del presupuesto estan bien~~ [esperando respuesta]
-	- Preguntar a Elisenda si quiere numero o si quiere adaptador
+	- ~~Preguntar a Elisenda si quiere numero o si quiere adaptador~~ [Y tambien portabilidad]
 	- Prueba de conectividad con NB
 	- Mirar donde enganchar los vientos
 - Clientes potenciales
@@ -32,18 +32,22 @@
 	- Comprar enchufes
 	- Manguera de luz (cuando estemos listos para una instalación)
 - Telefonia IP
-	- Calidad de sonido con tráfico
-	- Analizar ancho de banda consumido
-	- Probar video-llamadas
-	- Preguntar a Anescu encriptacion TSL
-- Insistir cuenta de prueba con Adam (Enviada peticion)
+	- ~~Preguntar a Anescu encriptacion TSL~~ Nasti, no tienen
+	- ~~Adam: Insistir cuenta de prueba (Enviada peticion)~~
+	- ~~Adam: Crear cuenta~~
+	- **Adam: Pedir saldo para hacer las pruebas** [David, esperando respuesta]
+	- Adam: Prueba llamada
+	- Adam: Prueba recepción
+	- Adam: Prueba multiples receptores
+	- Adam: Prueba diferentes transportes
+	- Adam: Prueba calidad con tráfico
 - Investigar porque no se llega a las antenas a traves del microtik
-- Enviar GPS de Gaspar
+- ~~Enviar GPS de Gaspar~~
 - Compra herramientas [lunes Aitor, Raul]
-	- EPIS
+	- 2 EPIS
 	- Escaleras (Aitor)
 	- Punta fina
-	- Guia
+	- Guia 220
 	- Cinta aislante
 	- Preguntar cajas
 	- Espirros 8
@@ -80,7 +84,11 @@
 - Instalacion prototipo David
 	- Comprar material
 	- Instalar
-- Pruebas remotas de telefonía IP
+- Telefonia IP
+	- Telefonia IP: Calidad de sonido con tráfico
+	- Telefonia IP: Analizar ancho de banda consumido
+	- Telefonia IP: Probar video-llamadas
+	- Telefonia IP: Pruebas remotas de telefonía IP
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
 - Compras:
 	- Cablematic
