@@ -13,4 +13,5 @@ pandoc \
 	dossier-0.md \
 	--template default.latex -o dossier.pdf
 
-#pdftk portada.pdf blank.pdf planempresa-content.pdf cat output planempresa.pdf
+pdftk dossier.pdf background ../membrete-a4.pdf output dossier-final.pdf
+
