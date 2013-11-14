@@ -4,13 +4,16 @@
 
 \figureright{logo-guifibaix.pdf}
 
-GuifiBaix es un proyecto de economía social cuyo objetivo es facilitar que los vecinos de la zona puedan compartir 
-sus conexiones internet mediante la red libre "Guifi.net". Ello a la vez, permite salirse del oligopolio de las 
-telecos, ahorrarse dinero y obtener un servicio a global a nivel local.
+GuifiBaix es un proyecto de economía social que
+facilita que los vecinos que se conecten a la red ciudadana y libre "Guifi.net".
+que ofrece una alternativa al oligopolio de las telecomunicaciones,
+más accesible económicamente y que genera trabajo local.
 
-El proyecto surge de la campaña  "Desconexion del IBEX-35" del 15M de Sant Joan Despí,
+El proyecto surge de la campaña  "Desconexión del IBEX-35"
+del 15M de Sant Joan Despí,
 que potencia alternativas a las grandes empresas,
-que nos liberen de los abusos que cometen sobre usuarios, trabajadores y la sociedad en general.
+que nos liberen de los abusos que cometen 
+sobre usuarios, trabajadores y la sociedad en general.
 
 De momento, operamos dentro de
 una incubadora de proyectos de economía social, AT2,
@@ -28,18 +31,18 @@ posiblemente, también de usuarios.
 
 Guifi.net es el medio por el que llegan los servicios.
 Es una red pública y libre construida por los mismos usuarios.
-Cada participante construye solo el tramo de la red que pasa por su vivienda.
+Cada participante construye sólo el tramo de la red que pasa por su vivienda.
 Tienes derecho a pasar por los tramos de los demás,
 si dejas que otros pasen por tu tramo.
 
 La red, con más de 20.000 nodos,
-cubre ya gran parte de Catalunya y Valencia,
+cubre ya gran parte de Cataluña y Valencia,
 y se extiende por muchos puntos del estado.
 Es un proyecto reconocido que ha obtenido varios premios internacionales.
 
-Los participantes usan la red para compartir o ofrecer servicios,
-como por ejemplo, la conexion a Internet.
-También existen empresas que ofrecen “telefonia IP”,
+Los participantes usan la red para compartir y ofrecer servicios,
+como por ejemplo, la conexión a Internet.
+También existen empresas que ofrecen “telefonía IP”,
 con tarifas muy económicas, y que pueden substituir el teléfono fijo,
 incluso conservando el número.
 
@@ -56,7 +59,7 @@ ofreciendo equipos preconfigurados.
 Además desarrolla servicios telemáticos,
 como almacenamiento de datos en la nube,
 descargas compartidas, correo, alojamiento,
-television y radio en streaming,
+televisión y radio en streaming,
 mediateca...
 Unos servicios que al ser internos
 funcionan a alta velocidad.
@@ -66,7 +69,7 @@ funcionan a alta velocidad.
 Se conecta el edificio a otros cercanos con una antena WiFi en el tejado.
 Si hay mas de una vivienda en el edificio,
 se interponen equipos de seguridad (firewall) y distribución (switches).
-Desde los equipos de distribución se desplega cable de datos hasta cada vivienda.
+Desde los equipos de distribución se despliega cable de datos hasta cada vivienda.
 Allí se deja un aplique de red en la pared
 y un adaptador al que conectar el teléfono.
 
@@ -82,19 +85,6 @@ que el nuevo vecino pague a los otros conectados
 la parte proporcional que le toca de la instalación común
 más los intereses legales.
 
-
-## ¿En qué webs puedo encontrar más información?
-
-- GuifiBaix:
-	`http://guifibaix.coop`
-- Guifi.net:
-	`http://guifi.net`
-- Campaña de desconexión IBEX-35:
-	`http://desconexionibex35.org`
-- Associació Gats:
-	`http://gats.cat`
-
-Se puede contactar por correo electrónico en <contacte@guifibaix.coop>
 
 # Servicios
 
@@ -118,7 +108,7 @@ para que compense añadir un acceso ADSL cada 5 vecinos.
 También hay un fondo de caudal proporcionado de forma altruista
 por voluntarios e incluso entidades
 que no usan su acceso la mayor parte del tiempo:
-associaciones de vecinos, sindicatos...
+asociaciones de vecinos, sindicatos...
 
 Dependiendo aún de estos accesos,
 la desconexión del oligopolio no es total todavía.
@@ -129,14 +119,13 @@ o cuando dispongamos de canales de salida mayorista propios.
 
 ## ¿Cómo funciona el teléfono fijo?
 
-\figurecolumn{figura-telefoniaip}
-
 El teléfono llega canalizado vía Internet;
 mediante un sistema que se llama *Telefonía IP*.
 Es un servicio que ofrecen terceras empresas y que nosotros comercializamos en su nombre.
-Las llamadas son muy economicas, es el sistema que usan en los locutorios.
+Las llamadas son muy económicas, es el sistema que usan en los locutorios.
 Y puedes conservar el número actual pidiendo portabilidad.
 
+\figurecolumn{figura-telefoniaip}
 
 ## ¿Con qué aparato llamo?
 
@@ -146,18 +135,24 @@ Pero no es necesario.
 GuifiBaix proporciona con la instalación un **adaptador**
 de manera que puedes reutilizar cualquier aparato telefónico que ya tengas en casa.
 
-También se pueden recibir y hacer llamadas con **aplicaciones gratuitas** como LinPhone,
-tanto al **ordenador** (Linux, Windows, Mac) como al **móvil** (Android o IPhone).
+También puedes usar **aplicaciones gratuitas**, como LinPhone,
+tanto para **ordenador** (Linux, Windows, Mac) como para **móvil** (Android o IPhone).
+Estas aplicaciones **requieren acceso a Internet**, por ejemplo, vía WiFi o 3G.
+No hace falta que sea Guifi.net.
+
+De hecho, si tienes acceso a Internet en el móvil o en el ordenador,
+aunque no sea de Guifi.net puedes llamar y recibir
 De hecho, puedes utilizar tu número de Telefonía IP,
 con las mismas tarifas, desde cualquier lugar 
 **donde tengas acceso a Internet**.
 
 Esto no quiere decir que puedas substituir tu servicio de móvil.
-Solo funciona si tienes conectividad a Internet.
-
+Sólo funciona si tienes conectividad a Internet.
 
 
 ## ¿Qué modalidades hay de telefonia IP?
+
+\figurefullwidth{tabla-preciostelefoniaip2.pdf}
 
 Todos los proveedores dan la modalidad más barata
 que consiste en no tener número propio,
@@ -172,14 +167,9 @@ Si además quieres **conservar de tu antiguo número**,
 algunos proveedores la dan portabilidad gratis,
 y otros cobran la gestión.
 
-	Empresa   Portab    Alta    Mes     Fijos    Móviles
-	                  Número Número
-	-------- ------- ------- ------ ---------  ---------
-	Adam         15€      2€     2€  1,4¢/min   5,0¢/min
-	Anescu
 
-**Las llamadas entre telefonos IP son gratuitas**
-y las llamadas al extrangero suelen ser más baratas que las nacionales.
+**Las llamadas entre teléfonos IP son gratuitas**
+y las llamadas al extranjero suelen ser más baratas que las nacionales.
 Pregúntanos por el país concreto o consúltalo en la web
 del proveedor que elijas.
 
@@ -208,7 +198,7 @@ que en nuestra zona suelen ir por debajo de 30Mb de bajada
 y apenas 1Mb de subida.
 
 
-# Instalación y acuerdos comunitarios
+# Instalación y comunidad
 
 
 ## ¿Dónde se pondrán los puntos de red?
@@ -240,7 +230,7 @@ que tratando bien a sus usuarios.
 
 ## ¿Qué tiene que aprobar la comunidad?
 
-Como és un servicio básico,
+Como es un servicio básico,
 su instalación no requiere aprobación,
 sólo comunicación al presidente.
 Sin embargo, hay algunas cosas que conviene
@@ -263,18 +253,32 @@ si, por ejemplo, le saltasen los plomos en ausencia.
 El consumo máximo de los equipos no supera dos bombillas de 60W.
 
 
+## ¿Qué otras cosas habría que concretar?
+
+En resumen:
+
+- ¿Quién está interesado en ponérselo y quién no?
+- ¿Os parece bien gestionar los pagos mediante la comunidad, pagando sólo los interesados?
+- ¿Os parece bien que la luz se cogiera de la comunidad (<120W)?
+- ¿Dónde os va bién el punto de conexión a cada vertical?
+- ¿Queréis telefonía fija?
+  ¿Queréis número propio o con una extensión bastaría?
+  ¿Mantendríais el número actual?
+- ¿Qué ADSL's se compartiría? ¿Cómo se reparte el descuento?
+
+
 # Casos concretos
 
-## ¿Y si no quiero teléfono fijo, solo internet?
+## ¿Y si no quiero teléfono fijo, sólo internet?
 
-Pues te ahorras el adaptador y los cargos de telefonia IP.
+Pues te ahorras el adaptador y los cargos de telefonía IP.
 
 
-## Y si sólo uso teléfono, ¿vale la pena?
+## ¿Vale la pena si sólo uso teléfono?
 
 Si sois muchos vecinos para repartir gastos comunes,
 o estás pagando bastante pese a no tener ADSL,
-es posible que todavía salga rentable.
+es posible que todavía sea rentable.
 Depende del caso, háblalo con nosotros.
 
 
@@ -306,72 +310,94 @@ Las personas que no puedan dar de baja su línea
 son candidatos perfectos para ser los que aportan su acceso.
 De esta manera, ahorran dinero y ayudan al resto de vecinos.
 
-## ¿Qué pasa con las personas que tienen teleasistencia (el botón rojo)?
+## ¿Qué pasa con las personas que tienen tele-asistencia (el botón rojo)?
 
-No se pueden dar de baja esas lineas para ofrecerlo mediante Telefonía IP.
+Por precaución, no podemos substituir esas línea por telefonía IP.
 Habría que instalar equipos de respaldo para asegurar el servicio.
 
-Así que es otro caso más en el que no se puede dar de baja la línea,
-pero que sí se puede conectar a Guifi.net para compartir su acceso
-y repartir costes,
-ya que el uso del ADSL no interfiere con la teleasistencia.
+Pero sí **se puede conectar esa línea para aportar el ADSL**,
+pues ello no interfiere con la tele-asistencia y 
+ayudaría a compartir costes de la línea existente.
 
 
 # Dudas comunes
 
+<!--
+## ¿Las ondas de las antenas son ionizantes?
+
+No. Las ondas ionizantes, las que causan cáncer con poca exposición,
+son las de frecuencias bastante más altas que la luz visible:
+ultravioleta, rayos-X, rayos gamma...
+Pero las ondas WiFi, igual que las ondas de radio, televisión o telefonía móvil,
+son de frecuencias mucho más bajas que la luz, y por tanto no ionizantes.
+
+
+## ¿Tienen peligro las ondas no-ionizantes?
+
+Las ondas no ionizantes son peligrosas cuando la potencia es muy alta,
+y se está muy cerca durante mucho tiempo.
+Por ejemplo, antiguamente los operadores de grandes radares
+trabajaban muy cerca de estos sin proteción y tenían problemas de salud.
+
+El efecto a largo plazo de bajas potencias es incierto,
+porque es difícil de hacer estudios a tan largo plazo
+que descarte estadísticamente otras causas (plásticos, químicos...).
+
+Sin embargo, como no se sabe, **GuifiBaix adopta el principio de precaución**
+minimizando los efectos, esto es, minimizando la exposición de las personas.
+-->
 
 ## ¿Como afectan las antenas a la salud?
 
-Cuando se colocó la antena que conectaba Mataro con Barcelona, mucho más potente que las que ponemos en las casas, se llamó al ingeniero de la asociación contra las antenas de telefonía de Mataró y certificó que debajo de la antena no tenía un efecto apreciable en las medidas..
+En la instalación que se hizo de la antena que conectaba Mataró con Barcelona,
+que es mucho más potente que las que ponemos en las casas,
+el mismo ingeniero de la asociación contra las antenas de telefonía de Mataró
+certificó que el efecto de la antena Guifi.net en las medidas debajo de ésta era despreciable
+y por tanto inocuo para la salud.
 
 Las antenas que ponemos en los tejados emiten una décima parte de lo que emite el móvil que llevas en el bolsillo.
 Si un móvil puede emitir desde un sótano en todas direcciones y atravesar paredes.
-Las antenas de Guifi.net dejan de recibir señal si hay un arbol por enmedio.
+Las antenas de Guifi.net dejan de recibir señal si hay un árbol por en medio.
 Además no emiten en todas las direcciones solo 60º al frente (10º en altura) y un poco para atras.
 
-Aun así, como no se ha estudiado suficientemente el efecto a largo plazo en la salud, tanto de móviles como de antenas wifi, nos curamos en salud.
-Siempre usamos una potencia muy inferior a la máxima permitida, ponemos las antenas lo más alto posible y las orientamos con cuidado de no cruzar cerca ninguna vivienda.
+Aun así, como no se ha estudiado suficientemente el efecto a largo plazo en la salud, 
+tanto de móviles como de antenas wifi, adoptamos el principio de precaución.
+Siempre usamos una potencia muy inferior a la máxima permitida,
+ponemos las antenas lo más alto posible 
+y las orientamos con cuidado de no cruzar cerca ninguna vivienda.
 Dentro de las viviendas aconsejamos distribuir la red con PLC o cableado en vez de Wi-Fi.
 
 ## ¿Es legal compartir los ADSL's?
 
-Según la propia Comision del Mercado de Telecomunicaciones, es legal que una comunidad de vecinos compartan gastos de internet y teléfono.
-GuifiBaix hace la instalación y lleva el manenimiento, pero sois los vecinos los que compartís Internet de acuerdo con esa premisa.
+Según la propia Comisión del Mercado de Telecomunicaciones, 
+es legal que una comunidad de vecinos compartan gastos de internet y teléfono.
+GuifiBaix hace la instalación y lleva el mantenimiento, 
+pero sois los vecinos los que compartís Internet de acuerdo con esa premisa.
 
 
 ## ¿Teneis los permisos de la CMT?
 
-La Fundacion Guifi.net está registrada como operador de telecomunicaciones, y eso nos cubre mientras lo que hagamos sea solo extender la red.
+La Fundacion Guifi.net está registrada como operador de telecomunicaciones,
+y eso nos cubre para extender la red Guifi.net que es lo que hacemos de momento.
 
-Algunos de los servicios que planteamos a futuro si pueden requerir que nos registremos como GuifiBaix, pero solo entonces lo haremos.
+## ¿Hace falta licencia para las antenas?
 
-
-## ¿Hace falta licencia para emitir?
-
-Las antenas están limitadas a las bandas y potencias establecidas por ley para comunicar redes WiFi.
+Las antenas están limitadas a las bandas y potencias 
+establecidas por ley para comunicar redes WiFi.
 No hace falta ninguna licencia especial para ello.
 
 
-## Cuestiones que nos gustaría resolver en la reunión:
+## ¿Dónde puedo encontrar más información?
 
-¿Quién está interesado en ponérselo?
+- GuifiBaix:
+	`http://guifibaix.coop`
+- Guifi.net:
+	`http://guifi.net`
+- Campaña de desconexión IBEX-35:
+	`http://desconexionibex35.org`
+- Associació Gats:
+	`http://gats.cat`
 
-¿Os parece bien gestionar los pagos mediante la comunidad, pagando sólo los interesados?
-
-¿Os parece bien que la luz se cogiera de la comunidad (<120W)?
-
-¿Os va bién el sitio propuesto para el punto de conexión?
-
-¿Qué opción cogeríais para el teléfono? ¿Mantendríais el número? ¿Necesitáis número propio?
-
-¿Cómo pagamos el ADSL compartido a la gente que lo ponga?
-
+Se puede contactar por correo electrónico en <contacte@guifibaix.coop>
 
 
-Además, se aprovecha la reunión
-en la que hay que aprovar estos puntos
-para invitar a otros vecinos a conectarse,
-pues, si hay más vecinos, más se repartiran los costes comunes
-de mantenimiento y instalación.
-
-# the end
