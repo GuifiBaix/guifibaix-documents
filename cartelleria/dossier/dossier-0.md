@@ -354,15 +354,15 @@ No hace falta ninguna licencia especial para ello.
 
 ## Cuestiones que nos gustaría resolver en la reunión:
 
-¿Quien está interesado en ponérselo?
+¿Quién está interesado en ponérselo?
 
-¿Os parece bien gestionar los pagos mediante la comunidad, pagando solo los interesados?
+¿Os parece bien gestionar los pagos mediante la comunidad, pagando sólo los interesados?
 
 ¿Os parece bien que la luz se cogiera de la comunidad (<120W)?
 
 ¿Os va bién el sitio propuesto para el punto de conexión?
 
-¿Que opción cogeríais para el teléfono? ¿Mantendriais el número? ¿Necesitais número propio?
+¿Qué opción cogeríais para el teléfono? ¿Mantendríais el número? ¿Necesitáis número propio?
 
 ¿Cómo pagamos el ADSL compartido a la gente que lo ponga?
 
