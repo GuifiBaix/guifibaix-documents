@@ -4,8 +4,9 @@
 
 \figureright{logo-guifibaix.pdf}
 
-GuifiBaix es un proyecto de economía social cuyo objetivo es facilitar que los vecinos de la zona puedan salirse del oligopolio de las telecos, ahorrándoles dinero y empleando a personas de la zona.
-Para ello, usamos la red ciudadana *Guifi.net*.
+GuifiBaix es un proyecto de economía social cuyo objetivo es facilitar que los vecinos de la zona puedan compartir 
+sus conexiones internet mediante la red libre "Guifi.net". Ello a la vez, permite salirse del oligopolio de las 
+telecos, ahorrarse dinero y obtener un servicio a global a nivel local.
 
 El proyecto surge de la campaña  "Desconexion del IBEX-35" del 15M de Sant Joan Despí,
 que potencia alternativas a las grandes empresas,
