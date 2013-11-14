@@ -13,5 +13,5 @@ pandoc \
 	dossier-0.md \
 	--template default.latex -o dossier.pdf
 
-pdftk dossier.pdf background ../membrete-a4.pdf output dossier-final.pdf
+pdftk dossier.pdf background ../membrete-a4.pdf output dossier-final.pdf && mv dossier-final.pdf dossier.pdf
 

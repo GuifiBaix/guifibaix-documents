@@ -2,7 +2,7 @@
 
 ## ¿Qué es GuifiBaix?
 
-\figureright{logo-guifibaix.pdf}
+<!-- \figureright{logo-guifibaix.pdf} -->
 
 GuifiBaix es un proyecto de economía social que
 facilita que los vecinos que se conecten a la red ciudadana y libre "Guifi.net".
@@ -112,7 +112,7 @@ asociaciones de vecinos, sindicatos...
 
 Dependiendo aún de estos accesos,
 la desconexión del oligopolio no es total todavía.
-Pero la idea es progresivamente substituirlos
+Pero la idea es substituirlos progresivamente
 tan pronto lleguemos a zonas con fibra óptica
 o cuando dispongamos de canales de salida mayorista propios.
 
@@ -152,7 +152,7 @@ Sólo funciona si tienes conectividad a Internet.
 
 ## ¿Qué modalidades hay de telefonia IP?
 
-\figurefullwidth{tabla-preciostelefoniaip2.pdf}
+\figurefullwidth{tabla-preciostelefoniaip}
 
 Todos los proveedores dan la modalidad más barata
 que consiste en no tener número propio,

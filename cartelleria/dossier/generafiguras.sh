@@ -10,4 +10,6 @@ for a in \
 	inkscape $a -A $(basename $a .svg).pdf
 done
 
+libreoffice --headless --convert-to pdf tabla-preciostelefoniaip.odg
+pdfcrop tabla-preciostelefoniaip.pdf tabla-preciostelefoniaip.pdf
 
