@@ -147,12 +147,12 @@ GuifiBaix proporciona con la instalación un **adaptador**
 de manera que puedes reutilizar cualquier aparato telefónico que ya tengas en casa.
 
 También se pueden recibir y hacer llamadas con **aplicaciones gratuitas** como LinPhone,
-tanto al **ordenador** (Linux, Windows, Mac) como al **móbil** (Android o IPhone).
+tanto al **ordenador** (Linux, Windows, Mac) como al **móvil** (Android o IPhone).
 De hecho, puedes utilizar tu número de Telefonía IP,
 con las mismas tarifas, desde cualquier lugar 
 **donde tengas acceso a Internet**.
 
-Esto no quiere decir que puedas substituir tu servicio de móbil.
+Esto no quiere decir que puedas substituir tu servicio de móvil.
 Solo funciona si tienes conectividad a Internet.
 
 
@@ -172,7 +172,7 @@ Si además quieres **conservar de tu antiguo número**,
 algunos proveedores la dan portabilidad gratis,
 y otros cobran la gestión.
 
-	Empresa   Portab    Alta    Mes     Fijos    Móbiles
+	Empresa   Portab    Alta    Mes     Fijos    Móviles
 	                  Número Número
 	-------- ------- ------- ------ ---------  ---------
 	Adam         15€      2€     2€  1,4¢/min   5,0¢/min
@@ -278,13 +278,13 @@ es posible que todavía salga rentable.
 Depende del caso, háblalo con nosotros.
 
 
-## ¿Me puedo quitar también del móbil?
+## ¿Me puedo quitar también del móvil?
 
-No, no damos servicio de telefonía móbil.
-Si que puedes hacer y recibir llamadas de telefonía IP al móbil,
-pero ello requiere hacerlo con WiFi o tener una tarifa de datos en el móbil.
+No, no damos servicio de telefonía móvil.
+Si que puedes hacer y recibir llamadas de telefonía IP al móvil,
+pero ello requiere hacerlo con WiFi o tener una tarifa de datos en el móvil.
 
-Se está considerando la opción futura de establecernos como operador virtual móbil
+Se está considerando la opción futura de establecernos como operador virtual móvil
 o de llegar a un trato con alguno de ellos que tenga principios parecidos a los nuestros.
 
 
@@ -299,7 +299,7 @@ de repartir los descuentos al no compartirlo al 100%.
 Hay diversos motivos por los que a algunas personas
 no les conviene dejar su compañía actual.
 Por ejemplo, si tienen **permanencias** o si
-han **vinculado el móbil** al contrato
+han **vinculado el móvil** al contrato
 de fijo y separarlo no salga a cuenta.
 
 Las personas que no puedan dar de baja su línea
@@ -324,12 +324,12 @@ ya que el uso del ADSL no interfiere con la teleasistencia.
 
 Cuando se colocó la antena que conectaba Mataro con Barcelona, mucho más potente que las que ponemos en las casas, se llamó al ingeniero de la asociación contra las antenas de telefonía de Mataró y certificó que debajo de la antena no tenía un efecto apreciable en las medidas..
 
-Las antenas que ponemos en los tejados emiten una décima parte de lo que emite el móbil que llevas en el bolsillo.
-Si un móbil puede emitir desde un sotano en todas direcciones y atravesar paredes.
+Las antenas que ponemos en los tejados emiten una décima parte de lo que emite el móvil que llevas en el bolsillo.
+Si un móvil puede emitir desde un sotano en todas direcciones y atravesar paredes.
 Las antenas de Guifi.net dejan de recibir señal si hay un arbol por enmedio.
 Además no emiten en todas las direcciones solo 60º al frente (10º en altura) y un poco para atras.
 
-Aun así, como no se ha estudiado suficientemente el efecto a largo plazo en la salud, tanto de móbiles como de antenas wifi, nos curamos en salud.
+Aun así, como no se ha estudiado suficientemente el efecto a largo plazo en la salud, tanto de móviles como de antenas wifi, nos curamos en salud.
 Siempre usamos una potencia muy inferior a la máxima permitida, ponemos las antenas lo más alto posible y las orientamos con cuidado de no cruzar cerca ninguna vivienda.
 Dentro de las viviendas aconsejamos distribuir la red con PLC o cableado en vez de Wi-Fi.
 
