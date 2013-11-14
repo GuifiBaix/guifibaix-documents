@@ -272,8 +272,8 @@ Pues te ahorras el adaptador y los cargos de telefonia IP.
 
 ## Y si sólo uso teléfono, ¿vale la pena?
 
-Si soys muchos vecinos para repartir gastos comunes,
-o estas pagando bastante pese a no tener ADSL,
+Si sois muchos vecinos para repartir gastos comunes,
+o estás pagando bastante pese a no tener ADSL,
 es posible que todavía salga rentable.
 Depende del caso, háblalo con nosotros.
 
