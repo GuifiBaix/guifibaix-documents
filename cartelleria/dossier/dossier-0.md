@@ -325,7 +325,7 @@ ya que el uso del ADSL no interfiere con la teleasistencia.
 Cuando se colocó la antena que conectaba Mataro con Barcelona, mucho más potente que las que ponemos en las casas, se llamó al ingeniero de la asociación contra las antenas de telefonía de Mataró y certificó que debajo de la antena no tenía un efecto apreciable en las medidas..
 
 Las antenas que ponemos en los tejados emiten una décima parte de lo que emite el móvil que llevas en el bolsillo.
-Si un móvil puede emitir desde un sotano en todas direcciones y atravesar paredes.
+Si un móvil puede emitir desde un sótano en todas direcciones y atravesar paredes.
 Las antenas de Guifi.net dejan de recibir señal si hay un arbol por enmedio.
 Además no emiten en todas las direcciones solo 60º al frente (10º en altura) y un poco para atras.
 
