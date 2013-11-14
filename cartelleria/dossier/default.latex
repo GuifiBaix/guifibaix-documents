@@ -22,6 +22,15 @@
 	\includegraphics[width=\linewidth]{#1}
 }
 
+\newcommand{\figurefullwidth}[2]{
+\begin{figure*}
+\setlength{\intextsep}{5pt}\setlength{\columnsep}{12pt}
+	\includegraphics[width=\linewidth]{#1}
+\end{figure*}
+}
+
+
+
 \setlength{\columnsep}{1cm}
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
