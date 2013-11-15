@@ -88,10 +88,10 @@ más los intereses legales.
 
 # Servicios
 
-## ¿De dónde sale internet?
+## ¿De dónde sale Internet?
 
 GuifiBaix **no es el proveedor de Internet**.
-Internet sale de los accesos a internet (ADSL's, fibras ópticas...)
+Internet sale de los accesos a Internet (ADSL's, fibras ópticas...)
 que **comparten los vecinos de cada edificio entre ellos**.
 
 Todo acceso compartido, se suma al caudal disponible.
@@ -190,7 +190,7 @@ descargas P2P compartidas, email, mediateca...
 ## ¿Qué ventajas tiene un servicio que esté en Guifi.net sobre otro en Internet?
 
 Cualquier transferencia de datos que hagas entre nodos de Guifi.net
-y no tenga que salir a internet
+y no tenga que salir a Internet
 va a altas velocidades (100M/1G simétricos).
 Eso hace que los servicios internos vayan mucho más rápidos
 que aquellos que requieren salir a Internet por un ADSL
@@ -269,7 +269,7 @@ En resumen:
 
 # Casos concretos
 
-## ¿Y si no quiero teléfono fijo, sólo internet?
+## ¿Y si no quiero teléfono fijo, sólo Internet?
 
 Pues te ahorras el adaptador y los cargos de telefonía IP.
 
@@ -370,7 +370,7 @@ Dentro de las viviendas aconsejamos distribuir la red con PLC o cableado en vez 
 ## ¿Es legal compartir los ADSL's?
 
 Según la propia Comisión del Mercado de Telecomunicaciones, 
-es legal que una comunidad de vecinos compartan gastos de internet y teléfono.
+es legal que una comunidad de vecinos compartan gastos de Internet y teléfono.
 GuifiBaix hace la instalación y lleva el mantenimiento, 
 pero sois los vecinos los que compartís Internet de acuerdo con esa premisa.
 
