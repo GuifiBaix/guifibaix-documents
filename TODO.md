@@ -1,27 +1,20 @@
 # Tareas semanales
 
-- Documento de propuesta de presupuesto para Catalunya
-- Enviar propuesta de presupuesto para Catalunya
-- Dossier generico
-	- ~~Portarlo a md~~ [David]
-	- Insertar las imagenes [David]
-		- ~~Malla~~
-		- ~~Logo~~
-		- ~~Telefonia IP~~
-		- Diagrama polar
-	- ~~Fusionar los documentos~~
-	- Acabarlo
-	- Enviar dossier + propuesta de presupuesto a Gestora de Gelabert
 - Revisar presupuesto Domenech (David)
 - Burchar al presidente de Verdaguer
-- ~~Reenviar cartell de l'Ateneu Cornella con fecha buena~~
-- Victor con Josep Maria este fin de semana
+- Instalar NanoBridge de Josep Maria
 - SCC-JoanMaragall
-	- ~~Quedar para pensar la instalacion [sabado]~~
-	- ~~Preguntar a la gente si los descuentos del presupuesto estan bien~~ [esperando respuesta]
-	- ~~Preguntar a Elisenda si quiere numero o si quiere adaptador~~ [Y tambien portabilidad]
+	- Pre-configuración de equipos
+	- Montaje de la placa
 	- Prueba de conectividad con NB
 	- Mirar donde enganchar los vientos
+- Telefonia IP
+	- **Adam: Pedir saldo para hacer las pruebas** [David, esperando respuesta]
+	- Adam: Prueba llamada
+	- Adam: Prueba recepción
+	- Adam: Prueba multiples receptores
+	- Adam: Prueba diferentes transportes
+	- Adam: Prueba calidad con tráfico
 - Clientes potenciales
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
@@ -31,34 +24,49 @@
 	- Comprar cajas
 	- Comprar enchufes
 	- Manguera de luz (cuando estemos listos para una instalación)
+
+## Hecho semana 2013-11-15
+
+- ~~Documento de propuesta de presupuesto para Catalunya~~
+- ~~Enviar propuesta de presupuesto para Catalunya~~
+- ~~Dossier generico~~
+	- ~~Portarlo a md~~ [David]
+	- ~~Insertar las imagenes~~ [David]
+		- ~~Malla~~
+		- ~~Logo~~
+		- ~~Telefonia IP~~
+		- ~~Diagrama polar~~ Al final no
+	- ~~Fusionar los documentos~~
+	- ~~Tabla telefonia IP~~
+	- ~~Acabarlo~~
+	- ~~Enviar dossier + propuesta de presupuesto a Gestora de Gelabert~~
+- ~~Reenviar cartell de l'Ateneu Cornella con fecha buena~~
+- SCC-JoanMaragall
+	- ~~Quedar para pensar la instalacion [sabado]~~
+	- ~~Preguntar a la gente si los descuentos del presupuesto estan bien~~ [esperando respuesta]
+	- ~~Preguntar a Elisenda si quiere numero o si quiere adaptador~~ [Y tambien portabilidad]
+	- ~~Visita para medir~~
 - Telefonia IP
 	- ~~Preguntar a Anescu encriptacion TSL~~ Nasti, no tienen
 	- ~~Adam: Insistir cuenta de prueba (Enviada peticion)~~
 	- ~~Adam: Crear cuenta~~
-	- **Adam: Pedir saldo para hacer las pruebas** [David, esperando respuesta]
-	- Adam: Prueba llamada
-	- Adam: Prueba recepción
-	- Adam: Prueba multiples receptores
-	- Adam: Prueba diferentes transportes
-	- Adam: Prueba calidad con tráfico
-- Investigar porque no se llega a las antenas a traves del microtik
+- ~~Investigar porque no se llega a las antenas a traves del microtik~~ Ya no pasa. Misterio.
 - ~~Enviar GPS de Gaspar~~
 - Compra herramientas [lunes Aitor, Raul]
-	- 2 EPIS
-	- Escaleras (Aitor)
+	- ~~2 EPIS~~
+	- ~~Escaleras (Aitor)~~
+	- ~~Guia 220~~
+	- ~~Cinta aislante~~
+	- ~~Espirros 8~~
+	- ~~Soportes~~
+	- ~~Tacos de Bridas~~
+	- ~~Alcallatas~~
 	- Punta fina
-	- Guia 220
-	- Cinta aislante
 	- Preguntar cajas
-	- Espirros 8
-	- Soportes
-	- Tacos de Bridas
-	- Alcallatas
-- Pensar posible instalacion Petanca
+- ~~Pensar posible instalacion Petanca~~
 	- ~~Metros de cable~~ [14m desde la antena, 20m desde la AAVV]
 	- ~~Horas de instalacion~~ [3 entre 2]
-- Hablar con la Associación Petanca [jueves david]
-
+- ~~Hablar con la Associación Petanca~~ [jueves david] receptivos, presupuesto 3h
 
 
 # Tareas pendientes
