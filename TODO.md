@@ -1,13 +1,77 @@
 # Tareas semanales
 
+- Enlace de Santa Coloma
+	- Preconfiguracion
+	- Montaje de placa [viernes tarde, victor, david]
+	- Conseguir llave de carraca [Raul]
+	- Preguntar a Victor tamaño espirros para saber que llave fija
+	- Compra herramientas [viernes tarde Raul]
+		- Tacos de Bridas
+		- Tubo de silicona
+		- Arandelas para fijar la placa
+		- Cinta aislante blanca
+		- 12 Capuchas de cable RJ45 
+	- Recoger material de Aitor [RaulS]
+	- ~~Pasar telefono de Gaspar~~ [Aitor]
+- Carteleo
+	- Cornella Lunes 11-14h [david, aitor]
+	- Las Planas, Lunes 16h Padro [RaulS]
+- Clientes potenciales
+	- Quedar RaulS y David para dudas comerciales
+	- Mailing a los clientes potenciales [RaulS]
+	- Llamar a los que contesten [RaulS con ayudas del resto]
+	- Hacer una lista compartida de estado de clientes
+	- Carles Marín: Contactado por facebook esperando respuesta [David]
+- Emisión Factura/Recibo
+	- Hablar con Gats: Numeración facturas y recibos [David]
+	- Hablar con Gats: Domiciliación del pago [David]
+	- Hablar con Gats: Tenemos que usar su plantilla o podemos coorporativizarla [David]
+	- Plantilla instalación
+	- Plantilla cuota
+	- Emitir la de Santa Coloma
 - Revisar presupuesto Domenech (David)
 - Burchar al presidente de Verdaguer
-- Instalar NanoBridge de Josep Maria
-- SCC-JoanMaragall
-	- Pre-configuración de equipos
-	- Montaje de la placa
+- Recoger convenio [Raul Lunes mañana]
+- Firmar convenio
+- Devolver copia de convenio a Gats
+- Tesorería
+	- Llamar a Salva por tema contratos [David]
+	- Llamar a Salva por tema cuenta [David]
+		- Porque nueva cuenta y no en guisona
+		- Que gastos tiene (domiciliación...)
+	- Llamar a Salva burchar por convenio
+	- Recoger facturas de Victor
+	- Recoger facturas de Aitor
+	- Hacer base de datos de facturas (y quien las ha pagado)
+	- Recoger ingresos
+	- Recoger material no pagado que hay que pagar
+- Preparar la presentación
+- Preparar material
+	- Folletos
+	- Copias del dossier
+	- Hojas para pedir pruebas de conectividad
+- Pedir a CGT hacer una prueba de conectividad [Aitor cuando vayamos a encartelar]
+- Prueba de conectividad en CNT
+- Compra herramientas
+	- Escaleras (Aitor)
+- Resolver dudas comerciales con RaulS (martes tarde)
+- Enlace santa coloma
+	- Instalar NanoBridge de Josep Maria
 	- Prueba de conectividad con NB
-	- Mirar donde enganchar los vientos
+- Estudiar como meter los cacharros en las cajas estancas
+	- Encontrar una caja buena y barata
+	- Comprar cajas
+	- Comprar enchufes
+	- Manguera de luz (cuando estemos listos para una instalación)
+- Preguntar a los de Arduino si podemos guardar bicis dentro
+- Especificaciones del cable
+
+
+# Tareas pendientes
+
+- Maquetar el dossier
+- Hacer copias dossier maquetado
+- Sincronizar dosier y info en la web catalan/castellano
 - Telefonia IP
 	- **Adam: Pedir saldo para hacer las pruebas** [David, esperando respuesta]
 	- Adam: Prueba llamada
@@ -15,15 +79,61 @@
 	- Adam: Prueba multiples receptores
 	- Adam: Prueba diferentes transportes
 	- Adam: Prueba calidad con tráfico
-- Clientes potenciales
-	- Mailing a los clientes potenciales [RaulS]
-	- Llamar a los que contesten [RaulS con ayudas del resto]
-	- Carles Marín: Contactado por facebook esperando respuesta [David]
-- Estudiar como meter los cacharros en las cajas estancas
-	- Encontrar una caja buena y barata
-	- Comprar cajas
-	- Comprar enchufes
-	- Manguera de luz (cuando estemos listos para una instalación)
+- Instarse y probar el ZELLO para Android
+- Mirar cable mas resistente
+- Centralita
+	- Mapear ids GuifiBaix a ids Anescu/Adam
+- Instalacion prototipo David
+	- Comprar material
+	- Instalar
+- Proyectos potenciales
+	- Reunión Verdaguer (pendiente de convocatoria)
+	- Associación Petanca
+	- Reorientar antena AAVV el Pi
+- Telefonia IP
+	- Telefonia IP: Calidad de sonido con tráfico
+	- Telefonia IP: Analizar ancho de banda consumido
+	- Telefonia IP: Probar video-llamadas
+	- Telefonia IP: Pruebas remotas de telefonía IP
+- Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
+- Compras:
+	- Cablematic
+		- Fundas de conectores (diversos colores)
+		- 1 adaptador de RJ 1 macho 2 hembras para probar como funciona
+		- Bobina de datos
+			- Comprobar si hay cable con cubierta más resistente que no suba mucho precio
+	- Otros
+		- Manguera de luz (cuando estemos listos para una instalación)
+		- Cajas estancas
+		- Escaleras (Aitor)
+- Web
+	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
+	- Web: Firefox no carga las imagenes hasta que le das a recargar
+- Desarrollo Software -- David/Victor
+	- Mock-up de la API JSON del MlDonkey
+	- Explorar si podemos desarrollarla nosotros mismos (esta en Ocaml)
+		- Contactar con los desarrolladores
+		- Desarrollarla
+	- Programa para obtener exclusividad de conexión
+- Desarrollo redes [Victor/David]
+	- Investigar gestión de varios gateways en un edificio
+	- Investigar como responde el sistema a desconexiones de gateways
+	- Nonitorizaje de gateways disponibles
+	- Establecer y documentar configuraciones estandars:
+		- Montar el git
+		- Sin ADSL compartido sin microtik (por defecto?)
+		- Sin ADSL compartido con microtik
+		- Compartir ADSL sin microtik
+		- Compartir ADSL con microtik
+		- Compartir varios ADSL con microtik
+- Desarrollo servidores [Victor/David]
+	- Servidor nuevo
+		- Pendiente de que nos lo traigan [Victor]
+		- Ponerlo en marcha
+		- Migrar los servidores
+- Encargar targetas de visita
+- Conseguir un número de Adam para recibir llamadas de GuifiBaix.
+
 
 ## Hecho semana 2013-11-15
 
@@ -54,88 +164,15 @@
 - ~~Enviar GPS de Gaspar~~
 - Compra herramientas [lunes Aitor, Raul]
 	- ~~2 EPIS~~
-	- ~~Escaleras (Aitor)~~
 	- ~~Guia 220~~
 	- ~~Cinta aislante~~
 	- ~~Espirros 8~~
 	- ~~Soportes~~
-	- ~~Tacos de Bridas~~
 	- ~~Alcallatas~~
-	- Punta fina
-	- Preguntar cajas
 - ~~Pensar posible instalacion Petanca~~
 	- ~~Metros de cable~~ [14m desde la antena, 20m desde la AAVV]
 	- ~~Horas de instalacion~~ [3 entre 2]
 - ~~Hablar con la Associación Petanca~~ [jueves david] receptivos, presupuesto 3h
-
-
-# Tareas pendientes
-
-- Encartelar para charla del ateneu [18 Nov]
-- Enlace de Santa Coloma
-	- Poner Nanobridge de Josep Maria
-	- Configurar NanoStations que empalmaran Cesalpina-Elisenda con Cesalpina-David
-	- Instalar antenas (NB+NS) de Cesalpina-Elisenda apuntando a Josep Maria
-	- Instalar antenas (NB+NS) de Cesalpina-David apuntando a Hospitalet
-	- Resolver la domiciliación de cuotas para Elisenda
-	- Viabilidad de contectar Cesalpina-David a Torrellas
-- Instarse y probar el ZELLO para Android
-- Pendiente con Víctor
-	- Mirar cable mas resistente
-	- Burxar al Josep María. Pendiente de quedar el día para el montaje
-- Centralita
-	- Mapear ids GuifiBaix a ids Anescu/Adam
-- Proyectos potenciales
-	- Reunión Verdaguer (pendiente de convocatoria)
-	- Associación Petanca
-	- Reorientar antena AAVV el Pi
-- Instalacion prototipo David
-	- Comprar material
-	- Instalar
-- Telefonia IP
-	- Telefonia IP: Calidad de sonido con tráfico
-	- Telefonia IP: Analizar ancho de banda consumido
-	- Telefonia IP: Probar video-llamadas
-	- Telefonia IP: Pruebas remotas de telefonía IP
-- Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
-- Compras:
-	- Cablematic
-		- Fundas de conectores (diversos colores)
-		- 1 adaptador de RJ 1 macho 2 hembras para probar como funciona
-		- Bobina de datos
-			- Comprobar si hay cable con cubierta más resistente que no suba mucho precio
-	- Otros
-		- Manguera de luz (cuando estemos listos para una instalación)
-		- Cajas estancas
-		- EPIS
-		- Escaleras (Aitor)
-- Web
-	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
-	- Web: Firefox no carga las imagenes hasta que le das a recargar
-- Desarrollo Software -- David/Victor
-	- Mock-up de la API JSON del MlDonkey
-	- Explorar si podemos desarrollarla nosotros mismos (esta en Ocaml)
-		- Contactar con los desarrolladores
-		- Desarrollarla
-	- Programa para obtener exclusividad de conexión
-- Desarrollo redes [Victor/David]
-	- Investigar gestión de varios gateways en un edificio
-	- Investigar como responde el sistema a desconexiones de gateways
-	- Nonitorizaje de gateways disponibles
-	- Establecer y documentar configuraciones estandars:
-		- Montar el git
-		- Sin ADSL compartido sin microtik (por defecto?)
-		- Sin ADSL compartido con microtik
-		- Compartir ADSL sin microtik
-		- Compartir ADSL con microtik
-		- Compartir varios ADSL con microtik
-- Desarrollo servidores [Victor/David]
-	- Servidor nuevo
-		- Pendiente de que nos lo traigan [Victor]
-		- Ponerlo en marcha
-		- Migrar los servidores
-- Encargar targetas de visita
-- Conseguir un número de Adam para recibir llamadas de GuifiBaix.
 
 
 # Plan de empresa
