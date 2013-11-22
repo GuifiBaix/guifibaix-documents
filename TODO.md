@@ -1,18 +1,19 @@
 # Tareas semanales
 
 - Enlace de Santa Coloma
-	- Preconfiguracion
-	- Montaje de placa [viernes tarde, victor, david]
-	- Conseguir llave de carraca [Raul]
-	- Preguntar a Victor tamaño espirros para saber que llave fija
+	- ~~Preconfiguracion~~
+	- ~~Montaje de placa~~ [viernes tarde, victor, david]
+	- ~~Conseguir llave de carraca~~ [Raul]
+	- ~~Preguntar a Victor tamaño espirros para saber que llave fija~~
 	- Compra herramientas [viernes tarde Raul]
-		- Tacos de Bridas
-		- Tubo de silicona
-		- Arandelas para fijar la placa
+		- ~~Tacos de Bridas~~
+		- ~~Tubo de silicona~~
+		- ~~Arandelas para fijar la placa~~
 		- Cinta aislante blanca
 		- 12 Capuchas de cable RJ45 
-	- Recoger material de Aitor [RaulS]
+	- ~~Recoger material de Aitor~~ [RaulS]
 	- ~~Pasar telefono de Gaspar~~ [Aitor]
+	- Hacer la instalación
 - Carteleo
 	- Cornella Lunes 11-14h [david, aitor]
 	- Las Planas, Lunes 16h Padro [RaulS]
@@ -21,11 +22,17 @@
 	- Mailing a los clientes potenciales [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
-	- Carles Marín: Contactado por facebook esperando respuesta [David]
-- Emisión Factura/Recibo
+	- Carles Marín: Contactado por facebook esperando respuesta, vendrá a la charla [David]
+- Desencallar temas con Gats
+	- ~~Llamar a Salva por tema contratos~~ [David]
+	- ~~Llamar a Salva por tema cuenta~~ [David]
+		- ~~Porque nueva cuenta y no en guisona~~
+		- ~~Que gastos tiene (domiciliación...)~~
+	- Llamar a Salva burchar por convenio
 	- Hablar con Gats: Numeración facturas y recibos [David]
 	- Hablar con Gats: Domiciliación del pago [David]
 	- Hablar con Gats: Tenemos que usar su plantilla o podemos coorporativizarla [David]
+- Emisión Factura/Recibo
 	- Plantilla instalación
 	- Plantilla cuota
 	- Emitir la de Santa Coloma
@@ -35,18 +42,13 @@
 - Firmar convenio
 - Devolver copia de convenio a Gats
 - Tesorería
-	- Llamar a Salva por tema contratos [David]
-	- Llamar a Salva por tema cuenta [David]
-		- Porque nueva cuenta y no en guisona
-		- Que gastos tiene (domiciliación...)
-	- Llamar a Salva burchar por convenio
 	- Recoger facturas de Victor
 	- Recoger facturas de Aitor
 	- Hacer base de datos de facturas (y quien las ha pagado)
 	- Recoger ingresos
 	- Recoger material no pagado que hay que pagar
-- Preparar la presentación
-- Preparar material
+- Charla Ateneu Cornellà
+	- Preparar la presentación
 	- Folletos
 	- Copias del dossier
 	- Hojas para pedir pruebas de conectividad
@@ -64,7 +66,7 @@
 	- Comprar enchufes
 	- Manguera de luz (cuando estemos listos para una instalación)
 - Preguntar a los de Arduino si podemos guardar bicis dentro
-- Especificaciones del cable
+- ~~Especificaciones del cable~~ Parece que los FTP son menos frágiles que los UTP pero depende de la marca.
 
 
 # Tareas pendientes
