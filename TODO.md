@@ -11,15 +11,16 @@
 		- ~~Arandelas para fijar la placa~~
 		- Cinta aislante blanca
 		- 12 Capuchas de cable RJ45 
+		- Comprar bridas blancas
 	- ~~Recoger material de Aitor~~ [RaulS]
 	- ~~Pasar telefono de Gaspar~~ [Aitor]
 	- Hacer la instalación
 - Carteleo
-	- Cornella Lunes 11-14h [david, aitor]
-	- Las Planas, Lunes 16h Padro [RaulS]
+	- ~~Cornella Lunes 11-14h~~ [david, aitor]
+	- ~~Las Planas, Lunes 16h Padro~~ [RaulS]
 - Clientes potenciales
 	- Quedar RaulS y David para dudas comerciales
-	- Mailing a los clientes potenciales [RaulS]
+	- ~~Mailing a los clientes potenciales~~ [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
 	- Carles Marín: Contactado por facebook esperando respuesta, vendrá a la charla [David]
@@ -28,17 +29,17 @@
 	- ~~Llamar a Salva por tema cuenta~~ [David]
 		- ~~Porque nueva cuenta y no en guisona~~
 		- ~~Que gastos tiene (domiciliación...)~~
-	- Llamar a Salva burchar por convenio
-	- Hablar con Gats: Numeración facturas y recibos [David]
+	- ~~Llamar a Salva burchar por convenio~~ Lo tiene Raúl B
+	- ~~Hablar con Gats: Numeración facturas y recibos~~ [David]
 	- Hablar con Gats: Domiciliación del pago [David]
 	- Hablar con Gats: Tenemos que usar su plantilla o podemos coorporativizarla [David]
 - Emisión Factura/Recibo
 	- Plantilla instalación
 	- Plantilla cuota
 	- Emitir la de Santa Coloma
-- Revisar presupuesto Domenech (David)
-- Burchar al presidente de Verdaguer
-- Recoger convenio [Raul Lunes mañana]
+- Revisar presupuesto Domenech (David) - se ha quedado lunes a las 4 Raúl y Aitor
+- Burchar al presidente de Verdaguer (David)
+- ~~Recoger convenio~~ [Raul Lunes mañana]
 - Firmar convenio
 - Devolver copia de convenio a Gats
 - Tesorería
@@ -52,28 +53,35 @@
 	- Folletos
 	- Copias del dossier
 	- Hojas para pedir pruebas de conectividad
-- Pedir a CGT hacer una prueba de conectividad [Aitor cuando vayamos a encartelar]
-- Prueba de conectividad en CNT
+- ~~Pedir a CGT hacer una prueba de conectividad~~ [Aitor cuando vayamos a encartelar]
+- ~~Prueba de conectividad en CNT~~
+- Quedan Aitor y Raúl B para hacer la prueba de conectividad entre CGT y CNT el lunes
 - Compra herramientas
-	- Escaleras (Aitor)
-- Resolver dudas comerciales con RaulS (martes tarde)
+	- ~~Escaleras~~ (Aitor)
+- Resolver dudas comerciales con RaulS 
 - Enlace santa coloma
 	- Instalar NanoBridge de Josep Maria
 	- Prueba de conectividad con NB
-- Estudiar como meter los cacharros en las cajas estancas
+- ~~Estudiar como meter los cacharros en las cajas estancas~~
 	- Encontrar una caja buena y barata
 	- Comprar cajas
 	- Comprar enchufes
 	- Manguera de luz (cuando estemos listos para una instalación)
-- Preguntar a los de Arduino si podemos guardar bicis dentro
+- ~~Preguntar a los de Arduino si podemos guardar bicis dentro~~
 - ~~Especificaciones del cable~~ Parece que los FTP son menos frágiles que los UTP pero depende de la marca.
 
 
 # Tareas pendientes
 
+- Acabar presupuesto Domenec
+- Enlace a Santa Coloma de Cervelló. Se ha quedado hoy viernes (Raúl B y Víctor) para finalizar la instalación.
+- ¿Qué falta en los presupuestos?
+    - Poner transporte (30€ 1 día, 20€ los siguientes - depende la distancia)
+    - Papeleo de contratos, seguros, ss...
+    - Licencias del ayuntamiento (7%)
 - Maquetar el dossier
 - Hacer copias dossier maquetado
-- Sincronizar dosier y info en la web catalan/castellano
+- Sincronizar dosier e info en la web catalan/castellano
 - Telefonia IP
 	- **Adam: Pedir saldo para hacer las pruebas** [David, esperando respuesta]
 	- Adam: Prueba llamada
@@ -107,7 +115,7 @@
 	- Otros
 		- Manguera de luz (cuando estemos listos para una instalación)
 		- Cajas estancas
-		- Escaleras (Aitor)
+		
 - Web
 	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
 	- Web: Firefox no carga las imagenes hasta que le das a recargar
