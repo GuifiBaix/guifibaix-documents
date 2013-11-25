@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="372.04724"
-   height="262.20471"
+   width="262.53662"
+   height="66.235291"
    id="svg4835"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 15">
+   sodipodi:docname="mercadocautivo.svg">
   <defs
      id="defs4837">
     <linearGradient
@@ -803,9 +803,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-515"
-     inkscape:cy="520"
+     inkscape:zoom="3.959798"
+     inkscape:cx="42.086726"
+     inkscape:cy="25.432783"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -813,7 +813,11 @@
      inkscape:window-height="995"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="4"
+     fit-margin-left="4"
+     fit-margin-right="4"
+     fit-margin-bottom="4" />
   <metadata
      id="metadata4840">
     <rdf:RDF>
@@ -822,7 +826,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -830,7 +834,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-790.15746)">
+     transform="translate(-54.445965,-890.67309)">
     <g
        style="display:inline"
        id="big_pipe"
