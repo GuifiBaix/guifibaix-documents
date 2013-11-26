@@ -1,38 +1,15 @@
 # Tareas semanales
 
-- Enlace de Santa Coloma
-	- ~~Preconfiguracion~~
-	- ~~Montaje de placa~~ [viernes tarde, victor, david]
-	- ~~Conseguir llave de carraca~~ [Raul]
-	- ~~Preguntar a Victor tamaño espirros para saber que llave fija~~
-	- Compra herramientas [viernes tarde Raul]
-		- ~~Tacos de Bridas~~
-		- ~~Tubo de silicona~~
-		- ~~Arandelas para fijar la placa~~
-		- Cinta aislante blanca
-		- 12 Capuchas de cable RJ45 
-		- Comprar bridas blancas
-	- ~~Recoger material de Aitor~~ [RaulS]
-	- ~~Pasar telefono de Gaspar~~ [Aitor]
-	- Hacer la instalación
-- Carteleo
-	- ~~Cornella Lunes 11-14h~~ [david, aitor]
-	- ~~Las Planas, Lunes 16h Padro~~ [RaulS]
+- Hablar con Gats: Domiciliación del pago [David]
+- ~~Hablar con Gats: Tenemos que usar su plantilla o podemos coorporativizarla~~ [Podemos cambiar el logo pero no los datos fiscales ni el formato]
+- ~~Finiquitar la presentación para usarla otras veces~~
+- 12 Capuchas de cable RJ45 
+- Comprar bridas blancas
 - Clientes potenciales
 	- Quedar RaulS y David para dudas comerciales
-	- ~~Mailing a los clientes potenciales~~ [RaulS]
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
 	- Carles Marín: Contactado por facebook esperando respuesta, vendrá a la charla [David]
-- Desencallar temas con Gats
-	- ~~Llamar a Salva por tema contratos~~ [David]
-	- ~~Llamar a Salva por tema cuenta~~ [David]
-		- ~~Porque nueva cuenta y no en guisona~~
-		- ~~Que gastos tiene (domiciliación...)~~
-	- ~~Llamar a Salva burchar por convenio~~ Lo tiene Raúl B
-	- ~~Hablar con Gats: Numeración facturas y recibos~~ [David]
-	- Hablar con Gats: Domiciliación del pago [David]
-	- Hablar con Gats: Tenemos que usar su plantilla o podemos coorporativizarla [David]
 - Emisión Factura/Recibo
 	- Plantilla instalación
 	- Plantilla cuota
@@ -43,32 +20,30 @@
 - Firmar convenio
 - Devolver copia de convenio a Gats
 - Tesorería
-	- Recoger facturas de Victor
+	- ~~Recoger facturas de Victor~~
 	- Recoger facturas de Aitor
 	- Hacer base de datos de facturas (y quien las ha pagado)
 	- Recoger ingresos
 	- Recoger material no pagado que hay que pagar
-- Charla Ateneu Cornellà
-	- Preparar la presentación
-	- Folletos
-	- Copias del dossier
-	- Hojas para pedir pruebas de conectividad
-- ~~Pedir a CGT hacer una prueba de conectividad~~ [Aitor cuando vayamos a encartelar]
 - ~~Prueba de conectividad en CNT~~
-- Quedan Aitor y Raúl B para hacer la prueba de conectividad entre CGT y CNT el lunes
-- Compra herramientas
-	- ~~Escaleras~~ (Aitor)
-- Resolver dudas comerciales con RaulS 
+- Conectividad entre CNT y CGT
+	- ~~Quedan Aitor y Raúl B para hacer la prueba de conectividad entre CGT y CNT el lunes~~
+	- CNT: Asegurar punto de luz para la prueba
+	- CGT: Hablar con los vecinos que son propietarios de los terrados
+	- Segundo intento y exito del enlace CGT-CNT
+	- CNT: Mediciones y plantear bajadas y alimentacion
+	- CGT: Mediciones y plantear bajadas y alimentacion
+	- Contactar con el chico que vino a la charla de Cornella que vive al lado
 - Enlace santa coloma
 	- Instalar NanoBridge de Josep Maria
 	- Prueba de conectividad con NB
+	- Llevar la factura y cobrar
+	- Tapar agujeros
 - ~~Estudiar como meter los cacharros en las cajas estancas~~
 	- Encontrar una caja buena y barata
 	- Comprar cajas
 	- Comprar enchufes
 	- Manguera de luz (cuando estemos listos para una instalación)
-- ~~Preguntar a los de Arduino si podemos guardar bicis dentro~~
-- ~~Especificaciones del cable~~ Parece que los FTP son menos frágiles que los UTP pero depende de la marca.
 
 
 # Tareas pendientes
@@ -144,6 +119,39 @@
 - Encargar targetas de visita
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
 
+## Hecho semana 2013-11-22
+
+- ~~Especificaciones del cable~~ Parece que los FTP son menos frágiles que los UTP pero depende de la marca.
+- ~~Pedir a CGT hacer una prueba de conectividad~~ [Aitor cuando vayamos a encartelar]
+- ~~Escaleras~~ (Aitor)
+- ~~Charla Ateneu Cornellà~~
+	- ~~Preparar la presentación~~
+	- ~~Folletos~~
+	- ~~Copias del dossier~~
+	- ~~Hojas para pedir pruebas de conectividad~~
+- ~~Enlace de Santa Coloma~~
+	- ~~Preconfiguracion~~
+	- ~~Montaje de placa~~ [viernes tarde, victor, david]
+	- ~~Conseguir llave de carraca~~ [Raul]
+	- ~~Preguntar a Victor tamaño espirros para saber que llave fija~~
+	- ~~Compra herramientas~~ [viernes tarde Raul]
+		- ~~Tacos de Bridas~~
+		- ~~Tubo de silicona~~
+		- ~~Arandelas para fijar la placa~~
+		- ~~Cinta aislante blanca~~
+	- ~~Recoger material de Aitor~~ [RaulS]
+	- ~~Pasar telefono de Gaspar~~ [Aitor]
+	- ~~Hacer la instalación~~
+- ~~Mailing a los clientes potenciales~~ [RaulS]
+- ~~Carteleo~~
+	- ~~Cornella Lunes 11-14h~~ [david, aitor]
+	- ~~Las Planas, Lunes 16h Padro~~ [RaulS]
+- ~~Llamar a Salva por tema contratos~~ [David]
+- ~~Llamar a Salva por tema cuenta~~ [David]
+	- ~~Porque nueva cuenta y no en guisona~~
+	- ~~Que gastos tiene (domiciliación...)~~
+- ~~Llamar a Salva burchar por convenio~~ Lo tiene Raúl B
+- ~~Hablar con Gats: Numeración facturas y recibos~~ [David]
 
 ## Hecho semana 2013-11-15
 
