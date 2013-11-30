@@ -1,69 +1,96 @@
 # Tareas semanales
 
-- Hablar con Gats: Domiciliación del pago [David]
-- ~~Hablar con Gats: Tenemos que usar su plantilla o podemos coorporativizarla~~ [Podemos cambiar el logo pero no los datos fiscales ni el formato]
-- ~~Finiquitar la presentación para usarla otras veces~~
-- 12 Capuchas de cable RJ45 
-- Comprar bridas blancas
-- Clientes potenciales
-	- Quedar RaulS y David para dudas comerciales
-	- Llamar a los que contesten [RaulS con ayudas del resto]
-	- Hacer una lista compartida de estado de clientes
-	- Carles Marín: Contactado por facebook esperando respuesta, vendrá a la charla [David]
-- Emisión Factura/Recibo
-	- Plantilla instalación
-	- Plantilla cuota
-	- Emitir la de Santa Coloma
-- Revisar presupuesto Domenech (David) - se ha quedado lunes a las 4 Raúl y Aitor
-- Burchar al presidente de Verdaguer (David)
-- ~~Recoger convenio~~ [Raul Lunes mañana]
-- Firmar convenio
-- Devolver copia de convenio a Gats
-- Tesorería
-	- ~~Recoger facturas de Victor~~
-	- Recoger facturas de Aitor
-	- Hacer base de datos de facturas (y quien las ha pagado)
-	- Recoger ingresos
-	- Recoger material no pagado que hay que pagar
-- ~~Prueba de conectividad en CNT~~
+- Recoger facturas de Aitor
+- Cosas a confirmar
+	- CGT / CNT
+	- Conectividad Marin
+	- Conectividad Losa's
+	- Elisenda
+- Quedar un dia con Marin [David]
+- Entrega de premios [RaulS+David]
+- Quedar con Gats [Raul]
+	- Burchar Gats para riesgos laborales
+	- Que se hace para la feria del pollo (que se hace, material, dias)
+	- Cooperativa obrera de viviendas
+	- Concretar un dia para subir a su terrado
+	- Pedir contacto con associaciones de vecinos del Prat
+	- Contrato de 3 horas a 20€ para Raul
+	- Que nos digan cuanto son los costes laborales aunque los pongan ellos para tenerlos en cuenta mas adelante.
+- Preguntar a CNT Prat que gente lo hace para contactar con ellos [Aitor]
 - Conectividad entre CNT y CGT
-	- ~~Quedan Aitor y Raúl B para hacer la prueba de conectividad entre CGT y CNT el lunes~~
+	- CNT: Que el presidente le comente al vecino del atico
 	- CNT: Asegurar punto de luz para la prueba
 	- CGT: Hablar con los vecinos que son propietarios de los terrados
 	- Segundo intento y exito del enlace CGT-CNT
 	- CNT: Mediciones y plantear bajadas y alimentacion
 	- CGT: Mediciones y plantear bajadas y alimentacion
 	- Contactar con el chico que vino a la charla de Cornella que vive al lado
+- Hablar con paco para [David]
+	- que hable con petanqueros
+	- que nos pase el contacto
+	- orientar la antea
+	- reunion para explicar la installacion
+	- charla Desconexion/GuifiBaix en AAVV el Pi
+- Contactar con GSF para Gracia [Victor]
+- Sant Coloma
+	- Burchar a elisenda para que nos envie los datos fiscales
+	- Imprimir factura [Pendiente de Gats]
+	- Escribir contrato [Hablar con Victor]
+	- Subir (Acabados, Factura) [David, RaulB]
+- Investigar que cacharros usan en Torrellas [David/Victor]
+- Buscar o comprar adaptador enchufes antiguos [David/RaulB]
+- Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
+- Montar git privado con presupuestos y facturas [David/Victor]
+- Aclarar que hermana Losa ha contestado [David]
+- Hablar con Gats: Domiciliación del pago [David]
+- Capuchas de cable RJ45
+- Comprar bridas blancas
+- Pasar lista de material a Raul para la Cofac
+- Clientes potenciales
+	- Generar documentos para dudas comerciales [David]
+	- Quedar RaulS y David para dudas comerciales
+	- Llamar a los que contesten [RaulS con ayudas del resto]
+	- Hacer una lista compartida de estado de clientes
+	- Carles Marín: Contactado por facebook esperando respuesta, vendrá a la charla [David]
+	- Ricard de Hospitalet: Pidio conectividad en la web. Pendiente llamar.
+- Poner desplazamiento en la factura de Domenech
+- Revisar Domenech
+- Formatear propuesta de Domenech
+- Enviar propuesta de Domenech
+- Burchar al presidente de Verdaguer (David)
+- Firmar convenio [Faltan Victor y David]
+- Tesorería
+	- Hacer base de datos de facturas (y quien las ha pagado)
+	- Recoger ingresos
+	- Recoger material no pagado que hay que pagar
 - Enlace santa coloma
 	- Instalar NanoBridge de Josep Maria
 	- Prueba de conectividad con NB
 	- Llevar la factura y cobrar
 	- Tapar agujeros
-- ~~Estudiar como meter los cacharros en las cajas estancas~~
-	- Encontrar una caja buena y barata
-	- Comprar cajas
-	- Comprar enchufes
-	- Manguera de luz (cuando estemos listos para una instalación)
-
-
-# Tareas pendientes
-
-- Acabar presupuesto Domenec
-- Enlace a Santa Coloma de Cervelló. Se ha quedado hoy viernes (Raúl B y Víctor) para finalizar la instalación.
-- ¿Qué falta en los presupuestos?
-    - Poner transporte (30€ 1 día, 20€ los siguientes - depende la distancia)
-    - Papeleo de contratos, seguros, ss...
-    - Licencias del ayuntamiento (7%)
-- Maquetar el dossier
-- Hacer copias dossier maquetado
-- Sincronizar dosier e info en la web catalan/castellano
+- Encontrar una caja buena y barata
+	- Lista a Cofac
+	- Listas por internele
+- Licencias del ayuntamiento (7%) [David]
+- Sincronizar dosier e info en la web catalan/castellano [Poco prioritario]
 - Telefonia IP
-	- **Adam: Pedir saldo para hacer las pruebas** [David, esperando respuesta]
 	- Adam: Prueba llamada
 	- Adam: Prueba recepción
 	- Adam: Prueba multiples receptores
 	- Adam: Prueba diferentes transportes
 	- Adam: Prueba calidad con tráfico
+
+
+# Tareas pendientes
+
+- Comprar manguera de luz (cuando estemos listos para una instalación)
+- Devolver copia de convenio a Gats
+- Plantilla factura propia
+- Cuñas impresas 3D para torcer la antena
+- Mirar que es el azimut y zenit
+- Decidir como se distribuye los gastos de desplazamiento
+- Maquetar el dossier
+- Hacer copias dossier maquetado
 - Instarse y probar el ZELLO para Android
 - Mirar cable mas resistente
 - Centralita
@@ -90,7 +117,6 @@
 	- Otros
 		- Manguera de luz (cuando estemos listos para una instalación)
 		- Cajas estancas
-		
 - Web
 	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
 	- Web: Firefox no carga las imagenes hasta que le das a recargar
@@ -111,6 +137,7 @@
 		- Compartir ADSL sin microtik
 		- Compartir ADSL con microtik
 		- Compartir varios ADSL con microtik
+	- Investigar si se puede reusar instalacion telefonica para propagar telefonía ip
 - Desarrollo servidores [Victor/David]
 	- Servidor nuevo
 		- Pendiente de que nos lo traigan [Victor]
@@ -118,6 +145,20 @@
 		- Migrar los servidores
 - Encargar targetas de visita
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
+
+## Hecho semana 2013-11-29
+
+- ~~Adam: Pedir saldo para hacer las pruebas~~ [David, esperando respuesta]
+- ~~Estudiar como meter los cacharros en las cajas estancas~~
+	- ~~Comprar cajas~~
+	- ~~Comprar enchufes~~
+- ~~Enlace a Santa Coloma de Cervelló. Se ha quedado hoy viernes (Raúl B y Víctor) para finalizar la instalación~~
+- ~~Revisar presupuesto Domenech~~
+- ~~Recoger convenio~~ [Lo tiene Aitor]
+- ~~Hablar con Gats: Tenemos que usar su plantilla o podemos coorporativizarla~~ [Podemos cambiar el logo pero no los datos fiscales ni el formato]
+- ~~Finiquitar la presentación para usarla otras veces~~
+- ~~Prueba de conectividad en CNT~~ [Failed]
+- ~~Quedan Aitor y Raúl B para hacer la prueba de conectividad entre CGT y CNT el lunes~~
 
 ## Hecho semana 2013-11-22
 
@@ -213,6 +254,7 @@
 
 # Hecho semana 2013-11-08
 
+	- ~~Recoger facturas de Victor~~
 - ~~Cerrar presupuesto Catalunya~~ [Aitor/RaulS martes]
 - ~~Enviar plantilla de propuesta de presupuesto a Aitor~~
 - ~~Enviar modificaciones dossier a Aitor~~
