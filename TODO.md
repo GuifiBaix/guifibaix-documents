@@ -1,14 +1,18 @@
 # Tareas semanales
 
+- ~~Buscar o comprar adaptador enchufes antiguos~~ [David/RaulB]
 - ~~Hablar con Nahun de Sant Andreu para ver si hay interes en empezar una isla~~ [Podem anar un diumenge a les 9:30]
+- ~~Aclarar costes laborales a cuenta de Gats~~ [solo gestion altas y bajas, IRPF y cotizaciones nosotros]
+- ~~Elisenda: Recoger los datos fiscales~~
+- ~~Elisenda: Hacer la factura~~
+- ~~Elisenda: Recoger la factura sellada~~
+- ~~Burchar al presidente de Verdaguer~~ (David) [Reunion convocada para el 17D]
+- ~~Contactar con GSF para Gracia~~ [No cal, ya lo han hecho los organizadores]
+- ~~Recoger antena de pruebas CNT~~ [Aitor]
+- Avisar a Antonio de Verdaguer de que es posible que pongamos una parabólica temporal
 - Recoger facturas de Aitor
-- Cosas a confirmar
-	- CGT / CNT
-	- Conectividad Marin
-	- Conectividad Losa's
-	- Elisenda
-	- AAVV
 - Quedar un dia con Carlos Marin [David]
+- Aclarar posibilidades con Raque Losa [David]
 - Entrega de premios [RaulS+David]
 - Quedar con Gats [Raul]
 	- Burchar Gats para riesgos laborales
@@ -17,9 +21,8 @@
 	- Concretar un dia para subir a su terrado
 	- Pedir contacto con associaciones de vecinos del Prat
 	- Contrato de 3 horas a 20€ para Raul [Pasado el encargo]
-	- ~~Aclarar costes laborales a cuenta de Gats~~ [solo gestion altas y bajas, IRPF y cotizaciones nosotros]
-	- ~~Cuenta~~ [jueves por la mañana]
-- Abrir cuenta [Jueves mañana]
+- Visitar Caixa Guissona [Jueves mañana con Salva]
+- Abrir cuenta en Caixa Guissona
 - Preguntar a CNT Prat que gente lo hace para contactar con ellos [Aitor]
 - Conectividad entre CNT y CGT
 	- CNT: Que el presidente le comente al vecino del atico
@@ -32,23 +35,18 @@
 - Hablar con paco para [David]
 	- que hable con petanqueros
 	- que nos pase el contacto
-	- orientar la antea
+	- orientar la antena
 	- reunion para explicar la installacion
 	- charla Desconexion/GuifiBaix en AAVV el Pi
-- Contactar con GSF para Gracia [Victor]
 - Enlace Santa Coloma
-	- ~~Burchar a elisenda para que nos envie los datos fiscales~~
 	- Poner el punto en el mapa de guifi.net
 	- Instalar NanoBridge de Josep Maria
 	- Prueba de conectividad con NB
 	- Escribir contrato [Hablar con Victor, necesario antes?]
-	- Hacer la factura
-	- Subir (Acabados, Factura) [David, RaulB]
+	- Subir (Acabados, Factura, Cobrar) [David, RaulB]
 - Investigar que cacharros usan en Torrellas [David/Victor]
-- ~~Buscar o comprar adaptador enchufes antiguos~~ [David/RaulB]
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - Montar git privado con presupuestos y facturas [David/Victor]
-- Aclarar que hermana Losa ha contestado [David]
 - Hablar con Gats: Domiciliación del pago [David]
 - Capuchas de cable RJ45
 - Comprar bridas blancas
@@ -61,29 +59,37 @@
 	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
 	- ~~Ricard de Hospitalet: Pidio conectividad en la web.~~ [contactado]
 	- Estudiar la situación en Hospitalet [Victor?]
+	- ~~Aclarar que hermana Losa ha contestado~~ [Fue Raquel]
+	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba.
 - Domenech
 	- Poner desplazamiento en la factura de Domenech
 	- Revisar Domenech
 	- Formatear propuesta de Domenech
 	- Enviar propuesta de Domenech
-- ~~Burchar al presidente de Verdaguer~~ (David) [Reunion convocada para el 17D]
-- Firmar convenio [Faltan Victor y David]
+- ~~Firmar convenio David~~
+- Firmar convenio Victor
+- Enviar una copia del convenio a Gats
 - Tesorería
 	- ~~Hacer base de datos de facturas (y quien las ha pagado)~~
 	- Recoger ingresos
 	- Recoger material no pagado que hay que pagar
 - Encontrar una caja buena y barata
-	- Lista a Cofac
-	- Listas por internele
-- Licencias del ayuntamiento (7%) [David]
-- Sincronizar dosier e info en la web catalan/castellano [Poco prioritario]
+	- Lista a Cofac [RaulB]
+	- Listas por internele [David]
+- Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
+- Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
 - Telefonia IP
 	- Adam: Prueba llamada
 	- Adam: Prueba recepción
 	- Adam: Prueba multiples receptores
 	- Adam: Prueba diferentes transportes
 	- Adam: Prueba calidad con tráfico
-
+- MLDonkey
+	- ~~Contactar con el proyecto~~ IRC ygrek, tenemos el jabber
+	- ~~Establecer entorno de programacion funcional~~
+	- ~~MLDonkey: Test suite scafolding~~
+	- MLDonkey: Minimum fixture setup with no network
+	- MLDonkey: Specify json interface
 
 # Tareas pendientes
 
@@ -103,7 +109,7 @@
 	- Comprar material
 	- Instalar
 - Proyectos potenciales
-	- Reunión Verdaguer (pendiente de convocatoria)
+	- Reunión Verdaguer [17D]
 	- Associación Petanca
 	- Reorientar antena AAVV el Pi
 - Telefonia IP
@@ -111,23 +117,16 @@
 	- Telefonia IP: Analizar ancho de banda consumido
 	- Telefonia IP: Probar video-llamadas
 	- Telefonia IP: Pruebas remotas de telefonía IP
-- Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
-- Compras:
-	- Cablematic
-		- Fundas de conectores (diversos colores)
-		- 1 adaptador de RJ 1 macho 2 hembras para probar como funciona
-		- Bobina de datos
-			- Comprobar si hay cable con cubierta más resistente que no suba mucho precio
-	- Otros
-		- Manguera de luz (cuando estemos listos para una instalación)
-		- Cajas estancas
+- Compra Cablematic: 1 adaptador de RJ 1 macho 2 hembras para probar como funciona
+- Compra Cablematic: Bobina FTP
+- Compra: Manguera de luz (cuando estemos listos para una instalación)
+- Compra: Cajas estancas
 - Web
 	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
 	- Web: Firefox no carga las imagenes hasta que le das a recargar
 - Desarrollo Software -- David/Victor
 	- Mock-up de la API JSON del MlDonkey
 	- Explorar si podemos desarrollarla nosotros mismos (esta en Ocaml)
-		- Contactar con los desarrolladores
 		- Desarrollarla
 	- Programa para obtener exclusividad de conexión
 - Desarrollo redes [Victor/David]
