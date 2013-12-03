@@ -1,12 +1,14 @@
 # Tareas semanales
 
+- ~~Hablar con Nahun de Sant Andreu para ver si hay interes en empezar una isla~~ [Podem anar un diumenge a les 9:30]
 - Recoger facturas de Aitor
 - Cosas a confirmar
 	- CGT / CNT
 	- Conectividad Marin
 	- Conectividad Losa's
 	- Elisenda
-- Quedar un dia con Marin [David]
+	- AAVV
+- Quedar un dia con Carlos Marin [David]
 - Entrega de premios [RaulS+David]
 - Quedar con Gats [Raul]
 	- Burchar Gats para riesgos laborales
@@ -14,8 +16,10 @@
 	- Cooperativa obrera de viviendas
 	- Concretar un dia para subir a su terrado
 	- Pedir contacto con associaciones de vecinos del Prat
-	- Contrato de 3 horas a 20€ para Raul
-	- Que nos digan cuanto son los costes laborales aunque los pongan ellos para tenerlos en cuenta mas adelante.
+	- Contrato de 3 horas a 20€ para Raul [Pasado el encargo]
+	- ~~Aclarar costes laborales a cuenta de Gats~~ [solo gestion altas y bajas, IRPF y cotizaciones nosotros]
+	- ~~Cuenta~~ [jueves por la mañana]
+- Abrir cuenta [Jueves mañana]
 - Preguntar a CNT Prat que gente lo hace para contactar con ellos [Aitor]
 - Conectividad entre CNT y CGT
 	- CNT: Que el presidente le comente al vecino del atico
@@ -32,13 +36,16 @@
 	- reunion para explicar la installacion
 	- charla Desconexion/GuifiBaix en AAVV el Pi
 - Contactar con GSF para Gracia [Victor]
-- Sant Coloma
-	- Burchar a elisenda para que nos envie los datos fiscales
-	- Imprimir factura [Pendiente de Gats]
-	- Escribir contrato [Hablar con Victor]
+- Enlace Santa Coloma
+	- ~~Burchar a elisenda para que nos envie los datos fiscales~~
+	- Poner el punto en el mapa de guifi.net
+	- Instalar NanoBridge de Josep Maria
+	- Prueba de conectividad con NB
+	- Escribir contrato [Hablar con Victor, necesario antes?]
+	- Hacer la factura
 	- Subir (Acabados, Factura) [David, RaulB]
 - Investigar que cacharros usan en Torrellas [David/Victor]
-- Buscar o comprar adaptador enchufes antiguos [David/RaulB]
+- ~~Buscar o comprar adaptador enchufes antiguos~~ [David/RaulB]
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - Montar git privado con presupuestos y facturas [David/Victor]
 - Aclarar que hermana Losa ha contestado [David]
@@ -51,23 +58,20 @@
 	- Quedar RaulS y David para dudas comerciales
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
-	- Carles Marín: Contactado por facebook esperando respuesta, vendrá a la charla [David]
-	- Ricard de Hospitalet: Pidio conectividad en la web. Pendiente llamar.
-- Poner desplazamiento en la factura de Domenech
-- Revisar Domenech
-- Formatear propuesta de Domenech
-- Enviar propuesta de Domenech
-- Burchar al presidente de Verdaguer (David)
+	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
+	- ~~Ricard de Hospitalet: Pidio conectividad en la web.~~ [contactado]
+	- Estudiar la situación en Hospitalet [Victor?]
+- Domenech
+	- Poner desplazamiento en la factura de Domenech
+	- Revisar Domenech
+	- Formatear propuesta de Domenech
+	- Enviar propuesta de Domenech
+- ~~Burchar al presidente de Verdaguer~~ (David) [Reunion convocada para el 17D]
 - Firmar convenio [Faltan Victor y David]
 - Tesorería
-	- Hacer base de datos de facturas (y quien las ha pagado)
+	- ~~Hacer base de datos de facturas (y quien las ha pagado)~~
 	- Recoger ingresos
 	- Recoger material no pagado que hay que pagar
-- Enlace santa coloma
-	- Instalar NanoBridge de Josep Maria
-	- Prueba de conectividad con NB
-	- Llevar la factura y cobrar
-	- Tapar agujeros
 - Encontrar una caja buena y barata
 	- Lista a Cofac
 	- Listas por internele
