@@ -7,7 +7,7 @@
 GuifiBaix es un proyecto de economía social que
 facilita que los vecinos que se conecten a la red ciudadana y libre "Guifi.net".
 que ofrece una alternativa al oligopolio de las telecomunicaciones,
-más accesible económicamente y que genera trabajo local.
+más económico y generador de trabajo local.
 
 El proyecto surge de la campaña  "Desconexión del IBEX-35"
 del 15M de Sant Joan Despí,
@@ -141,7 +141,7 @@ Estas aplicaciones **requieren acceso a Internet**, por ejemplo, vía WiFi o 3G.
 No hace falta que sea Guifi.net.
 
 De hecho, si tienes acceso a Internet en el móvil o en el ordenador,
-aunque no sea de Guifi.net puedes llamar y recibir
+aunque no sea de Guifi.net puedes llamar y puedes recibir llamadas.
 De hecho, puedes utilizar tu número de Telefonía IP,
 con las mismas tarifas, desde cualquier lugar 
 **donde tengas acceso a Internet**.
@@ -157,7 +157,8 @@ Sólo funciona si tienes conectividad a Internet.
 Todos los proveedores dan la modalidad más barata
 que consiste en no tener número propio,
 sino una **extensión del número del proveedor**.
-En esta modalidad solo se pagan las llamadas que hagas con prepago.
+En esta modalidad solo se pagan las llamadas que hagas
+y se hace mediante prepago.
 
 Si quieres tener **número propio**,
 hay que pagar alta y mensualidad, 
