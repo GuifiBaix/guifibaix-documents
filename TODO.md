@@ -3,30 +3,28 @@
 - ~~Buscar o comprar adaptador enchufes antiguos~~ [David/RaulB]
 - ~~Hablar con Nahun de Sant Andreu para ver si hay interes en empezar una isla~~ [Podem anar un diumenge a les 9:30]
 - ~~Aclarar costes laborales a cuenta de Gats~~ [solo gestion altas y bajas, IRPF y cotizaciones nosotros]
-- ~~Elisenda: Recoger los datos fiscales~~
-- ~~Elisenda: Hacer la factura~~
-- ~~Elisenda: Recoger la factura sellada~~
+- ~~Elisenda: Recoger los datos fiscales~~ [David]
+- ~~Elisenda: Hacer la factura~~ [David]
+- ~~Elisenda: Recoger la factura sellada~~ [RaulB]
 - ~~Burchar al presidente de Verdaguer~~ (David) [Reunion convocada para el 17D]
 - ~~Contactar con GSF para Gracia~~ [No cal, ya lo han hecho los organizadores]
 - ~~Recoger antena de pruebas CNT~~ [Aitor]
-- Avisar a Antonio de Verdaguer de que es posible que pongamos una parabólica temporal
-- Recoger facturas de Aitor
-- Quedar un dia con Carlos Marin [David]
-- Aclarar posibilidades con Raque Losa [David]
+- ~~Mirar que es el azimut y zenit~~ -> azimuth direccion horizontal, zenit opuesto de elevacion vertical.
+- Recoger facturas pagadas por Aitor
 - Entrega de premios [RaulS+David]
+- Seguridad social de Raul a Gats para el contrato. [Raul]
 - Quedar con Gats [Raul]
-	- Burchar Gats para riesgos laborales
-	- Que se hace para la feria del pollo (que se hace, material, dias)
-	- Cooperativa obrera de viviendas
-	- Concretar un dia para subir a su terrado
-	- Pedir contacto con associaciones de vecinos del Prat
-	- Contrato de 3 horas a 20€ para Raul [Pasado el encargo]
-- Visitar Caixa Guissona [Jueves mañana con Salva]
-- Abrir cuenta en Caixa Guissona
+	- ~~Burchar Gats para riesgos laborales~~ Han quedado el 13D con la empresa
+	- ~~Que se hace para la feria del pollo (que se hace, material, dias)~~ Stand propio, punto internet? 
+	- ~~Cooperativa obrera de viviendas~~ Hablaremos con ellos en lo del pollo
+	- ~~Concretar un dia para subir a su terrado~~ Lo hablaran con los vecinos
+	- ~~Pedir contacto con associaciones de vecinos del Prat~~ Pa la fiesta del pollo
+	- ~~Contrato de 3 horas a 20€ para Raul~~ [Pasado el encargo]
+- ~~Visitar Caixa Guissona~~ [Jueves mañana con Salva]
 - Preguntar a CNT Prat que gente lo hace para contactar con ellos [Aitor]
 - Conectividad entre CNT y CGT
-	- CNT: Que el presidente le comente al vecino del atico
-	- CNT: Asegurar punto de luz para la prueba
+	- ~~CNT: Que el presidente le comente al vecino del atico~~
+	- ~~CNT: Asegurar punto de luz para la prueba~~ Tenemos adaptador
 	- CGT: Hablar con los vecinos que son propietarios de los terrados
 	- Segundo intento y exito del enlace CGT-CNT
 	- CNT: Mediciones y plantear bajadas y alimentacion
@@ -40,14 +38,13 @@
 	- charla Desconexion/GuifiBaix en AAVV el Pi
 - Enlace Santa Coloma
 	- Poner el punto en el mapa de guifi.net
-	- Instalar NanoBridge de Josep Maria
-	- Prueba de conectividad con NB
+	- ~~Instalar NanoBridge de Josep Maria~~
+	- ~~Prueba de conectividad con NB~~ 120Gb!!
+	- Configurar los gateways para que se connecte Elisenda
 	- Escribir contrato [Hablar con Victor, necesario antes?]
 	- Subir (Acabados, Factura, Cobrar) [David, RaulB]
-- Investigar que cacharros usan en Torrellas [David/Victor]
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - Montar git privado con presupuestos y facturas [David/Victor]
-- Hablar con Gats: Domiciliación del pago [David]
 - Capuchas de cable RJ45
 - Comprar bridas blancas
 - Pasar lista de material a Raul para la Cofac
@@ -59,15 +56,16 @@
 	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
 	- ~~Ricard de Hospitalet: Pidio conectividad en la web.~~ [contactado]
 	- Estudiar la situación en Hospitalet [Victor?]
+	- Quedar prueba connectividad con Carlos Marin [David]
 	- ~~Aclarar que hermana Losa ha contestado~~ [Fue Raquel]
-	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba.
+	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba. [David]
 - Domenech
 	- Poner desplazamiento en la factura de Domenech
 	- Revisar Domenech
 	- Formatear propuesta de Domenech
 	- Enviar propuesta de Domenech
 - ~~Firmar convenio David~~
-- Firmar convenio Victor
+- ~~Firmar convenio Victor~~
 - Enviar una copia del convenio a Gats
 - Tesorería
 	- ~~Hacer base de datos de facturas (y quien las ha pagado)~~
@@ -90,14 +88,16 @@
 	- ~~MLDonkey: Test suite scafolding~~
 	- MLDonkey: Minimum fixture setup with no network
 	- MLDonkey: Specify json interface
+- Investigar que cacharros usan en Torrellas [David/Victor]
 
 # Tareas pendientes
 
+- Hablar con Gats: Domiciliación del pago [David]
+- Nombrar Tesorero de AT2 [Salva]
+- Abrir cuenta en Caixa Guissona [Salva]
 - Comprar manguera de luz (cuando estemos listos para una instalación)
-- Devolver copia de convenio a Gats
 - Plantilla factura propia
 - Cuñas impresas 3D para torcer la antena
-- Mirar que es el azimut y zenit
 - Decidir como se distribuye los gastos de desplazamiento
 - Maquetar el dossier
 - Hacer copias dossier maquetado
