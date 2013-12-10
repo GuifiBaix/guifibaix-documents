@@ -1,30 +1,38 @@
 # Tareas semanales
 
-- ~~Buscar o comprar adaptador enchufes antiguos~~ [David/RaulB]
-- ~~Hablar con Nahun de Sant Andreu para ver si hay interes en empezar una isla~~ [Podem anar un diumenge a les 9:30]
-- ~~Aclarar costes laborales a cuenta de Gats~~ [solo gestion altas y bajas, IRPF y cotizaciones nosotros]
-- ~~Elisenda: Recoger los datos fiscales~~ [David]
-- ~~Elisenda: Hacer la factura~~ [David]
-- ~~Elisenda: Recoger la factura sellada~~ [RaulB]
-- ~~Burchar al presidente de Verdaguer~~ (David) [Reunion convocada para el 17D]
-- ~~Contactar con GSF para Gracia~~ [No cal, ya lo han hecho los organizadores]
-- ~~Recoger antena de pruebas CNT~~ [Aitor]
-- ~~Mirar que es el azimut y zenit~~ -> azimuth direccion horizontal, zenit opuesto de elevacion vertical.
+- Domenech
+	- ~~Poner desplazamiento en la factura de Domenech~~
+	- ~~Revisar Domenech~~
+	- ~~Formatear propuesta de Domenech~~
+	- ~~Enviar propuesta de Domenech~~
+- ~~Seguridad social de Raul a Gats para el contrato.~~ [Raul]
+- ~~Canal 25: Prueba de connectividad~~ 6M/6M sin subir la antena con Domenech, Verdaguer y Major
+- Canal 25: Presupuesto colectivo
+- Canal 25: Presupuesto individual
+- Pollo
+	- ~~Pollo: Encanrgar Flyiers~~
+	- Pollo: Recoger Flyiers
+	- Pollo: Dejar antena en el vecino
+	- Pollo: Prueba de conectividad en suelo
+	- Pollo: Prueba de conectividad
+	- Pollo: Imprimir diagramas
+	- Pollo: Imprimir dossier 10
+	- Pollo: Imprimir el QR
+	- Pollo: Mirar si tenemos teclado decente [RaulS]
+	- Pollo: Llevar ordenador, pantalla, teclado y raton
+	- Pollo: Llevar Rollup, fliers, fliers del ibex, diagramas, dossiers, hojas de clientes
+	- Pollo: Averiguar si se pueden conectar dos pantallas
+	- Pollo: Rehacer la presentación [considerar]
+	- Pollo: Hablar con entidades
+	- Pollo: Atentos a locales haciendo guifi.net
+- Gracia
+	- Gracia: Difundir
+	- Gracia: Hablar con Eticom
+	- Gracia: Invitar a SomConnexio a pasarse por Gracia
+	- Gracia: Llevar: flyers, portatil, presentacion, hojas de clientes
 - Recoger facturas pagadas por Aitor
-- Entrega de premios [RaulS+David]
-- Seguridad social de Raul a Gats para el contrato. [Raul]
-- Quedar con Gats [Raul]
-	- ~~Burchar Gats para riesgos laborales~~ Han quedado el 13D con la empresa
-	- ~~Que se hace para la feria del pollo (que se hace, material, dias)~~ Stand propio, punto internet? 
-	- ~~Cooperativa obrera de viviendas~~ Hablaremos con ellos en lo del pollo
-	- ~~Concretar un dia para subir a su terrado~~ Lo hablaran con los vecinos
-	- ~~Pedir contacto con associaciones de vecinos del Prat~~ Pa la fiesta del pollo
-	- ~~Contrato de 3 horas a 20€ para Raul~~ [Pasado el encargo]
-- ~~Visitar Caixa Guissona~~ [Jueves mañana con Salva]
 - Preguntar a CNT Prat que gente lo hace para contactar con ellos [Aitor]
 - Conectividad entre CNT y CGT
-	- ~~CNT: Que el presidente le comente al vecino del atico~~
-	- ~~CNT: Asegurar punto de luz para la prueba~~ Tenemos adaptador
 	- CGT: Hablar con los vecinos que son propietarios de los terrados
 	- Segundo intento y exito del enlace CGT-CNT
 	- CNT: Mediciones y plantear bajadas y alimentacion
@@ -38,8 +46,6 @@
 	- charla Desconexion/GuifiBaix en AAVV el Pi
 - Enlace Santa Coloma
 	- Poner el punto en el mapa de guifi.net
-	- ~~Instalar NanoBridge de Josep Maria~~
-	- ~~Prueba de conectividad con NB~~ 120Gb!!
 	- Configurar los gateways para que se connecte Elisenda
 	- Escribir contrato [Hablar con Victor, necesario antes?]
 	- Subir (Acabados, Factura, Cobrar) [David, RaulB]
@@ -49,26 +55,19 @@
 - Comprar bridas blancas
 - Pasar lista de material a Raul para la Cofac
 - Clientes potenciales
-	- Generar documentos para dudas comerciales [David]
-	- Quedar RaulS y David para dudas comerciales
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
 	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
 	- ~~Ricard de Hospitalet: Pidio conectividad en la web.~~ [contactado]
 	- Estudiar la situación en Hospitalet [Victor?]
 	- Quedar prueba connectividad con Carlos Marin [David]
-	- ~~Aclarar que hermana Losa ha contestado~~ [Fue Raquel]
 	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba. [David]
-- Domenech
-	- Poner desplazamiento en la factura de Domenech
-	- Revisar Domenech
-	- Formatear propuesta de Domenech
-	- Enviar propuesta de Domenech
-- ~~Firmar convenio David~~
-- ~~Firmar convenio Victor~~
+- ~~SantJeroni 41: Confirmar acceso al terrado y luz~~ Cal escalera de mano (tienen ahi) y alargo para subir luz
+- David (jefe de Aitor): Confirmar acceso al terrado y luz
+- SantJeroni 41: Prueba de conectividad
 - Enviar una copia del convenio a Gats
 - Tesorería
-	- ~~Hacer base de datos de facturas (y quien las ha pagado)~~
+	- Actualizar base de datos con las facturas que nos dejamos
 	- Recoger ingresos
 	- Recoger material no pagado que hay que pagar
 - Encontrar una caja buena y barata
@@ -83,9 +82,6 @@
 	- Adam: Prueba diferentes transportes
 	- Adam: Prueba calidad con tráfico
 - MLDonkey
-	- ~~Contactar con el proyecto~~ IRC ygrek, tenemos el jabber
-	- ~~Establecer entorno de programacion funcional~~
-	- ~~MLDonkey: Test suite scafolding~~
 	- MLDonkey: Minimum fixture setup with no network
 	- MLDonkey: Specify json interface
 - Investigar que cacharros usan en Torrellas [David/Victor]
@@ -148,6 +144,43 @@
 		- Migrar los servidores
 - Encargar targetas de visita
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
+
+## Hecho 20131206
+
+- ~~Hacer base de datos de facturas (y quien las ha pagado)~~
+- ~~Contactar con el proyecto mlDonkey~~ IRC ygrek, tenemos el jabber
+- ~~MLDonkey: Establecer entorno de programacion funcional~~
+- ~~MLDonkey: Test suite scafolding~~
+- ~~Buscar o comprar adaptador enchufes antiguos~~ [David/RaulB]
+- ~~Hablar con Nahun de Sant Andreu para ver si hay interes en empezar una isla~~ [Podem anar un diumenge a les 9:30]
+- ~~Aclarar costes laborales a cuenta de Gats~~ [solo gestion altas y bajas, IRPF y cotizaciones nosotros]
+- ~~Elisenda: Recoger los datos fiscales~~ [David]
+- ~~Elisenda: Hacer la factura~~ [David]
+- ~~Elisenda: Recoger la factura sellada~~ [RaulB]
+- ~~Burchar al presidente de Verdaguer~~ (David) [Reunion convocada para el 17D]
+- ~~Contactar con GSF para Gracia~~ [No cal, ya lo han hecho los organizadores]
+- ~~Recoger antena de pruebas CNT~~ [Aitor]
+- ~~Mirar que es el azimut y zenit~~ -> azimuth direccion horizontal, zenit opuesto de elevacion vertical.
+- ~~Enlace Santa Coloma: Instalar NanoBridge de Josep Maria~~
+- ~~Enlace Santa Coloma: Prueba de conectividad con NB~~ 120Gb!!
+- ~~Visitar Caixa Guissona~~ [Jueves mañana con Salva]
+- ~~Quedar con Gats~~ [Raul]
+	- ~~Burchar Gats para riesgos laborales~~ Han quedado el 13D con la empresa
+	- ~~Que se hace para la feria del pollo (que se hace, material, dias)~~ Stand propio, punto internet? 
+	- ~~Cooperativa obrera de viviendas~~ Hablaremos con ellos en lo del pollo
+	- ~~Concretar un dia para subir a su terrado~~ Lo hablaran con los vecinos
+	- ~~Pedir contacto con associaciones de vecinos del Prat~~ Pa la fiesta del pollo
+	- ~~Contrato de 3 horas a 20€ para Raul~~ [Pasado el encargo]
+- ~~Entrega de premios~~ [RaulS+David]
+- ~~CNT: Que el presidente le comente al vecino del atico~~
+- ~~CNT: Asegurar punto de luz para la prueba~~ Tenemos adaptador
+- ~~Firmar convenio David~~
+- ~~Firmar convenio Victor~~
+- ~~Aclarar que hermana Losa ha contestado~~ [Fue Raquel]
+- ~~Generar documentos para dudas comerciales~~ [David]
+- ~~Quedar RaulS y David para dudas comerciales~~
+
+
 
 ## Hecho semana 2013-11-29
 
