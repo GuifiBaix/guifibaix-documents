@@ -1,35 +1,9 @@
 # Tareas semanales
 
-- Domenech
-	- ~~Poner desplazamiento en la factura de Domenech~~
-	- ~~Revisar Domenech~~
-	- ~~Formatear propuesta de Domenech~~
-	- ~~Enviar propuesta de Domenech~~
-- ~~Seguridad social de Raul a Gats para el contrato.~~ [Raul]
-- ~~Canal 25: Prueba de connectividad~~ 6M/6M sin subir la antena con Domenech, Verdaguer y Major
 - Canal 25: Presupuesto colectivo
 - Canal 25: Presupuesto individual
-- Pollo
-	- ~~Pollo: Encanrgar Flyiers~~
-	- Pollo: Recoger Flyiers
-	- Pollo: Dejar antena en el vecino
-	- Pollo: Prueba de conectividad en suelo
-	- Pollo: Prueba de conectividad
-	- Pollo: Imprimir diagramas
-	- Pollo: Imprimir dossier 10
-	- Pollo: Imprimir el QR
-	- Pollo: Mirar si tenemos teclado decente [RaulS]
-	- Pollo: Llevar ordenador, pantalla, teclado y raton
-	- Pollo: Llevar Rollup, fliers, fliers del ibex, diagramas, dossiers, hojas de clientes
-	- Pollo: Averiguar si se pueden conectar dos pantallas
-	- Pollo: Rehacer la presentación [considerar]
-	- Pollo: Hablar con entidades
-	- Pollo: Atentos a locales haciendo guifi.net
-- Gracia
-	- Gracia: Difundir
-	- Gracia: Hablar con Eticom
-	- Gracia: Invitar a SomConnexio a pasarse por Gracia
-	- Gracia: Llevar: flyers, portatil, presentacion, hojas de clientes
+- SantJeroni41: Presupuesto
+- David (jefe de Aitor): Confirmar acceso al terrado y luz
 - Recoger facturas pagadas por Aitor
 - Preguntar a CNT Prat que gente lo hace para contactar con ellos [Aitor]
 - Conectividad entre CNT y CGT
@@ -62,9 +36,6 @@
 	- Estudiar la situación en Hospitalet [Victor?]
 	- Quedar prueba connectividad con Carlos Marin [David]
 	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba. [David]
-- ~~SantJeroni 41: Confirmar acceso al terrado y luz~~ Cal escalera de mano (tienen ahi) y alargo para subir luz
-- David (jefe de Aitor): Confirmar acceso al terrado y luz
-- SantJeroni 41: Prueba de conectividad
 - Enviar una copia del convenio a Gats
 - Tesorería
 	- Actualizar base de datos con las facturas que nos dejamos
@@ -82,6 +53,7 @@
 	- Adam: Prueba diferentes transportes
 	- Adam: Prueba calidad con tráfico
 - MLDonkey
+	- MLDonkey: Testcollector
 	- MLDonkey: Minimum fixture setup with no network
 	- MLDonkey: Specify json interface
 - Investigar que cacharros usan en Torrellas [David/Victor]
@@ -145,7 +117,41 @@
 - Encargar targetas de visita
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
 
-## Hecho 20131206
+# Hecho 2013-12-13 
+
+- Domenech
+	- ~~Poner desplazamiento en la factura de Domenech~~
+	- ~~Revisar Domenech~~
+	- ~~Formatear propuesta de Domenech~~
+	- ~~Enviar propuesta de Domenech~~
+- ~~Seguridad social de Raul a Gats para el contrato.~~ [Raul]
+- ~~Canal 25: Prueba de connectividad~~ 6M/6M sin subir la antena con Domenech, Verdaguer y Major
+- ~~Pollo~~
+	- ~~Pollo: Encanrgar Flyiers~~
+	- ~~Pollo: Recoger Flyiers~~
+	- ~~Pollo: Dejar antena en el vecino~~
+	- ~~Pollo: Prueba de conectividad en suelo~~
+	- ~~Pollo: Prueba de conectividad arriba~~ [no hizo falta]
+	- ~~Pollo: Imprimir diagramas~~
+	- ~~Pollo: Imprimir dossier 10~~
+	- ~~Pollo: Imprimir el QR~~ [no se ha hecho]
+	- ~~Pollo: Mirar si tenemos teclado decente [RaulS]~~ [no habia ]
+	- ~~Pollo: Llevar ordenador, pantalla, teclado y raton~~
+	- ~~Pollo: Llevar Rollup, fliers, fliers del ibex, diagramas, dossiers, hojas de clientes~~
+	- ~~Pollo: Averiguar si se pueden conectar dos pantallas~~ [No]
+	- ~~Pollo: Rehacer la presentación [considerar]~~
+	- ~~Pollo: Hablar con entidades~~
+	- ~~Pollo: Atentos a locales haciendo guifi.net~~
+- ~~Gracia~~
+	- ~~Gracia: Difundir~~
+	- ~~Gracia: Hablar con Eticom~~
+	- ~~Gracia: Invitar a SomConnexio a pasarse por Gracia~~ [no se hizo]
+	- ~~Gracia: Llevar: flyers, portatil, presentacion, hojas de clientes~~ [no se hizo]
+- ~~SantJeroni 41: Confirmar acceso al terrado y luz~~ Cal escalera de mano (tienen ahi) y alargo para subir luz
+- ~~SantJeroni 41: Prueba de conectividad~~
+
+
+## Hecho 2013-12-06
 
 - ~~Hacer base de datos de facturas (y quien las ha pagado)~~
 - ~~Contactar con el proyecto mlDonkey~~ IRC ygrek, tenemos el jabber
