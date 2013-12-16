@@ -3,8 +3,8 @@
 - Canal 25: Presupuesto colectivo
 - Canal 25: Presupuesto individual
 - SantJeroni41: Presupuesto
-- Caixa Guissona: Abrir cuenta en [Salva]
-- Caixa Guissona: Ir a firmar [Aitor y David]
+- Caixa Guissona: Abrir cuenta [Salva]
+- Caixa Guissona: Ingresar pago Santa Coloma
 - CNT-Prat: Quedar con ellos [Aitor]
 	- CNT-Prat: Mirar donde esta la sede
 	- CNT-Prat: Aclarar si lo que les estan poniendo es Guifi.net o otra cosa
@@ -15,20 +15,19 @@
 	- CNT: Mediciones y plantear bajadas y alimentacion
 	- CGT: Mediciones y plantear bajadas y alimentacion
 	- Contactar con el chico que vino a la charla de Cornella que vive al lado
-- Hablar con paco para... [David]
+- Hablar con paco para... [DL tarde, David]
 	- que hable con petanqueros
 	- que nos pase el contacto
 	- orientar la antena
 	- reunion para explicar la instalacion
 	- charla Desconexion/GuifiBaix en AAVV el Pi
-- Enlace Santa Coloma
-	- Poner el punto en el mapa de guifi.net
-	- Configurar los gateways para que se connecte Elisenda
-	- Escribir contrato [Hablar con Victor, necesario antes?]
-	- Subir (Acabados, Factura, Cobrar) [David, RaulB]
+- Enlace Santa Coloma [DX]
+	- Elisenda: Poner el punto en el mapa de guifi.net
+	- Elisenda: Escribir contrato [Hablar con Victor, necesario antes?]
+	- Elisenda: Contratar numero de pruevas con Adam
+	- Elisenda: Subir (Acabados, Factura, Cobrar, vozIp, rutas) [David, RaulB]
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - Montar git privado con presupuestos y facturas [David/Victor]
-- Capuchas de cable RJ45
 - Comprar bridas blancas
 - Pasar lista de material a Raul para la Cofac
 - Clientes potenciales
@@ -36,14 +35,16 @@
 	- Hacer una lista compartida de estado de clientes
 	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
 	- ~~Ricard de Hospitalet: Pidio conectividad en la web.~~ [contactado]
-	- Estudiar la situación en Hospitalet [Victor?]
+	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor?]
 	- Quedar prueba connectividad con Carlos Marin [David]
 	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba. [David]
+	- Revisar la lista del Prat
 - Enviar una copia del convenio a Gats
 - Tesorería
 	- Actualizar base de datos con las facturas que nos dejamos
-	- Recoger ingresos
-	- Recoger material no pagado que hay que pagar
+	- Recoger ingresos y material correspondiente
+	- Recopilar que material se ha colocado sin pagarse
+	- Añadir obsequio de los vecinos de la fira
 - Encontrar una caja buena y barata
 	- Lista a Cofac [RaulB]
 	- Listas por internele [David]
@@ -56,7 +57,6 @@
 	- Adam: Prueba diferentes transportes
 	- Adam: Prueba calidad con tráfico
 - MLDonkey
-	- MLDonkey: Testcollector
 	- MLDonkey: Minimum fixture setup with no network
 	- MLDonkey: Specify json interface
 - Investigar que cacharros usan en Torrellas [David/Victor]
@@ -67,12 +67,11 @@
 - Hablar con Gats: Domiciliación del pago [David]
 - Comprar manguera de luz (cuando estemos listos para una instalación)
 - Plantilla factura propia
-- Cuñas impresas 3D para torcer la antena
+- Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
 - Decidir como se distribuye los gastos de desplazamiento
-- Maquetar el dossier
+- Remaquetar el dossier
 - Hacer copias dossier maquetado
 - Instarse y probar el ZELLO para Android
-- Mirar cable mas resistente
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Instalacion prototipo David
@@ -121,9 +120,12 @@
 
 # Hecho 2013-12-13 
 
+- ~~Capuchas de cable RJ45~~
+- ~~Mirar cable mas resistente~~ [FTP y el de Ubiquity que ademas es mas barato]
 - ~~Nombrar Tesorero de AT2~~ [Salva]
 - ~~Recoger facturas pagadas por Aitor~~
-- Domenech
+- ~~Elisenda: Configurar los gateways~~
+- ~~Domenech~~
 	- ~~Poner desplazamiento en la factura de Domenech~~
 	- ~~Revisar Domenech~~
 	- ~~Formatear propuesta de Domenech~~
@@ -153,6 +155,7 @@
 	- ~~Gracia: Llevar: flyers, portatil, presentacion, hojas de clientes~~ [no se hizo]
 - ~~SantJeroni 41: Confirmar acceso al terrado y luz~~ Cal escalera de mano (tienen ahi) y alargo para subir luz
 - ~~SantJeroni 41: Prueba de conectividad~~
+- ~~MLDonkey: Testcollector~~
 
 
 ## Hecho 2013-12-06
