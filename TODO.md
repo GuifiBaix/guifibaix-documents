@@ -3,20 +3,23 @@
 - Canal 25: Presupuesto colectivo
 - Canal 25: Presupuesto individual
 - SantJeroni41: Presupuesto
-- David (jefe de Aitor): Confirmar acceso al terrado y luz
-- Recoger facturas pagadas por Aitor
-- Preguntar a CNT Prat que gente lo hace para contactar con ellos [Aitor]
+- Caixa Guissona: Abrir cuenta en [Salva]
+- Caixa Guissona: Ir a firmar [Aitor y David]
+- CNT-Prat: Quedar con ellos [Aitor]
+	- CNT-Prat: Mirar donde esta la sede
+	- CNT-Prat: Aclarar si lo que les estan poniendo es Guifi.net o otra cosa
+	- CNT-Prat: Si es Guifi.net pedir el contacto [Aitor]
 - Conectividad entre CNT y CGT
 	- CGT: Hablar con los vecinos que son propietarios de los terrados
 	- Segundo intento y exito del enlace CGT-CNT
 	- CNT: Mediciones y plantear bajadas y alimentacion
 	- CGT: Mediciones y plantear bajadas y alimentacion
 	- Contactar con el chico que vino a la charla de Cornella que vive al lado
-- Hablar con paco para [David]
+- Hablar con paco para... [David]
 	- que hable con petanqueros
 	- que nos pase el contacto
 	- orientar la antena
-	- reunion para explicar la installacion
+	- reunion para explicar la instalacion
 	- charla Desconexion/GuifiBaix en AAVV el Pi
 - Enlace Santa Coloma
 	- Poner el punto en el mapa de guifi.net
@@ -60,9 +63,8 @@
 
 # Tareas pendientes
 
+- David (jefe de Aitor): Confirmar acceso al terrado y luz
 - Hablar con Gats: Domiciliación del pago [David]
-- Nombrar Tesorero de AT2 [Salva]
-- Abrir cuenta en Caixa Guissona [Salva]
 - Comprar manguera de luz (cuando estemos listos para una instalación)
 - Plantilla factura propia
 - Cuñas impresas 3D para torcer la antena
@@ -119,6 +121,8 @@
 
 # Hecho 2013-12-13 
 
+- ~~Nombrar Tesorero de AT2~~ [Salva]
+- ~~Recoger facturas pagadas por Aitor~~
 - Domenech
 	- ~~Poner desplazamiento en la factura de Domenech~~
 	- ~~Revisar Domenech~~
