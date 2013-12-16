@@ -3,6 +3,8 @@
 - Canal 25: Presupuesto colectivo
 - Canal 25: Presupuesto individual
 - SantJeroni41: Presupuesto
+- Corbera: Contestarles algo
+- Hospitalet: Contestarles algo
 - Caixa Guissona: Abrir cuenta [Salva]
 - Caixa Guissona: Ingresar pago Santa Coloma
 - CNT-Prat: Quedar con ellos [Aitor]
@@ -19,6 +21,7 @@
 	- que hable con petanqueros
 	- que nos pase el contacto
 	- orientar la antena
+	- colocarles microfiltros
 	- reunion para explicar la instalacion
 	- charla Desconexion/GuifiBaix en AAVV el Pi
 - Enlace Santa Coloma [DX]
