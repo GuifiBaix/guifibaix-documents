@@ -1,4 +1,4 @@
-# Tareas semanales
+# Tareas programadas para la semana
 
 - Canal 25: Presupuesto colectivo
 - Canal 25: Presupuesto individual
@@ -61,7 +61,7 @@
 	- MLDonkey: Specify json interface
 - Investigar que cacharros usan en Torrellas [David/Victor]
 
-# Tareas pendientes
+# Tareas pospuestas
 
 - David (jefe de Aitor): Confirmar acceso al terrado y luz
 - Hablar con Gats: Domiciliación del pago [David]
