@@ -66,18 +66,21 @@
 - Investigar que cacharros usan en Torrellas [David/Victor]
 	- Mikrotik y Ubiquiti, sin qMp, software nativo de los trastos.
 
-- Actuaciones sobre la Red Actual
-	- Cambio IPs de nodos al rango MESH correcto
-	- Enlace de Santa Coloma
-		- ~~Preconfiguracion [Victor]~~
-		- ~~Montaje de placa [viernes tarde, victor, david]~~
-		- Configuración final y aplicación de rutas [Victor]
-	- Enlace de Sant Joan Despi	
-		- ~~Instalar NanoBridge de Josep Maria [Victor/David]~~
-		- ~~Configuración enlace SJD-SCC [Victor]~~
-		- ~~Prueba de conectividad con NB [Victor/David]~~		
-		- ~~Configuración final y aplicación de rutas [Victor]~~
-	- ~~Cambios frecuencias de canales en red Eixample [Victor]~~	
+
+
+# Actuaciones sobre la Red Actual
+
+- Cambio IPs de nodos al rango MESH correcto
+- Enlace de Santa Coloma
+	- ~~Preconfiguracion [Victor]~~
+	- ~~Montaje de placa [viernes tarde, victor, david]~~
+	- Configuración final y aplicación de rutas [Victor]
+- Enlace de Sant Joan Despi	
+	- ~~Instalar NanoBridge de Josep Maria [Victor/David]~~
+	- ~~Configuración enlace SJD-SCC [Victor]~~
+	- ~~Prueba de conectividad con NB [Victor/David]~~		
+	- ~~Configuración final y aplicación de rutas [Victor]~~
+- ~~Cambios frecuencias de canales en red Eixample [Victor]~~	
 
 
 # Tareas pospuestas
