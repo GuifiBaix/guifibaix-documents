@@ -1,5 +1,6 @@
 # Tareas programadas para la semana
 
+
 - Canal 25: Presupuesto colectivo
 - Canal 25: Presupuesto individual
 - SantJeroni41: Presupuesto
@@ -12,8 +13,8 @@
 	- CNT-Prat: Aclarar si lo que les estan poniendo es Guifi.net o otra cosa
 	- CNT-Prat: Si es Guifi.net pedir el contacto [Aitor]
 - Conectividad entre CNT y CGT
-	- CGT: Hablar con los vecinos que son propietarios de los terrados
-	- Segundo intento y exito del enlace CGT-CNT
+	- Prueba de conectividad Lunes a las 13'30 entre CNT y CGT (Aitor, David, ??)
+	- ~~CGT: Hablar con los vecinos que son propietarios de los terrados~~
 	- CNT: Mediciones y plantear bajadas y alimentacion
 	- CGT: Mediciones y plantear bajadas y alimentacion
 	- Contactar con el chico que vino a la charla de Cornella que vive al lado
@@ -85,6 +86,8 @@
 
 # Tareas pospuestas
 
+- Charla de instituto de Gavà
+- Ir a hablar con IES Miquel Martí i Pol (Cornellà) - (Aitor-David?)
 - David (jefe de Aitor): Confirmar acceso al terrado y luz
 - Hablar con Gats: Domiciliación del pago [David]
 - Comprar manguera de luz (cuando estemos listos para una instalación)
