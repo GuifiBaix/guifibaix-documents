@@ -1,6 +1,7 @@
 # Tareas programadas para la semana
 
-
+- Revisar el dossier
+- Enviar dossier a potenciales del Prat
 - Canal 25: Presupuesto colectivo
 - Canal 25: Presupuesto individual
 - SantJeroni41: Presupuesto
@@ -66,6 +67,12 @@
 	- MLDonkey: Specify json interface
 - Investigar que cacharros usan en Torrellas [David/Victor]
 	- Mikrotik y Ubiquiti, sin qMp, software nativo de los trastos.
+- Amics del prat: Enviar información (http://amicsdelprat.cat)
+- Coral del prat: Enviar información (coraldelprat@hotmail.com)
+- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
+- Colla de diables del prat: Enviar información
+- Asociacion de vecinos: Enviar información 
+
 
 
 
