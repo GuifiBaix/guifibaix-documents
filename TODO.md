@@ -29,24 +29,19 @@
 	- Elisenda: Poner el punto en el mapa de guifi.net
 	- Elisenda: Escribir contrato [Hablar con Victor, necesario antes?]
 	- Elisenda: Subir (Acabados, Factura, Cobrar, vozIp) [David, RaulB]
-
-
-# Tareas pospuestas
-
-- Revisar el dossier lo que dijo Victor [David]
-- Enviar dossier a potenciales del Prat
-- Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
 - Sant Jeroni: Revisar el presupuesto
 - Corbera: Contestarle [Nosotros]
 - Corbera: Hablar con los de Corbera [Victor]
 	- Corbera: Que antenas usan
 	- Corbera: Que proxies usan
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
-- Montar git privado con presupuestos y facturas [David/Victor]
-	- Bitbucket gratuito o 5€ mes en GitHub
-- Comprar bridas blancas
-- Pasar lista de material a Raul para la Cofac [David]
 - Clientes potenciales
+	- Petanca [Esperando respuesta]
+	- Amics del prat: Enviar información (http://amicsdelprat.cat)
+	- Coral del prat: Enviar información (coraldelprat@hotmail.com)
+	- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
+	- Colla de diables del prat: Enviar información
+	- Asociacion de vecinos: Enviar información 
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
 	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
@@ -54,15 +49,26 @@
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor?]
 	- Quedar prueba connectividad con Carlos Marin [David]
 	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba. [David]
-	- Llamar a la lista de Sant Joan
 	- Revisar la lista del Prat
 - Enviar una copia del convenio a Gats
+- Hacer checklists de instalación
+
+# Tareas pospuestas
+
+- Revisar el dossier lo que dijo Victor [David]
+- Enviar dossier a potenciales del Prat
+- Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
+- Montar git privado con presupuestos y facturas [David/Victor]
+	- Bitbucket gratuito o 5€ mes en GitHub
+- Comprar bridas blancas
+- Pasar lista de material a Raul para la Cofac [David]
 - Tesorería
 	- Actualizar base de datos con las facturas que nos dejamos [David]
 	- Añadir facturas Aitor [David]
 	- Recoger ingresos y material correspondiente
 	- Recopilar que material se ha colocado sin pagarse
 	- Añadir obsequio de los vecinos que nos cediero el adsl en la fira
+	- Coste del dominio
 - Encontrar una caja buena y barata
 	- Lista a Cofac [RaulB]
 	- Listas por internele [David]
@@ -78,13 +84,8 @@
 	- MLDonkey: Specify json interface
 - Investigar que cacharros usan en Torrellas [David/Victor]
 	- Mikrotik y Ubiquiti, sin qMp, software nativo de los trastos.
-- Amics del prat: Enviar información (http://amicsdelprat.cat)
-- Coral del prat: Enviar información (coraldelprat@hotmail.com)
-- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
-- Colla de diables del prat: Enviar información
-- Asociacion de vecinos: Enviar información 
-- Luis Esplugues: Prueba/Medicion Lunes 10h
-- Esplugues Nani: Prueba/medicion Lunes 17h
+- Luis Esplugues: Prueba/Medicion
+- Esplugues Nani: Prueba/medicion
 - Caixa Guissona: Ingresar pago Santa Coloma
 - Charla de instituto de Gavà
 - Ir a hablar con IES Miquel Martí i Pol (Cornellà) - (Aitor-David?)
@@ -92,20 +93,15 @@
 - Hablar con Gats: Domiciliación del pago [David]
 - Comprar manguera de luz (cuando estemos listos para una instalación)
 - Plantilla factura propia
-- Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
 - Decidir como se distribuye los gastos de desplazamiento
 - Remaquetar el dossier
 - Hacer copias dossier maquetado
-- Instarse y probar el ZELLO para Android
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
+- Instalarse y probar el ZELLO para Android
 - Instalacion prototipo David
 	- Comprar material
 	- Instalar
-- Proyectos potenciales
-	- Reunión Verdaguer [17D]
-	- Associación Petanca
-	- Reorientar antena AAVV el Pi
 - Telefonia IP
 	- Telefonia IP: Calidad de sonido con tráfico
 	- Telefonia IP: Analizar ancho de banda consumido
@@ -114,7 +110,6 @@
 - Compra Cablematic: 1 adaptador de RJ 1 macho 2 hembras para probar como funciona
 - Compra Cablematic: Bobina FTP
 - Compra: Manguera de luz (cuando estemos listos para una instalación)
-- Compra: Cajas estancas
 - Web
 	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
 	- Web: Firefox no carga las imagenes hasta que le das a recargar
@@ -135,13 +130,21 @@
 		- Compartir ADSL con microtik
 		- Compartir varios ADSL con microtik
 	- Investigar si se puede reusar instalacion telefonica para propagar telefonía ip
+- Encargar targetas de visita
+- Conseguir un número de Adam para recibir llamadas de GuifiBaix.
+
+
+# Muy baja prioridad
+
+- Centralita
+	- Mapear ids GuifiBaix a ids Anescu/Adam
+- Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
 - Desarrollo servidores [Victor/David]
 	- Servidor nuevo
 		- Pendiente de que nos lo traigan [Victor]
 		- Ponerlo en marcha
 		- Migrar los servidores
-- Encargar targetas de visita
-- Conseguir un número de Adam para recibir llamadas de GuifiBaix.
+
 
 # Hecho 2013-12-20
 
