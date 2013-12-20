@@ -1,41 +1,51 @@
 # Tareas programadas para la semana
 
-- Revisar el dossier
-- Enviar dossier a potenciales del Prat
-- Canal 25: Presupuesto colectivo
-- Canal 25: Presupuesto individual
-- SantJeroni41: Presupuesto
-- Corbera: Contestarles algo
-- Hospitalet: Contestarles algo
-- Caixa Guissona: Abrir cuenta [Salva]
-- Caixa Guissona: Ingresar pago Santa Coloma
 - CNT-Prat: Quedar con ellos [Aitor]
-	- CNT-Prat: Mirar donde esta la sede
+	- CNT-Prat: averiguar telefono
 	- CNT-Prat: Aclarar si lo que les estan poniendo es Guifi.net o otra cosa
 	- CNT-Prat: Si es Guifi.net pedir el contacto [Aitor]
 - Conectividad entre CNT y CGT
 	- Prueba de conectividad Lunes a las 13'30 entre CNT y CGT (Aitor, David, ??)
-	- ~~CGT: Hablar con los vecinos que son propietarios de los terrados~~
 	- CNT: Mediciones y plantear bajadas y alimentacion
 	- CGT: Mediciones y plantear bajadas y alimentacion
 	- Contactar con el chico que vino a la charla de Cornella que vive al lado
-- Hablar con paco para... [DL tarde, David]
+- CNT: Presupuesto [27]
+- CGT: Presupuesto
+- Canal 25: Presupuesto colectivo [Lunes 10h]
+- Canal 25: Presupuesto individual
+- Hablar con paco para... [DV tarde, David]
 	- que hable con petanqueros
 	- que nos pase el contacto
 	- orientar la antena
 	- colocarles microfiltros
 	- reunion para explicar la instalacion
 	- charla Desconexion/GuifiBaix en AAVV el Pi
+- Actuaciones sobre la Red Actual
+	- Cambio IPs de nodos al rango MESH correcto
+	- Reorientar antea Josep Maria
+	- Grabar configuraciones finales
 - Enlace Santa Coloma [DX]
+	- Elisenda: Contratar numero de pruevas con Adam
 	- Elisenda: Poner el punto en el mapa de guifi.net
 	- Elisenda: Escribir contrato [Hablar con Victor, necesario antes?]
-	- Elisenda: Contratar numero de pruevas con Adam
-	- Elisenda: Subir (Acabados, Factura, Cobrar, vozIp, rutas) [David, RaulB]
+	- Elisenda: Subir (Acabados, Factura, Cobrar, vozIp) [David, RaulB]
+
+
+# Tareas pospuestas
+
+- Revisar el dossier lo que dijo Victor [David]
+- Enviar dossier a potenciales del Prat
+- Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
+- Sant Jeroni: Revisar el presupuesto
+- Corbera: Contestarle [Nosotros]
+- Corbera: Hablar con los de Corbera [Victor]
+	- Corbera: Que antenas usan
+	- Corbera: Que proxies usan
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - Montar git privado con presupuestos y facturas [David/Victor]
 	- Bitbucket gratuito o 5€ mes en GitHub
 - Comprar bridas blancas
-- Pasar lista de material a Raul para la Cofac
+- Pasar lista de material a Raul para la Cofac [David]
 - Clientes potenciales
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
@@ -44,18 +54,19 @@
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor?]
 	- Quedar prueba connectividad con Carlos Marin [David]
 	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba. [David]
+	- Llamar a la lista de Sant Joan
 	- Revisar la lista del Prat
 - Enviar una copia del convenio a Gats
 - Tesorería
-	- Actualizar base de datos con las facturas que nos dejamos
+	- Actualizar base de datos con las facturas que nos dejamos [David]
+	- Añadir facturas Aitor [David]
 	- Recoger ingresos y material correspondiente
 	- Recopilar que material se ha colocado sin pagarse
-	- Añadir obsequio de los vecinos de la fira
+	- Añadir obsequio de los vecinos que nos cediero el adsl en la fira
 - Encontrar una caja buena y barata
 	- Lista a Cofac [RaulB]
 	- Listas por internele [David]
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
-- Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
 - Telefonia IP
 	- Adam: Prueba llamada
 	- Adam: Prueba recepción
@@ -72,27 +83,9 @@
 - Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
 - Colla de diables del prat: Enviar información
 - Asociacion de vecinos: Enviar información 
-
-
-
-
-# Actuaciones sobre la Red Actual
-
-- Cambio IPs de nodos al rango MESH correcto
-- Enlace de Santa Coloma
-	- ~~Preconfiguracion [Victor]~~
-	- ~~Montaje de placa [viernes tarde, victor, david]~~
-	- Configuración final y aplicación de rutas [Victor]
-- Enlace de Sant Joan Despi	
-	- ~~Instalar NanoBridge de Josep Maria [Victor/David]~~
-	- ~~Configuración enlace SJD-SCC [Victor]~~
-	- ~~Prueba de conectividad con NB [Victor/David]~~		
-	- ~~Configuración final y aplicación de rutas [Victor]~~
-- ~~Cambios frecuencias de canales en red Eixample [Victor]~~	
-
-
-# Tareas pospuestas
-
+- Luis Esplugues: Prueba/Medicion Lunes 10h
+- Esplugues Nani: Prueba/medicion Lunes 17h
+- Caixa Guissona: Ingresar pago Santa Coloma
 - Charla de instituto de Gavà
 - Ir a hablar con IES Miquel Martí i Pol (Cornellà) - (Aitor-David?)
 - David (jefe de Aitor): Confirmar acceso al terrado y luz
@@ -149,6 +142,29 @@
 		- Migrar los servidores
 - Encargar targetas de visita
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
+
+# Hecho 2013-12-20
+
+- ~~Verdaguer 42: Reunion vecinos~~
+- ~~Caixa Guissona: Abrir cuenta~~ [Salva]
+- ~~SantJeroni41: Presupuesto~~
+- ~~CNT-Prat: Mirar donde esta la sede~~ [Enric Morera 77]a
+- ~~CGT: Hablar con los vecinos que son propietarios de los terrados~~
+- ~~Elisenda: Subir (rutas, reorientar)~~ [David, RaulB]
+- ~~Pasar lista del prat a hoja calculo~~
+- Actuaciones sobre la Red Actual
+	- ~~Enlace de Santa Coloma~~
+		- ~~Preconfiguracion [Victor]~~
+		- ~~Montaje de placa [viernes tarde, victor, david]~~
+		- ~~Configuración final y aplicación de rutas [Victor]~~
+	- ~~Enlace de Sant Joan Despi~~
+		- ~~Instalar NanoBridge de Josep Maria [Victor/David]~~
+		- ~~Configuración enlace SJD-SCC [Victor]~~
+		- ~~Prueba de conectividad con NB [Victor/David]~~		
+		- ~~Configuración final y aplicación de rutas [Victor]~~
+	- ~~Cambios frecuencias de canales en red Eixample [Victor]~~	
+
+
 
 # Hecho 2013-12-13 
 
