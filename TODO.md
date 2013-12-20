@@ -13,13 +13,14 @@
 - CGT: Presupuesto
 - Canal 25: Presupuesto colectivo [Lunes 10h]
 - Canal 25: Presupuesto individual
-- Hablar con paco para... [DV tarde, David]
-	- que hable con petanqueros
-	- que nos pase el contacto
-	- orientar la antena
-	- colocarles microfiltros
-	- reunion para explicar la instalacion
-	- charla Desconexion/GuifiBaix en AAVV el Pi
+- ~~Hablar con paco para...~~
+	- ~~que hable con petanqueros~~ [No quieren]
+	- ~~colocarles microfiltros~~ [Ya los tenian]
+	- ~~reunion para explicar la instalacion~~
+	- ~~charla Desconexion/GuifiBaix en AAVV el Pi~~ [Un Jueves de enero]
+- AAVV el Pi: Orientar la antena
+- AAVV el Pi: Fijar un jueves de enero para charla
+- AAVV el Pi: Cartel Charla
 - Actuaciones sobre la Red Actual
 	- Cambio IPs de nodos al rango MESH correcto
 	- Reorientar antea Josep Maria
