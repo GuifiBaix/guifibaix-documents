@@ -13,6 +13,7 @@
 - CGT: Presupuesto
 - Canal 25: Presupuesto colectivo [Lunes 10h]
 - Canal 25: Presupuesto individual
+- Prat-Gava40: Responderles
 - ~~Hablar con paco para...~~
 	- ~~que hable con petanqueros~~ [No quieren]
 	- ~~colocarles microfiltros~~ [Ya los tenian]
