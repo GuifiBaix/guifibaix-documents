@@ -38,18 +38,18 @@
 	- Corbera: Que proxies usan
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - Clientes potenciales
-	- Petanca [Esperando respuesta]
+	- ~~Petanca~~ [Han dicho que no]
 	- Amics del prat: Enviar información (http://amicsdelprat.cat)
 	- Coral del prat: Enviar información (coraldelprat@hotmail.com)
 	- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
 	- Colla de diables del prat: Enviar información
-	- Asociacion de vecinos: Enviar información 
+	- Asociacion de vecinos: Enviar información
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
 	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
 	- ~~Ricard de Hospitalet: Pidio conectividad en la web.~~ [contactado]
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor?]
-	- Quedar prueba connectividad con Carlos Marin [David]
+	- Quedar prueba connectividad con Carlos Marin [A partir del 2]
 	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba. [David]
 	- Revisar la lista del Prat
 - Enviar una copia del convenio a Gats
