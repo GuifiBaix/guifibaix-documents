@@ -134,7 +134,8 @@
 	- Investigar si se puede reusar instalacion telefonica para propagar telefonía ip
 - Encargar targetas de visita
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
-
+- Presupuestos para Jordi Payo
+- Hablar con los otros vecinos de TV3 que no sabían si se iban a mudar o no
 
 # Muy baja prioridad
 
