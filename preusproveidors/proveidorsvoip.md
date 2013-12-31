@@ -73,8 +73,7 @@ Pack ilimitado a fijos y mobiles: 15,90€ + iva /mes
 - Llamadas:
 	- Internas (Adam o Guifi.net): 0€
 	- España fijo:  0,014€/min + IVA
-	- España mobil: 0,070€/min + IVA
-	- España yoigo: 0,120€/min
+	- España mobil: 0,050€/min + IVA
 	- Todo: http://www.adam.es/es/telefonia-ip/tarifas/internacionales
 	- Internacionales más baratas en muchos casos que las nacionales
 
@@ -118,11 +117,28 @@ Pack ilimitado a fijos y mobiles: 15,90€ + iva /mes
 	- Mes: 0€
 - Llamadas:
 	- España fijo:  0,010€/min + IVA
-	- España mobil: 0,039€/min + IVA
+	- España mobil: 0,025€/min + IVA
 	- Internacional:
 		- 0,015€/min + IVA (EEUU, Canada, UK, Francia, China, Grecia, Italia, Alemania, Suecia...)
-		- Mas el resto
+		- Mas caras el resto
 - Aunque no hay establecimiento de llamada el primer minuto siempre se cobra
+
+## Vozelia
+
+- Contacto
+	- http://www.vozelia.com
+- Linea (sin numero)
+- Numero:
+	- Alta: 0€
+	- Mes: 9€
+- Portabilidad:
+	- Alta: 0€
+	- Mes: 0€
+- Llamadas:
+	- Moviles: 0,019€/min + IVA +0,15€ Establecimiento
+	- Fijos: 0,015€/min + IVA
+- Me van a llamar para mejorar la oferta
+
 
 ## Altecom
 
@@ -157,6 +173,7 @@ Pack ilimitado a fijos y mobiles: 15,90€ + iva /mes
 	- Mobiles:  0,050o€  + IVA
 	- Vodafone: 0,0407€  + IVA
 	- Movistar: 0,0414€  + IVA
+
 
 ## Ingetel
 
