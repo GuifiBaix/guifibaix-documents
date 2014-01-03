@@ -5,14 +5,14 @@
 	- CNT-Prat: Aclarar si lo que les estan poniendo es Guifi.net o otra cosa
 	- CNT-Prat: Si es Guifi.net pedir el contacto [Aitor]
 - Conectividad entre CNT y CGT
-	- Prueba de conectividad Lunes a las 13'30 entre CNT y CGT (Aitor, David, ??)
-	- CNT: Mediciones y plantear bajadas y alimentacion
-	- CGT: Mediciones y plantear bajadas y alimentacion
+	- ~~Prueba de conectividad Lunes a las 13'30 entre CNT y CGT (Aitor, David, ??)~~ [Hay 6 megas
+	- ~~CNT: Mediciones y plantear bajadas y alimentacion~~
+	- ~~CGT: Mediciones y plantear bajadas y alimentacion~~
 	- Contactar con el chico que vino a la charla de Cornella que vive al lado
 - CNT: Presupuesto [27]
 - CGT: Presupuesto
-- Canal 25: Presupuesto colectivo [Lunes 10h]
-- Canal 25: Presupuesto individual
+- ~~Canal 25: Presupuesto colectivo [Lunes 10h]~~
+- ~~Canal 25: Presupuesto individual~~
 - Prat-Gava40: Responderles
 - ~~Hablar con paco para...~~
 	- ~~que hable con petanqueros~~ [No quieren]
@@ -24,7 +24,7 @@
 - AAVV el Pi: Cartel Charla
 - Actuaciones sobre la Red Actual
 	- Cambio IPs de nodos al rango MESH correcto
-	- Reorientar antea Josep Maria
+	- ~~Reorientar antea Josep Maria~~
 	- Grabar configuraciones finales
 - Enlace Santa Coloma [DX]
 	- Elisenda: Contratar numero de pruevas con Adam
@@ -57,6 +57,7 @@
 
 # Tareas pospuestas
 
+- Comprar: Grimpadora de apliques
 - Revisar el dossier lo que dijo Victor [David]
 - Enviar dossier a potenciales del Prat
 - Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
