@@ -1,44 +1,64 @@
 # Tareas programadas para la semana
 
-- CNT-Prat: Quedar con ellos [Aitor]
-	- CNT-Prat: averiguar telefono
-	- CNT-Prat: Aclarar si lo que les estan poniendo es Guifi.net o otra cosa
-	- CNT-Prat: Si es Guifi.net pedir el contacto [Aitor]
-- Conectividad entre CNT y CGT
-	- ~~Prueba de conectividad Lunes a las 13'30 entre CNT y CGT (Aitor, David, ??)~~ [Hay 6 megas
-	- ~~CNT: Mediciones y plantear bajadas y alimentacion~~
-	- ~~CGT: Mediciones y plantear bajadas y alimentacion~~
-	- Contactar con el chico que vino a la charla de Cornella que vive al lado
-- CNT: Presupuesto [27]
-- CGT: Presupuesto
-- ~~Canal 25: Presupuesto colectivo [Lunes 10h]~~
-- ~~Canal 25: Presupuesto individual~~
-- Prat-Gava40: Responderles
-- ~~Hablar con paco para...~~
-	- ~~que hable con petanqueros~~ [No quieren]
-	- ~~colocarles microfiltros~~ [Ya los tenian]
-	- ~~reunion para explicar la instalacion~~
-	- ~~charla Desconexion/GuifiBaix en AAVV el Pi~~ [Un Jueves de enero]
-- AAVV el Pi: Orientar la antena
+- Eticom: Reuniones con ellos
+- Eticom: Plantear que Guifi.net permite reducir alquileres de la red de acceso
+- Eticom: 15E presentacion en el prat
+- Convenio con la fundación [Domingo 17h: David-Victor]:
+	- Revisar los tiempos de respuesta
+	- Imprimir, firmar, escanear y enviar
+- Checklist: Crear directorio checklists y el fichero pruebacontectividad.md [David]
+- Checklist: Subir al git checklist de prueba de conectividad [Aitor]
+- Lucena: Preguntarle [Miercoles 18h]
+	- Tenemos Asociacion/Coopertiva consumo y Cooperativa Instaladores
+	- Instalaciones con IVA a la cooperativa
+	- Si las cuotas son de la asociacion (sin iva), pero hay que pagar a los tecnicos de la cooperativa, como?
+- CNT-Prat: Ir Sabado a las 18:30, Enric Morera 77 [David]
+	- CNT-Prat: Dejaran ellos ADSL? Necesidades: inet, telefono, portabilidad?
+	- CNT-Prat: Clarificar precios que les vamos a dar
+	- CNT-Prat: Tener un telefono de contacto
+- Canal 25: Revisarlo [Aitor-David Martes-mañana]
+- Sant Jeroni: Revisar el presupuesto [Aitor-David Martes-mañana]
+- CNT: Presupuesto [Aitor-David Martes-tarde]
+- CGT: Presupuesto [Aitor-David Martes-tarde]
+- Cuenta: Reunion con David de Gats [Aitor-David Jueves mañana]
+	- Cuenta: Como operar
+	- Cuenta: Quien puede hacer que
+	- Cuenta: Capital inicial
+	- Cuenta: Targetas
+	- Cuenta: Operativa internet
+	- Enviar una copia del convenio a Gats
+- Nubip: Evaluar precios de voz ip
+- Elisenda: Enviar un mail explicarle la situacion: Voz IP, viento
+- Elisenda: Revisar antena de Josep Maria por el viento
+- Elisenda: Pensar metodo para fijarlas [Tornillo, dejar marcas con permanente en los elementos que pueden girar]
+- Elisenda: Mirar tamaño del pasador [Victor]
+- Elisenda: Comprar pasador [David]
+- Elisenda: Revisar antena Santa Coloma
+- Elisenda: Contratar numero de pruebas (Adam o Nubip)
+- Elisenda: Poner el punto en el mapa de guifi.net
+- Elisenda: Escribir contrato [Hablar con Victor, necesario antes?]
+- Elisenda: Subir (Acabados, Factura, Contrato, Cobrar, vozIp) [David, RaulB, miercoles tarde?]
+
+- Urgente contestar clientes:
+	- Prat-Gava40: Quedar un dia
+	- Corbera: Contestarle para decirle que estamos mirandolo [David]
+	- Contactar con el chico que vino a la charla de Cornella que vive al lado de CGT
+	- Torrelles: Investigar quien lo lleva y contactar para enlazar
+	- Esparraguera: Contestar
+
+- Redireccionar formulario web a equipo [Victor]
+- Cambiar prefijo del asunto de los mails del formulario web [David]
+	
+- AAVV el Pi: Enviar un postsupuesto
 - AAVV el Pi: Fijar un jueves de enero para charla
 - AAVV el Pi: Cartel Charla
+- AAVV el Pi: Orientar la antena
 - Actuaciones sobre la Red Actual
 	- Cambio IPs de nodos al rango MESH correcto
-	- ~~Reorientar antea Josep Maria~~
 	- Grabar configuraciones finales
-- Enlace Santa Coloma [DX]
-	- Elisenda: Contratar numero de pruevas con Adam
-	- Elisenda: Poner el punto en el mapa de guifi.net
-	- Elisenda: Escribir contrato [Hablar con Victor, necesario antes?]
-	- Elisenda: Subir (Acabados, Factura, Cobrar, vozIp) [David, RaulB]
-- Sant Jeroni: Revisar el presupuesto
-- Corbera: Contestarle [Nosotros]
-- Corbera: Hablar con los de Corbera [Victor]
-	- Corbera: Que antenas usan
-	- Corbera: Que proxies usan
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
+- Recordarle a raul que mire lo de la canaleta
 - Clientes potenciales
-	- ~~Petanca~~ [Han dicho que no]
 	- Amics del prat: Enviar información (http://amicsdelprat.cat)
 	- Coral del prat: Enviar información (coraldelprat@hotmail.com)
 	- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
@@ -47,16 +67,27 @@
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
 	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
-	- ~~Ricard de Hospitalet: Pidio conectividad en la web.~~ [contactado]
-	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor?]
+	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2]
-	- Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba. [David]
+	- Yolanda Losa: Cambiar el punto del mapa que esta mal
+	- Yolanda Losa: Contactar con ella
 	- Revisar la lista del Prat
-- Enviar una copia del convenio a Gats
-- Hacer checklists de instalación
+- RaulS: Preguntar si ha reiniciado o ha empezado a funcionar magicamente
+
+- Corbera: Hablar con los de guifi.net de Corbera [Victor]
+	- Corbera: Que antenas usan
+	- Corbera: Que proxies usan
+
+- Aclarar soluciones tecnicas [David-Victor]
+	- Monitorizacion de los ADSL
+	- Balanceo de ADSL en un edificio
+	- Balanceo de ADSL entre edificios
+	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
+
 
 # Tareas pospuestas
 
+- Nubip: Considerar contratar ADSL y Movil con ellos
 - Comprar: Grimpadora de apliques
 - Revisar el dossier lo que dijo Victor [David]
 - Enviar dossier a potenciales del Prat
@@ -137,6 +168,8 @@
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
 - Presupuestos para Jordi Payo
 - Hablar con los otros vecinos de TV3 que no sabían si se iban a mudar o no
+- Elisenda: Llamarles para preguntarles que tal
+- Elisenda: Hacer la portabilidad
 
 # Muy baja prioridad
 
@@ -148,6 +181,27 @@
 		- Pendiente de que nos lo traigan [Victor]
 		- Ponerlo en marcha
 		- Migrar los servidores
+
+# Hecho 2014-01-03
+
+- ~~CNT-Prat: Aclarar si lo que les estan poniendo es Guifi.net o otra cosa~~ [Quieren Guifi.net, se lo querian hacer ellos pero les parece bien que se lo hagamos nosotros]
+- ~~CNT-Prat: Si es Guifi.net pedir el contacto~~ [Oscar. Ir a la asamblea primer sabado de cada mes]
+- ~~CGT-CNT: Prueba de conectividad Lunes a las 13'30 (Aitor, David, ??)~~ [Hay 27 megas]
+- ~~CNT: Mediciones y plantear bajadas y alimentacion~~
+- ~~CGT: Mediciones y plantear bajadas y alimentacion~~
+- ~~Canal 25: Presupuesto colectivo [Lunes 10h]~~
+- ~~Canal 25: Presupuesto individual~~
+- ~~Hablar con paco para...~~
+	- ~~que hable con petanqueros~~ [No quieren]
+	- ~~colocarles microfiltros~~ [Ya los tenian]
+	- ~~reunion para explicar la instalacion~~
+	- ~~charla Desconexion/GuifiBaix en AAVV el Pi~~ [Un Jueves de enero]
+- ~~Mirar precios de Vozalia~~ [12€ al mes por le numero!!]
+- ~~Reorientar antena Josep Maria~~ [Sube de 30% a 89%!]
+- ~~Ricard de Hospitalet: Pidio conectividad en la web.~~ [contactado]
+- ~~Hacer checklists de instalación~~
+- ~~Contactar con nubip~~ [Nos pasaran precios de telefonia IP, mas adelante podemos considerar adsls con ellos y moviles bajo comercializadores o distribuidores, paso a Eticom directo cuando se constituya]
+- ~~Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba.~~ [De momento no. El chico trabaja por vpn, lo paga la empresa -> precio no es criterio, sino estabilidad, tienen un adsl de 6M nominales por 40€, cuando tengamos estadisticas de fiabilidad se lo volvemos a proponer, les encanto lo de la mediateca ]
 
 
 # Hecho 2013-12-20
