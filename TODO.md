@@ -2,6 +2,10 @@
 
 - ~~Web: Cambiar prefijo del asunto de los mails del formulario web~~ [David] <- "[GuifiBaix Web] conectivitat: Fulanito Gonzalez"
 - ~~Web: Enviar los formularios a equipo (direccion partida en el git)~~ [David]
+- Web: Crear direccion descartable webform01 que redirija a equipo [Victor]
+- Web: Enviar el formulario a la direccion descartable webforms01 [David]
+- ~~Checklist: Crear directorio checklists y el fichero pruebacontectividad.md [David]~~
+- Checklist: Subir al git checklist de prueba de conectividad [Aitor]
 - Urgente contestar:
 	- ~~Corbera: Contestarle para decirle que estamos mirandolo [David]~~
 	- ~~Elisenda: Enviar un mail explicarle la situacion: Voz IP, viento~~
@@ -15,11 +19,13 @@
 	- AAVV el Pi: Fijar un jueves de enero para charla
 	- AAVV el Pi: Cartel Charla
 	- AAVV el Pi: Orientar la antena
-	- TV3 Jordi Payo: Presupuesto
+	- ~~Jordi Payo: Contactarle para el presupuesto~~
 	- TV3 Daniel: Preguntarles si al final se quedan en SJD
 - Averiguar situacion en zonas de expansion que nos han pedido
 	- ~~Sant Boi: Javier Ponce contestar su peticion de ayuda con qmp~~
 	- ~~Castelldefels: Insistir con Loren para quedar y ver que tienen montado~~
+	- ~~BCN-Monistrol7 (Gracia): Contactar con GSL para pedir IP i proxy~~
+	- BCN-Monistrol7 (Gracia): Obtener IP y Proxy
 	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
 		- Corbera: Que antenas usan
 		- Corbera: Que proxies usan
@@ -27,7 +33,6 @@
 		- Mikrotik y Ubiquiti, sin qMp, software nativo de los trastos.
 		- Contacto: 93 689 02 91
 		- EEEIII es la empresa instaladora pero apenas da informacion sobre guifi.net en su web
-	- Gracia: como tienen las puertas a internet (tenemos posibles clientes de confianza)
 	- Esparraguera: Visibilidad con Corbera?
 - Eticom: Reuniones con ellos
 	- Eticom: Plantear que Guifi.net permite reducir alquileres de la red de acceso
@@ -36,10 +41,6 @@
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
 	- Revisar el dossier lo que dijo Victor [David]
-- Web: Crear direccion descartable webform01 que redirija a equipo [Victor]
-- Web: Enviar el formulario a una direccion descartable webforms01 [David]
-- Checklist: Crear directorio checklists y el fichero pruebacontectividad.md [David]
-- Checklist: Subir al git checklist de prueba de conectividad [Aitor]
 - Lucena: Preguntarle [Miercoles 18h]
 	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
 	- Instalaciones con IVA a la cooperativa
@@ -99,6 +100,8 @@
 
 # Tareas pospuestas
 
+- TV3 Jordi Payo: Medicion
+- TV3 Jordi Payo: Presupuesto
 - Eticom: 15E presentacion en el prat
 - Nubip: Considerar contratar ADSL y Movil con ellos
 - Comprar: Grimpadora de apliques
@@ -209,6 +212,7 @@
 - ~~Hacer checklists de instalación~~
 - ~~Contactar con nubip~~ [Nos pasaran precios de telefonia IP, mas adelante podemos considerar adsls con ellos y moviles bajo comercializadores o distribuidores, paso a Eticom directo cuando se constituya]
 - ~~Explicarle las posibilidades a Raquel Losa y proponerle un dia para la prueba.~~ [De momento no. El chico trabaja por vpn, lo paga la empresa -> precio no es criterio, sino estabilidad, tienen un adsl de 6M nominales por 40€, cuando tengamos estadisticas de fiabilidad se lo volvemos a proponer, les encanto lo de la mediateca ]
+- ~~BCN-Monistrol7 (Gracia): Prueba de connectividad~~ Se ven 00:15:6D:1A:ED:F4  DC:9F:DB:5C:DE:35  y  DC:9F:DB:60:9B:24.
 
 
 # Hecho 2013-12-20
