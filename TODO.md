@@ -1,17 +1,49 @@
 # Tareas programadas para la semana
 
+- ~~Web: Cambiar prefijo del asunto de los mails del formulario web~~ [David] <- "[GuifiBaix Web] conectivitat: Fulanito Gonzalez"
+- ~~Web: Enviar los formularios a equipo (direccion partida en el git)~~ [David]
+- Urgente contestar:
+	- ~~Corbera: Contestarle para decirle que estamos mirandolo [David]~~
+	- ~~Elisenda: Enviar un mail explicarle la situacion: Voz IP, viento~~
+	- ~~Convocar interessats inicialment a una reunio de comunitat~~
+	- Quedar prueba connectividad con Carlos Marin [A partir del 2]
+	- Prat-Gava40: Quedar un dia despues de fiestas
+	- Cornella: Contactar con el chico de la charla que vive al lado de CGT
+	- Esparraguera: Contestar estan en un hoyo pueden, igual ven Corbera, empezar una isla, que contacten con las asambleas de Esparraguera y Olesa
+	- Sant Vicenç: Trucar a Leonor
+	- AAVV el Pi: Enviar un postsupuesto
+	- AAVV el Pi: Fijar un jueves de enero para charla
+	- AAVV el Pi: Cartel Charla
+	- AAVV el Pi: Orientar la antena
+	- TV3 Jordi Payo: Presupuesto
+	- TV3 Daniel: Preguntarles si al final se quedan en SJD
+- Averiguar situacion en zonas de expansion que nos han pedido
+	- ~~Sant Boi: Javier Ponce contestar su peticion de ayuda con qmp~~
+	- ~~Castelldefels: Insistir con Loren para quedar y ver que tienen montado~~
+	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
+		- Corbera: Que antenas usan
+		- Corbera: Que proxies usan
+	- Torrellas: Investigar que cacharros usan para enlacar con ellos [David/Victor]
+		- Mikrotik y Ubiquiti, sin qMp, software nativo de los trastos.
+		- Contacto: 93 689 02 91
+		- EEEIII es la empresa instaladora pero apenas da informacion sobre guifi.net en su web
+	- Gracia: como tienen las puertas a internet (tenemos posibles clientes de confianza)
+	- Esparraguera: Visibilidad con Corbera?
 - Eticom: Reuniones con ellos
-- Eticom: Plantear que Guifi.net permite reducir alquileres de la red de acceso
-- Eticom: 15E presentacion en el prat
+	- Eticom: Plantear que Guifi.net permite reducir alquileres de la red de acceso
+	- Eticom: 
 - Convenio con la fundación [Domingo 17h: David-Victor]:
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
+	- Revisar el dossier lo que dijo Victor [David]
+- Web: Crear direccion descartable webform01 que redirija a equipo [Victor]
+- Web: Enviar el formulario a una direccion descartable webforms01 [David]
 - Checklist: Crear directorio checklists y el fichero pruebacontectividad.md [David]
 - Checklist: Subir al git checklist de prueba de conectividad [Aitor]
 - Lucena: Preguntarle [Miercoles 18h]
-	- Tenemos Asociacion/Coopertiva consumo y Cooperativa Instaladores
+	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
 	- Instalaciones con IVA a la cooperativa
-	- Si las cuotas son de la asociacion (sin iva), pero hay que pagar a los tecnicos de la cooperativa, como?
+	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
 - CNT-Prat: Ir Sabado a las 18:30, Enric Morera 77 [David]
 	- CNT-Prat: Dejaran ellos ADSL? Necesidades: inet, telefono, portabilidad?
 	- CNT-Prat: Clarificar precios que les vamos a dar
@@ -28,36 +60,28 @@
 	- Cuenta: Operativa internet
 	- Enviar una copia del convenio a Gats
 - Nubip: Evaluar precios de voz ip
-- Elisenda: Enviar un mail explicarle la situacion: Voz IP, viento
-- Elisenda: Revisar antena de Josep Maria por el viento
-- Elisenda: Pensar metodo para fijarlas [Tornillo, dejar marcas con permanente en los elementos que pueden girar]
+- ~~Elisenda: Revisar antena de Josep Maria por el viento~~ [Miramos directamente la de arriba que no estaba fijada y recibio mas viento]
+- ~~Elisenda: Pensar metodo para fijarlas~~ [Tornillo, dejar marcas con permanente en los elementos que pueden girar]
 - Elisenda: Mirar tamaño del pasador [Victor]
 - Elisenda: Comprar pasador [David]
-- Elisenda: Revisar antena Santa Coloma
 - Elisenda: Contratar numero de pruebas (Adam o Nubip)
 - Elisenda: Poner el punto en el mapa de guifi.net
 - Elisenda: Escribir contrato [Hablar con Victor, necesario antes?]
-- Elisenda: Subir (Acabados, Factura, Contrato, Cobrar, vozIp) [David, RaulB, miercoles tarde?]
+- Elisenda: Subir (Acabados, Orientacion, Factura, Contrato, Cobrar, vozIp) [David, RaulB, miercoles tarde?]
 
-- Urgente contestar clientes:
-	- Prat-Gava40: Quedar un dia
-	- Corbera: Contestarle para decirle que estamos mirandolo [David]
-	- Contactar con el chico que vino a la charla de Cornella que vive al lado de CGT
-	- Torrelles: Investigar quien lo lleva y contactar para enlazar
-	- Esparraguera: Contestar
+# Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
-- Redireccionar formulario web a equipo [Victor]
-- Cambiar prefijo del asunto de los mails del formulario web [David]
-	
-- AAVV el Pi: Enviar un postsupuesto
-- AAVV el Pi: Fijar un jueves de enero para charla
-- AAVV el Pi: Cartel Charla
-- AAVV el Pi: Orientar la antena
+- Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
+- Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
+- Recordarle a raul que mire lo de la canaleta
+- Aclarar soluciones tecnicas [David-Victor]
+	- Monitorizacion de los ADSL
+	- Balanceo de ADSL en un edificio
+	- Balanceo de ADSL entre edificios
+	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
 - Actuaciones sobre la Red Actual
 	- Cambio IPs de nodos al rango MESH correcto
 	- Grabar configuraciones finales
-- Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
-- Recordarle a raul que mire lo de la canaleta
 - Clientes potenciales
 	- Amics del prat: Enviar información (http://amicsdelprat.cat)
 	- Coral del prat: Enviar información (coraldelprat@hotmail.com)
@@ -66,30 +90,18 @@
 	- Asociacion de vecinos: Enviar información
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
-	- Carles Marín: Contactado por telefono pendiente quedar para prueba [David]
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
-	- Quedar prueba connectividad con Carlos Marin [A partir del 2]
 	- Yolanda Losa: Cambiar el punto del mapa que esta mal
 	- Yolanda Losa: Contactar con ella
 	- Revisar la lista del Prat
-- RaulS: Preguntar si ha reiniciado o ha empezado a funcionar magicamente
-
-- Corbera: Hablar con los de guifi.net de Corbera [Victor]
-	- Corbera: Que antenas usan
-	- Corbera: Que proxies usan
-
-- Aclarar soluciones tecnicas [David-Victor]
-	- Monitorizacion de los ADSL
-	- Balanceo de ADSL en un edificio
-	- Balanceo de ADSL entre edificios
-	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
+- RaulS: Preguntar si ha reiniciado su antena o ha empezado a funcionar magicamente
 
 
 # Tareas pospuestas
 
+- Eticom: 15E presentacion en el prat
 - Nubip: Considerar contratar ADSL y Movil con ellos
 - Comprar: Grimpadora de apliques
-- Revisar el dossier lo que dijo Victor [David]
 - Enviar dossier a potenciales del Prat
 - Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
 - Montar git privado con presupuestos y facturas [David/Victor]
@@ -106,7 +118,6 @@
 - Encontrar una caja buena y barata
 	- Lista a Cofac [RaulB]
 	- Listas por internele [David]
-- Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
 - Telefonia IP
 	- Adam: Prueba llamada
 	- Adam: Prueba recepción
@@ -116,8 +127,6 @@
 - MLDonkey
 	- MLDonkey: Minimum fixture setup with no network
 	- MLDonkey: Specify json interface
-- Investigar que cacharros usan en Torrellas [David/Victor]
-	- Mikrotik y Ubiquiti, sin qMp, software nativo de los trastos.
 - Luis Esplugues: Prueba/Medicion
 - Esplugues Nani: Prueba/medicion
 - Caixa Guissona: Ingresar pago Santa Coloma
@@ -164,15 +173,13 @@
 		- Compartir ADSL con microtik
 		- Compartir varios ADSL con microtik
 	- Investigar si se puede reusar instalacion telefonica para propagar telefonía ip
-- Encargar targetas de visita
 - Conseguir un número de Adam para recibir llamadas de GuifiBaix.
-- Presupuestos para Jordi Payo
-- Hablar con los otros vecinos de TV3 que no sabían si se iban a mudar o no
 - Elisenda: Llamarles para preguntarles que tal
 - Elisenda: Hacer la portabilidad
 
 # Muy baja prioridad
 
+- Encargar targetas de visita
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
