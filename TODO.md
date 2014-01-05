@@ -12,6 +12,7 @@
 	- ~~Convocar interessats inicialment a una reunio de comunitat~~
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2]
 	- Prat-Gava40: Quedar un dia despues de fiestas
+	- Llamar a Oscar de CNT Prat para hacer conectividad con Gava40
 	- Cornella: Contactar con el chico de la charla que vive al lado de CGT
 	- Esparraguera: Contestar estan en un hoyo pueden, igual ven Corbera, empezar una isla, que contacten con las asambleas de Esparraguera y Olesa
 	- Sant Vicenç: Trucar a Leonor
@@ -23,6 +24,7 @@
 	- TV3 Daniel: Preguntarles si al final se quedan en SJD
 - Averiguar situacion en zonas de expansion que nos han pedido
 	- ~~Sant Boi: Javier Ponce contestar su peticion de ayuda con qmp~~
+	- Sant Boi: Javier Ponce esperando que diga algo
 	- ~~Castelldefels: Insistir con Loren para quedar y ver que tienen montado~~
 	- ~~BCN-Monistrol7 (Gracia): Contactar con GSL para pedir IP i proxy~~
 	- BCN-Monistrol7 (Gracia): Obtener IP y Proxy
@@ -37,22 +39,21 @@
 - Eticom: Reuniones con ellos
 	- Eticom: Plantear que Guifi.net permite reducir alquileres de la red de acceso
 	- Eticom: 
+- ~~CNT-Prat: Ir Sabado a las 18:30, Enric Morera 77~~ [David]
+	- ~~CNT-Prat: Dejaran ellos ADSL? Necesidades: inet, telefono, portabilidad?~~ -> No tienen ADSL, se conectan al wifi de un simpatizante
+	- ~~CNT-Prat: Tener un telefono de contacto~~ -> Apuntado el de Oscar, que esta interesado como particular
 - Convenio con la fundación [Domingo 17h: David-Victor]:
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
 	- Revisar el dossier lo que dijo Victor [David]
-- Lucena: Preguntarle [Miercoles 18h]
-	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
-	- Instalaciones con IVA a la cooperativa
-	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
-- CNT-Prat: Ir Sabado a las 18:30, Enric Morera 77 [David]
-	- CNT-Prat: Dejaran ellos ADSL? Necesidades: inet, telefono, portabilidad?
-	- CNT-Prat: Clarificar precios que les vamos a dar
-	- CNT-Prat: Tener un telefono de contacto
 - Canal 25: Revisarlo [Aitor-David Martes-mañana]
 - Sant Jeroni: Revisar el presupuesto [Aitor-David Martes-mañana]
 - CNT: Presupuesto [Aitor-David Martes-tarde]
 - CGT: Presupuesto [Aitor-David Martes-tarde]
+- Lucena: Preguntarle [Miercoles 18h]
+	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
+	- Instalaciones con IVA a la cooperativa
+	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
 - Cuenta: Reunion con David de Gats [Aitor-David Jueves mañana]
 	- Cuenta: Como operar
 	- Cuenta: Quien puede hacer que
