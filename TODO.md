@@ -5,14 +5,15 @@
 - Web: Crear direccion descartable webform01 que redirija a equipo [Victor]
 - Web: Enviar el formulario a la direccion descartable webforms01 [David]
 - ~~Checklist: Crear directorio checklists y el fichero pruebacontectividad.md [David]~~
-- Checklist: Subir al git checklist de prueba de conectividad [Aitor]
+- ~~Checklist: Subir al git checklist de prueba de conectividad [Aitor]~~a
+- ~~Investigar: se pueden conectar varios telefonos al adaptador IP mediante la instalacion de telefono existente?~~ -> Si!! Funciona.
 - Urgente contestar:
 	- ~~Corbera: Contestarle para decirle que estamos mirandolo [David]~~
 	- ~~Elisenda: Enviar un mail explicarle la situacion: Voz IP, viento~~
 	- ~~Convocar interessats inicialment a una reunio de comunitat~~
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2]
-	- Prat-Gava40: Quedar un dia despues de fiestas
-	- Llamar a Oscar de CNT Prat para hacer conectividad con Gava40
+	- Prat-Gava40: Quedar un dia para connectividad (dijeron despues de fiestas)
+	- Prat-OscarCNT: Llamarle para hacer conectividad con Gava40
 	- Cornella: Contactar con el chico de la charla que vive al lado de CGT
 	- Esparraguera: Contestar estan en un hoyo pueden, igual ven Corbera, empezar una isla, que contacten con las asambleas de Esparraguera y Olesa
 	- Sant Vicenç: Trucar a Leonor
@@ -24,10 +25,14 @@
 	- TV3 Daniel: Preguntarles si al final se quedan en SJD
 - Averiguar situacion en zonas de expansion que nos han pedido
 	- ~~Sant Boi: Javier Ponce contestar su peticion de ayuda con qmp~~
-	- Sant Boi: Javier Ponce esperando que diga algo
+	- ~~Sant Boi: Javier Ponce esperando que diga algo~~ -> Hizo pruebas, no nos vio y lo tiene parado
+	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros
 	- ~~Castelldefels: Insistir con Loren para quedar y ver que tienen montado~~
+	- Castelldefels: Quedar con Loren
 	- ~~BCN-Monistrol7 (Gracia): Contactar con GSL para pedir IP i proxy~~
-	- BCN-Monistrol7 (Gracia): Obtener IP y Proxy
+	- ~~BCN-Monistrol7 (Gracia): Obtener IP y Proxy~~ -> No se necesita proxy, la IP con el registro del trasto
+	- BCN-Monistrol7 (Gracia): Registrar el trasto en el nodo para tener IP
+	- BCN-Monistrol7 (Gracia): Repetir la prueba con la antena bien configurada
 	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
 		- Corbera: Que antenas usan
 		- Corbera: Que proxies usan
@@ -42,37 +47,42 @@
 - ~~CNT-Prat: Ir Sabado a las 18:30, Enric Morera 77~~ [David]
 	- ~~CNT-Prat: Dejaran ellos ADSL? Necesidades: inet, telefono, portabilidad?~~ -> No tienen ADSL, se conectan al wifi de un simpatizante
 	- ~~CNT-Prat: Tener un telefono de contacto~~ -> Apuntado el de Oscar, que esta interesado como particular
-- Convenio con la fundación [Domingo 17h: David-Victor]:
-	- Revisar los tiempos de respuesta
-	- Imprimir, firmar, escanear y enviar
-	- Revisar el dossier lo que dijo Victor [David]
-- Canal 25: Revisarlo [Aitor-David Martes-mañana]
+- ~~Canal45: Revisarlo [Aitor-David Martes-mañana]~~
+- ~~CNT: Presupuesto [Aitor-David Martes-tarde]~~
+- ~~CGT: Presupuesto [Aitor-David Martes-tarde]~~
 - Sant Jeroni: Revisar el presupuesto [Aitor-David Martes-mañana]
-- CNT: Presupuesto [Aitor-David Martes-tarde]
-- CGT: Presupuesto [Aitor-David Martes-tarde]
+- Canal45: Redactar las propuestas y enviarlas
+- CNT: Redactar las propuestas y enviarlas
+- CGT: Redactar las propuestas y enviarlas
 - Lucena: Preguntarle [Miercoles 18h]
 	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
 	- Instalaciones con IVA a la cooperativa
 	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
-- Cuenta: Reunion con David de Gats [Aitor-David Jueves mañana]
+- Nubip: Evaluar precios de voz ip -> mes mas barato 1,40, aun pendiente de precios
+- ~~Elisenda: Revisar antena de Josep Maria por el viento~~ [Miramos directamente la de arriba que no estaba fijada y recibio mas viento]
+- ~~Elisenda: Pensar metodo para fijarlas~~ [Tornillo, dejar marcas con permanente en los elementos que pueden girar]
+- ~~Elisenda: Mirar tamaño del pasador [Victor]~~ -> 4cm de largo, 7mm grosor.
+- Elisenda: Comprar pasador y tuercas [David]
+- ~~Elisenda: Contratar numero de pruebas (Adam o Nubip)~~ -> Tenemos el de nubip provisional de euskadi
+- Elisenda: Subir (Acabados, Orientacion, Factura, Contrato, Cobrar, vozIp) [David, RaulB, miercoles tarde?]
+- Elisenda: Poner el punto en el mapa de guifi.net
+- ~~Borrador de contrato de servicio [Victor]~~
+
+# Tareas candidatas a subir (Subidlas a las programadas a discrecion)
+
+- Cuenta: Reunion con David de Gats [Aitor-David Jueves mañana] -> Postpuesto
 	- Cuenta: Como operar
 	- Cuenta: Quien puede hacer que
 	- Cuenta: Capital inicial
 	- Cuenta: Targetas
 	- Cuenta: Operativa internet
 	- Enviar una copia del convenio a Gats
-- Nubip: Evaluar precios de voz ip
-- ~~Elisenda: Revisar antena de Josep Maria por el viento~~ [Miramos directamente la de arriba que no estaba fijada y recibio mas viento]
-- ~~Elisenda: Pensar metodo para fijarlas~~ [Tornillo, dejar marcas con permanente en los elementos que pueden girar]
-- Elisenda: Mirar tamaño del pasador [Victor]
-- Elisenda: Comprar pasador [David]
-- Elisenda: Contratar numero de pruebas (Adam o Nubip)
-- Elisenda: Poner el punto en el mapa de guifi.net
-- Elisenda: Escribir contrato [Hablar con Victor, necesario antes?]
-- Elisenda: Subir (Acabados, Orientacion, Factura, Contrato, Cobrar, vozIp) [David, RaulB, miercoles tarde?]
-
-# Tareas candidatas a subir (Subidlas a las programadas a discrecion)
-
+- Convenio con la fundación [David-Victor]:
+	- Revisar los tiempos de respuesta
+	- Imprimir, firmar, escanear y enviar
+	- Revisar el dossier lo que dijo Victor [David]
+- Elisenda: Obtener el numero no provisional de guifibaix
+- Revisar contrato de servicio [David-Victor]
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - Recordarle a raul que mire lo de la canaleta
