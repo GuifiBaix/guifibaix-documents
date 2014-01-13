@@ -2,35 +2,50 @@
 
 - ~~Web: Cambiar prefijo del asunto de los mails del formulario web~~ [David] <- "[GuifiBaix Web] conectivitat: Fulanito Gonzalez"
 - ~~Web: Enviar los formularios a equipo (direccion partida en el git)~~ [David]
-- Web: Crear direccion descartable webform01 que redirija a equipo [Victor]
-- Web: Enviar el formulario a la direccion descartable webforms01 [David]
 - ~~Checklist: Crear directorio checklists y el fichero pruebacontectividad.md [David]~~
 - ~~Checklist: Subir al git checklist de prueba de conectividad [Aitor]~~a
 - ~~Investigar: se pueden conectar varios telefonos al adaptador IP mediante la instalacion de telefono existente?~~ -> Si!! Funciona.
+- ~~Corbera: Contestarle para decirle que estamos mirandolo [David]~~
+- ~~Elisenda: Enviar un mail explicarle la situacion: Voz IP, viento~~
+- ~~Jordi Payo: Contactarle para el presupuesto~~
+- ~~Sant Boi: Javier Ponce contestar su peticion de ayuda con qmp~~
+- ~~Sant Boi: Javier Ponce esperando que diga algo~~ -> Hizo pruebas, no nos vio y lo tiene parado
+- ~~Castelldefels: Insistir con Loren para quedar y ver que tienen montado~~
+- ~~BCN-Monistrol7 (Gracia): Contactar con GSL para pedir IP i proxy~~
+- ~~CNT-Prat: Ir Sabado a las 18:30, Enric Morera 77~~ [David]
+	- ~~CNT-Prat: Dejaran ellos ADSL? Necesidades: inet, telefono, portabilidad?~~ -> No tienen ADSL, se conectan al wifi de un simpatizante
+	- ~~CNT-Prat: Tener un telefono de contacto~~ -> Apuntado el de Oscar, que esta interesado como particular
+- ~~Canal45: Revisarlo [Aitor-David Martes-mañana]~~
+- ~~CNT: Presupuesto [Aitor-David Martes-tarde]~~
+- ~~CGT: Presupuesto [Aitor-David Martes-tarde]~~
+- ~~BCN-Monistrol7 (Gracia): Obtener IP y Proxy~~ -> No se necesita proxy, la IP con el registro del trasto
+- ~~Elisenda: Revisar antena de Josep Maria por el viento~~ [Miramos directamente la de arriba que no estaba fijada y recibio mas viento]
+- ~~Elisenda: Pensar metodo para fijarlas~~ [Tornillo, dejar marcas con permanente en los elementos que pueden girar]
+- ~~Elisenda: Mirar tamaño del pasador [Victor]~~ -> 4cm de largo, 7mm grosor.
+- ~~Elisenda: Comprar pasador y tuercas [David]~~
+- ~~Elisenda: Contratar numero de pruebas (Adam o Nubip)~~ -> Tenemos el de nubip provisional de euskadi
+- ~~Elisenda: Subir (Acabados, Orientacion, Factura, Contrato, Cobrar, vozIp) [David, RaulB, miercoles tarde?]~~
+- ~~Borrador de contrato de servicio [Victor]~~
+- ~~Nubip: Evaluar precios de voz ip~~ -> mes mas barato 1,40, aun pendiente de precios
+- Tesoreria: ~~Añadir obsequio de los vecinos que nos cediero el adsl en la fira~~
+
+
 - Urgente contestar:
-	- ~~Corbera: Contestarle para decirle que estamos mirandolo [David]~~
-	- ~~Elisenda: Enviar un mail explicarle la situacion: Voz IP, viento~~
-	- ~~Convocar interessats inicialment a una reunio de comunitat~~
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2]
 	- Prat-Gava40: Quedar un dia para connectividad (dijeron despues de fiestas)
 	- Prat-OscarCNT: Llamarle para hacer conectividad con Gava40
 	- Cornella: Contactar con el chico de la charla que vive al lado de CGT
 	- Esparraguera: Contestar estan en un hoyo pueden, igual ven Corbera, empezar una isla, que contacten con las asambleas de Esparraguera y Olesa
 	- Sant Vicenç: Trucar a Leonor
+	- TV3 Daniel: Preguntarles si al final se quedan en SJD [david]
+	- Payo: Contestarle
 	- AAVV el Pi: Enviar un postsupuesto
 	- AAVV el Pi: Fijar un jueves de enero para charla
 	- AAVV el Pi: Cartel Charla
 	- AAVV el Pi: Orientar la antena
-	- ~~Jordi Payo: Contactarle para el presupuesto~~
-	- TV3 Daniel: Preguntarles si al final se quedan en SJD
 - Averiguar situacion en zonas de expansion que nos han pedido
-	- ~~Sant Boi: Javier Ponce contestar su peticion de ayuda con qmp~~
-	- ~~Sant Boi: Javier Ponce esperando que diga algo~~ -> Hizo pruebas, no nos vio y lo tiene parado
 	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros
-	- ~~Castelldefels: Insistir con Loren para quedar y ver que tienen montado~~
 	- Castelldefels: Quedar con Loren
-	- ~~BCN-Monistrol7 (Gracia): Contactar con GSL para pedir IP i proxy~~
-	- ~~BCN-Monistrol7 (Gracia): Obtener IP y Proxy~~ -> No se necesita proxy, la IP con el registro del trasto
 	- BCN-Monistrol7 (Gracia): Registrar el trasto en el nodo para tener IP
 	- BCN-Monistrol7 (Gracia): Repetir la prueba con la antena bien configurada
 	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
@@ -41,59 +56,37 @@
 		- Contacto: 93 689 02 91
 		- EEEIII es la empresa instaladora pero apenas da informacion sobre guifi.net en su web
 	- Esparraguera: Visibilidad con Corbera?
+	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
 - Eticom: Reuniones con ellos
-	- Eticom: Plantear que Guifi.net permite reducir alquileres de la red de acceso
-	- Eticom: 
-- ~~CNT-Prat: Ir Sabado a las 18:30, Enric Morera 77~~ [David]
-	- ~~CNT-Prat: Dejaran ellos ADSL? Necesidades: inet, telefono, portabilidad?~~ -> No tienen ADSL, se conectan al wifi de un simpatizante
-	- ~~CNT-Prat: Tener un telefono de contacto~~ -> Apuntado el de Oscar, que esta interesado como particular
-- ~~Canal45: Revisarlo [Aitor-David Martes-mañana]~~
-- ~~CNT: Presupuesto [Aitor-David Martes-tarde]~~
-- ~~CGT: Presupuesto [Aitor-David Martes-tarde]~~
+	- ~~Eticom: Plantear que Guifi.net permite reducir alquileres de la red de acceso~~
+	- Eticom: Seguir yendo a reuniones
+	- Eticom: Presentacion Eticom
 - Sant Jeroni: Revisar el presupuesto [Aitor-David Martes-mañana]
 - Canal45: Redactar las propuestas y enviarlas
+- Domenech: burchar
 - CNT: Redactar las propuestas y enviarlas
 - CGT: Redactar las propuestas y enviarlas
-- Lucena: Preguntarle [Miercoles 18h]
+- ICEA: Preguntarle [Miercoles 18h]
 	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
 	- Instalaciones con IVA a la cooperativa
 	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
-- Nubip: Evaluar precios de voz ip -> mes mas barato 1,40, aun pendiente de precios
-- ~~Elisenda: Revisar antena de Josep Maria por el viento~~ [Miramos directamente la de arriba que no estaba fijada y recibio mas viento]
-- ~~Elisenda: Pensar metodo para fijarlas~~ [Tornillo, dejar marcas con permanente en los elementos que pueden girar]
-- ~~Elisenda: Mirar tamaño del pasador [Victor]~~ -> 4cm de largo, 7mm grosor.
-- Elisenda: Comprar pasador y tuercas [David]
-- ~~Elisenda: Contratar numero de pruebas (Adam o Nubip)~~ -> Tenemos el de nubip provisional de euskadi
-- Elisenda: Subir (Acabados, Orientacion, Factura, Contrato, Cobrar, vozIp) [David, RaulB, miercoles tarde?]
-- Elisenda: Poner el punto en el mapa de guifi.net
-- ~~Borrador de contrato de servicio [Victor]~~
-
-# Tareas candidatas a subir (Subidlas a las programadas a discrecion)
-
-- Cuenta: Reunion con David de Gats [Aitor-David Jueves mañana] -> Postpuesto
+- Nubip: esperar los precios concretos
+- Nubip: esperar telefono de GuifiBaix
+- Elisenda: cambiarle el numero
+- Enviar borrador del contrato a equipo
+- Revisar contrato de servicio [David-Victor]
+- Cuenta: Reunion con David de Gats [Aitor-David Lunes tarde] -> Postpuesto
 	- Cuenta: Como operar
 	- Cuenta: Quien puede hacer que
 	- Cuenta: Capital inicial
 	- Cuenta: Targetas
 	- Cuenta: Operativa internet
 	- Enviar una copia del convenio a Gats
+- Elisenda: Poner el punto en el mapa de guifi.net
 - Convenio con la fundación [David-Victor]:
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
 	- Revisar el dossier lo que dijo Victor [David]
-- Elisenda: Obtener el numero no provisional de guifibaix
-- Revisar contrato de servicio [David-Victor]
-- Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
-- Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
-- Recordarle a raul que mire lo de la canaleta
-- Aclarar soluciones tecnicas [David-Victor]
-	- Monitorizacion de los ADSL
-	- Balanceo de ADSL en un edificio
-	- Balanceo de ADSL entre edificios
-	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
-- Actuaciones sobre la Red Actual
-	- Cambio IPs de nodos al rango MESH correcto
-	- Grabar configuraciones finales
 - Clientes potenciales
 	- Amics del prat: Enviar información (http://amicsdelprat.cat)
 	- Coral del prat: Enviar información (coraldelprat@hotmail.com)
@@ -102,33 +95,61 @@
 	- Asociacion de vecinos: Enviar información
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
-	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
 	- Yolanda Losa: Cambiar el punto del mapa que esta mal
 	- Yolanda Losa: Contactar con ella
 	- Revisar la lista del Prat
-- RaulS: Preguntar si ha reiniciado su antena o ha empezado a funcionar magicamente
+	- Enviar dossier a potenciales del Prat [Pendiente de revision del dossier]
+	- Remaquetar (y Corregir!!) el dossier
+
+- Web: Crear direccion descartable webform01 que redirija a equipo [Victor]
+- Web: Enviar el formulario a la direccion descartable webforms01 [David]
+- Recordarle a raul que mire lo de la canaleta
+- Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
+- RaulS: Hacer seguimiento de la antena
+- Montar git privado con presupuestos y facturas [David/Victor]
+	- Bitbucket gratuito o 5€ mes en GitHub
+- Tesorería
+	- ~~Tesoreria: Actualizar base de datos con las facturas que nos dejamos [David]~~
+	- Tesoreria: Añadir facturas Aitor [David]
+	- Tesoreria: Recoger ingresos y material correspondiente
+	- Tesoreria: Factura de la escalera
+	- Tesoreria: Recopilar que material se ha colocado sin pagarse
+	- Tesoreria: Coste del dominio
+	- Tesoreria: Pasar las facturas a Gats
+- Caixa Guissona: Ingresar pago Santa Coloma
+- Hablar con Gats: Domiciliación del pago [David]
+
+# Tareas candidatas a subir (Subidlas a las programadas a discrecion)
+
+- Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
+- Aclarar soluciones tecnicas [David-Victor]
+	- Monitorizacion de los ADSL
+	- Balanceo de ADSL en un edificio
+	- Balanceo de ADSL entre edificios
+	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
+- Actuaciones sobre la Red Actual
+	- Cambio IPs de nodos al rango MESH correcto
+	- Grabar configuraciones finales
+- Checklist: Stand
+- Checklist: Charla
+- Checklist: Instalación
+- TV3 Jordi Payo: Buscar la medicion
+- TV3 Jordi Payo: Medicion
+- TV3 Jordi Payo: Presupuesto
+- Pasar lista de material a Raul para la Cofac [David]
+- Luis Esplugues: Prueba/Medicion
+- Esplugues Nani: Prueba/medicion
 
 
 # Tareas pospuestas
 
-- TV3 Jordi Payo: Medicion
-- TV3 Jordi Payo: Presupuesto
-- Eticom: 15E presentacion en el prat
 - Nubip: Considerar contratar ADSL y Movil con ellos
 - Comprar: Grimpadora de apliques
-- Enviar dossier a potenciales del Prat
-- Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
-- Montar git privado con presupuestos y facturas [David/Victor]
-	- Bitbucket gratuito o 5€ mes en GitHub
 - Comprar bridas blancas
-- Pasar lista de material a Raul para la Cofac [David]
-- Tesorería
-	- Actualizar base de datos con las facturas que nos dejamos [David]
-	- Añadir facturas Aitor [David]
-	- Recoger ingresos y material correspondiente
-	- Recopilar que material se ha colocado sin pagarse
-	- Añadir obsequio de los vecinos que nos cediero el adsl en la fira
-	- Coste del dominio
+- Compra Cablematic: 1 adaptador de RJ 1 macho 2 hembras para probar como funciona
+- Compra Cablematic: Bobina FTP
+- Compra: Manguera de luz (cuando estemos listos para una instalación)
+- Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
 - Encontrar una caja buena y barata
 	- Lista a Cofac [RaulB]
 	- Listas por internele [David]
@@ -141,17 +162,12 @@
 - MLDonkey
 	- MLDonkey: Minimum fixture setup with no network
 	- MLDonkey: Specify json interface
-- Luis Esplugues: Prueba/Medicion
-- Esplugues Nani: Prueba/medicion
-- Caixa Guissona: Ingresar pago Santa Coloma
 - Charla de instituto de Gavà
 - Ir a hablar con IES Miquel Martí i Pol (Cornellà) - (Aitor-David?)
 - David (jefe de Aitor): Confirmar acceso al terrado y luz
-- Hablar con Gats: Domiciliación del pago [David]
-- Comprar manguera de luz (cuando estemos listos para una instalación)
 - Plantilla factura propia
 - Decidir como se distribuye los gastos de desplazamiento
-- Remaquetar el dossier
+- Remaquetar (y Corregir!!) el dossier
 - Hacer copias dossier maquetado
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
@@ -164,9 +180,6 @@
 	- Telefonia IP: Analizar ancho de banda consumido
 	- Telefonia IP: Probar video-llamadas
 	- Telefonia IP: Pruebas remotas de telefonía IP
-- Compra Cablematic: 1 adaptador de RJ 1 macho 2 hembras para probar como funciona
-- Compra Cablematic: Bobina FTP
-- Compra: Manguera de luz (cuando estemos listos para una instalación)
 - Web
 	- Web: fix GET http://guifibaix.coop/google_analytics_auto.js [HTTP/1.1 404 Not Found 314ms]
 	- Web: Firefox no carga las imagenes hasta que le das a recargar
@@ -187,9 +200,9 @@
 		- Compartir ADSL con microtik
 		- Compartir varios ADSL con microtik
 	- Investigar si se puede reusar instalacion telefonica para propagar telefonía ip
-- Conseguir un número de Adam para recibir llamadas de GuifiBaix.
 - Elisenda: Llamarles para preguntarles que tal
 - Elisenda: Hacer la portabilidad
+
 
 # Muy baja prioridad
 
