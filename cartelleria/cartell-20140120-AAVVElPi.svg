@@ -237,8 +237,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.74787955"
-     inkscape:cx="621.90544"
-     inkscape:cy="393.65805"
+     inkscape:cx="371.86518"
+     inkscape:cy="554.1117"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -256,7 +256,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -498,69 +498,73 @@
            y="93.727417" /></flowRegion><flowPara
          id="flowPara14716" /></flowRoot>    <text
        xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="634.18701"
-       y="117.75253"
+       style="font-size:24.46974564px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="632.07825"
+       y="113.25813"
        id="text14792"
        sodipodi:linespacing="125%"
        transform="matrix(0.9991366,0.04154589,-0.04154589,0.9991366,0,0)"
-       inkscape:transform-center-x="28.571429"><tspan
+       inkscape:transform-center-x="31.778915"><tspan
          sodipodi:role="line"
          id="tspan14794"
-         x="634.18701"
-         y="117.75253">Urdangarins i</tspan><tspan
+         x="632.07825"
+         y="113.25813">Urdangarins i</tspan><tspan
          sodipodi:role="line"
-         x="634.18701"
-         y="145.25253"
+         x="632.07825"
+         y="143.84532"
          id="tspan14796">Ratos a la plantilla</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text14798"
-       y="137.64604"
-       x="104.0677"
+       y="123.6817"
+       x="103.06937"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
        transform="matrix(0.9974544,0.07130717,-0.07130717,0.9974544,0,0)"
        inkscape:transform-center-x="-50.70159"
        inkscape:transform-center-y="2.6237125"><tspan
          id="tspan14802"
-         y="137.64604"
-         x="104.0677"
-         sodipodi:role="line">L'internet més</tspan><tspan
-         y="165.14604"
-         x="104.0677"
+         y="123.6817"
+         x="103.06937"
+         sodipodi:role="line">Internet dels</tspan><tspan
+         y="151.18172"
+         x="103.06937"
          sodipodi:role="line"
-         id="tspan14806">car d'Europa</tspan></text>
+         id="tspan14806">més cars i lents</tspan><tspan
+         y="178.68172"
+         x="103.06937"
+         sodipodi:role="line"
+         id="tspan3158">d'Europa</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="271.24344"
-       y="160.55545"
+       x="294.23694"
+       y="164.62994"
        id="text14863"
        sodipodi:linespacing="125%"
        transform="matrix(0.99844866,0.05568013,-0.05568013,0.99844866,0,0)"><tspan
          sodipodi:role="line"
-         x="271.24344"
-         y="160.55545"
+         x="294.23694"
+         y="164.62994"
          id="tspan15433">Abusos laborals</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text14875"
-       y="211.76115"
-       x="374.61871"
+       y="212.95888"
+       x="383.99738"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
        transform="matrix(0.99988934,0.01487633,-0.01487633,0.99988934,0,0)"><tspan
          id="tspan14881"
-         y="211.76115"
-         x="374.61871"
+         y="212.95888"
+         x="383.99738"
          sodipodi:role="line">Líders en queixes</tspan><tspan
-         y="239.26115"
-         x="374.61871"
+         y="240.45888"
+         x="383.99738"
          sodipodi:role="line"
          id="tspan14890">dels consumidors</tspan><tspan
-         y="266.76117"
-         x="374.61871"
+         y="267.95889"
+         x="383.99738"
          sodipodi:role="line"
          id="tspan14888" /></text>
     <text
@@ -574,7 +578,7 @@
          id="tspan14908"
          x="374.7666"
          y="105.88986"
-         style="font-size:36px;font-weight:500;-inkscape-font-specification:Ubuntu Medium">Continuaràs nodrint a la bèstia!?</tspan></text>
+         style="font-size:36px;font-weight:500;-inkscape-font-specification:Ubuntu Medium">Seguiràs nodrint a la bèstia!?</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot14910"
@@ -673,7 +677,7 @@
          id="flowPara15099"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Serif;-inkscape-font-specification:Droid Serif">a l'Associació de Veïns El Pi</flowPara><flowPara
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Serif;-inkscape-font-specification:Droid Serif"
-         id="flowPara3156">C/. Avinguda Barcelona, 8</flowPara><flowPara
+         id="flowPara3156">Avinguda de Barcelona, 39</flowPara><flowPara
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Serif;-inkscape-font-specification:Droid Serif"
          id="flowPara15295">Sant Joan Despí</flowPara></flowRoot>    <g
        id="g15297"
@@ -792,18 +796,18 @@
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="559.54596"
-       y="270.91464"
+       x="573.89935"
+       y="275.09366"
        id="text14840"
        sodipodi:linespacing="125%"
        transform="matrix(0.9946521,-0.1032821,0.1032821,0.9946521,0,0)"><tspan
          sodipodi:role="line"
-         x="562.08112"
-         y="270.91464"
+         x="576.43451"
+         y="275.09366"
          id="tspan3272">Xarxa d'accés </tspan><tspan
          sodipodi:role="line"
-         x="559.54596"
-         y="298.41464"
+         x="573.89935"
+         y="302.59366"
          id="tspan3278">encara en monopoli</tspan></text>
     <text
        sodipodi:linespacing="100%"
