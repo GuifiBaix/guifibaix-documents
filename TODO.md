@@ -1,28 +1,49 @@
 # Tareas programadas para la semana
 
-- Enviar info subvenciones a cooperativas Sant Joan Despi
+- ~~AAVV el Pi: Fijar un jueves de enero para charla [David]~~
+- ~~AAVV el Pi: Cartel Charla~~
+- ~~Plantilla de presupuesto simplificado~~
+- ~~CNT: Redactar las propuestas y enviarlas~~
+- ~~Eticom: Presentacion Eticom~~
+- ~~Tesoreria: conseguir acceso a banca online~~
+- ~~Nubip: esperar los precios concretos [david]~~
+- ~~Nubip: esperar telefono de GuifiBaix [david]~~
+- ~~Cuenta: Reunion con David de Gats [Aitor-David Lunes tarde] -> Postpuesto~~
+	- Cuenta: Como operar
+	- Cuenta: Quien puede hacer que
+	- Cuenta: Capital inicial
+	- Cuenta: Targetas
+	- Cuenta: Operativa internet
+	- Enviar una copia del convenio a Gats
+- ~~Web: Crear direccion descartable webform01 que redirija a equipo [Victor]~~
+
+
+- Material para Gats
+	- Tester de cables
+	- Tornillos y tacos del 4
+	- Bombillas
+- Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - Urgente contestar:
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
 	- Prat-Gava40: Quedar un dia para connectividad (dijeron despues de fiestas) [David]
 	- Prat-OscarCNT: Llamarle para hacer conectividad con Gava40 [David]
+	- TorrentNegre33: Prueba de conectividad
 	- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
 	- Esparraguera: Contestar estan en un hoyo pueden, igual ven Corbera, empezar una isla, que contacten con las asambleas de Esparraguera y Olesa [David]
+	- Marti: burchar que hable con los vecinos
 	- Sant Vicenç: Trucar a Leonor [David]
 	- TV3 Daniel: Preguntarles si al final se quedan en SJD [david]
 	- Payo: Contestarle [David]
-	- AAVV el Pi: Fijar un jueves de enero para charla [David]
-	- AAVV el Pi: Cartel Charla
 	- AAVV el Pi: Orientar la antena
+- Charla AAVV El Pi: Imprimir y encartelar [RaulS]
 - Presupuestos [Lunes noche]
-	- Plantilla de presupuesto simplificado
 	- AAVV el Pi: Enviar un postsupuesto
 	- Sant Jeroni: Revisar el presupuesto [Aitor-David Martes-mañana]
 	- Canal45: Redactar las propuestas y enviarlas
 	- Domenech: burchar
-	- CNT: Redactar las propuestas y enviarlas
 	- CGT: Redactar las propuestas y enviarlas
 - Averiguar situacion en zonas de expansion que nos han pedido
-	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros
+	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros [Victor]
 	- CoBoi: Averiguar que es
 	- Castelldefels: Quedar con Loren
 	- BCN-Monistrol7 (Gracia): Registrar el trasto en el nodo para tener IP
@@ -39,28 +60,24 @@
 - Eticom: Reuniones con ellos
 	- ~~Eticom: Plantear que Guifi.net permite reducir alquileres de la red de acceso~~
 	- Eticom: Seguir yendo a reuniones
-	- Eticom: Presentacion Eticom
 - ICEA: Preguntarle [Aitor]
 	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
 	- Instalaciones con IVA a la cooperativa
 	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
-- Nubip: esperar los precios concretos [david]
-- Nubip: esperar telefono de GuifiBaix [david]
-- Elisenda: cambiarle el numero [david]
+- ICEA: Esperar respuesta [Aitor]
+- Nubip: Enviar papeleo para el numero de GuifiBaix
+- Elisenda: portabibilidad
+- Elisenda: esperar firma autorizacion bancaria
+- Elisenda: esperar firma contrato de servicio
+- Elisenda: cambiarle la cuenta SIP [david]
+- Elisenda: pedir portabilidad [david]
 - Contrato de servicio: Enviar borrador a equipo [david]
 - Contrato de servicio: Pasar el borrador a markdown [david]
 - Contrato de servicio: Discutir en la lista [todos]
 - Contrato de servicio: Revisar contrato de servicio [David-Victor]
-- Cuenta: Reunion con David de Gats [Aitor-David Lunes tarde] -> Postpuesto
-	- Llevar facturas
-	- Llevar convenio
-	- Cuenta: Como operar
-	- Cuenta: Quien puede hacer que
-	- Cuenta: Capital inicial
-	- Cuenta: Targetas
-	- Cuenta: Operativa internet
-	- Enviar una copia del convenio a Gats
-- Elisenda: Poner el punto en el mapa de guifi.net
+- Enviar facturas digitales
+- Tesoreria: Esperar tarjetas
+- ~~Elisenda: Poner el punto en el mapa de guifi.net~~
 - Convenio con la fundación [David-Victor]:
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
@@ -78,23 +95,28 @@
 	- Revisar la lista del Prat
 	- Enviar dossier a potenciales del Prat [Pendiente de revision del dossier]
 	- Remaquetar (y Corregir!!) el dossier
-- Web: Crear direccion descartable webform01 que redirija a equipo [Victor]
 - Web: Enviar el formulario a la direccion descartable webforms01 [David]
 - Recordarle a raul que mire lo de la canaleta
 - Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - RaulS: Hacer seguimiento de la antena
+- RaulS: Actualizar antena [Victor]
 - Montar git privado con presupuestos y facturas [David/Victor]
 	- Bitbucket gratuito o 5€ mes en GitHub
+	- Subir privado al bitbucket [david]
 - Tesorería
 	- ~~Tesoreria: Actualizar base de datos con las facturas que nos dejamos [David]~~
 	- Tesoreria: Añadir facturas Aitor [David]
 	- Tesoreria: Recoger ingresos y material correspondiente
-	- Tesoreria: Factura de la escalera
+	- Tesoreria: Factura de la escalera [aitor]
 	- Tesoreria: Recopilar que material se ha colocado sin pagarse
-	- Tesoreria: Coste del dominio
+	- Tesoreria: Coste del dominio [victor]
 	- Tesoreria: Pasar las facturas a Gats
 - Caixa Guissona: Ingresar pago Santa Coloma
 - Hablar con Gats: Domiciliación del pago [David]
+- Actuaciones sobre la Red Actual
+	- Cambio IPs de nodos al rango MESH correcto [victor] 
+	- Grabar configuraciones finales [victor]
+- Pasar lista de material a Raul para la Cofac [David]
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
@@ -104,18 +126,14 @@
 	- Balanceo de ADSL en un edificio
 	- Balanceo de ADSL entre edificios
 	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
-- Actuaciones sobre la Red Actual
-	- Cambio IPs de nodos al rango MESH correcto
-	- Grabar configuraciones finales
 - Checklist: Stand
 - Checklist: Charla
 - Checklist: Instalación
 - TV3 Jordi Payo: Buscar la medicion
 - TV3 Jordi Payo: Medicion
 - TV3 Jordi Payo: Presupuesto
-- Pasar lista de material a Raul para la Cofac [David]
-- Luis Esplugues: Prueba/Medicion
-- Esplugues Nani: Prueba/medicion
+- Luis Esplugues: Prueba/Medicion [aitor]
+- Esplugues Nani: Prueba/medicion [aitor]
 
 
 # Tareas pospuestas
@@ -130,12 +148,6 @@
 - Encontrar una caja buena y barata
 	- Lista a Cofac [RaulB]
 	- Listas por internele [David]
-- Telefonia IP
-	- Adam: Prueba llamada
-	- Adam: Prueba recepción
-	- Adam: Prueba multiples receptores
-	- Adam: Prueba diferentes transportes
-	- Adam: Prueba calidad con tráfico
 - MLDonkey
 	- MLDonkey: Minimum fixture setup with no network
 	- MLDonkey: Specify json interface
