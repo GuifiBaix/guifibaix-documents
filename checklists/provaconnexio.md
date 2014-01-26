@@ -1,6 +1,6 @@
-= Llista de material a portar a una prova de connexió =
+# Checklist per a proves de connexió
 
-Antes de ir:
+## Accions previes
 
 - Asegurar que se puede acceder al terrado
 	- Si es particular que los vecinos estén
@@ -17,29 +17,32 @@ Antes de ir:
 - Calcular las orientaciones de los posibles puntos a conectar
 - Comprobar que la antena este funcionado bien con el portatil que se va a usar.
 
-Necesarios:
+## Material a portar
 
 - ordenador portatil
 - cables de red (2 largos por punto)
 - alargo electricidad
+- ladrón
 - PoE (1 por punto)
 - antena (1 por punto)
 - adaptador enchufe viejo
-- ladrón
 - bridas
 - herramientas por si acaso
-- cinta métrica
+	- Tornavises para abrir cajas
+- cinta mètrica
 - metro rígido
 - libreta para apuntar
 - boli
-- brujula
-- orientaciones (coordenadas)
-- camara de fotos
-- prismaticos
+- bruixola
+- orientacions (coordenades)
+- càmara de fotos
+- prismàtics
 
-Opcionales (a valorar en cada caso):
+# Material opcional
 
 - Escalera
 - Palo para enganchar antena a mayor altura + precinto
+
+
 
 
