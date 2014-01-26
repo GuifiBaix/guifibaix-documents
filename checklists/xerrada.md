@@ -1,6 +1,6 @@
-= Checklist per a xerrades =
+# Checklist per a xerrades
 
-== Accions previes ==
+## Accions previes
 
 - Confirmar día i hora
 - Comprovar mitjans
@@ -20,7 +20,7 @@
 	- Difusió als medis locals (on fem la xerrada)
 - Revisar la presentació
 
-== El día abans
+## El día abans
 
 - Confirmar que tindrem hoste, i que anira gent
 - Interpelar directament als coneguts
@@ -28,7 +28,7 @@
 - Recordar-ho als nostres murs
 - Recordar-ho a la llista de correu
 
-== Material ==
+## Material
 
 - Roller
 - Hojas  de petició de conmectivitat
