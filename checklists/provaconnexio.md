@@ -34,6 +34,8 @@ Necesarios:
 - boli
 - brujula
 - orientaciones (coordenadas)
+- camara de fotos
+- prismaticos
 
 Opcionales (a valorar en cada caso):
 
