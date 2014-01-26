@@ -7,7 +7,7 @@
 	- Sala
 	- Proyector
 	- Internet
-	- Microfonía
+	- Microfonia
 - Preparar el cartell
 - Difusió local
 	- Imprimir cartells
@@ -37,7 +37,7 @@
 - Pancarta desconexionIbex
 - Ordenador
 - Clicker
-- Presentació en pen
+- Pen amb la presentació
 - Material de mostra
 	- Antena
 	- Aplic
