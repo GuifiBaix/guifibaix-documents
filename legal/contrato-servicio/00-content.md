@@ -6,7 +6,12 @@ En Sant Joan Despí, a {fecha.dia} de {fecha.mes} de {fecha.año}
 
 ## REUNIDOS
 
-DE UNA  PARTE, {cliente.nombre} mayor de edad, con D.N.I. número {cliente.dni}, en adelante, el “CLIENTE”, domiciliada en {cliente.domicilio.municipio}, {cliente.domicilio.direccion}, C.P. {cliente.domicilio.codigopostal}  y C.I.F. (…).
+DE UNA  PARTE,
+{cliente.nombre} mayor de edad,
+con D.N.I. número {cliente.dni}, en adelante, el “CLIENTE”,
+domiciliada en {cliente.domicilio.municipio},
+{cliente.domicilio.direccion},
+C.P. {cliente.domicilio.codigopostal}.
 
 DE OTRA  PARTE,
 {proveedor.repersentante.nombre},
@@ -48,7 +53,10 @@ a) Mantenimiento de HARDWARE: Mantenimiento de Antenas y cableado, routers y swi
 b) Mantenimiento de SOFTWARE: Mantenimiento de servicios de la red, y software de antenas y dispositivos.
 c) Mantenimiento de soporte de RED: Mantenimiento de la conectividad y la seguridad de la misma.
 d) Servicios adicionales de (…) [citar todos y cada uno de los servicios]  
-Que las Partes reunidas en la sede social del CLIENTE, acuerdan celebrar el presente contrato de MANTENIMIENTO DE SERVICIOS, en adelante, el “Contrato”, de acuerdo con las siguientes 
+
+Que las Partes reunidas en la sede social del CLIENTE,
+acuerdan celebrar el presente contrato de MANTENIMIENTO DE SERVICIOS,
+en adelante, el “Contrato”, de acuerdo con las siguientes 
 
 ## CLÁUSULAS
 
@@ -87,30 +95,23 @@ El PROVEEDOR deberá adoptar las medidas de índole técnica y organizativas nec
 
 a) Mantenimiento de HARDWARE:
 
-	Mantenimiento preventivo que incluye una revisión periódica detallada del correcto funcionamiento de los equipos de hardware en todos sus componentes.
-	Mantenimiento correctivo que incluye el coste de la mano de obra en la sustitución de los componentes tanto internos como externos que fallaran en los equipos. [QUIZAS ESPECIFICAR QUE CON LA CUOTA ALGUN CAMBIO ES GRATIS, SI NO COMPRAN LA ANTENA o ROUTER….]
-	Instalación de otros dispositivos adicionales para la mejora del rendimiento operativo en general y de seguridad.
+	- Mantenimiento preventivo que incluye una revisión periódica detallada del correcto funcionamiento de los equipos de hardware en todos sus componentes.
+	- Mantenimiento correctivo que incluye el coste de la mano de obra en la sustitución de los componentes tanto internos como externos que fallaran en los equipos. [QUIZAS ESPECIFICAR QUE CON LA CUOTA ALGUN CAMBIO ES GRATIS, SI NO COMPRAN LA ANTENA o ROUTER….]
+	- Instalación de otros dispositivos adicionales para la mejora del rendimiento operativo en general y de seguridad.
 
 
 b) Mantenimiento de SOFTWARE:
-
-	Mantenimiento preventivo del software instalado que incluye la revisión de los parámetros críticos de los equipos y de la red.
-
-	Mantenimiento correctivo que incluye la reinstalación de software en el caso de anomalías en el funcionamiento.
-
-	Configuración del software ya instalado.
-
-	Actualización e instalación de software adicional con licencia (si la requiere).
+	- Mantenimiento preventivo del software instalado que incluye la revisión de los parámetros críticos de los equipos y de la red.
+	- Mantenimiento correctivo que incluye la reinstalación de software en el caso de anomalías en el funcionamiento.
+	- Configuración del software ya instalado.
+	- Actualización e instalación de software adicional con licencia (si la requiere).
  
 c) Mantenimiento de RED: 
 
-	Mantenimiento preventivo que incluya la monitorización de los parámetros básicos de la red de forma que se garantice su adecuada dimensión.
-
-	Configuración y optimización para el correcto funcionamiento de la comunicación entre los equipos conectados en RED, así como todos los periféricos conectados a ella.
-
-	Verificación del cableado de la RED en los equipos y periféricos.
-
-	Mantenimiento correctivo que incluye la reconfiguración del hardware y software de RED después de la caída del sistema u otros percances.
+	- Mantenimiento preventivo que incluya la monitorización de los parámetros básicos de la red de forma que se garantice su adecuada dimensión.
+	- Configuración y optimización para el correcto funcionamiento de la comunicación entre los equipos conectados en RED, así como todos los periféricos conectados a ella.
+	- Verificación del cableado de la RED en los equipos y periféricos.
+	- Mantenimiento correctivo que incluye la reconfiguración del hardware y software de RED después de la caída del sistema u otros percances.
 
 
 d) Servicios adicionales de (…) [citar todos y cada uno de los servicios, y las características de su mantenimiento].
@@ -148,7 +149,7 @@ d) Servicios adicionales de (…) [citar todos y cada uno de los servicios, y la
 2.2.16. El PROVEEDOR ejecutará el Contrato realizando de manera competente y profesional los Servicios, cumpliendo los niveles de calidad exigidos y cuidando diligentemente los materiales del CLIENTE que tuviera que utilizar como consecuencia del Contrato. 
 
 
-TERCERA.- POLÍTICA DE USO
+### TERCERA.- POLÍTICA DE USO
 
 3.1 El CLIENTE  es el único responsable de determinar si los servicios que constituyen el objeto de este Contrato se ajustan a sus necesidades, por lo que el PROVEEDOR no garantiza que el servicio de mantenimiento contratado se ajuste a las necesidades específicas del CLIENTE.
 
@@ -156,19 +157,19 @@ TERCERA.- POLÍTICA DE USO
 
 
 
-CUARTA.- PRECIO Y FACTURACIÓN.- 
+### CUARTA.- PRECIO Y FACTURACIÓN.- 
 
 4.1 El precio del Contrato es de (…) [indicar el precio de cada servicio o el total]  IVA excluido. 
 
 4.2 [Como debe el cliente pagar la cuota???] El pago de las facturas se realizará, tras la aceptación de los trabajos por el CLIENTE, mediante transferencia bancaria a los 30 días de la fecha de recepción de la factura a la siguiente cuenta corriente titularidad del PROVEEDOR: (…) [indicar nº de cuenta].
 
 
-QUINTA.- DURACIÓN DEL CONTRATO
+### QUINTA.- DURACIÓN DEL CONTRATO
 
 El plazo de duración del presente Contrato es de (…) [Un año por defecto??] a partir de la fecha referida en el encabezamiento del Contrato. El Contrato podrá ser prorrogado expresamente y por escrito.
 
 
-## SEXTA.- ACUERDO DE NIVEL DE SERVICIO
+### SEXTA.- ACUERDO DE NIVEL DE SERVICIO
 
 6.1 Todos los Servicios prestados por el PROVEEDOR se realizarán por personal especializado en cada materia. El personal del PROVEEDOR acudirá previsto de todo el material necesario, adecuado y actualizado, para prestar los Servicios.
 
@@ -192,11 +193,11 @@ Incidencia leve (…) [indicar períodos para los SLA aproximados]
 
 6.1 El estado de los Servicios se revisará (…) [semanalment/mensualmente/bimensualmente/trimestralmente] por el CLIENTE y el PROVEEDOR  para comprobar su buen funcionamiento.
 
-## SÉPTIMA.- MODIFICACIÓN
+### SÉPTIMA.- MODIFICACIÓN
 
 Las Partes podrán modificar el contrato de mutuo acuerdo y por escrito.
 
-## OCTAVA.- RESOLUCIÓN
+### OCTAVA.- RESOLUCIÓN
 
 Las Partes podrán resolver el Contrato, en caso de incumplimiento de las obligaciones establecidas en el mismo.
 
