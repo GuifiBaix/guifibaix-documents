@@ -1,22 +1,22 @@
 # GuifiBaix: Contrato de servicio
 
 
-En Sant Joan Despí, a {{fecha.dia}} de {{fecha.mes}} de {{fecha.año}}
+En Sant Joan Despí, a {fecha.dia} de {fecha.mes} de {fecha.año}
 
 
 ## REUNIDOS
 
-DE UNA  PARTE, {{cliente.nombre}} mayor de edad, con D.N.I. número {{cliente.dni}}, en adelante, el “CLIENTE”, domiciliada en {{cliente.domicilio.municipio}}, {{cliente.domicilio.direccion}}, C.P. {{cliente.domicilio.codigopostal}}  y C.I.F. (…).
+DE UNA  PARTE, {cliente.nombre} mayor de edad, con D.N.I. número {cliente.dni}, en adelante, el “CLIENTE”, domiciliada en {cliente.domicilio.municipio}, {cliente.domicilio.direccion}, C.P. {cliente.domicilio.codigopostal}  y C.I.F. (…).
 
 DE OTRA  PARTE,
-{{proveedor.repersentante.nombre}},
-con D.N.I. número {{proveedor.representatnte.dni}}
-y en nombre y representación de {{proveedor.nombre}},
+{proveedor.repersentante.nombre},
+con D.N.I. número {proveedor.representatnte.dni}
+y en nombre y representación de {proveedor.nombre},
 en adelante, el “PROVEEDOR”,
-domiciliada en {{proveedor.municipio}},
-{{proveedor.direccion}},
-C.P. {{proveedor.codigopostal}}
-y C.I.F. {{proveedor.cif}}.
+domiciliada en {proveedor.municipio},
+{proveedor.direccion},
+C.P. {proveedor.codigopostal}
+y C.I.F. {proveedor.cif}.
 
 El CLIENTE y el PROVEEDOR, en adelante, podrán ser denominadas,
 individualmente, “la Parte” y, conjuntamente, “las Partes”,
