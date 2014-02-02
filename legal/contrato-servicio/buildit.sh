@@ -11,7 +11,7 @@ pandoc \
 	-V fontsize='12pt' \
 	-V papersize=a4paper \
 	-f markdown  \
-	--template default.latex -o contrato-servicio.pdf
+	--template default.latex -o guifibaix-contrato-mantenimiento-y-servicio.pdf
 #	-N --toc \
 #	*md
 
