@@ -50,8 +50,11 @@ SEGUNDO: Que el PROVEEDOR es una empresa especializada en la prestación de serv
 TERCERO: Que las Partes están interesadas en celebrar un contrato de Mantenimiento Informático en virtud del cual el PROVEEDOR preste al CLIENTE los servicios de:
 
 a) Mantenimiento de HARDWARE: Mantenimiento de Antenas y cableado, routers y switches, dispositivos de telefonía IP.
+
 b) Mantenimiento de SOFTWARE: Mantenimiento de servicios de la red, y software de antenas y dispositivos.
+
 c) Mantenimiento de soporte de RED: Mantenimiento de la conectividad y la seguridad de la misma.
+
 d) Servicios adicionales de (…) [citar todos y cada uno de los servicios]  
 
 Que las Partes reunidas en la sede social del CLIENTE,
@@ -74,9 +77,18 @@ En virtud del Contrato el PROVEEDOR se obliga a prestar al CLIENTE los servicios
 
 2.1.3. El PROVEEDOR se hará cargo de la totalidad de los tributos, cualquiera que sea su naturaleza y carácter, que se devenguen como consecuencia del Contrato, así como cualesquiera operaciones físicas y jurídicas que conlleve, salvo el Impuesto sobre el Valor Añadido (IVA) o su equivalente, que el PROVEEDOR repercutirá al CLIENTE.
 
-2.1.4. El PROVEEDOR guardará confidencialidad sobre la información que le facilite el CLIENTE en o para la ejecución del Contrato o que por su propia naturaleza deba ser tratada como tal. Se excluye de la categoría de información confidencial toda aquella información que sea divulgada por el CLIENTE, aquella que haya de ser revelada de acuerdo con las leyes o con una resolución judicial o acto de autoridad competente. Este deber se mantendrá durante un plazo de tres años a contar desde la finalización del servicio.
+2.1.4. El PROVEEDOR guardará confidencialidad sobre la información que le facilite el CLIENTE
+en o para la ejecución del Contrato o que por su propia naturaleza deba ser tratada como tal.
+Se excluye de la categoría de información confidencial
+toda aquella información que sea divulgada por el CLIENTE,
+aquella que haya de ser revelada de acuerdo con las leyes o con una resolución judicial o acto de autoridad competente.
+Este deber se mantendrá durante un plazo de tres años a contar desde la finalización del servicio.
 
-2.1.5. En el caso de que la prestación de los Servicios suponga la necesidad de acceder a datos de carácter personal, el PROVEEDOR, como encargado del tratamiento, queda obligado al cumplimiento de la Ley 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y del Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999 y demás normativa aplicable. 
+2.1.5. En el caso de que la prestación de los Servicios suponga la necesidad de acceder a datos de carácter personal,
+el PROVEEDOR, como encargado del tratamiento,
+queda obligado al cumplimiento de la Ley 15/1999,
+de 13 de diciembre, de Protección de Datos de Carácter Personal y del Real Decreto 1720/2007, de 21 de diciembre,
+por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999 y demás normativa aplicable.
 
 El PROVEEDOR responderá, por tanto, de las infracciones en que pudiera incurrir en el caso de que destine los datos personales a otra finalidad, los comunique a un tercero, o en general, los utilice de forma irregular, así como cuando no adopte las medidas correspondientes para el almacenamiento y custodia de los mismos. A tal efecto, se obliga a indemnizar al CLIENTE, por cualesquiera daños y perjuicios que sufra directamente, o por toda reclamación, acción o procedimiento, que traiga su causa de un incumplimiento o cumplimiento defectuoso por parte del PROVEEDOR de lo dispuesto tanto en el Contrato como lo dispuesto en la normativa reguladora de la protección de datos de carácter personal.
 
@@ -91,7 +103,7 @@ El PROVEEDOR deberá adoptar las medidas de índole técnica y organizativas nec
 2.1.8. Las obligaciones establecidas para el PROVEEDOR por la presente cláusula serán también de obligado cumplimiento para sus posibles empleados, colaboradores, tanto externos como internos, y subcontratistas, por lo que el PROVEEDOR responderá frente al CLIENTE si tales obligaciones son incumplidas por tales empleados.
 
 
- 2.2	  El PROVEEDOR prestará los Servicios en los siguientes términos y condiciones  	específicos:  
+ 2.2	  El PROVEEDOR prestará los Servicios en los siguientes términos y condiciones específicos:
 
 a) Mantenimiento de HARDWARE:
 
@@ -116,7 +128,7 @@ c) Mantenimiento de RED:
 
 
 d) Servicios adicionales de (…) [citar todos y cada uno de los servicios, y las características de su mantenimiento].
- 
+
 2.2.1. Los  servicios se prestarán en la sede del CLIENTE, servicio presencial, y en todos los componentes de sus sistemas informáticos durante (…) [indicar horario en el que se deben realizar estos servicios e incluir cuando proceda fines de semana y festivos].
 
 2.2.2. El PROVEEDOR utilizará los siguientes medios e inspecciones: Programas de conexión remota entre los Ordenadores, servicio remoto. Programas de verificación de los componentes. Inspección y Verificación manual. Programas de análisis del estado del Ordenador. 
@@ -217,16 +229,18 @@ El presente contrato tiene carácter mercantil, no existiendo en ningún caso v�
 
 Toda controversia derivada de este contrato o que guarde relación con él –incluida cualquier cuestión relativa a su existencia, validez o terminación- será resuelta mediante arbitraje DE DERECHO, administrado por la Asociación Europea de Arbitraje de Madrid (Aeade), de conformidad con su Reglamento de Arbitraje vigente a la fecha de presentación de la solicitud de arbitraje. El Tribunal Arbitral que se designe a tal efecto estará compuesto por un único árbitro experto. La sede del arbitraje será Barcelona.
 
+&nbsp;
+
 Y en prueba de cuanto antecede, las Partes suscriben el Contrato, en dos ejemplares y a un solo efecto, en el lugar y fecha señalados en el encabezamiento.
 
+&nbsp;
 
-
------------------ ------ ------ ------ ------ ------------------ ------ ------ ------ -------
-POR  EL  CLIENTE                              POR  EL  PROVEEDOR
-&nbsp;            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             &nbsp; &nbsp; &nbsp; &nbsp;
-&nbsp;            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             &nbsp; &nbsp; &nbsp; &nbsp;
-Fdo.:                                         Fdo.:
------------------ ------ ------ ------ ------ ------------------ ------ ------ ------ -------
+----------------- ------ ------ ------ ------ ------ ------ ------------------ ------ ------ ------ ------ ------ -------
+POR  EL  CLIENTE                                            POR  EL  PROVEEDOR
+&nbsp;            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp;            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Fdo.:                                                       Fdo.:
+----------------- ------ ------ ------ ------ ------ ------ ------------------ ------ ------ ------ ------ ------ -------
 
 
 
