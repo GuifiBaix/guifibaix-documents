@@ -1,4 +1,4 @@
-# GuifiBaix: Contrato de servicio
+# GuifiBaix: Contrato de servicio de mantenimiento
 
 
 En Sant Joan Despí, a {fecha.dia} de {fecha.mes} de {fecha.año}
@@ -10,17 +10,17 @@ DE UNA  PARTE,
 {cliente.nombre} mayor de edad,
 con D.N.I. número {cliente.dni}, en adelante, el “CLIENTE”,
 domiciliada en {cliente.domicilio.municipio},
-{cliente.domicilio.direccion},
+{cliente.domicilio.dirección},
 C.P. {cliente.domicilio.codigopostal}.
 
 DE OTRA  PARTE,
-{proveedor.repersentante.nombre},
-con D.N.I. número {proveedor.representatnte.dni}
+{proveedor.representante.nombre},
+con D.N.I. número {proveedor.representante.dni}
 y en nombre y representación de {proveedor.nombre},
 en adelante, el “PROVEEDOR”,
-domiciliada en {proveedor.municipio},
-{proveedor.direccion},
-C.P. {proveedor.codigopostal}
+domiciliada en {proveedor.domicilio.municipio},
+{proveedor.domicilio.dirección},
+C.P. {proveedor.domicilio.codigopostal}
 y C.I.F. {proveedor.cif}.
 
 El CLIENTE y el PROVEEDOR, en adelante, podrán ser denominadas,
@@ -101,6 +101,7 @@ a) Mantenimiento de HARDWARE:
 
 
 b) Mantenimiento de SOFTWARE:
+
 	- Mantenimiento preventivo del software instalado que incluye la revisión de los parámetros críticos de los equipos y de la red.
 	- Mantenimiento correctivo que incluye la reinstalación de software en el caso de anomalías en el funcionamiento.
 	- Configuración del software ya instalado.
@@ -201,7 +202,7 @@ Las Partes podrán modificar el contrato de mutuo acuerdo y por escrito.
 
 Las Partes podrán resolver el Contrato, en caso de incumplimiento de las obligaciones establecidas en el mismo.
 
-## NOVENA.- NOTIFICACIONES
+### NOVENA.- NOTIFICACIONES
 
 Las notificaciones que se realicen las Partes deberán realizarse por correo con acuse de recibo [o cualquier otro medio fehaciente que acuerden las Partes] a las siguientes direcciones:
 
@@ -210,7 +211,7 @@ CLIENTE (…)
 PROVEEDOR: (…)
 
 
-## DÉCIMA.- REGIMEN JURÍDICO
+### DÉCIMA.- REGIMEN JURÍDICO
 
 El presente contrato tiene carácter mercantil, no existiendo en ningún caso vínculo laboral alguno entre el CLIENTE  y el personal del PROVEEDOR que preste concretamente los Servicios.
 
