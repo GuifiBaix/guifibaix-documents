@@ -1,4 +1,4 @@
-# GuifiBaix: Contrato de servicio de mantenimiento
+# GuifiBaix: Contrato de mantenimiento y servicios
 
 
 En Sant Joan Despí, a {fecha.dia} de {fecha.mes} de {fecha.año}
@@ -7,21 +7,21 @@ En Sant Joan Despí, a {fecha.dia} de {fecha.mes} de {fecha.año}
 ## REUNIDOS
 
 DE UNA  PARTE,
-{cliente.nombre} mayor de edad,
-con D.N.I. número {cliente.dni}, en adelante, el “CLIENTE”,
-domiciliada en {cliente.domicilio.municipio},
-{cliente.domicilio.dirección},
-C.P. {cliente.domicilio.codigopostal}.
+**{cliente.nombre}** mayor de edad,
+con D.N.I. número **{cliente.dni}**, en adelante, el “CLIENTE”,
+domiciliada en **{cliente.domicilio.municipio}**,
+**{cliente.domicilio.dirección}**,
+C.P. **{cliente.domicilio.codigopostal}**.
 
 DE OTRA  PARTE,
-{proveedor.representante.nombre},
-con D.N.I. número {proveedor.representante.dni}
-y en nombre y representación de {proveedor.nombre},
+**{proveedor.representante.nombre}**,
+con D.N.I. número **{proveedor.representante.dni}**
+y en nombre y representación de **{proveedor.nombre}**,
 en adelante, el “PROVEEDOR”,
-domiciliada en {proveedor.domicilio.municipio},
-{proveedor.domicilio.dirección},
-C.P. {proveedor.domicilio.codigopostal}
-y C.I.F. {proveedor.cif}.
+domiciliada en **{proveedor.domicilio.municipio}**,
+**{proveedor.domicilio.dirección}**,
+C.P. **{proveedor.domicilio.codigopostal}**
+y C.I.F. **{proveedor.cif}**.
 
 El CLIENTE y el PROVEEDOR, en adelante, podrán ser denominadas,
 individualmente, “la Parte” y, conjuntamente, “las Partes”,
@@ -59,7 +59,7 @@ d) Servicios adicionales de (…) [citar todos y cada uno de los servicios]
 
 Que las Partes reunidas en la sede social del CLIENTE,
 acuerdan celebrar el presente contrato de MANTENIMIENTO DE SERVICIOS,
-en adelante, el “Contrato”, de acuerdo con las siguientes 
+en adelante, el “**Contrato**”, de acuerdo con las siguientes 
 
 ## CLÁUSULAS
 
@@ -164,17 +164,17 @@ d) Servicios adicionales de (…) [citar todos y cada uno de los servicios, y la
 
 ### TERCERA.- POLÍTICA DE USO
 
-3.1 El CLIENTE  es el único responsable de determinar si los servicios que constituyen el objeto de este Contrato se ajustan a sus necesidades, por lo que el PROVEEDOR no garantiza que el servicio de mantenimiento contratado se ajuste a las necesidades específicas del CLIENTE.
+3.1. El CLIENTE  es el único responsable de determinar si los servicios que constituyen el objeto de este Contrato se ajustan a sus necesidades, por lo que el PROVEEDOR no garantiza que el servicio de mantenimiento contratado se ajuste a las necesidades específicas del CLIENTE.
 
-3.2 El CLIENTE se obliga a hacer constar de forma clara, visible y accesible desde sus contenidos, sus datos identificativos y como único responsable de los contenidos, poniendo un aviso en sus contenidos de la Política de uso.
+3.2. El CLIENTE se obliga a hacer constar de forma clara, visible y accesible desde sus contenidos, sus datos identificativos y como único responsable de los contenidos, poniendo un aviso en sus contenidos de la Política de uso.
 
 
 
 ### CUARTA.- PRECIO Y FACTURACIÓN.- 
 
-4.1 El precio del Contrato es de (…) [indicar el precio de cada servicio o el total]  IVA excluido. 
+4.1. El precio del Contrato es de (…) [indicar el precio de cada servicio o el total]  IVA excluido. 
 
-4.2 [Como debe el cliente pagar la cuota???] El pago de las facturas se realizará, tras la aceptación de los trabajos por el CLIENTE, mediante transferencia bancaria a los 30 días de la fecha de recepción de la factura a la siguiente cuenta corriente titularidad del PROVEEDOR: (…) [indicar nº de cuenta].
+4.2. [Como debe el cliente pagar la cuota???] El pago de las facturas se realizará, tras la aceptación de los trabajos por el CLIENTE, mediante transferencia bancaria a los 30 días de la fecha de recepción de la factura a la siguiente cuenta corriente titularidad del PROVEEDOR: (…) [indicar nº de cuenta].
 
 
 ### QUINTA.- DURACIÓN DEL CONTRATO
@@ -184,27 +184,27 @@ El plazo de duración del presente Contrato es de (…) [Un año por defecto??] 
 
 ### SEXTA.- ACUERDO DE NIVEL DE SERVICIO
 
-6.1 Todos los Servicios prestados por el PROVEEDOR se realizarán por personal especializado en cada materia. El personal del PROVEEDOR acudirá previsto de todo el material necesario, adecuado y actualizado, para prestar los Servicios.
+6.1. Todos los Servicios prestados por el PROVEEDOR se realizarán por personal especializado en cada materia. El personal del PROVEEDOR acudirá previsto de todo el material necesario, adecuado y actualizado, para prestar los Servicios.
 
-6.2 Las averías o el mal funcionamiento de los Servicios se comunicarán al PROVEEDOR en su domicilio a través de llamada telefónica o envío de correo electrónico [Especificar num. Teléfono y Email]. 
+6.2. Las averías o el mal funcionamiento de los Servicios se comunicarán al PROVEEDOR en su domicilio a través de llamada telefónica ({proveedor.telefono}) o envío de correo electrónico {proveedor.email}. 
 
-6.3 Los problemas se resolverán en un período máximo de (…) [establecer distintos plazos a tendiendo a la gravedad de la incidencia, leve, grave, crítica. las penalizaciones se deben definir también en función de la gravedad de la incidencia]
+6.3. Los problemas se resolverán en un período máximo de (…) [establecer distintos plazos a tendiendo a la gravedad de la incidencia, leve, grave, crítica. las penalizaciones se deben definir también en función de la gravedad de la incidencia]
 
-6.4 Se entiende por incidencia crítica: las incidencias que, en el marco de la prestación de los Servicios, afectan significativamente al CLIENTE. [si se pueden establecer parámetros objetivos mejor]
+6.4. Se entiende por *incidencia crítica*: las incidencias que, en el marco de la prestación de los Servicios, afectan significativamente al CLIENTE. [si se pueden establecer parámetros objetivos mejor]
 
-Se entiende por incidencia grave: las incidencias que, en el marco de la prestación de los Servicios, afectan moderadamente al CLIENTE. [si se pueden establecer parámetros objetivos mejor]
+Se entiende por *incidencia grave*: las incidencias que, en el marco de la prestación de los Servicios, afectan moderadamente al CLIENTE. [si se pueden establecer parámetros objetivos mejor]
 
-Se entiende por incidencia leve: las incidencias que se limitan a entorpecer la prestación de los Servicios. [si se pueden establecer parámetros objetivos mejor]
+Se entiende por *incidencia leve*: las incidencias que se limitan a entorpecer la prestación de los Servicios. [si se pueden establecer parámetros objetivos mejor]
 
 La reparación se realizará en los siguientes períodos máximos  desde el aviso:
 
-Incidencia crítica (…)
+* Incidencia crítica (…)
 
-Incidencia grave (…) 
+* Incidencia grave (…) 
 
-Incidencia leve (…) [indicar períodos para los SLA aproximados]
+* Incidencia leve (…) [indicar períodos para los SLA aproximados]
 
-6.1 El estado de los Servicios se revisará (…) [semanalment/mensualmente/bimensualmente/trimestralmente] por el CLIENTE y el PROVEEDOR  para comprobar su buen funcionamiento.
+6.5. El estado de los Servicios se revisará (…) [semanalment/mensualmente/bimensualmente/trimestralmente] por el CLIENTE y el PROVEEDOR  para comprobar su buen funcionamiento.
 
 ### SÉPTIMA.- MODIFICACIÓN
 
@@ -218,16 +218,25 @@ Las Partes podrán resolver el Contrato, en caso de incumplimiento de las obliga
 
 Las notificaciones que se realicen las Partes deberán realizarse por correo con acuse de recibo [o cualquier otro medio fehaciente que acuerden las Partes] a las siguientes direcciones:
 
-CLIENTE (…)
+CLIENTE:
 
-PROVEEDOR: (…)
+		{cliente.nombre}
+		{cliente.domicilio.dirección}
+		{cliente.domicilio.municipio}, {cliente.domicilio.codigopostal}
+
+PROVEEDOR:
+
+		{proveedor.nombre}
+		{proveedor.domicilio.dirección}
+		{proveedor.domicilio.municipio}, {proveedor.domicilio.codigopostal}
+
 
 
 ### DÉCIMA.- REGIMEN JURÍDICO
 
 El presente contrato tiene carácter mercantil, no existiendo en ningún caso vínculo laboral alguno entre el CLIENTE  y el personal del PROVEEDOR que preste concretamente los Servicios.
 
-Toda controversia derivada de este contrato o que guarde relación con él –incluida cualquier cuestión relativa a su existencia, validez o terminación- será resuelta mediante arbitraje DE DERECHO, administrado por la Asociación Europea de Arbitraje de Madrid (Aeade), de conformidad con su Reglamento de Arbitraje vigente a la fecha de presentación de la solicitud de arbitraje. El Tribunal Arbitral que se designe a tal efecto estará compuesto por un único árbitro experto. La sede del arbitraje será Barcelona.
+Toda controversia derivada de este contrato o que guarde relación con él –incluida cualquier cuestión relativa a su existencia, validez o terminación- será resuelta mediante arbitraje DE DERECHO, administrado por la **Asociación Europea de Arbitraje de Madrid (Aeade)**, de conformidad con su Reglamento de Arbitraje vigente a la fecha de presentación de la solicitud de arbitraje. El Tribunal Arbitral que se designe a tal efecto estará compuesto por un único árbitro experto. La sede del arbitraje será Barcelona.
 
 &nbsp;
 
@@ -242,6 +251,17 @@ POR  EL  CLIENTE                                            POR  EL  PROVEEDOR
 Fdo.:                                                       Fdo.:
 ----------------- ------ ------ ------ ------ ------ ------ ------------------ ------ ------ ------ ------ ------ -------
 
+
+# Correcciones (David)
+
+- GuifiBaix se reserva el acceso físico y telemático a los equipos comunes.
+- Cuando se habla de 'su(s) sistema(s) informatico(s)' se puede entender que pasamos a mantenerle la red interna de casa, lo cual es falso
+- Garantias equipos
+- Exclusion por daños no debidos a nuestra manipulación
+- El usuario puede obtener de GuifiBaix las especificaciones de su instalación.
+- Se usaran estándares abiertos cuando sea viable.
+- El software usado sera basado en software libre cuando sea viable.
+- Hay transferencia de datos a NubipTel, por ejemplo
 
 
 
