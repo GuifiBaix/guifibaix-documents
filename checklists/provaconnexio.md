@@ -37,11 +37,19 @@
 - orientacions (coordenades)
 - càmara de fotos
 - prismàtics
+- linterna
 
 # Material opcional
 
 - Escalera
 - Palo para enganchar antena a mayor altura + precinto
+
+# A comprobar alli
+
+- Qué vecinos hay (pisos, puertas...)
+- A quien pertenece cada ventana/balcon
+
+
 
 
 
