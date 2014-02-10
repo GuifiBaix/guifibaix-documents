@@ -33,7 +33,7 @@ vars = conf(
 		domicilio = conf(
 			dirección = "C/. Riu Llobregat, 47, Bxos",
 			municipio = "El Prat de Llobregat",
-			codigopostal = '23414',
+			codigopostal = '08820',
 			),
 		representante = conf(
 			nombre = "Ramón Álvarez",
