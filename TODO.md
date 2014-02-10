@@ -1,73 +1,42 @@
 # Tareas programadas para la semana
 
-- ~~Charla AAVV El Pi: Imprimir y encartelar [RaulS]~~
-- ~~Charla AAVV El Pi: Revisar la presentacion [David]~~
-- ~~Checklist: Charla~~
-- ~~Material para Gats~~
-- ~~Gats: Instalación~~
-- ~~Gats: Arreglar el cable~~
-- ~~Gats: Alimentación~~
-- ~~Gats: Demo~~
-- ~~Prat-OscarCNT: Llamarle para hacer conectividad [David]~~
-- ~~TorrentNegre33: Prueba de conectividad~~ -> Entre 150 y 200 M con domenech y 100 con Verdaguer
-- ~~PRLL-Gava40: Quedar un dia para connectividad (dijeron despues de fiestas) [David] ~~
-- ~~RaulS: Actualizar antena [Victor]~~
-- ~~AAVV el Pi: Enviar un postsupuesto~~
-- ~~AAVV el Pi: Enviar datos de cobro a Gats~~
-- ~~CGT: Redactar las propuestas y enviarlas~~
-- ~~AvBarcelona23: Comprobar que hay acceso~~
-- ~~AAVV el Pi: Orientar la antena~~
-- ~~CoBoi: Averiguar que es ~~ -> Es una incubadora de proyectos de economia social del Ayuntamiento de Sant Boi
-- ~~Cambio IPs de nodos al rango MESH correcto [victor]~~
-- ~~Actualizar cilentes de la charla en la lista~~
-- ~~Montar git privado con presupuestos y facturas [David/Victor]~~
-	- ~~Bitbucket gratuito o 5€ mes en GitHub~~
-	- ~~Subir privado al bitbucket [david]~~
-- ~~Yolanda Losa: Cambiar el punto del mapa que esta mal~~
-- ~~AvBarcelona23: Prueba de connectividad~~ -> Muy buena con todos los nodos
-- ~~ICEA: Esperar respuesta [Aitor]~~
-- ~~Elisenda: esperar firma autorizacion bancaria y contrato de servicio~~
-- ~~Elisenda: pedir portabilidad [david]~~
-- ~~Transferencia Aitor~~
-- ~~Elisenda: pedirle que tambien firme las condiciones~~
-- ~~Contrato de servicio: Enviar borrador a equipo [david]~~
-- ~~Tesoreria: Enviar facturas digitales~~
-- ~~Tesoreria: Esperar tarjetas~~
-- ~~Tesoreria: Actualizar base de datos con las facturas que nos dejamos [David]~~
-- ~~Tesoreria: Firmar la tarjeta~~
-- ~~Recordarle a raul que mire lo de la canaleta~~
-- ~~Nubip: Entender tarifas movil~~
-- ~~Gats: pedirles que miren que la antena esta viva~~ Esta coleando
-- ~~Landatel: Cuenta compartida~~
-- ~~Landatel: PLCs~~
-- ~~Landatel: Adaptadores IP~~
-- ~~Landatel: Cable exteriores~~
-- ~~Landatel: Latiguillos~~
-- ~~Landatel: Mikrotik~~
-- ~~Contrato de servicio: Pasar el borrador a markdown [david]~~
-- ~~Naó Prat: Preguntar por una persona de contacto~~
-- ~~TV3 Daniel: Preguntarles si al final se quedan en SJD [david]~~ -> Se van a poble nou.
-
-- Nubip: Aclarar tarifas mobil
-- Nubip: Preguntarles si VozIP esta integrada en las tarifas Koncentra
-- Contacto: Ramon Selga
-- Naó Prat: Contactar con ellos
-	- Naó Prat: Ofrecer: Conectividad entre las sedes
-	- Naó Prat: Ofrecer: Compartir conexiones
-	- Naó Prat: Ofrecer: Acceso internet
-	- Naó Prat: Empezar con pruebas de connectividad en Barri Orcasitas y Pirineus
-- Formacion: Raul Sanz, BitBucket
-- Formacion: Raul Sanz, Encriptacion
+- ~~TorrentNegre33: Configurar antena~~
+- TorrentNegre33: Factura
+- TorrentNegre33: Placa
+- Caldetes5: Propuesta
+- Presupuestos
+	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
+	- Canal45: Redactar las propuestas y enviarlas
+	- Domenech: burchar
+	- Catalunya: burchar
+	- Gelabert: burchar
+	- Pressupost: FedericCases1F
+	- Pressupost: BaltasarDEspanya41
+	- Pressupost: Monturiol
+	- Postsupost: Gats
+- Llamar: Nubip
+	- Nubip: Aclarar tarifas mobil
+	- Nubip: Preguntarles si VozIP esta integrada en las tarifas Koncentra
+- ~~Gelabert1: recortar convocatoria~~
+- ~~Gelabert1: buzonear convocatoria~~
+- Saó Prat: Contactar con ellos
+	- Llamar: Sao Prat lunes [RaulS?]
+	- Saó Prat: Llamar
+	- Saó Prat: Ofrecer: Conectividad entre las sedes
+	- Saó Prat: Ofrecer: Compartir conexiones
+	- Saó Prat: Ofrecer: Acceso internet
+	- Saó Prat: Empezar con pruebas de connectividad en Barri Orcasitas y Pirineus
+- Formacion: Raul Sanz, BitBucket para acceder al privado
+- Formacion: Raul Sanz, Encriptacion para manejar datos personales
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
-- AvBarcelona23: Presupuesto
 - AvBarcelona23: Argumento de ventas para jugones
-- AvBarcelona23: Fichas con graficos para pasar
-- AvBarcelona23: Reunion de vecinos, jueves 20h
+- BaltasarDEspanya41: Hacer presupuesto
 - Checklist: Instalación
 - Compras
 	- Landatel: Switches
 	- Landatel: Antenas
 	- Landatel: Conectores CableTought
+	- Cablematic: Apliques
 	- Cablematic: Fundas de colorainas
 	- Cablematic: 2 hembras -> 1 macho RJ45
 - Mailing list: Añadir a los potenciales
@@ -75,21 +44,12 @@
 - Urgente contestar:
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
 	- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
-	- Esparraguera: Contestar estan en un hoyo pueden, igual ven Corbera, empezar una isla, que contacten con las asambleas de Esparraguera y Olesa [David]
 	- Marti: burchar que hable con sus vecinos de KNY
 	- Sant Vicenç: Trucar a Leonor [David]
-	- ~~Sant Vicenç: Trucar al Oscar, cap de sistemes de l'ajuntament~~
-	- ~~Sant Vicenç: Enviar correu a Oscar~~
-	- ~~Sant Vicenç: Contactar amb Use del 15m~~
+	- Sant Vicenç: Quedada con Oscar (sistemes)
 	- Sant Vicenç: Preguntar a Use per les AAVV's
 	- Sant Vicenç: Convocar una charla en Sant Vicenç
 	- Payo: Contestarle [Victor]
-- Presupuestos [Lunes noche]
-	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
-	- Canal45: Redactar las propuestas y enviarlas
-	- Domenech: burchar
-	- Catalunya: burchar
-	- Gelabert: burchar
 - Averiguar situacion en zonas de expansion que nos han pedido
 	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros [Victor]
 	- Castelldefels: Quedar con Loren
@@ -164,11 +124,8 @@
 
 - Comprar: Grimpadora de apliques
 - Comprar bridas blancas
-- Compra Cablematic: 1 adaptador de RJ 1 macho 2 hembras para probar como funciona
-- Compra Cablematic: Bobina FTP
 - Compra: Manguera de luz (cuando estemos listos para una instalación)
 - Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
-- Encontrar una caja buena y barata
 	- Lista a Cofac [RaulB]
 	- Listas por internele [David]
 - MLDonkey
@@ -177,9 +134,7 @@
 - Charla de instituto de Gavà
 - Ir a hablar con IES Miquel Martí i Pol (Cornellà) - (Aitor-David?)
 - David (jefe de Aitor): Confirmar acceso al terrado y luz
-- Plantilla factura propia
 - Decidir como se distribuye los gastos de desplazamiento
-- Remaquetar (y Corregir!!) el dossier
 - Hacer copias dossier maquetado
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
@@ -212,8 +167,6 @@
 		- Compartir ADSL con microtik
 		- Compartir varios ADSL con microtik
 	- Investigar si se puede reusar instalacion telefonica para propagar telefonía ip
-- Elisenda: Llamarles para preguntarles que tal
-- Elisenda: Hacer la portabilidad
 
 
 # Muy baja prioridad
@@ -228,7 +181,74 @@
 		- Ponerlo en marcha
 		- Migrar los servidores
 
-# Hecho 20140124
+# Hecho 2014-02-07
+
+- ~~Charla AAVV El Pi: Imprimir y encartelar [RaulS]~~
+- ~~Charla AAVV El Pi: Revisar la presentacion [David]~~
+- ~~Checklist: Charla~~
+- ~~Material para Gats~~
+- ~~Gats: Instalación~~
+- ~~Gats: Arreglar el cable~~
+- ~~Gats: Alimentación~~
+- ~~Gats: Demo~~
+- ~~Prat-OscarCNT: Llamarle para hacer conectividad [David]~~
+- ~~TorrentNegre33: Prueba de conectividad~~ -> Entre 150 y 200 M con domenech y 100 con Verdaguer
+- ~~PRLL-Gava40: Quedar un dia para connectividad (dijeron despues de fiestas) [David] ~~
+- ~~RaulS: Actualizar antena [Victor]~~
+- ~~AAVV el Pi: Enviar un postsupuesto~~
+- ~~AAVV el Pi: Enviar datos de cobro a Gats~~
+- ~~CGT: Redactar las propuestas y enviarlas~~
+- ~~AvBarcelona23: Comprobar que hay acceso~~
+- ~~AAVV el Pi: Orientar la antena~~
+- ~~CoBoi: Averiguar que es ~~ -> Es una incubadora de proyectos de economia social del Ayuntamiento de Sant Boi
+- ~~Cambio IPs de nodos al rango MESH correcto [victor]~~
+- ~~Actualizar cilentes de la charla en la lista~~
+- ~~Montar git privado con presupuestos y facturas [David/Victor]~~
+	- ~~Bitbucket gratuito o 5€ mes en GitHub~~
+	- ~~Subir privado al bitbucket [david]~~
+- ~~Yolanda Losa: Cambiar el punto del mapa que esta mal~~
+- ~~AvBarcelona23: Prueba de connectividad~~ -> Muy buena con todos los nodos
+- ~~AvBarcelona23: Imprimir Laminas~~
+- ~~ICEA: Esperar respuesta [Aitor]~~
+- ~~Elisenda: esperar firma autorizacion bancaria y contrato de servicio~~
+- ~~Elisenda: pedir portabilidad [david]~~
+- ~~Transferencia Aitor~~
+- ~~Elisenda: pedirle que tambien firme las condiciones~~
+- ~~Contrato de servicio: Enviar borrador a equipo [david]~~
+- ~~Tesoreria: Plantilla factura propia~~
+- ~~Tesoreria: Enviar facturas digitales a AAVV el Pi~~
+- ~~Tesoreria: Esperar tarjetas~~
+- ~~Tesoreria: Actualizar base de datos con las facturas que nos dejamos [David]~~
+- ~~Tesoreria: Firmar la tarjeta~~
+- ~~Recordarle a raul que mire lo de la canaleta~~
+- ~~Nubip: Entender tarifas movil~~
+- ~~Gats: pedirles que miren que la antena esta viva~~ Esta coleando
+- ~~Landatel: Cuenta compartida~~
+- ~~Landatel: PLCs~~
+- ~~Landatel: Adaptadores IP~~
+- ~~Landatel: Cable exteriores~~
+- ~~Landatel: Latiguillos~~
+- ~~Landatel: Mikrotik~~
+- ~~Contrato de servicio: Pasar el borrador a markdown [david]~~
+- ~~Saó Prat: Preguntar por una persona de contacto~~
+- ~~TV3 Daniel: Preguntarles si al final se quedan en SJD [david]~~ -> Se van a poble nou.
+- ~~Caldetes: Llamar para avanzar nodo~~
+- ~~Gelabert1: Revidar texto convocatoria~~
+- ~~Gelabert1: Imprimir texto convocatoria~~
+- ~~AvBarcelona23: Presupuesto~~
+- ~~AvBarcelona23: Fichas con graficos para pasar~~
+- ~~AvBarcelona23: Reunion de vecinos, jueves 20h~~
+- ~~BaltasarDEspanya41: prueba de conectividad~~
+- ~~Llamar: Monturiol~~
+- ~~Caldetes5:~Pressupost: ~~
+- ~~Esparraguera: Contestar estan en un hoyo pueden, igual ven Corbera, empezar una isla, que contacten con las asambleas de Esparraguera y Olesa [David]~~
+- ~~Saó Prat: Mail enviado~~
+- ~~Sant Vicenç: Trucar al Oscar, cap de sistemes de l'ajuntament~~
+- ~~Sant Vicenç: Enviar correu a Oscar~~
+- ~~Sant Vicenç: Contactar amb Use del 15m~~
+- ~~Cajas: Encontrar una caja buena y barata~~
+
+# Hecho 2014-01-24
 
 - ~~AAVV el Pi: Fijar un jueves de enero para charla [David]~~
 - ~~AAVV el Pi: Cartel Charla~~
@@ -253,7 +273,7 @@
 - ~~Pasar lista de material a Raul para la Cofac [David]~~
 
 
-# Hecho 20140113
+# Hecho 2014-01-13
 
 - ~~Web: Cambiar prefijo del asunto de los mails del formulario web~~ [David] <- "[GuifiBaix Web] conectivitat: Fulanito Gonzalez"
 - ~~Web: Enviar los formularios a equipo (direccion partida en el git)~~ [David]
