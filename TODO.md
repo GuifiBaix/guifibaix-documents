@@ -1,22 +1,33 @@
 # Tareas programadas para la semana
 
 - ~~TorrentNegre33: Configurar antena~~
-- TorrentNegre33: Factura
-- TorrentNegre33: Placa
+- ~~TorrentNegre33: Factura~~
+- ~~TorrentNegre33: Placa~~
+- ~~TorrentNegre33: Instalacion~~
 - Caldetes5: Propuesta
 - Presupuestos
 	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
-	- Canal45: Redactar las propuestas y enviarlas
+	- ~~Pressupost: FedericCases1F~~
+	- ~~Canal45: Redactar las propuestas y enviarlas~~
+	- ~~Gelabert: Adaptar~~
 	- Domenech: burchar
 	- Catalunya: burchar
-	- Gelabert: burchar
-	- Pressupost: FedericCases1F
+	- Flors15: burchar
+	- Canal45: burchar
+	- Gelabert: 3a convocatoria
 	- Pressupost: BaltasarDEspanya41
 	- Pressupost: Monturiol
+	- Pressupost: Gava4
+	- ~~Pressupost: Flors15~~
 	- Postsupost: Gats
 - Llamar: Nubip
-	- Nubip: Aclarar tarifas mobil
-	- Nubip: Preguntarles si VozIP esta integrada en las tarifas Koncentra
+	- ~~Nubip: IVA's Incluidos?~~ No
+	- Nubip: Margenes de comercializacion?
+	- ~~Nubip: Que incluyen las mobiles respecto a fijo?~~ Nada
+	- ~~Nubip: Como de compatible son las ofertas de mobiles con fijo con la VozIP?~~ Que las llamadas tambien las puedas hacer desde el fijo pero si ya tienes el mobil pa que
+	- ~~Nubip: Desplazamiento de técnico como coste mensual?~~ No son puntuales
+	- Nubip: Que cobertura tenemos en los puntos clave? [responderan el jueves]
+	- Nubip: Seria posible acercar fibra de Commons a TV3? [responderan el jueves]
 - ~~Gelabert1: recortar convocatoria~~
 - ~~Gelabert1: buzonear convocatoria~~
 - Saó Prat: Contactar con ellos
@@ -39,8 +50,10 @@
 	- Cablematic: Apliques
 	- Cablematic: Fundas de colorainas
 	- Cablematic: 2 hembras -> 1 macho RJ45
+	- Walkies
+	- Grapas redondas agujero 
 - Mailing list: Añadir a los potenciales
-- PRLL-Gava40: Confirmar que les va bien lunes por la tarde.
+- ~~PRLL-Gava40: Confirmar que les va bien lunes por la tarde.~~
 - Urgente contestar:
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
 	- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
