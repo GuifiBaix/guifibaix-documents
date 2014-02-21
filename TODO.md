@@ -1,88 +1,81 @@
 # Tareas programadas para la semana
 
-- ~~TorrentNegre33: Configurar antena~~
-- ~~TorrentNegre33: Factura~~
-- ~~TorrentNegre33: Placa~~
-- ~~TorrentNegre33: Instalacion~~
-- Caldetes5: Propuesta
+- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
+- torrentnegre23: Pedir altas a nubip
+- Prospecciones
+	- prll-avjoanmaragall75
+	- prll-avvergedemontserrat269
+	- prll-avremolar75
+- Proponer dia instalación Oscar
+- Caldetes5: Reenviar presupuesto sin descuento
+- Caldetes5: Aclarar con oscar el tema del descuento qu le estamos haciendo
+- Caldetes5: Proponerle dia
+- Caldetes5: Instalacion individual
+- Flors15: Instalacion
+- Gelabert1: Reimprimir presupuesto
 - Presupuestos
-	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
-	- ~~Pressupost: FedericCases1F~~
-	- ~~Canal45: Redactar las propuestas y enviarlas~~
-	- ~~Gelabert: Adaptar~~
 	- Domenech: burchar
 	- Catalunya: burchar
 	- Flors15: burchar
 	- Canal45: burchar
+	- AvBarcelona23: burchar
 	- Gelabert: 3a convocatoria
-	- Pressupost: BaltasarDEspanya41
+	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
+	- BaltasarDEspanya41: Pressupost
+	- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
 	- Pressupost: Monturiol
 	- Pressupost: Gava4
-	- ~~Pressupost: Flors15~~
 	- Postsupost: Gats
 - Llamar: Nubip
-	- ~~Nubip: IVA's Incluidos?~~ No
+	- Nubip: Tarifa sin llamadas incluidas
+	- Nubip: Concretar precios de ADSL
+	- Nubip: Pedir precios llamadas internacionales
 	- Nubip: Margenes de comercializacion?
-	- ~~Nubip: Que incluyen las mobiles respecto a fijo?~~ Nada
-	- ~~Nubip: Como de compatible son las ofertas de mobiles con fijo con la VozIP?~~ Que las llamadas tambien las puedas hacer desde el fijo pero si ya tienes el mobil pa que
-	- ~~Nubip: Desplazamiento de técnico como coste mensual?~~ No son puntuales
 	- Nubip: Que cobertura tenemos en los puntos clave? [responderan el jueves]
 	- Nubip: Seria posible acercar fibra de Commons a TV3? [responderan el jueves]
-- ~~Gelabert1: recortar convocatoria~~
-- ~~Gelabert1: buzonear convocatoria~~
-- Saó Prat: Contactar con ellos
-	- Llamar: Sao Prat lunes [RaulS?]
-	- Saó Prat: Llamar
-	- Saó Prat: Ofrecer: Conectividad entre las sedes
-	- Saó Prat: Ofrecer: Compartir conexiones
-	- Saó Prat: Ofrecer: Acceso internet
-	- Saó Prat: Empezar con pruebas de connectividad en Barri Orcasitas y Pirineus
-- Formacion: Raul Sanz, BitBucket para acceder al privado
-- Formacion: Raul Sanz, Encriptacion para manejar datos personales
-- Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
-- AvBarcelona23: Argumento de ventas para jugones
-- BaltasarDEspanya41: Hacer presupuesto
-- Checklist: Instalación
-- Compras
-	- Landatel: Switches
-	- Landatel: Antenas
-	- Landatel: Conectores CableTought
-	- Cablematic: Apliques
-	- Cablematic: Fundas de colorainas
-	- Cablematic: 2 hembras -> 1 macho RJ45
-	- Walkies
-	- Grapas redondas agujero 
-- Mailing list: Añadir a los potenciales
-- ~~PRLL-Gava40: Confirmar que les va bien lunes por la tarde.~~
+- Formacion: Raul Sanz, BitBucket para acceder al privado [Lunes]
+- Formacion: Raul Sanz, Encriptacion para manejar datos personales [Lunes]
+- Formacion: Raul Sanz, Linphone [Lunes]
+- Gats: Comentar con Gats la devolucion del IVA
+- Gats: Marti: burchar que hable con sus vecinos de KNY
+- Mailing list: Añadir a los potenciales [David]
 - Urgente contestar:
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
-	- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
-	- Marti: burchar que hable con sus vecinos de KNY
 	- Sant Vicenç: Trucar a Leonor [David]
 	- Sant Vicenç: Quedada con Oscar (sistemes)
 	- Sant Vicenç: Preguntar a Use per les AAVV's
 	- Sant Vicenç: Convocar una charla en Sant Vicenç
 	- Payo: Contestarle [Victor]
+
+- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
+- Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
+- AvBarcelona23: Argumento de ventas para jugones [Victor]
+- Checklist: Instalación
+- Compras
+	- Cablematic [Aitor Lunes]
+		- Cablematic: Apliques RJ45 externos
+		- Cablematic: Fundas de colorainas
+		- Cablematic: 2 hembras -> 1 macho RJ45
+		- Cablematic: Latiguillos de colores de 25cm
+		- Cablematic: Simon con telefono + Rj45
+	- Walkies
+	- Grapas redondas agujero
 - Averiguar situacion en zonas de expansion que nos han pedido
-	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros [Victor]
-	- Castelldefels: Quedar con Loren
-	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
-	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
-		- Corbera: Que antenas usan
-		- Corbera: Que proxies usan
+	- Torrellas: Contactar con la persona de Torrellas [Aitor]
 	- Torrellas: Investigar que cacharros usan para enlacar con ellos [David/Victor]
 		- Mikrotik y Ubiquiti, sin qMp, software nativo de los trastos.
 		- Contacto: 93 689 02 91
 		- EEEIII: http://www.eeeiii.net/ empresa instaladora, apenas da informacion sobre guifi.net en su web
-	- Esparraguera: Visibilidad con Corbera?
+	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros [Victor]
+	- Castelldefels: Quedar con Loren
+	- Garraf: Quedada con Anna y Al [Victor,Aitor,David]
+	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
+	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
+		- Corbera: Que antenas usan
+		- Corbera: Que proxies usan
+		- Esparraguera: Visibilidad con Corbera?
 	- BCN-Monistrol7 (Gracia): Registrar el trasto en el nodo para tener IP
 	- BCN-Monistrol7 (Gracia): Repetir la prueba con la antena bien configurada
-- ICEA: Preguntarle [Aitor]
-	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
-	- Instalaciones con IVA a la cooperativa
-	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
-- Elisenda: condiciones de servicio firmadas [david]
-- Elisenda: cambiarle la cuenta SIP [david]
 - Contrato de servicio: Discutir en la lista [todos]
 - Contrato de servicio: Revisar contrato de servicio [David-Victor]
 - Revisar el dossier lo que dijo Victor [David]
@@ -107,18 +100,19 @@
 - Tesorería
 	- Tesoreria: Añadir facturas Aitor [David]
 	- Tesoreria: Recoger ingresos y material correspondiente
-	- Tesoreria: Factura de la escalera [aitor]
 	- Tesoreria: Recopilar que material se ha colocado sin pagarse
 	- Tesoreria: Coste del dominio [victor]
-	- Tesoreria: Pasar las facturas a Gats
 - Caixa Guissona: Ingresar pago Santa Coloma
-- Caixa Guissona: Ingresar pago sjd-AvBarcelona23
+- Caixa Guissona: Ingresar pago sjd-torrentnegre23
 - Grabar configuraciones de red finales [victor]
 - Precios: Precios en la Cofac [RaulB]
-- Nubip: Concretar precios de ADSL
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
+- ICEA: Preguntarle [Aitor]
+	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
+	- Instalaciones con IVA a la cooperativa
+	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
 - Aclarar soluciones tecnicas [David-Victor]
 	- Monitorizacion de los ADSL
@@ -135,6 +129,14 @@
 
 # Tareas pospuestas
 
+- Saó Prat: Contactar con ellos
+	- Esperar hasta Marzo
+	- Llamar: Sao Prat lunes
+	- Saó Prat: Llamar
+	- Saó Prat: Ofrecer: Conectividad entre las sedes
+	- Saó Prat: Ofrecer: Compartir conexiones
+	- Saó Prat: Ofrecer: Acceso internet
+	- Saó Prat: Empezar con pruebas de connectividad en Barri Orcasitas y Pirineus
 - Comprar: Grimpadora de apliques
 - Comprar bridas blancas
 - Compra: Manguera de luz (cuando estemos listos para una instalación)
@@ -194,6 +196,34 @@
 		- Ponerlo en marcha
 		- Migrar los servidores
 
+		
+# Hecho 2014-02-21
+
+- ~~TorrentNegre33: Configurar antena~~
+- ~~TorrentNegre33: Factura~~
+- ~~TorrentNegre33: Placa~~
+- ~~TorrentNegre33: Instalacion~~
+- ~~Caldetes5: Propuesta~~
+- ~~Pressupost: FedericCases1F~~
+- ~~Canal45: Redactar las propuestas y enviarlas~~
+- ~~Gelabert: Adaptar~~
+- ~~Pressupost: Flors15~~
+- ~~Gelabert1: recortar convocatoria~~
+- ~~Gelabert1: buzonear convocatoria~~
+- ~~Nubip: IVA's Incluidos?~~ No
+- ~~Nubip: Que incluyen las mobiles respecto a fijo?~~ Nada
+- ~~Nubip: Como de compatible son las ofertas de mobiles con fijo con la VozIP?~~ Que las llamadas tambien las puedas hacer desde el fijo pero si ya tienes el mobil pa que
+- ~~Nubip: Desplazamiento de técnico como coste mensual?~~ No son puntuales
+- ~~PRLL-Gava40: Confirmar que les va bien lunes por la tarde.~~
+- ~~Landatel: Antenas~~
+- ~~Landatel: Conectores CableTought~~
+- ~~Elisenda: condiciones de servicio firmadas [david]~~
+- ~~Elisenda: cambiarle la cuenta SIP [david]~~
+- ~~Tesoreria: Factura de la escalera [aitor]~~
+- ~~Tesoreria: Pasar las facturas de 2013 a Gats~~
+
+
+		
 # Hecho 2014-02-07
 
 - ~~Charla AAVV El Pi: Imprimir y encartelar [RaulS]~~
