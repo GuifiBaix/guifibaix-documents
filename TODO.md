@@ -1,31 +1,40 @@
 # Tareas programadas para la semana
 
+- Institutos
 - kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
-- torrentnegre23: Pedir altas a nubip
-- Prospecciones
+- ~~torrentnegre23: Pedir altas a nubip~~
+- torrentnegre23: pasar contratos
+- Prospecciones [RaulS]
 	- prll-avjoanmaragall75
 	- prll-avvergedemontserrat269
 	- prll-avremolar75
-- Proponer dia instalación Oscar
-- Caldetes5: Reenviar presupuesto sin descuento
-- Caldetes5: Aclarar con oscar el tema del descuento qu le estamos haciendo
+- ~~Caldetes5: Reenviar presupuesto sin descuento~~
+- ~~Caldetes5: Aclarar con oscar el tema del descuento qu le estamos haciendo~~
+- Caldetes5: pendientes de que hable con el presidente
 - Caldetes5: Proponerle dia
 - Caldetes5: Instalacion individual
-- Flors15: Instalacion
-- Gelabert1: Reimprimir presupuesto
+- ~~Flors15: Instalacion~~ -> Descartao
+- ~~Gelabert1: Reimprimir presupuesto~~
 - Presupuestos
 	- Domenech: burchar
 	- Catalunya: burchar
-	- Flors15: burchar
 	- Canal45: burchar
 	- AvBarcelona23: burchar
-	- Gelabert: 3a convocatoria
+	- FredericCasas1f: burchar
+	- ~~Gelabert: 3a convocatoria~~
+	- Gelabert: Buzonear
 	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
 	- BaltasarDEspanya41: Pressupost
 	- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
 	- Pressupost: Monturiol
 	- Pressupost: Gava4
 	- Postsupost: Gats
+	- Payo: burchar [Victor]
+	- Fonsanta48b: Quedar para prueba
+	- Mayor24: Reactivar
+	- CGT: burchar
+	- XaviCNT: Proponer Conectividad
+	- AvBarcelona1X: Proponer
 - Llamar: Nubip
 	- Nubip: Tarifa sin llamadas incluidas
 	- Nubip: Concretar precios de ADSL
@@ -33,8 +42,8 @@
 	- Nubip: Margenes de comercializacion?
 	- Nubip: Que cobertura tenemos en los puntos clave? [responderan el jueves]
 	- Nubip: Seria posible acercar fibra de Commons a TV3? [responderan el jueves]
-- Formacion: Raul Sanz, BitBucket para acceder al privado [Lunes]
-- Formacion: Raul Sanz, Encriptacion para manejar datos personales [Lunes]
+- ~~Formacion: Raul Sanz, BitBucket para acceder al privado [Lunes]~~
+- ~~Formacion: Raul Sanz, Encriptacion para manejar datos personales [Lunes]~~
 - Formacion: Raul Sanz, Linphone [Lunes]
 - Gats: Comentar con Gats la devolucion del IVA
 - Gats: Marti: burchar que hable con sus vecinos de KNY
@@ -45,7 +54,6 @@
 	- Sant Vicenç: Quedada con Oscar (sistemes)
 	- Sant Vicenç: Preguntar a Use per les AAVV's
 	- Sant Vicenç: Convocar una charla en Sant Vicenç
-	- Payo: Contestarle [Victor]
 
 - Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
@@ -53,10 +61,10 @@
 - Checklist: Instalación
 - Compras
 	- Cablematic [Aitor Lunes]
-		- Cablematic: Apliques RJ45 externos
+		- ~~Cablematic: Apliques RJ45 externos~~
+		- ~~Cablematic: Latiguillos de colores de 25cm~~
 		- Cablematic: Fundas de colorainas
 		- Cablematic: 2 hembras -> 1 macho RJ45
-		- Cablematic: Latiguillos de colores de 25cm
 		- Cablematic: Simon con telefono + Rj45
 	- Walkies
 	- Grapas redondas agujero
