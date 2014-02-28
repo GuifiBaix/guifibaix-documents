@@ -19,6 +19,7 @@
 - ~~Castelldefels: Contactar con Loren~~ -> Se ha quedado martes o miercoles
 - ~~Caixa Guissona: Ingresar pago Santa Coloma~~
 - ~~Caixa Guissona: Ingresar pago sjd-torrentnegre23~~
+- ~~Checklist: Instalación~~
 
 
 # Tareas programadas para la semana
@@ -90,7 +91,7 @@
 - Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - AvBarcelona23: Argumento de ventas para jugones [Victor]
-- Checklist: Instalación
+- Checklist: Revisar el de instalación
 - Compras
 	- Cablematic [Aitor Lunes]
 		- Cablematic: Fundas de colorainas
