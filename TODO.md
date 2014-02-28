@@ -1,40 +1,74 @@
-# Tareas programadas para la semana
+# Hecho 2014-02-28
 
-- Institutos
-- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
 - ~~torrentnegre23: Pedir altas a nubip~~
-- torrentnegre23: pasar contratos
-- Prospecciones [RaulS]
-	- prll-avjoanmaragall75
-	- prll-avvergedemontserrat269
-	- prll-avremolar75
+- ~~torrentnegre23: pasar contratos~~
 - ~~Caldetes5: Reenviar presupuesto sin descuento~~
 - ~~Caldetes5: Aclarar con oscar el tema del descuento qu le estamos haciendo~~
-- Caldetes5: pendientes de que hable con el presidente
-- Caldetes5: Proponerle dia
-- Caldetes5: Instalacion individual
-- ~~Flors15: Instalacion~~ -> Descartao
+- ~~Caldetes6: Proponerle dia~~
+- ~~Gelabert: 3a convocatoria~~
 - ~~Gelabert1: Reimprimir presupuesto~~
+- ~~Gelabert: Buzonear~~
+- ~~Flors15: Instalacion~~ -> Descartao
+- ~~Formacion: Raul Sanz, BitBucket para acceder al privado [Lunes]~~
+- ~~Formacion: Raul Sanz, Encriptacion para manejar datos personales [Lunes]~~
+- ~~Contrato de servicio: Revisar la primera version~~
+- ~~Cablematic: Apliques RJ45 externos~~
+- ~~Cablematic: Latiguillos de colores de 25cm~~
+- ~~sjd-fontsanta11: hablar con los promotores y medir [Aitor-RaulS]~~
+- ~~sjd-fontsanta11: buscar soluciones [Aitor-RaulS-David]~~
+- ~~Castelldefels: Contactar con Loren~~ -> Se ha quedado martes o miercoles
+- ~~Caixa Guissona: Ingresar pago Santa Coloma~~
+- ~~Caixa Guissona: Ingresar pago sjd-torrentnegre23~~
+
+
+# Tareas programadas para la semana
+
+- Contrato de servicio: Política de uso [David]
+- Contrato de servicio: Responsabilidad social coorporativa [David]
+- Contrato de servicio: Precios y facturacion [David]
+- Contrato de servicio: Acuerdo de nivel de servicio [Victor]
+- Contrato de servicio: Los equipos son del usuario pero se compromete al Comuns??
+- Contrato de servicio: Enviarselo a los usuarios actuales y potenciales para que opinen
+- Contrato de servicio: Esperar unos dias para que contestesten
+- Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
+- Loren: Quedada en Torrellas o Castefa
+- Buscar programa VozIP para RaulS [Victor]
+- Formacion: Raul Sanz, VozIP [Lunes]
+- sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]
+	- sjd-fontsanta16: Servidor
+	- sjd-fontsanta16: Punto de acceso wifi (ver el md)
+	- sjd-fontsanta16: Camaras wifi
+- sjd-fontsanta16: Hacer propuesta
+- sjd-domenech11: Llamar para confirmar [lunes mañana]
+- sjd-domenech11: Conectividad [lunes 18h]
+- sjd-fontsanta48b: Llamar apra confimar [lunes mañana]
+- sjd-fontsanta48b: Conectividad [lunes 16h]
+- Llamar al Instituto de Gava [David]
+- Llamar al Instituto de Cornella [Aitor]
+- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
+- sjd-torrentdennegre23: Reenviar a Nubip los contratos cuando los firmen [David]
+- Prospecciones [RaulS]
+	- prll-avjoanmaragall75: Llamar para ver si se puede avanzar [RaulS]
+	- prll-avvergedemontserrat269: Llamar para ver si se puede avanzar [RaulS]
+	- prll-avremolar75: Llamar para ver si se puede avanzar [RaulS]
+- prll-caldetes5: Permiso al presidente
+- prll-caldetes5: Instalacion individual
 - Presupuestos
 	- Domenech: burchar
 	- Catalunya: burchar
 	- Canal45: burchar
 	- AvBarcelona23: burchar
 	- FredericCasas1f: burchar
-	- ~~Gelabert: 3a convocatoria~~
-	- Gelabert: Buzonear
 	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
 	- BaltasarDEspanya41: Pressupost
 	- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
 	- Pressupost: Monturiol
 	- Pressupost: Gava4
 	- Postsupost: Gats
-	- Payo: burchar [Victor]
-	- Fonsanta48b: Quedar para prueba
+	- Payo: Mediciones
 	- Mayor24: Reactivar
 	- CGT: burchar
-	- XaviCNT: Proponer Conectividad
-	- AvBarcelona1X: Proponer
+	- Xavi CNT: Proponer Conectividad
 - Llamar: Nubip
 	- Nubip: Tarifa sin llamadas incluidas
 	- Nubip: Concretar precios de ADSL
@@ -42,11 +76,9 @@
 	- Nubip: Margenes de comercializacion?
 	- Nubip: Que cobertura tenemos en los puntos clave? [responderan el jueves]
 	- Nubip: Seria posible acercar fibra de Commons a TV3? [responderan el jueves]
-- ~~Formacion: Raul Sanz, BitBucket para acceder al privado [Lunes]~~
-- ~~Formacion: Raul Sanz, Encriptacion para manejar datos personales [Lunes]~~
-- Formacion: Raul Sanz, Linphone [Lunes]
 - Gats: Comentar con Gats la devolucion del IVA
 - Gats: Marti: burchar que hable con sus vecinos de KNY
+- Mailing list de usuarios
 - Mailing list: Añadir a los potenciales [David]
 - Urgente contestar:
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
@@ -61,11 +93,9 @@
 - Checklist: Instalación
 - Compras
 	- Cablematic [Aitor Lunes]
-		- ~~Cablematic: Apliques RJ45 externos~~
-		- ~~Cablematic: Latiguillos de colores de 25cm~~
 		- Cablematic: Fundas de colorainas
 		- Cablematic: 2 hembras -> 1 macho RJ45
-		- Cablematic: Simon con telefono + Rj45
+	- CIL: Simon con telefono + Rj45
 	- Walkies
 	- Grapas redondas agujero
 - Averiguar situacion en zonas de expansion que nos han pedido
@@ -75,7 +105,6 @@
 		- Contacto: 93 689 02 91
 		- EEEIII: http://www.eeeiii.net/ empresa instaladora, apenas da informacion sobre guifi.net en su web
 	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros [Victor]
-	- Castelldefels: Quedar con Loren
 	- Garraf: Quedada con Anna y Al [Victor,Aitor,David]
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
 	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
@@ -110,8 +139,6 @@
 	- Tesoreria: Recoger ingresos y material correspondiente
 	- Tesoreria: Recopilar que material se ha colocado sin pagarse
 	- Tesoreria: Coste del dominio [victor]
-- Caixa Guissona: Ingresar pago Santa Coloma
-- Caixa Guissona: Ingresar pago sjd-torrentnegre23
 - Grabar configuraciones de red finales [victor]
 - Precios: Precios en la Cofac [RaulB]
 
@@ -225,8 +252,8 @@
 - ~~PRLL-Gava40: Confirmar que les va bien lunes por la tarde.~~
 - ~~Landatel: Antenas~~
 - ~~Landatel: Conectores CableTought~~
-- ~~Elisenda: condiciones de servicio firmadas [david]~~
-- ~~Elisenda: cambiarle la cuenta SIP [david]~~
+- ~~Elisenda: condiciones de servicio firmadas [David]~~
+- ~~Elisenda: cambiarle la cuenta SIP [David]~~
 - ~~Tesoreria: Factura de la escalera [aitor]~~
 - ~~Tesoreria: Pasar las facturas de 2013 a Gats~~
 
@@ -256,16 +283,16 @@
 - ~~Actualizar cilentes de la charla en la lista~~
 - ~~Montar git privado con presupuestos y facturas [David/Victor]~~
 	- ~~Bitbucket gratuito o 5€ mes en GitHub~~
-	- ~~Subir privado al bitbucket [david]~~
+	- ~~Subir privado al bitbucket [David]~~
 - ~~Yolanda Losa: Cambiar el punto del mapa que esta mal~~
 - ~~AvBarcelona23: Prueba de connectividad~~ -> Muy buena con todos los nodos
 - ~~AvBarcelona23: Imprimir Laminas~~
 - ~~ICEA: Esperar respuesta [Aitor]~~
 - ~~Elisenda: esperar firma autorizacion bancaria y contrato de servicio~~
-- ~~Elisenda: pedir portabilidad [david]~~
+- ~~Elisenda: pedir portabilidad [David]~~
 - ~~Transferencia Aitor~~
 - ~~Elisenda: pedirle que tambien firme las condiciones~~
-- ~~Contrato de servicio: Enviar borrador a equipo [david]~~
+- ~~Contrato de servicio: Enviar borrador a equipo [David]~~
 - ~~Tesoreria: Plantilla factura propia~~
 - ~~Tesoreria: Enviar facturas digitales a AAVV el Pi~~
 - ~~Tesoreria: Esperar tarjetas~~
@@ -280,9 +307,9 @@
 - ~~Landatel: Cable exteriores~~
 - ~~Landatel: Latiguillos~~
 - ~~Landatel: Mikrotik~~
-- ~~Contrato de servicio: Pasar el borrador a markdown [david]~~
+- ~~Contrato de servicio: Pasar el borrador a markdown [David]~~
 - ~~Saó Prat: Preguntar por una persona de contacto~~
-- ~~TV3 Daniel: Preguntarles si al final se quedan en SJD [david]~~ -> Se van a poble nou.
+- ~~TV3 Daniel: Preguntarles si al final se quedan en SJD [David]~~ -> Se van a poble nou.
 - ~~Caldetes: Llamar para avanzar nodo~~
 - ~~Gelabert1: Revidar texto convocatoria~~
 - ~~Gelabert1: Imprimir texto convocatoria~~
@@ -307,8 +334,8 @@
 - ~~CNT: Redactar las propuestas y enviarlas~~
 - ~~Eticom: Presentacion Eticom~~
 - ~~Tesoreria: conseguir acceso a banca online~~
-- ~~Nubip: pedir los precios concretos VozIP [david]~~
-- ~~Nubip: pedir telefono de GuifiBaix [david]~~
+- ~~Nubip: pedir los precios concretos VozIP [David]~~
+- ~~Nubip: pedir telefono de GuifiBaix [David]~~
 - ~~Nubip: Enviar papeleo para el numero de GuifiBaix~~
 - ~~Cuenta: Reunion con David de Gats [Aitor-David Lunes tarde] -> Postpuesto~~
 	- Cuenta: Como operar
@@ -390,7 +417,7 @@
 - Actuaciones sobre la Red Actual
 	- ~~Enlace de Santa Coloma~~
 		- ~~Preconfiguracion [Victor]~~
-		- ~~Montaje de placa [viernes tarde, victor, david]~~
+		- ~~Montaje de placa [viernes tarde, victor, David]~~
 		- ~~Configuración final y aplicación de rutas [Victor]~~
 	- ~~Enlace de Sant Joan Despi~~
 		- ~~Instalar NanoBridge de Josep Maria [Victor/David]~~
@@ -504,7 +531,7 @@
 	- ~~Hojas para pedir pruebas de conectividad~~
 - ~~Enlace de Santa Coloma~~
 	- ~~Preconfiguracion~~
-	- ~~Montaje de placa~~ [viernes tarde, victor, david]
+	- ~~Montaje de placa~~ [viernes tarde, victor, David]
 	- ~~Conseguir llave de carraca~~ [Raul]
 	- ~~Preguntar a Victor tamaño espirros para saber que llave fija~~
 	- ~~Compra herramientas~~ [viernes tarde Raul]
@@ -517,7 +544,7 @@
 	- ~~Hacer la instalación~~
 - ~~Mailing a los clientes potenciales~~ [RaulS]
 - ~~Carteleo~~
-	- ~~Cornella Lunes 11-14h~~ [david, aitor]
+	- ~~Cornella Lunes 11-14h~~ [David, aitor]
 	- ~~Las Planas, Lunes 16h Padro~~ [RaulS]
 - ~~Llamar a Salva por tema contratos~~ [David]
 - ~~Llamar a Salva por tema cuenta~~ [David]
@@ -563,7 +590,7 @@
 - ~~Pensar posible instalacion Petanca~~
 	- ~~Metros de cable~~ [14m desde la antena, 20m desde la AAVV]
 	- ~~Horas de instalacion~~ [3 entre 2]
-- ~~Hablar con la Associación Petanca~~ [jueves david] receptivos, presupuesto 3h
+- ~~Hablar con la Associación Petanca~~ [jueves David] receptivos, presupuesto 3h
 
 
 # Plan de empresa
