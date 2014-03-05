@@ -26,7 +26,7 @@
 
 - Contrato de servicio: Política de uso [David]
 - Contrato de servicio: Responsabilidad social coorporativa [David]
-- Contrato de servicio: Precios y facturacion [David]
+- ~~Contrato de servicio: Precios y facturacion~~ [David]
 - Contrato de servicio: Acuerdo de nivel de servicio [Victor]
 - Contrato de servicio: Los equipos son del usuario pero se compromete al Comuns??
 - Contrato de servicio: Enviarselo a los usuarios actuales y potenciales para que opinen
@@ -42,7 +42,7 @@
 - sjd-fontsanta16: Hacer propuesta
 - sjd-domenech11: Llamar para confirmar [lunes mañana]
 - sjd-domenech11: Conectividad [lunes 18h]
-- sjd-fontsanta48b: Llamar apra confimar [lunes mañana]
+- sjd-fontsanta48b: Llamar para confimar [lunes mañana]
 - sjd-fontsanta48b: Conectividad [lunes 16h]
 - Llamar al Instituto de Gava [David]
 - Llamar al Instituto de Cornella [Aitor]

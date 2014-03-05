@@ -59,8 +59,7 @@ En virtud del Contrato el PROVEEDOR se obliga a prestar al CLIENTE los servicios
 
 2.1. Los Servicios se prestarán en los siguientes términos y condiciones **generales**:
 
-2.1.1. El PROVEEDOR responderá de la calidad del trabajo desarrollado con la diligencia exigible a una empresa experta en la realización de los trabajos objeto del Contrato.
-
+2.1.1. El PROVEEDOR responderá de la calidad del trabajo desarrollado con la diligencia exigible a una empres 
 2.1.2. El PROVEEDOR se obliga a gestionar y obtener, a su cargo, todas las licencias, permisos y autorizaciones administrativas que pudieren ser necesarias para la realización de los Servicios. 
 
 2.1.3. El PROVEEDOR se hará cargo de la totalidad de los tributos, cualquiera que sea su naturaleza y carácter, que se devenguen como consecuencia del Contrato, así como cualesquiera operaciones físicas y jurídicas que conlleve, salvo el Impuesto sobre el Valor Añadido (IVA) o su equivalente, que el PROVEEDOR repercutirá al CLIENTE.
@@ -136,20 +135,40 @@ Lo que DAVID diga....  -- TODO --
 
 ### QUINTA.- PRECIO Y FACTURACIÓN.- 
 
-4.1. El precio del Contrato es de (…) [indicar el precio de cada servicio o el total]  IVA excluido. 
+Como contraprestación de los servicios prestados por el PROVEEDOR, el CLIENTE abonará
+las tarifas adjuntas al presente contrato y que el CLIENTE reconoce conocer y haber recibido
+en el momento de su firma. 
 
-4.2. [Como debe el cliente pagar la cuota???] El pago de las facturas se realizará, tras la aceptación de los trabajos por el CLIENTE, mediante transferencia bancaria a los 30 días de la fecha de recepción de la factura a la siguiente cuenta corriente titularidad del PROVEEDOR: (…) [indicar nº de cuenta].
+El PROVEEDOR podrá variar las tarifas para adaptarlas por necesidades del mercado,
+previa notificacion al CLIENTE mínimo un mes antes de la emisión de la primera factura
+en la que tengan efecto las nuevas tarifas.
+Una vez notificadas las nuevas tarifas se entienden aceptadas por el CLIENTE tàcitamente.
+
+El PROVEEDOR facturará, trimestralmente y a trimestre vista,
+al CLIENTE la cuota pactada incrementada con el IVA.
+Los pagos se llevarán a cabo la primera semana con dias laborables
+de los meses de enero, abril, julio y octubre.
+
+En caso de impago de los cargos,
+la deuda vencida generará un interés de demora igual al interés legal del dinero
+incrementado en dos puntos y dará derecho al PROVEEDOR a resolver el
+Contrato de conformidad con lo dispuesto en las presentes Condiciones.
+
+El PROVEEDOR facturará los periodos incompletos prorrateando
+el número de días naturales efectivos respecto a los dias naturales del trimestre.
 
 
 ### SEXTA.- DURACIÓN DEL CONTRATO
 
-El plazo de duración del presente Contrato es indefinido a partir de la fecha referida en el encabezamiento del Contrato.
+El plazo de duración del presente Contrato es indefinido 
+a partir de la fecha referida en el encabezamiento del Contrato
+pudiendo el cliente a proceder a su resolución en cualquier momento,
+efectuando un preaviso de al menos 30 días de antelación.
 
 
 ### SÉPTIMA.- SUSPENSION DEL CONTRATO
 
-El CLEINTE no paga!!!! -- TODO --
-
+TODO: Que hacer en caso de impagos
 
 ### OCTAVA.- MODIFICACIÓN DEL CONTRATO
 
