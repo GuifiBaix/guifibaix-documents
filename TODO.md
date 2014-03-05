@@ -11,7 +11,8 @@
 - ~~Flors15: Instalacion~~ -> Descartao
 - ~~Formacion: Raul Sanz, BitBucket para acceder al privado [Lunes]~~
 - ~~Formacion: Raul Sanz, Encriptacion para manejar datos personales [Lunes]~~
-- ~~Contrato de servicio: Revisar la primera version~~
+- ~~Contrato de servicio: Discutir en la lista [todos]~~
+- ~~Contrato de servicio: Revisar primera version [David-Victor]~~
 - ~~Cablematic: Apliques RJ45 externos~~
 - ~~Cablematic: Latiguillos de colores de 25cm~~
 - ~~sjd-fontsanta11: hablar con los promotores y medir [Aitor-RaulS]~~
@@ -20,9 +21,15 @@
 - ~~Caixa Guissona: Ingresar pago Santa Coloma~~
 - ~~Caixa Guissona: Ingresar pago sjd-torrentnegre23~~
 - ~~Checklist: Instalación~~
+- ~~Garraf: Quedada con Anna y Al [Victor,Aitor,David]~~
 
 
 # Tareas programadas para la semana
+
+- ~~sjd-domenech11: Llamar para confirmar [lunes mañana]~~
+- ~~sjd-domenech11: Conectividad [lunes 18h]~~
+- ~~sjd-fontsanta48b: Llamar apra confimar [lunes mañana]~~
+- ~~sjd-fontsanta48b: Conectividad [lunes 16h]~~
 
 - Contrato de servicio: Política de uso [David]
 - Contrato de servicio: Responsabilidad social coorporativa [David]
@@ -32,7 +39,7 @@
 - Contrato de servicio: Enviarselo a los usuarios actuales y potenciales para que opinen
 - Contrato de servicio: Esperar unos dias para que contestesten
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
-- Loren: Quedada en Torrellas o Castefa
+- ~~Loren: Quedada en Torrellas o Castefa~~
 - Buscar programa VozIP para RaulS [Victor]
 - Formacion: Raul Sanz, VozIP [Lunes]
 - sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]
@@ -40,11 +47,11 @@
 	- sjd-fontsanta16: Punto de acceso wifi (ver el md)
 	- sjd-fontsanta16: Camaras wifi
 - sjd-fontsanta16: Hacer propuesta
-- sjd-domenech11: Llamar para confirmar [lunes mañana]
-- sjd-domenech11: Conectividad [lunes 18h]
-- sjd-fontsanta48b: Llamar para confimar [lunes mañana]
-- sjd-fontsanta48b: Conectividad [lunes 16h]
+- sjd-domenech11: Mediciones [viernes 16h, David-Aitor]
+- sjd-fontsanta48b: Presupuesto
+- sjd-fontsanta48b: Foto del registro de planta
 - Llamar al Instituto de Gava [David]
+	- ~~Contactado por correo~~
 - Llamar al Instituto de Cornella [Aitor]
 - kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
 - sjd-torrentdennegre23: Reenviar a Nubip los contratos cuando los firmen [David]
@@ -55,21 +62,23 @@
 - prll-caldetes5: Permiso al presidente
 - prll-caldetes5: Instalacion individual
 - Presupuestos
-	- Domenech: burchar
-	- Catalunya: burchar
-	- Canal45: burchar
+	- Domenech: burchar [correo reenviado]
+	- Catalunya: burchar [avisado por fb]
+	- Canal45: burchar [1er aviso]
 	- AvBarcelona23: burchar
-	- FredericCasas1f: burchar
+	- FredericCasas1f: burchar [mail enviado]
 	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
 	- BaltasarDEspanya41: Pressupost
 	- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
 	- Pressupost: Monturiol
 	- Pressupost: Gava4
 	- Postsupost: Gats
-	- Payo: Mediciones
-	- Mayor24: Reactivar
-	- CGT: burchar
-	- Xavi CNT: Proponer Conectividad
+	- Payo: Buscar la medicion
+	- Payo: Medicion
+	- Payo: Presupuesto
+	- Mayor24: Reactivar [raquel avisada]
+	- CGT: burchar [Aitor]
+	- Xavi CNT: Proponer Conectividad [Aitor]
 - Llamar: Nubip
 	- Nubip: Tarifa sin llamadas incluidas
 	- Nubip: Concretar precios de ADSL
@@ -77,6 +86,7 @@
 	- Nubip: Margenes de comercializacion?
 	- Nubip: Que cobertura tenemos en los puntos clave? [responderan el jueves]
 	- Nubip: Seria posible acercar fibra de Commons a TV3? [responderan el jueves]
+	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
 - Gats: Comentar con Gats la devolucion del IVA
 - Gats: Marti: burchar que hable con sus vecinos de KNY
 - Mailing list de usuarios
@@ -106,7 +116,6 @@
 		- Contacto: 93 689 02 91
 		- EEEIII: http://www.eeeiii.net/ empresa instaladora, apenas da informacion sobre guifi.net en su web
 	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros [Victor]
-	- Garraf: Quedada con Anna y Al [Victor,Aitor,David]
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
 	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
 		- Corbera: Que antenas usan
@@ -114,8 +123,6 @@
 		- Esparraguera: Visibilidad con Corbera?
 	- BCN-Monistrol7 (Gracia): Registrar el trasto en el nodo para tener IP
 	- BCN-Monistrol7 (Gracia): Repetir la prueba con la antena bien configurada
-- Contrato de servicio: Discutir en la lista [todos]
-- Contrato de servicio: Revisar contrato de servicio [David-Victor]
 - Revisar el dossier lo que dijo Victor [David]
 - Convenio con la fundación [David-Victor]:
 	- Revisar los tiempos de respuesta
@@ -125,7 +132,7 @@
 	- Coral del prat: Enviar información (coraldelprat@hotmail.com)
 	- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
 	- Colla de diables del prat: Enviar información
-	- Asociacion de vecinos: Enviar información
+	- Asociacion de vecinos Prat: Enviar información
 	- Llamar a los que contesten [RaulS con ayudas del resto]
 	- Hacer una lista compartida de estado de clientes
 	- Yolanda Losa: Contactar con ella
@@ -156,9 +163,6 @@
 	- Balanceo de ADSL entre edificios
 	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
 - Checklist: Stand
-- TV3 Jordi Payo: Buscar la medicion
-- TV3 Jordi Payo: Medicion
-- TV3 Jordi Payo: Presupuesto
 - Luis Esplugues: Prueba/Medicion [aitor]
 - Esplugues Nani: Prueba/medicion [aitor]
 
