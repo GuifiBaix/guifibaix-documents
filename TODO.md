@@ -1,72 +1,75 @@
-# Hecho 2014-02-28
-
-- ~~torrentnegre23: Pedir altas a nubip~~
-- ~~torrentnegre23: pasar contratos~~
-- ~~Caldetes5: Reenviar presupuesto sin descuento~~
-- ~~Caldetes5: Aclarar con oscar el tema del descuento qu le estamos haciendo~~
-- ~~Caldetes6: Proponerle dia~~
-- ~~Gelabert: 3a convocatoria~~
-- ~~Gelabert1: Reimprimir presupuesto~~
-- ~~Gelabert: Buzonear~~
-- ~~Flors15: Instalacion~~ -> Descartao
-- ~~Formacion: Raul Sanz, BitBucket para acceder al privado [Lunes]~~
-- ~~Formacion: Raul Sanz, Encriptacion para manejar datos personales [Lunes]~~
-- ~~Contrato de servicio: Discutir en la lista [todos]~~
-- ~~Contrato de servicio: Revisar primera version [David-Victor]~~
-- ~~Cablematic: Apliques RJ45 externos~~
-- ~~Cablematic: Latiguillos de colores de 25cm~~
-- ~~sjd-fontsanta11: hablar con los promotores y medir [Aitor-RaulS]~~
-- ~~sjd-fontsanta11: buscar soluciones [Aitor-RaulS-David]~~
-- ~~Castelldefels: Contactar con Loren~~ -> Se ha quedado martes o miercoles
-- ~~Caixa Guissona: Ingresar pago Santa Coloma~~
-- ~~Caixa Guissona: Ingresar pago sjd-torrentnegre23~~
-- ~~Checklist: Instalación~~
-- ~~Garraf: Quedada con Anna y Al [Victor,Aitor,David]~~
-
-
-# Tareas programadas para la semana
+# Hecho 2014-03-07
 
 - ~~sjd-domenech11: Llamar para confirmar [lunes mañana]~~
 - ~~sjd-domenech11: Conectividad [lunes 18h]~~
 - ~~sjd-fontsanta48b: Llamar apra confimar [lunes mañana]~~
 - ~~sjd-fontsanta48b: Conectividad [lunes 16h]~~
+- ~~Contrato de servicio: Precios y facturacion~~ [David]
+- ~~Loren: Quedada en Torrellas o Castefa~~
+- ~~Llamar al Instituto de Gava [David]~~
+- ~~Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]~~ -> Indiferente en horas se cobra la canaleta
+- ~~catalunya4: dar un toque [avisado por fb]~~
+- ~~canal45: dar un toque [1er aviso]~~
+- ~~FredericCasas1f: dar un toque [mail enviado]~~
+- ~~FredericCasas1f: enviar individual~~
 
+
+# Tareas programadas para la semana
+
+
+- ~~sjd-domenech11: Mediciones [viernes 16h, David-Aitor]~~
+- ~~Instituto Gava: Preparar la charla [lunes tarde - David]~~
+- ~~Nubip: Pedir precios llamadas internacionales~~
+- ~~Nubip: Tarifa sin llamadas incluidas~~
+- ~~Nubip: Tarifa voz ip con llamadas~~
+- ~~Nubip: Margenes de comercializacion?~~
+- ~~sjd-torrentdennegre23: Recoger los contratos~~
+- ~~sjd-torrentdennegre23: Reenviar a Nubip los contratos cuando los firmen [David]~~
+- ~~Preguntar a RaulS como lleva los contactos~~
+- ~~kny-florida40: Adaptar presupuesto a individual [Aitor]~~
+- ~~Invitar a equipo al mapa~~
+- ~~prll-doctorrobert1: prova i medicio~~
+- ~~prll-doctorrobert1: pressupost~~
+- ~~torrellas: Investigar que cacharros usan para enlacar con ellos [David/Victor]~~ -> Loren: Nanostation(M)5 con AirOs
+- ~~torrellas: Conseguir contacto de Torrellas [Aitor]~~
+- quedar con robe para el streaming
+- prll-doctorrobert1: enviar pressupost
+- kny-florida40: Enviar correo con los vecinos
+- kny-florida40: Revisar presupuesto individual [Aitor]
+- sjd-domenech11: Presupuesto
+- sjd-fontsanta48b: Presupuesto
+- sjd-fontsanta48b: Foto del registro de planta
+- Prospecciones [Aitor lunes tarde]
+	- prll-pompeufabra75: Llamar para ver si se puede avanzar [RaulS]
+	- prll-avvergedemontserrat269: Llamar para ver si se puede avanzar [RaulS]
+	- prll-avremolar75: Llamar para ver si se puede avanzar [RaulS]
+	- prll-mestrevigoigarreta32: Llamar para ver si se puede avanzar -- contactado, pendiente de dia
 - Contrato de servicio: Política de uso [David]
 - Contrato de servicio: Responsabilidad social coorporativa [David]
-- ~~Contrato de servicio: Precios y facturacion~~ [David]
 - Contrato de servicio: Acuerdo de nivel de servicio [Victor]
 - Contrato de servicio: Los equipos son del usuario pero se compromete al Comuns??
 - Contrato de servicio: Enviarselo a los usuarios actuales y potenciales para que opinen
 - Contrato de servicio: Esperar unos dias para que contestesten
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
-- ~~Loren: Quedada en Torrellas o Castefa~~
-- Buscar programa VozIP para RaulS [Victor]
-- Formacion: Raul Sanz, VozIP [Lunes]
+- scc-maragall1: Recibo
+- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
 - sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]
+	- sjd-fontsanta16: Llamar a Cablematic [Aitor]
 	- sjd-fontsanta16: Servidor
 	- sjd-fontsanta16: Punto de acceso wifi (ver el md)
 	- sjd-fontsanta16: Camaras wifi
 - sjd-fontsanta16: Hacer propuesta
-- sjd-domenech11: Mediciones [viernes 16h, David-Aitor]
-- sjd-fontsanta48b: Presupuesto
-- sjd-fontsanta48b: Foto del registro de planta
-- Llamar al Instituto de Gava [David]
-	- ~~Contactado por correo~~
 - Llamar al Instituto de Cornella [Aitor]
-- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
-- sjd-torrentdennegre23: Reenviar a Nubip los contratos cuando los firmen [David]
-- Prospecciones [RaulS]
-	- prll-avjoanmaragall75: Llamar para ver si se puede avanzar [RaulS]
-	- prll-avvergedemontserrat269: Llamar para ver si se puede avanzar [RaulS]
-	- prll-avremolar75: Llamar para ver si se puede avanzar [RaulS]
+- prll-caldetes5: dar un toque
 - prll-caldetes5: Permiso al presidente
-- prll-caldetes5: Instalacion individual
+- prll-caldetes5: Hacer instalacion individual
+- Torrellas: Contactar con la persona de Torrellas [David]
 - Presupuestos
-	- Domenech: burchar [correo reenviado]
-	- Catalunya: burchar [avisado por fb]
-	- Canal45: burchar [1er aviso]
-	- AvBarcelona23: burchar
-	- FredericCasas1f: burchar [mail enviado]
+	- Domenech40: dar un toque [correo reenviado]
+	- AvBarcelona23: dar un toque
+	- FredericCasas1f: esperar respuesta del individual
+	- catalunya4: fijar dia
+	- canal45: esperar respuesta
 	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
 	- BaltasarDEspanya41: Pressupost
 	- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
@@ -76,19 +79,23 @@
 	- Payo: Buscar la medicion
 	- Payo: Medicion
 	- Payo: Presupuesto
-	- Mayor24: Reactivar [raquel avisada]
-	- CGT: burchar [Aitor]
-	- Xavi CNT: Proponer Conectividad [Aitor]
+	- Mayor24: Reactivar [raquel avisada] [David]
+	- CGT: dar un toque [Aitor]
+	- Xavi CNT: Pasar datos (csv i md) [Aitor]
+	- Xavi CNT: Poner punto [David]
+	- Xavi CNT: Proponer Conectividad [Aitor] [Depende de que este puesta florida]
+- Hoja con las tarifas de telefonia IP incluida la nueva tarifa plana
 - Llamar: Nubip
-	- Nubip: Tarifa sin llamadas incluidas
-	- Nubip: Concretar precios de ADSL
-	- Nubip: Pedir precios llamadas internacionales
-	- Nubip: Margenes de comercializacion?
-	- Nubip: Que cobertura tenemos en los puntos clave? [responderan el jueves]
-	- Nubip: Seria posible acercar fibra de Commons a TV3? [responderan el jueves]
+- ~~Nubip: Actualizar tarifas de mobil~~
+- ~~Nubip: Actualizar tarifas voz ip~~
+- ~~Nubip: Contestar a Iosu~~
+	- Nubip: Enviar tarifas internacionales a elisenda
+	- Nubip: Proponerle hablar en lo de Eticom
+	- Nubip: Que cobertura tenemos en los puntos clave?
+	- Nubip: Seria posible acercar fibra de Commons a TV3?
 	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
 - Gats: Comentar con Gats la devolucion del IVA
-- Gats: Marti: burchar que hable con sus vecinos de KNY
+- Gats: Marti: dar un toque que hable con sus vecinos de KNY
 - Mailing list de usuarios
 - Mailing list: Añadir a los potenciales [David]
 - Urgente contestar:
@@ -97,7 +104,7 @@
 	- Sant Vicenç: Quedada con Oscar (sistemes)
 	- Sant Vicenç: Preguntar a Use per les AAVV's
 	- Sant Vicenç: Convocar una charla en Sant Vicenç
-
+- sjd-torrentdennegre23: Configurar telefonia ip
 - Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - AvBarcelona23: Argumento de ventas para jugones [Victor]
@@ -106,16 +113,10 @@
 	- Cablematic [Aitor Lunes]
 		- Cablematic: Fundas de colorainas
 		- Cablematic: 2 hembras -> 1 macho RJ45
-	- CIL: Simon con telefono + Rj45
+	- CIL: Simon con telefono + Rj45 [Aitor]
 	- Walkies
 	- Grapas redondas agujero
 - Averiguar situacion en zonas de expansion que nos han pedido
-	- Torrellas: Contactar con la persona de Torrellas [Aitor]
-	- Torrellas: Investigar que cacharros usan para enlacar con ellos [David/Victor]
-		- Mikrotik y Ubiquiti, sin qMp, software nativo de los trastos.
-		- Contacto: 93 689 02 91
-		- EEEIII: http://www.eeeiii.net/ empresa instaladora, apenas da informacion sobre guifi.net en su web
-	- Sant Boi: Javier Ponce proponerle hacer una prueba nosotros [Victor]
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
 	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
 		- Corbera: Que antenas usan
@@ -139,8 +140,6 @@
 	- Revisar la lista del Prat
 	- Enviar dossier a potenciales del Prat [Pendiente de revision del dossier]
 	- Remaquetar (y Corregir!!) el dossier
-- Web: Enviar el formulario a la direccion descartable webforms01 [David]
-- Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]
 - GranCapitan: Hacer seguimiento de la antena
 - Tesorería
 	- Tesoreria: Añadir facturas Aitor [David]
@@ -150,12 +149,22 @@
 - Grabar configuraciones de red finales [victor]
 - Precios: Precios en la Cofac [RaulB]
 
+- Saó Prat: Contactar con ellos
+	- Esperar hasta Marzo
+	- Llamar: Sao Prat lunes
+	- Saó Prat: Llamar
+	- Saó Prat: Ofrecer: Conectividad entre las sedes
+	- Saó Prat: Ofrecer: Compartir conexiones
+	- Saó Prat: Ofrecer: Acceso internet
+	- Saó Prat: Empezar con pruebas de connectividad en Barri Orcasitas y Pirineus
+
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
-- ICEA: Preguntarle [Aitor]
-	- Tenemos Asociacion/Cooperativa consumo y Cooperativa Instaladores
-	- Instalaciones con IVA a la cooperativa
-	- Las cuotas si son de la asociacion, sin iva, pero si hay que pagar a los tecnicos de la cooperativa, como?
+- Buscar programa VozIP para RaulS [Victor]
+- Formacion: Raul Sanz, VozIP
+- Formacion: Raul Sanz, Google Maps compartidos
+- Formacion: Raul Beas, VozIP
+- Formacion: Raul Beas, Git via web
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
 - Aclarar soluciones tecnicas [David-Victor]
 	- Monitorizacion de los ADSL
@@ -169,14 +178,7 @@
 
 # Tareas pospuestas
 
-- Saó Prat: Contactar con ellos
-	- Esperar hasta Marzo
-	- Llamar: Sao Prat lunes
-	- Saó Prat: Llamar
-	- Saó Prat: Ofrecer: Conectividad entre las sedes
-	- Saó Prat: Ofrecer: Compartir conexiones
-	- Saó Prat: Ofrecer: Acceso internet
-	- Saó Prat: Empezar con pruebas de connectividad en Barri Orcasitas y Pirineus
+- Web: Enviar el formulario a la direccion descartable webforms01 [David]
 - Comprar: Grimpadora de apliques
 - Comprar bridas blancas
 - Compra: Manguera de luz (cuando estemos listos para una instalación)
@@ -555,7 +557,7 @@
 - ~~Llamar a Salva por tema cuenta~~ [David]
 	- ~~Porque nueva cuenta y no en guisona~~
 	- ~~Que gastos tiene (domiciliación...)~~
-- ~~Llamar a Salva burchar por convenio~~ Lo tiene Raúl B
+- ~~Llamar a Salva dar un toque por convenio~~ Lo tiene Raúl B
 - ~~Hablar con Gats: Numeración facturas y recibos~~ [David]
 
 ## Hecho semana 2013-11-15
