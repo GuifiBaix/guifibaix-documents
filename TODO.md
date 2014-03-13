@@ -1,4 +1,4 @@
-# Hecho 2014-03-07
+a edi# Hecho 2014-03-07
 
 - ~~sjd-domenech11: Llamar para confirmar [lunes mañana]~~
 - ~~sjd-domenech11: Conectividad [lunes 18h]~~
@@ -30,12 +30,13 @@
 - ~~Invitar a equipo al mapa~~
 - ~~prll-doctorrobert1: prova i medicio~~
 - ~~prll-doctorrobert1: pressupost~~
-- ~~torrellas: Investigar que cacharros usan para enlacar con ellos [David/Victor]~~ -> Loren: Nanostation(M)5 con AirOs
+- ~~kny-florida40: Revisar presupuesto individual [Aitor]~~
+- ~~torrellas: Investigar que cacharros usan para enlacar con ellos [David/Victor]~~ -> Loren: 
+Nanostation(M)5 con AirOs
 - ~~torrellas: Conseguir contacto de Torrellas [Aitor]~~
 - quedar con robe para el streaming
 - prll-doctorrobert1: enviar pressupost
 - kny-florida40: Enviar correo con los vecinos
-- kny-florida40: Revisar presupuesto individual [Aitor]
 - sjd-domenech11: Presupuesto
 - sjd-fontsanta48b: Presupuesto
 - sjd-fontsanta48b: Foto del registro de planta
@@ -150,9 +151,10 @@
 - Precios: Precios en la Cofac [RaulB]
 
 - Saó Prat: Contactar con ellos
-	- Esperar hasta Marzo
-	- Llamar: Sao Prat lunes
-	- Saó Prat: Llamar
+	- ~~Esperar hasta Marzo~~
+	- ~~Llamar: Sao Prat lunes~~
+	- ~~Saó Prat: Llamar~~
+	- Saó Prat: 1 de abril para hacer la prueba de conectividad para ellos
 	- Saó Prat: Ofrecer: Conectividad entre las sedes
 	- Saó Prat: Ofrecer: Compartir conexiones
 	- Saó Prat: Ofrecer: Acceso internet
