@@ -1,19 +1,3 @@
-a edi# Hecho 2014-03-07
-
-- ~~sjd-domenech11: Llamar para confirmar [lunes mañana]~~
-- ~~sjd-domenech11: Conectividad [lunes 18h]~~
-- ~~sjd-fontsanta48b: Llamar apra confimar [lunes mañana]~~
-- ~~sjd-fontsanta48b: Conectividad [lunes 16h]~~
-- ~~Contrato de servicio: Precios y facturacion~~ [David]
-- ~~Loren: Quedada en Torrellas o Castefa~~
-- ~~Llamar al Instituto de Gava [David]~~
-- ~~Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]~~ -> Indiferente en horas se cobra la canaleta
-- ~~catalunya4: dar un toque [avisado por fb]~~
-- ~~canal45: dar un toque [1er aviso]~~
-- ~~FredericCasas1f: dar un toque [mail enviado]~~
-- ~~FredericCasas1f: enviar individual~~
-
-
 # Tareas programadas para la semana
 
 
@@ -34,7 +18,8 @@ a edi# Hecho 2014-03-07
 - ~~torrellas: Investigar que cacharros usan para enlacar con ellos [David/Victor]~~ -> Loren: 
 Nanostation(M)5 con AirOs
 - ~~torrellas: Conseguir contacto de Torrellas [Aitor]~~
-- quedar con robe para el streaming
+- Provar telefonia IP con canuto de EXO
+- quedar con rober para el streaming
 - prll-doctorrobert1: enviar pressupost
 - kny-florida40: Enviar correo con los vecinos
 - sjd-domenech11: Presupuesto
@@ -241,6 +226,22 @@ Nanostation(M)5 con AirOs
 		- Migrar los servidores
 
 		
+# Hecho 2014-03-07
+
+- ~~sjd-domenech11: Llamar para confirmar [lunes mañana]~~
+- ~~sjd-domenech11: Conectividad [lunes 18h]~~
+- ~~sjd-fontsanta48b: Llamar apra confimar [lunes mañana]~~
+- ~~sjd-fontsanta48b: Conectividad [lunes 16h]~~
+- ~~Contrato de servicio: Precios y facturacion~~ [David]
+- ~~Loren: Quedada en Torrellas o Castefa~~
+- ~~Llamar al Instituto de Gava [David]~~
+- ~~Evaluar presupuesto con canaleta en interior. ¿Cual? ¿Cuanto el metro? ¿Diferencia de tiempo? [RaulB]~~ -> Indiferente en horas se cobra la canaleta
+- ~~catalunya4: dar un toque [avisado por fb]~~
+- ~~canal45: dar un toque [1er aviso]~~
+- ~~FredericCasas1f: dar un toque [mail enviado]~~
+- ~~FredericCasas1f: enviar individual~~
+
+
 # Hecho 2014-02-21
 
 - ~~TorrentNegre33: Configurar antena~~
