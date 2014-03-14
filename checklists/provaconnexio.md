@@ -38,6 +38,8 @@
 - càmara de fotos
 - prismàtics
 - linterna
+- telefono portatil
+- cinta carrocero
 
 # Material opcional
 
