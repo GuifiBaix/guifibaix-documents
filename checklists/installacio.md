@@ -31,7 +31,6 @@
 	- Linterna
 	- Brujula
 	- Arneses
-	- Grimpadora
 	- Adaptador enchufe antiguo
 	- Adaptador telefónico
 	- Telefono de pruebas
@@ -72,6 +71,7 @@
 	- Llave de carraca
 	- Llaves de tubo
 	- Maceta para introducir espirros
+	- Llave inglesa
 
 - Si hay que sellar
 	- Mortero
