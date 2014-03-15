@@ -4,11 +4,11 @@
 Si volem fer servir un dispositiu que està darrera d'una antena wifi,
 ho podem fer mitjançant un tunel SSH, sempre  que tinguem accés SSH a l'antena.
 
-Si la antena tingués IP 10.1.46.6 a la xarxa qMp,
+Si l'antena tingués IP 10.1.49.6 a la xarxa qMp,
 i l'element intern accessible des de l'antena es 172.30.0.20,
 el tunel es crea així:
 
-	$ ssh -N -L 4106:172.30.0.20:80 root@10.1.46.6
+	$ ssh -N -L 4906:172.30.0.20:80 root@10.1.49.6
 
 > L'opció -N fa que no s'obri un shell com pasaría amb un ssh normal.
 > Tanquem el túnel fent Control+C.
