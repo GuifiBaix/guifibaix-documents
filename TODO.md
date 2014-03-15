@@ -1,8 +1,7 @@
 # Tareas programadas para la semana
 
 
-~ Configurar VozIP a RaulS
-- sjd-torrentdennegre23: Configurar telefonia ip
+- ~~sjd-torrentdennegre23: Configurar telefonia ip~~
 - scc-maragall1: Recibo [viernes tarde David]
 	- scc-maragall1: calcular lo que tiene que pagar
 	- scc-maragall1: enviar los conceptos a Gats
@@ -14,9 +13,10 @@
 - kny-florida40: Asamblea [viernes tarde]
 - kny-florida40: Enviar correo con los vecinosa
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
+- Configurar VozIP a RaulS
 
 
-
+- sjd-torrentdennegre23: Esperar la portabilidad
 - sjd-domenech11: Presupuesto
 - sjd-fontsanta48b: Presupuesto
 - sjd-fontsanta48b: Volver a hacer visita para puntos de entrada con la guia
