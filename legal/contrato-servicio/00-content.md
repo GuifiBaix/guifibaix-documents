@@ -156,9 +156,42 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 
 ### TERCERA.- POLÍTICA DE USO
 
-3.1. El CLIENTE es el único responsable de determinar si los servicios que constituyen el objeto de este Contrato se ajustan a sus necesidades, por lo que el PROVEEDOR no garantiza que el servicio de mantenimiento contratado se ajuste a las necesidades específicas del CLIENTE.
+3.1.
+	El CLIENTE es el único responsable de determinar
+	si los servicios que constituyen el objeto de este Contrato
+	se ajustan a sus necesidades,
+	por lo que el PROVEEDOR no garantiza que el servicio de mantenimiento contratado
+	se ajuste a las necesidades específicas del CLIENTE.
 
-3.2. El CLIENTE se obliga a hacer constar de forma clara, visible y accesible desde sus contenidos, sus datos identificativos y como único responsable de los contenidos, poniendo un aviso en sus contenidos de la Política de uso.
+3.2.
+	El CLIENTE se obliga a hacer constar de forma clara, visible y accesible desde sus contenidos,
+	sus datos identificativos y como único responsable de los contenidos,
+	poniendo un aviso en sus contenidos de la Política de uso de los mismos.
+
+3.3.
+	El CLIENTE se compromete a no hacer un uso de la red que altere por sobrecarga o saturación,
+	la calidad de servicio ofrecida al resto de usuarios.
+	El PROVEEDOR se reserva el derecho de bloquear o modular dichos usos, para garantizar la calidad de servicio.
+	El PROVEEDOR se compromete a informar al CLIENTE, si lo pide,
+	si un servicio está siendo  modulado o bloqueado e informar de las alternativas.
+
+3.4.
+	El CLIENTE se compromete
+	a no usar la red con fines delictivos, asi como a no desarrollar actividades que persigan o tengan como consecuencia:
+
+- La congestión de los enlaces de comunicaciones o sistemas informáticos.
+- La destrucción o modificación premeditada de la información de otros usuarios.
+- La violación de la privacidad e intimidad de otros usuarios.
+- El envío de SPAM a través de la red sea cual sea su forma
+
+
+3.5.
+	Tanto CLIENTE como PROVEEDOR, se comprometen a subscribir las condiciones de
+	la Licencia de Red de ProComún, anexada a este contrato.
+
+
+
+
 
 
 
