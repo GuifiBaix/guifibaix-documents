@@ -2,7 +2,7 @@
 # sudo apt-get install pandoc texlive-lang-spanish pdftk
 
 
-python3 omple.py < *md | 
+python3 omple.py < *.md | 
 pandoc \
 	-V lang=spanish \
 	-V title-meta='Contrato de servicios: GuifiBaix SCCL' \

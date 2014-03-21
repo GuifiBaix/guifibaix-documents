@@ -129,12 +129,14 @@ c) Mantenimiento de RED:
 	- Mantenimiento preventivo que incluya la monitorización de los parámetros básicos de la red de forma que se garantice su adecuada dimensión.
 	- Mantenimiento correctivo que incluye la reconfiguración del hardware y software de RED después de la caída del sistema u otros percances.
 	- Mantenimiento evolutivo que incluye la configuración y optimización para el correcto funcionamiento de la comunicación entre los equipos conectados en RED, así como todos los periféricos conectados a ella.
+	
+DGG: "todos los periféricos conectadoes a ella" puede generalizarse demasiado
 
 
 2.2.1. El PROVEEDOR se obliga a prestar los servicios necesarios para el correcto funcionamiento del sistema instalado en el CLIENTE, siempre que no se deban a manipulaciones indebidas. 
 Dichos servicios comprenden la realización de cuantas operaciones sean necesarias en los equipos o sistemas incluidos en este contrato.
 
-2.2.2. El CLIENTE facilitará la labor del PROVEEDOR en todo momento dandole el acceso a los sistemas requeridos. El PROVEEDOR se reserva el acceso físico y telemático a los equipos comunes, a fin de poder
+2.2.2. El CLIENTE facilitará la labor del PROVEEDOR en todo momento dándole el acceso a los sistemas requeridos. El PROVEEDOR se reserva el acceso físico y telemático a los equipos comunes, a fin de poder
 gestionar de forma eficiente y correcta tanto el apartado preventivo, correctivo y/o evolutivo de estos sistemas.
 
 2.2.3. El coste de cualquier componente que el PROVEEDOR tenga sustituir o instalar será por cuenta del CLIENTE, a excepción de defectos de fábrica o mala manipulación por parte del 
@@ -143,6 +145,8 @@ PROVEEDOR o terceros vinculados con el mismo. El PROVEEDOR no se responsabiliza 
 2.2.4. El CLIENTE se compromete a utilizar los componentes del hardware y del software de acuerdo con las instrucciones y el manual del fabricante.
 
 2.2.5. En ningún caso el PROVEEDOR mantendrá, instalará o configurará sin los debidos permisos.
+
+DGG: Segun como lo leas se entiende que para cualquier actuación necesitaramos el permiso del cliente, pero no nos referismos a eso.
 
 2.2.6. El PROVEEDOR ofrecerá un servicio de soporte técnico de 9 a 17 horas todos los días laborables no festivos mediante llamada telefónica al ({proveedor.telefono}) o correo electrónico a 
 {proveedor.email}. Las vísperas de festivos nacionales, el horario de atención telefónica será de 9 a 15 horas. Los fines de semana o festivos, el servicio estará disponible a través del 
