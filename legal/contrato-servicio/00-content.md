@@ -191,13 +191,55 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 
 
 
-
-
-
-
 ### CUARTA.- RESPONSABILIDAD SOCIAL
 
-Lo que DAVID diga....  -- TODO --
+4..
+	El PROVEEDOR se comprometa cumplir y hacer cumplir,
+	en las redes que desplega y mantiene,
+	la licencia de Red Neutral y Abierta en Procomún
+	anexada al presente contrato.
+	El PROVEEDOR se compromete a que los protocolos telemáticos
+	usados en dichas redes estén basados estándares abiertos.
+
+4..
+	El PROVEEDOR se compromete a que los usuarios puedan acceder, si lo piden,
+	a la documentación técnica que describe la arquitectura de la red,
+	con el suficiente detalle para que una persona o entidad especializada
+	pueda substituir las funciones del PROVEEDOR.
+
+4..
+	El PROVEEDOR se compromete con el CLIENTE a que todo el software que genera,
+	se publique con una licencia libre según la definición de la Open Source Initiative.
+	También se compromete a desempeñar su actividad con relación al CLIENTE,
+	usando exclusivamente software libre, 
+	exceptuando las aplicaciones privativas para las que no hubiera alternativa libre viable.
+	En este caso, el PROVEEDOR se compromete a poner recursos para que la alternativa libre acabe siendo viable.
+
+4..
+	El PROVEEDOR se compromete a comunicarse con el CLIENTE mediante documentos
+	en formatos abiertos y libres de royalties
+	que no requieran la adquisicion de licencias privativas para acceder a ellos.
+
+4..
+	El PROVEEDOR se compromete con el CLIENTE a que
+	los equipos y servidores localizados en sus sedes
+	usen exclusivamente por energías renovables,
+	contratándo la luz de dichas sedes
+	con comercializadoras eléctricas que garanticen el origen renovable de la energía comprada.
+
+4..
+	El PROVEEDOR se compromente con el CLIENTE a potenciar la economía local.
+	El PROVEEDOR incluirá la localidad como un criterio social
+	más a tener en cuenta en la elección de sus proveedores.
+
+4..
+	El PROVEEDOR se compromete a que los trabajadores que dan el servicio al CLIENTE
+	tengan control democrático sobre sus condiciones laborales.
+
+4..
+	El PROVEEDOR se compromete a presionar a terceros proveedores para hagan extensivos estos compromisos sociales.
+	En caso de haber terceros proveedores con ofertas económicas similares,
+	el PROVEEDOR eligirá en base a estos criterios sociales.
 
 
 
