@@ -113,24 +113,21 @@ y subcontratistas, por lo que el PROVEEDOR responderá frente al CLIENTE si tale
 2.2. El PROVEEDOR prestará los Servicios en los siguientes términos y condiciones **específicos**:
 
 a) Mantenimiento de HARDWARE:
-
-	- Mantenimiento preventivo que incluye una revisión periódica detallada del correcto funcionamiento de los equipos de hardware en todos sus componentes.
-	- Mantenimiento correctivo que incluye la sustitución de los componentes tanto internos como externos que fallaran en los equipos, todo ello a cargo del CLIENTE, exceptuando los casos de defectos de fábrica o instalación defectuosa.
-	- Mantenimiento evolutivo que incluye la instalación de otros dispositivos adicionales para la mejora del rendimiento operativo en general y de seguridad. En el momento de la instalación, se determinarán la condiciones de propiedad y mantenimiento de estos nuevos elementos.
+	- **Mantenimiento preventivo** que incluye una revisión periódica detallada del correcto funcionamiento de los equipos de hardware en todos sus componentes.
+	- **Mantenimiento correctivo** que incluye la sustitución de los componentes tanto internos como externos que fallaran en los equipos, todo ello a cargo del CLIENTE, exceptuando los casos de defectos de fábrica o instalación defectuosa.
+	- **Mantenimiento evolutivo** que incluye la instalación de otros dispositivos adicionales para la mejora del rendimiento operativo en general y de seguridad. En el momento de la instalación, se determinarán la condiciones de propiedad y mantenimiento de estos nuevos elementos.
 
 b) Mantenimiento de SOFTWARE:
-
-	- Mantenimiento preventivo del software instalado que incluye la revisión de los parámetros críticos de los equipos y de la red.
-	- Mantenimiento correctivo que incluye la reinstalación o reconfiguración de software en el caso de anomalías en el funcionamiento.
-	- Mantenimiento evolutivo que incluye actualización e instalación de software adicional.
+	- **Mantenimiento preventivo** del software instalado que incluye la revisión de los parámetros críticos de los equipos y de la red.
+	- **Mantenimiento correctivo** que incluye la reinstalación o reconfiguración de software en el caso de anomalías en el funcionamiento.
+	- **Mantenimiento evolutivo** que incluye actualización e instalación de software adicional.
  
 c) Mantenimiento de RED: 
-
-	- Mantenimiento preventivo que incluya la monitorización de los parámetros básicos de la red de forma que se garantice su adecuada dimensión.
-	- Mantenimiento correctivo que incluye la reconfiguración del hardware y software de RED después de la caída del sistema u otros percances.
-	- Mantenimiento evolutivo que incluye la configuración y optimización para el correcto funcionamiento de la comunicación entre los equipos conectados en RED, así como todos los periféricos conectados a ella.
+	- **Mantenimiento preventivo** que incluye la monitorización de los parámetros básicos de la red de forma que se garantice su adecuada dimensión.
+	- **Mantenimiento correctivo** que incluye la reconfiguración del hardware y software de RED después de la caída del sistema u otros percances.
+	- **Mantenimiento evolutivo** que incluye la configuración y optimización para el correcto funcionamiento de la comunicación entre los equipos conectados en RED, así como todos los periféricos conectados a ella.
 	
-DGG: "todos los periféricos conectadoes a ella" puede generalizarse demasiado
+DGG: "todos los periféricos conectados a ella" puede generalizarse a los equipos que el cliente conecte a la red por su cuenta.
 
 
 2.2.1. El PROVEEDOR se obliga a prestar los servicios necesarios para el correcto funcionamiento del sistema instalado en el CLIENTE, siempre que no se deban a manipulaciones indebidas. 
@@ -193,54 +190,89 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 
 ### CUARTA.- RESPONSABILIDAD SOCIAL
 
-4..
-	El PROVEEDOR se comprometa cumplir y hacer cumplir,
+4.. **No ánimo de lucro:**
+	El PROVEEDOR se compromete a ajustar sus precios y tarifas a la viabilidad económica del proyecto.
+	Cualquier superávit se reinvertirá en servicios o en infraestructuras comunes para mejorar la red o
+	se dedicará a fondos de reserva.
+	Dentro de dicha viabilidad económica, el PROVEEDOR tomará las decisiones
+	bajo los criterios sociales que se detallan a continuación.
+
+4.. **Red libre, abierta y neutral:**
+	El PROVEEDOR se compromete cumplir y hacer cumplir,
 	en las redes que desplega y mantiene,
 	la licencia de Red Neutral y Abierta en Procomún
 	anexada al presente contrato.
 	El PROVEEDOR se compromete a que los protocolos telemáticos
 	usados en dichas redes estén basados estándares abiertos.
 
-4..
-	El PROVEEDOR se compromete a que los usuarios puedan acceder, si lo piden,
+4.. **No atadura al proveedor:**
+	El PROVEEDOR se compromete a que el CLIENTE pueda acceder, si lo pide,
 	a la documentación técnica que describe la arquitectura de la red,
 	con el suficiente detalle para que una persona o entidad especializada
 	pueda substituir las funciones del PROVEEDOR.
+	Los dispositivos instalados que consten en la factura como pagados quedan en propiedad del CLIENTE.
+	El CLIENTE garantizará al PROVEEDOR el acceso físico y telemático
+	a los dispositivos dentro de la Red Libre y Neutral mientras estén conectados a ella
+	y el proveedor lo requiera para que la red siga funcionando,
+	y a los dispositivos que estén fuera de dicha red, mientras dure este contrato de mantenimiento,
 
-4..
-	El PROVEEDOR se compromete con el CLIENTE a que todo el software que genera,
-	se publique con una licencia libre según la definición de la Open Source Initiative.
+4.. **Software libre:**
+	El PROVEEDOR se compromete con el CLIENTE a que todos los aplicativos informáticos que desarrollen
+	se  publicarán bajo una licencia libre según la definición de la Open Source Initiative.
 	También se compromete a desempeñar su actividad con relación al CLIENTE,
 	usando exclusivamente software libre, 
 	exceptuando las aplicaciones privativas para las que no hubiera alternativa libre viable.
-	En este caso, el PROVEEDOR se compromete a poner recursos para que la alternativa libre acabe siendo viable.
+	En este caso, el PROVEEDOR se compromete a poner recursos para viabilizar dicha alternativa.
 
-4..
+4.. **Formatos abiertos:**
 	El PROVEEDOR se compromete a comunicarse con el CLIENTE mediante documentos
 	en formatos abiertos y libres de royalties
 	que no requieran la adquisicion de licencias privativas para acceder a ellos.
 
-4..
+4.. **Energías renovables:**
 	El PROVEEDOR se compromete con el CLIENTE a que
 	los equipos y servidores localizados en sus sedes
-	usen exclusivamente por energías renovables,
+	usen exclusivamente energías renovables,
 	contratándo la luz de dichas sedes
 	con comercializadoras eléctricas que garanticen el origen renovable de la energía comprada.
 
-4..
-	El PROVEEDOR se compromente con el CLIENTE a potenciar la economía local.
+4.. **Residuos y su impacto ambiental:**
+	El PROVEEDOR se compromete a reciclar o tratar adecuadamente los residuos generados directamente de su labor.
+	El PROVEEDOR se compromete, si se lo pidiera el CLIENTE,
+	a dar utilidad en la instalación a los dispositivos electrónicos de los que ya disponga el CLIENTE,
+	si funcionalmente fuera viable.
+	El PROVEEDOR facilitará la recompra de los dispositivos que, después de instalados,
+	dejasen de usarse en la instalación,
+	para poder reutilizarlos en otras instalaciones.
+	El PROVEEDOR no esta obligado a dicha recompra ni a hacerlo por el mismo precio que en la compra.
+
+4.. **Economía local:**
+	El PROVEEDOR se compromete con el CLIENTE a potenciar la economía local.
+	El PROVEEDOR se compromete con el CLIENTE a no deslocalizar trabajo remunerado.
 	El PROVEEDOR incluirá la localidad como un criterio social
 	más a tener en cuenta en la elección de sus proveedores.
+	El PROVEEDOR dará preferencia al pequeño comercio frente a las grandes cadenas comerciales.
 
-4..
+4.. **Trabajo digno:**
 	El PROVEEDOR se compromete a que los trabajadores que dan el servicio al CLIENTE
 	tengan control democrático sobre sus condiciones laborales.
+	Los trabajadores serán remunerados en igualdad a igual carga de trabajo,
+	sin hacer discriminación por sexo, orientación sexual, raza, discapacidad,
+	origen social, religión o ideología.
+	El PROVEEDOR se compromete a mantener una horquilla de sueldos por carga de trabajo
+	inferior al 1:2 incluidas las subcontratas.
 
-4..
-	El PROVEEDOR se compromete a presionar a terceros proveedores para hagan extensivos estos compromisos sociales.
-	En caso de haber terceros proveedores con ofertas económicas similares,
-	el PROVEEDOR eligirá en base a estos criterios sociales.
+4.. **Participación y formación:**
+	El PROVEEDOR se compromete a incorporar a los usuarios con procesos democráticos
+	en las decisiones que afecten a la evolución de la red común.
+	Para tal fin, el PROVEEDOR fomentará la autoorganizacion democrática del CLIENTE con otros clientes,
+	y organizará acciones de formación técnica para que estos puedan tomar decisiones informadas.
 
+4.. **Extensión a terceros:**
+	El PROVEEDOR se compromete a incidir en terceros proveedores
+	para hagan extensivos los compromisos sociales del PROVEEDOR.
+	Con tal fin, el PROVEEDOR se compromete a dar preferencia a aquellos proveedores 
+	que cumplan dichos compromisos.
 
 
 ### QUINTA.- PRECIO Y FACTURACIÓN.- 
@@ -269,7 +301,32 @@ el número de días naturales efectivos respecto a los dias naturales del trimes
 
 
 
-### SEXTA.- DURACIÓN DEL CONTRATO
+### SEXTA.- ACUERDO DE NIVEL DE SERVICIO
+
+6.1. Todos los Servicios prestados por el PROVEEDOR se realizarán por personal especializado en cada materia. El personal del PROVEEDOR atenderá remotamente o acudirá previsto de todo el material necesario, 
+adecuado y actualizado, para prestar los Servicios.
+
+6.2. Las averías o el mal funcionamiento de los Servicios se comunicarán al PROVEEDOR a través de llamada telefónica ({proveedor.telefono}) o envío de correo electrónico {proveedor.email}. 
+Los horarios de atención, son los especificados en el punto 2.2.6
+
+6.3. Los problemas se atenderán en el período máximo establecido según se defina la incidencia. El tiempo de resolución final, dependerá de la complejidad de la misma, y del volumen de sistemas y/o usuarios afectados.
+
+6.4. Se entiende por *incidencia crítica*: las incidencias que, en el marco de la prestación de los Servicios, afectan significativamente al CLIENTE.
+
+6.5. Se entiende por *incidencia grave*: las incidencias que, en el marco de la prestación de los Servicios, afectan moderadamente al CLIENTE.
+
+6.6. Se entiende por *incidencia leve*: las incidencias que se limitan a entorpecer la prestación de los Servicios.
+
+6.7. El tiempo de atención a dichas incidencias se realizará en los siguientes períodos máximos desde el aviso:
+
+* Incidencia crítica: 30 minutos. (Tiempo máximo de resolución: 1 hora)
+* Incidencia grave:   1 hora.
+* Incidencia leve:    entre 1 y 2 horas.
+
+6.8. El estado de los Servicios se revisará semanalmente por el PROVEEDOR para comprobar su correcto funcionamiento.
+
+
+### SÉPTIMA.- DURACIÓN DEL CONTRATO
 
 El plazo de duración del presente Contrato es indefinido 
 a partir de la fecha referida en el encabezamiento del Contrato
@@ -277,49 +334,21 @@ pudiendo el cliente a proceder a su resolución en cualquier momento,
 efectuando un preaviso de al menos 30 días de antelación.
 
 
-
-### SÉPTIMA.- SUSPENSION DEL CONTRATO
+### OCTAVA.- SUSPENSION DEL CONTRATO
 
 TODO: Que hacer en caso de impagos
 
 
 
-### OCTAVA.- MODIFICACIÓN DEL CONTRATO
+### NOVENA.- MODIFICACIÓN DEL CONTRATO
 
 Las Partes podrán modificar el contrato de mutuo acuerdo y por escrito.
 
 
 
-### NOVENA.- RESOLUCIÓN DEL CONTRATO
+### DÉCIMA.- RESOLUCIÓN DEL CONTRATO
 
 Las Partes podrán resolver el Contrato, en caso de incumplimiento de las obligaciones establecidas en el mismo.
-
-
-
-### DÉCIMA.- ACUERDO DE NIVEL DE SERVICIO
-
-10.1. Todos los Servicios prestados por el PROVEEDOR se realizarán por personal especializado en cada materia. El personal del PROVEEDOR atenderá remotamente o acudirá previsto de todo el material necesario, 
-adecuado y actualizado, para prestar los Servicios.
-
-10.2. Las averías o el mal funcionamiento de los Servicios se comunicarán al PROVEEDOR a través de llamada telefónica ({proveedor.telefono}) o envío de correo electrónico {proveedor.email}. 
-Los horarios de atención, son los especificados en el punto 2.2.6
-
-10.3. Los problemas se atenderán en el período máximo establecido según se defina la incidencia. El tiempo de resolución final, dependerá de la complejidad de la misma, y del volumen de sistemas y/o usuarios afectados.
-
-10.4. Se entiende por *incidencia crítica*: las incidencias que, en el marco de la prestación de los Servicios, afectan significativamente al CLIENTE.
-
-10.5. Se entiende por *incidencia grave*: las incidencias que, en el marco de la prestación de los Servicios, afectan moderadamente al CLIENTE.
-
-10.6. Se entiende por *incidencia leve*: las incidencias que se limitan a entorpecer la prestación de los Servicios.
-
-10.7. El tiempo de atención a dichas incidencias se realizará en los siguientes períodos máximos desde el aviso:
-
-* Incidencia crítica: 30 minutos. (Tiempo máximo de resolución: 1 hora)
-* Incidencia grave:   1 hora.
-* Incidencia leve:    entre 1 y 2 horas.
-
-10.8. El estado de los Servicios se revisará semanalmente por el PROVEEDOR para comprobar su correcto funcionamiento.
-
 
 
 ### ONCEAVA.- NOTIFICACIONES
