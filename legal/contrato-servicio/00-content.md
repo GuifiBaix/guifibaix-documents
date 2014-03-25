@@ -232,22 +232,23 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	contratándo la luz de dichas sedes
 	con comercializadoras eléctricas que garanticen el origen renovable de la energía comprada.
 
-4.7. **Residuos y su impacto ambiental:**
-	El PROVEEDOR se compromete a reciclar o tratar adecuadamente los residuos generados directamente de su labor.
+4.7. **Reduccion y tratamiento de residuos y impacto ambiental:**
+	El PROVEEDOR se compromete a reducir y reciclar o tratar adecuadamente los residuos generados directamente de su labor.
 	El PROVEEDOR se compromete, si se lo pidiera el CLIENTE,
 	a dar utilidad en la instalación a los dispositivos electrónicos de los que ya disponga el CLIENTE,
 	si funcionalmente fuera viable.
-	El PROVEEDOR facilitará la recompra de los dispositivos que, después de instalados,
-	dejasen de usarse en la instalación,
-	para poder reutilizarlos en otras instalaciones.
+	El PROVEEDOR facilitará la recompra para su utilización en instalaciones nuevas,
+	de los dispositivos que, después de instalados, dejasen de usarse en la instalación.
 	El PROVEEDOR no esta obligado a dicha recompra ni a hacerlo por el mismo precio que en la compra.
 
 4.8. **Economía local:**
 	El PROVEEDOR se compromete con el CLIENTE a potenciar la economía local.
-	El PROVEEDOR se compromete con el CLIENTE a no deslocalizar trabajo remunerado.
 	El PROVEEDOR incluirá la localidad como un criterio social
 	más a tener en cuenta en la elección de sus proveedores.
 	El PROVEEDOR dará preferencia al pequeño comercio frente a las grandes cadenas comerciales.
+	El PROVEEDOR se compromete con el CLIENTE a no deslocalizar trabajo remunerado,
+	excluyendo explícitamente el apoyo a proyectos de software libre o hardware libre,
+	cuyos equipos por su naturaleza son internacionales.
 
 4.9. **Trabajo digno:**
 	El PROVEEDOR se compromete a que los trabajadores que dan el servicio al CLIENTE
@@ -256,7 +257,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	sin hacer discriminación por sexo, orientación sexual, raza, discapacidad,
 	origen social, religión o ideología.
 	El PROVEEDOR se compromete a mantener una horquilla de sueldos por carga de trabajo
-	inferior al 1:2 incluidas las subcontratas.
+	inferior al 1:2, incluyendo en este compromiso las subcontratas.
 
 4.10. **Participación y formación:**
 	El PROVEEDOR se compromete a incorporar a los usuarios con procesos democráticos
@@ -278,7 +279,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	los derechos de la infancia
 	o esté degradando el medio ambiente
 	el PROVEEDOR se compromete a, primero, intentar que cambie la situación,
-	y si ello no se produce, buscar terceros proveedores alternativos que si los respeten.
+	y si ello no se produce, buscar terceros proveedores alternativos que sí los respeten.
 
 
 ### QUINTA.- PRECIO Y FACTURACIÓN.- 
