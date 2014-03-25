@@ -72,7 +72,7 @@ En virtud del Contrato el PROVEEDOR se obliga a prestar al CLIENTE los servicios
 
 2.1. Los Servicios se prestarán en los siguientes términos y condiciones **generales**:
 
-2.1.1. El PROVEEDOR responderá de la calidad del trabajo desarrollado con la diligencia exigible a una empres 
+2.1.1. El PROVEEDOR responderá de la calidad del trabajo desarrollado con la diligencia exigible a una empresa experta en la realización de los trabajos objeto del Contrato.
 
 2.1.2. El PROVEEDOR se obliga a gestionar y obtener, a su cargo, todas las licencias, permisos y autorizaciones administrativas que pudieren ser necesarias para la realización de los Servicios. 
 
@@ -125,10 +125,8 @@ b) Mantenimiento de SOFTWARE:
 c) Mantenimiento de RED: 
 	- **Mantenimiento preventivo** que incluye la monitorización de los parámetros básicos de la red de forma que se garantice su adecuada dimensión.
 	- **Mantenimiento correctivo** que incluye la reconfiguración del hardware y software de RED después de la caída del sistema u otros percances.
-	- **Mantenimiento evolutivo** que incluye la configuración y optimización para el correcto funcionamiento de la comunicación entre los equipos conectados en RED, así como todos los periféricos conectados a ella.
+	- **Mantenimiento evolutivo** que incluye la configuración y optimización para el correcto funcionamiento de la comunicación entre los equipos conectados en RED, así como todos los periféricos conectados a ella que sean objeto de este contrato.
 	
-DGG: "todos los periféricos conectados a ella" puede generalizarse a los equipos que el cliente conecte a la red por su cuenta.
-
 
 2.2.1. El PROVEEDOR se obliga a prestar los servicios necesarios para el correcto funcionamiento del sistema instalado en el CLIENTE, siempre que no se deban a manipulaciones indebidas. 
 Dichos servicios comprenden la realización de cuantas operaciones sean necesarias en los equipos o sistemas incluidos en este contrato.
@@ -141,9 +139,7 @@ PROVEEDOR o terceros vinculados con el mismo. El PROVEEDOR no se responsabiliza 
 
 2.2.4. El CLIENTE se compromete a utilizar los componentes del hardware y del software de acuerdo con las instrucciones y el manual del fabricante.
 
-2.2.5. En ningún caso el PROVEEDOR mantendrá, instalará o configurará sin los debidos permisos.
-
-DGG: Segun como lo leas se entiende que para cualquier actuación necesitaramos el permiso del cliente, pero no nos referismos a eso.
+2.2.5. En ningún caso el PROVEEDOR mantendrá, instalará o configurará sin los debidos permisos administrativos.
 
 2.2.6. El PROVEEDOR ofrecerá un servicio de soporte técnico de 9 a 17 horas todos los días laborables no festivos mediante llamada telefónica al ({proveedor.telefono}) o correo electrónico a 
 {proveedor.email}. Las vísperas de festivos nacionales, el horario de atención telefónica será de 9 a 15 horas. Los fines de semana o festivos, el servicio estará disponible a través del 
@@ -227,7 +223,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 4.. **Formatos abiertos:**
 	El PROVEEDOR se compromete a comunicarse con el CLIENTE mediante documentos
 	en formatos abiertos y libres de royalties
-	que no requieran la adquisicion de licencias privativas para acceder a ellos.
+	que no requieran la adquisición de licencias privativas para acceder a ellos.
 
 4.. **Energías renovables:**
 	El PROVEEDOR se compromete con el CLIENTE a que
@@ -267,10 +263,11 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	en las decisiones que afecten a la evolución de la red común.
 	Para tal fin, el PROVEEDOR fomentará la autoorganizacion democrática del CLIENTE con otros clientes,
 	y organizará acciones de formación técnica para que estos puedan tomar decisiones informadas.
+	También se compromete a organizar acciones de formación en el uso de tecnologías libres.
 
-4.. **Extensión a terceros:**
-	El PROVEEDOR se compromete a incidir en terceros proveedores
-	para hagan extensivos los compromisos sociales del PROVEEDOR.
+4.. **Extensión de los compromisos a terceros:**
+	El PROVEEDOR incidirá en terceros proveedores
+	para que hagan extensivos los compromisos sociales del PROVEEDOR.
 	Con tal fin, el PROVEEDOR se compromete a dar preferencia a aquellos proveedores 
 	que cumplan dichos compromisos.
 
@@ -298,7 +295,6 @@ Contrato de conformidad con lo dispuesto en las presentes Condiciones.
 
 El PROVEEDOR facturará los periodos incompletos prorrateando
 el número de días naturales efectivos respecto a los dias naturales del trimestre.
-
 
 
 ### SEXTA.- ACUERDO DE NIVEL DE SERVICIO
@@ -336,19 +332,27 @@ efectuando un preaviso de al menos 30 días de antelación.
 
 ### OCTAVA.- SUSPENSION DEL CONTRATO
 
-TODO: Que hacer en caso de impagos
+En caso de que se hubiera producido un impago por parte del CLIENTE,
+o en caso de que el PROVEEDOR constate que el CLIENTE incumple alguna de las clausulas de este Contrato,
+el PROVEEDOR, después de comunicarlo por los canales especificados en este Contrato,
+podría suspender temporalmente la prestación de los servicios que dependan del PROVEEDOR,
+excluyendo las garantías de conectividad con la Red Libre, Abierta y Neutral.
 
-
+El CLIENTE tiene derecho a solicitar y obtener del PROVEEDOR la suspensión temporal del servicio
+por un periodo determinado que no será menor de un mes, ni superior a tres meses.
+El periodo de suspensión no podrá exceder, en ningún caso, de noventa días por año natural.
+Durante el tiempo que dure la suspensión temporal se facturará al cliente la mitad del importe mensual,
+en concepto de mantenimiento de la red común.
 
 ### NOVENA.- MODIFICACIÓN DEL CONTRATO
 
 Las Partes podrán modificar el contrato de mutuo acuerdo y por escrito.
 
 
-
 ### DÉCIMA.- RESOLUCIÓN DEL CONTRATO
 
-Las Partes podrán resolver el Contrato, en caso de incumplimiento de las obligaciones establecidas en el mismo.
+Las Partes podrán resolver el Contrato,
+en caso de incumplimiento de las obligaciones establecidas en el mismo.
 
 
 ### ONCEAVA.- NOTIFICACIONES
@@ -395,16 +399,4 @@ POR  EL  CLIENTE                                            POR  EL  PROVEEDOR
 &nbsp;            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 Fdo.:                                                       Fdo.:
 ----------------- ------ ------ ------ ------ ------ ------ ------------------ ------ ------ ------ ------ ------ -------
-
-
-
-
-# Correcciones (David)
-
-- Garantia de la instalación [Es necesario poner un tiempo máximo para retocar cosas o corregir problemas]
-- Hay transferencia de datos a NubipTel, por ejemplo
-
-
-
-
 
