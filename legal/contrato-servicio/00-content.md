@@ -204,7 +204,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 
 ### CUARTA.- RESPONSABILIDAD SOCIAL
 
-4.1. **No ánimo de lucro:**
+4.1. **Sin ánimo de lucro:**
 	El PROVEEDOR se compromete a ajustar sus precios y tarifas a la viabilidad económica del proyecto.
 	Cualquier superávit se reinvertirá en servicios o en infraestructuras comunes para mejorar la red o
 	se dedicará a fondos de reserva.
@@ -250,7 +250,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	contratándo la luz de dichas sedes
 	con comercializadoras eléctricas que garanticen el origen renovable de la energía comprada.
 
-4.7. **Reduccion y tratamiento de residuos y impacto ambiental:**
+4.7. **Reducción y tratamiento de residuos e impacto ambiental:**
 	El PROVEEDOR se compromete a reducir y reciclar o tratar adecuadamente los residuos generados directamente de su labor.
 	El PROVEEDOR se compromete, si se lo pidiera el CLIENTE,
 	a dar utilidad en la instalación a los dispositivos electrónicos de los que ya disponga el CLIENTE,
@@ -278,7 +278,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	inferior al 1:2, incluyendo en este compromiso las subcontratas.
 
 4.10. **Participación y formación:**
-	El PROVEEDOR se compromete a incorporar a los usuarios con procesos democráticos
+	El PROVEEDOR se compromete a incorporar, mediante procesos democráticos, a los usuarios
 	en las decisiones que afecten a la evolución de la red común.
 	Para tal fin, el PROVEEDOR fomentará la autoorganizacion democrática del CLIENTE con otros clientes,
 	y organizará acciones de formación técnica para que estos puedan tomar decisiones informadas.
