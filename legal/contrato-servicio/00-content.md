@@ -113,21 +113,39 @@ y subcontratistas, por lo que el PROVEEDOR responderá frente al CLIENTE si tale
 2.2. El PROVEEDOR prestará los Servicios en los siguientes términos y condiciones **específicos**:
 
 a) Mantenimiento de HARDWARE:
-	- **Mantenimiento preventivo** que incluye una revisión periódica detallada del correcto funcionamiento de los equipos de hardware en todos sus componentes.
-	- **Mantenimiento correctivo** que incluye la sustitución de los componentes tanto internos como externos que fallaran en los equipos, todo ello a cargo del CLIENTE, exceptuando los casos de defectos de fábrica o instalación defectuosa.
-	- **Mantenimiento evolutivo** que incluye la instalación de otros dispositivos adicionales para la mejora del rendimiento operativo en general y de seguridad. En el momento de la instalación, se determinarán la condiciones de propiedad y mantenimiento de estos nuevos elementos.
+	- **Mantenimiento preventivo** que incluye 
+		una revisión periódica detallada del correcto funcionamiento
+		de los equipos de hardware en todos sus componentes.
+	- **Mantenimiento correctivo** que incluye
+		la sustitución de los componentes tanto internos como externos que fallaran en los equipos,
+		todo ello a cargo del CLIENTE,
+		exceptuando los casos de defectos de fábrica o instalación defectuosa.
+	- **Mantenimiento evolutivo** que incluye
+		la instalación de otros dispositivos adicionales
+		para la mejora del rendimiento operativo en general y de seguridad.
+		En el momento de la instalación, 
+		se determinarán la condiciones de propiedad y mantenimiento de estos nuevos elementos.
 
 b) Mantenimiento de SOFTWARE:
-	- **Mantenimiento preventivo** del software instalado que incluye la revisión de los parámetros críticos de los equipos y de la red.
-	- **Mantenimiento correctivo** que incluye la reinstalación o reconfiguración de software en el caso de anomalías en el funcionamiento.
-	- **Mantenimiento evolutivo** que incluye actualización e instalación de software adicional.
+	- **Mantenimiento preventivo** del software instalado que incluye
+		la revisión de los parámetros críticos de los equipos y de la red.
+	- **Mantenimiento correctivo** que incluye
+		la reinstalación o reconfiguración de software en el caso de anomalías en el funcionamiento.
+	- **Mantenimiento evolutivo** que incluye
+		actualización e instalación de software adicional.
  
 c) Mantenimiento de RED: 
-	- **Mantenimiento preventivo** que incluye la monitorización de los parámetros básicos de la red de forma que se garantice su adecuada dimensión.
-	- **Mantenimiento correctivo** que incluye la reconfiguración del hardware y software de RED después de la caída del sistema u otros percances.
-	- **Mantenimiento evolutivo** que incluye la configuración y optimización para el correcto funcionamiento de la comunicación entre los equipos conectados en RED, así como todos los periféricos conectados a ella que sean objeto de este contrato.
-	
-
+	- **Mantenimiento preventivo** que incluye
+		la monitorización de los parámetros básicos de la red
+		de forma que se garantice su adecuada dimensión.
+	- **Mantenimiento correctivo** que incluye
+		la reconfiguración del hardware y software de RED
+		después de la caída del sistema u otros percances.
+	- **Mantenimiento evolutivo** que incluye
+		la configuración y optimización para el correcto funcionamiento
+		de la comunicación entre los equipos conectados en RED,
+		así como todos los periféricos conectados a ella que sean objeto de este contrato.
+		
 2.2.1. El PROVEEDOR se obliga a prestar los servicios necesarios para el correcto funcionamiento del sistema instalado en el CLIENTE, siempre que no se deban a manipulaciones indebidas. 
 Dichos servicios comprenden la realización de cuantas operaciones sean necesarias en los equipos o sistemas incluidos en este contrato.
 
