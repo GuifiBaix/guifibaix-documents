@@ -186,14 +186,14 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 
 ### CUARTA.- RESPONSABILIDAD SOCIAL
 
-4.. **No ánimo de lucro:**
+4.1. **No ánimo de lucro:**
 	El PROVEEDOR se compromete a ajustar sus precios y tarifas a la viabilidad económica del proyecto.
 	Cualquier superávit se reinvertirá en servicios o en infraestructuras comunes para mejorar la red o
 	se dedicará a fondos de reserva.
 	Dentro de dicha viabilidad económica, el PROVEEDOR tomará las decisiones
 	bajo los criterios sociales que se detallan a continuación.
 
-4.. **Red libre, abierta y neutral:**
+4.2. **Red libre, abierta y neutral:**
 	El PROVEEDOR se compromete cumplir y hacer cumplir,
 	en las redes que desplega y mantiene,
 	la licencia de Red Neutral y Abierta en Procomún
@@ -201,7 +201,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	El PROVEEDOR se compromete a que los protocolos telemáticos
 	usados en dichas redes estén basados estándares abiertos.
 
-4.. **No atadura al proveedor:**
+4.3. **No atadura al proveedor:**
 	El PROVEEDOR se compromete a que el CLIENTE pueda acceder, si lo pide,
 	a la documentación técnica que describe la arquitectura de la red,
 	con el suficiente detalle para que una persona o entidad especializada
@@ -212,7 +212,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	y el proveedor lo requiera para que la red siga funcionando,
 	y a los dispositivos que estén fuera de dicha red, mientras dure este contrato de mantenimiento,
 
-4.. **Software libre:**
+4.4. **Software libre:**
 	El PROVEEDOR se compromete con el CLIENTE a que todos los aplicativos informáticos que desarrollen
 	se  publicarán bajo una licencia libre según la definición de la Open Source Initiative.
 	También se compromete a desempeñar su actividad con relación al CLIENTE,
@@ -220,19 +220,19 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	exceptuando las aplicaciones privativas para las que no hubiera alternativa libre viable.
 	En este caso, el PROVEEDOR se compromete a poner recursos para viabilizar dicha alternativa.
 
-4.. **Formatos abiertos:**
+4.5. **Formatos abiertos:**
 	El PROVEEDOR se compromete a comunicarse con el CLIENTE mediante documentos
 	en formatos abiertos y libres de royalties
 	que no requieran la adquisición de licencias privativas para acceder a ellos.
 
-4.. **Energías renovables:**
+4.6. **Energías renovables:**
 	El PROVEEDOR se compromete con el CLIENTE a que
 	los equipos y servidores localizados en sus sedes
 	usen exclusivamente energías renovables,
 	contratándo la luz de dichas sedes
 	con comercializadoras eléctricas que garanticen el origen renovable de la energía comprada.
 
-4.. **Residuos y su impacto ambiental:**
+4.7. **Residuos y su impacto ambiental:**
 	El PROVEEDOR se compromete a reciclar o tratar adecuadamente los residuos generados directamente de su labor.
 	El PROVEEDOR se compromete, si se lo pidiera el CLIENTE,
 	a dar utilidad en la instalación a los dispositivos electrónicos de los que ya disponga el CLIENTE,
@@ -242,14 +242,14 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	para poder reutilizarlos en otras instalaciones.
 	El PROVEEDOR no esta obligado a dicha recompra ni a hacerlo por el mismo precio que en la compra.
 
-4.. **Economía local:**
+4.8. **Economía local:**
 	El PROVEEDOR se compromete con el CLIENTE a potenciar la economía local.
 	El PROVEEDOR se compromete con el CLIENTE a no deslocalizar trabajo remunerado.
 	El PROVEEDOR incluirá la localidad como un criterio social
 	más a tener en cuenta en la elección de sus proveedores.
 	El PROVEEDOR dará preferencia al pequeño comercio frente a las grandes cadenas comerciales.
 
-4.. **Trabajo digno:**
+4.9. **Trabajo digno:**
 	El PROVEEDOR se compromete a que los trabajadores que dan el servicio al CLIENTE
 	tengan control democrático sobre sus condiciones laborales.
 	Los trabajadores serán remunerados en igualdad a igual carga de trabajo,
@@ -258,25 +258,34 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	El PROVEEDOR se compromete a mantener una horquilla de sueldos por carga de trabajo
 	inferior al 1:2 incluidas las subcontratas.
 
-4.. **Participación y formación:**
+4.10. **Participación y formación:**
 	El PROVEEDOR se compromete a incorporar a los usuarios con procesos democráticos
 	en las decisiones que afecten a la evolución de la red común.
 	Para tal fin, el PROVEEDOR fomentará la autoorganizacion democrática del CLIENTE con otros clientes,
 	y organizará acciones de formación técnica para que estos puedan tomar decisiones informadas.
-	También se compromete a organizar acciones de formación en el uso de tecnologías libres.
+	El PROVEEDOR se compromete a organizar acciones de formación 
+	de trabajadores y usuarios en el uso de tecnologías libres.
 
-4.. **Extensión de los compromisos a terceros:**
+4.11. **Extensión de los compromisos a terceros:**
 	El PROVEEDOR incidirá en terceros proveedores
 	para que hagan extensivos los compromisos sociales del PROVEEDOR.
 	Con tal fin, el PROVEEDOR se compromete a dar preferencia a aquellos proveedores 
 	que cumplan dichos compromisos.
+	En casos en los que se tenga constancia o indicio suficiente
+	de que un tercer proveedor no está respetando
+	los derechos humanos,
+	los derechos de los trabajadores,
+	los derechos de la infancia
+	o esté degradando el medio ambiente
+	el PROVEEDOR se compromete a, primero, intentar que cambie la situación,
+	y si ello no se produce, buscar terceros proveedores alternativos que si los respeten.
 
 
 ### QUINTA.- PRECIO Y FACTURACIÓN.- 
 
 Como contraprestación de los servicios prestados por el PROVEEDOR, el CLIENTE abonará
 las tarifas adjuntas al presente contrato y que el CLIENTE reconoce conocer y haber recibido
-en el momento de su firma. 
+en el momento de su firma.
 
 El PROVEEDOR podrá variar las tarifas para adaptarlas por necesidades del mercado,
 previa notificacion al CLIENTE mínimo un mes antes de la emisión de la primera factura
