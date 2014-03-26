@@ -1,7 +1,7 @@
-
 - Siempre
 	- Orientaciones
 	- Ordenador portatil
+	- Camara de fotos
 	- Antena configurada y probada antes
 	- Antena de pruebas  (Opcional, va bien si configurando perdemos la IP)
 	- Poe de las dos antenas
@@ -28,11 +28,11 @@
 	- Guia larga
 	- Nivel
 	- Cinta Carrocero
+	- Cinta Aislante
 	- Linterna
 	- Brujula
 	- Arneses
 	- Adaptador enchufe antiguo
-	- Adaptador telefónico
 	- Telefono de pruebas
 	- Alicates
 	- Tornavises
@@ -40,6 +40,7 @@
 	- Metro
 	- Cables de datos de pruebas
 	- Lampara portátil
+	- Escaleras
 
 
 - Si hay que hacer instalacion de potencia
@@ -53,7 +54,7 @@
 	- Tester cables de datos
 	- Pila del tester cables de datos
 	- Grimpadora
-	- Connectores (FTP o UTP)
+	- Conectores (FTP o UTP)
 	- Fundas de conectores
 	- Cable de datos
 
@@ -78,34 +79,6 @@
 	- Yeso
 	- Silicona
 	- Tela asfáltica
-
-- Herramientas
-
-- Lista de Elisenda (sin correcciones de cosas que nos dejamos)
-	- Cable UTP
-	- Grimpadora
-	- Conectores
-	- Fundas Conectores!!!
-	- Taladro
-	- Brocas (madera, piedra, varios tamaños)
-	- Silicona
-	- Cinta metrica
-	- Cinta aislante
-	- Guia cable
-	- Escaleras
-	- Brazos mastil
-	- Mastil
-	- Nanostation (antena)
-	- Nanobridge (parabolica)
-	- Mikrotik (Router/firewall)
-	- Adaptador Telefono IP
-	- Soportes para los PoEs
-	- Tacos tornillos pequeños
-	- Arcallatas para fijar los aparatos en pared
-	- Tagos de bridas
-	- Bridas
-	- Martillo
-	- Llave inglesa (para fijar la parabolica)
 
 
 
