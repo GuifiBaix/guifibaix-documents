@@ -300,7 +300,7 @@ correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, el
 	y si ello no se produce, buscar terceros proveedores alternativos que sí los respeten.
 
 
-### QUINTA.- PRECIO Y FACTURACIÓN.- 
+### QUINTA.- PRECIO Y FACTURACIÓN
 
 Como contraprestación de los servicios prestados por el PROVEEDOR, el CLIENTE abonará
 las tarifas adjuntas al presente contrato y que el CLIENTE reconoce conocer y haber recibido
@@ -313,16 +313,16 @@ Una vez notificadas las nuevas tarifas se entienden aceptadas por el CLIENTE tá
 
 El PROVEEDOR facturará, trimestralmente y a trimestre vista,
 al CLIENTE la cuota pactada incrementada con el IVA.
-Los pagos se llevarán a cabo la primera semana con dias laborables
-de los meses de enero, abril, julio y octubre.
+Los pagos se llevarán a cabo el dia 10
+de los meses de enero, abril, julio y octubre
+o, en los trimestres incompletos, el dia que comience a proporcionarse el servicio.
+El PROVEEDOR facturará los periodos incompletos prorrateando
+el número de días naturales efectivos respecto a los dias naturales del trimestre.
 
 En caso de impago de los cargos,
 la deuda vencida generará un interés de demora igual al interés legal del dinero
 incrementado en dos puntos y dará derecho al PROVEEDOR a resolver el
 Contrato de conformidad con lo dispuesto en las presentes Condiciones.
-
-El PROVEEDOR facturará los periodos incompletos prorrateando
-el número de días naturales efectivos respecto a los dias naturales del trimestre.
 
 
 ### SEXTA.- ACUERDO DE NIVEL DE SERVICIO
@@ -335,7 +335,7 @@ el número de días naturales efectivos respecto a los dias naturales del trimes
 6.2.
 	Las averías o el mal funcionamiento de los Servicios se comunicarán al PROVEEDOR
 	a través de llamada telefónica ({proveedor.telefono}) o
-	envío de correo electrónico {proveedor.email}. 
+	envío de correo electrónico {proveedor.email}.
 	Los horarios de atención, son los especificados en el punto 2.2.6
 
 6.3.
@@ -421,9 +421,18 @@ PROVEEDOR:
 
 ### DOCEAVA.- REGIMEN JURÍDICO
 
-El presente contrato tiene carácter mercantil, no existiendo en ningún caso vínculo laboral alguno entre el CLIENTE  y el personal del PROVEEDOR que preste concretamente los Servicios.
+El presente contrato tiene carácter mercantil,
+no existiendo en ningún caso vínculo laboral alguno entre el CLIENTE
+y el personal del PROVEEDOR que preste concretamente los Servicios.
 
-Toda controversia derivada de este contrato o que guarde relación con él –incluida cualquier cuestión relativa a su existencia, validez o terminación- será resuelta mediante arbitraje DE DERECHO, administrado por la **Asociación Europea de Arbitraje de Madrid (Aeade)**, de conformidad con su Reglamento de Arbitraje vigente a la fecha de presentación de la solicitud de arbitraje. El Tribunal Arbitral que se designe a tal efecto estará compuesto por un único árbitro experto. La sede del arbitraje será Barcelona.
+Toda controversia derivada de este contrato o que guarde relación con él
+– incluida cualquier cuestión relativa a su existencia, validez o terminación -
+será resuelta mediante arbitraje DE DERECHO, administrado por la
+**Asociación Europea de Arbitraje de Madrid (Aeade)**,
+de conformidad con su Reglamento de Arbitraje
+vigente a la fecha de presentación de la solicitud de arbitraje.
+El Tribunal Arbitral que se designe a tal efecto estará compuesto por un único árbitro experto.
+La sede del arbitraje será Barcelona.
 
 &nbsp;
 
