@@ -327,27 +327,42 @@ el número de días naturales efectivos respecto a los dias naturales del trimes
 
 ### SEXTA.- ACUERDO DE NIVEL DE SERVICIO
 
-6.1. Todos los Servicios prestados por el PROVEEDOR se realizarán por personal especializado en cada materia. El personal del PROVEEDOR atenderá remotamente o acudirá previsto de todo el material necesario, 
-adecuado y actualizado, para prestar los Servicios.
+6.1.
+	Todos los Servicios prestados por el PROVEEDOR se realizarán por personal especializado en cada materia.
+	El personal del PROVEEDOR atenderá remotamente o acudirá previsto de todo el material necesario, 
+	adecuado y actualizado, para prestar los Servicios.
 
-6.2. Las averías o el mal funcionamiento de los Servicios se comunicarán al PROVEEDOR a través de llamada telefónica ({proveedor.telefono}) o envío de correo electrónico {proveedor.email}. 
-Los horarios de atención, son los especificados en el punto 2.2.6
+6.2.
+	Las averías o el mal funcionamiento de los Servicios se comunicarán al PROVEEDOR
+	a través de llamada telefónica ({proveedor.telefono}) o
+	envío de correo electrónico {proveedor.email}. 
+	Los horarios de atención, son los especificados en el punto 2.2.6
 
-6.3. Los problemas se atenderán en el período máximo establecido según se defina la incidencia. El tiempo de resolución final, dependerá de la complejidad de la misma, y del volumen de sistemas y/o usuarios afectados.
+6.3.
+	Los problemas se atenderán en el período máximo establecido según se defina la incidencia.
+	El tiempo de resolución final, dependerá de la complejidad de la misma, y del volumen de sistemas y/o usuarios afectados.
 
-6.4. Se entiende por *incidencia crítica*: las incidencias que, en el marco de la prestación de los Servicios, afectan significativamente al CLIENTE.
+6.4.
+	Se entiende por *incidencia crítica*:
+	las incidencias que, en el marco de la prestación de los Servicios, afectan significativamente al CLIENTE.
 
-6.5. Se entiende por *incidencia grave*: las incidencias que, en el marco de la prestación de los Servicios, afectan moderadamente al CLIENTE.
+6.5.
+	Se entiende por *incidencia grave*:
+	las incidencias que, en el marco de la prestación de los Servicios, afectan moderadamente al CLIENTE.
 
-6.6. Se entiende por *incidencia leve*: las incidencias que se limitan a entorpecer la prestación de los Servicios.
+6.6.
+	Se entiende por *incidencia leve*:
+	las incidencias que se limitan a entorpecer la prestación de los Servicios.
 
-6.7. El tiempo de atención a dichas incidencias se realizará en los siguientes períodos máximos desde el aviso:
+6.7.
+	El tiempo de atención a dichas incidencias se realizará en los siguientes períodos máximos desde el aviso:
 
 * Incidencia crítica: 30 minutos. (Tiempo máximo de resolución: 1 hora)
 * Incidencia grave:   1 hora.
 * Incidencia leve:    entre 1 y 2 horas.
 
-6.8. El estado de los Servicios se revisará semanalmente por el PROVEEDOR para comprobar su correcto funcionamiento.
+6.8.
+	El estado de los Servicios se revisará semanalmente por el PROVEEDOR para comprobar su correcto funcionamiento.
 
 
 ### SÉPTIMA.- DURACIÓN DEL CONTRATO
