@@ -1,81 +1,41 @@
-# Hecho 24-03-2014
-
-- ~~sjd-torrentdennegre23: Configurar telefonia ip~~
-- ~~scc-maragall1: Avisar recibo con retraso [viernes tarde David]~~
-- ~~prll-doctorrobert1: enviar pressupost~~ [viernes tarde David]
-- ~~sjd-gelaber1: Proponer a los vecinos sin switches~~ [aitor-raulS]
-- ~~prll-caldetes5: Revisar material~~
-- ~~prll-caldetes5: Comprar tornillos, tacos y grapas [RaulB]~~
-- ~~prll-caldetes5: Hacer instalacion individual [lunes 10:30h]~~
-- ~~Streaming Eticom: Quedar con rober para probar camara [lunes tarde]~~
-- ~~Ir a hablar con IES Miquel Martí i Pol (Cornellà) - (Aitor-David?)~~
-- ~~kny-florida40: Asamblea [viernes tarde]~~ -> Si quieren
-- ~~kny-florida40: Enviar correo con los vecinos~~ -> No quieren
-- ~~kny-florida40: Instalar~~
-- ~~Pedir numeros de factura a Gats~~
-- ~~Streaming eticom: Comprar capturadora~~
-- ~~Streaming eticom: Provar capturadora~~ Funciona con vlc pero con flash peta
-- ~~Streaming eticom: Hacer que la capturadora no pete con flash~~
-- ~~Streaming eticom: Averiguar como tocar parametros de la capturadora~~
-- ~~Streaming eticom: Probar capturadora con la camara~~
-- ~~Streaming eticom: Prueba de conectividad en el teatro.~~
-- ~~Streaming eticom: Arreglar los problemas de audio~~
-- ~~Streaming eticom: Hacerlo~~
-- ~~Charla instituto Viladecans~~
-- ~~Charla en el Huerto de Viladecans~~
-- ~~sjd-torrentdennegre23: Preguntar tipo de sim~~
-- ~~sjd-fontsanta48b: Presupuesto~~
-- ~~Contrato de servicio: Política de uso [David]~~
-- ~~Contrato de servicio: Responsabilidad social coorporativa [David]~~
-- ~~Contrato de servicio: Acuerdo de nivel de servicio [Victor]~~
-- ~~Contrato de servicio: Los equipos son del usuario pero se compromete al Comuns??
-
-
 # Tareas programadas para la semana
 
+- ~~Contrato de servicio: Enviarselo a los usuarios actuales y potenciales para que opinen~~
 - ~~sjd-torrentdennegre23: Enviarles nuevos contratos~~
 - ~~sjd-torrentdennegre23: Contestarles sobre los problemas con vozip~~
-- sjd-torrentdennegre23: Consultar con nubip los problemas de la voz ip
-- sjd-torrentdennegre23: Esperar la portabilidad
-- prll-doctorrobert1: Aclarar dudas
-- kny-florida40: Factura
-- prll-caldetes5: Factura
+- ~~kny-florida40: Factura~~
+- ~~prll-caldetes5: Factura~~
+- ~~scc-maragall1: Recibo~~
+- ~~scll-santvicenç41: Prueba de connectividad~~
+- Saó Prat: 1 de abril para hacer la prueba de conectividad para ellos
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
+- Feria de primavera: Buscar informacion [RaulS]
 - Configurar VozIP a RaulS
 - Hermano Victor: Prueba de conectividad y instalacion
-- scc-maragall1: Recibo
-	- scc-maragall1: calcular lo que tiene que pagar primer recibo
-	- scc-maragall1: enviar los conceptos a Gats para el primer recibo
-- sjd-domenech11: Presupuesto
-- sjd-fontsanta48b: Revisar presupuesto
-- sjd-fontsanta48b: Volver a hacer visita para puntos de entrada con la guia
-- sjd-fontsanta48b: Foto del registro de planta
-- Prospecciones [Aitor lunes tarde]
-	- Cerca de Gats:
-		- prll-pompeufabra75: Llamar para ver si se puede avanzar [RaulS]
-		- prll-avvergedemontserrat269: Llamar para ver si se puede avanzar [RaulS]
-		- prll-avremolar75: Llamar para ver si se puede avanzar [RaulS]
-		- prll-mestrevigoigarreta32: (Profe) Llamar para ver si se puede avanzar [David]
-	- Canal105 y Pirineus (Sao Prat)
-		- prll-canal135
-		- prll-apellesmestres45
-- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
-- Feria de primavera: Buscar informacion [RaulS]
-- Contrato de servicio: Enviarselo a los usuarios actuales y potenciales para que opinen
-- Contrato de servicio: Esperar unos dias para que contestesten
-- Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
-- sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]
-	- sjd-fontsanta16: Llamar a Cablematic [Aitor]
-	- sjd-fontsanta16: Servidor
-	- sjd-fontsanta16: Punto de acceso wifi (ver el md)
-	- sjd-fontsanta16: Camaras wifi
-- sjd-fontsanta16: Hacer propuesta
-- CGT: Llamar a david [Aitor]
-- Torrellas: Contactar con Edgar de la asociacion
-- Llamar al Instituto de Cornella [Aitor]
-- Presupuestos
+- Proyectos
+	- scll-santvicenç41: Pressupost
+	- scll-santvicenç41: Proponer dia xerrada
+	- sjd-torrentdennegre23: Consultar con nubip los problemas de la voz ip
+	- sjd-torrentdennegre23: Esperar la portabilidad
+	- prll-doctorrobert1: Aclarar dudas
+	- kny-florida40: Recoger factura en Gats
+	- prll-caldetes5: Recoger factura en Gats
+	- kny-florida40: Cobrar factura
+	- prll-caldetes5: Cobrar factura
+	- scc-maragall1: Esperar ok del recibo de Gats
+	- sjd-domenech11: Presupuesto [lunes tarde]
+	- sjd-fontsanta48b: Revisar presupuesto
+	- sjd-fontsanta48b: Volver a hacer visita para puntos de entrada con la guia
+	- sjd-fontsanta48b: Foto del registro de planta
+	- sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]
+		- sjd-fontsanta16: Llamar a Cablematic [Aitor]
+		- sjd-fontsanta16: Servidor
+		- sjd-fontsanta16: Punto de acceso wifi (ver el md)
+		- sjd-fontsanta16: Camaras wifi
+	- sjd-fontsanta16: Hacer propuesta
 	- Domenech40: dar un toque [correo reenviado]
 	- AvBarcelona23: dar un toque
+	- AvBarcelona23: Argumento de ventas para jugones [Victor]
 	- FredericCasas1f: esperar respuesta del individual
 	- catalunya4: fijar dia
 	- canal45: esperar respuesta
@@ -89,24 +49,10 @@
 	- Xavi CNT: Pasar datos (csv i md) [Aitor]
 	- Xavi CNT: Poner punto [David]
 	- Xavi CNT: Proponer Conectividad [Aitor] [Depende de que este puesta florida]
-- Hoja con las tarifas de telefonia IP incluida la nueva tarifa plana
-- Llamar: Nubip
-	- Nubip: Enviar tarifas internacionales a elisenda
-	- Nubip: Proponerle hablar en lo de Eticom
-	- Nubip: Que cobertura tenemos en los puntos clave?
-	- Nubip: Seria posible acercar fibra de Commons a TV3?
-	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
-- Gats: Comentar con Gats la devolucion del IVA
-- Gats: Marti: dar un toque que hable con sus vecinos de KNY
-- Gats: Enviar recibo
-- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
-- AvBarcelona23: Argumento de ventas para jugones [Victor]
-- Checklist: Revisar el de instalación
-
-- Convenio con la fundación [David-Victor]:
-	- Revisar los tiempos de respuesta
-	- Imprimir, firmar, escanear y enviar
-- Clientes potenciales
+	- CGT: Llamar a david [Aitor]
+- Prospecciones clientes nuevos
+	- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
+	- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
 	- Amics del prat: Enviar información (http://amicsdelprat.cat)
 	- Coral del prat: Enviar información (coraldelprat@hotmail.com)
 	- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
@@ -118,6 +64,22 @@
 	- Revisar la lista del Prat
 	- Enviar dossier a potenciales del Prat [Pendiente de revision del dossier]
 	- Remaquetar (y Corregir!!) el dossier
+- Contrato de servicio: Esperar unos dias para que contestesten
+- Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
+- Torrellas: Contactar con Edgar de la asociacion
+- Instituto Marti i Pol: Propuesta de charla
+- Llamar: Nubip
+	- Nubip: Enviar tarifas internacionales a elisenda
+	- Nubip: Que cobertura tenemos en los puntos clave?
+	- Nubip: Seria posible acercar fibra de Commons a TV3?
+	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
+- Gats: Comentar con Gats la devolucion del IVA
+- Gats: Marti: dar un toque que hable con sus vecinos de KNY
+- Gats: Enviar recibo
+
+- Convenio con la fundación [David-Victor]:
+	- Revisar los tiempos de respuesta
+	- Imprimir, firmar, escanear y enviar
 - GranCapitan: Hacer seguimiento de la antena
 - Tesorería
 	- Tesoreria: Añadir facturas Aitor [David]
@@ -131,7 +93,6 @@
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
 - Instituto Santa Coloma: Hacer la visita. [Despues de Eticom]
-- Saó Prat: 1 de abril para hacer la prueba de conectividad para ellos
 - Revisar el dossier lo que dijo Victor [David]
 - Averiguar situacion en zonas de expansion que nos han pedido
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
@@ -231,7 +192,40 @@
 		- Ponerlo en marcha
 		- Migrar los servidores
 
-		
+# Hecho 24-03-2014
+
+- ~~sjd-torrentdennegre23: Configurar telefonia ip~~
+- ~~scc-maragall1: Avisar recibo con retraso [viernes tarde David]~~
+- ~~prll-doctorrobert1: enviar pressupost~~ [viernes tarde David]
+- ~~sjd-gelaber1: Proponer a los vecinos sin switches~~ [aitor-raulS]
+- ~~prll-caldetes5: Revisar material~~
+- ~~prll-caldetes5: Comprar tornillos, tacos y grapas [RaulB]~~
+- ~~prll-caldetes5: Hacer instalacion individual [lunes 10:30h]~~
+- ~~Streaming Eticom: Quedar con rober para probar camara [lunes tarde]~~
+- ~~Ir a hablar con IES Miquel Martí i Pol (Cornellà) - (Aitor-David?)~~
+- ~~kny-florida40: Asamblea [viernes tarde]~~ -> Si quieren
+- ~~kny-florida40: Enviar correo con los vecinos~~ -> No quieren
+- ~~kny-florida40: Instalar~~
+- ~~Pedir numeros de factura a Gats~~
+- ~~Streaming eticom: Comprar capturadora~~
+- ~~Streaming eticom: Provar capturadora~~ Funciona con vlc pero con flash peta
+- ~~Streaming eticom: Hacer que la capturadora no pete con flash~~
+- ~~Streaming eticom: Averiguar como tocar parametros de la capturadora~~
+- ~~Streaming eticom: Probar capturadora con la camara~~
+- ~~Streaming eticom: Prueba de conectividad en el teatro.~~
+- ~~Streaming eticom: Arreglar los problemas de audio~~
+- ~~Streaming eticom: Hacerlo~~
+- ~~Charla instituto Viladecans~~
+- ~~Charla en el Huerto de Viladecans~~
+- ~~sjd-torrentdennegre23: Preguntar tipo de sim~~
+- ~~sjd-fontsanta48b: Presupuesto~~
+- ~~Contrato de servicio: Política de uso [David]~~
+- ~~Contrato de servicio: Responsabilidad social coorporativa [David]~~
+- ~~Contrato de servicio: Acuerdo de nivel de servicio [Victor]~~
+- ~~Contrato de servicio: Los equipos son del usuario pero se compromete al Comuns??
+- ~~Hoja con las tarifas de telefonia IP incluida la nueva tarifa plana~~
+
+
 # Hecho 2014-03-14
 
 - ~~sjd-domenech11: Mediciones [viernes 16h, David-Aitor]~~
@@ -264,6 +258,9 @@
 - ~~Saó Prat: Llamar: Sao Prat lunes~~
 - ~~Saó Prat: Contactar con ellos~~
 - ~~Comprar bridas blancas~~
+- ~~Instituto Marti i Pol: Llamar para quedar [Aitor]~~
+- ~~Instituto Marti i Pol: Hacer la visita [Aitor-David]~~
+- ~~Checklist: Revisar el de instalación~~
 
 # Hecho 2014-03-07
 
