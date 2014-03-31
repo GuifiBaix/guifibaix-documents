@@ -7,66 +7,97 @@
 - ~~prll-caldetes5: Factura~~
 - ~~scc-maragall1: Recibo~~
 - ~~scll-santvicenç41: Prueba de connectividad~~
+- ~~Feria de primavera: Buscar informacion [RaulS]~~
+- sjd-torrentdennegre23: Consultar con nubip los problemas de la voz ip
+- sjd-torrentdennegre23: Esperar la portabilidad
 - Saó Prat: 1 de abril para hacer la prueba de conectividad para ellos
+- Contrato de servicio: Cambiar el dia de cobro: 10
+- Contrato de servicio: Esperar unos dias para que contestesten
+- Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
-- Feria de primavera: Buscar informacion [RaulS]
+- Instituto Santa Coloma: Hacer la visita. [Despues de Eticom]
+- Feria de primavera:
+	- Flyers de Guifibaix: pedirle a RaulS
+	- Flyers de Desconexion
+	- Flyers de Coop57
+	- Flyers de Fiare
+	- Flyers de Eticom
 - Configurar VozIP a RaulS
 - Hermano Victor: Prueba de conectividad y instalacion
 - Proyectos
-	- scll-santvicenç41: Pressupost
-	- scll-santvicenç41: Proponer dia xerrada
-	- sjd-torrentdennegre23: Consultar con nubip los problemas de la voz ip
-	- sjd-torrentdennegre23: Esperar la portabilidad
-	- prll-doctorrobert1: Aclarar dudas
-	- kny-florida40: Recoger factura en Gats
-	- prll-caldetes5: Recoger factura en Gats
-	- kny-florida40: Cobrar factura
-	- prll-caldetes5: Cobrar factura
-	- scc-maragall1: Esperar ok del recibo de Gats
-	- sjd-domenech11: Presupuesto [lunes tarde]
-	- sjd-fontsanta48b: Revisar presupuesto
-	- sjd-fontsanta48b: Volver a hacer visita para puntos de entrada con la guia
-	- sjd-fontsanta48b: Foto del registro de planta
-	- sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]
-		- sjd-fontsanta16: Llamar a Cablematic [Aitor]
-		- sjd-fontsanta16: Servidor
-		- sjd-fontsanta16: Punto de acceso wifi (ver el md)
-		- sjd-fontsanta16: Camaras wifi
-	- sjd-fontsanta16: Hacer propuesta
-	- Domenech40: dar un toque [correo reenviado]
-	- AvBarcelona23: dar un toque
-	- AvBarcelona23: Argumento de ventas para jugones [Victor]
-	- FredericCasas1f: esperar respuesta del individual
-	- catalunya4: fijar dia
-	- canal45: esperar respuesta
-	- Sant Jeroni: Revisar el presupuesto [Aitor-David]
-	- BaltasarDEspanya41: Pressupost
-	- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
-	- Pressupost: Monturiol
-	- Pressupost: Gava4
-	- Postsupost: Gats
-	- Mayor24: Reactivar [raquel avisada] [David]
-	- Xavi CNT: Pasar datos (csv i md) [Aitor]
-	- Xavi CNT: Poner punto [David]
-	- Xavi CNT: Proponer Conectividad [Aitor] [Depende de que este puesta florida]
-	- CGT: Llamar a david [Aitor]
-- Prospecciones clientes nuevos
-	- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
-	- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
-	- Amics del prat: Enviar información (http://amicsdelprat.cat)
-	- Coral del prat: Enviar información (coraldelprat@hotmail.com)
-	- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
-	- Colla de diables del prat: Enviar información
-	- Asociacion de vecinos Prat: Enviar información
-	- Llamar a los que contesten [RaulS con ayudas del resto]
-	- Hacer una lista compartida de estado de clientes
-	- Yolanda Losa: Contactar con ella
-	- Revisar la lista del Prat
-	- Enviar dossier a potenciales del Prat [Pendiente de revision del dossier]
-	- Remaquetar (y Corregir!!) el dossier
-- Contrato de servicio: Esperar unos dias para que contestesten
-- Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
+	- Instalados:
+		- sjd-torrentdennegre23: Consultar con nubip los problemas de la voz ip
+		- sjd-torrentdennegre23: Esperar la portabilidad
+		- kny-florida40: Recoger factura en Gats
+		- prll-caldetes5: Recoger factura en Gats
+		- kny-florida40: Cobrar factura
+		- prll-caldetes5: Cobrar factura
+		- scc-maragall1: Esperar ok del recibo de Gats
+	- Presupuestados:
+		- prll-doctorrobert1: Aclarar dudas
+		- sjd-fredericcasas1f: Aclarar dudas
+		- sjd-domenech40: dar un toque [correo reenviado]
+		- sjd-avbarcelona23: dar un toque
+		- sjd-avbarcelona23: Argumento de ventas para jugones [Victor]
+		- sjd-catalunya4: fijar dia
+		- sjd-canal45: esperar respuesta
+		- CGT: Llamar a david [Aitor]
+	- Medidos:
+		- crnll-santjeroni: Revisar el presupuesto [Aitor-David]
+		- ~~prll-urgell21: instalacion provisional~~
+		- prll-urgell21: documentar
+		- ~~prll-canal135: conectividad~~ Ve urgell y doctorrobert, se deja antena compartiendo adsl
+		- prll-canal135: presupuesto
+		- prll-canal135: recoger la antena, no mas tarde del miercoles, se van
+		- scll-santvicenç41: Pressupost
+		- scll-santvicenç41: Proponer dia xerrada
+		- sjd-domenech11: Presupuesto [lunes tarde]
+		- sjd-fontsanta48b: Revisar presupuesto
+		- sjd-fontsanta48b: llamar para hacer visita
+		- sjd-fontsanta48b: Volver a hacer visita para puntos de entrada con la guia
+		- sjd-fontsanta48b: Foto del registro de planta
+		- sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]
+			- sjd-fontsanta16: Llamar a Cablematic [Aitor]
+			- sjd-fontsanta16: Servidor
+			- sjd-fontsanta16: Punto de acceso wifi (ver el md)
+			- sjd-fontsanta16: Camaras wifi
+		- sjd-fontsanta16: Hacer propuesta
+		- BaltasarDEspanya41: Pressupost
+		- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
+		- Pressupost: Monturiol
+		- Pressupost: Gava4
+		- Postsupost: Gats
+		- ~~Sant Climent: Quedar para prueba~~
+		- ~~Sant Climent: Prova de connectivitat~~
+		- Sant Climent: Quedar para prueba
+	- A contactar:
+		- Mayor24: Reactivar [raquel avisada] [David]
+		- Xavi CNT: Pasar datos (csv i md) [Aitor]
+		- Xavi CNT: Poner punto [David]
+	- Prospecciones clientes nuevos
+		- prll-mestrevigoigarreta32: (Profe) Llamar para ver si se puede avanzar [David]
+		- prll-pompeufabra75: llamar en abril
+		- prll-avvergedemontserrat269: Llamar para ver si se puede avanzar [RaulS]
+		- prll-avremolar75: Llamar para ver si se puede avanzar [RaulS]
+		- prll-apellesmestres45
+		- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
+		- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
+		- Amics del prat: Enviar información (http://amicsdelprat.cat)
+		- Coral del prat: Enviar información (coraldelprat@hotmail.com)
+		- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
+		- Colla de diables del prat: Enviar información
+		- Asociacion de vecinos Prat: Enviar información
+		- Llamar a los que contesten [RaulS con ayudas del resto]
+		- Hacer una lista compartida de estado de clientes
+		- Yolanda Losa: Contactar con ella
+		- Revisar la lista del Prat
+		- Enviar dossier a potenciales del Prat [Pendiente de revision del dossier]
+		- Remaquetar (y Corregir!!) el dossier
 - Torrellas: Contactar con Edgar de la asociacion
+- Presupuestos
+- Cristina Viladecans: Datos en contactes [Aitor]
+- Cristina Viladecans: Llamar
+- Feria de primavera: Buscar informacion [RaulS]
 - Instituto Marti i Pol: Propuesta de charla
 - Llamar: Nubip
 	- Nubip: Enviar tarifas internacionales a elisenda
@@ -92,7 +123,6 @@
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
-- Instituto Santa Coloma: Hacer la visita. [Despues de Eticom]
 - Revisar el dossier lo que dijo Victor [David]
 - Averiguar situacion en zonas de expansion que nos han pedido
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
@@ -178,7 +208,6 @@
 		- Compartir ADSL con microtik
 		- Compartir varios ADSL con microtik
 	- Investigar si se puede reusar instalacion telefonica para propagar telefonía ip
-
 
 # Muy baja prioridad
 
