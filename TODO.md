@@ -1,17 +1,6 @@
 # Tareas programadas para la semana
 
-- ~~Contrato de servicio: Enviarselo a los usuarios actuales y potenciales para que opinen~~
-- ~~sjd-torrentdennegre23: Enviarles nuevos contratos~~
-- ~~sjd-torrentdennegre23: Contestarles sobre los problemas con vozip~~
-- ~~kny-florida40: Factura~~
-- ~~prll-caldetes5: Factura~~
-- ~~scc-maragall1: Recibo~~
-- ~~scll-santvicenç41: Prueba de connectividad~~
-- ~~Feria de primavera: Buscar informacion [RaulS]~~
-- sjd-torrentdennegre23: Consultar con nubip los problemas de la voz ip
-- sjd-torrentdennegre23: Esperar la portabilidad
-- Saó Prat: 1 de abril para hacer la prueba de conectividad para ellos
-- Contrato de servicio: Cambiar el dia de cobro: 10
+- Contrato de servicio: Rularlo por abogados y bichos similares
 - Contrato de servicio: Esperar unos dias para que contestesten
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
@@ -19,61 +8,54 @@
 - Feria de primavera:
 	- Flyers de Guifibaix: pedirle a RaulS
 	- Flyers de Desconexion
+	- Flyers de Eticom
 	- Flyers de Coop57
 	- Flyers de Fiare
-	- Flyers de Eticom
-- Configurar VozIP a RaulS
-- Hermano Victor: Prueba de conectividad y instalacion
+- Configurar Adaptador VozIP a RaulS [David]
+- Torrellas: Contactar con Edgar de la asociacion
+- Instituto Marti i Pol: Esperar llamada
+- Instituto Marti i Pol: Propuesta de charla
 - Proyectos
 	- Instalados:
-		- sjd-torrentdennegre23: Consultar con nubip los problemas de la voz ip
-		- sjd-torrentdennegre23: Esperar la portabilidad
-		- kny-florida40: Recoger factura en Gats
-		- prll-caldetes5: Recoger factura en Gats
-		- kny-florida40: Cobrar factura
-		- prll-caldetes5: Cobrar factura
-		- scc-maragall1: Esperar ok del recibo de Gats
+		- kny-florida40: Cobrar factura instalacion
+		- prll-caldetes5: Cobrar factura instalacion
+		- scc-maragall11: Enviar tarifas internacionales a elisenda
+		- sjd-torrentdennegre23: pruebas monitorizadas voz ip [lunes 11h]
+		- sjd-torrentdennegre23: reenviar contratos bien
+		- sjd-torrentdennegre23: Esperar los contratos de portabilidad mobil
+		- sjd-torrentdennegre23: Enviar factura 2T
 	- Presupuestados:
 		- prll-doctorrobert1: Aclarar dudas
-		- sjd-fredericcasas1f: Aclarar dudas
+		- sjd-fredericcasas1f: Aclarar dudas [David]
 		- sjd-domenech40: dar un toque [correo reenviado]
 		- sjd-avbarcelona23: dar un toque
 		- sjd-avbarcelona23: Argumento de ventas para jugones [Victor]
 		- sjd-catalunya4: fijar dia
-		- sjd-canal45: esperar respuesta
 		- CGT: Llamar a david [Aitor]
 	- Medidos:
 		- crnll-santjeroni: Revisar el presupuesto [Aitor-David]
-		- ~~prll-urgell21: instalacion provisional~~
 		- prll-urgell21: documentar
-		- ~~prll-canal135: conectividad~~ Ve urgell y doctorrobert, se deja antena compartiendo adsl
 		- prll-canal135: presupuesto
-		- prll-canal135: recoger la antena, no mas tarde del miercoles, se van
-		- scll-santvicenç41: Pressupost
-		- scll-santvicenç41: Proponer dia xerrada
+		- scll-santcliment41: Pressupost
+		- scll-santcliment41: Proponer dia xerrada
 		- sjd-domenech11: Presupuesto [lunes tarde]
-		- sjd-fontsanta48b: Revisar presupuesto
-		- sjd-fontsanta48b: llamar para hacer visita
-		- sjd-fontsanta48b: Volver a hacer visita para puntos de entrada con la guia
-		- sjd-fontsanta48b: Foto del registro de planta
-		- sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]
-			- sjd-fontsanta16: Llamar a Cablematic [Aitor]
-			- sjd-fontsanta16: Servidor
-			- sjd-fontsanta16: Punto de acceso wifi (ver el md)
-			- sjd-fontsanta16: Camaras wifi
-		- sjd-fontsanta16: Hacer propuesta
+		- sjd-fontsanta48: Revisar presupuesto
+		- sjd-fontsanta48: llamar para hacer visita
+		- sjd-fontsanta48: Volver a hacer visita para puntos de entrada con la guia
+		- sjd-fontsanta48: Foto del registro de planta
+			- sjd-fontsanta16: revisar presupuesto
+			- sjd-fontsanta16: enviar
 		- BaltasarDEspanya41: Pressupost
 		- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
 		- Pressupost: Monturiol
 		- Pressupost: Gava4
 		- Postsupost: Gats
-		- ~~Sant Climent: Quedar para prueba~~
-		- ~~Sant Climent: Prova de connectivitat~~
-		- Sant Climent: Quedar para prueba
-	- A contactar:
+	- Pendiente Conectividad:
 		- Mayor24: Reactivar [raquel avisada] [David]
-		- Xavi CNT: Pasar datos (csv i md) [Aitor]
-		- Xavi CNT: Poner punto [David]
+		- Xavi cornella: Pasar datos (csv i md) [Aitor]
+		- Xavi cornella: Poner punto [David]
+		- Cristina Viladecans: Datos en contactes [Aitor]
+		- Cristina Viladecans: Llamar
 	- Prospecciones clientes nuevos
 		- prll-mestrevigoigarreta32: (Profe) Llamar para ver si se puede avanzar [David]
 		- prll-pompeufabra75: llamar en abril
@@ -93,14 +75,7 @@
 		- Revisar la lista del Prat
 		- Enviar dossier a potenciales del Prat [Pendiente de revision del dossier]
 		- Remaquetar (y Corregir!!) el dossier
-- Torrellas: Contactar con Edgar de la asociacion
-- Presupuestos
-- Cristina Viladecans: Datos en contactes [Aitor]
-- Cristina Viladecans: Llamar
-- Feria de primavera: Buscar informacion [RaulS]
-- Instituto Marti i Pol: Propuesta de charla
 - Llamar: Nubip
-	- Nubip: Enviar tarifas internacionales a elisenda
 	- Nubip: Que cobertura tenemos en los puntos clave?
 	- Nubip: Seria posible acercar fibra de Commons a TV3?
 	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
@@ -111,7 +86,6 @@
 - Convenio con la fundación [David-Victor]:
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
-- GranCapitan: Hacer seguimiento de la antena
 - Tesorería
 	- Tesoreria: Añadir facturas Aitor [David]
 	- Tesoreria: Recoger ingresos y material correspondiente
@@ -149,7 +123,6 @@
 	- Sant Vicenç: Quedada con Oscar (sistemes)
 	- Sant Vicenç: Preguntar a Use per les AAVV's
 	- Sant Vicenç: Convocar una charla en Sant Vicenç
-- Buscar programa VozIP para RaulS [Victor]
 - Formacion: Raul Sanz, VozIP
 - Formacion: Raul Sanz, Google Maps compartidos
 - Formacion: Raul Beas, VozIP
@@ -220,6 +193,35 @@
 		- Pendiente de que nos lo traigan [Victor]
 		- Ponerlo en marcha
 		- Migrar los servidores
+
+## Hecho 2014-03-04
+
+- ~~Contrato de servicio: Enviarselo a los usuarios actuales y potenciales para que opinen~~
+- ~~sjd-torrentdennegre23: Enviarles nuevos contratos~~
+- ~~sjd-torrentdennegre23: Contestarles sobre los problemas con vozip~~
+- ~~kny-florida40: Factura~~
+- ~~prll-caldetes5: Factura~~
+- ~~scc-maragall1: Recibo~~
+- ~~scll-santvicenç41: Prueba de connectividad~~
+- ~~Feria de primavera: Buscar informacion [RaulS]~~
+- ~~Saó Prat: 1 de abril para hacer la prueba de conectividad para ellos~~
+- ~~Contrato de servicio: Cambiar el dia de cobro: 10~~
+- ~~kny-florida40: Recoger factura en Gats~~
+- ~~prll-caldetes5: Recoger factura en Gats~~
+- ~~scc-maragall1: Esperar ok del recibo de Gats~~
+- ~~scc-maragall1: Ok voz ip~~
+- ~~scc-maragall1: Facturas enviadas~~
+- ~~sjd-canal45: Hablar con ellos -> Nada de momento~~
+- ~~prll-urgell21: Prueba de conectividad y instalacion provisional [Victor]~~
+- ~~prll-canal135: conectividad~~ Ve urgell y doctorrobert, se deja antena compartiendo adsl
+- ~~prll-canal135: recoger la antena, no mas tarde del miercoles, se van~~
+- ~~sjd-fontsanta16: Buscar solucion tecnica para las camaras [Victor]~~
+- ~~sjd-fontsanta16: Llamar a Cablematic [Aitor]~~
+- ~~sjd-fontsanta16: Servidor~~
+- ~~sjd-fontsanta16: Punto de acceso wifi (ver el md)~~
+- ~~sjd-fontsanta16: Camaras wifi~~
+- ~~sjd-fontsanta16: Hacer propuesta~~
+
 
 # Hecho 24-03-2014
 
