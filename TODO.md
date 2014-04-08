@@ -19,7 +19,7 @@
 	- Instalados:
 		- kny-florida40: Cobrar factura instalacion
 		- prll-caldetes5: Cobrar factura instalacion
-		- scc-maragall11: Enviar tarifas internacionales a elisenda
+		- ~~scc-maragall1: Enviar tarifas internacionales a elisenda~~
 		- ~~sjd-torrentdennegre23: pruebas monitorizadas voz ip [lunes 11h]~~
 		- sjd-torrentdennegre23: revisar logs de pruebas
 		- sjd-torrentdennegre23: arreglar el problema
@@ -37,12 +37,18 @@
 		- sjd-catalunya4: fijar dia
 		- CGT: Llamar a david [Aitor]
 	- Medidos:
+- Pressupuetos
+		- ~~sjd-tarradellas8: Repetir medicion y fotos~~
+		- sjd-tarradellas8: Presupuesto
+		- Sao Prat: Presupuesto
+		- Sao Prat: Prueba punto intermedio
 		- crnll-santjeroni: Revisar el presupuesto [Aitor-David]
 		- prll-urgell21: documentar
 		- prll-canal135: presupuesto
 		- scll-santcliment41: Pressupost
 		- scll-santcliment41: Proponer dia xerrada
-		- sjd-domenech11: Presupuesto [lunes tarde]
+		- ~~sjd-domenech11: Presupuesto [Aitor]~~
+		- sjd-domenech11: revisar presupuesto
 		- sjd-fontsanta48: Revisar presupuesto
 		- sjd-fontsanta48: llamar para hacer visita
 		- sjd-fontsanta48: Volver a hacer visita para puntos de entrada con la guia
@@ -111,16 +117,9 @@
 	- BCN-Monistrol7 (Gracia): Registrar el trasto en el nodo para tener IP
 	- BCN-Monistrol7 (Gracia): Repetir la prueba con la antena bien configurada
 - Compras
-	- Cablematic [Aitor Lunes]
-		- Cablematic: Fundas de colorainas
-		- Cablematic: 2 hembras -> 1 macho RJ45
 	- CIL: Simon con telefono + Rj45 [Aitor]
 	- Walkies
 	- Grapas redondas agujero
-- Pressupuetos
-	- Payo: Buscar la medicion
-	- Payo: Medicion
-	- Payo: Presupuesto
 - Urgente contestar:
 	- Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
 	- Sant Vicenç: Trucar a Leonor [David]
@@ -189,14 +188,12 @@
 # Muy baja prioridad
 
 - Encargar targetas de visita
+	- 350g, una cara, mate
+		- 1000-28,56€, 500-26.35 http://www.pixartprinting.es/formato-pequeno/impresion-tarjetas-de-visita/
+		- 1000-25,14€, 500-25,80€ http://print24.com/es/product/tarjetas-de-visita/#
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
-- Desarrollo servidores [Victor/David]
-	- Servidor nuevo
-		- Pendiente de que nos lo traigan [Victor]
-		- Ponerlo en marcha
-		- Migrar los servidores
 
 ## Hecho 2014-03-04
 
