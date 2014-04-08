@@ -1,8 +1,8 @@
 # Tareas programadas para la semana
 
-- Contrato de servicio: Rularlo por abogados y bichos similares
-- Contrato de servicio: Esperar unos dias para que contestesten
+- ~~Contrato de servicio: Esperar unos dias para que contestesten los clientes~~
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
+- Contrato de servicio: Rularlo por abogados y bichos similares
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - Instituto Santa Coloma: Hacer la visita. [Despues de Eticom]
 - Feria de primavera:
@@ -20,15 +20,19 @@
 		- kny-florida40: Cobrar factura instalacion
 		- prll-caldetes5: Cobrar factura instalacion
 		- scc-maragall11: Enviar tarifas internacionales a elisenda
-		- sjd-torrentdennegre23: pruebas monitorizadas voz ip [lunes 11h]
-		- sjd-torrentdennegre23: reenviar contratos bien
+		- ~~sjd-torrentdennegre23: pruebas monitorizadas voz ip [lunes 11h]~~
+		- sjd-torrentdennegre23: revisar logs de pruebas
+		- sjd-torrentdennegre23: arreglar el problema
+		- ~~sjd-torrentdennegre23: reenviar contratos bien~~
 		- sjd-torrentdennegre23: Esperar los contratos de portabilidad mobil
 		- sjd-torrentdennegre23: Enviar factura 2T
 	- Presupuestados:
 		- prll-doctorrobert1: Aclarar dudas
-		- sjd-fredericcasas1f: Aclarar dudas [David]
+		- ~~sjd-fredericcasas1f: Aclarar dudas [David]~~
+		- sjd-fredericcasas1f: Mover portabilidades para el 28 de Mayo
+		- sjd-fredericcasas1f: Instalación 6 de Mayo
 		- sjd-domenech40: dar un toque [correo reenviado]
-		- sjd-avbarcelona23: dar un toque
+		- sjd-avbarcelona23: quedar con las hijas
 		- sjd-avbarcelona23: Argumento de ventas para jugones [Victor]
 		- sjd-catalunya4: fijar dia
 		- CGT: Llamar a david [Aitor]
