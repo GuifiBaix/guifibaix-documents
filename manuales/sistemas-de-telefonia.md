@@ -24,7 +24,7 @@ En inglés: PSTN (Public Switch Telephone Network)
 - Las centralitas (central office) estan interconectadas entre ellas
 - El ''plan de marcado'' (Dialing plan) determina como enrutan las llamadas entre ellas basándose en el número de destino
 - Demarcation point: La caja que separa la instalación de la compañia de la instalación interior
-- En el interior del edificio puede haber un Ramal Privado de Conmutación (PBX, Private Branch Exchange)
+- En el interior del edificio puede haber un Conmutador del Ramal Privado (PBX, Private Branch Exchange)
 - El PBX controla como se encaminan las llamadas internamente
 
 ## Trabajando con múltiples lineas
@@ -60,7 +60,6 @@ Entonces, como podemos hacer que siempre llamando a un solo numero tener varias 
 	- No solo es contestador automatico, también 
 	- Dispone de buzones de voz (MailBoxes) numerados
 	- El PBX puede redirigir a esos 
-	- 
 - Estaciones (Stations): Terminales. Pueden ser telefonos, interfonos, megafonía...
 	- Pueden conectarse analógicamente o digitalmente (tambien ip, pero ignoremoslas de momento)
 	- Los telefonos de casa suelen ser analógicos
@@ -80,8 +79,9 @@ Entonces, como podemos hacer que siempre llamando a un solo numero tener varias 
 ## Encaminado de llamadas
 
 - Extensión: Cada cosa que puede hacer el PBX es una extensión
+	- Redirigir a otra extension
 	- Redirigir a una estacion
-	- Redirigir a un buzon de boz
+	- Redirigir a un buzon de voz
 	- Redirigir a una linea externa
 	- Redirigir a un intercomunicador
 	- Auto-atención
@@ -182,6 +182,17 @@ Cada teléfono tiene:
 	- Uso del ancho de banda
 - Normalmente es un compromiso entre ambas.
 - Algunos codecs son propietarios y no se pueden usar en instalaciones open source
+
+- Codecs
+	- PCM Pulse Code Modulacion
+		- 8bits Unsigned 0 a 255  127
+		- 8bits Signed -126 127 0
+		- 92K 48K 44.100 22.050
+	- ulaw
+	- float
+	- compresion
+
+
 
 ## Calidad de servicio (QoS) y latencia de red
 
