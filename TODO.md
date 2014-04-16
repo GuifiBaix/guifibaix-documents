@@ -1,69 +1,63 @@
 # Tareas programadas para la semana
 
-- ~~Contrato de servicio: Esperar unos dias para que contestesten los clientes~~
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Contrato de servicio: Rularlo por abogados y bichos similares
+- Contrato de servicio: Formatear
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - Instituto Santa Coloma: Hacer la visita. [Despues de Eticom]
-- Feria de primavera:
-	- Flyers de Guifibaix: pedirle a RaulS
-	- Flyers de Desconexion
-	- Flyers de Eticom
-	- Flyers de Coop57
-	- Flyers de Fiare
 - Configurar Adaptador VozIP a RaulS [David]
 - Torrellas: Contactar con Edgar de la asociacion
 - Instituto Marti i Pol: Esperar llamada
 - Instituto Marti i Pol: Propuesta de charla
+- Checklist: Datos necesarios para portabilidades
 - Proyectos
 	- Instalados:
 		- kny-florida40: Cobrar factura instalacion
 		- prll-caldetes5: Cobrar factura instalacion
-		- ~~scc-maragall1: Enviar tarifas internacionales a elisenda~~
-		- ~~sjd-torrentdennegre23: pruebas monitorizadas voz ip [lunes 11h]~~
+		- scc-maragall1: Enviar contrato de servicio
 		- sjd-torrentdennegre23: revisar logs de pruebas
 		- sjd-torrentdennegre23: arreglar el problema
-		- ~~sjd-torrentdennegre23: reenviar contratos bien~~
 		- sjd-torrentdennegre23: Esperar los contratos de portabilidad mobil
 		- sjd-torrentdennegre23: Enviar factura 2T
+		- sjd-torrentdennegre23: Enviar contrato de servicio
 	- Presupuestados:
 		- prll-doctorrobert1: Aclarar dudas
-		- ~~sjd-fredericcasas1f: Aclarar dudas [David]~~
-		- sjd-fredericcasas1f: Mover portabilidades para el 28 de Mayo
 		- sjd-fredericcasas1f: Instalación 6 de Mayo
+		- sjd-fredericcasas1f: Mover portabilidades para el 28 de Mayo
+		- sjd-fredericcasas1f: Pedir datos
 		- sjd-domenech40: dar un toque [correo reenviado]
 		- sjd-avbarcelona23: quedar con las hijas
 		- sjd-avbarcelona23: Argumento de ventas para jugones [Victor]
 		- sjd-catalunya4: fijar dia
 		- CGT: Llamar a david [Aitor]
 	- Medidos:
-- Pressupuetos
-		- ~~sjd-tarradellas8: Repetir medicion y fotos~~
-		- sjd-tarradellas8: Presupuesto
+		- cnrll-isaacperal5: Pasar datos (csv i md) [Aitor]
+		- cnrll-isaacperal5: Presupuesto [Aitor]
+		- prll-canal135: Presupuesto [Aitor]
+		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
 		- Sao Prat: Prueba punto intermedio
-		- crnll-santjeroni: Revisar el presupuesto [Aitor-David]
-		- prll-urgell21: documentar
-		- prll-canal135: presupuesto
-		- scll-santcliment41: Pressupost
-		- scll-santcliment41: Proponer dia xerrada
-		- ~~sjd-domenech11: Presupuesto [Aitor]~~
+		- crnll-santjeroni: Revisar el presupuesto [Aitor-David] [Lunes]
+		- prll-urgell21: documentar [Victor]
+		- scll-santcliment41: Pressupost [Lunes]
+		- scll-santcliment41: Proponer dia xerrada despues de semana santa
+		- sjd-avbarcelona23: hablar con las hijas
 		- sjd-domenech11: revisar presupuesto
 		- sjd-fontsanta48: Revisar presupuesto
 		- sjd-fontsanta48: llamar para hacer visita
 		- sjd-fontsanta48: Volver a hacer visita para puntos de entrada con la guia
 		- sjd-fontsanta48: Foto del registro de planta
-			- sjd-fontsanta16: revisar presupuesto
-			- sjd-fontsanta16: enviar
-		- BaltasarDEspanya41: Pressupost
+		- sjd-fontsanta16: revisar presupuesto
+		- sjd-fontsanta16: enviar
+		- BaltasarDEspanya41: Segunda prueba de conectividad
 		- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
+		- BaltasarDEspanya41: Pressupost
+		- prll-fredericsoler60: Pressupost
 		- Pressupost: Monturiol
 		- Pressupost: Gava4
 		- Postsupost: Gats
 	- Pendiente Conectividad:
 		- Mayor24: Reactivar [raquel avisada] [David]
-		- Xavi cornella: Pasar datos (csv i md) [Aitor]
-		- Xavi cornella: Poner punto [David]
 		- Cristina Viladecans: Datos en contactes [Aitor]
 		- Cristina Viladecans: Llamar
 	- Prospecciones clientes nuevos
@@ -145,8 +139,8 @@
 - Comprar: Grimpadora de apliques
 - Compra: Manguera de luz (cuando estemos listos para una instalación)
 - Sincronizar dossier e info en la web catalan/castellano [Poco prioritario]
-	- Lista a Cofac [RaulB]
-	- Listas por internele [David]
+- Lista a Cofac [RaulB]
+- Listas por internele [David]
 - MLDonkey
 	- MLDonkey: Minimum fixture setup with no network
 	- MLDonkey: Specify json interface
@@ -194,6 +188,24 @@
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
+
+
+# Hecho 2014-03-11
+
+- ~~Contrato de servicio: Esperar unos dias para que contestesten los clientes~~
+- ~~scc-maragall1: Enviar tarifas internacionales a elisenda~~
+- ~~sjd-torrentdennegre23: pruebas monitorizadas voz ip [lunes 11h]~~
+- ~~sjd-torrentdennegre23: reenviar contratos bien~~
+- ~~sjd-fredericcasas1f: Aclarar dudas [David]~~
+- ~~Feria de primavera: Flyers de Guifibaix: pedirle a RaulS~~
+- ~~Feria de primavera: Flyers de Desconexion~~
+- ~~Feria de primavera: Flyers de Eticom~~
+- ~~Feria de primavera: Flyers de Coop57~~
+- ~~Feria de primavera: Ir
+- ~~cnrll-isaacperal5: Poner punto [David]~~
+- ~~sjd-tarradellas8: Repetir medicion y fotos~~
+- ~~sjd-tarradellas8: Presupuesto [David]~~
+- ~~sjd-domenech11: Presupuesto [Aitor]~~
 
 ## Hecho 2014-03-04
 
