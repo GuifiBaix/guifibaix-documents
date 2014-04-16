@@ -1,16 +1,13 @@
 ---
-title: GuifiBaix: Contrato de mantenimiento y servicios
-author: GuifiBaix
-header: GuifiBaix: Contrato de mantenimiento y servicios
-footer:	GuifiBaix: Contrato de mantenimiento y servicios
+title: "GuifiBaix: Contrato de mantenimiento y servicios"
+pdfauthor: GuifiBaix
+header: "GuifiBaix: Contrato de mantenimiento y servicios"
+footer:	"GuifiBaix: Contrato de mantenimiento y servicios"
 geometry: margin=1in
-abstract: GuifiBaix: Contrato de mantenimiento y servicios
+abstract: "GuifiBaix: Contrato de mantenimiento y servicios"
 ---
 
 ![](guifibaix-logo.jpg)
-
-# GuifiBaix: Contrato de mantenimiento y servicios
-
 
 En Sant Joan Despí, a {fecha.dia} de {fecha.mes} de {fecha.any}
 
