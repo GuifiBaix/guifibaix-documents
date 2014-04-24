@@ -1,15 +1,11 @@
 # Tareas programadas para la semana
 
-- ~~Contrato de servicio: Rularlo por abogados y bichos similares~~
 - Contrato de servicio: Preguntar a Lucena neutralidad de genero
 - Contrato de servicio: Formatear
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - Instituto Santa Coloma: Hacer la visita
 - Configurar Adaptador VozIP a RaulS [David, jueves tarde]
-- Torrellas: Contactar con Edgar de la asociacion
-- Instituto Marti i Pol: Esperar llamada
-- Instituto Marti i Pol: Propuesta de charla
 - Checklist: Datos necesarios para portabilidades
 - Remaquetar (y Corregir!!) el dossier
 - Llamar: Nubip
@@ -18,8 +14,6 @@
 	- Nubip: Seria posible acercar fibra de Commons a TV3?
 	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
 - Gats: Comentar con Gats la devolucion del IVA
-- Gats: Marti: dar un toque que hable con sus vecinos de KNY
-
 - Convenio con la fundación [David-Victor]:
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
@@ -32,19 +26,15 @@
 - Precios: Precios en la Cofac [RaulB]
 - Proyectos
 	- Instalados:
-		- ~~kny-florida40: Cobrar factura instalacion~~
-		- kny-florida40: Recoger el metalico [mañana]
+		- kny-florida40: Recoger el metalico [viernes 25]
 		- prll-caldetes5: Cobrar factura instalacion
 		- scc-maragall1: Enviar contrato de servicio
-		- ~~sjd-torrentdennegre23: revisar logs de pruebas~~
 		- sjd-torrentdennegre23: preguntar si ya funciona y si tienen los contratos
 		- sjd-torrentdennegre23: arreglar el problema
 		- sjd-torrentdennegre23: Esperar los contratos de portabilidad mobil
 		- sjd-torrentdennegre23: Enviar factura 2T
 		- sjd-torrentdennegre23: Enviar contrato de servicio
 	- Presupuestados:
-		- ~~prll-doctorrobert1: Aclarar dudas~~
-		- ~~prll-doctorrobert2: Presupuesto~~
 		- prll-doctorrobert2: Ajustar presupuesto
 		- prll-doctorrobert2: Enviar presupuesto
 		- sjd-fredericcasas1f: Pedir datos y meses de financiación
@@ -58,11 +48,6 @@
 		- CGT: Llamar a david [Aitor]
 		- sjd-mossota46: Insistir [David - Aitor]
 	- Medidos:
-		- ~~cnrll-isaacperal5: Pasar datos (csv i md) [Aitor]~~
-		- ~~cnrll-isaacperal5: Presupuesto [Aitor]~~
-		- ~~prll-canal135: Presupuesto [Aitor]~~
-		- ~~sjd-fontsanta16: revisar presupuesto~~
-		- ~~sjd-fontsanta16: enviar~~
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
 		- cnrll-isaacperal5: Enviar Pressupost [Aitor]
@@ -111,6 +96,10 @@
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
+- Torrellas: Contactar con Edgar de la asociacion
+- Instituto Marti i Pol: Esperar llamada
+- Instituto Marti i Pol: Propuesta de charla
+- Gats: Marti: dar un toque que hable con sus vecinos de KNY
 - Revisar el dossier lo que dijo Victor [David]
 - Averiguar situacion en zonas de expansion que nos han pedido
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
@@ -199,6 +188,20 @@
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
 
+
+# Hecho 2014-04-24
+
+- ~~Aplicacion para llevar los expedientes~~
+- ~~Contrato de servicio: Rularlo por abogados y bichos similares~~
+- ~~kny-florida40: Cobrar factura instalacion~~
+- ~~sjd-torrentdennegre23: revisar logs de pruebas~~
+- ~~prll-doctorrobert1: Aclarar dudas~~
+- ~~prll-doctorrobert2: Presupuesto~~
+- ~~cnrll-isaacperal5: Pasar datos (csv i md) [Aitor]~~
+- ~~cnrll-isaacperal5: Presupuesto [Aitor]~~
+- ~~prll-canal135: Presupuesto [Aitor]~~
+- ~~sjd-fontsanta16: revisar presupuesto~~
+- ~~sjd-fontsanta16: enviar~~
 
 # Hecho 2014-03-11
 
