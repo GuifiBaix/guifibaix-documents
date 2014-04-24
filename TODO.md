@@ -1,61 +1,94 @@
 # Tareas programadas para la semana
 
-- Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
-- Contrato de servicio: Rularlo por abogados y bichos similares
+- ~~Contrato de servicio: Rularlo por abogados y bichos similares~~
+- Contrato de servicio: Preguntar a Lucena neutralidad de genero
 - Contrato de servicio: Formatear
+- Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
-- Instituto Santa Coloma: Hacer la visita. [Despues de Eticom]
-- Configurar Adaptador VozIP a RaulS [David]
+- Instituto Santa Coloma: Hacer la visita
+- Configurar Adaptador VozIP a RaulS [David, jueves tarde]
 - Torrellas: Contactar con Edgar de la asociacion
 - Instituto Marti i Pol: Esperar llamada
 - Instituto Marti i Pol: Propuesta de charla
 - Checklist: Datos necesarios para portabilidades
+- Remaquetar (y Corregir!!) el dossier
+- Llamar: Nubip
+	- Nubip: Extensiones, oferta con sentido?
+	- Nubip: Que cobertura tenemos en los puntos clave?
+	- Nubip: Seria posible acercar fibra de Commons a TV3?
+	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
+- Gats: Comentar con Gats la devolucion del IVA
+- Gats: Marti: dar un toque que hable con sus vecinos de KNY
+
+- Convenio con la fundación [David-Victor]:
+	- Revisar los tiempos de respuesta
+	- Imprimir, firmar, escanear y enviar
+- Tesorería
+	- Tesoreria: Añadir facturas Aitor [David]
+	- Tesoreria: Recoger ingresos y material correspondiente
+	- Tesoreria: Recopilar que material se ha colocado sin pagarse
+	- Tesoreria: Coste del dominio [victor]
+- Grabar configuraciones de red finales [victor]
+- Precios: Precios en la Cofac [RaulB]
 - Proyectos
 	- Instalados:
-		- kny-florida40: Cobrar factura instalacion
+		- ~~kny-florida40: Cobrar factura instalacion~~
+		- kny-florida40: Recoger el metalico [mañana]
 		- prll-caldetes5: Cobrar factura instalacion
 		- scc-maragall1: Enviar contrato de servicio
-		- sjd-torrentdennegre23: revisar logs de pruebas
+		- ~~sjd-torrentdennegre23: revisar logs de pruebas~~
+		- sjd-torrentdennegre23: preguntar si ya funciona y si tienen los contratos
 		- sjd-torrentdennegre23: arreglar el problema
 		- sjd-torrentdennegre23: Esperar los contratos de portabilidad mobil
 		- sjd-torrentdennegre23: Enviar factura 2T
 		- sjd-torrentdennegre23: Enviar contrato de servicio
 	- Presupuestados:
-		- prll-doctorrobert1: Aclarar dudas
-		- sjd-fredericcasas1f: Instalación 6 de Mayo
+		- ~~prll-doctorrobert1: Aclarar dudas~~
+		- ~~prll-doctorrobert2: Presupuesto~~
+		- prll-doctorrobert2: Ajustar presupuesto
+		- prll-doctorrobert2: Enviar presupuesto
+		- sjd-fredericcasas1f: Pedir datos y meses de financiación
+		- sjd-fredericcasas1f: Redactar factura primer pago
 		- sjd-fredericcasas1f: Mover portabilidades para el 28 de Mayo
-		- sjd-fredericcasas1f: Pedir datos
-		- sjd-domenech40: dar un toque [correo reenviado]
-		- sjd-avbarcelona23: quedar con las hijas
+		- sjd-fredericcasas1f: Instalación 6 de Mayo
+		- sjd-domenech40: Reunion [martes 26]
+		- sjd-avbarcelona23: quedar con las hijas [jueves 24]
 		- sjd-avbarcelona23: Argumento de ventas para jugones [Victor]
 		- sjd-catalunya4: fijar dia
 		- CGT: Llamar a david [Aitor]
+		- sjd-mossota46: Insistir [David - Aitor]
 	- Medidos:
-		- cnrll-isaacperal5: Pasar datos (csv i md) [Aitor]
-		- cnrll-isaacperal5: Presupuesto [Aitor]
-		- prll-canal135: Presupuesto [Aitor]
+		- ~~cnrll-isaacperal5: Pasar datos (csv i md) [Aitor]~~
+		- ~~cnrll-isaacperal5: Presupuesto [Aitor]~~
+		- ~~prll-canal135: Presupuesto [Aitor]~~
+		- ~~sjd-fontsanta16: revisar presupuesto~~
+		- ~~sjd-fontsanta16: enviar~~
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
-		- Sao Prat: Prueba punto intermedio
-		- crnll-santjeroni: Revisar el presupuesto [Aitor-David] [Lunes]
-		- prll-urgell21: documentar [Victor]
-		- scll-santcliment41: Pressupost [Lunes]
-		- scll-santcliment41: Proponer dia xerrada despues de semana santa
-		- sjd-avbarcelona23: hablar con las hijas
-		- sjd-domenech11: revisar presupuesto
-		- sjd-fontsanta48: Revisar presupuesto
+		- cnrll-isaacperal5: Enviar Pressupost [Aitor]
+		- prll-canal135: Enviar presupuesto [David]
+		- sjd-tarradellas8: Revisar pressupuesto [Aitor]
+		- sjd-tarradellas8: Enviar pressupuesto [David]
+		- sjd-domenech11: quitar amortizaciones para uno [Aitor]
+		- sjd-domenech11: Enviar [Aitor]
+		- sjd-fontsanta48: Revisar presupuesto [David]
 		- sjd-fontsanta48: llamar para hacer visita
 		- sjd-fontsanta48: Volver a hacer visita para puntos de entrada con la guia
 		- sjd-fontsanta48: Foto del registro de planta
-		- sjd-fontsanta16: revisar presupuesto
-		- sjd-fontsanta16: enviar
+		- crnll-santjeroni: Revisar el presupuesto [Aitor-David]
+		- scll-santcliment41: Pressupost [Lunes]
+		- scll-santcliment41: Proponer dia xerrada despues de semana santa
+		- prll-fredericsoler60: Pressupost
+		- prll-gava4: Proponerle la segunda prueba de conectividad
+		- prll-gava4: Pressupost
+		- prll-monturiol40: Repetir prueba
+		- prll-monturiol40: Pressupost
+		- sjd-avbarcelona23: hablar con las hijas
 		- BaltasarDEspanya41: Segunda prueba de conectividad
 		- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
 		- BaltasarDEspanya41: Pressupost
-		- prll-fredericsoler60: Pressupost
-		- Pressupost: Monturiol
-		- Pressupost: Gava4
 		- Postsupost: Gats
+		- prll-urgell21: documentar [Victor]
 	- Pendiente Conectividad:
 		- Mayor24: Reactivar [raquel avisada] [David]
 		- Cristina Viladecans: Datos en contactes [Aitor]
@@ -73,31 +106,8 @@
 		- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
 		- Colla de diables del prat: Enviar información
 		- Asociacion de vecinos Prat: Enviar información
-		- Llamar a los que contesten [RaulS con ayudas del resto]
-		- Hacer una lista compartida de estado de clientes
+		- ~~Hacer una lista compartida de estado de clientes~~
 		- Yolanda Losa: Contactar con ella
-		- Revisar la lista del Prat
-		- Enviar dossier a potenciales del Prat [Pendiente de revision del dossier]
-		- Remaquetar (y Corregir!!) el dossier
-- Llamar: Nubip
-	- Nubip: Que cobertura tenemos en los puntos clave?
-	- Nubip: Seria posible acercar fibra de Commons a TV3?
-	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
-- Gats: Comentar con Gats la devolucion del IVA
-- Gats: Marti: dar un toque que hable con sus vecinos de KNY
-- Gats: Enviar recibo
-
-- Convenio con la fundación [David-Victor]:
-	- Revisar los tiempos de respuesta
-	- Imprimir, firmar, escanear y enviar
-- Tesorería
-	- Tesoreria: Añadir facturas Aitor [David]
-	- Tesoreria: Recoger ingresos y material correspondiente
-	- Tesoreria: Recopilar que material se ha colocado sin pagarse
-	- Tesoreria: Coste del dominio [victor]
-- Grabar configuraciones de red finales [victor]
-- Precios: Precios en la Cofac [RaulB]
-
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
