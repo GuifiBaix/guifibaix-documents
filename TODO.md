@@ -35,8 +35,8 @@
 		- sjd-torrentdennegre23: Enviar factura 2T
 		- sjd-torrentdennegre23: Enviar contrato de servicio
 	- Presupuestados:
-		- prll-doctorrobert2: Ajustar presupuesto
-		- prll-doctorrobert2: Enviar presupuesto
+		- ~~prll-doctorrobert2: Ajustar presupuesto~~
+		- ~~prll-doctorrobert2: Enviar presupuesto~~
 		- sjd-fredericcasas1f: Pedir datos y meses de financiación
 		- sjd-fredericcasas1f: Redactar factura primer pago
 		- sjd-fredericcasas1f: Mover portabilidades para el 28 de Mayo
@@ -48,30 +48,30 @@
 		- CGT: Llamar a david [Aitor]
 		- sjd-mossota46: Insistir [David - Aitor]
 	- Medidos:
+		- sjd-avbarcelona23: hablar con las hijas
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
 		- cnrll-isaacperal5: Enviar Pressupost [Aitor]
 		- prll-canal135: Enviar presupuesto [David]
-		- sjd-tarradellas8: Revisar pressupuesto [Aitor]
-		- sjd-tarradellas8: Enviar pressupuesto [David]
-		- sjd-domenech11: quitar amortizaciones para uno [Aitor]
-		- sjd-domenech11: Enviar [Aitor]
+		- ~~sjd-tarradellas8: Revisar pressupuesto [Aitor]~~
+		- ~~sjd-tarradellas8: Enviar pressupuesto [David]~~
+		- ~~sjd-domenech11: quitar amortizaciones para uno [Aitor]~~
+		- ~~sjd-domenech11: Enviar [Aitor]~~
 		- sjd-fontsanta48: Revisar presupuesto [David]
 		- sjd-fontsanta48: llamar para hacer visita
 		- sjd-fontsanta48: Volver a hacer visita para puntos de entrada con la guia
 		- sjd-fontsanta48: Foto del registro de planta
-		- crnll-santjeroni: Revisar el presupuesto [Aitor-David]
 		- scll-santcliment41: Pressupost [Lunes]
 		- scll-santcliment41: Proponer dia xerrada despues de semana santa
 		- prll-fredericsoler60: Pressupost
 		- prll-gava4: Proponerle la segunda prueba de conectividad
 		- prll-gava4: Pressupost
+		- crnll-santjeroni: Revisar el presupuesto [Aitor-David]
 		- prll-monturiol40: Repetir prueba
 		- prll-monturiol40: Pressupost
-		- sjd-avbarcelona23: hablar con las hijas
-		- BaltasarDEspanya41: Segunda prueba de conectividad
-		- BaltasarDEspanya41: preguntarle si ha hablado con los vecinos
-		- BaltasarDEspanya41: Pressupost
+		- sjd-baltasardespanya41: Segunda prueba de conectividad
+		- sjd-baltasardespanya41: preguntarle si ha hablado con los vecinos
+		- sjd-baltasardespanya41: Pressupost
 		- Postsupost: Gats
 		- prll-urgell21: documentar [Victor]
 	- Pendiente Conectividad:
