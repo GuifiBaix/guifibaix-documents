@@ -38,34 +38,43 @@
 	- Presupuestados:
 		- ~~prll-doctorrobert2: Ajustar presupuesto~~
 		- ~~prll-doctorrobert2: Enviar presupuesto~~
+		- ~~prll-canal135: Enviar presupuesto [David]~~
+		- ~~cnrll-isaacperal5: Enviar Pressupost~~ [Aitor]
+		- ~~sjd-tarradellas8: Revisar pressupuesto [Aitor]~~
+		- ~~sjd-tarradellas8: Enviar pressupuesto [David]~~
+		- ~~sjd-domenech11: quitar amortizaciones para uno [Aitor]~~
+		- ~~sjd-domenech11: Enviar [Aitor]~~
+		- ~~sjd-avbarcelona23: quedar con las hijas [jueves 24]~~
+		- ~~scll-santcliment41: Pressupost [Lunes]~~
+		- ~~scll-santcliment41: Enviar Pressupost ~~
 		- sjd-fredericcasas1f: Pedir datos y meses de financiación
 		- sjd-fredericcasas1f: Redactar factura primer pago
 		- sjd-fredericcasas1f: Mover portabilidades para el 28 de Mayo
 		- sjd-fredericcasas1f: Instalación 6 de Mayo
+		- scll-santcliment41: Proponer dia xerrada despues de semana santa
+		- scll-santcliment41: Xerrada
+		- scll-santcliment41: Guardar full de calcul pressupost (ho vam fer a ull, no guardat)
+		- scll-santcliment41: Esperar resposta
+		- prll-doctorrobert1: Esperar resposta
+		- prll-doctorrobert2: Esperar resposta
+		- cnrll-isaacperal5: Esperar resposta
+		- sjd-tarradellas8: Esperar resposta
+		- sjd-domenech11: Esperar resposta
+		- prll-canal135: Esperando resposta
+		- sjd-domenech11: Esperar resposta
 		- sjd-domenech40: Reunion [martes 26]
-		- ~~sjd-avbarcelona23: quedar con las hijas [jueves 24]~~
 		- sjd-avbarcelona23: Esperar decision
 		- sjd-avbarcelona23: Argumento de ventas para jugones [Victor]
 		- sjd-catalunya4: fijar dia
 		- CGT: Llamar a david [Aitor]
 		- sjd-mossota46: Insistir [David - Aitor]
 	- Medidos:
-		- ~~sjd-avbarcelona23: hablar con las hijas~~
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
-		- ~~cnrll-isaacperal5: Enviar Pressupost~~ [Aitor]
-		- ~~prll-canal135: Enviar presupuesto [David]~~
-		- prll-canal135: Enviar presupuesto [David]
-		- ~~sjd-tarradellas8: Revisar pressupuesto [Aitor]~~
-		- ~~sjd-tarradellas8: Enviar pressupuesto [David]~~
-		- ~~sjd-domenech11: quitar amortizaciones para uno [Aitor]~~
-		- ~~sjd-domenech11: Enviar [Aitor]~~
 		- sjd-fontsanta48: Revisar presupuesto [David]
 		- sjd-fontsanta48: llamar para hacer visita
 		- sjd-fontsanta48: Volver a hacer visita para puntos de entrada con la guia
 		- sjd-fontsanta48: Foto del registro de planta
-		- scll-santcliment41: Pressupost [Lunes]
-		- scll-santcliment41: Proponer dia xerrada despues de semana santa
 		- prll-fredericsoler60: Pressupost
 		- prll-gava4: Proponerle la segunda prueba de conectividad
 		- prll-gava4: Pressupost
