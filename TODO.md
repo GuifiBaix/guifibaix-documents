@@ -27,7 +27,7 @@
 - Precios: Precios en la Cofac [RaulB]
 - Proyectos
 	- Instalados:
-		- kny-florida40: Recoger el metalico [viernes 25]
+		- ~~kny-florida40: Recoger el metalico~~ [viernes 25]
 		- prll-caldetes5: Cobrar factura instalacion
 		- scc-maragall1: Enviar contrato de servicio
 		- sjd-torrentdennegre23: preguntar si ya funciona y si tienen los contratos
@@ -50,10 +50,10 @@
 		- CGT: Llamar a david [Aitor]
 		- sjd-mossota46: Insistir [David - Aitor]
 	- Medidos:
-		- sjd-avbarcelona23: hablar con las hijas
+		- ~~sjd-avbarcelona23: hablar con las hijas~~
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
-		- cnrll-isaacperal5: Enviar Pressupost [Aitor]
+		- ~~cnrll-isaacperal5: Enviar Pressupost~~ [Aitor]
 		- ~~prll-canal135: Enviar presupuesto [David]~~
 		- prll-canal135: Enviar presupuesto [David]
 		- ~~sjd-tarradellas8: Revisar pressupuesto [Aitor]~~
@@ -78,8 +78,8 @@
 		- Postsupost: Gats
 		- prll-urgell21: documentar [Victor]
 	- Pendiente Conectividad:
-		- Mayor24: Reactivar [raquel avisada] [David]
-		- Cristina Viladecans: Datos en contactes [Aitor]
+		- sjd-Mayor24: Reactivar [raquel avisada] [David]
+		- ~~Cristina Viladecans: Datos en contactes~~ [Aitor]
 		- Cristina Viladecans: Llamar
 	- Prospecciones clientes nuevos
 		- prll-mestrevigoigarreta32: (Profe) Llamar para ver si se puede avanzar [David]
