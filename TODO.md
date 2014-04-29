@@ -8,6 +8,7 @@
 - Configurar Adaptador VozIP a RaulS [David, jueves tarde]
 - Checklist: Datos necesarios para portabilidades
 - Remaquetar (y Corregir!!) el dossier
+- Añadir tema mastiles al master
 - Llamar: Nubip
 	- Nubip: Extensiones, oferta con sentido?
 	- Nubip: Que cobertura tenemos en los puntos clave?
@@ -42,7 +43,8 @@
 		- sjd-fredericcasas1f: Mover portabilidades para el 28 de Mayo
 		- sjd-fredericcasas1f: Instalación 6 de Mayo
 		- sjd-domenech40: Reunion [martes 26]
-		- sjd-avbarcelona23: quedar con las hijas [jueves 24]
+		- ~~sjd-avbarcelona23: quedar con las hijas [jueves 24]~~
+		- sjd-avbarcelona23: Esperar decision
 		- sjd-avbarcelona23: Argumento de ventas para jugones [Victor]
 		- sjd-catalunya4: fijar dia
 		- CGT: Llamar a david [Aitor]
@@ -52,6 +54,7 @@
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
 		- cnrll-isaacperal5: Enviar Pressupost [Aitor]
+		- ~~prll-canal135: Enviar presupuesto [David]~~
 		- prll-canal135: Enviar presupuesto [David]
 		- ~~sjd-tarradellas8: Revisar pressupuesto [Aitor]~~
 		- ~~sjd-tarradellas8: Enviar pressupuesto [David]~~
