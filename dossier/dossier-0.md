@@ -49,6 +49,8 @@ incluso conservando el número.
 
 ## ¿Cual es la función GuifiBaix?
 
+\figurecolumn{internet-sharing}
+
 La función de GuifiBaix es simplificar Guifi.net a los usuarios:
 Instala y mantiene la parte de la red que les corresponde,
 gestiona el tráfico de datos para que la compartición de 
