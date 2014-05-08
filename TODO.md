@@ -1,6 +1,6 @@
 # Tareas programadas para la semana
 
-- Contrato de servicio: Preguntar a Lucena neutralidad de genero
+- ~~Contrato de servicio: Preguntar a Lucena neutralidad de genero~~
 - Contrato de servicio: Formatear
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
@@ -9,6 +9,8 @@
 - Checklist: Datos necesarios para portabilidades
 - Remaquetar (y Corregir!!) el dossier
 - Añadir tema mastiles al master
+- Chaval tv3-esplugues enviar mail para charlas
+- Chaval tv3-esplugues pedirle direccion y telefono
 - Llamar: Nubip
 	- Nubip: Extensiones, oferta con sentido?
 	- Nubip: Que cobertura tenemos en los puntos clave?
@@ -104,7 +106,10 @@
 		- Colla de diables del prat: Enviar información
 		- Asociacion de vecinos Prat: Enviar información
 		- ~~Hacer una lista compartida de estado de clientes~~
-		- Yolanda Losa: Contactar con ella
+		- Yolanda Losa: Contactar con ellaa
+- Zonas de expansion
+	- Raval: Hablar con los colectivos clientes [aitor]
+	- Raval: Hablar con guifiraval.net [aitor]
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 

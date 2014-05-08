@@ -53,7 +53,7 @@
 - Si hay que grimpar
 	- Tester cables de datos
 	- Pila del tester cables de datos
-	- Grimpadora
+	- Crimpadora
 	- Conectores (FTP o UTP)
 	- Fundas de conectores
 	- Cable de datos
