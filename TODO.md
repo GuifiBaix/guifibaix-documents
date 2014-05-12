@@ -1,14 +1,16 @@
 # Tareas programadas para la semana
 
-- ~~Contrato de servicio: Preguntar a Lucena neutralidad de genero~~
+
+- prll-xiringo: inauguración
 - Contrato de servicio: Formatear
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - Instituto Santa Coloma: Hacer la visita
 - Configurar Adaptador VozIP a RaulS [David, jueves tarde]
 - Checklist: Datos necesarios para portabilidades
+- Checklist: Stand
 - Remaquetar (y Corregir!!) el dossier
-- Añadir tema mastiles al master
+- master: Añadir tema mastiles
 - Chaval tv3-esplugues enviar mail para charlas
 - Chaval tv3-esplugues pedirle direccion y telefono
 - Llamar: Nubip
@@ -17,7 +19,9 @@
 	- Nubip: Seria posible acercar fibra de Commons a TV3?
 	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
 - Gats: Comentar con Gats la devolucion del IVA
+- Gats: Pasar las facturas
 - Convenio con la fundación [David-Victor]:
+	- Preguntar a Victor como esta [david]
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
 - Tesorería
@@ -27,33 +31,22 @@
 	- Tesoreria: Coste del dominio [victor]
 - Grabar configuraciones de red finales [victor]
 - Precios: Precios en la Cofac [RaulB]
+- Tranferir apotracion RaulB [david]
 - Proyectos
 	- Instalados:
-		- ~~kny-florida40: Recoger el metalico~~ [viernes 25]
-		- prll-caldetes5: Cobrar factura instalacion
+		- prll-caldetes5: Conseguir vecinos
 		- scc-maragall1: Enviar contrato de servicio
-		- sjd-torrentdennegre23: preguntar si ya funciona y si tienen los contratos
 		- sjd-torrentdennegre23: arreglar el problema
 		- sjd-torrentdennegre23: Esperar los contratos de portabilidad mobil
 		- sjd-torrentdennegre23: Enviar factura 2T
 		- sjd-torrentdennegre23: Enviar contrato de servicio
-	- Presupuestados:
-		- ~~prll-doctorrobert2: Ajustar presupuesto~~
-		- ~~prll-doctorrobert2: Enviar presupuesto~~
-		- ~~prll-canal135: Enviar presupuesto [David]~~
-		- ~~cnrll-isaacperal5: Enviar Pressupost~~ [Aitor]
-		- ~~sjd-tarradellas8: Revisar pressupuesto [Aitor]~~
-		- ~~sjd-tarradellas8: Enviar pressupuesto [David]~~
-		- ~~sjd-domenech11: quitar amortizaciones para uno [Aitor]~~
-		- ~~sjd-domenech11: Enviar [Aitor]~~
-		- ~~sjd-avbarcelona23: quedar con las hijas [jueves 24]~~
-		- ~~scll-santcliment41: Pressupost [Lunes]~~
-		- ~~scll-santcliment41: Enviar Pressupost ~~
-		- sjd-fredericcasas1f: Pedir datos y meses de financiación
-		- sjd-fredericcasas1f: Redactar factura primer pago
 		- sjd-fredericcasas1f: Mover portabilidades para el 28 de Mayo
-		- sjd-fredericcasas1f: Instalación 6 de Mayo
-		- scll-santcliment41: Proponer dia xerrada despues de semana santa
+		- sjd-fredericcasas1f: Preguntarles si quieren que les tapemos el agujero
+		- sjd-fredericcasas1f: Preguntarles que tal les va
+		- sjd-fredericcasas1f: Configurarles un telefono de pruebas
+		- kny-florida40: dar pasta a david [aitor]
+		- kny-florida40: ingresar [david]
+	- Presupuestados:
 		- scll-santcliment41: Xerrada
 		- scll-santcliment41: Guardar full de calcul pressupost (ho vam fer a ull, no guardat)
 		- scll-santcliment41: Esperar resposta
@@ -61,26 +54,25 @@
 		- prll-doctorrobert2: Esperar resposta
 		- cnrll-isaacperal5: Esperar resposta
 		- sjd-tarradellas8: Esperar resposta
-		- sjd-domenech11: Esperar resposta
+		- sjd-domenech40: Esperar resposta
 		- prll-canal135: Esperando resposta
 		- sjd-domenech11: Esperar resposta
-		- sjd-domenech40: Reunion [martes 26]
 		- sjd-avbarcelona23: Esperar decision
-		- sjd-avbarcelona23: Argumento de ventas para jugones [Victor]
 		- sjd-catalunya4: fijar dia
-		- CGT: Llamar a david [Aitor]
+		- crnll-esplugues46: Llamar a david [Aitor]
 		- sjd-mossota46: Insistir [David - Aitor]
+		- sjd-fontsanta48: Esperar respuesta de Pep
+		- sjd-fontsanta48: Esperar respuesta de Pep
+		- sjd-fontsanta48: Foto del registro de planta
+		- crnll-santjeroni: Esperar respuesta
+		- crnll-santjeroni: Hablar con la asociacion de vecinos de riera
+		- prll-fredericsoler60: Esperando respuesta
 	- Medidos:
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
-		- sjd-fontsanta48: Revisar presupuesto [David]
-		- sjd-fontsanta48: llamar para hacer visita
-		- sjd-fontsanta48: Volver a hacer visita para puntos de entrada con la guia
-		- sjd-fontsanta48: Foto del registro de planta
-		- prll-fredericsoler60: Pressupost
 		- prll-gava4: Proponerle la segunda prueba de conectividad
 		- prll-gava4: Pressupost
-		- crnll-santjeroni: Revisar el presupuesto [Aitor-David]
+		- prll-monturiol40: Llamar
 		- prll-monturiol40: Repetir prueba
 		- prll-monturiol40: Pressupost
 		- sjd-baltasardespanya41: Segunda prueba de conectividad
@@ -90,7 +82,6 @@
 		- prll-urgell21: documentar [Victor]
 	- Pendiente Conectividad:
 		- sjd-Mayor24: Reactivar [raquel avisada] [David]
-		- ~~Cristina Viladecans: Datos en contactes~~ [Aitor]
 		- Cristina Viladecans: Llamar
 	- Prospecciones clientes nuevos
 		- prll-mestrevigoigarreta32: (Profe) Llamar para ver si se puede avanzar [David]
@@ -99,7 +90,6 @@
 		- prll-avremolar75: Llamar para ver si se puede avanzar [RaulS]
 		- prll-apellesmestres45
 		- kny-mariabenlliure: Preguntar para hacer prueba de conectividad [RaulS]
-		- Cornella: Contactar con el chico de la charla que vive al lado de CGT [David]
 		- Amics del prat: Enviar información (http://amicsdelprat.cat)
 		- Coral del prat: Enviar información (coraldelprat@hotmail.com)
 		- Punt solidari del prat: Enviar información (puntsolidari@elprat.cat)
@@ -110,34 +100,25 @@
 - Zonas de expansion
 	- Raval: Hablar con los colectivos clientes [aitor]
 	- Raval: Hablar con guifiraval.net [aitor]
+	- Sant Vicenç: Trucar a Leonor [David]
+	- Sant Vicenç: Preguntar a Use per les AAVV's
+	- Sant Vicenç: Preguntar Eticom por sus contactos
+	- Sant Vicenç: Convocar una charla en Sant Vicenç
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
-- Torrellas: Contactar con Edgar de la asociacion
-- Instituto Marti i Pol: Esperar llamada
-- Instituto Marti i Pol: Propuesta de charla
+- Instituto Marti i Pol: Esperar llamada para charla y posible instalacion
 - Gats: Marti: dar un toque que hable con sus vecinos de KNY
-- Revisar el dossier lo que dijo Victor [David]
-- Averiguar situacion en zonas de expansion que nos han pedido
+- Zonas de expansion
+	- Torrellas: Contactar con Edgar de la asociacion
 	- Ricard Hospitalet: Estudiar la situación en Hospitalet [Victor]
-	- Corbera: Hablar con los de guifi.net de Corbera [Victor]
-		- Corbera: Que antenas usan
-		- Corbera: Que proxies usan
-		- Esparraguera: Visibilidad con Corbera?
+	- Esparraguera: Visibilidad con Corbera?
 	- BCN-Monistrol7 (Gracia): Registrar el trasto en el nodo para tener IP
 	- BCN-Monistrol7 (Gracia): Repetir la prueba con la antena bien configurada
 - Compras
 	- CIL: Simon con telefono + Rj45 [Aitor]
-	- Walkies
-	- Grapas redondas agujero
-- Urgente contestar:
-	- Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
-	- Sant Vicenç: Trucar a Leonor [David]
-	- Sant Vicenç: Quedada con Oscar (sistemes)
-	- Sant Vicenç: Preguntar a Use per les AAVV's
-	- Sant Vicenç: Convocar una charla en Sant Vicenç
+- Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
 - Formacion: Raul Sanz, VozIP
-- Formacion: Raul Sanz, Google Maps compartidos
 - Formacion: Raul Beas, VozIP
 - Formacion: Raul Beas, Git via web
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
@@ -146,7 +127,6 @@
 	- Balanceo de ADSL en un edificio
 	- Balanceo de ADSL entre edificios
 	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
-- Checklist: Stand
 - Luis Esplugues: Prueba/Medicion [aitor]
 - Esplugues Nani: Prueba/medicion [aitor]
 - Mailing list de usuarios
@@ -204,6 +184,39 @@
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
+
+# Hecho 2014-05-09
+
+- ~~kny-florida40: Recoger el metalico~~ [viernes 25]
+- ~~prll-doctorrobert2: Ajustar presupuesto~~
+- ~~prll-doctorrobert2: Enviar presupuesto~~
+- ~~prll-canal135: Enviar presupuesto [David]~~
+- ~~cnrll-isaacperal5: Enviar Pressupost~~ [Aitor]
+- ~~sjd-tarradellas8: Revisar pressupuesto [Aitor]~~
+- ~~sjd-tarradellas8: Enviar pressupuesto [David]~~
+- ~~sjd-domenech11: quitar amortizaciones para uno [Aitor]~~
+- ~~sjd-domenech11: Enviar [Aitor]~~
+- ~~sjd-avbarcelona23: quedar con las hijas [jueves 24]~~
+- ~~scll-santcliment41: Pressupost [Lunes]~~
+- ~~scll-santcliment41: Enviar Pressupost ~~
+- ~~Contrato de servicio: Preguntar a Lucena neutralidad de genero~~
+- ~~sjd-domenech40: Reunion [martes 26]~~
+- ~~scll-santcliment41: Proponer dia xerrada despues de semana santa~~
+- ~~sjd-torrentdennegre23: preguntar si ya funciona y si tienen los contratos~~ no funciona
+- ~~Compra: Walkies~~
+- ~~Compra: Grapas redondas agujero~~
+- ~~sjd-avbarcelona23: Argumento de ventas para jugones [Victor]~~
+- ~~crnll-santjeroni: Revisar el presupuesto [Aitor-David]~~
+- ~~prll-fredericsoler60: Pressupost~~
+- ~~prll-caldetes5: Cobrar factura instalacion~~
+- ~~sjd-fredericcasas1f: Pedir datos y meses de financiación~~
+- ~~sjd-fredericcasas1f: Redactar factura primer pago~~
+- ~~sjd-fredericcasas1f: Instalación 6 de Mayo~~
+- ~~sjd-fontsanta48: Revisar presupuesto [David]~~
+- ~~Sant Vicenç: Quedada con Oscar (sistemes)~~
+- ~~Cristina Viladecans: Datos en contactes~~ [Aitor]
+- ~~Cristina Viladecans: enviar correu~~
+
 
 
 # Hecho 2014-04-24
