@@ -4,17 +4,21 @@ para salirnos del control económico y político que ejercen las grandes empresa
 Guifibaix es la respuesta que se dió al sector de las telecomunicaciones,
 cubriendo, fuera del oligopolio, los servicios de Internet, telefonía fija y móbil.
 Usa la red ciudadana Guifi.net y colabora con la cooperativa Eticom-SomConnexió.
-Potencia un modelo asambleario y horizontal en el mundo laboral
-y da voz a los usuarios en la evolución de sus telecomunicaciones,
-a parte de otros compromisos éticos y ecològicos que formalizamos en el contrato con el usuario.
+
+Potencia un modelo asambleario y horizontal en el mundo laboral, 
+dando voz a trabajadores y
+usuarios en la evolución de sus telecomunicaciones,
+a parte de otros compromisos éticos y medio ambientales 
+que formalizamos en el contrato con el usuario.
 
 Guifi.net es una red ciudadana que lleva más de 10 años funcionando.
-Nació en la comarca de Osona y se está extendiendo por toda la Península con mas de 22.000 nodos.
-Es una red libre, abierta y neutral en la que cualquiera puede añadir su nodo,
-pero hacerlo requiere dedicación y algunos conocimientos técnicos.
-GuifiBaix facilita la expansión de esta red haciendo la instalación y el mantenimiento
+Nació en la comarca de Osona (Barcelona) y se expande por toda la Península con mas de 22.000 nodos.
+Es una red libre, abierta y neutral en la que cualquiera puede añadir su nodo.
+
+Como para ello se requiere dedicación y algunos conocimientos técnicos.
+GuifiBaix nos especializamos en la instalación y el mantenimiento
 a aquellas personas que no puedan hacerlo por sí mismas,
-dejandola lista para simplemente conectar el cable.
+dejandola lista para simplemente conectar el cable y funcionar.
 
 ¿Y cómo consigo conectarme a internet y tener telefonía?
 
@@ -47,13 +51,15 @@ y se empieza a ahorrar.
 
 TODO: Aqui no queda claro cuando te refieres a Telefonica y cuando a GuifiBaix
 
-Si se hace bien, no tiene por qué. La red de Telefónica ya es compartida, 
+La red de Telefónica ya es compartida, 
 tú contratas 20MB y te llegan entre 2 y 10 generalmente,
-lo que no compartes son los gastos. Además, se pueden añadir servicios 
-internos dentro de la red, que implican no necesitar salir a internet.
+lo que no compartes son los gastos. Es por eso que depende la hora en que te conectes
+tu velocidad varía.
 
-Entre antenas, si hay buena visibilidad, funciona entre 100 y 200MB, y la red del 
-bloque funciona a 1024MB (1GB). El culo de botella está en los ADSL y Fibras compartidas.
+En la red guifi.net, además, se pueden añadir servicios 
+internos, que implican no necesitar salida a internet.
+Entre antenas, si hay buena visibilidad, funciona de entre 100 y 200MB, y la red del 
+bloque funciona a 1024MB (1GB). El culo de botella está en los ADSL y fibras compartidas.
 
 Hay que contar la utilidad de la antena. Si en tu bloque está saturado porque coincide que 
 está todo el mundo conectado y descargando a la vez, la antena busca otras salidas a internet, 
