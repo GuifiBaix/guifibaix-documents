@@ -1,20 +1,20 @@
-Guifibaix es una Cooperativa que acerca la red guifi.net a la población. 
-Surge de la campaña de DesconexiónIbex35, 
-con lucha por hacer frente al oligopolio reinante.
+Guifibaix es una Cooperativa que facilita a los ciudadanos el acceso a la red guifi.net.
+Surge de una campaña civil (DesconexiónIBEX35.org)
+para salirnos del control económico y político que ejercen las grandes empresas en el país.
+Guifibaix es la respuesta que se dió al sector de las telecomunicaciones,
+cubriendo, fuera del oligopolio, los servicios de Internet, telefonía fija y móbil.
+Usa la red ciudadana Guifi.net y colabora con la cooperativa Eticom-SomConnexió.
+Potencia un modelo asambleario y horizontal en el mundo laboral
+y da voz a los usuarios en la evolución de sus telecomunicaciones,
+a parte de otros compromisos éticos y ecològicos que formalizamos en el contrato con el usuario.
 
-La cooperativa es del sector de las telecomunicaciones, 
-y te permite tener conexión a internet y telefonía
-saliendo del oligopolio y potenciando un modelo asambleario y horizontal 
-en el mundo laboral.
-
-Guifi.net lleva más de 10 años funcionando en Catalunya, creciendo
-sobretodo en la zona de Osona, que es donde nació.
-Esta red está pensado para que cualquier usuario/a pueda hacerse 
-la instalación, funcionando con software libre y con estándares abiertos. 
-Como ello implica poseer conocimientos
-informáticos y técnicos, decidimos acercar esta red a cualquier 
-persona interesada en la misma, haciendo una instalación 
-lista para funcionar solamente conectando el cable.
+Guifi.net es una red ciudadana que lleva más de 10 años funcionando.
+Nació en la comarca de Osona y se está extendiendo por toda la Península con mas de 22.000 nodos.
+Es una red libre, abierta y neutral en la que cualquiera puede añadir su nodo,
+pero hacerlo requiere dedicación y algunos conocimientos técnicos.
+GuifiBaix facilita la expansión de esta red haciendo la instalación y el mantenimiento
+a aquellas personas que no puedan hacerlo por sí mismas,
+dejandola lista para simplemente conectar el cable.
 
 ¿Y cómo consigo conectarme a internet y tener telefonía?
 
@@ -24,24 +24,28 @@ y con una fibra, pueden conectarse 7 u 8 usuarios.
 
 ¿Y esto se paga?
 
-Sí, lo que hay que pagar es, por un lado la instalación inicial, 
-que queda en propiedad de la persona/s que la pague/n.
+Sí, lo que hay que pagar es, por un lado la instalación inicial,
+que queda en propiedad de la persona que la paga.
 Suele rondar entre 150€ y 290€ (IVA incluido), dependiendo del número de vecinos que se conecten,
-y de la configuración que tenga el bloque o viviendam y si quieren servicio de telefonía o no.
+y de la configuración que tenga el bloque o viviendas y de si quieren servicio de telefonía o no.
 
 Por otro lado, también hay una mensualidad, que se reparte de la siguiente forma (precios sin IVA):
-- 5€ por el mantenimiento de la antena y los elementos de seguridad
+- 5€ por el mantenimiento de la instalación común del edificio (a repartir entre los usuarios)
 - 5€ por el mantenimiento individual del usuario
-- 5€ para pagar conectividad
+- 5€ por usuario para pagar conectividad
+
+TODO: Aitor esto no puede quedar escrito asi es algo entre los usuarios
 
 Quien aporte la conexión a internet no paga mantenimiento y 
 recibirá íntegramente, los 5€+IVA de sus apadrinamientos, aunque sí ha de pagar 
 la parte que le corresponda de instalación.
 
-Calculamos que en menos de un año, la inversión ya se ha recuperado
+Calculamos que en menos de un año, se recupera la inversión
 y se empieza a ahorrar.
 
 ¿Y pierdo velocidad compartiendo mi conexión?
+
+TODO: Aqui no queda claro cuando te refieres a Telefonica y cuando a GuifiBaix
 
 Si se hace bien, no tiene por qué. La red de Telefónica ya es compartida, 
 tú contratas 20MB y te llegan entre 2 y 10 generalmente,
