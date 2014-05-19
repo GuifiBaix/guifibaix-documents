@@ -5,17 +5,18 @@ Guifibaix es la respuesta que se dió al sector de las telecomunicaciones,
 cubriendo, fuera del oligopolio, los servicios de Internet, telefonía fija y móbil.
 Usa la red ciudadana Guifi.net y colabora con la cooperativa Eticom-SomConnexió.
 
-Potencia un modelo asambleario y horizontal en el mundo laboral, 
-dando voz a trabajadores y
-usuarios en la evolución de sus telecomunicaciones,
-a parte de otros compromisos éticos y medio ambientales 
-que formalizamos en el contrato con el usuario.
+Pontenciamos un modelo asambleario y horizontal,
+devolviendo el control a los usuarios sobre la evolución de sus telecomunicaciones.
+y a los trabajadores sobre sus condiciones de trabajo.
+Nuestros compromisos eticos, sociales y medioambientales
+son concretos, comprobables y los formalizamos
+en el contrato que firmamos con nuestros usuarios y usuarias.
 
 Guifi.net es una red ciudadana que lleva más de 10 años funcionando.
-Nació en la comarca de Osona (Barcelona) y se expande por toda la Península con mas de 22.000 nodos.
+Nace en la comarca de Osona (Barcelona) y se extiende por toda la Península con más de 22.000 nodos.
 Es una red libre, abierta y neutral en la que cualquiera puede añadir su nodo.
 
-Como para ello se requiere dedicación y algunos conocimientos técnicos.
+Como para ello se requiere dedicación y algunos conocimientos técnicos,
 GuifiBaix nos especializamos en la instalación y el mantenimiento
 a aquellas personas que no puedan hacerlo por sí mismas,
 dejandola lista para simplemente conectar el cable y funcionar.
@@ -23,7 +24,8 @@ dejandola lista para simplemente conectar el cable y funcionar.
 ¿Y cómo consigo conectarme a internet y tener telefonía?
 
 Es necesario que dentro de la red haya quien aporte conexión a internet
-y quien ayude a pagar esa conexión. Calculamos que con 1 ADSL, pueden conectarse 5 usuarios
+y quien ayude a pagar esa conexión.
+Calculamos que con 1 ADSL, pueden conectarse 5 usuarios
 y con una fibra, pueden conectarse 7 u 8 usuarios.
 
 ¿Y esto se paga?
