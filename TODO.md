@@ -1,37 +1,47 @@
 # Tareas programadas para la semana
 
-
-- prll-xiringo: inauguración
-- Contrato de servicio: Formatear
+- Osso: Recoger antenas [victor]
+- Incidencia: Enviar correo a Pau [david]
+- Contrato de servicio: Formatear [david]
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
-- Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
-- Instituto Santa Coloma: Hacer la visita
-- Configurar Adaptador VozIP a RaulS [David, jueves tarde]
-- Checklist: Datos necesarios para portabilidades
-- Checklist: Stand
-- Remaquetar (y Corregir!!) el dossier
-- master: Añadir tema mastiles
-- Chaval tv3-esplugues enviar mail para charlas
-- Chaval tv3-esplugues pedirle direccion y telefono
+- Telefono de pruebas [david]
 - Llamar: Nubip
+	- Nubip: Tarifa zero para pruebas
 	- Nubip: Extensiones, oferta con sentido?
 	- Nubip: Que cobertura tenemos en los puntos clave?
 	- Nubip: Seria posible acercar fibra de Commons a TV3?
-	- Nubip: Habilitar multiples dispositivos registrados o habilitar cuentas.
-- Gats: Comentar con Gats la devolucion del IVA
-- Gats: Pasar las facturas
+	- Nubip: Florida: IP fija, garantizada, tarifas, cuanto tiempo
+	- Nubip: Nuevas altas fredericcasas1f
+- prll-xiringo: avisar de que vamos
+- prll-xiringo: visita [miercoles]
+- Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
+- Enviar info subvenciones a cooperativas Prat [RaulS]
+- Instituto Santa Coloma: Hacer la visita [Martes 15h]
+- Configurar Adaptador VozIP a RaulS [David]
+- Checklist: Datos necesarios para portabilidades
+- Checklist: Stand
+- Remaquetar (y Corregir!!) el dossier [lunes tarde]
+- Chaval tv3-esplugues enviar mail para charlas
+- Chaval tv3-esplugues pedirle direccion y telefono
+- Grabar configuraciones de red finales [victor]
 - Convenio con la fundación [David-Victor]:
 	- Preguntar a Victor como esta [david]
 	- Revisar los tiempos de respuesta
 	- Imprimir, firmar, escanear y enviar
+- Aclarar soluciones tecnicas [David-Victor]
+	- Monitorizacion de los ADSL
+	- Balanceo de ADSL en un edificio
+	- Balanceo de ADSL entre edificios
+	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
 - Tesorería
+	- Tesoreria: Aitor paga sus deudas con David [Aitor]
+	- Tesoreria: Pasar las facturas a Gats
 	- Tesoreria: Añadir facturas Aitor [David]
-	- Tesoreria: Recoger ingresos y material correspondiente
-	- Tesoreria: Recopilar que material se ha colocado sin pagarse
+	- ~~Tesoreria: Recoger ingresos~~
+	- Tesoreria: Material correspondiente a los ingresos
+	- Tesoreria: Material se ha colocado sin pagarse
 	- Tesoreria: Coste del dominio [victor]
-- Grabar configuraciones de red finales [victor]
 - Precios: Precios en la Cofac [RaulB]
-- Tranferir apotracion RaulB [david]
 - Proyectos
 	- Instalados:
 		- prll-caldetes5: Conseguir vecinos
@@ -46,6 +56,8 @@
 		- sjd-fredericcasas1f: Configurarles un telefono de pruebas
 		- kny-florida40: dar pasta a david [aitor]
 		- kny-florida40: ingresar [david]
+		- prll-caldetes5: poner datos
+		- prll-caldetes5: configuracion de lan
 	- Presupuestados:
 		- scll-santcliment41: Xerrada
 		- scll-santcliment41: Guardar full de calcul pressupost (ho vam fer a ull, no guardat)
@@ -58,16 +70,21 @@
 		- prll-canal135: Esperando resposta
 		- sjd-domenech11: Esperar resposta
 		- sjd-avbarcelona23: Esperar decision
+		- sjd-avbarcelona23: Preguntarle si ha hablado con los vecinos
 		- sjd-catalunya4: fijar dia
 		- crnll-esplugues46: Llamar a david [Aitor]
 		- sjd-mossota46: Insistir [David - Aitor]
 		- sjd-fontsanta48: Esperar respuesta de Pep
-		- sjd-fontsanta48: Esperar respuesta de Pep
 		- sjd-fontsanta48: Foto del registro de planta
+		- sjd-fontsanta48: Plantearle que vecinos estan interasados
 		- crnll-santjeroni: Esperar respuesta
 		- crnll-santjeroni: Hablar con la asociacion de vecinos de riera
 		- prll-fredericsoler60: Esperando respuesta
 	- Medidos:
+		- sboidl-fredericmompou60
+		- edll-angelguimera81
+		- Sao Prat: Llamar a Marcelo para pedirle el contacto
+		- Sao Prat: Si no se contacta a Marcelo contactar con Monica
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
 		- prll-gava4: Proponerle la segunda prueba de conectividad
@@ -79,11 +96,13 @@
 		- sjd-baltasardespanya41: preguntarle si ha hablado con los vecinos
 		- sjd-baltasardespanya41: Pressupost
 		- Postsupost: Gats
-		- prll-urgell21: documentar [Victor]
 	- Pendiente Conectividad:
-		- sjd-Mayor24: Reactivar [raquel avisada] [David]
-		- Cristina Viladecans: Llamar
+		- sjd-Mayor24: Reactivar [raquel avisada - nuria informada] [David]
+		- sjd-torrentdennegre2D: Reprogramar prueba
+		- edll-angelguimera81: Prueba [aitor]
+		- edll-angelguimera81: Reunion [aitor 22M]
 	- Prospecciones clientes nuevos
+		- sjd-montjuic15: Llamar (charla AAVV)
 		- prll-mestrevigoigarreta32: (Profe) Llamar para ver si se puede avanzar [David]
 		- prll-pompeufabra75: llamar en abril
 		- prll-avvergedemontserrat269: Llamar para ver si se puede avanzar [RaulS]
@@ -100,6 +119,8 @@
 - Zonas de expansion
 	- Raval: Hablar con los colectivos clientes [aitor]
 	- Raval: Hablar con guifiraval.net [aitor]
+	- Sant Vicenç: Pedir el convenio a ayuntamiento
+	- Sant Vicenç: Contactar con Ramon institut
 	- Sant Vicenç: Trucar a Leonor [David]
 	- Sant Vicenç: Preguntar a Use per les AAVV's
 	- Sant Vicenç: Preguntar Eticom por sus contactos
@@ -107,7 +128,8 @@
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
-- Instituto Marti i Pol: Esperar llamada para charla y posible instalacion
+- Cristina Viladecans: Llamar [dormido hasta 15 Junio]
+- master: Añadir tema mastiles
 - Gats: Marti: dar un toque que hable con sus vecinos de KNY
 - Zonas de expansion
 	- Torrellas: Contactar con Edgar de la asociacion
@@ -122,11 +144,6 @@
 - Formacion: Raul Beas, VozIP
 - Formacion: Raul Beas, Git via web
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
-- Aclarar soluciones tecnicas [David-Victor]
-	- Monitorizacion de los ADSL
-	- Balanceo de ADSL en un edificio
-	- Balanceo de ADSL entre edificios
-	- Determinar el tiempo de respuesta del balanceo en caso de caidas o saturaciones
 - Luis Esplugues: Prueba/Medicion [aitor]
 - Esplugues Nani: Prueba/medicion [aitor]
 - Mailing list de usuarios
@@ -184,6 +201,15 @@
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
+
+# Hecho 2014-05-16
+
+- ~~Osso: Pedir antenas~~
+- ~~prll-urgell21: documentar [Victor]~~
+- ~~Gats: Comentar con Gats la devolucion del IVA~~
+- ~~Tranferir apotracion RaulB [david]~~
+- ~~Sant Vicenç: Contactar con el ayuntamiento~~
+- ~~Sant Vicenç: Contactar con Ramon Roca~~
 
 # Hecho 2014-05-09
 
