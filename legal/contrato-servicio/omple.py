@@ -9,6 +9,18 @@ class conf :
 		for k,v in keyw.items() :
 			setattr(self, k, v)
 
+femenino = conf(
+	quotedElCliente = "el \"CLIENTE\"",
+	cliente = "CLIENTA",
+	elCliente = "la CLIENTA",
+	delCliente = "de la CLIENTA",
+	ELCLIENTE = "LA CLIENTA",
+	ElCliente = "La CLIENTA",
+	alCliente = "a la CLIENTA",
+	DelCliente = "De la CLIENTA",
+	AlCliente = "A la CLIENTA",
+	)
+
 
 vars = conf(
 	fecha = conf(
@@ -16,6 +28,7 @@ vars = conf(
 		mes = "febrero",
 		dia = 20,
 		),
+	lugar = "Sant Joan Despí",
 	periodo = "un año",
 	cliente = conf(
 		nombre = "Alberto Gijón",
@@ -28,6 +41,7 @@ vars = conf(
 			codigopostal = "08970"
 			),
 		),
+	genero = femenino,
 	proveedor = conf(
 		nombre = "AT2, Acció Transversal per la Transformació Social",
 		cif = "G64922131",
