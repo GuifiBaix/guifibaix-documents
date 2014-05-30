@@ -1,22 +1,24 @@
 # Tareas programadas para la semana
 
-- Osso: Recoger antenas [victor]
-- Incidencia: Enviar correo a Pau [david]
+- ~~Osso: Recoger antenas [victor]~~
+- ~~Incidencia: Prueba antenas [victor]~~
 - Contrato de servicio: Formatear [david]
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Telefono de pruebas [david]
 - Llamar: Nubip
 	- Nubip: Tarifa zero para pruebas
-	- Nubip: Extensiones, oferta con sentido?
-	- Nubip: Que cobertura tenemos en los puntos clave?
-	- Nubip: Seria posible acercar fibra de Commons a TV3?
+	- Nubip: Extensiones, oferta con sentido? [esperando]
+	- ~~Nubip: Que cobertura tenemos en los puntos clave?~~
+	- Nubip: Precios fibra [esperando respuesta]
 	- Nubip: Florida: IP fija, garantizada, tarifas, cuanto tiempo
 	- Nubip: Nuevas altas fredericcasas1f
+	- Nubip: Mobil Aitor
+	- Nubip: Seria posible acercar fibra de Commons a TV3?
+- Difusión del TIC Municipal lliures i obertes
 - prll-xiringo: avisar de que vamos
-- prll-xiringo: visita [miercoles]
+- prll-xiringo: visita
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - Enviar info subvenciones a cooperativas Prat [RaulS]
-- Instituto Santa Coloma: Hacer la visita [Martes 15h]
 - Configurar Adaptador VozIP a RaulS [David]
 - Checklist: Datos necesarios para portabilidades
 - Checklist: Stand
@@ -72,8 +74,9 @@
 		- sjd-avbarcelona23: Esperar decision
 		- sjd-avbarcelona23: Preguntarle si ha hablado con los vecinos
 		- sjd-catalunya4: fijar dia
-		- crnll-esplugues46: Llamar a david [Aitor]
-		- sjd-mossota46: Insistir [David - Aitor]
+		- ~~crnll-esplugues46: Correo a david~~
+		- crnll-esplugues46: Esperando respuesta correo
+		- ~~sjd-mossota46: Insistir [David - Aitor] -> descartado~~
 		- sjd-fontsanta48: Esperar respuesta de Pep
 		- sjd-fontsanta48: Foto del registro de planta
 		- sjd-fontsanta48: Plantearle que vecinos estan interasados
@@ -81,14 +84,18 @@
 		- crnll-santjeroni: Hablar con la asociacion de vecinos de riera
 		- prll-fredericsoler60: Esperando respuesta
 	- Medidos:
-		- sboidl-fredericmompou60
-		- edll-angelguimera81
+		- ~~prll-gava4: Proponerle la segunda prueba de conectividad~~
+		- ~~prll-gava4: Pressupost~~
+		- prll-gava4: Enviar
+		- ~~mdr-bruc55: Prova de connectivitat~~
+		- mdr-bruc55: Pressupost
+		- ~~scg-rellotge21: Hacer la visita [Martes 15h]~~
+		- scg-rellotge21: Pressupuesto
+		- sboidl-fredericmompou60: pressupost
+		- edll-angelguimera81: pressupost
 		- Sao Prat: Llamar a Marcelo para pedirle el contacto
-		- Sao Prat: Si no se contacta a Marcelo contactar con Monica
 		- Sao Prat: Llamar para prueba de conectividad del punto intermedioa [David]
 		- Sao Prat: Presupuesto
-		- prll-gava4: Proponerle la segunda prueba de conectividad
-		- prll-gava4: Pressupost
 		- prll-monturiol40: Llamar
 		- prll-monturiol40: Repetir prueba
 		- prll-monturiol40: Pressupost
@@ -194,10 +201,13 @@
 
 # Muy baja prioridad
 
+- Llamar: Nubip
+	- Nubip: Seria posible acercar fibra de Commons a TV3?
 - Encargar targetas de visita
 	- 350g, una cara, mate
 		- 1000-28,56€, 500-26.35 http://www.pixartprinting.es/formato-pequeno/impresion-tarjetas-de-visita/
 		- 1000-25,14€, 500-25,80€ http://print24.com/es/product/tarjetas-de-visita/#
+- Libretas de guifibaix
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
