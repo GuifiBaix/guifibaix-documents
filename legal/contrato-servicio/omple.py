@@ -10,7 +10,7 @@ class conf :
 			setattr(self, k, v)
 
 femenino = conf(
-	quotedElCliente = "el \"CLIENTE\"",
+	quotedElCliente = "la \"CLIENTA\"",
 	cliente = "CLIENTA",
 	elCliente = "la CLIENTA",
 	delCliente = "de la CLIENTA",
@@ -19,6 +19,18 @@ femenino = conf(
 	alCliente = "a la CLIENTA",
 	DelCliente = "De la CLIENTA",
 	AlCliente = "A la CLIENTA",
+	)
+
+masculino = conf(
+	quotedElCliente = "el \"CLIENTE\"",
+	cliente = "CLIENTE",
+	elCliente = "el CLIENTE",
+	delCliente = "del CLIENTE",
+	ELCLIENTE = "EL CLIENTE",
+	ElCliente = "El CLIENTE",
+	alCliente = "al CLIENTE",
+	DelCliente = "Del CLIENTE",
+	AlCliente = "Al CLIENTE",
 	)
 
 
@@ -41,7 +53,7 @@ vars = conf(
 			codigopostal = "08970"
 			),
 		),
-	genero = femenino,
+	genero = masculino,
 	proveedor = conf(
 		nombre = "AT2, Acció Transversal per la Transformació Social",
 		cif = "G64922131",
