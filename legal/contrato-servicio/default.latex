@@ -7,17 +7,28 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{booktabs}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{\thepage / \pageref{LastPage}}
+\usepackage[usenames,dvipsnames]{color}
 %\usepackage{ccicons}
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[utf8]{inputenc}
-\newcommand{\doubleSignature}[3]{%
+\usepackage{titlesec}
+
+\titleformat{\section}
+{\color{red}\normalfont\Large\bfseries}
+{\color{red}\thesection}{1em}{}
+\newcommand{\doubleSignature}[4]{%
   \parbox{\textwidth}{
-    \centering #3 \today\\
-    \vspace{2cm}
+    #3, a #4\\
+    \vspace{3cm}
 
     \parbox{7cm}{
+      \fbox{3cm}{6cm}
       \centering
       \rule{6cm}{1pt}\\
        Fmdo: #1 
