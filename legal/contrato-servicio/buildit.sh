@@ -6,7 +6,7 @@ python3 omple.py < *.md |
 pandoc \
 	-V lang=spanish \
 	-V mainfont='Ubuntu' \
-	-V fontsize='12pt' \
+	-V fontsize='11pt' \
 	-V papersize=a4paper \
 	-f markdown  \
 	--template default.latex -o guifibaix-contrato-mantenimiento-y-servicio.pdf

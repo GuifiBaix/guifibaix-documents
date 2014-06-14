@@ -7,11 +7,8 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{booktabs}
-\usepackage{lastpage}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\cfoot{\thepage / \pageref{LastPage}}
 \usepackage[usenames,dvipsnames]{color}
+\usepackage{lastpage}
 %\usepackage{ccicons}
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -28,7 +25,6 @@
     \vspace{3cm}
 
     \parbox{7cm}{
-      \fbox{3cm}{6cm}
       \centering
       \rule{6cm}{1pt}\\
        Fmdo: #1 
@@ -95,7 +91,6 @@ $if(tables)$
 \usepackage{longtable}
 $endif$
 $if(graphics)$
-\usepackage{graphicx}
 % We will generate all images so they have a width \maxwidth. This means
 % that they will get their normal width if they fit onto the page, but
 % are scaled down if they would overflow the margins.
@@ -116,7 +111,7 @@ $endif$
 \hypersetup{breaklinks=true,
             bookmarks=true,
             pdfauthor={$author-meta$},
-            pdftitle={$title-meta$},
+            pdftitle={$pdftitle$},
             colorlinks=true,
             urlcolor=$if(urlcolor)$$urlcolor$$else$blue$endif$,
             linkcolor=$if(linkcolor)$$linkcolor$$else$magenta$endif$,
@@ -155,11 +150,22 @@ $header-includes$
 $endfor$
 \renewcommand*{\familydefault}{\sfdefault}
 
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\includegraphics[height=10mm]{guifibaix-logo}}
+\cfoot{\thepage / \pageref{LastPage}}
 $if(title)$
-\title{$title$}
+\rhead{$title$}
+\title{\raisebox{-.4\height}{\includegraphics[width=4cm]{guifibaix-logo}} \hspace{1cm} \color{tuscanred}$title$}
 $endif$
 \author{$for(author)$$author$$sep$ \and $endfor$}
 \date{$date$}
+
+\usepackage{sectsty}
+\definecolor{tuscanred}{rgb}{0.51, 0.21, 0.21}
+\allsectionsfont{\color{tuscanred}}  % sets colour of sections
+
 
 \begin{document}
 

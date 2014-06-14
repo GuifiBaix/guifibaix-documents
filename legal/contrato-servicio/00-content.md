@@ -1,15 +1,13 @@
 ---
 documentclass: article
-title: "GuifiBaix: Contrato de mantenimiento y servicios"
-pdftitle: "GuifiBaix: Contrato de mantenimiento y servicios"
+title: "Contrato de mantenimiento y servicios"
+pdftitle: "GuifiBaix: Contrato de mantenimiento y servicios, {cliente.nombre}"
 pdfauthor: GuifiBaix
 header: "GuifiBaix: Contrato de mantenimiento y servicios"
 footer:	"GuifiBaix: Contrato de mantenimiento y servicios"
 geometry: margin=1in
 abstract: "GuifiBaix: Contrato de mantenimiento y servicios"
 ---
-
-![](guifibaix-logo.jpg)
 
 En {lugar}, a {fecha.dia} de {fecha.mes} de {fecha.any}
 
@@ -397,24 +395,21 @@ Las Partes podrán modificar el contrato de mutuo acuerdo y por escrito.
 Las Partes podrán resolver el Contrato,
 en caso de incumplimiento de las obligaciones establecidas en el mismo.
 
-
 ### ONCEAVA.- NOTIFICACIONES
 
 Las notificaciones que se realicen las Partes deberán realizarse por correo electrónico, teléfono o correo ordinario, a las siguientes direcciones:
 
-{genero.cliente}:
+	{genero.cliente}:
+		Dirección:	{cliente.domicilio.direccion}
+					{cliente.domicilio.codigopostal} {cliente.domicilio.municipio}
+		Email: 		{cliente.email}
+		Teléfono:	{cliente.telefono}
 
-	Dirección:	{cliente.domicilio.direccion}
-				{cliente.domicilio.codigopostal} {cliente.domicilio.municipio}
-	Email: 		{cliente.email}
-	Teléfono:	{cliente.telefono}
-
-PROVEEDOR:
-
-	Dirección:	{proveedor.domicilio.direccion}
-				{proveedor.domicilio.codigopostal} {proveedor.domicilio.municipio}
-	Email: 		{proveedor.emailcontacto}
-	Teléfono:	{proveedor.telefono}
+	PROVEEDOR:
+		Dirección:	{proveedor.domicilio.direccion}
+					{proveedor.domicilio.codigopostal} {proveedor.domicilio.municipio}
+		Email: 		{proveedor.emailcontacto}
+		Teléfono:	{proveedor.telefono}
 
 
 
