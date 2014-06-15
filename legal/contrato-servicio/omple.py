@@ -4,10 +4,10 @@
 with open("00-content.md") as f :
 	template = f.read()
 
-class conf : 
-	def __init__(self, **keyw) :
-		for k,v in keyw.items() :
-			setattr(self, k, v)
+class conf(dict) :
+	def __init__(self, *args, **keyw) :
+		super(conf,self).__init__(*args, **keyw)
+		self.__dict__ = self
 
 femenino = conf(
 	quotedElCliente = "la \"CLIENTA\"",
