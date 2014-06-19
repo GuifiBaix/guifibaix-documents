@@ -2,7 +2,7 @@
 
 - ~~Osso: Recoger antenas [victor]~~
 - ~~Incidencia: Prueba antenas [victor]~~
-- Contrato de servicio: Formatear [david]
+- ~~Contrato de servicio: Formatear [david]~~
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - Telefono de pruebas [david]
 - Llamar: Nubip
@@ -15,8 +15,6 @@
 	- Nubip: Mobil Aitor
 	- Nubip: Seria posible acercar fibra de Commons a TV3?
 - Difusión del TIC Municipal lliures i obertes
-- prll-xiringo: avisar de que vamos
-- prll-xiringo: visita
 - Enviar info subvenciones a cooperativas Sant Joan Despi [RaulS]
 - Enviar info subvenciones a cooperativas Prat [RaulS]
 - Configurar Adaptador VozIP a RaulS [David]
@@ -61,7 +59,7 @@
 		- prll-caldetes5: poner datos
 		- prll-caldetes5: configuracion de lan
 	- Presupuestados:
-		- scll-santcliment41: Xerrada
+		- ~~scll-santcliment41: Xerrada~~
 		- scll-santcliment41: Guardar full de calcul pressupost (ho vam fer a ull, no guardat)
 		- scll-santcliment41: Esperar resposta
 		- prll-doctorrobert1: Esperar resposta
@@ -69,11 +67,13 @@
 		- cnrll-isaacperal5: Esperar resposta
 		- sjd-tarradellas8: Esperar resposta
 		- sjd-domenech40: Esperar resposta
+		- sjd-domenech40: Hablar con los que no dijeron si
 		- prll-canal135: Esperando resposta
 		- sjd-domenech11: Esperar resposta
 		- sjd-avbarcelona23: Esperar decision
 		- sjd-avbarcelona23: Preguntarle si ha hablado con los vecinos
-		- sjd-catalunya4: fijar dia
+		- ~~sjd-catalunya4: reunion~~
+		- sjd-catalunya4: enviar presupuesto con los ultimos numeros
 		- ~~crnll-esplugues46: Correo a david~~
 		- crnll-esplugues46: Esperando respuesta correo
 		- ~~sjd-mossota46: Insistir [David - Aitor] -> descartado~~
