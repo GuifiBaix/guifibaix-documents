@@ -6,13 +6,13 @@
 	- Som una cooperativa del Baix Llobregat
 	- Instalem i mantenim xarxes veinals per compartir connexions internet
 
-Que us explicarem
+- Que us explicarem
 	- Qui som i perque ho fem
 	- Que us oferim
 	- Com funciona
 	- Els preus
 
-Qui som:
+- Qui som:
 	- Cooperativa sense anim de lucre
 	- Objectius
 		- Reduir costos pels usuaris per facilitar l'accés a tothom
