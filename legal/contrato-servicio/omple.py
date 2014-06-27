@@ -41,7 +41,6 @@ vars = conf(
 		dia = 20,
 		),
 	lugar = "Sant Joan Despí",
-	periodo = "un año",
 	cliente = conf(
 		nombre = "Alberto Gijón",
 		dni = "12345678V",
