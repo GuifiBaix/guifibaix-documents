@@ -18,7 +18,7 @@ DE UNA  PARTE,
 **{cliente.nombre}** mayor de edad,
 con N.I.F. número **{cliente.dni}**,
 en adelante, {genero.quotedElCliente},
-domiciliada en **{cliente.domicilio.municipio}**,
+con domicilio en **{cliente.domicilio.municipio}**,
 **{cliente.domicilio.direccion}**,
 C.P. **{cliente.domicilio.codigopostal}**.
 
@@ -27,7 +27,7 @@ DE OTRA  PARTE,
 con N.I.F. número **{proveedor.representante.dni}**
 y en nombre y representación de **{proveedor.nombre}**,
 en adelante, la “PROVEEDORA”,
-domiciliada en **{proveedor.domicilio.municipio}**,
+con domicilio en **{proveedor.domicilio.municipio}**,
 **{proveedor.domicilio.direccion}**,
 C.P. **{proveedor.domicilio.codigopostal}**
 y C.I.F. **{proveedor.cif}**.
@@ -86,10 +86,16 @@ la PROVEEDORA, como encargado del tratamiento, queda obligado al cumplimiento de
 de 13 de Diciembre, de Protección de Datos de Carácter Personal y del Real Decreto 1720/2007, de 21 de diciembre,
 por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999 y demás normativa aplicable.
 
-La PROVEEDORA responderá, por tanto, de las infracciones en que pudiera incurrir en el caso de que destine los datos personales a otra finalidad, los comunique a un tercero, o en general, 
-los utilice de forma irregular, así como cuando no adopte las medidas correspondientes para el almacenamiento y custodia de los mismos. A tal efecto, se obliga a indemnizar {genero.alCliente}, 
-por cualesquiera daños y perjuicios que sufra directamente, o por toda reclamación, acción o procedimiento, que traiga su causa de un incumplimiento o cumplimiento defectuoso por parte 
-de la PROVEEDORA de lo dispuesto tanto en el Contrato como lo dispuesto en la normativa reguladora de la protección de datos de carácter personal.
+La PROVEEDORA responderá, por tanto, de las infracciones en que pudiera incurrir
+en el caso de que destine los datos personales a otra finalidad,
+los comunique a un tercero, o en general, los utilice de forma irregular,
+así como cuando no adopte las medidas correspondientes para el almacenamiento y custodia de los mismos.
+A tal efecto, se obliga a indemnizar {genero.alCliente}, 
+por cualesquiera daños y perjuicios que sufra directamente,
+o por toda reclamación, acción o procedimiento,
+que traiga su causa de un incumplimiento o cumplimiento defectuoso por parte de la PROVEEDORA
+de lo dispuesto tanto en el Contrato
+como lo dispuesto en la normativa reguladora de la protección de datos de carácter personal.
 
 A los efectos del artículo 12 de la Ley 15/1999, la PROVEEDORA únicamente tratará los datos de carácter personal a los que tenga acceso conforme a las instrucciones {genero.delCliente} y no 
 los aplicará o utilizará con un fin distinto al objeto del Contrato, ni los comunicará, ni siquiera para su conservación, a otras personas. En el caso de que la PROVEEDORA destine 

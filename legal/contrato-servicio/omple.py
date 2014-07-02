@@ -42,7 +42,7 @@ vars = conf(
 		),
 	lugar = "Sant Joan Despí",
 	cliente = conf(
-		nombre = "Alberto Gijón",
+		nombre = "Alberta Gijón",
 		dni = "12345678V",
 		telefono = "93-111-2222",
 		email = "email@usuario.test",
@@ -51,8 +51,8 @@ vars = conf(
 			municipio = "Sant Joan Despí",
 			codigopostal = "08970"
 			),
+		genero = femenino,
 		),
-	genero = masculino,
 	proveedor = conf(
 		nombre = "AT2, Acció Transversal per la Transformació Social",
 		cif = "G64922131",
@@ -70,6 +70,8 @@ vars = conf(
 			),
 		),
 )
+
+vars.genero = vars.cliente.genero
 
 
 print ( template.format(**vars.__dict__) )
