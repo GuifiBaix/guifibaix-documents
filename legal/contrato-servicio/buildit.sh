@@ -2,7 +2,7 @@
 # sudo apt-get install pandoc texlive-lang-spanish pdftk
 
 
-python3 omple.py < *.md | 
+python3 omple.py $1 < *.md | 
 pandoc \
 	-V lang=spanish \
 	-V mainfont='Ubuntu' \
