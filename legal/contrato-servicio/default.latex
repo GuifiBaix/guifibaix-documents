@@ -140,7 +140,7 @@ $endif$
 $if(lang)$
 \ifxetex
   \usepackage{polyglossia}
-  \setmainlanguage{$mainlang$}
+  \setmainlanguage{$lang$}
 \else
   \usepackage[$lang$]{babel}
 \fi

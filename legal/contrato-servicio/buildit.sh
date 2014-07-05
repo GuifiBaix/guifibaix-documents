@@ -4,15 +4,7 @@
 
 python3 omple.py $1 < *.md | 
 pandoc \
-	-V lang=spanish \
-	-V mainfont='Ubuntu' \
-	-V fontsize='11pt' \
-	-V papersize=a4paper \
-	-f markdown  \
-	--template default.latex -o guifibaix-contrato-mantenimiento-y-servicio.pdf
-#	-V documentclass=article \
-#	-N --toc \
-#	*md
-#	-V title-meta='Contrato de servicios: GuifiBaix SCCL' \
+	--template default.latex \
+	-o guifibaix-contrato-mantenimiento-y-servicio.pdf
 
-#pdftk portada.pdf blank.pdf planempresa-content.pdf cat output planempresa.pdf
+

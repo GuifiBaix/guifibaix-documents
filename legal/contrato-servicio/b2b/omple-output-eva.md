@@ -1,12 +1,14 @@
 ---
 documentclass: article
+lang: spanish
+mainfont: Ubuntu
+fontsize: 11pt
+papersize: a4paper
+geometry: margin=1in
 title: "Contrato de mantenimiento y servicios"
+author: GuifiBaix
 pdftitle: "GuifiBaix: Contrato de mantenimiento y servicios, Alberta Gijón"
 pdfauthor: GuifiBaix
-header: "GuifiBaix: Contrato de mantenimiento y servicios"
-footer:	"GuifiBaix: Contrato de mantenimiento y servicios"
-geometry: margin=1in
-abstract: "GuifiBaix: Contrato de mantenimiento y servicios"
 ---
 
 En Sant Joan Despí, a 20 de febrero de 2014
@@ -39,10 +41,10 @@ para la celebración del presente Contrato.
 
 ## EXPONEN
 
-PRIMERO: Que la CLIENTA está interesado en la contratación de:
+PRIMERO: Que la CLIENTA tiene interés en la contratación de:
 
-a) Servicio de mantenimiento de los sistemas ofrecidos e instalados (o revisados) por GuifiBaix en los exteriores de la vivienda para la conectividad con la red Guifi.net,
-b) Acceso y uso de los servicios proporcionados desde los servidores de GuifiBaix,
+a) Servicio de mantenimiento de los sistemas ofrecidos e instalados (o revisados) por la PROVEEDORA en los exteriores de la vivienda para la conectividad con la red Guifi.net,
+b) Acceso y uso de los servicios proporcionados desde los servidores de la PROVEEDORA,
 
 SEGUNDO: Que la PROVEEDORA es una entidad especializada en la prestación de servicios de instalación, mantenimiento y conectividad sobre la red Guifi.Net, cumpliendo
 con los requerimientos de la red abierta, libre y neutral (Procomún RALN), aportando a la misma sus propios servicios en línea.
