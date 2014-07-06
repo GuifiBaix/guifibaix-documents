@@ -6,17 +6,17 @@ fail()
 	echo TEST FAILED: $* && exit -1
 }
 
-for input in b2b/omple-input*yaml; do
+for input in b2b/input*yaml; do
 	output=$(echo $input | sed s/input/output/ | sed 's/\.yaml$/.md/' )
 	echo Generating $input '->' $output
 	python3 generaContrato.py --md $input -d 2014-02-20 > $output || fail Command returned an error
 done
 
-echo Generating b2b/omple-output-eva.tex '->' b2b/pandoc-output.tex
+echo Generating b2b/input-eva.yaml '->' b2b/output-eva.tex
 	python3 generaContrato.py \
-		b2b/omple-input-eva.yaml \
+		b2b/input-eva.yaml \
 		-d 2014-02-20 \
-		-o b2b/pandoc-output.tex ||
+		-o b2b/output-eva.tex ||
 		fail Command returned an error
 
 git diff --exit-code b2b && echo TEST OK || echo FAILED!!!!!!!!
