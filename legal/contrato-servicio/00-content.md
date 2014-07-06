@@ -152,22 +152,40 @@ c) Mantenimiento de RED:
 		de la comunicación entre los equipos conectados en RED,
 		así como todos los periféricos conectados a ella que sean objeto de este contrato.
 		
-2.2.1. La PROVEEDORA se obliga a prestar los servicios necesarios para el correcto funcionamiento del sistema instalado en {genero.elCliente}, siempre que no se deban a manipulaciones indebidas. 
-Dichos servicios comprenden la realización de cuantas operaciones sean necesarias en los equipos o sistemas incluidos en este contrato.
+2.2.1. La PROVEEDORA se obliga a prestar los servicios necesarios
+para el correcto funcionamiento del sistema instalado en {genero.elCliente},
+siempre que no se deban a manipulaciones indebidas.
+Dichos servicios comprenden la realización
+de cuantas operaciones sean necesarias
+en los equipos o sistemas incluidos en este contrato.
 
-2.2.2. {genero.ElCliente} facilitará la labor de la PROVEEDORA en todo momento dándole el acceso a los sistemas requeridos. La PROVEEDORA se reserva el acceso físico y telemático a los equipos comunes, a fin de poder
-gestionar de forma eficiente y correcta tanto el apartado preventivo, correctivo y/o evolutivo de estos sistemas.
+2.2.2. {genero.ElCliente} facilitará la labor de la PROVEEDORA en todo momento
+dándole el acceso a los sistemas requeridos.
+La PROVEEDORA se reserva el acceso físico y telemático a los equipos comunes,
+a fin de poder gestionar de forma eficiente y correcta
+tanto el apartado preventivo, correctivo y/o evolutivo de estos sistemas.
 
-2.2.3. El coste de cualquier componente que la PROVEEDORA tenga sustituir o instalar será por cuenta {genero.delCliente}, a excepción de defectos de fábrica o mala manipulación por parte del 
-PROVEEDOR o terceros vinculados con el mismo. La PROVEEDORA no se responsabiliza de los daños que pudieran producirse por la incorrecta manipulación de los componentes realizados por {genero.elCliente} o terceros no vinculados.
+2.2.3. El coste de cualquier componente
+que la PROVEEDORA tenga sustituir o instalar
+será por cuenta {genero.delCliente},
+a excepción de defectos de fábrica o mala manipulación
+por parte del PROVEEDOR o terceros vinculados con el mismo.
+La PROVEEDORA no se responsabiliza de los daños que pudieran producirse
+por la incorrecta manipulación de los componentes realizados por {genero.elCliente} o terceros no vinculados.
 
-2.2.4. {genero.ElCliente} se compromete a utilizar los componentes del hardware y del software de acuerdo con las instrucciones y el manual del fabricante.
+2.2.4. {genero.ElCliente} se compromete a utilizar
+los componentes del hardware y del software
+de acuerdo con las instrucciones y el manual del fabricante.
 
 2.2.5. En ningún caso la PROVEEDORA mantendrá, instalará o configurará sin los debidos permisos administrativos.
 
-2.2.6. La PROVEEDORA ofrecerá un servicio de soporte técnico de 9 a 17 horas todos los días laborables no festivos mediante llamada telefónica al ({proveedor.telefono}) o correo electrónico a 
-{proveedor.email}. Las vísperas de festivos nacionales, el horario de atención telefónica será de 9 a 15 horas. Los fines de semana o festivos, el servicio estará disponible a través del 
-correo electrónico {proveedor.email}. Cualquiera incidencia que se produzca, {genero.elCliente} deberá comunicarla a la PROVEEDORA, a través del teléfono o correo electrónico mencionados, para proceder a su solución. 
+2.2.6. La PROVEEDORA ofrecerá un servicio de soporte técnico
+de 9 a 17 horas todos los días laborables no festivos
+mediante llamada telefónica al ({proveedor.telefono}) o correo electrónico a {proveedor.email}.
+Las vísperas de festivos nacionales, el horario de atención telefónica será de 9 a 15 horas.
+Los fines de semana o festivos, el servicio estará disponible a través del correo electrónico {proveedor.email}.
+Cualquiera incidencia que se produzca, {genero.elCliente} deberá comunicarla a la PROVEEDORA,
+a través del teléfono o correo electrónico mencionados, para proceder a su solución.
 
 
 
