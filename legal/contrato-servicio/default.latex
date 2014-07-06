@@ -153,11 +153,11 @@ $endfor$
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\lhead{\includegraphics[height=10mm]{guifibaix-logo}}
+\lhead{\includegraphics[height=10mm]{$imagepath$guifibaix-logo}}
 \cfoot{\thepage / \pageref{LastPage}}
 $if(title)$
 \rhead{$title$}
-\title{\raisebox{-.4\height}{\includegraphics[width=4cm]{guifibaix-logo}} \hspace{1cm} \color{tuscanred}$title$}
+\title{\raisebox{-.4\height}{\includegraphics[width=4cm]{$imagepath$guifibaix-logo}} \hspace{1cm} \color{tuscanred}$title$}
 $endif$
 \author{$for(author)$$author$$sep$ \and $endfor$}
 \date{$date$}

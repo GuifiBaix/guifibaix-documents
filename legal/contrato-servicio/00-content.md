@@ -8,6 +8,7 @@ geometry: margin=1in
 title: "Contrato de mantenimiento y servicios"
 pdftitle: "GuifiBaix: Contrato de mantenimiento y servicios, {cliente.nombre}"
 pdfauthor: GuifiBaix
+imagepath: {imagepath}
 ---
 
 En {lugar}, a {fecha.dia} de {fecha.mes} de {fecha.any}

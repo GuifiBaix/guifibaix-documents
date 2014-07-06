@@ -5,8 +5,16 @@
 # sudo apt-get install pandoc texlive-lang-spanish pdftk
 # sudo pip3 install pypandoc
 
-import sys
+import sys, os
 import argparse, datetime
+
+def sourceRelative(path) :
+	"""Returns files relative this source"""
+	return os.path.join(
+		os.path.dirname(
+		os.path.relpath(
+			__file__, os.curdir)), path)
+
 
 def parseDate(v) :
 	import re
@@ -134,9 +142,10 @@ data = conf(
 )
 
 data.genero = femenino if data.cliente.genero.lower() == 'femenino' else masculino
+data.imagepath = sourceRelative('')
 
 
-with open("00-content.md") as f :
+with open(sourceRelative("00-content.md")) as f :
 	template = f.read()
 filled = template.format(**data)
 
@@ -157,7 +166,7 @@ pypandoc.convert(filled,
 	to='latex',
 	extra_args=[
 		'-o', outputfile,
-		'--template','default.latex',
+		'--template',sourceRelative('default.latex'),
 		]
 	)
 

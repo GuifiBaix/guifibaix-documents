@@ -8,6 +8,7 @@ geometry: margin=1in
 title: "Contrato de mantenimiento y servicios"
 pdftitle: "GuifiBaix: Contrato de mantenimiento y servicios, Alberta Gijón"
 pdfauthor: GuifiBaix
+imagepath: 
 ---
 
 En Sant Joan Despí, a 20 de febrero de 2014
