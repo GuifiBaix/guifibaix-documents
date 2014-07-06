@@ -22,41 +22,38 @@ def isodate(value) :
 parser = argparse.ArgumentParser(
 	description="Genera el contracte de servei de GuifiBaix")
 parser.add_argument(
-	'--user-template',
-	action='store_true',
-	dest='userTemplate',
-	help='dumps a template for a user YAML file on standard output',
+	'user',
+		help='YAML file containing user personal info',
+		metavar='USER.yaml'
+	)
+parser.add_argument(
+	'provider',
+		help='YAML file containing provider info',
+		nargs='?',
+		metavar='PROVEEDORA.yaml'
 	)
 parser.add_argument(
 	'--md',
-	action='store_true',
-	dest='generateMarkdown',
-	help='Dumps intermediate markdown content on stderror.',
+		action='store_true',
+		dest='generateMarkdown',
+		help='Dumps intermediate markdown content on stderror.',
 	)
 parser.add_argument(
-	'user',
-	help='YAML file containing user personal info',
-	nargs='?',
-	metavar='USER.yaml')
-parser.add_argument(
-	'provider',
-	help='YAML file containing provider info',
-	nargs='?',
-	metavar='PROVEEDORA.yaml')
-parser.add_argument(
 	'-o', '--output',
-	dest='output',
-	help='specifies an output file. '
-		'Format is deduced from the  extension. '
-		'If not specified, markdown is dumped on stdout',
-	metavar='OUTPUT')
+		dest='output',
+		help='specifies an output file. '
+			'Format is deduced from the  extension. '
+			'If not specified, markdown is dumped on stdout',
+		metavar='OUTPUT',
+	)
 parser.add_argument(
 	'-d', '--data',
-	dest='data',
-	type=isodate,
-	help='Contract date in ISO format YYYY-MM-DD',
-	default=parseDate(datetime.date.today().isoformat()),
-	metavar='ISODATE')
+		dest='data',
+		type=isodate,
+		help='Contract date in ISO format YYYY-MM-DD',
+		default=parseDate(datetime.date.today().isoformat()),
+		metavar='ISODATE',
+	)
 args = parser.parse_args()
 
 class conf(dict) :
@@ -78,20 +75,6 @@ class conf(dict) :
 		import yaml
 		result = cls.wrap(yaml.load(stream=open(filename)))
 		return result
-
-if args.userTemplate :
-	print("""\
-nombre: Pepe Gotera
-dni: 12345678A
-telefono: 93-111-2222
-email: email@usuario.coop
-genero: masculino
-domicilio:
-    direccion: C/Rue Percebe, 13, 4o 3a
-    municipio: Sant Joan Despí
-    codigopostal: 08970
-""")
-	sys.exit()
 
 
 femenino = conf(
