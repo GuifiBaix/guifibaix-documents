@@ -6,7 +6,6 @@ fontsize: 11pt
 papersize: a4paper
 geometry: margin=1in
 title: "Contrato de mantenimiento y servicios"
-author: GuifiBaix
 pdftitle: "GuifiBaix: Contrato de mantenimiento y servicios, Alberto Gijón"
 pdfauthor: GuifiBaix
 ---
