@@ -155,7 +155,7 @@ if args.generateMarkdown :
 
 outputfile = args.output or (
 	"contrato-guifibaix-{}-{}-{}.pdf".format(
-		'{:04}-{:02}-{:02}'.format(*args.data),
+		datetime.date(*args.data).isoformat(),
 		data.cliente.dni,
 		''.join(data.cliente.nombre.split())
 	))
