@@ -25,8 +25,8 @@ con domicilio en **Sant Joan Despí**,
 C.P. **08970**.
 
 DE OTRA  PARTE,
-**Ramón Álvarez**,
-con N.I.F. número **12345678C**
+**Paco Ibàñez**,
+con N.I.F. número **52623709P**
 y en nombre y representación de **AT2, Acció Transversal per la Transformació Social**,
 en adelante, la “PROVEEDORA”,
 con domicilio en **El Prat de Llobregat**,
