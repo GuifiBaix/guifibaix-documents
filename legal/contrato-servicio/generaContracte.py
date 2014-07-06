@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+# Dependencias Ubuntu:
+# sudo apt-get install pandoc texlive-lang-spanish pdftk
+# sudo pip3 install pypandoc
+
 import sys
 import argparse, datetime
 
@@ -22,6 +26,12 @@ parser.add_argument(
 	action='store_true',
 	dest='userTemplate',
 	help='dumps a template for a user YAML file on standard output',
+	)
+parser.add_argument(
+	'--md',
+	action='store_true',
+	dest='generateMarkdown',
+	help='Dumps intermediate markdown content on stderror.',
 	)
 parser.add_argument(
 	'user',
@@ -129,7 +139,7 @@ proveedora = conf.load(args.provider) if args.provider else conf(
 
 
 meses="enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split()
-vars = conf(
+data = conf(
 	fecha = conf(
 		any = args.data[0],
 		mes = meses[args.data[1]-1],
@@ -140,25 +150,33 @@ vars = conf(
 	proveedor = proveedora,
 )
 
-vars.genero = femenino if vars.cliente.genero.lower() == 'femenino' else masculino
+data.genero = femenino if data.cliente.genero.lower() == 'femenino' else masculino
 
 
 with open("00-content.md") as f :
 	template = f.read()
-filled = template.format(**vars)
+filled = template.format(**data)
 
-if args.output :
-	import pypandoc
-	pypandoc.convert(filled,
-		format='markdown',
-		to='latex',
-		extra_args=[
-			'-o', args.output,
-			'--template','default.latex',
-			]
-		)
-else :
+if args.generateMarkdown :
 	print(filled)
+	sys.exit(0)
+
+outputfile = args.output or (
+	"guifibaix-contrato-{}-{}-{}.pdf".format(
+		'{:04}-{:02}-{:02}'.format(*args.data),
+		data.cliente.dni,
+		''.join(data.cliente.nombre.split())
+	))
+
+import pypandoc
+pypandoc.convert(filled,
+	format='markdown',
+	to='latex',
+	extra_args=[
+		'-o', outputfile,
+		'--template','default.latex',
+		]
+	)
 
 if __name__ == '__main__' :
 	pass
