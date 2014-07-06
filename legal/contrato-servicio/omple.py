@@ -3,9 +3,6 @@
 
 import sys
 
-with open("00-content.md") as f :
-	template = f.read()
-
 class conf(dict) :
 	def __init__(self, *args, **keyw) :
 		super(conf,self).__init__(*args, **keyw)
@@ -19,6 +16,49 @@ class conf(dict) :
 				for k,v in data.items()
 				})
 		return data
+
+	@classmethod
+	def load(cls, filename) :
+		import yaml
+		result = cls.wrap(yaml.load(stream=open(filename)))
+		return result
+
+import argparse, datetime
+def parseDate(v) :
+	import re
+	if not re.match('^20[0-9][0-9]-(0[1-9]|10|11|12)-[0-3][0-9]$', v) :
+		raise ValueError
+	year, month, day = (int(x) for x in v.split('-'))
+	if day<1 or day > 31 : raise ValueError
+	return year, month, day
+def isodate(value) :
+	try : return parseDate(value)
+	except ValueError: raise argparse.ArgumentError()
+	
+parser = argparse.ArgumentParser(
+	description="Genera el contracte de servei de GuifiBaix")
+parser.add_argument(
+	'user',
+	metavar='USER.yaml',
+	)
+parser.add_argument(
+	'provider',
+	metavar='PROVEEDORA.yaml',
+	nargs='?', default=None)
+parser.add_argument(
+	'-o', '--output', dest='output',
+	help='specifies an output file. '
+		'Format is deduced from the  extension. '
+		'If not specified, markdown is dumped on stdout',
+	metavar='OUTPUT')
+parser.add_argument(
+	'-d', '--data',
+	dest='data',
+	type=isodate,
+	help='Date in ISO format YYYY-MM-DD',
+	default=parseDate(datetime.date.today().isoformat()),
+	metavar='ISODATE')
+args = parser.parse_args()
 
 femenino = conf(
 	quotedElCliente = "la \"CLIENTA\"",
@@ -44,58 +84,58 @@ masculino = conf(
 	AlCliente = "Al CLIENTE",
 	)
 
-
-dummyEve = conf(
-	nombre = "Alberta Gijón",
-	dni = "12345678V",
-	telefono = "93-111-2222",
-	email = "email@usuario.test",
-	domicilio =  conf(
-		direccion = "C/Rue Percebe, 13, 4o 3a",
-		municipio = "Sant Joan Despí",
-		codigopostal = "08970"
-		),
-	genero = femenino,
-	)
-
-
-def load(filename) :
-	import yaml, sys
-	result = conf.wrap(yaml.load(stream=open(filename)))
-	return result
-
+proveedora = conf.load(args.provider) if args.provider else conf(
+	nombre = "AT2, Acció Transversal per la Transformació Social",
+	cif = "G64922131",
+	telefono = "93-164-0492",
+	email = "soporte"+ "@" + "guifibaix.coop",
+	emailcontacto = "contacto"+"@"+"guifibaix.coop",
+	domicilio = conf(
+		direccion = "C/Riu Llobregat, 47, Bxos",
+		municipio = "El Prat de Llobregat",
+		codigopostal = '08820',
+	),
+	representante = conf(
+		nombre = "Paco Ibàñez",
+		dni = "52623709P",
+		genero = masculino,
+		cargo = "Dibujante oficial de AT2",
+	),
+)
 
 
+meses="enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split()
 vars = conf(
 	fecha = conf(
-		any = 2014,
-		mes = "febrero",
-		dia = 20,
+		any = args.data[0],
+		mes = meses[args.data[1]-1],
+		dia = args.data[2],
 		),
 	lugar = "Sant Joan Despí",
-	cliente = load(sys.argv[1]),
-	proveedor = conf(
-		nombre = "AT2, Acció Transversal per la Transformació Social",
-		cif = "G64922131",
-		telefono = "93-164-0492",
-		email = "soporte"+ "@"+ "guifibaix.coop",
-		emailcontacto = "contacto"+ "@"+ "guifibaix.coop",
-		domicilio = conf(
-			direccion = "C/Riu Llobregat, 47, Bxos",
-			municipio = "El Prat de Llobregat",
-			codigopostal = '08820',
-			),
-		representante = conf(
-			nombre = "Ramón Álvarez",
-			dni = "12345678C",
-			),
-		),
+	cliente = conf.load(args.user),
+	proveedor = proveedora,
 )
 
 vars.genero = femenino if vars.cliente.genero.lower() == 'femenino' else masculino
 
-print ( template.format(**vars) )
+with open("00-content.md") as f :
+	template = f.read()
+filled = template.format(**vars)
 
+if args.output :
+	import pypandoc
+	pypandoc.convert(filled,
+		format='markdown',
+		to='latex',
+		extra_args=[
+			'-o', args.output,
+			'--template','default.latex',
+			]
+		)
+else :
+	print(filled)
 
+if __name__ == '__main__' :
+	pass
 
 
