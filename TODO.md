@@ -21,7 +21,21 @@
 - sjd-fredericcasas9: reconfigurar per aportar
 - Quedar para plantear comercialmente expansion por Sant Joan
 - Servicios
-	- Servicios: Punto de entrada comun
+	- Servicios: Punto de entrada común
+		- Web en Internet:
+			- Ver/Editar Datos Personales del cliente
+			- Ver Datos de Contrato del cliente. Posibilidad de solicitar cambios por email
+			- Ver Facturación. Facturas pagadas y próximas facturas (al menos la fecha de facturación)
+			- Cambio de contraseña de acceso (en diferido)
+			- Acceso al correo electrónico 
+		- Web en Interna
+			- Ver/Editar Datos Personales del cliente
+			- Ver Datos de Contrato del cliente. Posibilidad de solicitar cambios por email
+			- Ver Facturación. Facturas pagadas y próximas facturas (al menos la fecha de facturación)
+			- Cambio de contraseña de acceso
+			- Acceso al correo electrónico
+			- Acceso a OwnCloud
+			- Acceso a Mediateca
 	- Servicios: Unificar repositorios
 	- Servicios: Estabilizar owncloud [Victor]
 	- Servicios: P2P compartidos
