@@ -41,8 +41,10 @@ Se cubren básicamente tres necesidades:
 En resumen, los aspectos diferenciales son:
 
 - Se ofrecen servicios internos de alta velocidad dentro de guifi.net
-	- Servicios 'en la nube' sin salir de guifi.net a alta velocidad
+	- Servicios personalizados sin salir de guifi.net a alta velocidad.
+	- Servicio de datos en la nube
 	- Servicio de P2P comunitario.
+	- Mediateca: Fondo compartido de películes, séries, música, libros, comics...
 - Se genera trabajo local de calidad:
 	- No deslocalizamos, ni hacemos "out-sourcing"
 	- Los trabajadores de la cooperativa tienen el control de sus condiciones laborales
@@ -52,7 +54,8 @@ En resumen, los aspectos diferenciales son:
 	- Todo está documentado
 	- Todo está basado en estandares abiertos
 	- Se promociona el conocimiento de la red por parte de los usuarios
-	- Los usuarios tienen la libertad de escoger a otra empresa para hacer instalaciones y el mantenimiento o incluso buscar voluntarios que lo hagan.
+	- Los usuarios tienen la libertad de escoger a otra empresa para hacer instalaciones
+	  y el mantenimiento o incluso buscar voluntarios que lo hagan.
 - Se trata de una empresa sin ánimo de lucro
 	- No se busca beneficio a toda costa
 	- No hay interés en vender productos innecesarios

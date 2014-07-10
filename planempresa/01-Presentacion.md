@@ -97,7 +97,7 @@ No es el caso en la mayoria de municipios del Baix Llobregat
 en donde aún no existen servicios profesionalizados.
 Guifibaix vendría a cubrir dicho espacio.
 
-## Precedentes del proyecto
+## Antecedentes del proyecto
 
 El proyecto surge de una campaña de los movimientos sociales
 del Baix Llobregat llamada *Desconexión del IBEX-35*,

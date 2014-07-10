@@ -106,7 +106,7 @@ que nos ofrezcan descuentos como instaladores.
 El equipo del cual no se dispone y que haría falta comprar sería:
 
 Artículo                                       Unidades    Precio
---------                                       --------- --------
+---------                                      --------- --------
 Escalera alum. Triple Hailo 3x6 Peld. tijera           1 189.20 €
 Pareja de walkie-talkies                               1  64,90 €
 Arnés climax 28-c completo                             2  41.44 €
@@ -117,7 +117,8 @@ Protector auditivo climax-10                           2   9.00 €
  **Total**                                               234.00 €
 
 
-En cuanto al material fungible para las instalaciones dependerá en todo caso de las características de la instalación:
+En cuanto al material fungible para las instalaciones
+dependerá en todo caso de las características de la instalación:
 
 - Antena, Routers, Switches
 - Cables y conectores
