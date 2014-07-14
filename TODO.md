@@ -1,22 +1,26 @@
 # Tareas programadas para la semana
 
 - Cristina Viladecans: Llamar [Aitor]
-- Quedada Juan Luis [Viernes mañana]
-- Chaval tv3-esplugues: encontrarlo en charla del plan CAUFEC [Jueves]
-- Chaval tv3-esplugues: pedirle direccion y telefono
-- Quedar con RaulS para saber que quiere hacer [viernes 16h]
-- Contrato de servicio: Como separar datos del cliente [David]
+- ~~Facturas Mantenimiento~~
+- ~~Quedada Juan Luis [Viernes mañana]~~
+- ~~Chaval tv3-esplugues: encontrarlo en charla del plan CAUFEC [Jueves] -> No estaba~~
+- ~~Quedar con RaulS para saber que quiere hacer [viernes 16h]~~
+- Chaval tv3-esplugues: pedirle telefono
+- ~~Contrato de servicio: Como separar datos del cliente [David]~~
+- Contrato de servicio: Datos del representante de AT2
+- Contrato de servicio: Generar datos de clientes para generar contratos
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
+- TIC Municipal lliures i obertes: publicarlo en github
 - TIC Municipal lliures i obertes: recollir suports
 - TIC Municipal lliures i obertes: enviarlo a 2025
 - Buscar info subvenciones a cooperativas Prat
 - Buscar info subvenciones a cooperativas Sant Joan Despi
 - Preguntar por los pla d'ocupació en Sant Joan Despí
-- Mover pla ocupacio Prat para Juan Luis
-- Mirar los precios de las fibras opticas en Sant Joan
-	- Hablar con Victor
-	- Mirar ofertas
-	- Contratar
+- ~~Mover pla ocupacio Prat para Juan Luis -> En manos de Gats~~
+- Fibras opticas en Sant Joan
+	- ~~Fibra SJD: Hablar con Victor -> Victor no puede ponersela de momento~~
+	- ~~Fibra SJD: Mirar ofertas~~
+	- Fibra SJD: Contratar
 - Averiguar quien es J.Ortega
 - sjd-fredericcasas9: reconfigurar per aportar
 - Quedar para plantear comercialmente expansion por Sant Joan
@@ -51,9 +55,9 @@
 	- Tesoreria: Material se ha colocado sin pagarse
 	- Tesoreria: Coste del dominio [victor]
 - Convenio con la fundación [David-Victor]:
-	- Preguntar a Victor como esta [david]
-	- Revisar los tiempos de respuesta
-	- Imprimir, firmar, escanear y enviar
+	- ~~Preguntar a Victor como esta [david]~~
+	- ~~Revisar los tiempos de respuesta [victor]~~
+	- Imprimir, firmar, escanear y enviar [victor]
 - Proponer charla AAVV Sant Cosme [Gemma]
 - Proyectos
 	- Instalados:
@@ -95,14 +99,20 @@
 	- Presupuestados:
 		- Esta semana
 			- ~~sjd-domenech40: Colgar cartel~~
-			- scll-santcliment41: Truquem
-			- mdr-bruc55: Llamar
+			- ~~scll-santcliment41: Truquem
+			- ~~scll-santcliment41: Prova repetida -> 78Mb!/10Mb~~
+			- ~~scll-circumvalacio50: Prova~~
+			- ~~mdr-bruc55: hacer una última reunión para concretar qué quieren hacer [Aitor] -> Descartado~~
+			- ~~scll-circumvalacio50: Pressupost~~
+			- ~~scll-circumvalacio50: Segunda visita~~
+			- scll-circumvalacio50: Instalacion
+			- ~~scll-santcliment41: Instalacion~~
 			- sjd-domenech40: Hablar con los que no dijeron si
-			- mdr-bruc55: Preparar cartel
-			- mdr-bruc55: hacer una última reunión para concretar qué quieren hacer [Aitor]
 			- scll-santcliment41: Guardar full de calcul pressupost (ho vam fer a ull, no guardat)
 			- cnrll-isaacperal5: Hablar con el [Aitor]
-			- sjd-tarradellas8: Llamar (el suyo y el de la AAVV)
+			- ~~sjd-tarradellas8: Llamar (el suyo y el de la AAVV)~~
+			- AAVV TV3: quedar para prueba de voz ip
+			- sjd-tarradellas8: Llamar para su guifi
 			- prll-canal135: Llamar
 			- prll-gava4: Llamar
 			- sjd-avbarcelona23: Llamar
@@ -111,7 +121,6 @@
 			- prll-fredericsoler60: Llamar
 			- scg-rellotge21: Llamar
 
-		- cnrll-isaacperal5: Esperar resposta
 		- sjd-tarradellas8: Esperar resposta
 		- sjd-tarradellas8: Charla AAVV TV3
 		- prll-canal135: Esperando resposta
@@ -171,12 +180,10 @@
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
 - Remaquetar (y Corregir!!) el dossier
-- Nubip: Florida: IP fija, garantizada, tarifas, cuanto tiempo [Aitor]
 - Nubip: Tarifa zero o prepago para pruebas en los clientes
-- Nubip: Seria posible acercar fibra de Commons a TV3?
 - Checklist: Datos necesarios para portabilidades
 - Checklist: Stand
-
+- RaulS: Recoger el voz ip
 
 - Aclarar soluciones tecnicas [David-Victor]
 	- Monitorizacion de los ADSL
@@ -195,7 +202,6 @@
 - Compras
 	- CIL: Simon con telefono + Rj45 [Aitor]
 - Quedar prueba connectividad con Carlos Marin [A partir del 2] [David]
-- Formacion: Raul Sanz, VozIP
 - Formacion: Raul Beas, VozIP
 - Formacion: Raul Beas, Git via web
 - Preguntar al responsable del ayuntamiento por las licencias municipales que necesitamos [David]
@@ -245,12 +251,9 @@
 		- Compartir ADSL sin microtik
 		- Compartir ADSL con microtik
 		- Compartir varios ADSL con microtik
-	- Investigar si se puede reusar instalacion telefonica para propagar telefonía ip
 
 # Muy baja prioridad
 
-- Llamar: Nubip
-	- Nubip: Seria posible acercar fibra de Commons a TV3?
 - Encargar targetas de visita
 	- 350g, una cara, mate
 		- 1000-28,56€, 500-26.35 http://www.pixartprinting.es/formato-pequeno/impresion-tarjetas-de-visita/
@@ -394,6 +397,7 @@
 - ~~scc-maragall1: Esperar ok del recibo de Gats~~
 - ~~scc-maragall1: Ok voz ip~~
 - ~~scc-maragall1: Facturas enviadas~~
+- ~~Investigar si se puede reusar instalacion telefonica para propagar telefonía ip -> Si~~
 - ~~sjd-canal45: Hablar con ellos -> Nada de momento~~
 - ~~prll-urgell21: Prueba de conectividad y instalacion provisional [Victor]~~
 - ~~prll-canal135: conectividad~~ Ve urgell y doctorrobert, se deja antena compartiendo adsl
