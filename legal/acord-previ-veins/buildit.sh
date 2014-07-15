@@ -3,12 +3,7 @@
 
 
 pandoc \
-	-V lang=spanish \
-	-V title-meta='Contrato de servicios: GuifiBaix SCCL' \
 	-V documentclass=article \
-	-V mainfont='Ubuntu' \
-	-V fontsize='12pt' \
-	-V papersize=a4paper \
 	-f markdown  \
 	--template default.latex -o guifibaix-exemple-acord-previ-veins.pdf \
 	*md

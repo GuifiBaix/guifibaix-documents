@@ -1,3 +1,12 @@
+---
+documentclass: article
+pdftitle: "GuifiBaix: Acord entre veïns"
+lang: catalan
+mainfont: Ubuntu
+fontsize: 12pt
+papersize: a4paper
+---
+
 **Plantilla d'acord entre veïns per fer els pagaments de GuifiBaix
 mitjançant la comunitat sense que afecti als veïns no connectats,
 i per connectar els equips a la llum comunitària.**
