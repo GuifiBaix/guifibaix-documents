@@ -1,28 +1,24 @@
 # Tareas programadas para la semana
 
 - Cristina Viladecans: Llamar [Aitor]
-- ~~Facturas Mantenimiento~~
-- ~~Quedada Juan Luis [Viernes mañana]~~
-- ~~Chaval tv3-esplugues: encontrarlo en charla del plan CAUFEC [Jueves] -> No estaba~~
-- ~~Quedar con RaulS para saber que quiere hacer [viernes 16h]~~
-- Chaval tv3-esplugues: pedirle telefono
-- ~~Contrato de servicio: Como separar datos del cliente [David]~~
+- Contrato proteccion de datos Juan Luis
+- Cron de isla:
+	- scll-circumvalacio50: Instalar el cron de isla
+	- crnll-florida40: Instalar el cron de isla
+	- prll-riullobregat47: Instalar el cron de isla
+	- prll-caldetes5: Instalar el cron de isla
+	- edll-angelguimera81: Instalar el cron de isla
 - Contrato de servicio: Datos del representante de AT2
 - Contrato de servicio: Generar datos de clientes para generar contratos
 - Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
-- TIC Municipal lliures i obertes: publicarlo en github
 - TIC Municipal lliures i obertes: recollir suports
 - TIC Municipal lliures i obertes: enviarlo a 2025
 - Buscar info subvenciones a cooperativas Prat
 - Buscar info subvenciones a cooperativas Sant Joan Despi
 - Preguntar por los pla d'ocupació en Sant Joan Despí
-- ~~Mover pla ocupacio Prat para Juan Luis -> En manos de Gats~~
 - Fibras opticas en Sant Joan
-	- ~~Fibra SJD: Hablar con Victor -> Victor no puede ponersela de momento~~
-	- ~~Fibra SJD: Mirar ofertas~~
 	- Fibra SJD: Contratar
-- Averiguar quien es J.Ortega
-- sjd-fredericcasas9: reconfigurar per aportar
+- Chaval tv3-esplugues: pedirle telefono
 - Quedar para plantear comercialmente expansion por Sant Joan
 - Servicios
 	- Servicios: Punto de entrada común
@@ -55,8 +51,6 @@
 	- Tesoreria: Material se ha colocado sin pagarse
 	- Tesoreria: Coste del dominio [victor]
 - Convenio con la fundación [David-Victor]:
-	- ~~Preguntar a Victor como esta [david]~~
-	- ~~Revisar los tiempos de respuesta [victor]~~
 	- Imprimir, firmar, escanear y enviar [victor]
 - Proponer charla AAVV Sant Cosme [Gemma]
 - Proyectos
@@ -64,7 +58,6 @@
 		- Esta setmana
 			- prll-caldetes5: poner datos [aitor]
 			- sjd-fredericcasas1f: Pedir portabilidad fijo
-			- sjd-fredericcasas1f: Preguntarles por el telefono
 			- sjd-torrentdennegre33: arreglar el problema vozip
 			- sjd-torrentdennegre33: Enviar factura 2T [Gemma]
 			- kny-florida40: actualizar la antena
@@ -82,7 +75,6 @@
 
 		- prll-caldetes5: Extender a vecinos
 		- sjd-fredericcasas1f: Pedirles que hablen con los vecinos
-		- sjd-fredericcasas1f: Explicarles los otros servicios
 		- sjd-fredericcasas9: Evaluar costes
 		- sjd-fredericcasas9: Pedir DNI para cambiar usuario
 		- sjd-fredericcasas9: Poner ADSL a compartir
@@ -98,19 +90,8 @@
 
 	- Presupuestados:
 		- Esta semana
-			- ~~sjd-domenech40: Colgar cartel~~
-			- ~~scll-santcliment41: Truquem
-			- ~~scll-santcliment41: Prova repetida -> 78Mb!/10Mb~~
-			- ~~scll-circumvalacio50: Prova~~
-			- ~~mdr-bruc55: hacer una última reunión para concretar qué quieren hacer [Aitor] -> Descartado~~
-			- ~~scll-circumvalacio50: Pressupost~~
-			- ~~scll-circumvalacio50: Segunda visita~~
-			- scll-circumvalacio50: Instalacion
-			- ~~scll-santcliment41: Instalacion~~
 			- sjd-domenech40: Hablar con los que no dijeron si
-			- scll-santcliment41: Guardar full de calcul pressupost (ho vam fer a ull, no guardat)
 			- cnrll-isaacperal5: Hablar con el [Aitor]
-			- ~~sjd-tarradellas8: Llamar (el suyo y el de la AAVV)~~
 			- AAVV TV3: quedar para prueba de voz ip
 			- sjd-tarradellas8: Llamar para su guifi
 			- prll-canal135: Llamar
@@ -263,6 +244,33 @@
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
 
+# Hecho 2014-07-18
+
+- ~~Facturas Mantenimiento~~
+- ~~Quedada Juan Luis [Viernes mañana]~~
+- ~~Chaval tv3-esplugues: encontrarlo en charla del plan CAUFEC [Jueves] -> No estaba~~
+- ~~Quedar con RaulS para saber que quiere hacer [viernes 16h]~~
+- ~~Contrato de servicio: Como separar datos del cliente [David]~~
+- ~~TIC Municipal lliures i obertes: publicarlo en github~~
+- ~~Mover pla ocupacio Prat para Juan Luis -> En manos de Gats~~
+- ~~Fibra SJD: Hablar con Victor -> Victor no puede ponersela de momento~~
+- ~~Fibra SJD: Mirar ofertas~~
+- ~~Averiguar quien es J.Ortega -> Municipalitzacio~~
+- ~~Preguntar a Victor como esta [david]~~
+- ~~Revisar los tiempos de respuesta [victor]~~
+- ~~Mantenimiento islas: Diseñar el sistema~~
+- ~~sjd-fredericcasas1f: Preguntarles por el telefono -> Les funciona~~
+- ~~sjd-domenech40: Colgar cartel~~
+- ~~scll-santcliment41: Truquem
+- ~~scll-santcliment41: Prova repetida -> 78Mb!/10Mb~~
+- ~~mdr-bruc55: hacer una última reunión para concretar qué quieren hacer [Aitor] -> Descartado~~
+- ~~scll-circumvalacio50: Prova~~
+- ~~scll-circumvalacio50: Pressupost~~
+- ~~scll-circumvalacio50: Segunda visita~~
+- ~~scll-circumvalacio50: Instalacion~~
+- ~~scll-santcliment41: Instalacion~~
+- ~~scll-santcliment41: Factura~~
+- ~~sjd-tarradellas8: Llamar (el suyo y el de la AAVV)~~
 
 ## Hecho 2014-06-26
 
