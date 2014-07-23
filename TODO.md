@@ -56,7 +56,7 @@
 - Proyectos
 	- Instalados:
 		- Esta setmana
-			- prll-caldetes5: poner datos [aitor]
+			- ~~prll-caldetes5: poner datos [aitor]~~
 			- sjd-fredericcasas1f: Pedir portabilidad fijo
 			- sjd-torrentdennegre33: arreglar el problema vozip
 			- sjd-torrentdennegre33: Enviar factura 2T [Gemma]
@@ -91,7 +91,7 @@
 	- Presupuestados:
 		- Esta semana
 			- sjd-domenech40: Hablar con los que no dijeron si
-			- cnrll-isaacperal5: Hablar con el [Aitor]
+			- cnrll-isaacperal5: Hablar con él [Aitor]
 			- AAVV TV3: quedar para prueba de voz ip
 			- sjd-tarradellas8: Llamar para su guifi
 			- prll-canal135: Llamar
