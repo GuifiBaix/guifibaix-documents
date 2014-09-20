@@ -94,8 +94,31 @@
   - Gateway: 172.30.22.1
   - Lo demás, por defecto
 
-  
 
+## Masquerading - Nateo de IP de salida
+
+- Debe configurarse en el firewall de la Mikrotik el masquerading de las interfaces que tienen salida a Internet. Esto permitirá a los usuarios de la red ocultar su IP interna real, siendo esta sustituida por la IP que tiene la Mikrotik en dicha interfaz de salida.
+- Por tanto, en este caso, debemos activar este modo en las interfaces ether1 y ether5.
+
+- Primero desde el menú IP > Firewall, en la primera pestaña "Filter Rules", deshabilitamos todas las reglas por defecto.
+
+- Masquerading interfaz ether1
+	- Desde el menú IP > Firewall, vamos a la pestaña NAT
+	- Añadimos una nueva entrada con los siguientes datos:
+		- Chain: src-nat
+		- Out-Interface: ether1-Antena
+		- Action: masquerading
+		- Comment: Masquerading salida Antena
+ 
+
+
+- Masquerading interfaz ether5
+	- Desde el menú IP > Firewall, vamos a la pestaña NAT
+	- Añadimos una nueva entrada con los siguientes datos:
+		- Chain: src-nat
+		- Out-Interface: ether5-Internet
+		- Action: masquerading
+		- Comment: Masquerading salida ADSL
   
   
   
