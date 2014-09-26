@@ -24,14 +24,35 @@ En inglés: PSTN (Public Switch Telephone Network)
 - Las centralitas (central office) estan interconectadas entre ellas
 - El ''plan de marcado'' (Dialing plan) determina como enrutan las llamadas entre ellas basándose en el número de destino
 - Demarcation point: La caja que separa la instalación de la compañia de la instalación interior
+	- Aquí lo llamamos PTR (Punto de Terminacion de Red).
+	- Tambien se le llama NTU (Network termination unit) o NTP (Network Termination Point)
 - En el interior del edificio puede haber un Conmutador del Ramal Privado (PBX, Private Branch Exchange)
 - El PBX controla como se encaminan las llamadas internamente
+
+- Un cable telefònico que conecta dos puertos RJ11 es direccional.
+- A los dos extremos se les llama:
+	- FXS:
+		- Foreign eXchange Subscriber
+		- El lado que esta mas cerca de la centralita
+		- De donde viene la linea, el voltaje de ring y la corriente
+	- FXO:
+		- Foreign eXchange Office
+		- El lado que esta mas cerca del terminal telefónico
+		- Donde se recibe linea, desde donde se envia estado de colgado o descolgado y el marcado
+
+Ejemplo: [ Centralita - FXS ] - Cable - [ FXO - PBX - FXS ] - Cable - [ FXO - Telefono ]
+
+En el ejemplo la PBX tendria dos tipos de puerto:
+
+- Tipo FXO para conectar terminales
+- Tipo FXS para salir a la red telefonica externa
+
 
 ## Trabajando con múltiples lineas
 
 - Cuantas líneas físicas (trunk lines) tengas determina cuantas llamadas entrantes o salientes puedes hacer simultáneamente.
 - Cada línea tiene su número propio
-- Normalmente, se cogen menos líneas de los puesto de telefonía que necesitas
+- Normalmente, se cogen menos líneas que los puestos de telefonía que necesitas
 - Se arbitran con un PBX en el edificio
 
 Cada línea tiene su propio número.
@@ -49,7 +70,7 @@ Entonces, como podemos hacer que siempre llamando a un solo numero tener varias 
 
 - Se programa en el PBX, un ''Grupo de llamada'' (Call group)
 	- la primera linea disponible, si esta ocupada la segunda...
-	- Se suele usar el orden inverso del hunt group
+	- Se suele usar el orden inverso del hunt group de la centralita
 - Se suele liberar alguna linea para que siempre haya llamadas entrantes disponibles
 - Podemos priorizar unas lineas o otras según el tipo de llamada (internacional, urgencia...)
 
