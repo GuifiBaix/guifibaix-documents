@@ -13,9 +13,12 @@
 - Subir los ficheros descomprimidos picando al boton de al lado de 'Upload' y seleccionandolos uno a uno.
 - Una vez subidos todos, reiniciar la maquina con el menu System/Reboot
 - Esperar un ratin que deje de hacer el coche fantastico, ir cuando vuelva a dar connectividad recargar la pagina
-- Esta vez te pide password esta vez pero por defecto usuario admin y password vacia
+- Esta vez te pide password esta vez pero por defecto usuario admin y password vacia 
+	- Para cambiar la contraseña:
+		- Menú/system/password
+		- Change
 
-
+- Menú Interfaces
 - Por defecto viene ether1 marcada como gateway a internele
 - El resto de bocas como switch
 - Hay una marca como master (ether2) que es la que tiene configurado como se comporta ella y sus slaves.
@@ -50,6 +53,7 @@
 	- Click en la linea de ether5
 	- La opcion de 'Master Port' que esta en el ether2, hay que ponerla a None (ninguno)
 	- Name: ether5-Internet
+	- Ok
 - Asignar IP del rango del ADLS
 	- Suponiendo que el ADSL tiene 192.168.1.1, escogemos, por ejemplo 192.168.1.2
 	- Menu IP/Addresses
@@ -79,6 +83,7 @@
 	- Gateway: 192.168.1.1
 	- Check Gateway: Ping
 	- La última opcion lo que hace es comprobar el estado del router ADSL
+	- OK
 
 - Ruta al ADSL (principal de salida a internet)
 	- Boton "Add New"
@@ -87,38 +92,45 @@
 	- Check Gateway: Vacío
 	- Distance: 2
 	- El ultimo parametro dice que es menos prioritario (por defecto es 1)
+	- OK
 
 - Ruta a Guifi.net
 	- Boton "Add New"
 	- Dest. Address: 10.0.0.0/8  (Pone 10, no 0, y hay mascara de 8 no 0)
 	- Gateway: 172.30.22.1
 	- Lo demás, por defecto
+	- OK
 
 
 ## Masquerading - Nateo de IP de salida
 
 - Debe configurarse en el firewall de la Mikrotik el masquerading de las interfaces que tienen salida a Internet. Esto permitirá a los usuarios de la red ocultar su IP interna real, siendo esta sustituida por la IP que tiene la Mikrotik en dicha interfaz de salida.
-- Por tanto, en este caso, debemos activar este modo en las interfaces ether1 y ether5.
+- Por tanto, debemos activar este modo en las interfaces ether1 y ether5.
 
 - Primero desde el menú IP > Firewall, en la primera pestaña "Filter Rules", deshabilitamos todas las reglas por defecto.
 
 - Masquerading interfaz ether1
 	- Desde el menú IP > Firewall, vamos a la pestaña NAT
 	- Añadimos una nueva entrada con los siguientes datos:
-		- Chain: src-nat
+		- AddNew
+		- Chain: srcnat
 		- Out-Interface: ether1-Antena
-		- Action: masquerading
+		- Action: masquerade
 		- Comment: Masquerading salida Antena
+		- OK
  
 
 
 - Masquerading interfaz ether5
 	- Desde el menú IP > Firewall, vamos a la pestaña NAT
 	- Añadimos una nueva entrada con los siguientes datos:
-		- Chain: src-nat
+		- Chain: srcnat
 		- Out-Interface: ether5-Internet
-		- Action: masquerading
+		- Action: masquerade
 		- Comment: Masquerading salida ADSL
+		- OK
+		
+	
 
 
 
