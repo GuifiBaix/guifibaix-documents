@@ -72,7 +72,7 @@ Reinverteixen projectes de comuns
 
 
 
-# Perquè ho fem?
+# Per què ho fem?
 
 
 ## Els dolents
@@ -105,7 +105,7 @@ Reinverteixen projectes de comuns
 <img width='15%' src='santander-botin.jpg'>
 
 
-## Perquè són els dolents?
+## Per què són els dolents?
 
 Mercats cautius, Pèssim tracte a l'usuari
 
@@ -601,29 +601,6 @@ Més informació:
 .reveal .slides img {border: none}
 .reveal .slides * { font-family: Ubuntu, Sans; }
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
