@@ -1,11 +1,126 @@
+# Tags
+
+- [wait] Pendiente de accion externa
+- [postponed] Postergado a una fecha
+
 # Tareas programadas para la semana
+
+
+- Revisar fechas TorreRoja
+- Enviar factura a TorreRoja
+- Enviar factura a drrobert1
+- Enviar copia a Meritxell
+- Revisar las facturas recibidas digitales
+- Revisar las facturas recibidas escaneadas
+- Escanear las que no estan nuevas
+- Aclarar factura repetida de DigitalStore
+
+
+
+- Llamar a Torrellas
+	- Preguntarle que es lo que tienen
+	- Le explicamos que es lo que hacemos nosotros
+	- Dejarlo en valoracion para la asamblea
+	- Si dicen de quedar alli
+		- sacar toda la info que podamos antes
+		- quedar con varia gente de la asociacio
+- ~~prll-ignasiiglesias9195: Presupuesto~~
+- ~~Planificacion asamblea~~
+- Facturacion
+	- ~~Llamar a Meritxell Gats~~
+	- Revisar facturas hechas 
+			- ~~Gemma (18-09)~~
+			- ~~Reparació~~
+			- TorreRoja (02-10)
+			- Anna
+			- NubIP
+	- Gemma
+		- MACS
+		- Enviar factura
+	- Comentar factura Gemma
+	- Preparar factura Anna
+	- Elisenda
+	- Josep Lluis
+	- Angel (llamarle por numero de cuenta)
+	- Aureli
+	- Doctor Robert
+	- MAC's factura de Gemma
+
+
+
+
+
+
+
+
+- Añadir usuarios para la gente de sant climent
+- Llamar a los de Sant Boi para Eticom
+- scll-rafaelcasanova12: domiciliar factura
+- scll-santcliment: Configurar router
+- Gemma
+	- ~~Revisar material~~
+	- ~~Decirle cuando empezamos~~
+	- ~~vomprar tornilleria, bridas, arandelas~~
+	- ~~Configurar Mikrotik~~
+	- ~~Instalar~~
+	- ~~Configurar la antena~~
+	- ~~Configurar router tienda~~
+	- Configurar router montse
+	- Configurar router gemma -- depende de cambio de adsl
+	- Poner la antena
+	- Aplique Gemma
+	- Enviar correo tienda diciendole los datos que necesitamos
+	- Recoger datos tienda voip
+	- Pedir voip de tienda
+- vldc-AAVVTorreRoja
+	- ~~vldc-aavvtorreroja: Presupuesto~~
+	- ~~vldc-aavvtorreroja: Instalar~~
+	- vldc-aavvtorreroja: Configurar antenas con el firmware nuevo cuando este
+- sjd-Domenech40
+	- Llamar a Manolo para quedar
+	- Llamar a Elena
+		- llaves antena TV
+		- Contacto de la otra chica
+		- Confirmar enganche de luz ok
+- sjd-Domenech11
+	- Llamar y preguntar cuando quieren hacerlo si aun estan interesados
+- sjd-AvBarcelona
+	- [aplazado 2014-10-21] Llamar y preguntar cuando quieren hacerlo
+- sjd-fontsanta48b
+	- ~~Llamar y preguntar cuando quieren hacerlo~~
+	- [programado 2014-10-07] Pasar la guia y prueba con esplugas
+- Joan Valls
+	- ~~Recoger contratos~~
+	- ~~Escanearlos y enviarlos~~
+	- ~~Provar voip~~
+	- ~~Demanar portabilitat~~
+	- [wait] Se active portabilidad
+	- Configurar router en switch
+	- Conectar telefono a la roseta
+- RellotgeXXI
+	- ~~RellotgeXXI: [wait] esperando llamada~~
+	- RellotgeXXI: Re-presupuesto
+
+- prll-ignasiiglesias93
+	- ~~prll-ignasiiglesias93: pressupost~~
+	- ~~prll-ignasiiglesias93: enviar pressupost~~
+	- prll-ignasiiglesias93: [wait] propongan dia reunion
+
+
+
+
+
+- Recopilar operaciones contabilidad para preguntar a Gats
+	- Subir el correo al git
+	- Contribuir todos
+
 
 - Cristina Viladecans: Llamar [Aitor]
 - Contrato proteccion de datos Juan Luis
 - Cron de isla:
+	- ~~prll-riullobregat47: Instalar el cron de isla~~
+	- ~~crnll-florida40: Instalar el cron de isla~~
 	- scll-circumvalacio50: Instalar el cron de isla
-	- crnll-florida40: Instalar el cron de isla
-	- prll-riullobregat47: Instalar el cron de isla
 	- prll-caldetes5: Instalar el cron de isla
 	- edll-angelguimera81: Instalar el cron de isla
 - Contrato de servicio: Datos del representante de AT2
@@ -16,7 +131,7 @@
 - Buscar info subvenciones a cooperativas Prat
 - Buscar info subvenciones a cooperativas Sant Joan Despi
 - Preguntar por los pla d'ocupació en Sant Joan Despí
-- Fibras opticas en Sant Joan
+- Salidas Fibra optica en Sant Joan
 	- Fibra SJD: Contratar
 - Chaval tv3-esplugues: pedirle telefono
 - Quedar para plantear comercialmente expansion por Sant Joan
@@ -58,11 +173,11 @@
 		- Esta setmana
 			- ~~prll-caldetes5: poner datos [aitor]~~
 			- sjd-fredericcasas1f: Pedir portabilidad fijo
-			- sjd-torrentdennegre33: arreglar el problema vozip
-			- sjd-torrentdennegre33: Enviar factura 2T [Gemma]
+			- ~~sjd-torrentdennegre33: arreglar el problema vozip~~
+			- ~~sjd-torrentdennegre33: Enviar factura 2T [Gemma] -> Anulada~~
+			- ~~kny-florida40: acceso red interna~~
+			- ~~prll-doctorrobert1: Factura antena~~
 			- kny-florida40: actualizar la antena
-			- kny-florida40: acceso red interna
-			- prll-doctorrobert1: Factura antena
 
 			- sjd-fredericcasas1f: Enviar contrato de servicio
 			- scc-maragall1: Enviar contrato de servicio
@@ -92,7 +207,8 @@
 		- Esta semana
 			- sjd-domenech40: Hablar con los que no dijeron si
 			- cnrll-isaacperal5: Hablar con él [Aitor]
-			- AAVV TV3: quedar para prueba de voz ip
+			- ~~AAVV TV3: quedar para prueba de voz ip~~
+			- AAVV TV3: Que se ha dicho de la vozip
 			- sjd-tarradellas8: Llamar para su guifi
 			- prll-canal135: Llamar
 			- prll-gava4: Llamar
@@ -102,8 +218,7 @@
 			- prll-fredericsoler60: Llamar
 			- scg-rellotge21: Llamar
 
-		- sjd-tarradellas8: Esperar resposta
-		- sjd-tarradellas8: Charla AAVV TV3
+		- sjd-tarradellas8: Programar charla AAVV TV3
 		- prll-canal135: Esperando resposta
 		- sjd-domenech11: Esperar resposta
 		- sjd-avbarcelona23: Preguntarle si ha hablado con los vecinos
@@ -156,7 +271,7 @@
 	- Sant Vicenç: Convocar una charla en Sant Vicenç
 	- Raval: Hablar con los colectivos clientes [aitor]
 	- Raval: Hablar con guifiraval.net [aitor]
-	- Viladecans: hablar con la asociación de vecinos de Creu Roja
+	- ~~Viladecans: hablar con la asociación de vecinos de Creu Roja~~
 
 # Tareas candidatas a subir (Subidlas a las programadas a discrecion)
 
