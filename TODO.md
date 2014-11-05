@@ -3,19 +3,48 @@
 - [wait] Pendiente de accion externa
 - [postponed] Postergado a una fecha
 
+# Tareas bloqueadas
+
+- Reyman: [wait] nos tiene que pasar la factura
+- Reyman: Registrar la factura
+- vldc-avvtorreroja: [wait] pago y que quiere respecto a los cables
+- prll-doctorrobert1: [wait] cambio de adsl para cambiar cables y reconfigurar router 1o2a
+
 # Tareas programadas para la semana
 
+- scll-santcliement42: Llevarles el router nuevo
+- scll-santcliement42: Factura del router
+- scll-santcliement42: Cobro del router
+- Cablematic: tester nuevo y los cables de 25cm
+- Landatel: Routers wifi, cables, bobina
+- prll-doctorrobert1: emitir recibos cobro prll-doctorrobert1-b
+- prll-doctorrobert1: factura trimestral
+- vldc-avvtorreroja: factura trimestral
 
-- Revisar fechas TorreRoja
-- Enviar factura a TorreRoja
-- Enviar factura a drrobert1
-- Enviar copia a Meritxell
-- Revisar las facturas recibidas digitales
-- Revisar las facturas recibidas escaneadas
-- Escanear las que no estan nuevas
-- Aclarar factura repetida de DigitalStore
+- qmp: preguntar a la listas porque el tuntimeout no se guarda al reiniciar
+- qmp: workaround para el reseteo del tuntimeout
+- servidores: web de guifibaix apunta al ldapadmin cuando accedes desde dentro
+- sjd-fontsanta48: mover la instalacion
+- sjd-avbarcelona23: mover la instalacion
+- sjd-domenech40: mover la instalacion
+- sjd-domenech11: mover la instalacion
+- prll-avvergedemontserrat-155: contactar
+- crnll-avmiranda: contactar
+- crnll-xxxxx: recuperar el formulario del chico de cornella
+- Generar facturas trimestrales para Gemma y Francesc
+- scll-rafaelcasanova12: domiciliar factura
+- gats: preguntar quien tiene el contrato de confidencialidad firmado
 
+- Legal: [wait] Contrato de servicio: Aprovacion Gats
+- Legal: [wait] Convenio con Gats
+- Legal: [wait] Convenio con fundacion: Aprovacion Gats
+- Legal: Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 
+# Tareas no programadas
+
+- Recopilar operaciones contabilidad para preguntar a Gats
+	- Subir el correo al git
+	- Contribuir todos
 
 - Llamar a Torrellas
 	- Preguntarle que es lo que tienen
@@ -24,108 +53,19 @@
 	- Si dicen de quedar alli
 		- sacar toda la info que podamos antes
 		- quedar con varia gente de la asociacio
-- ~~prll-ignasiiglesias9195: Presupuesto~~
-- ~~Planificacion asamblea~~
-- Facturacion
-	- ~~Llamar a Meritxell Gats~~
-	- Revisar facturas hechas 
-			- ~~Gemma (18-09)~~
-			- ~~Reparació~~
-			- TorreRoja (02-10)
-			- Anna
-			- NubIP
-	- Gemma
-		- MACS
-		- Enviar factura
-	- Comentar factura Gemma
-	- Preparar factura Anna
-	- Elisenda
-	- Josep Lluis
-	- Angel (llamarle por numero de cuenta)
-	- Aureli
-	- Doctor Robert
-	- MAC's factura de Gemma
-
-
-
-
-
-
-
-
+- RellotgeXXI: Re-presupuesto
 - Añadir usuarios para la gente de sant climent
 - Llamar a los de Sant Boi para Eticom
-- scll-rafaelcasanova12: domiciliar factura
-- scll-santcliment: Configurar router
-- Gemma
-	- ~~Revisar material~~
-	- ~~Decirle cuando empezamos~~
-	- ~~vomprar tornilleria, bridas, arandelas~~
-	- ~~Configurar Mikrotik~~
-	- ~~Instalar~~
-	- ~~Configurar la antena~~
-	- ~~Configurar router tienda~~
-	- Configurar router montse
-	- Configurar router gemma -- depende de cambio de adsl
-	- Poner la antena
-	- Aplique Gemma
-	- Enviar correo tienda diciendole los datos que necesitamos
-	- Recoger datos tienda voip
-	- Pedir voip de tienda
-- vldc-AAVVTorreRoja
-	- ~~vldc-aavvtorreroja: Presupuesto~~
-	- ~~vldc-aavvtorreroja: Instalar~~
-	- vldc-aavvtorreroja: Configurar antenas con el firmware nuevo cuando este
-- sjd-Domenech40
-	- Llamar a Manolo para quedar
-	- Llamar a Elena
-		- llaves antena TV
-		- Contacto de la otra chica
-		- Confirmar enganche de luz ok
-- sjd-Domenech11
-	- Llamar y preguntar cuando quieren hacerlo si aun estan interesados
-- sjd-AvBarcelona
-	- [aplazado 2014-10-21] Llamar y preguntar cuando quieren hacerlo
-- sjd-fontsanta48b
-	- ~~Llamar y preguntar cuando quieren hacerlo~~
-	- [programado 2014-10-07] Pasar la guia y prueba con esplugas
-- Joan Valls
-	- ~~Recoger contratos~~
-	- ~~Escanearlos y enviarlos~~
-	- ~~Provar voip~~
-	- ~~Demanar portabilitat~~
-	- [wait] Se active portabilidad
-	- Configurar router en switch
-	- Conectar telefono a la roseta
-- RellotgeXXI
-	- ~~RellotgeXXI: [wait] esperando llamada~~
-	- RellotgeXXI: Re-presupuesto
-
-- prll-ignasiiglesias93
-	- ~~prll-ignasiiglesias93: pressupost~~
-	- ~~prll-ignasiiglesias93: enviar pressupost~~
-	- prll-ignasiiglesias93: [wait] propongan dia reunion
-
-
-
-
-
-- Recopilar operaciones contabilidad para preguntar a Gats
-	- Subir el correo al git
-	- Contribuir todos
+- prll-ignasiiglesias93: [wait] propongan dia reunion
 
 
 - Cristina Viladecans: Llamar [Aitor]
-- Contrato proteccion de datos Juan Luis
 - Cron de isla:
 	- ~~prll-riullobregat47: Instalar el cron de isla~~
 	- ~~crnll-florida40: Instalar el cron de isla~~
 	- scll-circumvalacio50: Instalar el cron de isla
 	- prll-caldetes5: Instalar el cron de isla
 	- edll-angelguimera81: Instalar el cron de isla
-- Contrato de servicio: Datos del representante de AT2
-- Contrato de servicio: Generar datos de clientes para generar contratos
-- Contrato de servicio: Enviarselo a los usuarios actuales para que lo firmen
 - TIC Municipal lliures i obertes: recollir suports
 - TIC Municipal lliures i obertes: enviarlo a 2025
 - Buscar info subvenciones a cooperativas Prat
@@ -358,6 +298,45 @@
 - Centralita
 	- Mapear ids GuifiBaix a ids Anescu/Adam
 - Cuñas impresas 3D para torcer la antena [Cuando a David le llegue la impresora]
+
+# Hecho 20141030
+
+- ~~prll-ignasiiglesias9195: Presupuesto~~
+- ~~Revisar fechas TorreRoja~~
+- ~~Revisar las facturas recibidas escaneadas~~
+- ~~Revisar las facturas recibidas digitales fichadas~~
+- ~~Aclarar factura repetida de DigitalStore~~ Nos enviaron rectificacion en digital
+- ~~Conseguir factura cell~~
+- ~~vldc-aavvtorreroja: Presupuesto~~
+- ~~vldc-aavvtorreroja: Instalar~~
+- ~~vldc-aavvtorreroja: Configurar antenas con el firmware nuevo cuando este~~
+- ~~Nubip: enviar memoria de Gats~~
+- ~~sjd-torrentdennegre2D: Prueba de conectividad~~
+- ~~Mail a Angel diciendole que no ha podido ser con su router, y proponiendole lo del router nuevo.~~
+- ~~vldc-avvtorreroja: enviar factura y precios de cables~~
+- ~~Escanear facturas nuevas [aitor]~~
+- ~~Revisar facturas recibidas digitales pendientes [david]~~
+- ~~Enviar las facturas recibidas emitidas y el resumen, a Meri~~
+- ~~prll-doctorrobert1-b: Enviar correo la factura~~
+- ~~prll-doctorrobert1-b: configurar voip~~
+- ~~prll-doctorrobert1-b: instalar voip~~
+- ~~prll-doctorrobert1-22: configurar router~~
+- ~~prll-doctorrobert1-22: entregar router~~
+- ~~scll-santcliment: Configurar router~~ -> inviable
+- ~~sjd-fontsanta48b: Llamar y preguntar cuando quieren hacerlo~~
+- ~~sjd-fontsanta48b: Pasar la guia y prueba con esplugas~~
+- ~~sjd-fredericcasas1f: Recoger contratos~~
+- ~~sjd-fredericcasas1f: Escanearlos y enviarlos~~
+- ~~sjd-fredericcasas1f: Provar voip~~
+- ~~sjd-fredericcasas1f: Demanar portabilitat~~
+- ~~RellotgeXXI: [wait] esperando llamada~~
+- ~~prll-ignasiiglesias93: pressupost~~
+- ~~prll-ignasiiglesias93: enviar pressupost~~
+- ~~sjd-fredericcasas1f: [wait] Se active portabilidad~~
+- ~~sjd-fredericcasas1f: Configurar router en switch~~
+- ~~sjd-fredericcasas1f: Conectar telefono a la roseta~~
+- ~~Contrato proteccion de datos Juan Luis~~
+
 
 # Hecho 2014-07-18
 
