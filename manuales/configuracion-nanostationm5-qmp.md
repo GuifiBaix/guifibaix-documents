@@ -75,9 +75,11 @@ TODO: Coses que poden anar malament
 Hay que reconfigurar los DNS locales para poder acceder a los servicios adicionales.
 
 - qMp/Node configuration/Network Settings/Advanced network Settings
-	- DNS Nameservers: 10.1.40.8 10.1.40.7
+	- DNS Nameservers: 10.1.40.8 10.1.40.7 10.1.40.132
 		- Por defecto apuntarian a los de opendns:
 			- 208.67.222.222 208.67.220.220 209.244.0.3
+	- Si la antena da DHCP a los clientes directamente, para que el DNS Forwarding funcione, desde el meu de OpwenWRT > Network > DHCP and DNS, deshabilitar las opciones "Domain Required" y "Rebind Protection", además de añadir la lista de los servidores DNS a los cuales realizaremos el forward de las peticiones DNS.
+	
 	- Nota: Revisar, no funciona
 		- Tampoco configurando en Administration/Network/DHCP and DNS/DNS Forwardings
 		- Ambos funcionan desde la antena, pero la antena por DHCP da de DNS ella
