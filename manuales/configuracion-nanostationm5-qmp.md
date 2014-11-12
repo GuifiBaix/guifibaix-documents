@@ -82,6 +82,7 @@ Hay que reconfigurar los DNS locales para poder acceder a los servicios adiciona
 		- Tampoco configurando en Administration/Network/DHCP and DNS/DNS Forwardings
 		- Ambos funcionan desde la antena, pero la antena por DHCP da de DNS ella
 		- Tampoco configurandolo en Administration/Network/Interfaces/LAN/Use Custom DNS servers
+		- Tampoco configurandolo en Administration/Network/Interfaces/LAN/DHCP/DHCP Options
 
 
 ## Si queremos que la antena ofrezca internet
