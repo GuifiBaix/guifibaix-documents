@@ -3,7 +3,6 @@
 
 
 pandoc \
-	-V documentclass=article \
 	-f markdown  \
 	--template default.latex -o guifibaix-exemple-acord-previ-veins.pdf \
 	*md
