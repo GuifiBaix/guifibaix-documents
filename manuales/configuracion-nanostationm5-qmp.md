@@ -1,9 +1,61 @@
-
 TODO: Explicar context
 
-TODO: Baixar les imatges que toquen
+## Instal·lar el programari requerit
 
-TODO: Instal·lar TFTP
+Per configurar una antena cal un navegador, un client ssh i un client tftp.
+
+En Ubuntu:
+
+	$ sudo apt-get install tftp openssh-client
+
+
+## Seleccionar i baixar la imatge a instal·lar
+
+Les darreres imatges que hem testejat son:
+
+Per a les XW (fabricació 2014 o posterior):
+- http://fw.qmp.cat/kalimotxo/NanoStationM5-XW-qMp_kalimotxo-factory-20141105_1622.bin  (configuració de fabrica)
+- http://fw.qmp.cat/kalimotxo/NanoStationM5-XW-qMp_kalimotxo-sysupgrade-20141105_1622.bin (actualització, mantenint configuració)
+
+Per a les velles:
+- http://fw.qmp.cat/kalimotxo/NanoStationM5-qMp_kalimotxo-factory-20141105_1617.bin (configuració de fabrica)
+- http://fw.qmp.cat/kalimotxo/NanoStationM5-qMp_kalimotxo-sysupgrade-20141105_1617.bin (actualització, mantenint configuració)
+
+A GuifiBaix guardem les imatges que anem provant i funcionen,
+perquè a http://fw.qmp.cat van esborrant les imatges antigues
+i sovint passa que les que hi ha pujades no funcionen.
+
+- http://fw.guifibaix.net (TODO: No està funcionant encara)
+
+Si cal escollir una imatge nova de qmp.cat:
+
+### Testing, experimental o kalimotxo
+
+- De moment estem fent servir les imatges de kalimotxo
+- TODO: perque
+
+### Model: NanoStationM5
+
+- Ni M2, ni M4, ni LocoM5...
+
+### XW o no
+
+- Les noves NanoStationM5 (fabricades a partir del 2014) porten un chipset diferent, XW.
+- Les imatges pel Xipset nou porten l'infix addicional 'XW'.
+- TODO: Criteri per identificar les antenes XW.
+
+### Factory o Sysupgrade
+
+- Les ''factory'' son imatges complertes que serveixen per flashejar l'antena completament
+- Les ''sysupgrade'' son imatges per actualitzar una antena ja flashejada mantenint la configuració existent
+- Per instal·lar una antena nova necessitem la ''factory'', pero...
+- Sempre que ens baixem una imatge ''factory'' de qmp.cat, baixem també la ''sysupgrade'' corresponent, per si hem d'actualitzar la resta d'antenes a la mateixa versió.
+
+### Guifi o no Guifi
+
+- De moment NO farem servir les imatges que porten l'infix 'Guifi'
+- TODO: Explicar que vol dir
+
 
 ## Pujar la imatge
 
@@ -87,20 +139,35 @@ Hay que reconfigurar los DNS locales para poder acceder a los servicios adiciona
 		- Tampoco configurandolo en Administration/Network/Interfaces/LAN/DHCP/DHCP Options
 
 
-## Si queremos que la antena ofrezca internet
+## Si volem que l'antena ofrezca internet
 
-- qMp/Node Configuration/Easy Setup
-	- eth0.2 Wan -> Lan
-	- eth0.1 Lan -> Wan
-	- Nos aseguramos mucho de que todo es correcto porque podemos perder la antena por cable
-	- Save and Apply
-- Connectem el cable del portatil que teniem al 'Lan' del PoE, ara a 'Secondary' de l'antena
-- Ens hauria de donar DHCP a la xarxa
+TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat diverses a diferents llocs i han donat diferents resultats
+
+- Alternativa 1: Configurar el port primari com WAN
+	- Aquesta configuració requereix que el dispositiu de sortida a internet (Router ADSL) estigui donant DHCP
+	- qMp/Node Configuration/Easy Setup
+		- eth0.2 Wan -> Lan
+		- eth0.1 Lan -> Wan
+		- Nos aseguramos mucho de que todo es correcto porque podemos perder la antena por cable
+		- Save and Apply
+	- Connectem el cable del portatil que teniem al 'Lan' del PoE, ara a 'Secondary' de l'antena
+	- En teoria, el port secundari ens donaria DHCP al portatil i el primari esperaria que el RouterADSL li dongues DHCP a la Antena
+
+- Alternativa 2: LAN amb adreces estatiques
+	- Mantenir la configuració Wan/Lan per defecte
+	- Canviar la configuració de l'interficie primaria per que tingui
+		- TODO: Confirmar on cal fer-ho: a Admin/Network/Interface/LAN es correcte i prou o on cal fer cada cosa
+		- IP de la xarxa que dona sortida a internet, que no estigui dintre del rang DHCP que es reparteix al router
+		- Desactivem el DCHP server
+		- Default Gateway la IP del router
+	- TODO: Altres passes que cal fer (NAT...)
+	- TODO: Como hacer check para comprobar el gateway esta activo y dejar de ofrecerlo a qMp cuando se corte internet.
 
 
 
+## Si volem establir un tunel d'administració
 
-## Si queremos establecer un tunel
+
 
 
 
