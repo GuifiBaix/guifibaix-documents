@@ -81,23 +81,33 @@ Si cal escollir una imatge nova de qmp.cat:
 	tftp> put NanoStationM5-XW-qMp_kalimotxo-factory-20141105_1622.bin
 	tftp> quit
 
-- Quan acabi de fer pampallugues els leds podem accedir a http://192.168.1.20  root 13f
+- Les llums de l'antena faran el cotxe fantàstic fins que actualitzi el firmware
+- Un cop s'instala es reinicia un parell de vegades per reconfigurar-se,
+	- Cal esperar fins que el DHCP ens doni una IP a 172.30.X.X
+	- Si tens connexió automàtica (DCHP) es posible que durant aquestes reconfiguracions et doni IP en l'interval 192.168.1.X
+		- Si passa això torna a reconnectar fins que et doni una IP bona a 172.30.X.X
+- Un cop ens dona IP bona, connectar-se a http://172.30.22.1  root 13f
 
 TODO: Coses que poden anar malament
+
 
 ## Configuració bàsica (agafar internet d'altres antenes)
 
 
-- A les versions noves (novembre 2014) per cambiar del menu qmp al menu administracio, els botons estan abaix de tot.
+- NOTA: A les versions noves (novembre 2014) l'opció per per cambiar entre el menu qmp y el menu administracio, està abaix de tot de cada pàgina.
 - Canviar la contrasenya a Administration/System/Administration/Router Password
 	- Nota: amb return no hi ha prou, ves avall i dona-li a "Save & Apply"
 - qMp/Node configuration/qmp Easy SetUp
 	- En principio solo hay que cambiar la IP de MESH
 	- Network Mode: Roaming
 	- IP address: La que toqui a la zona mesh
-	- Interface Modes:
+	- Interface Modes (Nuevas XW):
 		eth0.2: wan
 		eth0.1: lan
+		wlan: mesh
+	- Interface Modes (Antiguas):
+		eth1: wan
+		eth0: lan
 		wlan: mesh
 	- Save and Apply
 - qMp/Node configuration/Basic Settings
@@ -107,12 +117,21 @@ TODO: Coses que poden anar malament
 	- Altitude: Calcular aproximado segun el numero de pisos
 	- Contacte: nodes at guifibaix.coop
 	- Save and Apply
+- Hay un bug en algunas versiones (2014-11-05) en que no se guardan bien las coordenadas (concretamente la longitud)
+	- Si que se guardan en `/etc/config/qmp` pero no en `/etc/config/libremap`
+	- Entrar en la antena con `ssh root@172.30.22.1`
+	- Copiamos el valor de un fichero a otro con:
+
+		$ sed -i 's/.*longitude.*/'"$(grep longitude /etc/config/qmp)"'/' /etc/config/libremap
+
 - qMp/Node configuration/Wireless Settings
 	- Country code: ES
 	- BSSID: 02:CA:FF:EE:BA:BE (es el que pone por defecto)
 	- Channel: 140-  (el - es importante)
 	- Power: 17dB (se puede ajustar a mas o menos si vamos teniendo buena señal)
 	- Save and Apply
+- Comprobar que a partir de aqui vemos a las otras antenas
+	- Con esto configurado podremos conectarnos a la antena por radio si tocando los interfaces la perdemos
 - qMp/Mesh/Configuration/Advanced
 	- tunOutTimeout: 0 (por defecto estaria en blanco)
 	- Save and Apply
@@ -139,7 +158,7 @@ Hay que reconfigurar los DNS locales para poder acceder a los servicios adiciona
 		- Tampoco configurandolo en Administration/Network/Interfaces/LAN/DHCP/DHCP Options
 
 
-## Si volem que l'antena ofrezca internet
+## Si volem que l'antena ofereixi Internet
 
 TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat diverses a diferents llocs i han donat diferents resultats
 
@@ -167,14 +186,46 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 
 ## Si volem establir un tunel d'administració
 
+- La antena ha de tenir connectivitat a Internet perque funcioni
+- Suposem que la antena és 172.30.22.1 (no ho sera si s'accedeix via mesh)
+- Copiem l'script de tunelat `crear_tunnels.sh` i li donem permisos
+
+		$ scp crear_tunels.sh root@172.30.22.1:/etc/
+		$ ssh root@172.30.22.1 "chmod +x /etc/crear_tunels.sh"
+
+- Canviem els ports (777 establirà 77780 per luci i 77722 per ssh, de fet serian ports invalids)
+	- De fet 777 genera ports invàlids, han d'estar entre 1024 i 65535
+	- Aixi que les xifres superiors han d'anar entre 11 (1022 estaria fora)  i 654 (65588 estaria fora)
+
+			$ ssh root@172.30.22.1  'sed -i s/111/777/ crear_tunels.sh'
+
+- Ens copiem al portatil la clau publica de l'antena
+
+	$ ssh root@172.30.22.1 "dropbearkey -y -f /etc/dropbear/dropbear_rsa_host_key | grep ssh-rsa" > /tmp/pubkey
+
+- La fiquem com clau autoritzada al servidor de tunels.
+
+	- Si estem a la xarxa de Sant Joan Despi
+
+		$ ssh root@10.1.40.14 'echo "'$(cat /tmp/pubkey)'" >> /home/tunel/.ssh/authorized_keys
+
+	- Si no hi som podem intentar fer-ho amb el dyndns
+
+		$ ssh root@tunel.guifibaix.coop -p 2222 'echo "'$(cat /tmp/pubkey)'" >> /home/tunel/.ssh/authorized_keys
+
+	- Para comprobar la lista de claves:
+
+		$ ssh root@10.1.40.14 'cat /home/tunel/.ssh/authorized_keys'
+
+- Programem el cron
+
+		$ ssh root@172.30.22.1  '(crontab -l; echo '\''*/5 * * * /etc/crear_tunels.sh  > /tmp/log/tunels_guifibaix.log'\'') | crontab -'
 
 
 
+TODO: Hay que activar los Gateway Ports? Parece no necesario, es el -g el que se requiere
 
-
-
-
-
+	ssh root@10.1.47.201 "grep GatewayPorts /etc/config/dropbear || echo -e '\toption GatewayPorts on' > /etc/config/dropbear"
 
 
 
