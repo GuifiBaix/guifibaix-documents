@@ -141,7 +141,15 @@ TODO: Coses que poden anar malament
 	$ ssh root@172.30.22.1  '(crontab -l; echo '\''* */1 * * bmx6 --runtimeDir /var/run/bmx6 -c -p | grep tunOutTime && echo Parameter tunOutTimeout already set  || (echo Setting tunOutTimeOut; bmx6 --runtimeDir /var/run/bmx6 -c --tunOutTimeout 0)'\'') | crontab - && echo done || echo failed' 
 
 
-## Si tenemos connectividad con los servidores de Sant Joan Despí
+## Si estarà a la mateixa xarxa que els servidors de Sant Joan Despí
+
+Si la antena estarà connectada als servidors de Sant Joan Despí convé configurar-la perque faci servir els DNS interns.
+D'aquesta manera resoldrà adreces com http://mediateca.guifibaix.net, no disponibles als DNS convencionals.
+
+- Per defecte els DNS que estan posats son els de opendns:
+	- 208.67.222.222 208.67.220.220 209.244.0.3
+- Els de GuifiBaix son:
+	- 10.1.40.8 10.1.40.7 10.1.40.132
 
 Hay que reconfigurar los DNS locales para poder acceder a los servicios adicionales.
 
@@ -149,13 +157,19 @@ Hay que reconfigurar los DNS locales para poder acceder a los servicios adiciona
 	- DNS Nameservers: 10.1.40.8 10.1.40.7 10.1.40.132
 		- Por defecto apuntarian a los de opendns:
 			- 208.67.222.222 208.67.220.220 209.244.0.3
-	- Si la antena da DHCP a los clientes directamente, para que el DNS Forwarding funcione, desde el meu de OpwenWRT > Network > DHCP and DNS, deshabilitar las opciones "Domain Required" y "Rebind Protection", además de añadir la lista de los servidores DNS a los cuales realizaremos el forward de las peticiones DNS.
+- Si la antena da DHCP a los clientes directamente, para que el DNS Forwarding funcione, desde el meu de OpwenWRT > Network > DHCP and DNS, deshabilitar las opciones "Domain Required" y "Rebind Protection", además de añadir la lista de los servidores DNS a los cuales realizaremos el forward de las peticiones DNS.
 	
-	- Nota: Revisar, no funciona
-		- Tampoco configurando en Administration/Network/DHCP and DNS/DNS Forwardings
-		- Ambos funcionan desde la antena, pero la antena por DHCP da de DNS ella
-		- Tampoco configurandolo en Administration/Network/Interfaces/LAN/Use Custom DNS servers
-		- Tampoco configurandolo en Administration/Network/Interfaces/LAN/DHCP/DHCP Options
+- Nota: Revisar, no funciona
+	- Tampoco configurando en Administration/Network/DHCP and DNS/DNS Forwardings
+	- Ambos funcionan desde la antena, pero la antena por DHCP da de DNS ella
+	- Tampoco configurandolo en Administration/Network/Interfaces/LAN/Use Custom DNS servers
+	- Tampoco configurandolo en Administration/Network/Interfaces/LAN/DHCP/DHCP Options
+
+- Hay que configurar los cacharros internos para que quien acabe resolviendo dns sea la antena
+- Si no hay posibilidad, hay que configurar los DNS de guifibaix contra mas lejos de los dispositivos finales posible
+	- Antena
+	- Router
+	- Dispositivos
 
 
 ## Si volem que l'antena ofereixi Internet
@@ -209,18 +223,23 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 
 		$ ssh root@10.1.40.14 'echo "'$(cat /tmp/pubkey)'" >> /home/tunel/.ssh/authorized_keys
 
-	- Si no hi som podem intentar fer-ho amb el dyndns
+	- Si no hi som podem intentar fer-ho amb el dyndnsa
 
+		```bash
 		$ ssh root@tunel.guifibaix.coop -p 2222 'echo "'$(cat /tmp/pubkey)'" >> /home/tunel/.ssh/authorized_keys
+		```
 
 	- Para comprobar la lista de claves:
 
-		$ ssh root@10.1.40.14 'cat /home/tunel/.ssh/authorized_keys'
+```bash
+$ ssh root@10.1.40.14 'cat /home/tunel/.ssh/authorized_keys'
+```
 
 - Programem el cron
 
-		$ ssh root@172.30.22.1  '(crontab -l; echo '\''*/5 * * * /etc/crear_tunels.sh  > /tmp/log/tunels_guifibaix.log'\'') | crontab -'
-
+```bash
+$ ssh root@172.30.22.1  '(crontab -l; echo '\''*/5 * * * /etc/crear_tunels.sh  > /tmp/log/tunels_guifibaix.log'\'') | crontab -'
+```
 
 
 TODO: Hay que activar los Gateway Ports? Parece no necesario, es el -g el que se requiere
