@@ -13,49 +13,38 @@ En Ubuntu:
 
 Les darreres imatges que hem testejat son:
 
+TODO: Canviar a fw.guifibaix.coop quan estigui disponible
+
 Per a les XW (fabricació 2014 o posterior):
-- http://fw.qmp.cat/kalimotxo/NanoStationM5-XW-qMp_kalimotxo-factory-20141105_1622.bin  (configuració de fabrica)
-- http://fw.qmp.cat/kalimotxo/NanoStationM5-XW-qMp_kalimotxo-sysupgrade-20141105_1622.bin (actualització, mantenint configuració)
+
+- http://canvoki.net/fw/NanoStationM5-XW-qMp_kalimotxo-factory-20141105_1622.bin  (configuració de fabrica)
+- http://canvoki.net/fw/NanoStationM5-XW-qMp_kalimotxo-sysupgrade-20141105_1622.bin (actualització, mantenint configuració)
 
 Per a les velles:
-- http://fw.qmp.cat/kalimotxo/NanoStationM5-qMp_kalimotxo-factory-20141105_1617.bin (configuració de fabrica)
-- http://fw.qmp.cat/kalimotxo/NanoStationM5-qMp_kalimotxo-sysupgrade-20141105_1617.bin (actualització, mantenint configuració)
+
+- http://canvoki.net/fw/NanoStationM5-qMp_kalimotxo-factory-20141105_1617.bin (configuració de fabrica)
+- http://canvoki.net/fw/NanoStationM5-qMp_kalimotxo-sysupgrade-20141105_1617.bin (actualització, mantenint configuració)
 
 A GuifiBaix guardem les imatges que anem provant i funcionen,
 perquè a http://fw.qmp.cat van esborrant les imatges antigues
 i sovint passa que les que hi ha pujades no funcionen.
 
-- http://fw.guifibaix.net (TODO: No està funcionant encara)
+Si voleu provar una nova versió no testada:
 
-Si cal escollir una imatge nova de qmp.cat:
+- Aneu a http://fw.qmp.cat/kalimotxo
+	- Encara que no les necessiteu, baixeu-vos les quatre versions: XW i no XW, factory/sysupgrade
+		- XW (per antenes >= 2014), o sense XW (per antenes <2014)
+		- factory (per instal·lacions inicials) i sysupgrade (per quan necessitem actualitzar la resta d'antenes a la mateixa versió mantenint la configuració)
+	- Per NanostationM5 (ni M2 ni LocoM5)
+	- SENSE l'infix 'Guifi'. No ens funciona.
+	- Ara mateix funcionem amb la versió 'kalimotxo', pero això va canviant
+- Total encara que només feu servir una, per que sigui útil pel grup cal baixar-se les quatre
+	- Les imatges de qmp.cat
+- Si les proveu i funcionen:
+	- Pujeu-les al servidor
+	- Si no teniu accés al servidor envieu-les a la llista d'**equip** amb `[firmware qmp]` al subject per que les pujin els companys
 
-### Testing, experimental o kalimotxo
-
-- De moment estem fent servir les imatges de kalimotxo
-- TODO: perque
-
-### Model: NanoStationM5
-
-- Ni M2, ni M4, ni LocoM5...
-
-### XW o no
-
-- Les noves NanoStationM5 (fabricades a partir del 2014) porten un chipset diferent, XW.
-- Les imatges pel Xipset nou porten l'infix addicional 'XW'.
-- TODO: Criteri per identificar les antenes XW.
-
-### Factory o Sysupgrade
-
-- Les ''factory'' son imatges complertes que serveixen per flashejar l'antena completament
-- Les ''sysupgrade'' son imatges per actualitzar una antena ja flashejada mantenint la configuració existent
-- Per instal·lar una antena nova necessitem la ''factory'', pero...
-- Sempre que ens baixem una imatge ''factory'' de qmp.cat, baixem també la ''sysupgrade'' corresponent, per si hem d'actualitzar la resta d'antenes a la mateixa versió.
-
-### Guifi o no Guifi
-
-- De moment NO farem servir les imatges que porten l'infix 'Guifi'
-- TODO: Explicar que vol dir
-
+TODO: Criteris per identificar una XW
 
 ## Pujar la imatge
 
@@ -75,11 +64,13 @@ Si cal escollir una imatge nova de qmp.cat:
 - Per poder accedir-hi, posem l'ordinador amb una ip statica de la xarxa 192.168.1.X
 - Canviant el nom de la imatge el procediment seria:
 
+	```bash
 	$ tftp 192.168.1.20
 	tftp> bin
 	tftp> trace
 	tftp> put NanoStationM5-XW-qMp_kalimotxo-factory-20141105_1622.bin
 	tftp> quit
+	```
 
 - Les llums de l'antena faran el cotxe fantàstic fins que actualitzi el firmware
 - Un cop s'instala es reinicia un parell de vegades per reconfigurar-se,
@@ -102,13 +93,13 @@ TODO: Coses que poden anar malament
 	- Network Mode: Roaming
 	- IP address: La que toqui a la zona mesh
 	- Interface Modes (Nuevas XW):
-		eth0.2: wan
-		eth0.1: lan
-		wlan: mesh
+		- eth0.2: wan
+		- eth0.1: lan
+		- wlan: mesh
 	- Interface Modes (Antiguas):
-		eth1: wan
-		eth0: lan
-		wlan: mesh
+		- eth1: wan
+		- eth0: lan
+		- wlan: mesh
 	- Save and Apply
 - qMp/Node configuration/Basic Settings
 	- Node name: GuifiBaix-Proves   (o el de la zona mesh que toque)
@@ -122,7 +113,9 @@ TODO: Coses que poden anar malament
 	- Entrar en la antena con `ssh root@172.30.22.1`
 	- Copiamos el valor de un fichero a otro con:
 
+		```bash
 		$ sed -i 's/.*longitude.*/'"$(grep longitude /etc/config/qmp)"'/' /etc/config/libremap
+		```
 
 - qMp/Node configuration/Wireless Settings
 	- Country code: ES
@@ -138,8 +131,10 @@ TODO: Coses que poden anar malament
 - Hay un bug que vuelve a vaciar el tunOutTimeout cada vez que reiniciamos la antena.
   Desde el portatil ejecutamos el siguiente 
 
+	```bash
 	$ ssh root@172.30.22.1  '(crontab -l; echo '\''* */1 * * bmx6 --runtimeDir /var/run/bmx6 -c -p | grep tunOutTime && echo Parameter tunOutTimeout already set  || (echo Setting tunOutTimeOut; bmx6 --runtimeDir /var/run/bmx6 -c --tunOutTimeout 0)'\'') | crontab - && echo done || echo failed' 
 
+	```
 
 ## Si estarà a la mateixa xarxa que els servidors de Sant Joan Despí
 
@@ -204,14 +199,18 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 - Suposem que la antena és 172.30.22.1 (no ho sera si s'accedeix via mesh)
 - Copiem l'script de tunelat `crear_tunnels.sh` i li donem permisos
 
+		```bash
 		$ scp crear_tunels.sh root@172.30.22.1:/etc/
 		$ ssh root@172.30.22.1 "chmod +x /etc/crear_tunels.sh"
+		```
 
 - Canviem els ports (777 establirà 77780 per luci i 77722 per ssh, de fet serian ports invalids)
 	- De fet 777 genera ports invàlids, han d'estar entre 1024 i 65535
 	- Aixi que les xifres superiors han d'anar entre 11 (1022 estaria fora)  i 654 (65588 estaria fora)
 
-			$ ssh root@172.30.22.1  'sed -i s/111/777/ crear_tunels.sh'
+		```bash
+		$ ssh root@172.30.22.1  'sed -i s/111/777/ crear_tunels.sh'
+		```
 
 - Ens copiem al portatil la clau publica de l'antena
 
@@ -231,15 +230,15 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 
 	- Para comprobar la lista de claves:
 
-```bash
-$ ssh root@10.1.40.14 'cat /home/tunel/.ssh/authorized_keys'
-```
+		```bash
+		$ ssh root@10.1.40.14 'cat /home/tunel/.ssh/authorized_keys'
+		```
 
 - Programem el cron
 
-```bash
-$ ssh root@172.30.22.1  '(crontab -l; echo '\''*/5 * * * /etc/crear_tunels.sh  > /tmp/log/tunels_guifibaix.log'\'') | crontab -'
-```
+	```bash
+	$ ssh root@172.30.22.1  '(crontab -l; echo '\''*/5 * * * /etc/crear_tunels.sh  > /tmp/log/tunels_guifibaix.log'\'') | crontab -'
+	```
 
 
 TODO: Hay que activar los Gateway Ports? Parece no necesario, es el -g el que se requiere
