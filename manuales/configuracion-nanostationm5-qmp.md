@@ -6,7 +6,7 @@ Per configurar una antena cal un navegador, un client ssh i un client tftp.
 
 En Ubuntu:
 
-	$ sudo apt-get install tftp openssh-client
+	$ sudo apt-get install tftp openssh-client curl
 
 
 ## Seleccionar i baixar la imatge a instal·lar
@@ -17,13 +17,13 @@ TODO: Canviar a fw.guifibaix.coop quan estigui disponible
 
 Per a les XW (fabricació 2014 o posterior):
 
-- http://canvoki.net/fw/NanoStationM5-XW-qMp_kalimotxo-factory-20141105_1622.bin  (configuració de fabrica)
-- http://canvoki.net/fw/NanoStationM5-XW-qMp_kalimotxo-sysupgrade-20141105_1622.bin (actualització, mantenint configuració)
+- http://fw.guifibaix.coop/NanoStationM5-XW-qMp_kalimotxo-factory-20141105_1622.bin  (configuració de fabrica)
+- http://fw.guifibaix.coop/NanoStationM5-XW-qMp_kalimotxo-sysupgrade-20141105_1622.bin (actualització, mantenint configuració)
 
 Per a les velles:
 
-- http://canvoki.net/fw/NanoStationM5-qMp_kalimotxo-factory-20141105_1617.bin (configuració de fabrica)
-- http://canvoki.net/fw/NanoStationM5-qMp_kalimotxo-sysupgrade-20141105_1617.bin (actualització, mantenint configuració)
+- http://fw.guifibaix.coop/NanoStationM5-qMp_kalimotxo-factory-20141105_1617.bin (configuració de fabrica)
+- http://fw.guifibaix.coop/NanoStationM5-qMp_kalimotxo-sysupgrade-20141105_1617.bin (actualització, mantenint configuració)
 
 A GuifiBaix guardem les imatges que anem provant i funcionen,
 perquè a http://fw.qmp.cat van esborrant les imatges antigues
@@ -32,17 +32,22 @@ i sovint passa que les que hi ha pujades no funcionen.
 Si voleu provar una nova versió no testada:
 
 - Aneu a http://fw.qmp.cat/kalimotxo
-	- Encara que no les necessiteu, baixeu-vos les quatre versions: XW i no XW, factory/sysupgrade
-		- XW (per antenes >= 2014), o sense XW (per antenes <2014)
-		- factory (per instal·lacions inicials) i sysupgrade (per quan necessitem actualitzar la resta d'antenes a la mateixa versió mantenint la configuració)
-	- Per NanostationM5 (ni M2 ni LocoM5)
-	- SENSE l'infix 'Guifi'. No ens funciona.
-	- Ara mateix funcionem amb la versió 'kalimotxo', pero això va canviant
-- Total encara que només feu servir una, per que sigui útil pel grup cal baixar-se les quatre
-	- Les imatges de qmp.cat
+	- Branca 'kalimotxo' (descartem testing, stable, current, experimental...)
+		- Ara es 'kalimotxo' pero això va canviant.
+	- Model **NanostationM5** (no pas *M2* ni *LocoM5*)
+	- SENSE l'infix 'Guifi'.
+		- Tot i que pel nom pot semblar que és la que ens toca, no ens funciona.
+	- Encara que no les necessiteu pel moment, baixeu-vos les quatre versions: XW i no XW, factory/sysupgrade
+		- **XW** (per antenes >= 2014), i **sense XW** (per antenes <2014)
+		- **factory** (per instal·lacions inicials) i **sysupgrade** (per actualitzar antenes instal·lades)
 - Si les proveu i funcionen:
-	- Pujeu-les al servidor
-	- Si no teniu accés al servidor envieu-les a la llista d'**equip** amb `[firmware qmp]` al subject per que les pujin els companys
+	- Pujeu les 4 al servidor. La comanda 
+
+		```bash
+		for a in *bin; do curl -T "$a" -u fwguifibaix@guifibaix.coop  ftp://fw.guifibaix.coop/; done
+		```
+
+	- Si no teniu accés al servidor envieu-les a la llista d'*equip* amb `[firmware qmp]` al subject per que les pujin els companys
 
 TODO: Criteris per identificar una XW
 
@@ -132,7 +137,7 @@ TODO: Coses que poden anar malament
   Desde el portatil ejecutamos el siguiente 
 
 	```bash
-	$ ssh root@172.30.22.1  '(crontab -l; echo '\''* */1 * * bmx6 --runtimeDir /var/run/bmx6 -c -p | grep tunOutTime && echo Parameter tunOutTimeout already set  || (echo Setting tunOutTimeOut; bmx6 --runtimeDir /var/run/bmx6 -c --tunOutTimeout 0)'\'') | crontab - && echo done || echo failed' 
+	$ ssh root@172.30.22.1  '(crontab -l; echo '\''* */1 * * * bmx6 --runtimeDir /var/run/bmx6 -c -p | grep tunOutTime && echo Parameter tunOutTimeout already set  || (echo Setting tunOutTimeOut; bmx6 --runtimeDir /var/run/bmx6 -c --tunOutTimeout 0)'\'') | crontab - && echo done || echo failed' 
 
 	```
 
@@ -237,7 +242,7 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 - Programem el cron
 
 	```bash
-	$ ssh root@172.30.22.1  '(crontab -l; echo '\''*/5 * * * /etc/crear_tunels.sh  > /tmp/log/tunels_guifibaix.log'\'') | crontab -'
+	$ ssh root@172.30.22.1  '(crontab -l; echo '\''*/5 * * * * /etc/crear_tunels.sh  > /tmp/log/tunels_guifibaix.log'\'') | crontab -'
 	```
 
 
