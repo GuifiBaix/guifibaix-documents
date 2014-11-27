@@ -97,6 +97,8 @@ TODO: Coses que poden anar malament
 	- En principio solo hay que cambiar la IP de MESH
 	- Network Mode: Roaming
 	- IP address: La que toqui a la zona mesh
+		- Canviar l'inventari a privat/tresoreria/inventari-cacharreria.md
+		- Canviar el registre de ip's a privat/rangos_ip
 	- Interface Modes (Nuevas XW):
 		- eth0.2: wan
 		- eth0.1: lan
@@ -157,15 +159,17 @@ Hay que reconfigurar los DNS locales para poder acceder a los servicios adiciona
 	- DNS Nameservers: 10.1.40.8 10.1.40.7 10.1.40.132
 		- Por defecto apuntarian a los de opendns:
 			- 208.67.222.222 208.67.220.220 209.244.0.3
-- Si la antena da DHCP a los clientes directamente, para que el DNS Forwarding funcione, desde el meu de OpwenWRT > Network > DHCP and DNS, deshabilitar las opciones "Domain Required" y "Rebind Protection", además de añadir la lista de los servidores DNS a los cuales realizaremos el forward de las peticiones DNS.
+- Si la antena da DHCP a los clientes directamente, para que el DNS Forwarding funcione
+	- qMp / Network Settings / Advanced network Settings / DNS nameservers
+		- Poner los servidores separados por espacios
+	- Administration > Network > DHCP and DNS
+		- Deshabilitar las opciones "Domain Required"
+		- Deshabilitar las opciones "Rebind Protection",
+		- DNS Forwardings: Poner un servidor por linea, se añade la linea con el icono
 	
-- Nota: Revisar, no funciona
-	- Tampoco configurando en Administration/Network/DHCP and DNS/DNS Forwardings
-	- Ambos funcionan desde la antena, pero la antena por DHCP da de DNS ella
-	- Tampoco configurandolo en Administration/Network/Interfaces/LAN/Use Custom DNS servers
-	- Tampoco configurandolo en Administration/Network/Interfaces/LAN/DHCP/DHCP Options
+	- TODO: Considerar Administration/Network/Interfaces/LAN/DHCP Server/Advanced Settings/DHCP Options  para liberar la antena
 
-- Hay que configurar los cacharros internos para que quien acabe resolviendo dns sea la antena
+- Hay que configurar los cacharros de la red local para que quien acabe resolviendo dns sea la antena
 - Si no hay posibilidad, hay que configurar los DNS de guifibaix contra mas lejos de los dispositivos finales posible
 	- Antena
 	- Router
@@ -196,6 +200,12 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 	- TODO: Altres passes que cal fer (NAT...)
 	- TODO: Como hacer check para comprobar el gateway esta activo y dejar de ofrecerlo a qMp cuando se corte internet.
 
+- En ambdos casos
+	- Cal treure les linees que posa bandwidth dels gateways, perquè totes les antenes que ofereixen internet tinguin la mateix prioritat:
+
+		```bash
+		ssh root@172.30.22.1 sed  '/bandwidth/d' /etc/config/gateways
+		```
 
 
 ## Si volem establir un tunel d'administració
@@ -209,7 +219,7 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 		$ ssh root@172.30.22.1 "chmod +x /etc/crear_tunels.sh"
 		```
 
-- Canviem els ports (777 establirà 77780 per luci i 77722 per ssh, de fet serian ports invalids)
+- Canviem els ports (777 establirà 77780 per luci i 77722 per ssh)
 	- De fet 777 genera ports invàlids, han d'estar entre 1024 i 65535
 	- Aixi que les xifres superiors han d'anar entre 11 (1022 estaria fora)  i 654 (65588 estaria fora)
 
@@ -248,8 +258,9 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 
 TODO: Hay que activar los Gateway Ports? Parece no necesario, es el -g el que se requiere
 
+	```bash
 	ssh root@10.1.47.201 "grep GatewayPorts /etc/config/dropbear || echo -e '\toption GatewayPorts on' > /etc/config/dropbear"
-
+	```
 
 
 
