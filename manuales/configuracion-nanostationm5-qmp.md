@@ -209,7 +209,7 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 	- Aixi que les xifres superiors han d'anar entre 11 (1022 estaria fora)  i 654 (65588 estaria fora)
 
 		```bash
-		$ ssh root@172.30.22.1  'sed -i s/111/777/ crear_tunels.sh'
+		$ ssh root@172.30.22.1  'sed -i s/111/777/ /etc/crear_tunels.sh'
 		```
 
 - Ens copiem al portatil la clau publica de l'antena
