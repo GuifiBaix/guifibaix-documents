@@ -115,7 +115,7 @@ TODO: Coses que poden anar malament
 	- Altitude: Calcular aproximado segun el numero de pisos
 	- Contacte: nodes at guifibaix.coop
 	- Save and Apply
-- Hay un bug en algunas versiones (2014-11-05) en que no se guardan bien las coordenadas (concretamente la longitud)
+- Hay un bug en algunas versiones (2014-11-XX) en que no se guardan bien las coordenadas (concretamente la longitud)
 	- Si que se guardan en `/etc/config/qmp` pero no en `/etc/config/libremap`
 	- Entrar en la antena con `ssh root@172.30.22.1`
 	- Copiamos el valor de un fichero a otro con:
@@ -142,8 +142,18 @@ TODO: Coses que poden anar malament
 	$ ssh root@172.30.22.1  '(crontab -l; echo '\''* */1 * * * bmx6 --runtimeDir /var/run/bmx6 -c -p | grep tunOutTime && echo Parameter tunOutTimeout already set  || (echo Setting tunOutTimeOut; bmx6 --runtimeDir /var/run/bmx6 -c --tunOutTimeout 0)'\'') | crontab - && echo done || echo failed' 
 
 	```
+- Hay un bug para las antenas XW que hace que el DHCP del puerto 'Main' retorne una IP4 invalida (169.x.x.x)
+	- Esto es debido a que:
+		- la interficie `LAN_RESCUE` que tiene ip 169.x.x.x usa el mismo puerto
+		- qMp reparte direcciones por DHCP de ambos rangos
+		- como `LAN_RESCUE` tiene es de la red 169.x.x.x y es menor que 172.30.x.x, da prioridad a las mas bajas
+	- Poner en el portàtil una ip valida en el rango 172.30.x.x
+	- Administration/Network/Interfaces/LAN RESCUE
+	- Cambiar la IP de 169.x.x.x a 192.168
 
-## Si estarà a la mateixa xarxa que els servidors de Sant Joan Despí
+
+
+## Si estarà a la mateixa xarxa que els servidors de Sant Joan Despí (mediateca...)
 
 Si la antena estarà connectada als servidors de Sant Joan Despí convé configurar-la perque faci servir els DNS interns.
 D'aquesta manera resoldrà adreces com http://mediateca.guifibaix.net, no disponibles als DNS convencionals.
