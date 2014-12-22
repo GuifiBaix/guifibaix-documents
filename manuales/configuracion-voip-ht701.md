@@ -6,6 +6,7 @@
 
 - Basic Settins
 	- Language: Spanish IVR (cambia las grabaciones del interfaz de voz a español)
+	- DHCP hostname: voip-<idexpediente>
 - FXS Port:
 	- Primary SIP Server: extensiones.nubip.com  (Nos lo pasan como 'dominio')
 	- Outbound Proxy: 94.23.81.212:55698 (Nos lo pasan como 'proxy')
