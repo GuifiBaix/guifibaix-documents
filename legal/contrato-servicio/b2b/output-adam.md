@@ -120,8 +120,8 @@ y subcontratistas, por lo que la PROVEEDORA responderá frente al CLIENTE si tal
 
 a) Mantenimiento de HARDWARE:
 	- **Mantenimiento preventivo** que incluye 
-		una revisión periódica detallada del correcto funcionamiento
-		de los equipos de hardware en todos sus componentes.
+		la monitorizacion remota detallada del correcto funcionamiento
+		de los equipos de hardware instalados.
 	- **Mantenimiento correctivo** que incluye
 		la sustitución de los componentes tanto internos como externos que fallaran en los equipos,
 		todo ello a cargo del CLIENTE,
@@ -219,8 +219,13 @@ a través del teléfono o correo electrónico mencionados, para proceder a su so
 - La violación de la privacidad e intimidad de otros usuarios.
 - El envío de SPAM a través de la red sea cual sea su forma
 
-
 3.5.
+	La PROVEEDORA no se hará responsable de las acciones o conductas del CLIENTE
+	que usando la red o los servicios de la PROVEEDORA resultaran ser delictivas o
+	atentasen contra la Ley de Propiedad Intelectual o la Ley Oficial de Protección de Datos.
+
+
+3.6.
 	Tanto CLIENTE como PROVEEDOR, se comprometen a subscribir las condiciones de
 	la Licencia de Red de ProComún, anexada a este contrato.
 
@@ -264,7 +269,7 @@ a través del teléfono o correo electrónico mencionados, para proceder a su so
 
 4.5. **Formatos abiertos:**
 	La PROVEEDORA se compromete a comunicarse con el CLIENTE mediante documentos
-	en formatos abiertos y libres de royalties
+	en formatos abiertos y libres de regalías
 	que no requieran la adquisición de licencias privativas para acceder a ellos.
 
 4.6. **Energías renovables:**
@@ -345,8 +350,10 @@ el número de días naturales efectivos respecto a los dias naturales del trimes
 
 En caso de impago de los cargos,
 la deuda vencida generará un interés de demora igual al interés legal del dinero
-incrementado en dos puntos y dará derecho a la PROVEEDORA a resolver el
-Contrato de conformidad con lo dispuesto en las presentes Condiciones.
+incrementado en dos puntos a partir de la primera factura impagada
+y, si la factura no es pagada a los dos meses,
+dará derecho a la PROVEEDORA a resolver el Contrato
+de conformidad con lo dispuesto en las presentes Condiciones.
 
 
 ### SEXTA.- ACUERDO DE NIVEL DE SERVICIO
@@ -394,7 +401,7 @@ Contrato de conformidad con lo dispuesto en las presentes Condiciones.
 El plazo de duración del presente Contrato es indefinido 
 a partir de la fecha referida en el encabezamiento del Contrato
 pudiendo el cliente a proceder a su resolución en cualquier momento,
-efectuando un preaviso de al menos 30 días de antelación.
+efectuando un preaviso de al menos un mes de antelación.
 
 
 ### OCTAVA.- SUSPENSION DEL CONTRATO
