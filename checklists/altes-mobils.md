@@ -22,7 +22,10 @@
 	- Servei:
 		- linesToPort:
 			- ...
-		- simType: # Normal, Micro o Nano
+		- simType:
+			- Nano (sin espacio alrededor del metal)
+			- Micro (con poco plastico alrededor, casi cuadrada)
+			- Normal (alargada, con un tercio de plastico sobrante en el lado largo)
 		- multisim: # True/False - Mas de una sim con el mismo numero?
 - S'envien les dades a Nubip demanant els contractes
 - Nubip retorna els contractes emplenats
