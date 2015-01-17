@@ -250,7 +250,7 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 	- Si no hi som podem intentar fer-ho amb el dyndnsa
 
 		```bash
-		$ ssh root@tunel.guifibaix.coop -p 2222 'echo "'$(cat /tmp/pubkey)'" >> /home/tunel/.ssh/authorized_keys
+		$ ssh root@tunel.guifibaix.coop -p 2222 'echo "'$(cat /tmp/pubkey)'" >> /home/tunel/.ssh/authorized_keys'
 		```
 
 	- Para comprobar la lista de claves:
@@ -263,6 +263,12 @@ TODO: No estem segurs de que aquesta configuració sigui la correcta, hem provat
 
 	```bash
 	$ ssh root@172.30.22.1  '(crontab -l; echo '\''*/5 * * * * /etc/crear_tunels.sh  > /tmp/log/tunels_guifibaix.log'\'') | crontab -'
+	```
+
+- Per comprovar si funciona:
+
+	```bash
+	$ ssh root@10.1.40.14 netstat -ltpn4
 	```
 
 
