@@ -1,7 +1,7 @@
 
 - Es demana al client si el seu mobil és lliure. Si no ho es:
 	- El client ha de sol·licitar codi d'alliberament a l'actual proveidor
-		- Li demanaran l'IMEI que s'obte prement *#06#a
+		- Li demanaran l'IMEI que s'obte prement *#06#
 		- Alguns proveidors tenen condicions (acabar la permanència, primer any...)
 	- O alternativament podria adquirir un terminal lliure
 - Tipus de tarja SIM del telefon: Normal, Micro o Nano
