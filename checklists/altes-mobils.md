@@ -41,9 +41,10 @@
 	- Per cada número:
 		- Escan del Contracte de Servei signat
 		- Escan del Contracte de Portabilitat signat
-- S'envia tota la info a nubip demanant a nubip que ens avisi a nosaltres i als clients
+- S'envia tota la info a nubip
+- Nubip envia les targes als clients
+- Quan els clients reben les targes truquen a Nubip per activarles
+- Nubip demana la portabilitat
 - Nubip eventualment ens notifica la finestra de portabilitat
-- Avisem als clients
-	- Explicar com funciona tot durant la finestra de portabilitat (TODO: Aclarar-ho amb Nubip)
 
 
