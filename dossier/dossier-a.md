@@ -31,37 +31,36 @@ y con una fibra, pueden conectarse 7 u 8 usuarios.
 ¿Y esto se paga?
 
 Sí, lo que hay que pagar es, por un lado la instalación inicial,
-que queda en propiedad de la persona que la paga.
-Suele rondar entre 150€ y 290€ (IVA incluido), dependiendo del número de vecinos que se conecten,
-y de la configuración que tenga el bloque o viviendas y de si quieren servicio de telefonía o no.
+que queda en propiedad de la persona que la paga. Los precios tipos que tenemos son los siguientes:
+                                                                                              
+  Veïns  Instal·lació      
+   ------       -------------     
+        1-3            277      
+        4-12           260      
+         +12           240      
+* IVA del 21% incluído
 
-Por otro lado, también hay una mensualidad, que se reparte de la siguiente forma (precios sin IVA):
-- 5€ por el mantenimiento de la instalación común del edificio (a repartir entre los usuarios)
-- 5€ por el mantenimiento individual del usuario
-- 5€ por usuario para pagar conectividad
+Estos precios incluyen la instalación de la antena, equipos comunes y roseta sencilla hasta la vivienda. 
+Si a parte se quiere instalación interior (routers, PLCs, etc), consultarnos precios.
 
-TODO: Aitor esto no puede quedar escrito asi es algo entre los usuarios
+Para la parte de mantenimiento mensual tenemos 3 tipos de usuarios/as, que pagarían lo siguiente:
+1- Quien no aporta ancho de banda: 12,5€/mes + IVA
+2- Quien no aporta ancho de banda pero está apadrinado: 7,5€/mes + IVA
+3- Quien aporta ancho de banda: 0€/mes + IVA
+y en caso de Fibra Óptica, se apadrine a 7 usuarios/as.
+En este último caso, con ADSL calculamos que, para no saturar la red, si se dispone de ADSL se apadrine a 5 usuarios/as, 
 
-Quien aporte la conexión a internet no paga mantenimiento y 
-recibirá íntegramente, los 5€+IVA de sus apadrinamientos, aunque sí ha de pagar 
-la parte que le corresponda de instalación.
-
-Calculamos que en menos de un año, se recupera la inversión
-y se empieza a ahorrar.
-
-¿Y pierdo velocidad compartiendo mi conexión?
-
-TODO: Aqui no queda claro cuando te refieres a Telefonica y cuando a GuifiBaix
+¿Y se pierde velocidad compartiendo el ancho de banda de salida a internet?
 
 La red de Telefónica ya es compartida, 
-tú contratas 20MB y te llegan entre 2 y 10 generalmente,
-lo que no compartes son los gastos. Es por eso que depende la hora en que te conectes
-tu velocidad varía.
+tú contratas 20MB y te llegan entre 2 y 10 generalmente, dependiendo de los usuarios/as que haya en la red conectados/as.
+Lo que no compartes en este caso son los gastos. A esto se le añade que pagas un alquiler mensual eternamente por la instalación de red 
+que llega hasta tu vivienda, añadido a que no se tiene control sobre su uso. Esto hace que se tengan limitaciones.
 
-En la red guifi.net, además, se pueden añadir servicios 
+En la red guifi.net, en cambio, como sí se es propietario de la misma, sus mismos usuarios pueden añadir servicios 
 internos, que implican no necesitar salida a internet.
 Entre antenas, si hay buena visibilidad, funciona de entre 100 y 200MB, y la red del 
-bloque funciona a 1024MB (1GB). El culo de botella está en los ADSL y fibras compartidas.
+bloque funciona a 1024MB (1GB). El culo de botella, es decir, las limitaciones de velocidad están en los ADSL y fibras compartidas.
 
 Hay que contar la utilidad de la antena. Si en tu bloque está saturado porque coincide que 
 está todo el mundo conectado y descargando a la vez, la antena busca otras salidas a internet, 
@@ -69,15 +68,9 @@ con lo que se compensa el ancho de banda que consumen los locales comerciales co
 
 ¿Cómo conectarse?
 
-Trabajamos por el Baix Llobregat (Barcelona), así que si vives en esta comarca,
-contacta con nosotros, estudiamos la finca en la qué vives y concretamos.
-Tenemos antenas instaladas por Sant Joan Despí, Cornellà, 
-El Prat, Santa Coloma de Cervelló 
-y Torrelles; y en breves nos expandiremos hacia Esplugues, 
-Sant Boi, Sant Climent y otros pueblos de nuestra comarca.
-
-Si quieres conectarte y vives lejos, puedes contactarnos 
-y miramos qué posibilidades hay.
+Los pueblos en los que por el momento estamos conectados son Sant Joan Despí, Cornellà, El Prat, Esplugues, 
+Viladecans, Sant Climent y Santa Coloma de Cervelló. Así que si vives en algunos de estos pueblos, 
+contacta con nosotros.
 
 “Se habla de compartir con quienes no tienen. Pero cuando 
 alguno lo pone en práctica, 
