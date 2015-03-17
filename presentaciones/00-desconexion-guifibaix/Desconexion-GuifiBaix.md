@@ -534,24 +534,61 @@ Hosting
 ...
 
 
+## Costos de la xarxa
 
-## Preus
+Sense ànim de lucre però cal cobrir:
 
-### A GuifiBaix:
-
-- Instal·lació: depén de l'edifici i del número de veïns
-	- Entre 200€ i 290€ per veí
-- Manteniment mensual
-	- Comú: 5€/mes + IVA (repartit entre els veïns)
-	- Veí: 10€/mes + IVA
-- Descomptes per aportar sortides a Internet
+- Instal·lació
+- Manteniment
+- Sortides a Internet
+- Telefonia IP
+- Costos d'operació
+- Equipament comunitari
 
 
-### A NubipTel/Eticom
 
-- Número fixe amb portabilitat: 1,58€/mes + IVA
-- Trucades a fixes: 1,34¢/min +IVA 
-- Trucades a mòvils: 4,35¢/min +IVA
+## Preus: Instal·lació
+
+Cadascú es paga la seva
+
+Depén de la complexitat de l'edifici
+
+Típic: Entre 200€ i 290€ per veí
+
+Es paga un sol cop
+
+Es pot repartir en mesos
+
+## Preus: Manteniment
+
+**Normal:** 12'50€+IVA/mes
+
+El mode senzill, no em preocupo d'on surt la connexió.
+
+**Aportador:** 0€+IVA/mes
+
+El mode necessari, aporto la meva connexió a Internet
+
+Puc designar acompanyants, que m'ajuden a pagar-la.
+
+Màxim 4 acompanyants amb ADSL, 7 amb Fibra
+
+**Acompanyant:** 7'50€+IVA/mes
+
+El mode solidari: ajudo a pagar la connexió a l'aportador
+
+Rebo un descompte en el manteniment
+
+
+## Preus: Telefonia IP
+
+No som nosaltres: NubipTel/Eticom
+
+Número fixe amb portabilitat: 1,58€/mes + IVA
+
+Trucades a fixes: 1,34¢/min +IVA 
+
+Trucades a mòvils: 4,35¢/min +IVA
 
 
 ## Com procedir
