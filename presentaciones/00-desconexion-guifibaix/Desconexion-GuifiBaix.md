@@ -512,24 +512,20 @@ Molt més potent que una connexio ADSL o fibra stàndard
 ## Serveis: Mediateca
 
 
-<img width='70%' src='pantallazo-mediateca.png'>
+<img width='70%' src='guifibaix-pantallazo-mediateca.png'>
 
 ## Serveis afegits
 
 
-P2P comunitari
+P2P comunitari, Mediateca
 
 Enmagatzemament i compartició al núvol
 
 Streaming de radio i televisió
 
-Mediateca
+Centraleta Telefonia IP
 
-Centraleta
-
-Correu
-
-Hosting
+Correu, Hosting
 
 ...
 
@@ -563,11 +559,11 @@ Es pot repartir en mesos
 
 **Normal:** 12'50€+IVA/mes
 
-El mode senzill, no em preocupo d'on surt la connexió.
+El mode senzill: no em preocupo d'on surt la connexió.
 
 **Aportador:** 0€+IVA/mes
 
-El mode necessari, aporto la meva connexió a Internet
+El mode voluntari: aporto la meva connexió a Internet
 
 Puc designar acompanyants, que m'ajuden a pagar-la.
 
@@ -577,7 +573,7 @@ Màxim 4 acompanyants amb ADSL, 7 amb Fibra
 
 El mode solidari: ajudo a pagar la connexió a l'aportador
 
-Rebo un descompte en el manteniment
+Rebo un descompte pel manteniment
 
 
 ## Preus: Telefonia IP
