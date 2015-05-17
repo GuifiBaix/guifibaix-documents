@@ -37,6 +37,7 @@ No es una clasificación absoluta:
 
 Qt es una [librería] de programación para hacer interficies gráficas.
 
+- La que usa KDE, GoogleEarth, LinPhone...
 - Programada en C++ pero existen adaptadores para usarla desde otros lenguajes
 - Para Python hay dos adaptadores: PySide y PyQt
 - Nosotros usamos PySide para el `suro` así que la formación la haremos con PySide
@@ -56,36 +57,31 @@ Qt es una [librería] de programación para hacer interficies gráficas.
 Ejercicio: Crea este script y ejecutalo
 
 ~~~~ {.python}
-	#!/usr/bin/env python3
-	from PySide import QtGui
-	
-	app = QtGui.QApplication([])
-	w = QtGui.QDialog()
-	w.show()
-	app.exec_()
+#!/usr/bin/env python3
+from PySide import QtGui
+
+app = QtGui.QApplication([])
+w = QtGui.QDialog()
+w.show()
+app.exec_()
 ~~~~
 
 
-En este programilla ya hay bastante teca que explicar:
+En este programilla ya hay bastante teca que explicar.
+Aprovechamos para repasar conceptos que ya conocemos: clases y modulos/paquetes.
 
 ### Módulos y clases
 
-- Repasamos conceptos que ya conocemos: clases y modulos/paquetes
-- Se importa el módulo `QtGui` de dentro de la libreria `PySide`
+- La primera línea indica en Unix que el script se tiene que ejecutar con Python3
+- La segunda línea importa el módulo `QtGui` de dentro de la libreria `PySide`
 	- Culturilla: Las Qt son extensas y los modulos sirven para que
 	una applicación no tenga que arrastrarlas enteras,
 	solo las pijadas que necesite:
-		- Interficie gráfica (QtGui)
-		- Multimedia (QtMultimedia)
-		- Graficos 3D (QtOpenGl)
-		- Redes (QtNetwork)
-		- Sensores (QtMobile)
-		- Navegacion web (QtWebKit)
-		- Bases de datos (QtSql)
-		- ...
+	![](img/qtmodules.svg)
 - `QApplication` y `QDialog` son [clases] definidas dentro del modulo `QtGui`
 - Creamos instancias de esas clases llamándolas con los paréntesis como si fueran una función.
-- Al `QApplication` se le pasa una lista vacía `[]` o `sys.argv`
+- Asignamos esas instancias a las variables `app` y `w` respectivamente.
+- Al `QApplication` hay que pasarle una lista vacía `[]` o `sys.argv`
 
 
 ### Orientacion a eventos
@@ -95,7 +91,6 @@ En este programilla ya hay bastante teca que explicar:
 	- Al metodo `exec_()` de la aplicacion, para que empiece el bucle de eventos
 - Casi todo el tiempo la aplicacion lo pasa dentro del `exec_`
 - El `exec_` es un bucle que espera eventos y, según el evento que suceda, llama a unas partes o otras de nuestro programa
-- Tenemos que definir la interficie y como reaccionara a esos eventos antes de entrar en el `exec_`
 - Antes de entrar en el `exec_` tenemos que haber definido como es nuestra interficie y como responder a esos eventos
 	- Culturilla: Esto se llama 'Orientacion a eventos'
 - La libreria Qt proporciona ese bucle de eventos y las respuestas mas comunes
@@ -110,6 +105,8 @@ En este programilla ya hay bastante teca que explicar:
 
 Designer: Herramienta gráfica para editar interfícies
 
+![Interficie del Qt Designer](pantallazos/programacion-interficies-designer.png)
+
 - Instalacion: `sudo apt-get install qt4-designer`
 - Construyes una interfície arrastrando elementos gráficos
 - Graba un XML que describe la interficie
@@ -118,11 +115,11 @@ Designer: Herramienta gráfica para editar interfícies
 	- `sudo apt-get install pyside-tools`
 - Veremos como usar ese código más adelante
 
-- En el centro tenemos la interficie que editamos
-	- Puede ser tipo:
-		- Dialogo: ventana que pregunta datos y que podemos aceptar o cancelar
-		- MainWindow: ventana con menus, barra de herramientas...
-		- Widget: composicion de widgets basicos que podemos insertar en bloque en otra interfície
+- En el centro del Designer tenemos la interficie que editamos
+- Puede ser tipo:
+	- Dialogo: ventana que pregunta datos y que podemos aceptar o cancelar
+	- MainWindow: ventana con menus, barra de herramientas...
+	- Widget: composicion de widgets basicos que podemos insertar en bloque en otra interfície
 - La editamos via los diferentes paneles laterales:
 	- Widget box: Los tipos de elementos, podemos arrastrarlos a la interficie
 	- Object inspector: el arbol de composicion (estructura) de la interficie
@@ -486,10 +483,6 @@ Creemos un dialogo que edite un objeto cliente, que será nuestro modelo.
 2. Añade al dialogo un widget `QDateEdit` para editarlo
 3. Rellenalo con el dato del `namespace` (busca el mètodo correspondiente en la documentación de la clase)
 4. Cuando aceptes el diálogo, toma el valor del widget con el método que tambien encuentres en la documentación.
-
-El `QDateEdit` no está mal, ¿pero a que molaría seleccionar la fecha en un calendario?
-
-**Para nota:** Edita la fecha con una combinacion de botones para saltar de mes y año y un `QCalendarWidget`.
 
 
 ## Generación dinàmica de interfícies
