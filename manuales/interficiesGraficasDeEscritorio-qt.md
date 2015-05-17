@@ -44,8 +44,8 @@ Qt es una [librería] de programación para hacer interficies gráficas.
 - La ultima version de Qt es 5.x, pero usamos la 4.x porque no hay PySide para Qt5
 - El codigo con PyQt es muy parecido al codigo con PySide, cambian los imports y poca cosa más
 - Documentacion
-	- Qt: http://docs.qt.io/
-	- PySide: TODO
+	- Qt: [http://docs.qt.io/](http://docs.qt.io/)
+	- PySide: [http://pyside.github.io/docs/pyside/](http://pyside.github.io/docs/pyside/)
 	- La documentacion de Qt explica mejor las clases, pero el codigo de ejemplo esta en C++
 
 [librería]:(código ya hecho, listo para usar y reusar en diversos programas)
@@ -190,6 +190,7 @@ Ejercicio:
 
 - Con código (ignoro la parte de crear la QApplication al principio y llamar `exec_` al final):
 
+	~~~~ {.python}
 		# Creamos los objetos
 		contenedor = QDialog()
 		l = QHBoxLayout()
@@ -208,6 +209,7 @@ Ejercicio:
 		l2.addWidget(chochin)
 
 		contenedor.show()
+	~~~~
 
 ![](pantallazos/programacion-interficies-layouts.png)
 
@@ -259,6 +261,7 @@ Ejercicio:
 	- Con código:
 
 
+		~~~~ {.python}
 			check = QCheckBox("Deshabilita")
 			lineEdit = QLineEdit("Valor inicial")
 			button = QPushButton("Limpia")
@@ -267,12 +270,13 @@ Ejercicio:
 			
 			check.toggled.connect(lineEdit.setDisabled)
 			button.triggered.connect(lineEdit.clear)
+		~~~~
 
-	- Nota: No llamamos a clear con (), le pasamos la funcion al signal para que la llame ella cuando toque
+	- Nota: No llamamos a `clear` usando los `()`, le pasamos la funcion al signal para que la llame ella cuando toque
 	- Si lo hacemos con codigo, no estamos limitados a los slots predefinidos
 	- Podemos hacer que disparen nuestros metodos o funciones:
-		- button.triggered.connect(miSlot) <- a una funcion libre
-		- button.triggered.connect(miInstancia.miSlot) <- a un metodo de un objeto python
+		- `button.triggered.connect(miSlot)` <- a una funcion libre
+		- `button.triggered.connect(miInstancia.miSlot)` <- a un metodo de un objeto python
 
 ## Heréncia
 
@@ -315,23 +319,140 @@ Ejercicio:
 	- O pintando uno desde cero
 - Lo típico es derivar QDialog o QMainWindow para hacer nuestro dialogo o ventana principal específica
 
-		class MiDialogo(QDialog) :
-		
-			def __init__(self):
-				# Nuestro constructor llama al de la super clase
-				# para que inicialice sus cosas
-				super(MiDialogo, self).__init__()
+	~~~~ {.python}
+	class MiDialogo(QDialog) :
+	
+		def __init__(self):
+			# Nuestro constructor llama al de la super clase
+			# para que inicialice sus cosas
+			super(MiDialogo, self).__init__()
 
-				# Y aqui inicializariamos las nuestras
-				# llenandonos de widgets, fijando layouts...
+			# Y aqui inicializariamos las nuestras
+			# llenandonos de widgets, fijando layouts...
+	~~~~
 
 - De esta manera podemos tener lo que antes pero podemos reusarlo como clase (podemos instanciarla varias veces)
 
-		w = MiDialogo()
-		w2 = MiDialogo()
-		w.show()
-		w2.show()
+	~~~~ {.python}
+	w = MiDialogo()
+	w2 = MiDialogo()
+	w.show()
+	w2.show()
+	~~~~
 
+## Modelo-Vista-Controlador
+
+Separamos las responsabilidades:
+
+- Por un lado esta el objeto **modelo** que contiene los datos del negocio
+- Por otro lado esta la **vista** que contiene lo que esta editando el usuario
+- Un tercer elemento es el que se encarga de pasar la información de un lado a otro
+
+Creemos un dialogo que edite un objeto cliente, que será nuestro modelo.
+
+~~~~ {.python}
+
+class EditorDatos(QtGui.QDialog):
+
+	def __init__(self, cliente):
+		super(EditorContratos, self).__init__()
+
+		# Nos guardamos una referencia al modelo
+		self.cliente = cliente
+
+		# Creamos la estructura de widgets
+
+		layout = QtGui.QFormLayout()
+		self.setLayout(layout)
+
+		# Nos guardamos el widget como atributo para poder acceder luego
+		self.nameEditor = QtGui.QLineEdit(self.cliente.name)
+		layout.addRow('Nombre', self.nameEditor)
+
+		# La botonera estandard con un par de botones estandard
+		buttons = QtGui.QDialogButtonBox(
+			QtGui.QDialogButtonBox.Ok |
+			QtGui.QDialogButtonBox.Cancel |
+			0)
+		layout.addRow(buttons)
+
+		# Interaccion
+
+		buttons.accepted.connect(self.onAccepted)
+		buttons.rejected.connect(self.reject)
+
+	def onAccepted(self):
+		# Aplicamos el cambio al modelo
+		self.cliente.name = self.nameEditor.text()
+
+		# Al final acceptamos el dialogo (opuesto a 'reject')
+		self.accept()
+
+
+from namespace import namespace as ns
+
+app = QApplication()
+
+# Creamos el modelo
+datosCliente = ns()
+datosCliente.name = 'Perico Palotes'
+datosCliente.address = 'Percebe, 13'
+datosCliente.nif = '12345678Z'
+# Podriamos crearlo desde un fichero yaml con:
+# datosCliente = ns.load('cliente.yaml')
+
+# Creamos el widget
+editor = EditorContratos(datosCliente)
+editor.show()
+
+app.exec_()
+
+print(datosCliente)
+
+~~~~
+
+- **Ejercicio:** Prueba el programa anterior. ¿Que pasa cuando editas y pulsas a cancelar? ¿Y si pulsas a aceptar?
+- **Ejercicio:** Modifica el script anterior para que también se editen la dirección y el identificador fiscal.
+
+
+## Validación de datos
+
+- No todos los NIF son válidos
+- Para validar un nif: stdnum.es.nif.isValid("xxxxx")
+	- `sudo apt-get install python3-stdnum`
+- Mientras que no sea válido, no aplicamos el valor al modelo
+
+
+	~~~~{.python}
+		def __init__(self, cliente):
+			(...)
+			self.nifEditor.edited.connect(self.onNifEdited)
+			self.nifEditorNormalStyle = self.nifEditor.styleSheet()
+			self.nifEditorErrorStyle = "border: 1px solid red;"
+			(...)
+
+		def onNifEdited(self):
+			newNif = self.nifEditor.text()
+			if stdnum.es.nif.isValid(newNif):
+				self.nifEditor.setStyleSheet(self.nifEditorNormalStyle)
+				self.buttons.getButton(QtGui.QDialogButtonBox.Ok).setEnabled()
+			else:
+				self.nifEditor.setStyleSheet(self.nifEditorErrorStyle)
+				self.buttons.button(QtGui.QDialogButtonBox.Ok).setDisabled()
+
+		def onAccepted(self):
+			(...)
+			# Comprobamos que los campos sean correctos
+			newNif = self.nifEditor.text()
+			if stdnum.es.nif.isValid(newNif):
+				return
+			(...)
+			# Aplicamos los campos al modelo
+			self.cliente.nif = newNif
+			(...)
+			# Al final acceptamos el dialogo (opuesto a 'reject')
+			self.accept()
+	~~~~
 
 
 
