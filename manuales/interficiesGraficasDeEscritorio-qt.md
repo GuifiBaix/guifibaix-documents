@@ -47,6 +47,7 @@ Qt es una [librería] de programación para hacer interficies gráficas.
 	- Qt: [http://docs.qt.io/](http://docs.qt.io/)
 	- PySide: [http://pyside.github.io/docs/pyside/](http://pyside.github.io/docs/pyside/)
 	- La documentacion de Qt explica mejor las clases, pero el codigo de ejemplo esta en C++
+- Los ejemplos estarán en Python 3
 
 [librería]:(código ya hecho, listo para usar y reusar en diversos programas)
 
@@ -348,74 +349,97 @@ Separamos las responsabilidades:
 - Por otro lado esta la **vista** que contiene lo que esta editando el usuario
 - Un tercer elemento es el que se encarga de pasar la información de un lado a otro
 
+### Ejemplo
+
 Creemos un dialogo que edite un objeto cliente, que será nuestro modelo.
 
-~~~~ {.python}
+- El modelo será un objeto de tipo `namespace` de los que ya vimos.
+- Se lo pasaremos al constructor del diálogo para rellenar los campos.
+- Los widgets del dialogo, contienen los valores editados por el usuario (son la vista)
+- Cuando aceptemos el diálogo aplicamos los valores de la vista al modelo.
+- Si cancelamos el diálogo no los aplicamos.
 
-class EditorDatos(QtGui.QDialog):
+	~~~~ {.python}
+	#!/usr/bin/env python3
 
-	def __init__(self, cliente):
-		super(EditorContratos, self).__init__()
+	from PySide import QtGui
 
-		# Nos guardamos una referencia al modelo
-		self.cliente = cliente
+	class EditorDatos(QtGui.QDialog):
 
-		# Creamos la estructura de widgets
+		def __init__(self, cliente):
+			super(EditorDatos, self).__init__()
 
-		layout = QtGui.QFormLayout()
-		self.setLayout(layout)
+			# Nos guardamos una referencia al modelo
+			self.cliente = cliente
 
-		# Nos guardamos el widget como atributo para poder acceder luego
-		self.nameEditor = QtGui.QLineEdit(self.cliente.name)
-		layout.addRow('Nombre', self.nameEditor)
+			# Creamos la estructura de widgets
 
-		# La botonera estandard con un par de botones estandard
-		buttons = QtGui.QDialogButtonBox(
-			QtGui.QDialogButtonBox.Ok |
-			QtGui.QDialogButtonBox.Cancel |
-			0)
-		layout.addRow(buttons)
+			layout = QtGui.QFormLayout()
+			self.setLayout(layout)
 
-		# Interaccion
+			# Nos guardamos el widget como atributo para poder acceder luego
+			self.nameEditor = QtGui.QLineEdit(self.cliente.name)
+			layout.addRow('Nombre', self.nameEditor)
 
-		buttons.accepted.connect(self.onAccepted)
-		buttons.rejected.connect(self.reject)
+			# La botonera estandard con un par de botones estandard
+			buttons = QtGui.QDialogButtonBox(
+				QtGui.QDialogButtonBox.Ok |
+				QtGui.QDialogButtonBox.Cancel |
+				0)
+			layout.addRow(buttons)
 
-	def onAccepted(self):
-		# Aplicamos el cambio al modelo
-		self.cliente.name = self.nameEditor.text()
+			# Interaccion
 
-		# Al final acceptamos el dialogo (opuesto a 'reject')
-		self.accept()
+			buttons.accepted.connect(self.onAccepted)
+			buttons.rejected.connect(self.reject)
 
+		def onAccepted(self):
+			# Aplicamos el cambio al modelo
+			self.cliente.name = self.nameEditor.text()
 
-from namespace import namespace as ns
-
-app = QApplication()
-
-# Creamos el modelo
-datosCliente = ns()
-datosCliente.name = 'Perico Palotes'
-datosCliente.address = 'Percebe, 13'
-datosCliente.nif = '12345678Z'
-# Podriamos crearlo desde un fichero yaml con:
-# datosCliente = ns.load('cliente.yaml')
-
-# Creamos el widget
-editor = EditorContratos(datosCliente)
-editor.show()
-
-app.exec_()
-
-print(datosCliente)
-
-~~~~
-
-- **Ejercicio:** Prueba el programa anterior. ¿Que pasa cuando editas y pulsas a cancelar? ¿Y si pulsas a aceptar?
-- **Ejercicio:** Modifica el script anterior para que también se editen la dirección y el identificador fiscal.
+			# Al final acceptamos el dialogo (opuesto a 'reject')
+			self.accept()
 
 
-## Validación de datos
+	from namespace import namespace as ns
+
+	app = QApplication([])
+
+	# Creamos el modelo
+	datosCliente = ns()
+	datosCliente.name = 'Perico Palotes'
+	datosCliente.address = 'Percebe, 13'
+	datosCliente.nif = '12345678Z'
+
+	# Creamos el widget
+	editor = EditorDatos(datosCliente)
+	editor.show()
+
+	app.exec_()
+
+	print(datosCliente)
+
+	~~~~
+
+**Ejercicio:**
+
+1. Prueba el programa anterior. ¿Que ves en la consola cuando editas y pulsas a cancelar? ¿Y si pulsas a aceptar? ¿porqué?
+1. Modifica el script anterior para que también se editen la dirección y el identificador fiscal.
+1. Modifica el script anterior para que los datos se cargen de un fichero
+	- Pista: `datosCliente = ns.load('cliente.yaml')`
+1. Modifica el script anterior para que el fichero de entrada se especifique por linea de comandos.
+	- Pista: `ficheroDeEntrada = sys.argv[1]`
+1. Modifica el script para que si no le pasas este argumento, se cree un dato por defecto, como hacía antes.
+	- Pista: Si no hay argumentos `len(sys.argv)<=1`, recuerda que `sys.argv[0]` es el nombre del programa.
+1. Modifica el script para que cuando se acepte el dialogo, se escriba el nuevo objeto en el fichero.
+	- Pista: Hay que hacerlo despues del `exec_`
+	- Pista: Para saber si se ha aceptado: `editor.result() == QtGui.QDialog.Accepted`
+	- Atención: Fijate que `Accepted` en mayuscula es una constante, `accepted` en minúsculas es un _signal_
+	- Pista: Para guardar el yaml: `datosCliente.dump(nombreFichero)`
+	- Atención: Si no nos han pasado `nombreFichero` qué hacemos?
+
+
+### Validación de datos
 
 - No todos los NIF son válidos
 - Para validar un nif: stdnum.es.nif.isValid("xxxxx")
@@ -453,6 +477,367 @@ print(datosCliente)
 			# Al final acceptamos el dialogo (opuesto a 'reject')
 			self.accept()
 	~~~~
+
+### Editando campos tipo fecha
+
+**Ejercicio:**
+
+1. Añade un campo `birth` al YAML para poner el dia de nacimiento
+2. Añade al dialogo un widget `QDateEdit` para editarlo
+3. Rellenalo con el dato del `namespace` (busca el mètodo correspondiente en la documentación de la clase)
+4. Cuando aceptes el diálogo, toma el valor del widget con el método que tambien encuentres en la documentación.
+
+El `QDateEdit` no está mal, ¿pero a que molaría seleccionar la fecha en un calendario?
+
+**Para nota:** Edita la fecha con una combinacion de botones para saltar de mes y año y un `QCalendarWidget`.
+
+
+## Generación dinàmica de interfícies
+
+Sería muy util que el diálogo se adaptara a los campos que tenemos en el YAML.
+En los siguientes, apartados vamos a ir montando un editor genérico de YAML's.
+
+### Editor de un campo YAML
+
+Como decía Jack el Destripador, vayamos por partes.
+
+Hemos visto en el diálogo de arriba que para cada campo del `namespace`
+hay que hacer siempre lo mismo:
+
+- Inicializar el widget con el valor del modelo
+- Validar el valor del widget
+- Aplicar el valor del widget al modelo
+
+Hagamos una estructura que dado un `namespace` y un nombre de atributo,
+sepa hacer dicho teje maneje.
+
+~~~~ {.python}
+class NsTextEditor(QtGui.QWidget):
+
+	def __init__(self, data, attributeName):
+
+		# Como siempre llamamos al __init__ de la superclase
+		super(NsTextEditor, self).__init__()
+
+		self.data = data
+		self.attributeName = attributeName
+
+		# Un QWidget es un contenedor que no es ventana como QMainWindow o QDialog
+		# Como es un contenedor, necesitamos un layout para disponer los hijos
+		l = QtGui.QHBoxLayout()
+		self.setLayout(l)
+
+		# Como no conocemos el nombre no podemos usar la sintaxis '.'
+		valorInicial = data[attributeName]
+		self.editor = QLineEdit(valorInicial)
+		l.addWidget(self.editor)
+
+	def apply(self):
+		self.data[self.attributeName] = self.editor.text()
+~~~~
+
+Ahora podemos construir un dialogo generico con el siguiente código:
+
+
+~~~{.python}
+class EditorDatos(QtGui.QDialog):
+
+	def __init__(self, data):
+
+		# Siempre llamamos al super
+		super(EditorDatos, self).__init__()
+
+		# Nos guardamos una referencia al modelo
+		self.data = data
+
+		# Creamos la estructura de widgets
+		layout = QtGui.QFormLayout()
+		self.setLayout(layout)
+
+		# Nos construimos una lista con los editores de campo
+		self.editors = []
+		for name in self.data:
+			editor = NsTextEditor(self.data, name)
+			layout.addRow(name, editor)
+			self.editors.append(editor)
+
+		# La botonera estandard con un par de botones estandard
+		buttons = QtGui.QDialogButtonBox(
+			QtGui.QDialogButtonBox.Ok |
+			QtGui.QDialogButtonBox.Cancel |
+			0)
+		layout.addRow(buttons)
+
+		# Interaccion
+
+		buttons.accepted.connect(self.onAccepted)
+		buttons.rejected.connect(self.reject)
+
+	def onAccepted(self):
+		# Aplicamos el cambio al modelo, pero ahora via el editor
+		for editor in self.editors:
+			editor.apply()
+
+		# Al final acceptamos el dialogo (opuesto a 'reject')
+		self.accept()
+~~~~
+
+Si lo ejecutamos, vemos que hemos perdido dos cosas:
+
+- Tenemos que quitar el campo `birth` porque un `QLineEdit` trabaja con textos no con fechas.
+- Hemos perdido la validacion del `nif`.
+
+De momento, para probar, quitemos el campo `birth` de la entrada.
+
+### Soportando tipos no esperados
+
+Primer paso, en el caso en que tengamos un valor de tipo no esperado,
+vamos simplemente a enseñarlo sin dejarlo editar.
+
+- Vamos a convertir el valor a string con `str`
+- Vamos a crear un `QLabel` (Enseña un texto no editable)
+
+~~~{.python}
+class NsNoEditor(QtGui.QWidget):
+		# Como siempre llamamos al __init__ de la superclase
+		super(NsNoEditor, self).__init__()
+
+		self.data = data
+		self.attributeName = attributeName
+
+		# Un QWidget es un contenedor que no es ventana como QMainWindow o QDialog
+		# Como es un contenedor, necesitamos un layout para disponer los hijos
+		l = QtGui.QHBoxLayout()
+		self.setLayout(l)
+
+		# Como no conocemos el nombre no podemos usar la sintaxis '.'
+		valorInicial = data[attributeName]
+		self.editor = QtGui.QLabel(str(valorInicial))
+		l.addWidget(self.editor)
+
+	def apply(self):
+		# Es un dato que no conocemos, lo dejamos como està
+		pass
+
+class EditorDatos(QtGui.QDialog):
+	(...)
+	def __init__(self, data):
+		(...)
+		# Nos construimos una lista con los editores de campo
+		self.editors = []
+		for name in self.data:
+			attributeType = type(self.data[name])
+			if attributeType is str:
+				editor = NsTextEditor(self.data, name)
+			else:
+				editor = NsNoEditor(self.data, name)
+			layout.addRow(name, editor)
+			self.editors.append(editor)
+		(...)
+
+	(...)
+~~~
+
+### Don't repeat yourself (Refactorizando para tener herencia)
+
+Vemos que `NsTextEditor` y `NsNoEditor` comparten mucho código.
+La máxima de todo programador es _No te repitas_.
+Veremos lo útil que es la herencia para eliminar esa duplicación.
+
+- Identificamos lo común y lo diferente.
+	- Lo común es casi todo
+	- Lo diferente, el `apply` y la linea que crea el editor
+- Separamos lo diferente:
+	- Extraemos un metodo que cree el editor `createEditor`
+	- El apply ya esta separado
+- Movemos lo comun a la clase base
+
+~~~{.python}
+
+class NsFieldEditor(QWidget):
+	def __init__(self, data, attributeName):
+		# Como siempre llamamos al __init__ de la superclase
+		super(NsFieldEditor, self).__init__()
+
+		self.data = data
+		self.attributeName = attributeName
+
+		# Un QWidget es un contenedor que no es ventana como QMainWindow o QDialog
+		# Como es un contenedor, necesitamos un layout para disponer los hijos
+		l = QtGui.QHBoxLayout()
+		self.setLayout(l)
+
+		# Como no conocemos el nombre no podemos usar la sintaxis '.'
+		valorInicial = data[attributeName]
+		# Delegamos en el metodo createEditor
+		self.editor = self.createEditor(valorInicial)
+		l.addWidget(self.editor)
+
+	def createEditor(self, valorInicial):
+		# Nos aseguramos de que no se use la clase base, sino las derivadas
+		# y que las derivadas implementan el metodo
+		raise NotImplemented()
+
+	def apply(self):
+		# Lo mismo que con createEditor
+		raise NotImplemented()
+
+
+class NsNoEditor(NsFieldEditor)
+	def __init__(self, data, attributeName):
+		# Seguimos llamando a la base que ahora es NsFieldEditor
+		super(NsNoEditor, self).__init__(data, attributeName)
+
+	def createEditor(self, valorInicial):
+		return QtGui.QLabel(str(valorInicial))
+
+	def apply(self):
+		pass
+
+class NsTextEditor(NsFieldEditor)
+	def __init__(self, data, attributeName):
+		# Seguimos llamando a la base que ahora es NsFieldEditor
+		super(NsNoEditor, self).__init__(data, attributeName)
+
+	def createEditor(self, valorInicial):
+		return QLineEdit(valorInicial)
+
+	def apply(self):
+		self.data[self.attributeName] = self.editor.text()
+~~~
+
+El método `createEditor` es lo que se viene a llamar un _método factoría_,
+un método que retorna un objeto nuevo.
+Al definirlo así, las subclases pueden redefinir el tipo de objeto que se devuelve.
+
+### Volviendo a soportar fechas
+
+~~~{.python}
+class NsDateEditor(NsFieldEditor)
+	def __init__(self, data, attributeName):
+		# Seguimos llamando a la base que ahora es NsFieldEditor
+		super(NsDateEditor, self).__init__(data, attributeName)
+
+	def createEditor(self, valorInicial):
+		return QDateEdit(valorInicial)
+
+	def apply(self):
+		# Lo convertimos en nuestro tipo, más util, `dateutils.Date`
+		self.data[self.attributeName] = dateutils.Date(self.editor.date())
+
+class EditorDatos(QtGui.QDialog):
+	(...)
+	def __init__(self, data):
+		(...)
+		# Nos construimos una lista con los editores de campo
+		self.editors = []
+		for name in self.data:
+			attributeType = type(self.data[name])
+			if attributeType is str:
+				editor = NsTextEditor(self.data, name)
+			elif attributeType in (dateutils.Date, datetime.date):
+				editor = NsDateEditor(self.data, name)
+			else:
+				editor = NsNoEditor(self.data, name)
+			(...)
+~~~
+
+### Aprovechando la herencia de diferentes maneras
+
+Recuperemos la validación de NIFs creando una nueva clase.
+
+- Derivaremos de `NsTextEditor` para reaprovechar su código
+- Crearemos un nuevo método para validar
+- 
+
+
+~~~{.python}
+class NsFieldEditor(QWidget):
+	(...)
+	def isValid(self):
+		# Si la clase derivada no lo redefine, siempre valida
+		# Así no tenemos que definir el método en NsTextEditor y NsDateEditor
+		# Solo donde la validación pueda fallar
+		return True
+
+class NsNifEditor(NsTextEditor)
+	def __init__(self, data, attributeName):
+		# Seguimos llamando a la base que ahora es NsFieldEditor
+		super(NsNifEditor, self).__init__(data, attributeName)a
+
+		self.editor.edited.connect(self.onEdited)
+		self.normalStyle = self.editor.styleSheet()
+		self.errorStyle = "border: 1px solid red;"
+
+	def onEdited(self):
+		newNif = self.editor.text()
+		if stdnum.es.nif.isValid(newNif):
+			self.editor.setStyleSheet(self.nifEditorNormalStyle)
+		else:
+			self.editor.setStyleSheet(self.nifEditorErrorStyle)
+
+	# tomamos el apply y el createEditor de NsTextEditor
+
+	def isValid(self):
+		return stdnum.es.nif.isValid(self.editor.text())
+
+
+class EditorDatos(QtGui.QDialog):
+	(...)
+	def __init__(self, data):
+		(...)
+		# Nos construimos una lista con los editores de campo
+		self.editors = []
+		for name in self.data:
+			attributeType = type(self.data[name])
+			if attributeType is str:
+				if attributeName == 'nif' :
+					editor = NsNifEditor(self.data, name)
+				else:
+					editor = NsTextEditor(self.data, name)
+			elif attributeType in (dateutils.Date, datetime.date):
+				editor = NsDateEditor(self.data, name)
+			else:
+				editor = NsNoEditor(self.data, name)
+			(...)
+
+	def onAccepted(self):
+		# Validamos todos los campos
+		for editor in self.editors:
+			if not editor.isValid():
+				return
+		# Si todos son validos, seguimos
+		# Aplicamos el cambio al modelo, pero ahora via el editor
+		for editor in self.editors:
+			editor.apply()
+
+		# Al final acceptamos el dialogo
+		self.accept()
+~~~
+
+El diagrama de clases es una forma muy clara de ver la relación entre las clases y como se heredan atributos y métodos
+
+TODO: Diagrama de clases resultante
+
+Cosas que podemos aprender del código de arriba:
+
+- Si un método no se define en la derivada (subclase), se usa el que haya en la base (superclase)
+	- Ejemplo: `isValid` para `NsNoEditor`, `NsDateEditor` o `NsTextEditor`, usan el de `NsFieldEditor`
+	- Ejemplo: `NsNifEditor` usa `createWidget` y `apply` de `NsTextEditor`
+- Si se define, entonces se usa este, en vez del método de la derivada
+	- Ejemplo: `isValid` en `NsNifEditor` redefine el de  `NsFieldEditor`
+	- Ejemplo: `createWidget` y `apply` se redefinen en `NsDateEditor` y `NsTextEditor`
+- Si queremos hacer lo de la base y añadir más cosas, llamamos al metodo con `super` y despues hacemos lo nuestro
+	- Ejemplo: Todos los constructores `__init__` llaman al `__init__` de la super clase.
+- Como todos los constructores llaman los `__init__` de las superclases
+	- Todos los atributos que tienen las superclases estan disponibles en las subclases
+	- Ejemplo: `self.editor` lo podemos usar en el `isValid` de `NsNifEditor`.
+	- **¡¡Nunca te olvides de llamar al `__init__` de la superclase!!**
+
+
+
+
+
 
 
 
