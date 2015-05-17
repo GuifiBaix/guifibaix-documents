@@ -1,5 +1,38 @@
 # Programación: Interfícies gràficas de escritorio
 
+
+## Interfícies gràficas
+
+La interfície de usuario es la forma en que un programa deja interactuar al usuario con él.
+
+- **CLI (Comand Line Interface):** pe. `git`, `grep`
+	- Se pueden teclear en la consola
+	- Usan intensivamente los parametros de línia de comandos
+	- Pensados para combinarse en scripts y usando tuberías
+- **TUI (Text based User Interface):** pe. `htop`, `tig`, `aptitude`,
+	- Tambien son de consola de texto pero estan pensados para su uso interactivo.
+	- Una vez que se lanza el usuario puede controlarlo
+	- Combinaciones de teclas -> Comandos
+	- Visualizacion estructurada, paneles, menus...
+- **GUI (Graphical User Interface):** pe. `qgit`, `kdiff3`...
+	- **Son las que tocaremos ahora**
+	- Ventanas, botones, menús...
+- **WUI (Web-based User Interface):** pe. github, bitbucket, gitlab, mediateca, facebook...
+	- Se ejecutan en un servidor
+	- Se visualizan desde un navegador
+	- Basados en HTML+CSS+Javascript+Scripts de servidor
+
+No es una clasificación absoluta:
+
+- Un programa puede ofecer varias formas de interactuar.
+	- Ejemplo: Puedes usar la CLI del Inkscape (que normalmente usas como GUI) para exportar un SVG's como PNG o PDF.
+- Muchos GUI/TUI/WUI llaman a CLI por detras.
+	- Ejemplo: `aptitude` llama a una pleyade de comandos CLI `apt` (compruebalo con el htop en modo arbol)
+- La funcionalidad común de varios programas suele agruparse en librerias de funciones
+	- Si ofrecemos diferentes interficies tipo GUI, TUI y WUI para acceder a una misma funcionalidad, acabaremos haciendo una libreria con la funcionalidad comun
+		- Ejemplo: `libgit`, `libapt`
+
+
 ## La libreria Qt
 
 Qt es una [librería] de programación para hacer interficies gráficas.
@@ -15,12 +48,13 @@ Qt es una [librería] de programación para hacer interficies gráficas.
 	- PySide: TODO
 	- La documentacion de Qt explica mejor las clases, pero el codigo de ejemplo esta en C++
 
-[librería]: código ya hecho, listo para usar y reusar en diversos programas
+[librería]:(código ya hecho, listo para usar y reusar en diversos programas)
 
 ## Programa Python mínimo en Qt
 
 Ejercicio: Crea este script y ejecutalo
 
+~~~~ {.python}
 	#!/usr/bin/env python3
 	from PySide import QtGui
 	
@@ -28,6 +62,8 @@ Ejercicio: Crea este script y ejecutalo
 	w = QtGui.QDialog()
 	w.show()
 	app.exec_()
+~~~~
+
 
 En este programilla ya hay bastante teca que explicar:
 
@@ -38,20 +74,14 @@ En este programilla ya hay bastante teca que explicar:
 	- Culturilla: Las Qt son extensas y los modulos sirven para que
 	una applicación no tenga que arrastrarlas enteras,
 	solo las pijadas que necesite:
-		- Interficie gráfica
-		- Multimedia
-		- Animaciones
-		- Graficos 3D
-		- Redes
-		- Sensores (GPS, acelerómetro...)
-		- Navegacion web
+		- Interficie gráfica (QtGui)
+		- Multimedia (QtMultimedia)
+		- Graficos 3D (QtOpenGl)
+		- Redes (QtNetwork)
+		- Sensores (QtMobile)
+		- Navegacion web (QtWebKit)
+		- Bases de datos (QtSql)
 		- ...
-	- Culturilla2: QtGui viene de GUI que quiere decir ''Graphical User Interface''.
-	- Culturilla3: En contraste a los GUI estan los CLI, los TUI y los WUI.
-    	- Los CLI (Command line interface), pe. `git`, `grep`, estan pensado para su uso con tuberias y scripts,
-	 	- Los TUI (Text User Interfaces), pe. `htop`, `tig`, `aptitude`, tambien son de consola de texto pero estan pensados para su uso interactivo.
-		- Los WUI (Web-based User Interface) pe. `github`, `bitbucket`, `gitlab`, `mediateca`, `facebook`...
-		- Seguimos...
 - `QApplication` y `QDialog` son [clases] definidas dentro del modulo `QtGui`
 - Creamos instancias de esas clases llamándolas con los paréntesis como si fueran una función.
 - Al `QApplication` se le pasa una lista vacía `[]` o `sys.argv`
