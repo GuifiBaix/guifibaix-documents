@@ -1,7 +1,7 @@
 # Programación: Interfícies gràficas de escritorio
 
 
-## Interfícies gràficas
+## Interfícies de usuario (UI)
 
 La interfície de usuario es la forma en que un programa deja interactuar al usuario con él.
 
