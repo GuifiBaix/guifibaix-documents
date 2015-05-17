@@ -747,8 +747,9 @@ class EditorDatos(QtGui.QDialog):
 Recuperemos la validación de NIFs creando una nueva clase.
 
 - Derivaremos de `NsTextEditor` para reaprovechar su código
-- Crearemos un nuevo método para validar
-- 
+- Crearemos un nuevo método para validar a redefinir en las subclases
+- Esta vez daremos una implementación por defecto
+- Cuando el usuario acepte el diálogo, antes de aplicar, miraremos si los campos validan
 
 
 ~~~{.python}
