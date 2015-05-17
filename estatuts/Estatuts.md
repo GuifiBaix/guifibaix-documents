@@ -136,13 +136,11 @@ d) Rebre informació sobre les qüestions que afecten
    l'article 24 de la Llei de cooperatives de Catalunya,
    que regula el dret d'informació.
 
-e) Participar en els excedents, si n'hi ha, d'acord amb el que estableixen aquests estatuts.
-
-f) Percebre el reemborsament de l'aportació actualitzada
+e) Percebre el reemborsament de l'aportació actualitzada
    en cas de baixa, liquidació o separació
    per fusió, escissió o transformació de la cooperativa.
 
-g) Tot allò que resulti de les normes legals i estatutàries,
+f) Tot allò que resulti de les normes legals i estatutàries,
    i dels altres acords vàlidament adoptats pels òrgans de la cooperativa.
 
 
@@ -330,9 +328,14 @@ El capital social està constituït per les aportacions dels socis, obligatòrie
 que s'han d'acreditar mitjançant títols nominatius.
 Aquests títols han de reflectir amb claredat
 les aportacions,
-les actualitzacions,
-els interessos i
-els excedents que s'acordi capitalitzar.
+les actualitzacions i
+els interessos.
+
+Les aportacions de les persones sòcies al capital social,
+tant les obligatòries com les voluntàries,
+no poden meritar un interès superior a l’interès legal del diner,
+sens perjudici de les actualitzacions corresponents.
+
 
 Els títols han de tenir un valor de DEU euros cadascun.
 L'aportació mínima per adquirir la condició de soci treballador ha de ser de MIL euros,
@@ -370,17 +373,14 @@ a) Dels excedents comptabilitzats per la determinació del resultat cooperatiu,
 	com a mínim el 10% dels excedents nets de cada exercici
 	i ha de tenir com a finalitats:
 	la formació dels socis i dels treballadors en els principis i les tècniques cooperatives, empresarials, econòmiques i professionals;
-	la promoció de les relacions entre cooperatives i la difusió del cooperativisme, i
-	l'atenció a objectius d'incidència social i de lluita contra l'exclusió social.
-
-	TODO: afegir quotes a la federacio de cooperatives corresponent (nota 35)
+	la promoció de les relacions entre cooperatives i la difusió del cooperativisme,
+	l'atenció a objectius d'incidència social i de lluita contra l'exclusió social,
+	i el pagament de les quotes de les federacions a les que s'afilïi la cooperativa.
 
 b) Dels beneficis extracooperatius,
 	una vegada deduïdes les pèrdues de qualsevol naturalesa d'exercicis anteriors
 	i abans de l'impost sobre societats,
 	s'ha de destinar almenys el 50% al Fons de reserva obligatori.
-
-TODO: Revisar que quiere decir
 
 
 ## Article 22. Destinació dels excedents disponibles
@@ -457,8 +457,6 @@ a l'article 67.1 de la Llei de cooperatives de Catalunya.
 L'exercici econòmic de la cooperativa queda tancat el 31 de desembre de cada any.
 
 
-
-
 # CAPÍTOL IV. ORGANITZACIÓ FUNCIONAL INTERNA
 
 
@@ -467,7 +465,16 @@ L'exercici econòmic de la cooperativa queda tancat el 31 de desembre de cada an
 Els criteris bàsics del règim de la prestació del treball
 es regularan mitjançant el reglament intern de la cooperativa.
 
-
+Les condicions laborals dels socis treballadors,
+s'han de fixar al Reglament de Règim Interior a elaborar segons el paràgraf anterior
+però no poden ser inferiors a les que venen establertes
+en els convenis o normes generals de la zona per a l'activitat dels treballadors per compte aliena.
+Igualment, les retribucions dels socis treballadors
+i del personal que treballi per compte d’altri
+no pot superar el 150% de les retribucions que,
+en funció de l’activitat i la categoria professional,
+estableixi el conveni col·lectiu aplicable
+al personal assalariat del sector i de la zona corresponent.
 
 
 # CAPÍTOL V. GOVERN, GESTIÓ I REPRESENTACIÓ DE LA COOPERATIVA
@@ -708,14 +715,6 @@ Els drets i deures dels socis excedent, es modifiquen de la següent forma:
 -	Els socis excedents no tenen dret a cap retorn cooperatiu.
 -	Els socis excedents tenen dret de veu, però no de vot, a l’assemblea general, respectant, en tot cas el que estableix l'article 27 b).
 
-
-
-TODO: Incloure requisits per la condició de sense ànim de lucre:
-
-- la no distribució d’excedents de lliure disposició entre les persones sòcies.
-- la no remuneració dels càrrecs del consell rector ni de les persones interventores de comptes.
-- que les aportacions de les persones sòcies no meritin un interès superior a l’interès legal del diner.
-- que les remuneracions de les persones sòcies treballadores no superin el 150% de les retribucions fixades en el conveni col·lectiu corresponent.
 
 
 
