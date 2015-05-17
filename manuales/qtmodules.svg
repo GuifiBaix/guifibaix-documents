@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="176mm"
+   height="125mm"
+   id="svg3920"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   viewBox="0 0 623.62204 442.91338"
+   sodipodi:docname="qtmodules.svg"
+   inkscape:export-filename="/home/vokimon/Documents/guifibaix/documents/manuales/qtmodules.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
+  <defs
+     id="defs3922" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0606602"
+     inkscape:cx="379.46318"
+     inkscape:cy="202.32277"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4822"
+     showgrid="false"
+     units="mm"
+     inkscape:window-width="1680"
+     inkscape:window-height="991"
+     inkscape:window-x="-4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3925">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,-43.086611)">
+    <g
+       id="g4878"
+       transform="translate(0,20)">
+      <g
+         transform="translate(-204.58956,-33.119886)"
+         id="g4758">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect3928"
+           width="184.79057"
+           height="115.02271"
+           x="219.41574"
+           y="78.706497"
+           ry="10.370899" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="312.2749"
+           y="111.70481"
+           id="text4730"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             sodipodi:role="line"
+             id="tspan4732"
+             x="312.2749"
+             y="111.70481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif">QtGui</tspan></text>
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4752"
+           y="145.41718"
+           x="311.41797"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="145.41718"
+             x="311.41797"
+             id="tspan4754"
+             sodipodi:role="line">Interfície</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="167.29218"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4756">Gráfica</tspan></text>
+      </g>
+      <g
+         id="g4766"
+         transform="translate(1.8856108,-33.119886)">
+        <rect
+           ry="10.370899"
+           y="78.706497"
+           x="219.41574"
+           height="115.02271"
+           width="184.79057"
+           id="rect4768"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4770"
+           y="111.70481"
+           x="312.2749"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="111.70481"
+             x="312.2749"
+             id="tspan4772"
+             sodipodi:role="line">QtMultimedia</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="311.41797"
+           y="145.41718"
+           id="text4774"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             id="tspan4778"
+             sodipodi:role="line"
+             x="311.41797"
+             y="145.41718"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Reproducción</tspan><tspan
+             sodipodi:role="line"
+             x="311.41797"
+             y="167.29218"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             id="tspan4949">Vídeo y audio</tspan></text>
+      </g>
+      <g
+         transform="translate(208.3608,-33.119886)"
+         id="g4780">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect4782"
+           width="184.79057"
+           height="115.02271"
+           x="219.41574"
+           y="78.706497"
+           ry="10.370899" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="312.2749"
+           y="111.70481"
+           id="text4784"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             sodipodi:role="line"
+             id="tspan4786"
+             x="312.2749"
+             y="111.70481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif">QtWebKit</tspan></text>
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4788"
+           y="145.41718"
+           x="311.41797"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="145.41718"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4792">Navegación</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="167.29218"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4955">web</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4901"
+       transform="translate(0,1.4539185)">
+      <g
+         id="g4794"
+         transform="translate(-204.58956,127.27922)">
+        <rect
+           ry="10.370899"
+           y="78.706497"
+           x="219.41574"
+           height="115.02271"
+           width="184.79057"
+           id="rect4796"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4798"
+           y="111.70481"
+           x="312.2749"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="111.70481"
+             x="312.2749"
+             id="tspan4800"
+             sodipodi:role="line">QtNetwork</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="311.41797"
+           y="145.41718"
+           id="text4802"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             id="tspan4806"
+             sodipodi:role="line"
+             x="311.41797"
+             y="145.41718"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Aplicaciones</tspan><tspan
+             sodipodi:role="line"
+             x="311.41797"
+             y="167.29218"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             id="tspan4961">cliente-servidor</tspan></text>
+      </g>
+      <g
+         transform="translate(1.8856108,127.27922)"
+         id="g4808">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect4810"
+           width="184.79057"
+           height="115.02271"
+           x="219.41574"
+           y="78.706497"
+           ry="10.370899" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="312.2749"
+           y="111.70481"
+           id="text4812"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             sodipodi:role="line"
+             id="tspan4814"
+             x="312.2749"
+             y="111.70481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif">QtSql</tspan></text>
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4816"
+           y="145.41718"
+           x="311.41797"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="145.41718"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4820">Acceso a</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="167.29218"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4965">bases de datos</tspan></text>
+      </g>
+      <g
+         id="g4822"
+         transform="translate(208.3608,127.27922)">
+        <rect
+           ry="10.370899"
+           y="78.706497"
+           x="219.41574"
+           height="115.02271"
+           width="184.79057"
+           id="rect4824"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4826"
+           y="111.70481"
+           x="312.2749"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="111.70481"
+             x="312.2749"
+             id="tspan4828"
+             sodipodi:role="line">QtOpenGl</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="311.41797"
+           y="145.41718"
+           id="text4830"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             sodipodi:role="line"
+             x="311.41797"
+             y="145.41718"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             id="tspan4969">Graficos 3D</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4924">
+      <g
+         transform="translate(-204.58956,270.58619)"
+         id="g4836">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect4838"
+           width="184.79057"
+           height="115.02271"
+           x="219.41574"
+           y="78.706497"
+           ry="10.370899" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="312.2749"
+           y="111.70481"
+           id="text4840"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             sodipodi:role="line"
+             id="tspan4842"
+             x="312.2749"
+             y="111.70481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif">QtHelp</tspan></text>
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4844"
+           y="145.41718"
+           x="311.41797"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="145.41718"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4973">Sistema de</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="167.29218"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4977">ayuda integrada</tspan></text>
+      </g>
+      <g
+         id="g4850"
+         transform="translate(1.8856108,270.58619)">
+        <rect
+           ry="10.370899"
+           y="78.706497"
+           x="219.41574"
+           height="115.02271"
+           width="184.79057"
+           id="rect4852"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4854"
+           y="111.70481"
+           x="312.2749"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="111.70481"
+             x="312.2749"
+             id="tspan4856"
+             sodipodi:role="line">QtUiTools</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="311.41797"
+           y="145.41718"
+           id="text4858"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             sodipodi:role="line"
+             x="311.41797"
+             y="145.41718"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             id="tspan4981">Acceso a archivos</tspan><tspan
+             sodipodi:role="line"
+             x="311.41797"
+             y="167.29218"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             id="tspan4983">de Designer</tspan></text>
+      </g>
+      <g
+         transform="translate(208.3608,270.58619)"
+         id="g4864">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#b4ba56;fill-opacity:1;fill-rule:nonzero;stroke:#55702e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect4866"
+           width="184.79057"
+           height="115.02271"
+           x="219.41574"
+           y="78.706497"
+           ry="10.370899" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="312.2749"
+           y="111.70481"
+           id="text4868"
+           sodipodi:linespacing="125%"
+           inkscape:transform-center-x="1.8856181"
+           inkscape:transform-center-y="-9.4280956"><tspan
+             sodipodi:role="line"
+             id="tspan4870"
+             x="312.2749"
+             y="111.70481"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:sans-serif">QtScript</tspan></text>
+        <text
+           inkscape:transform-center-y="-9.4280956"
+           inkscape:transform-center-x="1.8856181"
+           sodipodi:linespacing="125%"
+           id="text4872"
+           y="145.41718"
+           x="311.41797"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="145.41718"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4876">Scripts de usuario</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             y="167.29218"
+             x="311.41797"
+             sodipodi:role="line"
+             id="tspan4989">(Macros)</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
