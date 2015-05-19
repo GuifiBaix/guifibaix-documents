@@ -77,8 +77,8 @@ Aprovechamos para repasar conceptos que ya conocemos: clases y modulos/paquetes.
 	- Culturilla: Las Qt son extensas y los modulos sirven para que
 	una applicación no tenga que arrastrarlas enteras,
 	solo las pijadas que necesite:
-	![](img/qtmodules.svg)
-- `QApplication` y `QDialog` son [clases] definidas dentro del modulo `QtGui`
+	![](img/qtmodules.png)
+- `QApplication` y `QDialog` son clases definidas dentro del modulo `QtGui`, llegamos a ellas usando la sintaxis del '.'
 - Creamos instancias de esas clases llamándolas con los paréntesis como si fueran una función.
 - Asignamos esas instancias a las variables `app` y `w` respectivamente.
 - Al `QApplication` hay que pasarle una lista vacía `[]` o `sys.argv`
@@ -275,6 +275,10 @@ Ejercicio:
 	- Podemos hacer que disparen nuestros metodos o funciones:
 		- `button.triggered.connect(miSlot)` <- a una funcion libre
 		- `button.triggered.connect(miInstancia.miSlot)` <- a un metodo de un objeto python
+		- `button.triggered.connect(lambda: print ("pulsado"))` <- una funcion lambda (escrita a pelo)
+
+	- Ejercicio: Crea una funcion `avisaPorConsola` que se llame cuando pulses uno de los botones e imprima un aviso.
+
 
 ## Heréncia
 
@@ -283,9 +287,12 @@ Ejercicio:
 - Ejemplo: La superclase Animal incluye las subclases Gato, Humano, Pajaro.
 - Todos los atributos y métodos comunes a todos los animales los definimos en Animal
 - Cada subclase define o redefine las cosas especificas de cada una
+- Ventajas:
+	- Simplifica la programación, reduciendo duplicación de código
+	- Facilita la comprensión de los sistemas: Si te dicen que el Ñu es un rumiante ya sabes bastante de él puesto que conoces otros rumiantes como la vaca. Pedirás, ¿en qué se diferencia un ñu de una vaca?
 
 - Un ejemplo más informático:
-	- QWidget es la clase base de todos los elementos define cosas como:
+	- QWidget es la clase base de todos los elementos gráficos, define cosas como:
 		- Propiedades: nombre, tamaño, posicion, hijos...
 		- Metodos: resize, paint, setEnabled...
 	- Un PushButton coge todo lo de Widget y añade:
@@ -296,9 +303,9 @@ Ejercicio:
 		- QCheckBox, QToolButton, QRadioButton...
 		- Para ello se interpone una clase intermedia que tiene todo lo comun de los botones QAbstractButton
 		- Abstract porque no existe ningun objeto que sea solo QAbstractButton
-		- Igual que no hay ningun animal que sea solo animal
+		- Igual que no hay ningun animal que sea solo rumiante sin ser tambien vaca, ñu o lo que sea.
 
-- Observa en el Designer como las propiedades estan ordenadas por la clase en la que se definen
+- Observa en el Designer como las propiedades se ordenan por la clase en la que se definen
 	- Las mas específicas estan abajo del todo
 	- QObject <- QWidget <- QAbstractButton <- QPushButton
 - Porque va bien la heréncia?
@@ -309,8 +316,7 @@ Ejercicio:
 	- Propiedades
 	- Signals
 	- Slots
-	- Metodos
-
+	- Métodos
 
 - Nosotros podemos derivar nuestros propios widgets personalizados
 	- A base de combinar widgets bàsicos (lo normal)
@@ -327,16 +333,49 @@ Ejercicio:
 
 			# Y aqui inicializariamos las nuestras
 			# llenandonos de widgets, fijando layouts...
+			# Lo mismo que haciamos antes fuera de la clase
+			# pero substituyendo contendor por 'self'
+			l = QHBoxLayout()
+			l2 = QVBoxLayout()
+			hola = QPushButton('Hola')
+			mundo = QPushButton('Mundo')
+			chao = QPushButton('Chao')
+			chochin = QPushButton('Chochin')
+
+			# Organizamos la estructura
+			self.setLayout(l)
+			l.addWidget(hola)
+			l.addWidget(mundo)
+			l.addLayout(l2)
+			l2.addWidget(chao)
+			l2.addWidget(chochin)
 	~~~~
 
-- De esta manera podemos tener lo que antes pero podemos reusarlo como clase (podemos instanciarla varias veces)
+- Ventajas de definir una clase:
+	- El código relacionado con esta interficie esta agrupado en una clase
+		- Nos permite despreocuparnos de él cuando estamos mirando otras cosas.
+	- Podemos instanciarla varias veces
 
-	~~~~ {.python}
-	w = MiDialogo()
-	w2 = MiDialogo()
-	w.show()
-	w2.show()
-	~~~~
+		~~~~ {.python}
+		w = MiDialogo()
+		w2 = MiDialogo()
+		w.show()
+		w2.show()
+		~~~~
+
+	- Podemos tener nuestros slots agrupados como métodos
+	- Si necesitamos acceder a posteriori a los elementos, nos los guardamos como atributos
+		~~~{.python}
+		class MiDialogo(QtGui.QDialog):
+
+			def __init__(self):
+				(...)
+				self.hola = QPushButton('Hola')
+				self.hola.triggered.connect(self.onHolaTriggered)
+				(...)
+
+			def onHolaTriggered(self):
+				self.hola.setText('Adios')
 
 ## Modelo-Vista-Controlador
 
