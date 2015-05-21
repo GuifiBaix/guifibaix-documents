@@ -1,4 +1,4 @@
-# Programación: El lenguaje Python (version 3)
+# Programación: El lenguaje Python 3
 
 ## Lenguajes de programación
 
@@ -208,47 +208,106 @@ En resumen:
 
 **Operadores numéricos:** Són los que operan con números y obtienen números (floats, ints...).
 
-- Suma (`+`)
-- Resta (`-`)
-- Multiplicación (`*`)
-- División (`/`)
-- División entera (`//`) (Por ejemplo `423 // 10` es `42`, quitando los decimales)
-- Resto de la división entera (`%`) (Por ejemplo `423 % 10` es `3`)
-- Exponeciación (`**`)  (Por ejemplo: `3**2` es `9`)
+~~~{.python}
+>>> print(10+3, 10-3, 10*3, 10/3)  # Suma, resta, multiplicación, división
+13 7 30 3.3333333333333335
+>>> print(10//3, 10%3)  # Division entera y resto
+3 1
+>>> print(10**3)  # Potencia
+1000
+~~~
+
+**Ejercicio:** Usa el ipython3 como calculadora.
+En ipython no necesitas `print`,
+cada vez que escribes una expresión, el valor resultante se imprime.
+
+~~~{.python}
+In [1]: 10/3
+Out [1]: 3.3333333333333335
+~~~
+
+### Operadores con texto
+
+Algunos operadores numéricos tambien tienen sentido con texto:
+
+~~~{.python}
+>>> print( "Hola" + "mundo" )  # juntamos los dos textos (sin espacio!)
+Holamundo
+>>> print("hola"*4)    # Multiplicar por un numero, repite el texto
+holaholaholahola
+~~~
+
 
 ### Valores y operadores booleanos
 
-Solo hay dos valores posibles del tipo `bool`: `True` y `False`.
+Los booleanos representan condiciones, cosas que pueden ser bien ciertas o bien falsas.
 
-Se pueden combinar en expresiones mediante los operadores booleanos `or`, `and` y `not`.
+- Nos sirven para tomar decisiones.
+- El tipo booleano (`bool`) solo tiene dos valores posibles representados por los literales `True` y `False`.
+- Se pueden combinar en expresiones mediante los operadores booleanos `or`, `and` y `not`.
 
 ~~~{.python}
-elEsMayorDeEdad = True
-ellaEsMayorDeEdad = True
+annaQuiereConducir = True
+toniQuiereConducir = False
 
-hayDelito = (elEsMayorDeEdad and not ellaEsMayorDeEdad) or (ellaEsMayorDeEdad and not elEsMayorDeEdad)
+annaConduce = annaQuiereConducir and (not toniQuiereConducir)
+toniConduce = toniQuiereConducir and (not annaQuiereConducir)
+losDosQuieren = annaQuiereConducir and toniQuiereConducir
+ningunoQuiere = (not annaQuiereConducir) and (not toniQuiereConducir)
+loEchamosASuerte = losDosQuieren or ningunoQuiere
 ~~~
 
-Los valores resultantes, son los que indican las tablas de verdad:
+Los valores resultantes de los operadores
+se indican esta tabla de verdad:
 
-`a`       `b`      `a or b`    `a and b`   `not a`
---------- -------  ----------  ----------  ---------
- `True`    `True`     `True`     `True`     `False`
- `True`    `False`    `True`     `False`    `False`
- `False`   `True`     `True`     `False`    `True`
- `False`   `False`    `False`    `False`    `True`
+`a`         `b`       `a or b`     `a and b`    `not a`
+--------- - ------- - ---------- - ---------- - ---------
+`True`      `True`    `True`       `True`       `False`
+`True`      `False`   `True`       `False`      `False`
+`False`     `True`    `True`       `False`      `True`
+`False`     `False`   `False`      `False`      `True`
+
+### Sentencia condicional `if`
+
+Una de las utilidades de los booleanos es la capacidad
+de ejecutar o no código dependiendo de una condición.
+
+La sentencia `if` nos permite ejecutar una serie de comandos solo si se cumple una condición:
+
+~~~{.python}
+if toniConduce:
+	print ('Que conduzca Toni')
+if annaConduce:
+	print ('Que conduzca Anna')
+if loEchamosASuerte :
+	print('Mejor tira una moneda, cara anna, cruz toni')
+~~~
+
+
+
 
 
 
 ### Operadores de comparación
 
-**Operadores de comparacion:** Son los que toman dos valores y devuelven un valor booleano `True` o `False`.
+**Operadores de comparacion:** Son los que comparan dos valores y devuelven un valor booleano `True` o `False`.
 
+- De magnitud: `<`, `>`, `<=`, `>=`, `<`, `==`, `!=`
 
+	~~~{.python}
+	>>> print(1<3)
+	True
+	>>> print(10<3)
+	False
+	>>> print('alfredo' < 'benito')  # orden alfabético
+	True
+	~~~
 
-- De magnitud: `<`, `>`, `<=`, `>=`, `<`
-- De igualdad: `==`, `!=`
 - De identidad: `is`, `is not`
+	~~~{.python}
+	
+	~~~
+
 
 
 #### La diferencia entre la igualdad y la identidad
@@ -361,19 +420,6 @@ True
 False
 ~~~
 
-
-### Enteros
-
-Los enteros (`int`) son números positivos y negativos que no tienen decimales.
-
-Podemos combinarlos para obtener otros enteros con los operadores de:
-
-- Suma `+`
-- Resta `-`
-- Multiplicación `*`
-- División `/` (ojo, con este se pueden obtener `float`)
-- División entera `\\`
-- Resto de division entera `%`
 
 
 
