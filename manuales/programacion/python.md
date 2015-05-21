@@ -284,10 +284,6 @@ if loEchamosASuerte :
 ~~~
 
 
-
-
-
-
 ### Operadores de comparación
 
 **Operadores de comparacion:** Son los que comparan dos valores y devuelven un valor booleano `True` o `False`.
@@ -307,6 +303,46 @@ if loEchamosASuerte :
 	~~~{.python}
 	
 	~~~
+
+### Evalua con cortocircuito o muere
+
+La evaluación de las expresiones booleanas se hace con cortocircuito.
+Eso quiere decir que si evaluamos la izquierda del operador y por la tabla
+de verdad ya sabemos el resultado, no evaluamos el otro lado.
+
+- Si la izquierda de un `and` es `False` ya no se evalua la expresión de la derecha, y se retorna `False`
+- Si la izquierda de un `or` es `True` ya no se evalua la expresión de la derecha, y se retorna `True`
+
+Esto no solo hace que la 
+
+Así que a menudo se usa `and` y `or` para ejecutar condicionalmente la segunda expresion.
+
+Los cortocircuitos se usan a menudo con idiomas bastante expresivos (y barriobajeros) como:
+
+~~~{.python}
+condicionNecesaria or die("No se ha dado la condicion necesaria para seguir!!")
+# equivalente a:
+if not condicionNecesaria :
+	die("No se ha dado la condicion necesaria para seguir!!")
+
+condicionDeError and die("Se ha dado la condicion de error!!")
+# equivalente a:
+if condicionDeError:
+	die("Se ha dado la condicion de error!!")
+~~~
+
+Donde `die` es una funcion que imprime el mensaje y sale del programa.
+El cortocircuito de evaluación hace que la funcion `die` no se ejecute
+si `condicionNecesaria` es `True` o si `condicionDeError` es `False`.
+
+En cualquier caso, hay que tener cuidado cuando usemos expresiones booleanas
+porque puede que una parte de los operandos, no se lleguen a evaluar.
+Si la expresion en los operandos tiene efectos colaterales necesarios,
+no se ejecutarán.
+
+
+### Alternativas
+
 
 
 
