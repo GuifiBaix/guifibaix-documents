@@ -90,7 +90,7 @@ TODO: Coses que poden anar malament
 ## Configuració bàsica (agafar internet d'altres antenes)
 
 
-- NOTA: A les versions noves (novembre 2014) l'opció per per cambiar entre el menu qmp y el menu administracio, està abaix de tot de cada pàgina.
+- NOTA: A les versions noves (novembre 2014) l'opció per canviar entre el menu qmp y el menu administracio, està abaix de tot de cada pàgina.
 - Canviar la contrasenya a Administration/System/Administration/Router Password
 	- Nota: amb return no hi ha prou, ves avall i dona-li a "Save & Apply"
 - qMp/Node configuration/qmp Easy SetUp
