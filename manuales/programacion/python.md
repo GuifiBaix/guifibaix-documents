@@ -58,7 +58,8 @@ Nos centraremos en la version 3 (3.4.3 en el momento de escribir esto).
 - [La documentación del lenguaje](https://docs.python.org/3/)
 - Para aprender Python hay tres elementos:
 	- El **lenguaje**, que son las reglas de como decir las cosas.
-		- Encontraras informacion en la [referencia del lenguaje](https://docs.python.org/3/reference/index.html)
+		- La descripción formal de la sintaxis la puedes encontrar en la [referencia del lenguaje](https://docs.python.org/3/reference)
+		- Un poco más explicado aunque en inglés lo tienes en el [tutorial](https://docs.python.org/3/tutorial)
 	- Las **librerias estandard**, que són cosas que no hace falta que programes tú, porqué ya están programadas:
 		- Encontrarás informacion en la [referencia de la libreria estándard](https://docs.python.org/3/library/index.html)
 	- Las librerías no estándard. Aunque no vengan por defecto algunas son de uso muy extendido.
@@ -140,16 +141,18 @@ podemos ejecutarlo pasandoselo como primer parámetro al intérprete:
 	hola mundo
 	~~~
 
-## Variables, valores, literales
+## Calculando expresiones en Python
+
+### Variables, valores, literales
 
 Una **variable** es un nombre por el cual referenciamos a un **valor**.
 
 ~~~{.python}
 >>> a = 23
->>> print(a)
+>>> a
 23
 >>> b = 10
->>> print(b)
+>>> b
 10
 ~~~
 
@@ -182,7 +185,19 @@ No uses nombres tontos cuando estés programando de verdad.
 >
 >> Martin Fowler (parafraseado)
 
-## Expresiones
+Así que para dar a entender el significado de una variable
+en vez de llamarla `a`, la llamaremos `anguloRecorrido`.
+Podríamos usar muchas nomenclaturas las mas comunes son:
+
+- **Camel Case**: `alteramosLasMayusculasAlInicioDePalabra`
+- **Underscore**: `separamos_las_palabras_con_subrayados`
+
+En qualquier caso,
+intentaremos usar un criterio unificado para cada proyecto.
+
+
+
+### Expresiones
 
 Una **expresión**
 combina variables y literales con **operadores**
@@ -191,7 +206,7 @@ para obtener un valor diferente.
 ~~~{.python}
 >>> a = 23
 >>> b = a+10
->>> print(b)
+>>> b
 33
 ~~~
 
@@ -209,33 +224,37 @@ En resumen:
 **Operadores numéricos:** Són los que operan con números y obtienen números (floats, ints...).
 
 ~~~{.python}
->>> print(10+3, 10-3, 10*3, 10/3)  # Suma, resta, multiplicación, división
-13 7 30 3.3333333333333335
->>> print(10//3, 10%3)  # Division entera y resto
-3 1
->>> print(10**3)  # Potencia
+>>> 10+3  # suma
+13
+>>> 10-3  # resta
+7
+>>> 10*3  # multiplicación
+30
+>>> 10/3  # división con decimales
+3.3333333333333335
+>>> 10//3  # división entera
+3
+>>> 10%3  # resto de la división entera
+1
+>>> 10**3  # potencia
 1000
 ~~~
 
-**Ejercicio:** Usa el ipython3 como calculadora.
-En ipython no necesitas `print`,
-cada vez que escribes una expresión, el valor resultante se imprime.
-
-~~~{.python}
-In [1]: 10/3
-Out [1]: 3.3333333333333335
-~~~
+**Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
 
 ### Operadores con texto
 
 Algunos operadores numéricos tambien tienen sentido con texto:
 
 ~~~{.python}
->>> print( "Hola" + "mundo" )  # juntamos los dos textos (sin espacio!)
-Holamundo
->>> print("hola"*4)    # Multiplicar por un numero, repite el texto
-holaholaholahola
+>>> "Hola" + "mundo"  # juntamos los dos textos (sin espacio!)
+'Holamundo'
+>>> 'hola'*4    # Multiplicar por un numero, repite el texto
+'holaholaholahola'
 ~~~
+
+Para delimitar los literales de texto podemos usar indistintamente comillas simples o dobles.
+Esto nos da la posibilidar de usar una o otra si el texto contiene una de las dos.
 
 
 ### Valores y operadores booleanos
@@ -260,12 +279,12 @@ loEchamosASuerte = losDosQuieren or ningunoQuiere
 Los valores resultantes de los operadores
 se indican esta tabla de verdad:
 
-`a`         `b`       `a or b`     `a and b`    `not a`
---------- - ------- - ---------- - ---------- - ---------
-`True`      `True`    `True`       `True`       `False`
-`True`      `False`   `True`       `False`      `False`
-`False`     `True`    `True`       `False`      `True`
-`False`     `False`   `False`      `False`      `True`
+`a`       | `b`     | `a or b`   | `a and b`  | `not a`
+--------- | ------- | ---------- | ---------- | ---------
+`True`    | `True`  | `True`     | `True`     | `False`
+`True`    | `False` | `True`     | `False`    | `False`
+`False`   | `True`  | `True`     | `False`    | `True`
+`False`   | `False` | `False`    | `False`    | `True`
 
 ### Sentencia condicional `if`
 
@@ -281,6 +300,18 @@ if annaConduce:
 	print ('Que conduzca Anna')
 if loEchamosASuerte :
 	print('Mejor tira una moneda, cara anna, cruz toni')
+~~~
+
+Un principio básico de la sintaxis de Python:
+
+> Siempre que una construcción del lenguaje acaba en dos puntos,
+> le sigue un bloque de instrucciones indentadas un nivel.
+
+~~~{.python}
+if condicion:
+	sentencia1   # estas dos sentencias solo se ejecutan si la condicion es cierta
+	sentencia2
+sentencia3       # Esta sentencia en el nivel superio se ejecutaria siempre
 ~~~
 
 
@@ -394,10 +425,6 @@ else:
 
 
 
-Un principio básico de la sintaxis de Python:
-
-> Siempre que una construcción del lenguaje acaba en dos puntos,
-> le sigue un bloque de instrucciones indentadas un nivel.
 
 ## Definiendo funciones
 
