@@ -1,4 +1,8 @@
-# Programación: El lenguaje Python 3
+---
+title: 'Programación: El lenguaje Python 3'
+---
+
+# Introducción
 
 ## Lenguajes de programación
 
@@ -10,7 +14,7 @@ o es más expresivo para según que tareas.
 Por eso hay una miriada de lenguajes.
 
 El ordenador solo entiende de instrucciones en código máquina.
-Dicho código no está pensado para que lo entiendan las personas,
+El codigo máquina no está pensado para que lo entiendan las personas;
 es una secuencia de números sin sentido,
 en la que cada número codifica
 algo que tiene que hacer el ordenador.
@@ -22,56 +26,62 @@ Los programas se escriben en archivos de texto,
 con unas reglas bastante rígidas, la sintaxis,
 que es lo que determina el lenguaje.
 
-Para pasar un programa escrito en un lenguaje de programación
-a código máquina ejecutable hay dos estrategias:
+Para que esos ficheros de texto,
+escritos en un lenguaje de programación,
+se conviertan en código máquina ejecutable por el ordenador
+usamos dos estrategias:
 
-Un __compilador__ convierte el programa en lenguaje y genera
-un archivo ejecutable/binario que incluye el código máquina.
-Ese archivo binario lo podremos ejecutar aunque ya no tengamos
-el compilador a mano.
+- ![Proceso de compilación](TODO)
 
-![Proceso de compilación](TODO)
+	Un __compilador__ hace la traducción una vez,
+	generando un archivo ejecutable/binario que incluye el código máquina.
+	Ese archivo binario lo podremos ejecutar sin necesitar el compilador
+	ni el texto original.
 
-Un __interprete__, en cambio, decide que código máquina
-ejecutar a medida que lee el programa,
-sin que haya que generar el archivo binario intermedio.
-En este caso, el interprete ha de estar disponible siempre
-para poder ejecutar el programa.
+	Ejemplos: C++, Java, Pascal... son lenguajes compilados.
 
-![Proceso de interpretación](TODO)
+- ![Proceso de interpretación](TODO)
+
+	Un __interprete__, en cambio, traduce el programa a código máquina
+	a la vez que lo ejecuta.
+	No genera el archivo binario intermedio
+	y necesitaremos tanto el texto (script) como el interprete
+	cada vez que lo queramos ejecutar.
+
+	Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
 
 En general, un lenguaje interpretado se ejecutará más
 lento que uno compilado, puesto que tiene que interpretar
 el texto antes de decidir que código máquina ejecutar.
+Esto, con los ordenadores actuales, cada vez es menos problema.
 Por otro lado, un lenguaje interpretado tiene un ciclo
-de desarrollo más ágil al ahorrarnos el paso de compilación,
-y el coste de interpretación es asumible con los ordenadores
-modernos.
+de desarrollo más ágil al ahorrarnos el paso de compilación.
 
-## Python
+## Buscando más cosas sobre Python
 
 Python es un lenguaje interpretado que
 se caracteriza por tener una sintaxis muy limpia y expresiva.
 
 Nos centraremos en la version 3 (3.4.3 en el momento de escribir esto).
 
-- [La documentación del lenguaje](https://docs.python.org/3/)
-- Para aprender Python hay tres elementos:
-	- El **lenguaje**, que son las reglas de como decir las cosas.
-		- La descripción formal de la sintaxis la puedes encontrar en la [referencia del lenguaje](https://docs.python.org/3/reference)
-		- Un poco más explicado aunque en inglés lo tienes en el [tutorial](https://docs.python.org/3/tutorial)
-	- Las **librerias estandard**, que són cosas que no hace falta que programes tú, porqué ya están programadas:
-		- Encontrarás informacion en la [referencia de la libreria estándard](https://docs.python.org/3/library/index.html)
-	- Las librerías no estándard. Aunque no vengan por defecto algunas son de uso muy extendido.
-		- Cada una tiene su propia documentación. Normalmente con formato similar al de las librerías estándard.
+Para aprender Python hay tres elementos:
 
+- El **lenguaje**, que son las reglas de como decir las cosas.
+	- La descripción formal de la sintaxis la puedes encontrar en la [referencia del lenguaje](https://docs.python.org/3/reference)
+	- Un poco más explicado, aunque en inglés, lo tienes en el [tutorial](https://docs.python.org/3/tutorial)
+- Las **librerias estandard**, que són cosas que no hace falta que programes tú, porqué ya están programadas:
+	- Encontrarás informacion en la [referencia de la libreria estándard](https://docs.python.org/3/library/)
+- Las **librerías no estándard**. Aunque no vengan por defecto algunas son de uso muy extendido.
+	- La mayoría de librerías no estándard, todas las decentes, están en el [Índice de paquetes](https://pypi.python.org/pypi)
+	- Cada una tiene su propia documentación. Normalmente con formato similar a la de las librerías estándard.
+- Si necesitas algo más, esta es [toda la documentación del lenguaje](https://docs.python.org/3/)
 
 Hay dos formas de ejecutar código Python:
 
 - tecleando sentencias en el interprete interactivo (python3 o, mejor, ipython3)
-- escribiendo las sentencias en un archivo de texto (script) y lanzándolas de golpe
+- escribiendo las sentencias en un archivo de texto (script) y lanzándolas de golpe con el intérprete
 
-### Intérprete interactivo
+## Usando el intérprete interactivo
 
 - El interprete interactivo te permite escribir código Python y ver los resultados de forma inmediata
 - Es ideal para probar cosas cortas
@@ -85,7 +95,6 @@ Hay dos formas de ejecutar código Python:
 	- Te completa expresiones con la tecla del tabulador
 	- Puedes ejecutar comandos del shell precediendolos con `!`
 	- Si le pones un signo `?` a una expresion te muestra ayuda sobre el objeto resultante
-	- Te enseña el resultado de la expresión escrita aunque no lo imprimas explicitamente
 
 Cuando digamos de ejecutar algo en un interprete lo solemos escribir así:
 
@@ -102,7 +111,7 @@ hola mundo
 
 
 
-### Scripts
+## Escribiendo y ejecutando scripts
 
 Un script es un fichero de texto que contiene
 las instrucciones de un programa escrito
@@ -113,8 +122,8 @@ Para que se pueda ejecutar sin problemas en Unix:
 - Necesitan permisos de escritura
 
 	~~~{.bash}
-	$ touch miscript.py
-	$ chmod +x miscript.py
+	$ touch miscript.py   # Crea un archivo si no existe
+	$ chmod +x miscript.py  # Activa los permisos de ejecución
 	~~~
 
 - La primera linea debe ser el _shebang_ que indica el interprete con el que se ejecuta el script.
@@ -141,9 +150,9 @@ podemos ejecutarlo pasandoselo como primer parámetro al intérprete:
 	hola mundo
 	~~~
 
-## Calculando expresiones en Python
+# Calculando expresiones en Python
 
-### Variables, valores, literales
+## Variables, valores, literales
 
 Una **variable** es un nombre por el cual referenciamos a un **valor**.
 
@@ -160,28 +169,28 @@ En Python, una misma variable en un script puede ir apuntando a valores diferent
 De hecho, puede apuntar incluso a valores de diferente tipo.
 
 Los **literales** son la forma en que expresar en un lenguaje
-los valores de un tipo concreto: `12`, `'hola'` y `0.31416`.
+los valores de un tipo concreto: `12`, `'hola'` y `3.1416`.
 
 ~~~{.python}
 a = 12        # tipo entero (int)
 a = 'hola'    # tipo texto (str)
-a = 0.31416   # tipo coma flotante (float)
+a = 3.1416   # tipo coma flotante (float)
 ~~~
 
-Consejos de programador abuelete:
+Consejos del programador abuelete:
 
 - Aunque puedas, no es recomendable reusar las variables.
-  Si en un punto la variable se refiere a una cosa,
+  Si en un punto una variable se refiere a una cosa,
   confunde que después se refiera a otra.
 - Usar nombres de variables de una letra tampoco es bueno,
   **los nombres de las variables tienen que recordarnos a que se refieren**.
 
 En los ejemplos, normalmente se abusa de los nombres tontos de variables.
-No uses nombres tontos cuando estés programando de verdad.
+**No uses nombres tontos cuando estés programando de verdad.**
 
 > «Cualquier programador escribe un programa que entienda la máquina.
-> Un buen programador se reconoce por escribir programas
-> que otros programadores entienden fácilmente.»
+> Un buen programador se reconoce por que escribe programas
+> que son fáciles de entender para sus compañeros (o el mismo, después).»
 >
 >> Martin Fowler (parafraseado)
 
@@ -192,12 +201,11 @@ Podríamos usar muchas nomenclaturas las mas comunes son:
 - **Camel Case**: `alteramosLasMayusculasAlInicioDePalabra`
 - **Underscore**: `separamos_las_palabras_con_subrayados`
 
-En qualquier caso,
-intentaremos usar un criterio unificado para cada proyecto.
+Ninguna es mejor que la otra pero, dentro de un proyecto,
+hay que unificar la forma de llamar a las cosas.
 
 
-
-### Expresiones
+## Expresiones
 
 Una **expresión**
 combina variables y literales con **operadores**
@@ -219,7 +227,7 @@ En resumen:
 - Una variable es un nombre que referencia a un valor
 - Una expresión combina valores para obtener un valor nuevo
 
-### Operadores numéricos
+## Operadores numéricos
 
 **Operadores numéricos:** Són los que operan con números y obtienen números (floats, ints...).
 
@@ -242,7 +250,7 @@ En resumen:
 
 **Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
 
-### Operadores con texto
+## Operadores con texto
 
 Algunos operadores numéricos tambien tienen sentido con texto:
 
@@ -257,13 +265,37 @@ Para delimitar los literales de texto podemos usar indistintamente comillas simp
 Esto nos da la posibilidar de usar una o otra si el texto contiene una de las dos.
 
 
-### Valores y operadores booleanos
+## Tipos booleanos
 
 Los booleanos representan condiciones, cosas que pueden ser bien ciertas o bien falsas.
 
 - Nos sirven para tomar decisiones.
 - El tipo booleano (`bool`) solo tiene dos valores posibles representados por los literales `True` y `False`.
-- Se pueden combinar en expresiones mediante los operadores booleanos `or`, `and` y `not`.
+
+## Operadores de comparación
+
+**Operadores de comparacion:** Son los que comparan dos valores y devuelven un valor booleano `True` o `False`.
+
+- De magnitud: `<`, `>`, `<=`, `>=`, `<`, `==`, `!=`
+
+	~~~{.python}
+	>>> 1<3
+	True
+	>>> 10<3
+	False
+	>>> 'alfredo' < 'benito'  # orden alfabético
+	True
+	>>> 'alfredo' == 'alfredo' # igualda
+	~~~
+
+- De identidad: `is`, `is not`
+	~~~{.python}
+	# Tienen algo más de sentido con objetos
+	~~~
+
+## Operadores booleanos
+
+Los booleanos se pueden combinar en expresiones mediante los operadores booleanos `or`, `and` y `not`.
 
 ~~~{.python}
 annaQuiereConducir = True
@@ -286,7 +318,7 @@ se indican esta tabla de verdad:
 `False`   | `True`  | `True`     | `False`    | `True`
 `False`   | `False` | `False`    | `False`    | `True`
 
-### Sentencia condicional `if`
+## Sentencia condicional `if`
 
 Una de las utilidades de los booleanos es la capacidad
 de ejecutar o no código dependiendo de una condición.
@@ -315,27 +347,7 @@ sentencia3       # Esta sentencia en el nivel superio se ejecutaria siempre
 ~~~
 
 
-### Operadores de comparación
-
-**Operadores de comparacion:** Son los que comparan dos valores y devuelven un valor booleano `True` o `False`.
-
-- De magnitud: `<`, `>`, `<=`, `>=`, `<`, `==`, `!=`
-
-	~~~{.python}
-	>>> print(1<3)
-	True
-	>>> print(10<3)
-	False
-	>>> print('alfredo' < 'benito')  # orden alfabético
-	True
-	~~~
-
-- De identidad: `is`, `is not`
-	~~~{.python}
-	
-	~~~
-
-### Evalua con cortocircuito o muere
+## Evalua con cortocircuito o muere
 
 La evaluación de las expresiones booleanas se hace con cortocircuito.
 Eso quiere decir que si evaluamos la izquierda del operador y por la tabla
@@ -372,12 +384,12 @@ Si la expresion en los operandos tiene efectos colaterales necesarios,
 no se ejecutarán.
 
 
-### Alternativas
+## Alternativas
 
 
 
 
-#### La diferencia entre la igualdad y la identidad
+### La diferencia entre la igualdad y la identidad
 
 Hasta ahora hemos visto tipos inmutables,
 `str`, `float`, `int`, `bool`...
@@ -391,7 +403,7 @@ En esos casos, los operadores de igualdad mirarán si tienen **el mismo contenid
 mientras los de identidad mirarán **si se trata del mismo objeto**.
 
 
-## Llamando funciones
+# Llamando funciones
 
 Otro elemento que podemos usar en una expresión son las funciones.
 Las **funciones** retornan valores calculados a partir de los parámetros que les enviamos con el operador paréntesis.
@@ -409,7 +421,7 @@ Por ejemplo, la función `max` retorna el mayor de los valores que le pasemos co
 Observa que `print` también es una función que llamamos con el operador paréntesis.
 
 
-## Sentencias condicionales
+# Sentencias condicionales
 
 Las sentencias condicionales permiten que 
 
@@ -426,7 +438,7 @@ else:
 
 
 
-## Definiendo funciones
+# Definiendo funciones
 
 Para definir una nueva función lo hacemos de la siguiente manera:
 
@@ -441,10 +453,10 @@ Para definir una nueva función lo hacemos de la siguiente manera:
 ~~~
 
 
-## Tipos básicos
+# Tipos básicos
 
 
-### Booleanos
+## Booleanos
 
 - Tienen dos literales `True` y `False`.
 - Ojo con la primera letra en mayúscula (otros lenguajes usan minúscula)
@@ -460,7 +472,7 @@ condicionNecesaria or die("No se ha dado la condicion necesaria para seguir!!")
 condicionDeError and die("Se ha dado la condicion de error!!")
 ~~~
 
-### No valor, `None`
+## No valor, `None`
 
 Hay un valor especial para indicar el concepto de _ningún valor_.
 
