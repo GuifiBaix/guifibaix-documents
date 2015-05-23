@@ -72,7 +72,7 @@ Para aprender Python hay tres elementos:
 - Las **librerias estandard**, que són cosas que no hace falta que programes tú, porqué ya están programadas y vienen de serie:
 	- Encontrarás informacion en la [referencia de la libreria estándard](https://docs.python.org/3/library/)
 - Las **librerías no estándard**. Aunque no vengan por defecto algunas son de uso muy extendido.
-	- La mayoría de librerías no estándard, todas las decentes, están en el [Índice de paquetes](https://pypi.python.org/pypi)
+	- Toda librería que se precie está incluida en el [índice de paquetes](https://pypi.python.org/pypi)
 	- Cada una tiene su propia documentación. Normalmente con formato similar a la de las librerías estándard.
 - Si necesitas algo más, esta es [toda la documentación del lenguaje](https://docs.python.org/3/)
 
@@ -126,7 +126,8 @@ Para que se pueda ejecutar sin problemas en Unix:
 	$ chmod +x miscript.py  # Activa los permisos de ejecución
 	~~~
 
-- La primera linea debe ser el _shebang_ que indica el interprete con el que se ejecuta el script.
+- Lo editamos con un editor de texto plano: kate, vim, gedit, nano, notepad++...
+- La primera linea del fichero debe ser el _shebang_ que indica el interprete con el que se ejecuta el script.
   En `myscript.py` escribiriamos:
 
 	~~~{.python}
@@ -135,14 +136,14 @@ Para que se pueda ejecutar sin problemas en Unix:
 	print('hola mundo')
 	~~~
 
-- Teniendolo así podemos ejecutarlo con:
+- Teniendolo así podemos ejecutarlo desde el shell con:
 
 	~~~{.bash}
 	$ ./miscript.py
 	hola mundo
 	~~~
 
-- Alternativamente, si el script no lleva ni shebang o no tiene permisos,
+- Alternativamente, si el script bien no lleva ni shebang o no tiene permisos,
 podemos ejecutarlo pasandoselo como primer parámetro al intérprete:
 
 	~~~{.bash}
@@ -175,7 +176,8 @@ Podemos usar Python como una calculador escribiendo expresiones numéricas.
 
 Cuando combinamos las expresiones,
 se resuelven por prioridad.
-Por ejemplo, la multiplicacion y división tienen mas prioridad que la suma y la resta.
+Por ejemplo, la multiplicacion y división tienen mas prioridad que la suma y la resta
+y la exponenciación más que la mutiplicación y la división.
 Por eso:
 
 ~~~{.python}
@@ -196,8 +198,9 @@ Si el orden no nos gusta podemos agrupar con paréntesis:
 20
 ~~~
 
-A veces, los paréntesis son útiles, aunque por prioridad no se necesiten,
-para que se entienda mejor una expresión compleja.
+A veces, los paréntesis son útiles
+para que se entienda mejor una expresión compleja,
+aunque por prioridad no se necesiten.
 
 **Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
 
@@ -207,7 +210,8 @@ para que se entienda mejor una expresión compleja.
 Antes de seguir, un poquitín de vocabulario:
 
 - Los datos que manejamos en el lenguaje son **valores**.
-- Dichos valores pueden ser de muchos **tipos**: un número entero (`int`) o con decimales (`float`), un texto (`str`), estructuras de datos...
+- Dichos valores pueden ser de muchos **tipos**.
+	- Hasta ahora hemos visto números enteros (`int`), con decimales (`float`) y textos (`str`)
 - La forma más directa de expresar un valor de un tipo son los **literales**. Cada tipo tiene su sintaxis:
 	- Enteros: `4`, `0`, `-5234`, `0xF4` (notación hexadecimal), `0b10010` (notación binaria)...
 	- Coma flotante (decimales): `3.1416`, `1.3e-13` (notacion científica)
@@ -218,12 +222,29 @@ Antes de seguir, un poquitín de vocabulario:
 Ahora sigamos viendo más tipos de valores, literales y expresiones.
 
 
-## Operadores con texto
+## Trabajando con texto
 
 El tipo `str` sirve para representar texto.
 Podemos construir literales de texto delimitando el texto entre comillas dobles o simples.
-Esto nos da la posibilidar de usar una o otra si el texto contiene una de las dos.
-Pero si el texto contiene ambas tenemos dos soluciones:
+
+~~~{.python}
+>>> "hola"
+'hola'
+>>> 'hola'
+'hola'
+~~~
+
+Tener dos tipos de comillas va bien cuando el texto
+contiene una de ellas, usamos la otra:
+
+~~~{.python}
+>>> print('Me dijo: "Adios" y me fuí')
+Me dijo: "Adios" y me fuí
+>>> print("Castellar de N'Hug")
+Castellar de N'Hug
+~~~
+
+Pero, si el texto contiene ambas, tenemos otras soluciones:
 
 ~~~{.python}
 >>> print('Usando sequencias de \'escape\'')
@@ -238,7 +259,7 @@ Las secuencias de escape con la contrabarra `\` tambien sirven para
 insertar saltos de linia (`\n`), tabuladores (`\t`)...
 De hecho para incluir una contrabarra hay que poner dos `\\`.
 Si un literal de texto contiene muchas contrabarras,
-igual nos combiene desabilitar las secuencias de escape
+igual nos combiene deshabilitar las secuencias de escape
 prefijando una `r` de 'raw' (crudo) al literal.
 
 Un uso común, por ejemplo, los ficheros en Windows:
@@ -353,11 +374,11 @@ IndexError: string index out of range
 'o'
 ~~~
 
-Si usamos indices negativos, empezamos por el final.
+Si usamos índices negativos, empezamos por el final.
 El último es el -1, el penúltimo el -2.
 
 ~~~{.python}
->>> a[-1]  # Con indices negativos empezamos por el final
+>>> a[-1]  # Con índices negativos empezamos por el final
 'o'
 >>> a[-2]
 'g'
@@ -374,7 +395,7 @@ El final no se incluye.
 'murcie'
 >>> a[2:] # si no pones el final se deduce que hasta el fin
 'rcielago'
->>> a[:5] + a[5:]  # ¿porque el indice 5 no esta repetido?
+>>> a[:5] + a[5:]  # ¿porque el índice 5 no esta repetido?
 'murcielago'
 ~~~
 
@@ -400,12 +421,12 @@ Normalmente es 1, pero si lo especificamos...
 **Pregunta:** ¿Qué retornaria a[5:5]? ¿Porqué?
 
 
-> **¿Porque la complicación de que se empiece por cero y que el indice del final no se incluya?**
+> **¿Porque la complicación de que se empiece por cero y que el índice del final no se incluya?**
 >
-> Algunos lenguajes lo intentaron, pusieron al 1 como primer indice, pretendiendo ser más simples.
+> Algunos lenguajes lo intentaron, pusieron al 1 como primer índice, pretendiendo ser más simples.
 > Parece que fuera a ser mas simples así.
 > Pero, por las operaciones que se suelen hacer cuando programas,
-> que los indices empiecen por 1 acaba siendo un incordio.
+> que los índices empiecen por 1 acaba siendo un incordio.
 > **Esos lenguajes que lo intentaron perecieron o malviven siendo muy odiados.**
 
 
@@ -700,6 +721,480 @@ En cualquier caso, hay que tener cuidado cuando usemos expresiones booleanas
 porque puede que una parte de los operandos, no se lleguen a evaluar.
 Si la expresion en los operandos tiene efectos colaterales necesarios,
 no se ejecutarán.
+
+## Condiciones anidadas
+
+Podemos anidar un `if` dentro de otro formando un árbol de decisión:
+
+~~~{.python}
+if meGustaElFutbol :
+	if miEquipo is 'Real Madrid':
+		print("Merenge!")
+	elif miEquipo is 'Barça':
+		print("Cules!")
+	else:
+		print("whatever")
+else
+	print("Mejor pensemos en otras cosas mas productivas")
+~~~
+
+Observa que los `else`s y `elif`s estan al mismo nivel que el `if`
+al que se corresponden y que los bloques de sentencias estan
+indentados aún más adentro.
+
+
+
+# Estructuras de datos
+
+Hasta ahora hemos visto valores muy simples.
+Una de las potencias de Python es la facilidad con la que se manejan estructuras de datos mas complejas.
+
+## Listas
+
+Las listas (tipo `list`) son sequencias ordenadas de valores.
+
+Los literales de las listas se construyen incluyendo los valores entre corchetes `[]` y separados por comas.
+Podemos acceder a los elementos con indices y rebanadas igual que con los textos `str`.
+
+~~~{.python}
+>>> l = [1,2,3,4,5]
+>>> l[3]
+4
+>>> l[-1]
+5
+>>> l[2::2]
+[3,5]
+~~~
+
+Los valores pueden ser de tipos diferentes. Incluso pueden ser otras listas.
+
+~~~{.python}
+>>> # Una lista que contiene listas
+>>> l = [[11,12],[21,22],'ultimo']
+>>> l[-1]
+'ultimo'
+>>> l[1]
+[21,22]
+>>> l[1][1]
+22
+~~~
+
+Podemos usar los operadores numericos como con los textos:
+
+~~~{.python}
+>>> [1,2,3] + [4,5,6] # Uniendo dos listas
+[1,2,3,4,5,6]
+>>> [0]*10  # creando una lista de 10 ceros
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+~~~
+
+Cuando trabajamos con textos, siempre creamos
+nuevos valores a partir de los anteriores.
+En cambio las listas las podemos modificar
+y mantienen su identidad aunque cambien su valor.
+
+~~~{.python}
+>>> l = [1,2,3,4]
+>>> l2 = l   # l2 apunta a la misma lista
+>>> l.append(5)  # añadir un elemento
+>>> l2   # el cambio afecta a l2
+[1,2,3,4,5]
+>>> l.extend([6,7]) # le añadimos los elementos de otra lista
+>>> l2
+[1,2,3,4,5,6,7]
+>>> del l[::3] # borra un elemento cada 3
+>>> l2
+[2,3,5,6]
+>>> l.insert(0,1) # en la posicion 0 inserta un 1
+>>> l.insert(3,6) # en la posicion 3 inserta un 4
+>>> l2
+[1,2,3,6,5,6]
+>>> l[3] = 4  # modificar directamente un valor
+>>> l2
+[1,2,3,4,5,6]
+>>> l3 = [1,2,3,4,5,6]  # Una lista diferente con los mismos valores
+>>> l is l3 # No son la misma lista
+False
+>>> l == l3 # pero tienen los mismos valores
+True
+>>> l is l2  # estas dos si que apuntan a la misma lista
+True
+>>> l4 = l[:]  # Un slice es una copia, aunque sea entera
+>>> l is l4
+False
+~~~
+
+
+
+
+## Bucles
+
+La sentencia `for` permite repetir la ejecución de sus subsentencias,
+para una serie de valores en una secuencia (es como se llaman los tipos que tienen items).
+Define una variable que va adoptando cada vez un valor de la secuencia.
+
+~~~{.python}
+>>> l = [1,2,3,4]
+>>> for item in l :
+...     doble = item*2
+...     print(doble)
+2
+4
+6
+8
+~~~
+
+En este código, la variable `item` va adoptando los valores
+incluidos en la lista y ejecuta las sentencias de dentro.
+
+A diferencia de las funciones, aquí las variables como `doble` o `item` no se limitan al `for`.
+
+
+## Uniendo y separando (`split` y `join`)
+
+Dos operaciones muy comunes son dividir un texto usando
+un separador obteniendo una lista de textos,
+o al revés, dada una lista juntarla con un separador.
+
+Para ello usaremos los métodos `join` y `split`.
+Un método es una función que estan ligadas a un objeto.
+Se llaman con la sintaxis del punto (`.`).
+
+~~~
+objeto.metodo(parametros)
+~~~
+
+Cada tipo de objeto tiene sus propios métodos.
+`join` y `split` son métodos de los objetos de tipo `str`.
+
+La ventaja de los métodos respecto a las funciones es que
+el método no contamina el espacio de nombres.
+Objetos de tipos diferentes pueden tener métodos con el mismo nombre,
+lo cual tiene sentido si hacen cosas conceptualmente similares.
+Si tuvieramos que buscar un nombre para la funcion que hace
+lo mismo para cada tipo acabariamos con funciones llamadas
+`hazlo_texto`, `hazlo_lista`...
+
+
+~~~{.python}
+>>> l = ['a','b','c']
+>>> s = '-'.join(l) # Las juntamos con el '-'
+>>> s
+'a-b-c'
+>>> s.split('-') # Usamos el '-' como separador
+['a','b','c']
+~~~
+
+
+
+El constructor de lista recibe un iterable.
+Como los textos son iterables, crea una lista con cada letra como elemento.
+
+~~~{.python}
+>>> list('abc') # Separamos por letras
+['a','b','c']
+>>> ''.join(['a','b','c']) # Juntarlas con la cadena vacia como separador
+'abc'
+~~~
+
+
+**Ejercició:** Haz un script que dada una lista de listas,
+que representa lineas de columnas,
+imprima por pantalla un CSV con el tabulador como separador.
+
+
+~~~{.python}
+#!/usr/bin/env python3
+
+tabla = [
+	[
+		'11',
+		'12',
+		'13',
+		'14',
+	],
+	[
+		'21',
+		'22',
+		'23',
+		'24',
+	],
+]
+for linia in tabla:
+	print('\t'.join(linia))
+~~~
+
+## Listas del tirón
+
+Si quisieramos crear una nueva lista con los valores que antes hemos imprimido:
+
+~~~{.python}
+>>> l = [1,2,3,4]
+>>> l2 = []
+>>> for item in l:
+...     l2.append(item*2)
+>>> l2
+[2,4,6,8]
+~~~
+
+Python ofrece una forma directa de crear listas a partir de otras listas,
+las _comprehension lists_, o listas creadas del tirón.
+
+~~~{.python}
+>>> l = [1,2,3,4]
+>>> l2 = [ item*2 for item in l ]
+>>> l2
+[2,4,6,8]
+~~~
+
+La mayoría de lenguajes no tienen construcciones como esta.
+Si es la primera vez que ves una de estas, mejor que la expliquemos.
+
+- Una _comprehension list_ es una expresión que genera una lista.
+- Empieza y acaba con `[]` como los literales de la lista.
+- Tiene la estructura: `[` _expresion_ `for` _variable_ `in` _iterable_ `]`
+	- _iterable_ es una fuente de items (una lista, un texto...)
+	- _expresion_ se evaluará para generar los elementos de la nueva lista a partir de cada elemento del iterable
+	- esa expresion puede usar la _variable_ que contendrá el correspondiente elemento del iterable
+
+**Ejercicio:**
+A partir de un texto CSV con tabuladores, genera una tabla.
+
+
+~~~{.python}
+#!/usr/bin/env python3
+
+csv = """\
+11\t12\t13\t14
+21\t22\t23\t24
+31\t32\t33\t34
+"""
+
+tabla = [
+	line.split('\t')
+	for line in csv.split('\n')
+	]
+print tabla
+~~~
+
+Problema la linea vacia del final.
+Las _comprehension lists_ tienen una parte opcional que les permite
+filtrar los items del iterable de entrada.
+
+
+~~~{.python}
+#!/usr/bin/env python3
+
+csv = """\
+11\t12\t13\t14
+21\t22\t23\t24
+31\t32\t33\t34
+"""
+
+tabla = [
+	line.split('\t')
+	for line in csv.split('\n')
+	if line != ''  # filtro
+	]
+print tabla
+~~~
+
+## Empaquetando y despempaquetando valores, las tuplas `tuple`
+
+En python podemos asignar a dos variables a la vez:
+
+~~~{.python}
+>>> a, b = 1, 2
+>>> a
+1
+>>> b
+2
+~~~
+
+Por eso no hay la funcion de `swap`, típica de otros lenguajes,
+para intercambiar los valores de dos variables.
+En Python se hace simplemente así:
+
+~~~{.python}
+a, b = b, a
+~~~
+
+A sentencias como las de arriba se les llama desempaquetar una tupla.
+Por tupla nos referimos a la parte derecha:
+Dos valores separados por una coma.
+
+Una tupla de hecho es otro tipo de dato (`tuple`),
+muy parecido a una lista, pero no permite modificar su contenido.
+Como con los textos, podemos generar una a partir de otra, pero no modificar la existente.
+Sus literales son como las listas pero sin corchetes.
+A menudo se necesitan paréntesis cuando se usan en sitios donde podría haber comas:
+como parámetro de una funcion, dentro de un literal de lista...
+Así que por si acaso siempre se ponen los paréntesis,
+al menos que como en la expresión de arriba sea muy claro.
+
+Tambien podemos desempaquetar listas:
+
+~~~{.python}
+>>> a, b = [3, 4]
+>>> a
+3
+>>> b
+4
+~~~
+
+Podemos crear una lista, a partir de una tupla y al revés usando los constructores:
+
+~~~{.python}
+>>> t = 2, 4, 6
+>>> t
+(2,4,6)
+>>> t1,t2,t3 = t   # desempaquetando
+>>> list(t)
+[2,4,6]
+>>> list( (2,4,6) )   # el literal requiere parentesis si es un parámetro
+[2,4,6]
+>>> tuple(list( (2,4,6) ) )
+(2,4,6)
+~~~
+
+Las tuplas son muy útiles cuando funciones retornan más de un valor.
+Por ejemplo la funcion _built-in_ `divmod` retorna la división entera
+y el resto a la vez evitando tener que calcular dos veces la división.
+
+~~~{.python}
+>>> div, mod = dm = divmod(30,7)
+>>> dm
+(4,2)
+>>> div
+4
+>>> mod
+2
+~~~
+
+Tambien podemos desempaquetar en un `for`:
+
+~~~{.python}
+>>> edades = [
+...     ('Antonio', 35),
+...     ('Pedro', 15),
+...     ('Enrique', 55),
+...     ]
+...
+>>> for nombre, edad in edades:
+...     print("La edad de", nombre, "es",edad)
+...
+La edad de Antonio es 35
+La edad de Pedro es 15
+La edad de Enrique es 55
+~~~
+
+**Ojo:**
+El desempaquetado debe hacerse solo cuando estamos seguros de que
+el numero de valores que aceptamos coincide con el que desempaquetamos.
+Si no, veremos errores. Familiaricemonos con ellos, que saldrán:
+
+~~~{.python}
+>>> a,b = 1,2,3  # Nos sobran valores
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: too many values to unpack (expected 2)
+>>> a,b,c = 1,2  # Nos faltan valores
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: need more than 2 values to unpack
+~~~
+
+Que se puede hacer con una tupla igual que con una lista:
+
+- Iterar sobre ella
+- Desempaquetar
+- Acceder a índices y rebanadas
+- Métodos `index(value)` y `count(value)`
+- Multiplicar por un entero
+- Sumarse con otro del mismo tipo para obtener un tercero
+
+Que se puede hacer en una lista que no se pueda en una tupla.
+En general modificaciones en el mismo objeto, sin generar un tercero:
+
+- Añadir elementos al mismo objeto: `append`, `extend`, `insert`...
+- Eliminar elementos con `del`
+- Modificar un elemento del objeto `t[2] = valor`
+
+Que se puede hacer pero tienen resultados distintos:
+
+- `+=` en la lista modifica la lista original.
+
+~~~{.python}
+>>> t = 1,2
+>>> t2 = t
+>>> t += 3,4
+>>> t # Apunta a un valor distinto
+(1,2,3,4)
+>>> t2 # Aun apunta al anterior valor
+(1,2)
+~~~
+
+Es decir, pasa igual que con los textos.
+En cambio con listas, como habíamos visto:
+
+~~~{.python}
+>>> l = [1,2]
+>>> l2 = l
+>>> l += [3,4]
+>>> l
+[1,2,3,4]
+>>> l2
+[1,2,3,4]
+~~~
+
+
+
+## Conjuntos `set`
+
+Un `set` es un contenedor, como lo es una lista, pero con las siguientes diferencias.
+
+- No mantiene un orden entre los elementos
+	- no podemos indexarlos, ni slices
+	- no nos asegura un orden cuando iteramos en él
+- No acepta duplicados
+	- Insertar un valor que ya està, no tiene efecto
+
+Los literales del set son como los de las listas, pero usan los corchetes rizados `{}`.
+
+~~~{.python}
+>>> { 1, 2, 3, 1 }  # El 1 esta duplicado
+{1,2,3}
+>>> set([1,2,3])  # con el constructor lo podemos crear a partir de una lista
+{1,2,3}
+>>> list({1,2,3})  # y al reves
+[1,2,3]
+>>> ''.join(set('abracadabra')) # cuantas letras diferentes usa un texto?
+'rcabd'
+>>> ''.join(sorted(set('abracadabra'))) # no nos aseguran orden, usamos la funcion sorted
+'abcdr'
+~~~
+
+Es muy práctico para algunas cosas:
+
+- Comprobar si un valor esta incluido con el operador `in` o `not in` (la lista también lo tiene pero es más lenta)
+- Calcular intersecciones, uniones, y todas aquellas cosas de teoría de conjuntos que hicimos en mates
+
+~~~{.python}
+>>> s1 = set(range(3,9))
+>>> s1
+{3,5,6,7,8}
+>>> 3 in s1  # Comprobando pertenencia
+True
+>>> 10 in s1
+False
+>>> 3 not in s1
+False
+>>> s1 + set(range(4,12)) # Union
+{3,4,5,6,7,8,20,21,22,23,24}
+~~~
+
+
+
 
 
 
