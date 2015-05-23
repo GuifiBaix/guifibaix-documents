@@ -28,8 +28,8 @@ que es lo que determina el lenguaje.
 
 Para que esos ficheros de texto,
 escritos en un lenguaje de programación,
-se conviertan en código máquina ejecutable por el ordenador
-usamos dos estrategias:
+se conviertan en código máquina ejecutable por el ordenador,
+cada lenguaje usa una de estas dos estrategias:
 
 - ![Proceso de compilación](TODO)
 
@@ -69,7 +69,7 @@ Para aprender Python hay tres elementos:
 - El **lenguaje**, que son las reglas de como decir las cosas.
 	- La descripción formal de la sintaxis la puedes encontrar en la [referencia del lenguaje](https://docs.python.org/3/reference)
 	- Un poco más explicado, aunque en inglés, lo tienes en el [tutorial](https://docs.python.org/3/tutorial)
-- Las **librerias estandard**, que són cosas que no hace falta que programes tú, porqué ya están programadas:
+- Las **librerias estandard**, que són cosas que no hace falta que programes tú, porqué ya están programadas y vienen de serie:
 	- Encontrarás informacion en la [referencia de la libreria estándard](https://docs.python.org/3/library/)
 - Las **librerías no estándard**. Aunque no vengan por defecto algunas son de uso muy extendido.
 	- La mayoría de librerías no estándard, todas las decentes, están en el [Índice de paquetes](https://pypi.python.org/pypi)
@@ -152,9 +152,127 @@ podemos ejecutarlo pasandoselo como primer parámetro al intérprete:
 
 # Calculando expresiones en Python
 
-## Variables, valores, literales
+## Operadores numéricos
 
-Una **variable** es un nombre por el cual referenciamos a un **valor**.
+Podemos usar Python como una calculador escribiendo expresiones numéricas.
+
+~~~{.python}
+>>> 10+3  # suma
+13
+>>> 10-3  # resta
+7
+>>> 10*3  # multiplicación
+30
+>>> 10/3  # división con decimales
+3.3333333333333335
+>>> 10//3  # división entera
+3
+>>> 10%3  # resto de la división entera
+1
+>>> 10**3  # potencia
+1000
+~~~
+
+Cuando combinamos las expresiones,
+se resuelven por prioridad.
+Por ejemplo, la multiplicacion y división tienen mas prioridad que la suma y la resta.
+Por eso:
+
+~~~{.python}
+>>> 2 * 3 + 4
+10
+>>> 2 + 3 * 4
+14
+~~~
+
+Cuando combinamos operadores del mismo nivel, resuelven de izquierda a derecha (como se lee).
+
+Si el orden no nos gusta podemos agrupar con paréntesis:
+
+~~~{.python}
+>>> 2 * (3 + 4)
+14
+>>> (2 + 3) * 4
+20
+~~~
+
+A veces, los paréntesis son útiles, aunque por prioridad no se necesiten,
+para que se entienda mejor una expresión compleja.
+
+**Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
+
+
+## Literales, valores, tipos y expresiones
+
+Antes de seguir, un poquitín de vocabulario:
+
+- Los datos que manejamos en el lenguaje son **valores**.
+- Dichos valores pueden ser de muchos **tipos**: un número entero (`int`) o con decimales (`float`), un texto (`str`), estructuras de datos...
+- La forma más directa de expresar un valor de un tipo son los **literales**. Cada tipo tiene su sintaxis:
+	- Enteros: `4`, `0`, `-5234`, `0xF4` (notación hexadecimal), `0b10010` (notación binaria)...
+	- Coma flotante (decimales): `3.1416`, `1.3e-13` (notacion científica)
+	- Textos (strings): `'Hola mundo'`
+	- ...
+- Usamos **expresiones** para obtener nuevos valores a partir de otros valores existentes.
+
+Ahora sigamos viendo más tipos de valores, literales y expresiones.
+
+
+## Operadores con texto
+
+El tipo `str` sirve para representar texto.
+Podemos construir literales de texto delimitando el texto entre comillas dobles o simples.
+Esto nos da la posibilidar de usar una o otra si el texto contiene una de las dos.
+Pero si el texto contiene ambas tenemos dos soluciones:
+
+~~~{.python}
+>>> print('Usando sequencias de \'escape\'')
+Usando sequencias de 'escape'
+>>> print('''Usando las "triples" 'comillas'.''')
+Usando las "triples" 'comillas'.
+>>> print("""Que tambien pueden ser "dobles" 'triples'.""")
+Que tambien pueden ser "dobles" 'triples'.
+~~~
+
+Las secuencias de escape con la contrabarra `\` tambien sirven para
+insertar saltos de linia (`\n`), tabuladores (`\t`)...
+De hecho para incluir una contrabarra hay que poner dos `\\`.
+Si un literal de texto contiene muchas contrabarras,
+igual nos combiene desabilitar las secuencias de escape
+prefijando una `r` de 'raw' (crudo) al literal.
+
+Un uso común, por ejemplo, los ficheros en Windows:
+
+~~~{.python}
+>>> print("c:\temp\newitem")  # Las contrabarras se convierten en un tab y un salto de linia
+c:	emp
+ewitem
+>>> print("c:\\temp\\newitem")   # Escapando contrabarras
+c:\temp\newitem
+>>> print(r"c:\temp\newitem")    # Deshabilitando secuencias de escape con el prefijo 'r'
+c:\temp\newitem
+~~~
+
+Podemos usar algunos operadores numéricos tambien con texto:
+
+~~~{.python}
+>>> "Hola" + "mundo"  # juntamos los dos textos (sin espacio!)
+'Holamundo'
+>>> 'hola'*4    # Multiplicar por un numero, repite el texto
+'holaholaholahola'
+~~~
+
+Y tenemos algunas funciones _built-in_ que podemos usar con ellas:
+
+~~~{.python}
+>>> len('hola')   # longitud de un texto
+4
+~~~
+
+
+## Variables
+
+Una **variable** nos permite volver a referenciar un **valor** que hemos construido antes.
 
 ~~~{.python}
 >>> a = 23
@@ -167,9 +285,6 @@ Una **variable** es un nombre por el cual referenciamos a un **valor**.
 
 En Python, una misma variable en un script puede ir apuntando a valores diferentes.
 De hecho, puede apuntar incluso a valores de diferente tipo.
-
-Los **literales** son la forma en que expresar en un lenguaje
-los valores de un tipo concreto: `12`, `'hola'` y `3.1416`.
 
 ~~~{.python}
 a = 12        # tipo entero (int)
@@ -190,110 +305,315 @@ En los ejemplos, normalmente se abusa de los nombres tontos de variables.
 
 > «Cualquier programador escribe un programa que entienda la máquina.
 > Un buen programador se reconoce por que escribe programas
-> que son fáciles de entender para sus compañeros (o el mismo, después).»
+> que son fáciles de entender por sus compañeros
+> (o por él mismo, cuando pase el tiempo).»
 >
 >> Martin Fowler (parafraseado)
 
 Así que para dar a entender el significado de una variable
 en vez de llamarla `a`, la llamaremos `anguloRecorrido`.
-Podríamos usar muchas nomenclaturas las mas comunes son:
+Los nombres de variables no pueden contener espacios,
+pero para que sea explicativa una variable suele necesitar
+mas de una palabra.
 
+- **Plain**: `sinningunadiferenciaentrepalabras`
 - **Camel Case**: `alteramosLasMayusculasAlInicioDePalabra`
 - **Underscore**: `separamos_las_palabras_con_subrayados`
 
+La primera estrategia es bastante ilegible aunque para nombres cortos funciona.
+La segunda es más legibles sobretodo cuando te acostumbras.
+Y la tercera aunque parezca mas legible,
+confunde cuando lo mezclas con otros operadores.
+
+Se suele escoger una de las dos últimas estrategias.
 Ninguna es mejor que la otra pero, dentro de un proyecto,
 hay que unificar la forma de llamar a las cosas.
 
 
-## Expresiones
+## Indexando y recortando (slices)
 
-Una **expresión**
-combina variables y literales con **operadores**
-para obtener un valor diferente.
+La indexacion con los simbolos `[ ]` nos permiten selecionar letras de un texto.
+En general, el enésimo elemento de una secuencia.
 
-~~~{.python}
->>> a = 23
->>> b = a+10
->>> b
-33
-~~~
-
-Observa, en el ejemplo anterior, la diferencia entre valor y literal:
-El programa no usa el literal `33`, sin embargo acaba obteniendo ese valor mediante una expresión.
-
-En resumen:
-
-- Un literal es una forma de representar un valor concreto
-- Una variable es un nombre que referencia a un valor
-- Una expresión combina valores para obtener un valor nuevo
-
-## Operadores numéricos
-
-**Operadores numéricos:** Són los que operan con números y obtienen números (floats, ints...).
+Los índices empiezan por el cero.
 
 ~~~{.python}
->>> 10+3  # suma
-13
->>> 10-3  # resta
-7
->>> 10*3  # multiplicación
-30
->>> 10/3  # división con decimales
-3.3333333333333335
->>> 10//3  # división entera
-3
->>> 10%3  # resto de la división entera
-1
->>> 10**3  # potencia
-1000
+>>> a = 'murcielago'
+>>> a[1]   # ¡ojo! ¡La primera letra es la 0!
+'u'
+>>> a[0]
+'m'
+>>> len(a)
+10
+>>> a[10] # ¡ojo! el ultimo es el 9, si nos salimos, error
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> a[9]   # así sí
+'o'
 ~~~
 
-**Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
-
-## Operadores con texto
-
-Algunos operadores numéricos tambien tienen sentido con texto:
+Si usamos indices negativos, empezamos por el final.
+El último es el -1, el penúltimo el -2.
 
 ~~~{.python}
->>> "Hola" + "mundo"  # juntamos los dos textos (sin espacio!)
-'Holamundo'
->>> 'hola'*4    # Multiplicar por un numero, repite el texto
-'holaholaholahola'
+>>> a[-1]  # Con indices negativos empezamos por el final
+'o'
+>>> a[-2]
+'g'
 ~~~
 
-Para delimitar los literales de texto podemos usar indistintamente comillas simples o dobles.
-Esto nos da la posibilidar de usar una o otra si el texto contiene una de las dos.
+También podemos sacar rebanadas (_slices_)
+usando inicio y final separado por dos puntos.
+El final no se incluye.
 
+~~~{.python}
+>>> a[2:6] # de la tercera (2) a la sexta letra (5)
+'rcie'
+>>> a[:6] # Si no ponemos el inicio se deduce desde el principio
+'murcie'
+>>> a[2:] # si no pones el final se deduce que hasta el fin
+'rcielago'
+>>> a[:5] + a[5:]  # ¿porque el indice 5 no esta repetido?
+'murcielago'
+~~~
+
+**Ejercicio:** ¿Porque en la ultima expresión no se repite el índice 5?
+
+Un tercer elemento en el _slice_ es el paso;
+cuantas casillas saltamos.
+Normalmente es 1, pero si lo especificamos...
+
+~~~{.python}
+>>> a[::2]  # saltamos las letras de dos en dos
+'mrilg'
+>>> a[1::2]  # si le damos un offset
+'uceao'
+>>> a[6:2] # si inicio y fin no estan ordenados, retorna texto vacío
+''
+>>> a[6:2:-1]  # pero con un paso negativo, va hacia atrás
+'leic'
+~~~
+
+**Pregunta:** ¿Porqué en la última expresión no son las mismas letras invertidas que con `a[2:6]`?
+
+**Pregunta:** ¿Qué retornaria a[5:5]? ¿Porqué?
+
+
+> **¿Porque la complicación de que se empiece por cero y que el indice del final no se incluya?**
+>
+> Algunos lenguajes lo intentaron, pusieron al 1 como primer indice, pretendiendo ser más simples.
+> Parece que fuera a ser mas simples así.
+> Pero, por las operaciones que se suelen hacer cuando programas,
+> que los indices empiecen por 1 acaba siendo un incordio.
+> **Esos lenguajes que lo intentaron perecieron o malviven siendo muy odiados.**
+
+
+## Llamando funciones
+
+Otro elemento que podemos usar en una expresión son las funciones.
+Las **funciones** retornan valores calculados a partir de los parámetros que les enviamos con el operador paréntesis.
+
+Por ejemplo, la función `max`, incluida en el lenguaje,
+retorna el mayor de los valores que le pasemos como parámetros.
+
+~~~{.python}
+>>> a = 100
+>>> b = 200
+>>> c = max(50,a,b)  # El máximo de 3 valores: 50, 100 y 200
+>>> print(c)
+200
+~~~
+
+Observa que `print`, que hemos usado antes,
+también es una función que llamamos con el operador paréntesis.
+
+El tutorial oficial de Python tiene una
+[lista de las funciones incluidas](https://docs.python.org/3/library/functions.html)
+en el lenguaje (_built-in_).
+
+
+## Definiendo funciones
+
+Para definir una nueva función lo hacemos de la siguiente manera:
+
+~~~{.python}
+>>> def media(a, b):
+...     suma = a+b
+...     return suma/2
+...
+>>> media(3, 1)
+2.0
+>>> media(4, 5)
+4.5
+~~~
+
+- La definición de una función comienza con la palabra reservada `def`.
+- Le sigue el nombre que daremos a la función, `media` en este caso.
+	- El nombre sigue las mismas normas que para las variables.
+- Después, entre parentesis y separados por comas, la lista de parámetros.
+	- Los parametros son variables que existiran sólo mientras se ejecute la función
+	- Se les asignan los valores que pasamos entre paréntesis
+		- En la primera llamada a=3. En la segunda llamada a=4.
+		- En la primera llamada b=1. En la segunda llamada b=5.
+- Todas las sentencias que finalizan con `:`, van seguidas de un conjunto de sentencias indentadas un nivel más.
+	- Decimos que estas sentencias indentadas están dentro de la sentencia que les da paso con los dos puntos.
+	- En el caso de una función son las sentencias que se ejecutarán cuando la llamemos.
+	- Los puntos suspensivos los escribe el interprete para indicar que aun tenemos que acabar la sentencia.
+	- Para salir de los puntos suspensivos dejamos una linea en blanco
+- La primera sentencia de dentro crea una variable `suma`
+	- Las variables que creemos dentro de una función solo existen mientras la función se ejecuta.
+	- En jerga se dice que es una variable _local_, en contraposicion de las variables que se definen fuera de funciones que se les llama _globales_
+	- Que las variables tengan un ámbito local nos ayuda a no tener que buscar nombres que no colisionen con los de otras funciones
+- La ultima sentencia es una sentencia especial `return`
+	- Una sentencia `return` sale de la función y devuelve el control al llamante
+	- Ademas el llamante recibirá el valor resultante de la expresión que va después del `return`
+	- Si hubiera sentencias después del return, no se seguirían ejecutando
+
+## No valor, `None`
+
+¿Qué pasaría si se llega al final de la función y no encuentra ningún return?
+
+Pues que el llamante retornaría un no-valor. También llamado `None`.
+Cuando no ponemos ninguna expresión en el return tambien se retorna `None`.
+
+Hay un valor especial para indicar el concepto de _ningún valor_.
+
+- Cuando una función no retorna nada, retorna `None`.
+- Cuando no le queremos asignar nada a una variable, le asignamos `None`.
+
+~~~{.python}
+>>> None # El interprete no muestra resultado si una sentencia resulta en None
+>>> print(None)  # Pero lo podemos imprimir explícitamente
+None
+>>> a = print("hola")  # La funcion print tampoco retorna nada
+hola
+>>> a   # Lo dicho
+>>> print(a)
+None
+>>> def noReturnFunction():
+...     2+2
+...
+>>> noReturnFunction()
+>>> print(noReturnFunction())
+None
+~~~
+
+
+# Empezando a programar, tomando decisiones
+
+Programar es dejar que el ordenador tome sus decisiones.
+Nosotros le decimos en el programa como las tiene que tomar.
+Cuando el se encuentre con la disyuntiva, tomará,
+según lo que le digamos, una opción o otra.
+
+Para programar decisiones es necesario entender bien los booleanos.
 
 ## Tipos booleanos
 
-Los booleanos representan condiciones, cosas que pueden ser bien ciertas o bien falsas.
+Los booleanos son valores representan condiciones, cosas que pueden ser bien ciertas o bien falsas.
 
-- Nos sirven para tomar decisiones.
-- El tipo booleano (`bool`) solo tiene dos valores posibles representados por los literales `True` y `False`.
+A pesar de su simplicidad son la base de la programación, puesto que nos sirven para tomar decisiones.
+
+El tipo booleano (`bool`) solo tiene dos valores posibles representados por los literales `True` y `False`.
 
 ## Operadores de comparación
 
-**Operadores de comparacion:** Son los que comparan dos valores y devuelven un valor booleano `True` o `False`.
+Una forma de obtener booleanos es comparando valores.
 
-- De magnitud: `<`, `>`, `<=`, `>=`, `<`, `==`, `!=`
+Los **operadores relacionales** devuelven `True` o `False` dependiendo de la .
+(`<`, `>`, `<=`, `>=`, `<`, `==`, `!=`)
 
-	~~~{.python}
-	>>> 1<3
-	True
-	>>> 10<3
-	False
-	>>> 'alfredo' < 'benito'  # orden alfabético
-	True
-	>>> 'alfredo' == 'alfredo' # igualda
-	~~~
+~~~{.python}
+>>> 1<3
+True
+>>> 10<3
+False
+>>> 'alfredo' < 'benito'  # orden alfabético
+True
+>>> 'alfredo' == 'alfredo' # igualdad
+True
+>>> 'alfredo' != 'alfredo' # desigualdad
+False
+>>> a = 3
+>>> 1 <= a <= 10    # ¿es a un numero del 1 al 10, ambos incluidos?
+True
+~~~
 
-- De identidad: `is`, `is not`
-	~~~{.python}
-	# Tienen algo más de sentido con objetos
-	~~~
+**Operadores de identidad:** Son los que comparan si un valor es el mismo que otro. (`is`, `is not`)
+Para los tipos básicos que han salido hasta ahora, son equivalentes a igualdad y desigualdad.
+Pero veremos objetos más adelante, las estructuras, que aunque contengan los mismos valores,
+mantienen 'identidades' diferentes porque los podemos modificar de forma independiente.
+Por eso se les llama **mutables**.
 
-## Operadores booleanos
+El caso es que para los tipos básicos los operadores de identidad
+también nos sirven porque son más expresivos que los de igualdad.
+
+~~~{.python}
+>>> guy = 'alf' + 'redo'
+>>> guy is 'alfredo' # identidad 
+True
+>>> guy is not 'alfredo' # no identidad
+False
+~~~
+
+## Sentencia condicional `if`
+
+Una de las utilidades de los booleanos es la capacidad
+de ejecutar o no código dependiendo de una condición.
+
+La sentencia `if` nos permite ejecutar una serie de comandos solo si se cumple una condición:
+
+~~~{.python}
+if name is 'Aitor':
+	print ('Hola Aitor, bienvenido a casa')
+if name is not 'Aitor':
+	print ('Hola, desconocido, ya te puedes pirar')
+~~~
+
+Un principio básico de la sintaxis de Python:
+
+> Siempre que una construcción del lenguaje acaba en dos puntos,
+> le sigue un bloque de instrucciones indentadas un nivel.
+
+~~~{.python}
+if condicion:
+	sentencia1   # estas dos sentencias solo se ejecutan si la condicion es cierta
+	sentencia2
+sentencia3       # Esta sentencia en el nivel superio se ejecutaria siempre
+~~~
+
+
+## Alternativas
+
+Es frecuente que después de evaluar una condición para ver si tenemos que hacer algo,
+tengamos que evaluar lo contrario para hacer otra cosa alternativa.
+Para ello es muy util el `else`.
+Hay que ponerlo al nivel del `if` y contiene su bloque de sentencias alternativas.
+
+Reescribiendo el ejemplo anterior solo evaluando una condicion:
+
+~~~{.python}
+if name is 'Aitor':
+	print ('Hola Aitor, bienvenido a casa')
+else:
+	print ('Hola, desconocido, ya te puedes pirar')
+~~~
+
+Está bien, pero tambien podemos tener mas de una alternativa.
+Para eso sirve la sentencia `elif` (viene de _else if_).
+
+~~~{.python}
+if name is 'Aitor':
+	print ('Hola Aitor, bienvenido a casa')
+elif name is 'David':
+	print ('Hola David, Aitor llegará en un momento.')
+else:
+	print ('Hola, desconocido, ya te puedes pirar')
+~~~
+
+
+## Decisiones complejas, operadores booleanos
 
 Los booleanos se pueden combinar en expresiones mediante los operadores booleanos `or`, `and` y `not`.
 
@@ -318,51 +638,49 @@ se indican esta tabla de verdad:
 `False`   | `True`  | `True`     | `False`    | `True`
 `False`   | `False` | `False`    | `False`    | `True`
 
-## Sentencia condicional `if`
+La regla es:
 
-Una de las utilidades de los booleanos es la capacidad
-de ejecutar o no código dependiendo de una condición.
-
-La sentencia `if` nos permite ejecutar una serie de comandos solo si se cumple una condición:
-
-~~~{.python}
-if toniConduce:
-	print ('Que conduzca Toni')
-if annaConduce:
-	print ('Que conduzca Anna')
-if loEchamosASuerte :
-	print('Mejor tira una moneda, cara anna, cruz toni')
-~~~
-
-Un principio básico de la sintaxis de Python:
-
-> Siempre que una construcción del lenguaje acaba en dos puntos,
-> le sigue un bloque de instrucciones indentadas un nivel.
-
-~~~{.python}
-if condicion:
-	sentencia1   # estas dos sentencias solo se ejecutan si la condicion es cierta
-	sentencia2
-sentencia3       # Esta sentencia en el nivel superio se ejecutaria siempre
-~~~
+- el `or` es cierto si cualquier operando es cierto.
+- el `and` es cierto si todos los operandos son ciertos.
 
 
 ## Evalua con cortocircuito o muere
 
-La evaluación de las expresiones booleanas se hace con cortocircuito.
-Eso quiere decir que si evaluamos la izquierda del operador y por la tabla
-de verdad ya sabemos el resultado, no evaluamos el otro lado.
+Otra forma de ver los operadores `and` y `or` es la siguiente:
 
-- Si la izquierda de un `and` es `False` ya no se evalua la expresión de la derecha, y se retorna `False`
-- Si la izquierda de un `or` es `True` ya no se evalua la expresión de la derecha, y se retorna `True`
+- Si los operandos son el mismo valor, retornar ese valor
+- Si son distintos:
+	- en el `or`, el `True` es dominante sobre el `False`
+	- en el `and`, el `False` es dominante sobre el `True`
 
-Esto no solo hace que la 
-
-Así que a menudo se usa `and` y `or` para ejecutar condicionalmente la segunda expresion.
-
-Los cortocircuitos se usan a menudo con idiomas bastante expresivos (y barriobajeros) como:
+Así pues, en una expresion `or` o `and`,
+cuando evaluamos el primer operando
+y nos da el valor dominante,
+Python no evalua el segundo operando porque ya sabe el resultado.
+Es lo que se llama evaluación por cortocircuito,
+y se hace para que el programa vaya más rápido.
 
 ~~~{.python}
+>>> pi = 3.1416
+>>> r = 10
+>>> # Como la primera parte ya es cierta, la segunda no se llegara a evaluar
+>>> (2*r*pi > 3)  or   (3*r**2*pi>10)
+True
+~~~
+
+Y pasa lo de siempre:
+haces algo por algún motivo y sale alguien que lo utiliza para otro.
+Mucha gente aprovecha los cortocircuitos para construcciones
+condicionales que la verdad es que quedan
+bastante expresivas (y barriobajeras) como:
+
+~~~{.python}
+# Barriobajeras? claro:
+giveMeTheMoney or die("you sucker")
+touchMe and die("you dared shit")
+
+# En realidad se usan asi:
+
 condicionNecesaria or die("No se ha dado la condicion necesaria para seguir!!")
 # equivalente a:
 if not condicionNecesaria :
@@ -382,123 +700,6 @@ En cualquier caso, hay que tener cuidado cuando usemos expresiones booleanas
 porque puede que una parte de los operandos, no se lleguen a evaluar.
 Si la expresion en los operandos tiene efectos colaterales necesarios,
 no se ejecutarán.
-
-
-## Alternativas
-
-
-
-
-### La diferencia entre la igualdad y la identidad
-
-Hasta ahora hemos visto tipos inmutables,
-`str`, `float`, `int`, `bool`...
-son tipos inmutables, quiere decir que son tan básicos
-que lo único que puedes hacer es cambiar un valor por otro.
-En esos casos, podemos usar indistintamente igualdad e identidad.
-
-Más adelante veremos valores como las listas, los diccionarios o los objetos,
-de los cuales puedes cambiar su contenido pero manteniendo su identidad como objeto.
-En esos casos, los operadores de igualdad mirarán si tienen **el mismo contenido**,
-mientras los de identidad mirarán **si se trata del mismo objeto**.
-
-
-# Llamando funciones
-
-Otro elemento que podemos usar en una expresión son las funciones.
-Las **funciones** retornan valores calculados a partir de los parámetros que les enviamos con el operador paréntesis.
-
-Por ejemplo, la función `max` retorna el mayor de los valores que le pasemos como parámetros.
-
-~~~{.python}
->>> a = 100
->>> b = 200
->>> c = max(50,a,b)  # El máximo de 3 valores: 50, 100 y 200
->>> print(c)
-200
-~~~
-
-Observa que `print` también es una función que llamamos con el operador paréntesis.
-
-
-# Sentencias condicionales
-
-Las sentencias condicionales permiten que 
-
-~~~{.python}
-a = 30
-b = 50
-if a < b:
-	print("Es menor")
-else:
-	print("Es mayor")
-~~~
-
-
-
-
-
-# Definiendo funciones
-
-Para definir una nueva función lo hacemos de la siguiente manera:
-
-~~~{.python}
->>> def suma(a,b):
-... 	resultado = a+b
-... 	return resultado
->>> print(suma(1,1))
-2
->>> print(suma(3,5))
-8
-~~~
-
-
-# Tipos básicos
-
-
-## Booleanos
-
-- Tienen dos literales `True` y `False`.
-- Ojo con la primera letra en mayúscula (otros lenguajes usan minúscula)
-- Se pueden combinar con los operadores `and`, `or` y `not`.
-- La expresión se evalua con cortocircuito:
-	- Si la izquierda de un `and` es `False` ya no se evalua la expresión de la derecha, y se retorna `False`
-	- Si la izquierda de un `or` es `True` ya no se evalua la expresión de la derecha, y se retorna `True`
-
-Los cortocircuitos se usan a menudo con idiomas como:
-
-~~~{.python}
-condicionNecesaria or die("No se ha dado la condicion necesaria para seguir!!")
-condicionDeError and die("Se ha dado la condicion de error!!")
-~~~
-
-## No valor, `None`
-
-Hay un valor especial para indicar el concepto de _ningún valor_.
-
-Cuando una función no retorna nada, retorna `None`.
-
-Cuando no le queremos asignar nada a una variable, le asignamos `None`.
-
-Para comprobar si una variable es `None`, usamos los operadores de identidad.
-
-~~~{.python}
->>> a = 3
->>> b = None
->>> print(a is None)
-False
->>> print(b is None)
-True
->>> print(a is not None)
-True
->>> print(b is not None)
-False
-~~~
-
-
-
-
-
 
 
 
