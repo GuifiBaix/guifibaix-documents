@@ -11,32 +11,35 @@ indicamos al ordenador como se tiene que comportar.
 Hay muchos lenguajes de programación.
 Cada uno tiene sus puntos fuertes
 o es más expresivo para según que tareas.
-Por eso hay una miriada de lenguajes.
+Por eso existen una miriada de lenguajes.
 
 El ordenador solo entiende de instrucciones en código máquina.
 El codigo máquina no está pensado para que lo entiendan las personas;
 es una secuencia de números sin sentido,
 en la que cada número codifica
-algo que tiene que hacer el ordenador.
+algo que tiene que hacer el ordenador:
+Cargar un número en el procesador desde una posición de memoria,
+operar con ese número, colocar el resultado en otra posición de memoria...
+Cosas de muy de tocar el hierro.
 
-Los lenguajes de programación son más cercanos a algo que una
-persona puede entender,
+Los lenguajes de programación son más cercanos
+a algo que una persona puede entender,
 haciendo de puente entre las personas y el ordenador.
 Los programas se escriben en archivos de texto,
-con unas reglas bastante rígidas, la sintaxis,
-que es lo que determina el lenguaje.
+con unas reglas bastante rígidas, la **sintaxis**,
+que es lo que es propio de cada lenguaje.
 
 Para que esos ficheros de texto,
 escritos en un lenguaje de programación,
 se conviertan en código máquina ejecutable por el ordenador,
-cada lenguaje usa una de estas dos estrategias:
+dependiendo del lenguaje, se usan dos tipos de programas:
 
 - ![Proceso de compilación](TODO)
 
 	Un __compilador__ hace la traducción una vez,
 	generando un archivo ejecutable/binario que incluye el código máquina.
-	Ese archivo binario lo podremos ejecutar sin necesitar el compilador
-	ni el texto original.
+	Ese archivo binario lo podremos ejecutar sin necesitar ya
+	ni el compilador ni el texto del programa original.
 
 	Ejemplos: C++, Java, Pascal... son lenguajes compilados.
 
@@ -45,21 +48,23 @@ cada lenguaje usa una de estas dos estrategias:
 	Un __interprete__, en cambio, traduce el programa a código máquina
 	a la vez que lo ejecuta.
 	No genera el archivo binario intermedio
-	y necesitaremos tanto el texto (script) como el interprete
-	cada vez que lo queramos ejecutar.
+	y, cada vez que lo queramos ejectuar,
+	necesitaremos tanto el texto del programa (script) como el interprete.
 
 	Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
 
 En general, un lenguaje interpretado se ejecutará más
-lento que uno compilado, puesto que tiene que interpretar
-el texto antes de decidir que código máquina ejecutar.
+lento que uno compilado, puesto que, a parte de la tarea,
+tiene el trabajo extra de interpretar el texto para
+decidir que código máquina ejecutar.
 Esto, con los ordenadores actuales, cada vez es menos problema.
 Por otro lado, un lenguaje interpretado tiene un ciclo
 de desarrollo más ágil al ahorrarnos el paso de compilación.
 
+
 ## Buscando más cosas sobre Python
 
-Python es un lenguaje interpretado que
+Python es un lenguaje interpretado de propósito general que
 se caracteriza por tener una sintaxis muy limpia y expresiva.
 
 Nos centraremos en la version 3 (3.4.3 en el momento de escribir esto).
@@ -73,24 +78,27 @@ Para aprender Python hay tres elementos:
 	- Encontrarás informacion en la [referencia de la libreria estándard](https://docs.python.org/3/library/)
 - Las **librerías no estándard**. Aunque no vengan por defecto algunas son de uso muy extendido.
 	- Toda librería que se precie está incluida en el [índice de paquetes](https://pypi.python.org/pypi)
-	- Cada una tiene su propia documentación. Normalmente con formato similar a la de las librerías estándard.
+	- Cada una tiene su propia documentación.
+	Normalmente con un formato similar a la documentación de las librerías estándard.
 - Si necesitas algo más, esta es [toda la documentación del lenguaje](https://docs.python.org/3/)
 
 Hay dos formas de ejecutar código Python:
 
-- tecleando sentencias en el interprete interactivo (python3 o, mejor, ipython3)
-- escribiendo las sentencias en un archivo de texto (script) y lanzándolas de golpe con el intérprete
+- tecleando sentencias en el interprete en modo interactivo (python3 o, mejor, ipython3),
+para experimentar y probar cosas.
+- escribiendo las sentencias en un archivo de texto (script) y lanzándolas de golpe con el intérprete,
+cuando estemos evolucionando un código o queremos que quede para la posteridad.
 
 ## Usando el intérprete interactivo
 
 - El interprete interactivo te permite escribir código Python y ver los resultados de forma inmediata
-- Es ideal para probar cosas cortas
+- Es ideal para probar cosas cortas, lo usaremos sobre todo al principio del tutorial
 - El intérprete clásico es `python3`.
-	- Instalación: `sudo apt-get install python3`
+	- Instalación en Ubuntu: `sudo apt-get install python3`
 	- Seguramente ya lo tendrás instalado
 	- Sales con Control+D
 - Recomendamos el intérprete con esteroides llamado `ipython3`
-	- Instalación: `sudo apt-get install ipython3`
+	- Instalación en Ubuntu: `sudo apt-get install ipython3`
 	- Tienes historial de lo que has escrito, que puedes recuperar con la tecla del cursor hacia arriba.
 	- Te completa expresiones con la tecla del tabulador
 	- Puedes ejecutar comandos del shell precediendolos con `!`
@@ -104,11 +112,14 @@ hola mundo
 ~~~
 
 - El `>>>` indica el símbolo que el interprete pone para decirte que puedes escribir.
+	- En ipython3 es algo como `In [1]:`
 - Lo que has de escribir es lo que va despues, del `print` en adelante.
-- La segunda linea es lo que ha imprimido por la pantalla.
+- La segunda linea es el resultado, lo que ha imprimido por la pantalla el interprete.
 
 **Nota:** Si has programado en Python 2, ojo que en Python 3, la instrucción `print` requiere paréntesis.
 
+**Nota:** En modo interactivo, siempre nos imprimira el resultado de la expresion que hayamos introducido.
+No necesitamos el `print`, para verlo.
 
 
 ## Escribiendo y ejecutando scripts
@@ -151,11 +162,59 @@ podemos ejecutarlo pasandoselo como primer parámetro al intérprete:
 	hola mundo
 	~~~
 
+- La extension `.py` del fichero no es necesaria para ejecutarlo en Linux.
+Aunque puede serlo para ejecutarlo en otros sistemas.
+Si que va bien para que los editores con resaltado de sintaxis
+detecten que es un fichero escrito en Python y lo coloreen adecuadamente.
+
 # Calculando expresiones en Python
 
-## Operadores numéricos
+Un script en Python se compone de una secuencia de **sentencias**.
+Esas sentencias, las podemos escribir directamente en el interprete
+o en un fichero script.
 
-Podemos usar Python como una calculador escribiendo expresiones numéricas.
+La sentencia más típica es la que se compone solo de una **expresión**.
+Una expresión combina varios elementos para obtener un **valor**.
+Para comenzar a entender Python,
+escribiremos expresiones, cada vez más complejas,
+en el interprete.
+
+## Tipos de datos y literales
+
+La expresión más simple es el literal.
+El literal expresa directamente un valor de un tipo concreto.
+Entre paréntesis el nombre del tipo en Python.
+
+```python
+>>> -12    # un número entero (int)
+-12
+>>> 12.34   # un número con decimales (float)
+12.34
+>>> 2+3j   # un número complejo (complex)
+(2+3j)
+>>> 'un texto'  # un texto (str)
+'un texto'
+>>> 12, 23  # una tupla (tuple) con dos enteros
+(12, 23)
+>>> [1, 2, 3, 1]  # una lista (list) con 4 enteros
+[1, 2, 3, 1]
+>>> {1, 2, 3, 1} # un conjunto (set) con 4... ops, 3 enteros
+{1, 2, 3}
+>>> # un diccionario (dict) 2 con parejas clave: valor
+>>> { 'David': 40, 'Aitor': 25 }
+{ 'David': 40, 'Aitor': 25 }
+>>> None   # el no-objeto (NoneType), el interprete ni lo imprime
+>>> True   # un valor lógico (bool), su antitesis es False
+True
+```
+
+Iremos explicando como trabajar con estos tipos de objetos,
+y otras formas de escribir sus literales.
+
+
+## Trabajando con números, tipos `int` y `float`
+
+Podemos usar Python como una calculadora escribiendo expresiones numéricas.
 
 ~~~{.python}
 >>> 10+3  # suma
@@ -176,7 +235,7 @@ Podemos usar Python como una calculador escribiendo expresiones numéricas.
 
 Cuando combinamos las expresiones,
 se resuelven por prioridad.
-Por ejemplo, la multiplicacion y división tienen mas prioridad que la suma y la resta
+Por ejemplo, la multiplicacion y división tienen más prioridad que la suma y la resta
 y la exponenciación más que la mutiplicación y la división.
 Por eso:
 
@@ -187,7 +246,8 @@ Por eso:
 14
 ~~~
 
-Cuando combinamos operadores del mismo nivel, resuelven de izquierda a derecha (como se lee).
+Cuando combinamos operadores del mismo nivel, resuelven de izquierda a derecha,
+es decir, tal y como se lee.
 
 Si el orden no nos gusta podemos agrupar con paréntesis:
 
@@ -198,31 +258,32 @@ Si el orden no nos gusta podemos agrupar con paréntesis:
 20
 ~~~
 
-A veces, los paréntesis son útiles
-para que se entienda mejor una expresión compleja,
-aunque por prioridad no se necesiten.
+> Aunque por prioridad no se necesiten,
+> poner paréntesis tambien ayuda a entender mejor una expresión con muchos operadores.
+> Aunque el ordenador ya lo entienda sin paréntesis, pensemos en los programadores que vendrán.
 
 **Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
 
+A parte de los literales comunes que enseñamos arriba, hay otros literales numéricos:
 
-## Literales, valores, tipos y expresiones
+```python
+>>> # Notaciones alternativas (int)
+>>> 0xF0  # notacion hexadecimal, con 0x delante
+240
+>>> 0b10010  # notacion en binario, con 0b delante
+18
+>>> # Notaciones alternativas (float)
+>>> 1.3e-13  # notación científica, equivale a 1.3*(10**(-13))
+```
 
-Antes de seguir, un poquitín de vocabulario:
-
-- Los datos que manejamos en el lenguaje son **valores**.
-- Dichos valores pueden ser de muchos **tipos**.
-	- Hasta ahora hemos visto números enteros (`int`), con decimales (`float`) y textos (`str`)
-- La forma más directa de expresar un valor de un tipo son los **literales**. Cada tipo tiene su sintaxis:
-	- Enteros: `4`, `0`, `-5234`, `0xF4` (notación hexadecimal), `0b10010` (notación binaria)...
-	- Coma flotante (decimales): `3.1416`, `1.3e-13` (notacion científica)
-	- Textos (strings): `'Hola mundo'`
-	- ...
-- Usamos **expresiones** para obtener nuevos valores a partir de otros valores existentes.
-
-Ahora sigamos viendo más tipos de valores, literales y expresiones.
+**Ejercicio:**
+Experimenta con las notaciones
+[hexadecimales](http://es.wikipedia.org/wiki/Sistema_hexadecimal),
+[binarias](http://es.wikipedia.org/wiki/Sistema_binario) y
+[científica](https://es.wikipedia.org/wiki/Notaci%C3%B3n_cient%C3%ADfica).
 
 
-## Trabajando con texto
+## Trabajando con texto, tipo `str`
 
 El tipo `str` sirve para representar texto.
 Podemos construir literales de texto delimitando el texto entre comillas dobles o simples.
@@ -299,9 +360,9 @@ Una **variable** nos permite volver a referenciar un **valor** que hemos constru
 >>> a = 23
 >>> a
 23
->>> b = 10
+>>> b = 10*10
 >>> b
-10
+100
 ~~~
 
 En Python, una misma variable en un script puede ir apuntando a valores diferentes.
@@ -316,8 +377,8 @@ a = 3.1416   # tipo coma flotante (float)
 Consejos del programador abuelete:
 
 - Aunque puedas, no es recomendable reusar las variables.
-  Si en un punto una variable se refiere a una cosa,
-  confunde que después se refiera a otra.
+  Si, en un punto, una variable se refiere a una cosa,
+  confunde que después se refiera a otra cosa.
 - Usar nombres de variables de una letra tampoco es bueno,
   **los nombres de las variables tienen que recordarnos a que se refieren**.
 
@@ -329,40 +390,43 @@ En los ejemplos, normalmente se abusa de los nombres tontos de variables.
 > que son fáciles de entender por sus compañeros
 > (o por él mismo, cuando pase el tiempo).»
 >
->> Martin Fowler (parafraseado)
+> Martin Fowler (parafraseado)
 
 Así que para dar a entender el significado de una variable
 en vez de llamarla `a`, la llamaremos `anguloRecorrido`.
-Los nombres de variables no pueden contener espacios,
-pero para que sea explicativa una variable suele necesitar
-mas de una palabra.
+Para que sea explicativa una variable suele necesitar
+más de una palabra,
+pero los nombres de variables no pueden contener espacios,
+así que podemos usar varias nomenclaturas:
 
-- **Plain**: `sinningunadiferenciaentrepalabras`
+- **Lower Case**: `sinningunadiferenciaentrepalabras`
 - **Camel Case**: `alteramosLasMayusculasAlInicioDePalabra`
 - **Underscore**: `separamos_las_palabras_con_subrayados`
 
 La primera estrategia es bastante ilegible aunque para nombres cortos funciona.
 La segunda es más legibles sobretodo cuando te acostumbras.
-Y la tercera aunque parezca mas legible,
+Y la tercera aunque parezca más legible,
 confunde cuando lo mezclas con otros operadores.
 
 Se suele escoger una de las dos últimas estrategias.
-Ninguna es mejor que la otra pero, dentro de un proyecto,
-hay que unificar la forma de llamar a las cosas.
+Hay argumentos para ambas, pero, dentro de un proyecto,
+lo mejor es decidirse por una y adherirse a ella.
 
 
 ## Indexando y recortando (slices)
 
 La indexacion con los simbolos `[ ]` nos permiten selecionar letras de un texto.
 En general, el enésimo elemento de una secuencia.
+La única secuencia que hemos explorado en profundidad es el texto,
+pero también podremos hacer lo mismo con tuplas y listas.
 
-Los índices empiezan por el cero.
+**¡Ojo! ¡Los índices empiezan por el cero!**
 
 ~~~{.python}
 >>> a = 'murcielago'
 >>> a[1]   # ¡ojo! ¡La primera letra es la 0!
 'u'
->>> a[0]
+>>> a[0]   # Ahora sí
 'm'
 >>> len(a)
 10
@@ -420,13 +484,16 @@ Normalmente es 1, pero si lo especificamos...
 
 **Pregunta:** ¿Qué retornaria a[5:5]? ¿Porqué?
 
+**Reflexión:**
 
-> **¿Porque la complicación de que se empiece por cero y que el índice del final no se incluya?**
+> **¿Porqué lo complican todo empiezando los índices por cero y haciendo que el final de los intervalos no se incluya?**
 >
-> Algunos lenguajes lo intentaron, pusieron al 1 como primer índice, pretendiendo ser más simples.
-> Parece que fuera a ser mas simples así.
-> Pero, por las operaciones que se suelen hacer cuando programas,
-> que los índices empiecen por 1 acaba siendo un incordio.
+> Es heréncia de cuando se trabajaba con el hardware.
+> Hubo una ola de lenguajes que intentaron usar el 1 como primer índice, pretendiendo ser más simples.
+> Resultó que todo el código acabo siendo más complicado.
+> Las operaciones con índices basados en 0 son mucho más simples.
+> Que los índices empiecen por 1 acaba siendo un incordio.
+>
 > **Esos lenguajes que lo intentaron perecieron o malviven siendo muy odiados.**
 
 
@@ -451,12 +518,14 @@ también es una función que llamamos con el operador paréntesis.
 
 El tutorial oficial de Python tiene una
 [lista de las funciones incluidas](https://docs.python.org/3/library/functions.html)
-en el lenguaje (_built-in_).
+en el lenguaje (_built-in_)
+que podemos usar sin incluir ninguna libreria (estándard o no).
 
 
 ## Definiendo funciones
 
-Para definir una nueva función lo hacemos de la siguiente manera:
+Podemos definir nuestras propias funciones.
+Lo hacemos de la siguiente manera:
 
 ~~~{.python}
 >>> def media(a, b):
@@ -472,6 +541,8 @@ Para definir una nueva función lo hacemos de la siguiente manera:
 - La definición de una función comienza con la palabra reservada `def`.
 - Le sigue el nombre que daremos a la función, `media` en este caso.
 	- El nombre sigue las mismas normas que para las variables.
+	- De hecho usan el mismo espacio de nombres:
+		- si declaramos después una variable llamada `media` perderemos nuestra función.
 - Después, entre parentesis y separados por comas, la lista de parámetros.
 	- Los parametros son variables que existiran sólo mientras se ejecute la función
 	- Se les asignan los valores que pasamos entre paréntesis
@@ -480,18 +551,18 @@ Para definir una nueva función lo hacemos de la siguiente manera:
 - Todas las sentencias que finalizan con `:`, van seguidas de un conjunto de sentencias indentadas un nivel más.
 	- Decimos que estas sentencias indentadas están dentro de la sentencia que les da paso con los dos puntos.
 	- En el caso de una función son las sentencias que se ejecutarán cuando la llamemos.
-	- Los puntos suspensivos los escribe el interprete para indicar que aun tenemos que acabar la sentencia.
-	- Para salir de los puntos suspensivos dejamos una linea en blanco
+	- Los tres puntos los escribe el interprete, en vez de los `>>>` para indicar que aun tenemos que acabar la sentencia.
+	- Para salir de los tres puntos dejamos una linea en blanco
 - La primera sentencia de dentro crea una variable `suma`
 	- Las variables que creemos dentro de una función solo existen mientras la función se ejecuta.
 	- En jerga se dice que es una variable _local_, en contraposicion de las variables que se definen fuera de funciones que se les llama _globales_
 	- Que las variables tengan un ámbito local nos ayuda a no tener que buscar nombres que no colisionen con los de otras funciones
 - La ultima sentencia es una sentencia especial `return`
 	- Una sentencia `return` sale de la función y devuelve el control al llamante
-	- Ademas el llamante recibirá el valor resultante de la expresión que va después del `return`
+	- Además el llamante recibirá el valor resultante de la expresión que va después del `return`
 	- Si hubiera sentencias después del return, no se seguirían ejecutando
 
-## No valor, `None`
+## El no-valor `None`
 
 ¿Qué pasaría si se llega al final de la función y no encuentra ningún return?
 
@@ -520,8 +591,136 @@ None
 None
 ~~~
 
+## Parámetros por clave
 
-# Empezando a programar, tomando decisiones
+podemos llamar a la a
+
+## Parámetros por defecto
+
+
+
+## Llamando a métodos
+
+Hemos visto que usar variables locales,
+las que se definen dentro de una funcion y no afectan fuera de ellas,
+nos ahorraba colisiones en el espacio de nombres global.
+
+Este tipo de colisiones es uno de los campos de batalla de los lenguajes
+que aportan soluciones para ello.
+
+Dado que las funciones compiten por el mismo espacio de nombres que las variables,
+una solución para definir funciones que no lo hagan son los **métodos**.
+Un método es una función que estan ligadas a un tipo de objeto/valor.
+Se llaman con la sintaxis del punto (`.`) a partir del objeto/valor.
+
+~~~{.python}
+objeto.metodo(parametros)
+~~~
+
+El interprete interactivo nos deja explorar los métodos disponibles
+si tecleamos un literal o una variable, un punto y damos al tabulador
+y lo autocompleta si lo empezamos a teclear y le damos al tabulador.
+
+Los textos `str` tienen varios métodos disponibles:
+
+~~~{.python}
+>>> s = 'abracadabra'
+>>> s.count('bra')  # Cuantas veces contiene el parámetro en el receptor
+2
+>>> s.count('a')
+5
+>>> s.index('b') # En que posicion esta la primera 'b'
+1
+>>> s.index('b',2)  # ...a partir de la posicion 2
+8
+>>> s.startswith('abra')
+True
+>>> s.endswith('abra')
+True
+>>> s.capitalize() # primera letra mayúscula
+'Abracadabra'
+>>> 'ábrete sésamo'.title() # primera letra de cada palabra mayúscula
+'Ábrete Sésamo'
+>>> 'ábrete sésamo'.title().swapcase() # invierte mayúsculas y minúsculas
+'áBRETE sÉSAMO'
+>>> s.upper() # todo a mayusculas
+'ABRACADABRA'
+>>> 'AbRaCaDaBra'.lower() # todo a minúsculas
+'abracadabra'
+~~~
+
+La ventaja de los métodos respecto a las funciones es que
+el método no contamina el espacio de nombres.
+Objetos de tipos diferentes pueden tener métodos con el mismo nombre,
+lo cual tiene sentido si hacen cosas conceptualmente similares
+pero se programan de formas distintas.
+
+
+## Rellenando textos con valores, el método `format`
+
+Un método muy usado del `str` es el metodo `format`.
+Permite rellenar un texto con valores del programa.
+El texto tiene que marcar los sitios donde introducir
+los valores con corchetes `{}`.
+
+```python
+>>> 'El resultado es {}'.format(4)
+'El resultado es 4.
+>>> '{} tiene {} puntos'.format('Aitor', 14)
+'Aitor tiene 14 puntos'
+```
+
+Dentro de los corchetes podemos especificar que y como queremos rellenar.
+Por ejemplo, poniendo un número, podemos alterar el orden,
+o repetir un valor.
+
+```python
+>>> '{0} tiene {1} puntos. ¡Felicidades, {0}!'.format('Aitor', 14)
+'Aitor tiene 14 puntos. ¡Felicidades, Aitor!'
+```
+
+Usar los índices es muy práctico cuando la cadena a rellenar viene de una traducción.
+Idiomas diferentes pueden tener los huecos en ordenes diferentes.
+
+Cuando tenemos muchos parámetros que rellenar,
+seguirle la pista a cual es cual se vuelve complicado.
+Por eso, a menudo es util usar claves para rellenarlo.
+Fíjate en este ejemplo como le estamos pasando los parámetros.
+
+```python
+>>> '{nombre} tiene {puntos} puntos. ¡Felicidades, {nombre}!'.format(nombre='Aitor', puntos=14)
+'Aitor tiene 14 puntos. ¡Felicidades, Aitor!
+```
+
+Una segunda parte del indicador es el formato.
+Podemos hacer virguerias decidiendo como se representan los números.
+Por ejemplo, dos decimales rellenados por la derecha con ceros,
+y todo el numero ocupando mínimo de 8 posiciones rellenadas por la izquierda con 0:
+
+```python
+>>> 'El saldo al dia de hoy es {saldo:08.02f}€'.format(saldo=34.2)
+'El saldo al dia de hoy es 00034.20€'
+```
+
+**Ojo:**
+Cuando formatees dinero de esta manera.
+El redondeo no se hace como debería de hacerse a ley:
+un 5 hacia arriba.
+Aquello típico de aplicar el IVA a una cantidad con 50 céntimos:
+
+```python
+>>> '{saldo:.02f}€ {saldo:.04f}€'.format(saldo=2.50*1.21)
+'3.02€ 3.0250€'
+```
+
+Sobre el problema de representar dinero, hablaremos más adelante.
+
+Puedes encontrar más detalles sobre el mini lenguaje de formateo en el
+[manual de referencia](https://docs.python.org/3/library/string.html#format-specification-mini-language)
+
+
+
+# Tomando decisiones
 
 Programar es dejar que el ordenador tome sus decisiones.
 Nosotros le decimos en el programa como las tiene que tomar.
@@ -542,11 +741,11 @@ El tipo booleano (`bool`) solo tiene dos valores posibles representados por los 
 
 Una forma de obtener booleanos es comparando valores.
 
-Los **operadores relacionales** devuelven `True` o `False` dependiendo de la .
-(`<`, `>`, `<=`, `>=`, `<`, `==`, `!=`)
+Los **operadores relacionales** devuelven `True` o `False` dependiendo de la relacion de mayor, menor o igual en magnitud entre los valores.
+(`<`, `>`, `<=`, `>=`, `==`, `!=`)
 
 ~~~{.python}
->>> 1<3
+>>> 1<3  # operador de inequalidad 'menor que'
 True
 >>> 10<3
 False
@@ -560,6 +759,11 @@ False
 >>> 1 <= a <= 10    # ¿es a un numero del 1 al 10, ambos incluidos?
 True
 ~~~
+
+Si el orden está bien definido, todos los operadores relacionales
+se pueden definir en base a uno solo de los de inequalidad (`<`, `>`, `<=`, `>=`)
+
+
 
 **Operadores de identidad:** Son los que comparan si un valor es el mismo que otro. (`is`, `is not`)
 Para los tipos básicos que han salido hasta ahora, son equivalentes a igualdad y desigualdad.
@@ -621,7 +825,7 @@ else:
 	print ('Hola, desconocido, ya te puedes pirar')
 ~~~
 
-Está bien, pero tambien podemos tener mas de una alternativa.
+Está bien, pero tambien podemos tener más de una alternativa.
 Para eso sirve la sentencia `elif` (viene de _else if_).
 
 ~~~{.python}
@@ -664,10 +868,67 @@ La regla es:
 - el `or` es cierto si cualquier operando es cierto.
 - el `and` es cierto si todos los operandos son ciertos.
 
+**Ejercicio:**
+Todos los operadores relacionales que vimos se pueden expresar
+combinando uno solo de ellos con operadores lógicos.
+Expresa todos los operadores relacionales usando solo el 'menor que' y operaciones lógicas.
+Ejemplos:
+
+```python
+>>> (a > b) is (b < a)
+True
+>>> (a != b) is ((a < b) or (b < a))
+True
+```
+
+**Ejercicio:**
+Comprueba con una tabla de verdad que estas expresiones son equivalentes (Remember Abelians):
+
+- `not not a == a` (Doble negación)
+- `not(a and b) == (not a or not b)` (De Morgan)
+- `not(a or b) == (not a and not b)` (De Morgan)
+- `(a and b) == (b and a)`  (Conmutativa)
+- `(a or b) == (b or a)`  (Conmutativa)
+- `a or (b and c) == (a or b) and (a or c)` (Distribuitiva)
+- `a and (b or c) == (a and b) or (a and c)` (Distribuitiva)
+- `a and (b and c) == (a and b) and c` (Asociativa)
+- `a or (b or c) == (a or b) or c` (Asociativa)
+
+Estas equivalencias nos van de coña para simplificar las condiciones
+y poder hacer según que refactorings.
+
+**Ejercicio:**
+De Morgan se resume como: negar un operador booleano,
+equivale a usar el otro operador con los operandos negados.
+
+- Aplica DeMorgan a las expresiones que usamos para calcular:
+  `annaConduce`, `toniConduce`, `losDosQuieren` y `ningunoQuiere`.
+- Elimina las dobles negaciones resultantes.
+- Lee las expresiones a ver si aún tienen sentido.
+- Quédate con las reescrituras que simplifiquen la expresión.
+
+
+Otra forma de ver los booleanos es como numeros con dos únicos valores 0 (`False`, nada) y 1 (`True`, algo, cualquier número positivo diferente de cero).
+El `and` es la multiplicación y el `or` es la suma.
+
+- `1 + 1 = 1`  (algo más algo, da algo)
+- `1 + 0 = 1`  (algo más nada, da algo)
+- `0 + 0 = 0`  (nada más nada, da nada)
+- `1 * 1 = 1`  (algo por algo, da algo)
+- `1 * 0 = 0`  (algo por nada, da nada)
+- `0 * 0 = 0`  (nada por nada, da nada)
+
+Otra forma de ver los booleanos, como interruptores de un circuito eléctrico
+que a su vez estan activados o no por otros circuitos eléctricos:
+
+- Una `or` son interruptores en paralelo. Con que uno este encendido pasa la luz.
+- Una `and` son interruptores en serie. Los dos tiene que estar encendidos para que pase la luz.
+- Un `not` es un interruptor que se apaga cuando le llega corriente, al revés que los normales.
+
 
 ## Evalua con cortocircuito o muere
 
-Otra forma de ver los operadores `and` y `or` es la siguiente:
+Otra forma más de ver los operadores `and` y `or` es la siguiente:
 
 - Si los operandos son el mismo valor, retornar ese valor
 - Si son distintos:
@@ -677,20 +938,24 @@ Otra forma de ver los operadores `and` y `or` es la siguiente:
 Así pues, en una expresion `or` o `and`,
 cuando evaluamos el primer operando
 y nos da el valor dominante,
-Python no evalua el segundo operando porque ya sabe el resultado.
+Python ya no evalua el segundo operando porque ya sabe el resultado.
+Solo evalua el segundo operando si el primero es el no dominante.
 Es lo que se llama evaluación por cortocircuito,
 y se hace para que el programa vaya más rápido.
+Optimizamos el programa si ponemos primero el operando
+que con más frecuencia evalue al valor dominante.
 
 ~~~{.python}
 >>> pi = 3.1416
 >>> r = 10
 >>> # Como la primera parte ya es cierta, la segunda no se llegara a evaluar
+>>> # Intentaremos poner a la izquierda la condición que sea cierta más veces para optimizar
 >>> (2*r*pi > 3)  or   (3*r**2*pi>10)
 True
 ~~~
 
-Y pasa lo de siempre:
-haces algo por algún motivo y sale alguien que lo utiliza para otro.
+Cuando alguien hace algo por algún motivo,
+siempre sale alguien que lo utiliza para otra cosa.
 Mucha gente aprovecha los cortocircuitos para construcciones
 condicionales que la verdad es que quedan
 bastante expresivas (y barriobajeras) como:
@@ -719,8 +984,8 @@ si `condicionNecesaria` es `True` o si `condicionDeError` es `False`.
 
 En cualquier caso, hay que tener cuidado cuando usemos expresiones booleanas
 porque puede que una parte de los operandos, no se lleguen a evaluar.
-Si la expresion en los operandos tiene efectos colaterales necesarios,
-no se ejecutarán.
+Si la expresion del segundo operando tiene efectos colaterales necesarios,
+no se ejecutarían.
 
 ## Condiciones anidadas
 
@@ -735,7 +1000,7 @@ if meGustaElFutbol :
 	else:
 		print("whatever")
 else
-	print("Mejor pensemos en otras cosas mas productivas")
+	print("Mejor pensemos en otras cosas más productivas")
 ~~~
 
 Observa que los `else`s y `elif`s estan al mismo nivel que el `if`
@@ -743,11 +1008,121 @@ al que se corresponden y que los bloques de sentencias estan
 indentados aún más adentro.
 
 
+## Bucles condicionales, sentencia `while`
+
+La sentencia `while` ejecuta las subsentencias mientras que una condición sea cierta.
+
+El siguiente código imprime las potencias de 2 menores que 50:
+
+```python
+>>> a = 1
+>>> while a < 50:
+...     print(a)
+...     a *= 2   # equivalente: a = a*2
+...
+1
+2
+4
+8
+16
+32
+```
+
+Este código se ejecuta de la siguiente manera:
+
+- La variable `a` se inicializa a `1`
+- Antes de entrar en las sub-sentencias del while, se evalua la condición `a<50`
+- Si es cierta se procede a ejecutar las subsentencia
+- La primera sentencia del bucle imprime el valor actual de `a`
+- La segunda sentencia del bucle actualiza `a` multiplicando el valor por 2
+- Cuando se acaban las subsentencias se vuelve a evaluar la condición con el nuevo valor de `a`.
+- Después de la vuelta en que `a` pasa a valer `64`, la condición evalua `False`, y se sale de la sentencia `while`
+- Fuera de la función `a` valdra `64` aunque no se haya llegado a imprimir ese valor.
+
+Cada vez que la ejecución entra en las subsentencias se llama una **iteración**.
+Diremos pues que el bucle ha ejecutado 6 iteraciones.
+
+
+## Salidas prematuras: sentencias `break` y `continue`
+
+Las sentencias `break` y `continue` sirven para alterar la ejecución normal de un bucle.
+Clásicamente se considera que usar este tipo de sentencias es una abobinación para la programación formal.
+Bien usadas, ayudan a que el código sea mucho más entendible.
+Mal usadas, pueden complicarlo infinitamente.
+
+La sentencia `continue`, sirve para saltar a la siguiente iteración.
+Si ejecuta el `continue`, lo que quede de subsentencias, para iteración actual, no se llega a ejecutar.
+
+La forma ordenada de usarlo es:
+
+- A modo de filtro: hay iteraciones que no es necesario ejecutar
+- Siempre guardado con una condición
+- Todo lo que es necesario ejectuar, para una iteración, tiene que haberse ejecutado antes del continue
+- No es buena opción si en la condición del `continue` tenemos que introducir cierres de cosas.
+
+Aquí tenemos un caso problemático:
+
+```python
+a = 1
+while a<50:
+	if a==16:
+		continue
+	print(a)
+	a =* 2
+```
+
+La intención sería excluir el 16.
+Pero, como la variable se actualiza después del `continue`, el script se queda colgado en el 16.
+Puedes pulsar Control+C para salir.
+
+La solución podría ser actualizar la variable tambien en el `if` antes del `continue`.
+
+```python
+a = 1
+while a<50:
+	if a == 16:
+		a =* 2
+		continue
+	print(a)
+	a =* 2
+```
+
+Funciona, pero tenemos duplicacion de código.
+Si actualizamos la potencia tenemos dos sitios donde actualizarla.
+Mejor invertimos la lógica, de la condición, sin `continue` y metemos el print a dentro.
+
+```python
+a = 1
+while a<50:
+	if a != 16:
+		print(a)
+	a =* 2
+```
+
+En este caso el `continue` no era oportuno, pero hay muchos casos en que lo es.
+
+La otra sentencia corta rollos es `break`.
+Es más contundente que `continue`,
+pues no solo corta la iteración en curso,
+sinó toda iteración subsecuente.
+
+La forma correcta de usarse es también guardada por una condición
+y también tenemos que tener en cuenta que se ejecuta todo lo que necesitamos
+antes de salir del bucle de forma prematura.
+
+
+
+
+
+
+
+
+
 
 # Estructuras de datos
 
 Hasta ahora hemos visto valores muy simples.
-Una de las potencias de Python es la facilidad con la que se manejan estructuras de datos mas complejas.
+Una de las potencias de Python es la facilidad con la que se manejan estructuras de datos más complejas.
 
 ## Listas
 
@@ -827,11 +1202,15 @@ False
 
 
 
-## Bucles
+## Bucles sobre iterables, la sentencia `for`
 
-La sentencia `for` permite repetir la ejecución de sus subsentencias,
-para una serie de valores en una secuencia (es como se llaman los tipos que tienen items).
-Define una variable que va adoptando cada vez un valor de la secuencia.
+La sentencia `for` realiza una iteración
+para cada uno de los valores de, por ejemplo, una lista.
+Hablamos de lista pero podría ser una de las varias estructuras
+que llamaremos en general **iterables**.
+Es decir, que nos pueden proporcionar valores en secuencia.
+
+La sentencia `for` define una variable que va adoptando para cada iteración un valor distinto de la lista.
 
 ~~~{.python}
 >>> l = [1,2,3,4]
@@ -847,7 +1226,8 @@ Define una variable que va adoptando cada vez un valor de la secuencia.
 En este código, la variable `item` va adoptando los valores
 incluidos en la lista y ejecuta las sentencias de dentro.
 
-A diferencia de las funciones, aquí las variables como `doble` o `item` no se limitan al `for`.
+A diferencia de cuando definimos una función,
+aquí las variables como `doble` o `item` no se limitan al `for`.
 
 
 ## Uniendo y separando (`split` y `join`)
@@ -856,24 +1236,7 @@ Dos operaciones muy comunes son dividir un texto usando
 un separador obteniendo una lista de textos,
 o al revés, dada una lista juntarla con un separador.
 
-Para ello usaremos los métodos `join` y `split`.
-Un método es una función que estan ligadas a un objeto.
-Se llaman con la sintaxis del punto (`.`).
-
-~~~
-objeto.metodo(parametros)
-~~~
-
-Cada tipo de objeto tiene sus propios métodos.
-`join` y `split` son métodos de los objetos de tipo `str`.
-
-La ventaja de los métodos respecto a las funciones es que
-el método no contamina el espacio de nombres.
-Objetos de tipos diferentes pueden tener métodos con el mismo nombre,
-lo cual tiene sentido si hacen cosas conceptualmente similares.
-Si tuvieramos que buscar un nombre para la funcion que hace
-lo mismo para cada tipo acabariamos con funciones llamadas
-`hazlo_texto`, `hazlo_lista`...
+Para ello usaremos los métodos `join` y `split` del tipo `str`.
 
 
 ~~~{.python}
@@ -1147,6 +1510,177 @@ En cambio con listas, como habíamos visto:
 [1,2,3,4]
 ~~~
 
+## Usando generadores
+
+Un generador es un objeto que retorna objetos en los que iterar.
+La diferencia con una lista sería que el generador no construye la lista en memória pero si que ofrece los items.
+
+### Generando sequencias de números, el generador `range`
+
+Uno de los generadores más usado es el _built-in_ `range`, genera enteros y 
+sus tres parámetros son equivalentes a los de un slice: inicio, fin y paso.
+
+```python
+>>> for i in range(3,20,3):
+... 	print(i)
+...
+3
+6
+9
+12
+15
+18
+>>> print(range(3,20,3)) # No es una lista es otro tipo de objeto
+range(3,20,3)
+>>> list(range(3,20,3))  # como es iterable lo podemos pasar al constructor de list
+[3,6,9,12,15,18]
+>>> tuple(range(3,20,3)) # o al constructor de tuple
+(3,6,9,12,15,18)
+```
+**Ejercicio:**
+
+- Prueba que pasa si recibe solo dos argumentos `range(2,10)`
+- Prueba que pasa si recibe solo un argumento `range(10)`
+- Prueba como funcionan los numeros negativos para cada parámetro.
+- Escribe una _comprehension list_ en la que esten los cuadrados de los números del 1 al 10
+	- Pista, código en el camino pero erróneo:
+
+		```python
+		[ n*n for n in range(1,10) ]
+		```
+
+### Expresiones generadoras
+
+Las expresiones generadoras son muy parecidas a las _comprehension lists_:
+
+- Usan la misma sintaxis pero en vez de usar corchetes usan paréntesis, como si fueran tuplas.
+- En vez de crear una lista en memoria, crean un 'generador'
+
+La principal ventaja de usarlos es con volúmenes grandes de datos,
+evitando que se creen grandes listas intermedias en memoria.
+
+```python
+# Busca los cuadrados de los numeros hasta 999 que acaben en 5
+[
+	square
+	for square in [n*n for n in range(1000)]
+	if square % 10 == 5
+]
+```
+
+En el código de arriba estamos generando una lista de mil cuadrados,
+iteramos sobre ella y seleccionamos aquellos que el numero anterior
+sea divisible por 10.
+
+El problema es para que generar una lista intermedia, la de los 1000 cuadrados,
+que no vamos a usar más.
+Ocupamos memoria y hacemos que todo vaya más lento.
+
+En canvio si convertimos la lista interna en una expresion generadora
+cambiando los corchetes por paréntesis:
+
+```python
+# Busca los cuadrados de los numeros hasta 999 que acaben en 5
+[
+	square
+	for square in (n*n for n in range(1000))
+	if square % 10 == 5
+]
+```
+
+La lista interna de 1000 elementos no se generará, solo la final filtrada de 100 elementos.
+
+
+### Enumerando elementos, `enumerate`
+
+Otro generador muy util es `enumerate`.
+Dado un iterable, genera tuplas con la posicion y el valor de cada elemento del iterable.
+
+```python
+>>> list(enumerate([
+... 	'perro',
+... 	'gato',
+... 	'raton,
+... 	]))
+...
+[(0,'perro'), (1,'gato'), (2,'raton')]
+```
+Es tremendamente útil cuando en un bucle necesitamos saber la posición de cada elemento.
+
+```python
+top5 = [
+	'Miguel Jacobez',
+	'Los Gansos Rosas',
+	'Francisco Ferdinando',
+	'Pimientos rojos de chilly picantes',
+	'Mermelada de Perlas',
+	'',
+	]
+
+for i, nombre in enumerate(top5):
+	print("En el puesto {}: {}".format(i+1, nombre))
+```
+
+**Ejercicio:**
+Usa el generador `reversed`, para darle emoción a la lista y acabar por el ganador.
+¿Que pasa si lo aplicas antes de `enumerate`?
+¿Que pasa si lo aplicas despues de `enumerate`?
+
+**Ejercicio:**
+Usa el generador `sorted` para ordenar una lista de nombres.
+Investiga y experimenta los parametros de `sorted` hasta que los entiendas.
+
+
+### Emparejando sequencias, `zip`
+
+El generador `zip` toma varios iterables y empareja sus valores.
+
+```python
+>>> for a, b in zip(range(10), range(10,20)):
+... 	print(a, b)
+0 10
+1 11
+2 12
+3 13
+4 14
+5 15
+6 16
+7 17
+8 18
+9 19
+```
+
+TODO: Explicar como se puede usar con * para transponer matrices
+
+**Ejercicio:**
+Crea un bucle que haga lo mismo que si usaras `enumerate`,
+pero usando `zip`, `range` y `len`.
+
+
+### Nuestras propias funciones generadoras
+
+Podemos crear nuestros propios generadores con una expresión generadora que ya hemos visto.
+Pero en las expresiones generadoras estamos limitados a una sola expresión.
+Si queremos hacer algo más complejo tenemos que usar funciones generadoras.
+
+Una función generadora no retorna un valor, retorna muchos,
+y lo hace acordandose de por donde iba para cuando se le vuelva a necesitar.
+
+```python
+function squares(limit=None):
+	n = 0
+	while limit is None or n<limit:
+		n += 1
+		yield n*n
+	return
+```
+
+La sentencia `yield` (igual que las señales de 'ceda el paso' en inglés)
+es similar al `return` en el sentido que devuelve un valor.
+Pero se deja un
+
+
+
 
 
 ## Conjuntos `set`
@@ -1189,15 +1723,48 @@ True
 False
 >>> 3 not in s1
 False
->>> s1 + set(range(4,12)) # Union
-{3,4,5,6,7,8,20,21,22,23,24}
+>>> set(range(1,5)).union(range(3,8))  # Union
+{1,2,3,4,5,6,7}
+>>> set(range(1,5)).intersection(range(3,8))  # Intersección
+{3,4}
+>>> set(range(1,5)).differenc(set(range(3,8))  # Diferencia
+{1,2}
 ~~~
 
 
+# Manejando dinero
 
+El dinero es una cantidad numérica,
+y teniendo decimals, por los céntimos,
+tendemos a representarlo con el tipo `float`.
 
+El tipo `float` tiene el inconveniente de la precisión.
+No se puede representar con `float` un número de N decimales de forma exacta.
 
+```python
+>>> '{saldo:.02f}€ {saldo:.06f}€'.format(saldo=2.50*1.21)
+'3.02€ 3.025000€'
+```
 
+Esto pasa porque:
 
+- La representación para números `float` en el ordenador no puede representar exactamente los números decimales.
+- Por eso el número no es exactamente 3.025 sinó algo muy pegado por debajo
+- Al representarlo con varios decimales, redondea por encima y llega al 3.025
+- Al representarlo solo con dos decimales, ese 5 no llega al 5, por lo que se redondea a la baja.
+
+Solución:
+
+- **Para dinero no usar nunca `float`.**
+- Usar ints contando en centimos o la clase `Decimal` del modulo `decimal` o una clase `money` de alguna librería que esté bien.
+- Cuando apliques porcentajes por impuestos, augmenta la precisión dos dígitos (centésima de céntimo) o más si el porcentaje tambien tiene decimales.
+- Justo después de aplicar el porcentaje redondea al céntimo con el metodo de redondeo HALF_FROM_ZERO.
+
+```python
+from decimal import Decimal as D, ROUND_HALF_UP
+
+>>> (D('2.50')*D('1.21')).quantize(D('0.01'), rounding=ROUND_HALF_UP)
+Decimal('3.03')
+```
 
 
