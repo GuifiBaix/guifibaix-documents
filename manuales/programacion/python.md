@@ -173,24 +173,39 @@ Un script en Python se compone de una secuencia de **sentencias**.
 Esas sentencias, las podemos escribir directamente en el interprete
 o en un fichero script.
 
+La sintaxis de Python sigue unos principios generales muy básicos:
+
+- La mayoría de sentencias van en una sola línia, esta norma la podemos romper a veces:
+	- Si abrimos parentesis, comillas, corchetes planos o rizados... podemos extendernos varias linias hasta que los cerremos.
+	- Si queremos juntar dos sentencias en una línia (muy desaconsejado) tenemos que separarlas con un `;`
+- La indentación es parte del lenguaje, hay que ir con mucho cuidado con como indentamos
+	- Unifica dentro de un proyecto el método de indentacion, tabuladores o espacios
+- Hay sentencias que acaban en `:`,
+	- los dos puntos abren una serie de subsentencias que van indentadas a un nivel más adentro
+	- Las subsentencias se acaban cuando el nivel de indentación se restaura
+
 La sentencia más típica es la que se compone solo de una **expresión**.
 Una expresión combina varios elementos para obtener un **valor**.
 Para comenzar a entender Python,
 escribiremos expresiones, cada vez más complejas,
 en el interprete.
 
+
 ## Tipos de datos y literales
 
 La expresión más simple es el literal.
 El literal expresa directamente un valor de un tipo concreto.
-Entre paréntesis el nombre del tipo en Python.
+A continuación, ejemplos de literales de los tipos de dato más comunmente usados.
+Entre paréntesis, en el comentario, el nombre del tipo en Python.
 
 ```python
->>> -12    # un número entero (int)
+>>> # Lo que sigue a la almohadilla es ignorado por el intérprete
+>>> # Se llaman comentarios y se usan para documentar el código
+>>> -12     # un número entero (int)
 -12
 >>> 12.34   # un número con decimales (float)
 12.34
->>> 2+3j   # un número complejo (complex)
+>>> 2+3j    # un número complejo (complex)
 (2+3j)
 >>> 'un texto'  # un texto (str)
 'un texto'
@@ -264,7 +279,8 @@ Si el orden no nos gusta podemos agrupar con paréntesis:
 
 **Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
 
-A parte de los literales comunes que enseñamos arriba, hay otros literales numéricos:
+A parte de los literales que hemos visto,
+hay otros literales numéricos que usan otras notaciones:
 
 ```python
 >>> # Notaciones alternativas (int)
@@ -273,7 +289,8 @@ A parte de los literales comunes que enseñamos arriba, hay otros literales num�
 >>> 0b10010  # notacion en binario, con 0b delante
 18
 >>> # Notaciones alternativas (float)
->>> 1.3e-13  # notación científica, equivale a 1.3*(10**(-13))
+>>> 1.3e-5  # notación científica, equivale a 1.3*(10**(-5))
+1.3e-5
 ```
 
 **Ejercicio:**
@@ -415,8 +432,9 @@ lo mejor es decidirse por una y adherirse a ella.
 
 ## Indexando y recortando (slices)
 
-La indexacion con los simbolos `[ ]` nos permiten selecionar letras de un texto.
+La indexacion con los simbolos `[ ]` nos permite selecionar letras de un texto.
 En general, el enésimo elemento de una secuencia.
+Una **sequencia** es una estructura en la que sus elementos están ordenados.
 La única secuencia que hemos explorado en profundidad es el texto,
 pero también podremos hacer lo mismo con tuplas y listas.
 
@@ -478,6 +496,8 @@ Normalmente es 1, pero si lo especificamos...
 ''
 >>> a[6:2:-1]  # pero con un paso negativo, va hacia atrás
 'leic'
+>>> a[::-1]  # guárdate esta, sirve para voltear cualquier secuencia
+'ogaleicrum'
 ~~~
 
 **Pregunta:** ¿Porqué en la última expresión no son las mismas letras invertidas que con `a[2:6]`?
@@ -566,7 +586,7 @@ Lo hacemos de la siguiente manera:
 
 ¿Qué pasaría si se llega al final de la función y no encuentra ningún return?
 
-Pues que el llamante retornaría un no-valor. También llamado `None`.
+Pues que el llamante recibiría un no-valor. También llamado `None`.
 Cuando no ponemos ninguna expresión en el return tambien se retorna `None`.
 
 Hay un valor especial para indicar el concepto de _ningún valor_.
@@ -591,26 +611,69 @@ None
 None
 ~~~
 
-## Parámetros por clave
-
-podemos llamar a la a
-
 ## Parámetros por defecto
 
+Se puede indicar que, para una función,
+algunos parámetros son opcionales.
+Lo hacemos indicando el valor por defecto
+que adoptará el parámetro si no lo pasamos.
+
+```python
+>>> def aplicaIva(baseImponible, factorIva=0.21):a
+... 	return baseImponible + baseImponible*factorIva
+...
+>>> aplicaIva(100, 0.07)
+107
+>>> aplicaIva(100)
+121
+```
+
+Fíjate que, en la declaración de los parámetros,
+hemos igualado el `factorIva` al valor que adoptará
+en el caso que el llamante no lo proporcione `0.21`.
+
+Hay una restricción:
+**Todos los parámetros obligatorios han de ir delante de los opcionales.**
+De esta forma, el interprete puede ir asignando valores a los parámetros sin problemas.
+
+
+## Parámetros por clave
+
+Otra virguería que podemos hacer con las funciones
+es especificar los parámetros por su nombre
+cuando llamamos a una función.
+
+```python
+>>> aplicaIva(factorIva=0.07, baseImponible=100)
+107
+```
+
+Como se ve en el ejemplo,
+si indicamos el nombre de los parámetros,
+podemos colocarlos en el orden que queramos.
+
+Pero no sólo sirve para desordenar los parámetros.
+Cuando las funciones tienen muchos parámetros,
+determinar por posición qué parámetro corresponde con cual es muy dado a errores.
+No sólo genera errores si no que a alguien que está leyendo el código,
+le cuesta seguir asi que especificar el nombre del parámetro ayuda a esa lectura.
+También facilita hacer refactorings en el orden de los parámetros.
+Así que si tienes previsto cambiar los parametros que usa una función,
+no es mala idea llamarla usando los nombres.
 
 
 ## Llamando a métodos
 
-Hemos visto que usar variables locales,
-las que se definen dentro de una funcion y no afectan fuera de ellas,
-nos ahorraba colisiones en el espacio de nombres global.
+El espacio de nombres es un recurso escaso que afecta a nuestra salud mental.
+Cuantos menos nombres tengas que tener en cuenta cuando te metes en un código en concreto, mejor.
+Normalmente, los lenguajes aportan herramientas
+para partir ese espacio de nombres en trocitos aislados.
+Es el caso que vimos antes con las variables locales,
+las que se definen dentro de una función y no son visibles desde fuera.
 
-Este tipo de colisiones es uno de los campos de batalla de los lenguajes
-que aportan soluciones para ello.
-
-Dado que las funciones compiten por el mismo espacio de nombres que las variables,
-una solución para definir funciones que no lo hagan son los **métodos**.
-Un método es una función que estan ligadas a un tipo de objeto/valor.
+El hecho es que las funciones compiten por el mismo espacio de nombres que las variables.
+Una solución para definir funciones que no colisionen son los **métodos**.
+Un método es una función que está ligada a un tipo de objeto/valor.
 Se llaman con la sintaxis del punto (`.`) a partir del objeto/valor.
 
 ~~~{.python}
@@ -649,11 +712,13 @@ True
 'abracadabra'
 ~~~
 
-La ventaja de los métodos respecto a las funciones es que
-el método no contamina el espacio de nombres.
 Objetos de tipos diferentes pueden tener métodos con el mismo nombre,
 lo cual tiene sentido si hacen cosas conceptualmente similares
 pero se programan de formas distintas.
+
+Por ejemplo, los métodos `count` y `index`, que tiene `str`,
+también los tienen los otros tipos secuencia, `tupla` y `list`.
+Que tenga el mismo nombre y se use igual facilita que lo aprendamos.
 
 
 ## Rellenando textos con valores, el método `format`
@@ -688,7 +753,8 @@ Por eso, a menudo es util usar claves para rellenarlo.
 Fíjate en este ejemplo como le estamos pasando los parámetros.
 
 ```python
->>> '{nombre} tiene {puntos} puntos. ¡Felicidades, {nombre}!'.format(nombre='Aitor', puntos=14)
+>>> '{nombre} tiene {puntos} puntos. ¡Felicidades, {nombre}!'.format(
+... 	nombre='Aitor', puntos=14)
 'Aitor tiene 14 puntos. ¡Felicidades, Aitor!
 ```
 
