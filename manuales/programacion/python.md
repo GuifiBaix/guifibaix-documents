@@ -7,6 +7,13 @@ documenclass: book
 
 # Introducción
 
+> «Hacer un programa que entienda el ordenador es un reto.
+> Pero el mérito verdadero está en escribir un programa
+> que entiendan otros programadores (o uno mismo, cuando pase el tiempo)»
+>
+> Martin Fowler (parafraseado)
+
+
 ## Lenguajes de programación
 
 Un lenguaje de programación es la forma en que las personas
@@ -126,7 +133,7 @@ No necesitamos el `print`, para verlo.
 
 ## Escribiendo y ejecutando scripts
 
-Un script es un fichero de texto que contiene
+Un **script** es un fichero de texto que contiene
 las instrucciones de un programa escrito
 en un lenguaje interpretado (bash, python, perl, php...).
 
@@ -293,7 +300,8 @@ A lo largo del tutorial iremos explicando como trabajar con estos tipos de objet
 
 ## Trabajando con números, tipos `int` y `float`
 
-Podemos usar Python como una calculadora escribiendo expresiones numéricas.
+Podemos usar Python como una calculadora.
+Combinando literales coperadores obtenemos expresiones numéricas.
 
 ~~~{.python}
 >>> 10+3  # suma
@@ -312,7 +320,7 @@ Podemos usar Python como una calculadora escribiendo expresiones numéricas.
 1000
 ~~~
 
-Cuando combinamos las expresiones,
+Cuando combinamos varios operadores,
 se resuelven por prioridad.
 Por ejemplo, la multiplicacion y división tienen más prioridad que la suma y la resta.
 La exponenciación tiene más prioridad que la mutiplicación y la división.
@@ -328,7 +336,8 @@ Por eso:
 Cuando combinamos operadores del mismo nivel, resuelven de izquierda a derecha,
 es decir, tal y como se lee.
 
-Si el orden no nos gusta podemos agrupar con paréntesis:
+Si el orden que sale de la prioridad de operadores no nos gusta,
+podemos agrupar con paréntesis:
 
 ```python
 >>> 2 * (3 + 4)
@@ -477,13 +486,6 @@ Consejos del programador abuelete:
 En los ejemplos, normalmente se abusa de los nombres tontos de variables.
 **No uses nombres tontos cuando estés programando de verdad.**
 Martin Fowler vendrá por la noche, matará tus procesos y violará a tus segmentos.
-
-> «Cualquier programador escribe un programa que entienda la máquina.
-> Un buen programador se reconoce por que escribe programas
-> que son fáciles de entender también por sus compañeros
-> (o por él mismo, cuando pase el tiempo).»
->
-> Martin Fowler (parafraseado)
 
 Así que para dar a entender el significado de una variable
 en vez de llamarla `a`, la llamaremos `anguloRecorrido`.
