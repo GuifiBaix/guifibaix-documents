@@ -15,7 +15,7 @@ Por eso existen una miriada de lenguajes.
 
 El ordenador solo entiende de instrucciones en código máquina.
 El codigo máquina no está pensado para que lo entiendan las personas;
-es una secuencia de números sin sentido,
+es una secuencia de números sin sentido aparente,
 en la que cada número codifica
 algo que tiene que hacer el ordenador:
 Cargar un número en el procesador desde una posición de memoria,
@@ -26,13 +26,16 @@ Los lenguajes de programación son más cercanos
 a algo que una persona puede entender,
 haciendo de puente entre las personas y el ordenador.
 Los programas se escriben en archivos de texto,
-con unas reglas bastante rígidas, la **sintaxis**,
+con unas reglas bastante rígidas, lo que se llama **sintaxis**,
 que es lo que es propio de cada lenguaje.
 
-Para que esos ficheros de texto,
+Esos ficheros de texto,
 escritos en un lenguaje de programación,
-se conviertan en código máquina ejecutable por el ordenador,
-dependiendo del lenguaje, se usan dos tipos de programas:
+tienen que ser traducidos a 
+código máquina ejecutable por el ordenador.
+Según la estrategia que se use para hacerlo
+hablamos de _lenguajes compilados_ o
+de _lenguajes interpretados_.
 
 - ![Proceso de compilación](TODO)
 
@@ -54,7 +57,7 @@ dependiendo del lenguaje, se usan dos tipos de programas:
 	Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
 
 En general, un lenguaje interpretado se ejecutará más
-lento que uno compilado, puesto que, a parte de la tarea,
+lento que uno compilado, puesto que, a parte de la tarea que haya que hacer,
 tiene el trabajo extra de interpretar el texto para
 decidir que código máquina ejecutar.
 Esto, con los ordenadores actuales, cada vez es menos problema.
@@ -167,22 +170,69 @@ Aunque puede serlo para ejecutarlo en otros sistemas.
 Si que va bien para que los editores con resaltado de sintaxis
 detecten que es un fichero escrito en Python y lo coloreen adecuadamente.
 
-# Calculando expresiones en Python
+## Reglas básicas de sintaxis
 
 Un script en Python se compone de una secuencia de **sentencias**.
 Esas sentencias, las podemos escribir directamente en el interprete
 o en un fichero script.
 
-La sintaxis de Python sigue unos principios generales muy básicos:
+La sintaxis de Python sigue unos principios generales muy básicos.
 
-- La mayoría de sentencias van en una sola línia, esta norma la podemos romper a veces:
-	- Si abrimos parentesis, comillas, corchetes planos o rizados... podemos extendernos varias linias hasta que los cerremos.
-	- Si queremos juntar dos sentencias en una línia (muy desaconsejado) tenemos que separarlas con un `;`
-- La indentación es parte del lenguaje, hay que ir con mucho cuidado con como indentamos
-	- Unifica dentro de un proyecto el método de indentacion, tabuladores o espacios
-- Hay sentencias que acaban en `:`,
-	- los dos puntos abren una serie de subsentencias que van indentadas a un nivel más adentro
-	- Las subsentencias se acaban cuando el nivel de indentación se restaura
+- Normalmente, se escribe una sentencia por línea
+
+	```python
+	>>> print("hola mundo")
+	```
+
+- Hay sentencias especiales que acaban en `:` que abren una serie de subsentencias que van indentadas a un nivel más adentro
+
+	```python
+	>>> while True :
+	... 	print("hola")
+	...
+	```
+
+		- las subsentencias se acaban cuando aparece una sentencia en el anterior nivel de indentación
+
+- Dada la importancia de la indentación para estructurar el código,
+  es importante ser cuidadoso, y por ejemplo, no mezclar en un fichero
+  indentación con tabuladores con indentación con espacios.
+
+- Si una sentencia se nos hace larga (80 caracteres es lo máximo recomendado),
+  y no hemos abierto un paréntesis o similar,
+  podemos continuar en la siguiente línea
+  acabando la línea con una contrabarra `\`
+
+- Si abrimos un símbolo, como los paréntesis, que haya que cerrar,
+  podemos extendernos varias lineas y despreocuparnos por la indentación,
+  hasta que los cerremos.
+
+	```python
+	>>> print(
+	... 	'Hola mundo'
+	...		)
+	...
+	```
+
+- Otros elementos que me permiten extender en varias líneas hasta cerrarlos son:
+	- Paréntesis: `( )`
+	- Corchetes planos: `[ ]`
+	- Corchetes rizados: `{ }`
+	- Comillas: `" "`
+	- Comillas simples: `' '`
+	- Comillas triples: `""" """`
+	- Comillas simples triples: `'''  '''`
+
+- Dada la importancia de la indentació para estructurar el código La indentación de cada sentencia indica es parte del lenguaje.
+  Hay que ir con mucho cuidado con como indentamos cada sentencia.
+
+	- Conviene no mezclar, en un mismo proyecto, tabuladores y espacios como método de indentacion
+- Si queremos juntar dos sentencias en una sola línea,
+  tenemos que separarlas con un `;`.
+  **No es recomendable porque ofusca el código**.
+
+
+# Calculando expresiones en Python
 
 La sentencia más típica es la que se compone solo de una **expresión**.
 Una expresión combina varios elementos para obtener un **valor**.
@@ -334,7 +384,7 @@ Que tambien pueden ser "dobles" 'triples'.
 ~~~
 
 Las secuencias de escape con la contrabarra `\` tambien sirven para
-insertar saltos de linia (`\n`), tabuladores (`\t`)...
+insertar saltos de línea (`\n`), tabuladores (`\t`)...
 De hecho para incluir una contrabarra hay que poner dos `\\`.
 Si un literal de texto contiene muchas contrabarras,
 igual nos combiene deshabilitar las secuencias de escape
@@ -343,7 +393,7 @@ prefijando una `r` de 'raw' (crudo) al literal.
 Un uso común, por ejemplo, los ficheros en Windows:
 
 ~~~{.python}
->>> print("c:\temp\newitem")  # Las contrabarras se convierten en un tab y un salto de linia
+>>> print("c:\temp\newitem")  # Las contrabarras se convierten en un tab y un salto de línea
 c:	emp
 ewitem
 >>> print("c:\\temp\\newitem")   # Escapando contrabarras
@@ -1349,8 +1399,8 @@ tabla = [
 		'24',
 	],
 ]
-for linia in tabla:
-	print('\t'.join(linia))
+for linea in tabla:
+	print('\t'.join(linea))
 ~~~
 
 ## Listas del tirón
