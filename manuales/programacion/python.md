@@ -9,7 +9,7 @@ documenclass: book
 
 > «Hacer un programa que entienda el ordenador es un reto.
 > Pero el mérito verdadero está en escribir un programa
-> que entiendan otros programadores (o uno mismo, cuando pase el tiempo)»
+> que sea fácil de entender por otros programadores (o uno mismo, cuando pase el tiempo)»
 >
 > Martin Fowler (parafraseado)
 
