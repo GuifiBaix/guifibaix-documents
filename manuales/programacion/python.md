@@ -141,6 +141,8 @@ Para que se pueda ejecutar sin problemas en Unix:
 	~~~
 
 - Lo editamos con un editor de texto plano: kate, vim, gedit, nano, notepad++...
+Asegúrate de que el editor usa el juego de carácteres UTF-8.
+
 - La primera linea del fichero debe ser el _shebang_ que indica el interprete con el que se ejecuta el script.
   En `myscript.py` escribiriamos:
 
@@ -192,16 +194,17 @@ La sintaxis de Python sigue unos principios generales muy básicos.
 	...
 	```
 
-		- las subsentencias se acaban cuando aparece una sentencia en el anterior nivel de indentación
+- Las subsentencias se acaban cuando aparece una sentencia en el anterior nivel de indentación
+
+	```python
+	>>> while False :
+	... 	print("hola")
+	... print("acabe)
+	```
 
 - Dada la importancia de la indentación para estructurar el código,
   es importante ser cuidadoso, y por ejemplo, no mezclar en un fichero
   indentación con tabuladores con indentación con espacios.
-
-- Si una sentencia se nos hace larga (80 caracteres es lo máximo recomendado),
-  y no hemos abierto un paréntesis o similar,
-  podemos continuar en la siguiente línea
-  acabando la línea con una contrabarra `\`
 
 - Si abrimos un símbolo, como los paréntesis, que haya que cerrar,
   podemos extendernos varias lineas y despreocuparnos por la indentación,
@@ -223,18 +226,28 @@ La sintaxis de Python sigue unos principios generales muy básicos.
 	- Comillas triples: `""" """`
 	- Comillas simples triples: `'''  '''`
 
-- Dada la importancia de la indentació para estructurar el código La indentación de cada sentencia indica es parte del lenguaje.
-  Hay que ir con mucho cuidado con como indentamos cada sentencia.
+- Si una sentencia se nos hace larga (80 caracteres es lo máximo recomendado),
+  y no hemos abierto un paréntesis o similar,
+  podemos continuar en la siguiente línea
+  acabando la línea con una contrabarra `\`
 
-	- Conviene no mezclar, en un mismo proyecto, tabuladores y espacios como método de indentacion
 - Si queremos juntar dos sentencias en una sola línea,
   tenemos que separarlas con un `;`.
   **No es recomendable porque ofusca el código**.
 
+- Todo lo que haya a la derecha de una almohadilla es un comentario.
+Es ignorado por el interprete y se usa para documentar.
+
+	```python
+	>>> # esto es un comentario
+	>>> print("hola mundo")  # y esto otro
+	```
+
+Con esto, empecemos a ver como escribir todas esas sentencias mágicas.
 
 # Calculando expresiones en Python
 
-La sentencia más típica es la que se compone solo de una **expresión**.
+La sentencia más típica es la que se compone sólo de una **expresión**.
 Una expresión combina varios elementos para obtener un **valor**.
 Para comenzar a entender Python,
 escribiremos expresiones, cada vez más complejas,
@@ -249,8 +262,6 @@ A continuación, ejemplos de literales de los tipos de dato más comunmente usad
 Entre paréntesis, en el comentario, el nombre del tipo en Python.
 
 ```python
->>> # Lo que sigue a la almohadilla es ignorado por el intérprete
->>> # Se llaman comentarios y se usan para documentar el código
 >>> -12     # un número entero (int)
 -12
 >>> 12.34   # un número con decimales (float)
@@ -273,8 +284,7 @@ Entre paréntesis, en el comentario, el nombre del tipo en Python.
 True
 ```
 
-Iremos explicando como trabajar con estos tipos de objetos,
-y otras formas de escribir sus literales.
+Iremos explicando como trabajar con estos tipos de objetos.
 
 
 ## Trabajando con números, tipos `int` y `float`
@@ -300,8 +310,8 @@ Podemos usar Python como una calculadora escribiendo expresiones numéricas.
 
 Cuando combinamos las expresiones,
 se resuelven por prioridad.
-Por ejemplo, la multiplicacion y división tienen más prioridad que la suma y la resta
-y la exponenciación más que la mutiplicación y la división.
+Por ejemplo, la multiplicacion y división tienen más prioridad que la suma y la resta.
+La exponenciación tiene más prioridad que la mutiplicación y la división.
 Por eso:
 
 ~~~{.python}
@@ -323,11 +333,17 @@ Si el orden no nos gusta podemos agrupar con paréntesis:
 20
 ~~~
 
-> Aunque por prioridad no se necesiten,
-> poner paréntesis tambien ayuda a entender mejor una expresión con muchos operadores.
-> Aunque el ordenador ya lo entienda sin paréntesis, pensemos en los programadores que vendrán.
+A veces, aunque la prioridad ya ejecute las operaciones como toca,
+conviene poner los paréntesis igual para que se vea claro el orden.
 
-**Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
+Hay que recordar que no solo escribimos código para el ordenador.
+También escribimos código para el siguiente programador que tenga
+que revisarlo, que podemos ser nosotros mismos de aquí a un tiempo
+cuando ya apenas recordemos como iba el programa.
+Si vemos los paréntesis no tendremos que pensar en cual es la
+prioridad o sospechar si cuando lo escribimos la teníamos clara.
+
+> **Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
 
 A parte de los literales que hemos visto,
 hay otros literales numéricos que usan otras notaciones:
@@ -343,11 +359,11 @@ hay otros literales numéricos que usan otras notaciones:
 1.3e-5
 ```
 
-**Ejercicio:**
-Experimenta con las notaciones
-[hexadecimales](http://es.wikipedia.org/wiki/Sistema_hexadecimal),
-[binarias](http://es.wikipedia.org/wiki/Sistema_binario) y
-[científica](https://es.wikipedia.org/wiki/Notaci%C3%B3n_cient%C3%ADfica).
+> **Ejercicio:**
+> Experimenta con las notaciones
+> [hexadecimales](http://es.wikipedia.org/wiki/Sistema_hexadecimal),
+> [binarias](http://es.wikipedia.org/wiki/Sistema_binario) y
+> [científica](https://es.wikipedia.org/wiki/Notaci%C3%B3n_cient%C3%ADfica).
 
 
 ## Trabajando con texto, tipo `str`
