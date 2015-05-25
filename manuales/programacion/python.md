@@ -1,6 +1,8 @@
 ---
 title: 'Programación: El lenguaje Python 3'
-documentype: book
+author: David García Garzón
+copyright: 2015 Guifibaix SCCL
+documenclass: book
 ---
 
 # Introducción
@@ -38,24 +40,20 @@ Según la estrategia que se use para hacerlo
 hablamos de _lenguajes compilados_ o
 de _lenguajes interpretados_.
 
-- ![Proceso de compilación](TODO)
+Un __compilador__ hace la traducción una vez,
+generando un archivo ejecutable/binario que incluye el código máquina.
+Ese archivo binario, una vez generado, lo podremos ejecutar sin necesitar ya
+ni el compilador ni el texto del programa original.
 
-	Un __compilador__ hace la traducción una vez,
-	generando un archivo ejecutable/binario que incluye el código máquina.
-	Ese archivo binario lo podremos ejecutar sin necesitar ya
-	ni el compilador ni el texto del programa original.
+- Ejemplos: C++, Java, Pascal... son lenguajes compilados.
 
-	Ejemplos: C++, Java, Pascal... son lenguajes compilados.
-
-- ![Proceso de interpretación](TODO)
-
-	Un __interprete__, en cambio, traduce el programa a código máquina
-	a la vez que lo ejecuta.
-	No genera el archivo binario intermedio
-	y, cada vez que lo queramos ejectuar,
-	necesitaremos tanto el texto del programa (script) como el interprete.
-
-	Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
+Un __interprete__, en cambio, traduce el programa a código máquina
+a la vez que lo ejecuta.
+No genera el archivo binario intermedio
+y, cada vez que lo queramos ejectuar,
+necesitaremos tanto el texto del programa (script) como el interprete.
+  
+- Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
 
 En general, un lenguaje interpretado se ejecutará más
 lento que uno compilado, puesto que, a parte de la tarea que haya que hacer,
@@ -144,7 +142,7 @@ Para que se pueda ejecutar sin problemas en Unix:
 - Lo editamos con un editor de texto plano: kate, vim, gedit, nano, notepad++...
 Asegúrate de que el editor usa el juego de carácteres UTF-8.
 
-- La primera linea del fichero debe ser el _shebang_ que indica el interprete con el que se ejecuta el script.
+- La primera linea del fichero debe ser el _shebang_ que indica al shell con qué interprete se ejecuta el script.
   En `myscript.py` escribiriamos:
 
 	~~~{.python}
@@ -175,50 +173,54 @@ detecten que es un fichero escrito en Python y lo coloreen adecuadamente.
 
 ## Reglas básicas de sintaxis
 
-Un script en Python se compone de una secuencia de **sentencias**.
-Esas sentencias, las podemos escribir directamente en el interprete
-o en un fichero script.
-
 La sintaxis de Python sigue unos principios generales muy básicos.
+
+- Un script en Python se compone de una serie de **sentencias**.
+Esas sentencias, las podemos escribir directamente en el interprete
+o en un fichero script como hemos visto antes.
 
 - Normalmente, se escribe una sentencia por línea
 
 	```python
-	>>> print("hola mundo")
+	print("hola mundo")
 	```
 
-- Hay sentencias especiales que acaban en `:` que abren una serie de subsentencias que van indentadas a un nivel más adentro
+- Hay sentencias especiales que acaban en dos puntos (`:`). Los dos puntos indican que se da paso a una serie de subsentencias, que van indentadas a un nivel más adentro
 
 	```python
-	>>> while True :
-	... 	print("hola")
-	...
+	while True :
+		print("hola")
 	```
 
 - Las subsentencias se acaban cuando aparece una sentencia en el anterior nivel de indentación
 
 	```python
-	>>> while False :
-	... 	print("hola")
-	... print("acabe)
+	while False :
+		print("hola")
+	print("acabe)
 	```
+
+- Tanto si se incrementa la indentación sin que haya una sentencia con dos puntos,
+  como si se reduce sin llegar al nivel de indentación de una de las sentencias superiores,
+  el intérprete nos lanzará un `Indentation Error: unexpected indent`.
 
 - Dada la importancia de la indentación para estructurar el código,
   es importante ser cuidadoso, y por ejemplo, no mezclar en un fichero
-  indentación con tabuladores con indentación con espacios.
+  indentación con tabuladores con indentación con espacios y si es con
+  espacios, usar consistenemente el mismo número de espacios para cada nivel.
 
-- Si abrimos un símbolo, como los paréntesis, que haya que cerrar,
+- Si abrimos un símbolo que haya que cerrar, como los paréntesis,
   podemos extendernos varias lineas y despreocuparnos por la indentación,
-  hasta que los cerremos.
+  hasta que lo cerremos.
 
 	```python
-	>>> print(
-	... 	'Hola mundo'
-	...		)
-	...
+	print(
+		'Hola mundo'
+		)
 	```
 
-- Otros elementos que me permiten extender en varias líneas hasta cerrarlos son:
+- Otros elementos que se abren y se cierran
+y que me permiten extender la sentencias en varias líneas hasta cerrarlos son:
 	- Paréntesis: `( )`
 	- Corchetes planos: `[ ]`
 	- Corchetes rizados: `{ }`
@@ -230,7 +232,8 @@ La sintaxis de Python sigue unos principios generales muy básicos.
 - Si una sentencia se nos hace larga (80 caracteres es lo máximo recomendado),
   y no hemos abierto un paréntesis o similar,
   podemos continuar en la siguiente línea
-  acabando la línea con una contrabarra `\`
+  acabando la línea con una contrabarra (`\`).
+  La contrabarra al final de línea, hace que el intérprete considere que ese salto de línea no existe.
 
 - Si queremos juntar dos sentencias en una sola línea,
   tenemos que separarlas con un `;`.
@@ -240,11 +243,11 @@ La sintaxis de Python sigue unos principios generales muy básicos.
 Es ignorado por el interprete y se usa para documentar.
 
 	```python
-	>>> # esto es un comentario
-	>>> print("hola mundo")  # y esto otro
+	# esto es un comentario
+	print("hola mundo")  # y esto otro
 	```
 
-Con esto, empecemos a ver como escribir todas esas sentencias mágicas.
+Sabiendo todo esto, aprendamos a escribir todas esas sentencias mágicas.
 
 # Calculando expresiones en Python
 
@@ -258,9 +261,9 @@ en el interprete.
 ## Tipos de datos y literales
 
 La expresión más simple es el literal.
-El literal expresa directamente un valor de un tipo concreto.
+El **literal** expresa directamente un valor de un tipo concreto.
 A continuación, ejemplos de literales de los tipos de dato más comunmente usados.
-Entre paréntesis, en el comentario, el nombre del tipo en Python.
+Entre paréntesis, en el comentario, el nombre que se le da al tipo en Python.
 
 ```python
 >>> -12     # un número entero (int)
@@ -285,7 +288,7 @@ Entre paréntesis, en el comentario, el nombre del tipo en Python.
 True
 ```
 
-Iremos explicando como trabajar con estos tipos de objetos.
+A lo largo del tutorial iremos explicando como trabajar con estos tipos de objetos.
 
 
 ## Trabajando con números, tipos `int` y `float`
@@ -315,27 +318,27 @@ Por ejemplo, la multiplicacion y división tienen más prioridad que la suma y l
 La exponenciación tiene más prioridad que la mutiplicación y la división.
 Por eso:
 
-~~~{.python}
+```python
 >>> 2 * 3 + 4
 10
 >>> 2 + 3 * 4
 14
-~~~
+```
 
 Cuando combinamos operadores del mismo nivel, resuelven de izquierda a derecha,
 es decir, tal y como se lee.
 
 Si el orden no nos gusta podemos agrupar con paréntesis:
 
-~~~{.python}
+```python
 >>> 2 * (3 + 4)
 14
 >>> (2 + 3) * 4
 20
-~~~
+```
 
-A veces, aunque la prioridad ya ejecute las operaciones como toca,
-conviene poner los paréntesis igual para que se vea claro el orden.
+Los paréntesis aunque no sean necesarios porque la prioridad ya lo ejecuta como queremos,
+también ayudan a leer y entender la expresión.
 
 Hay que recordar que no solo escribimos código para el ordenador.
 También escribimos código para el siguiente programador que tenga
@@ -347,7 +350,7 @@ prioridad o sospechar si cuando lo escribimos la teníamos clara.
 > **Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
 
 A parte de los literales que hemos visto,
-hay otros literales numéricos que usan otras notaciones:
+podemos usar otras notaciones para los literales numéricos:
 
 ```python
 >>> # Notaciones alternativas (int)
@@ -436,12 +439,17 @@ Y tenemos algunas funciones _built-in_ que podemos usar con ellas:
 ~~~
 
 
-## Variables
+## Reusando resultados: variables y la sentencia de asignación
 
-Una **variable** nos permite volver a referenciar un **valor** que hemos construido antes.
+Todas las  expresiones que hemos visto anteriormente,
+incluyendo las que forman parte de otras expresiones,
+generan valores que una vez los hemos hecho servir desaparecen.
+
+Las **variables** nos permiten mantener una referencia a un **valor**,
+para volverlo a usar después.
 
 ~~~{.python}
->>> a = 23
+>>> a = 23  # sentencia de asignacion
 >>> a
 23
 >>> b = 10*10
@@ -463,11 +471,12 @@ Consejos del programador abuelete:
 - Aunque puedas, no es recomendable reusar las variables.
   Si, en un punto, una variable se refiere a una cosa,
   confunde que después se refiera a otra cosa.
-- Usar nombres de variables de una letra tampoco es bueno,
+- Usar nombres de variables de una letra, como `a`, tampoco es bueno,
   **los nombres de las variables tienen que recordarnos a que se refieren**.
 
 En los ejemplos, normalmente se abusa de los nombres tontos de variables.
 **No uses nombres tontos cuando estés programando de verdad.**
+Martin Fowler vendrá por la noche, matará tus procesos y violará a tus segmentos.
 
 > «Cualquier programador escribe un programa que entienda la máquina.
 > Un buen programador se reconoce por que escribe programas
@@ -492,9 +501,8 @@ La segunda es más legibles sobretodo cuando te acostumbras.
 Y la tercera aunque parezca más legible,
 confunde cuando lo mezclas con otros operadores.
 
-Se suele escoger una de las dos últimas estrategias.
-Hay argumentos para ambas, pero, dentro de un proyecto,
-lo mejor es decidirse por una y adherirse a ella.
+Como con el estilo de indentación, cada uno tiene sus preferencias y motivos,
+pero conviene que el criterio sea coherente dentro de cada proyecto.
 
 
 ## Indexando y recortando (slices)
@@ -548,7 +556,7 @@ El final no se incluye.
 'murcielago'
 ~~~
 
-**Ejercicio:** ¿Porque en la ultima expresión no se repite el índice 5?
+> **Ejercicio:** ¿Porque en la ultima expresión no se repite el índice 5?
 
 Un tercer elemento en el _slice_ es el paso;
 cuantas casillas saltamos.
@@ -1016,34 +1024,36 @@ La regla es:
 - el `or` es cierto si cualquier operando es cierto.
 - el `and` es cierto si todos los operandos son ciertos.
 
-**Ejercicio:**
-Todos los operadores relacionales que vimos se pueden expresar
-combinando uno solo de ellos con operadores lógicos.
-Expresa todos los operadores relacionales usando solo el 'menor que' y operaciones lógicas.
-Ejemplos:
+> **Ejercicio:**
+> Todos los operadores relacionales que vimos se pueden expresar
+> combinando uno solo de ellos con operadores lógicos.
+> Expresa todos los operadores relacionales usando solo el 'menor que' y operaciones lógicas.
+> Ejemplos:
+> 
+> ```python
+> >>> (a > b) is (b < a)
+> True
+> >>> (a != b) is ((a < b) or (b < a))
+> True
+> ```
 
-```python
->>> (a > b) is (b < a)
-True
->>> (a != b) is ((a < b) or (b < a))
-True
-```
 
-**Ejercicio:**
-Comprueba con una tabla de verdad que estas expresiones son equivalentes (Remember Abelians):
+> **Ejercicio:**
+> Comprueba con una tabla de verdad que estas expresiones son equivalentes (Remember Abelians):
+> 
+> - `not not a == a` (Doble negación)
+> - `not(a and b) == (not a or not b)` (De Morgan)
+> - `not(a or b) == (not a and not b)` (De Morgan)
+> - `(a and b) == (b and a)`  (Conmutativa)
+> - `(a or b) == (b or a)`  (Conmutativa)
+> - `a or (b and c) == (a or b) and (a or c)` (Distribuitiva)
+> - `a and (b or c) == (a and b) or (a and c)` (Distribuitiva)
+> - `a and (b and c) == (a and b) and c` (Asociativa)
+> - `a or (b or c) == (a or b) or c` (Asociativa)
 
-- `not not a == a` (Doble negación)
-- `not(a and b) == (not a or not b)` (De Morgan)
-- `not(a or b) == (not a and not b)` (De Morgan)
-- `(a and b) == (b and a)`  (Conmutativa)
-- `(a or b) == (b or a)`  (Conmutativa)
-- `a or (b and c) == (a or b) and (a or c)` (Distribuitiva)
-- `a and (b or c) == (a and b) or (a and c)` (Distribuitiva)
-- `a and (b and c) == (a and b) and c` (Asociativa)
-- `a or (b or c) == (a or b) or c` (Asociativa)
-
-Estas equivalencias nos van de coña para simplificar las condiciones
-y poder hacer según que refactorings.
+Las equivalencias del anterior ejercicio
+nos van de coña para simplificar las condiciones
+y mejorar la calidad del código.
 
 > **Ejercicio:**
 > De Morgan se resume como: negar un operador booleano,
