@@ -1,5 +1,6 @@
 ---
 title: 'Programación: El lenguaje Python 3'
+documentype: book
 ---
 
 # Introducción
@@ -470,7 +471,7 @@ En los ejemplos, normalmente se abusa de los nombres tontos de variables.
 
 > «Cualquier programador escribe un programa que entienda la máquina.
 > Un buen programador se reconoce por que escribe programas
-> que son fáciles de entender por sus compañeros
+> que son fáciles de entender también por sus compañeros
 > (o por él mismo, cuando pase el tiempo).»
 >
 > Martin Fowler (parafraseado)
@@ -646,7 +647,7 @@ Lo hacemos de la siguiente manera:
 - La ultima sentencia es una sentencia especial `return`
 	- Una sentencia `return` sale de la función y devuelve el control al llamante
 	- Además el llamante recibirá el valor resultante de la expresión que va después del `return`
-	- Si hubiera sentencias después del return, no se seguirían ejecutando
+	- Si hubiera más sentencias después del return, no se seguirían ejecutando
 
 ## El no-valor `None`
 
@@ -654,11 +655,6 @@ Lo hacemos de la siguiente manera:
 
 Pues que el llamante recibiría un no-valor. También llamado `None`.
 Cuando no ponemos ninguna expresión en el return tambien se retorna `None`.
-
-Hay un valor especial para indicar el concepto de _ningún valor_.
-
-- Cuando una función no retorna nada, retorna `None`.
-- Cuando no le queremos asignar nada a una variable, le asignamos `None`.
 
 ~~~{.python}
 >>> None # El interprete no muestra resultado si una sentencia resulta en None
@@ -685,7 +681,7 @@ Lo hacemos indicando el valor por defecto
 que adoptará el parámetro si no lo pasamos.
 
 ```python
->>> def aplicaIva(baseImponible, factorIva=0.21):a
+>>> def aplicaIva(baseImponible, factorIva=0.21):
 ... 	return baseImponible + baseImponible*factorIva
 ...
 >>> aplicaIva(100, 0.07)
@@ -722,11 +718,28 @@ Pero no sólo sirve para desordenar los parámetros.
 Cuando las funciones tienen muchos parámetros,
 determinar por posición qué parámetro corresponde con cual es muy dado a errores.
 No sólo genera errores si no que a alguien que está leyendo el código,
-le cuesta seguir asi que especificar el nombre del parámetro ayuda a esa lectura.
-También facilita hacer refactorings en el orden de los parámetros.
-Así que si tienes previsto cambiar los parametros que usa una función,
-no es mala idea llamarla usando los nombres.
+le cuesta seguirlo.
+Así que especificar el nombre del parámetro ayuda a esa lectura.
 
+Si más adelante necesitamos alterar los parámetros de la función,
+hay que actualizar también las llamadas.
+En este caso especificar el nombre también facilita
+la detección de errores en el proceso de migración.
+
+En resumen, se recomienda explicitar los nombres de paràmetros:
+
+- Cuando alteremos el orden en los parámetros de llamada
+- Cuando haya muchos parámetros, para no liarnos
+- Cuando preveamos una evolución en los parámetros
+
+Se pueden combinar parámetros posicionales con nombrados.
+La regla es que primero se especifican los posicionales
+y luego van los nombrados.
+
+```python
+>>> aplicaIva(100, factorIva=0.07)
+107
+```
 
 ## Llamando a métodos
 
@@ -855,71 +868,85 @@ Puedes encontrar más detalles sobre el mini lenguaje de formateo en el
 # Tomando decisiones
 
 Programar es dejar que el ordenador tome sus decisiones.
-Nosotros le decimos en el programa como las tiene que tomar.
-Cuando el se encuentre con la disyuntiva, tomará,
-según lo que le digamos, una opción o otra.
+El programa define que acciones tomar según lo que
+se encuentre en cada momento.
+Es lo que dota de inteligencia al ordenador.
 
 Para programar decisiones es necesario entender bien los booleanos.
 
 ## Tipos booleanos
 
-Los booleanos son valores representan condiciones, cosas que pueden ser bien ciertas o bien falsas.
+Los booleanos son valores representan condiciones,
+cosas que pueden ser bien ciertas o bien falsas.
 
-A pesar de su simplicidad son la base de la programación, puesto que nos sirven para tomar decisiones.
-
-El tipo booleano (`bool`) solo tiene dos valores posibles representados por los literales `True` y `False`.
+El tipo booleano (`bool`) solo tiene dos valores posibles
+representados por los literales `True` y `False`.
 
 ## Operadores de comparación
 
 Una forma de obtener booleanos es comparando valores.
 
-Los **operadores relacionales** devuelven `True` o `False` dependiendo de la relacion de mayor, menor o igual en magnitud entre los valores.
+Los **operadores relacionales**
 (`<`, `>`, `<=`, `>=`, `==`, `!=`)
+devuelven `True` o `False`
+dependiendo de la relación de menor a mayor que tengan.
 
 ~~~{.python}
->>> 1<3  # operador de inequalidad 'menor que'
+>>> a = 3
+>>> 1<a  # operador de inequalidad 'menor que'
 True
->>> 10<3
+>>> 10<a
 False
+>>> 1 <= a <= 10    # ¿es a un numero del 1 al 10, ambos incluidos?
+True
 >>> 'alfredo' < 'benito'  # orden alfabético
 True
 >>> 'alfredo' == 'alfredo' # igualdad
 True
 >>> 'alfredo' != 'alfredo' # desigualdad
 False
->>> a = 3
->>> 1 <= a <= 10    # ¿es a un numero del 1 al 10, ambos incluidos?
-True
 ~~~
 
-Si el orden está bien definido, todos los operadores relacionales
-se pueden definir en base a uno solo de los de inequalidad (`<`, `>`, `<=`, `>=`)
-
-
-
-**Operadores de identidad:** Son los que comparan si un valor es el mismo que otro. (`is`, `is not`)
-Para los tipos básicos que han salido hasta ahora, son equivalentes a igualdad y desigualdad.
-Pero veremos objetos más adelante, las estructuras, que aunque contengan los mismos valores,
-mantienen 'identidades' diferentes porque los podemos modificar de forma independiente.
-Por eso se les llama **mutables**.
-
-El caso es que para los tipos básicos los operadores de identidad
-también nos sirven porque son más expresivos que los de igualdad.
+**Operadores de identidad:**
+`is` y `is not` deciden si un objeto es el mismo o no.
+Estos dos operadores son equivalentes al operador de igualdad `==` y desigualdad `!=` para los tipos básicos:
+numéricos, textos...
+Eso sí, son mucho mas expresivos porque conseguimos frases casi en inglés como estas:
 
 ~~~{.python}
 >>> guy = 'alf' + 'redo'
->>> guy is 'alfredo' # identidad 
+>>> guy is 'alfredo'
 True
->>> guy is not 'alfredo' # no identidad
+>>> guy is not 'alfredo'
 False
 ~~~
+
+La diferencia la encontraremos con
+los valores tipo estructura, como las listas, los diccionarios...
+cuyo contenido puede variar mantieniendo la identidad.
+De hecho dos objetos pueden tener el mismo contenido y no compartirían identidad.
+
+```python
+>>> l1 = [1,2,3]
+>>> l2 = l1       # l1 y l2 apuntan al mismo objeto
+>>> l3 = [1,2,3]  # l3 es un objeto con el mismo contenido que l1
+>>> l1 == l2  # Son el mismo objeto, así que tienen el mismo contenido
+True
+>>> l1 == l3  # No son el mismo objeto, pero aun tienen el mismo contenido
+True
+>>> l1 is l2  # Son de hecho el mismo objeto
+True
+>>> l1 is l3  # No son el mismo objeto, aunque tengan el mismo contenido
+False
+```
 
 ## Sentencia condicional `if`
 
 Una de las utilidades de los booleanos es la capacidad
 de ejecutar o no código dependiendo de una condición.
 
-La sentencia `if` nos permite ejecutar una serie de comandos solo si se cumple una condición:
+La sentencia `if` nos permite ejecutar una serie de subsentencias
+solo si se cumple una condición:
 
 ~~~{.python}
 if name is 'Aitor':
@@ -928,27 +955,16 @@ if name is not 'Aitor':
 	print ('Hola, desconocido, ya te puedes pirar')
 ~~~
 
-Un principio básico de la sintaxis de Python:
 
-> Siempre que una construcción del lenguaje acaba en dos puntos,
-> le sigue un bloque de instrucciones indentadas un nivel.
+## Alternativas, `else` y  `elif`
 
-~~~{.python}
-if condicion:
-	sentencia1   # estas dos sentencias solo se ejecutan si la condicion es cierta
-	sentencia2
-sentencia3       # Esta sentencia en el nivel superio se ejecutaria siempre
-~~~
-
-
-## Alternativas
-
-Es frecuente que después de evaluar una condición para ver si tenemos que hacer algo,
+Es frecuente, como en el ejemplo anterior,
+que después de evaluar una condición para ver si tenemos que hacer algo,
 tengamos que evaluar lo contrario para hacer otra cosa alternativa.
-Para ello es muy util el `else`.
+Para ello es muy util la sentencia `else`.
 Hay que ponerlo al nivel del `if` y contiene su bloque de sentencias alternativas.
 
-Reescribiendo el ejemplo anterior solo evaluando una condicion:
+Reescribiendo el ejemplo anterior solo evaluando una condición:
 
 ~~~{.python}
 if name is 'Aitor':
@@ -1029,15 +1045,15 @@ Comprueba con una tabla de verdad que estas expresiones son equivalentes (Rememb
 Estas equivalencias nos van de coña para simplificar las condiciones
 y poder hacer según que refactorings.
 
-**Ejercicio:**
-De Morgan se resume como: negar un operador booleano,
-equivale a usar el otro operador con los operandos negados.
-
-- Aplica DeMorgan a las expresiones que usamos para calcular:
-  `annaConduce`, `toniConduce`, `losDosQuieren` y `ningunoQuiere`.
-- Elimina las dobles negaciones resultantes.
-- Lee las expresiones a ver si aún tienen sentido.
-- Quédate con las reescrituras que simplifiquen la expresión.
+> **Ejercicio:**
+> De Morgan se resume como: negar un operador booleano,
+> equivale a usar el otro operador con los operandos negados.
+> 
+> - Aplica DeMorgan a las expresiones que usamos para calcular:
+> `annaConduce`, `toniConduce`, `losDosQuieren` y `ningunoQuiere`.
+> - Elimina las dobles negaciones resultantes.
+> - Lee las expresiones a ver si aún tienen sentido.
+> - Quédate con las reescrituras que simplifiquen la expresión.
 
 
 Otra forma de ver los booleanos es como numeros con dos únicos valores 0 (`False`, nada) y 1 (`True`, algo, cualquier número positivo diferente de cero).
@@ -1099,15 +1115,15 @@ touchMe and die("you dared shit")
 
 # En realidad se usan asi:
 
-condicionNecesaria or die("No se ha dado la condicion necesaria para seguir!!")
+condicionNecesaria or die("No se ha dado la condición necesaria para seguir!!")
 # equivalente a:
 if not condicionNecesaria :
-	die("No se ha dado la condicion necesaria para seguir!!")
+	die("No se ha dado la condición necesaria para seguir!!")
 
-condicionDeError and die("Se ha dado la condicion de error!!")
+condicionDeError and die("Se ha dado la condición de error!!")
 # equivalente a:
 if condicionDeError:
-	die("Se ha dado la condicion de error!!")
+	die("Se ha dado la condición de error!!")
 ~~~
 
 Donde `die` es una funcion que imprime el mensaje y sale del programa.
@@ -1249,8 +1265,6 @@ antes de salir del bucle de forma prematura.
 
 
 
-
-
 # Estructuras de datos
 
 Hasta ahora hemos visto valores muy simples.
@@ -1273,7 +1287,8 @@ Podemos acceder a los elementos con indices y rebanadas igual que con los textos
 [3,5]
 ~~~
 
-Los valores pueden ser de tipos diferentes. Incluso pueden ser otras listas.
+Los valores incluidos en la lista pueden ser de tipos diferentes.
+Incluso pueden ser otras listas.
 
 ~~~{.python}
 >>> # Una lista que contiene listas
@@ -1286,7 +1301,7 @@ Los valores pueden ser de tipos diferentes. Incluso pueden ser otras listas.
 22
 ~~~
 
-Podemos usar los operadores numericos como con los textos:
+Podemos usar los operadores numericos como hacíamos con los textos:
 
 ~~~{.python}
 >>> [1,2,3] + [4,5,6] # Uniendo dos listas
