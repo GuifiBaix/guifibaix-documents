@@ -9,7 +9,8 @@ documenclass: book
 
 > «Hacer un programa que entienda el ordenador es un reto.
 > Pero el mérito verdadero está en escribir un programa
-> que sea fácil de entender por otros programadores (o uno mismo, cuando pase el tiempo)»
+> que le sea fácil de entender a otros programadores...
+> (o a uno mismo, cuando pase el tiempo)»
 >
 > Martin Fowler (parafraseado)
 
@@ -180,7 +181,7 @@ detecten que es un fichero escrito en Python y lo coloreen adecuadamente.
 
 ## Reglas básicas de sintaxis
 
-La sintaxis de Python sigue unos principios generales muy básicos.
+La sintaxis de Python sigue unos principios generales.
 
 - Un script en Python se compone de una serie de **sentencias**.
 Esas sentencias, las podemos escribir directamente en el interprete
@@ -189,34 +190,62 @@ o en un fichero script como hemos visto antes.
 - Normalmente, se escribe una sentencia por línea
 
 	```python
-	print("hola mundo")
+	print("hola")
+	print("mundo")
 	```
 
-- Hay sentencias especiales que acaban en dos puntos (`:`). Los dos puntos indican que se da paso a una serie de subsentencias, que van indentadas a un nivel más adentro
+- Todo lo que haya a la derecha de una almohadilla es un **comentario**.
+Es ignorado por el interprete y se usa para explicar el código a los otros humanos.
 
 	```python
-	while True :
+	# esto es un comentario
+	print("hola mundo")  # y esto otro
+	```
+
+- Hay sentencias especiales que acaban en dos puntos (`:`).
+Los dos puntos indican que se da paso a una serie de **subsentencias**,
+que van **indentadas a un nivel más adentro**.
+
+	```python
+	while True :  # Repite las subsentencias mientras... siempre
 		print("hola")
+		print("mundo")
 	```
 
 - Las subsentencias se acaban cuando aparece una sentencia en el anterior nivel de indentación
 
 	```python
-	while False :
-		print("hola")
-	print("acabe)
+	while False :    # repite las subsentencias mientras... nunca
+		print("hola") # esta sentencia pertenece al while
+		print("mundo") # esta también
+	print("Acabé!")  # esta sentencia se ejecuta cuando se sale del while
 	```
 
-- Tanto si se incrementa la indentación sin que haya una sentencia con dos puntos,
+- Tanto si se incrementa la indentación sin que haya una sentencia con dos puntos que lo justifique,
   como si se reduce sin llegar al nivel de indentación de una de las sentencias superiores,
   el intérprete nos lanzará un `Indentation Error: unexpected indent`.
 
-- Dada la importancia de la indentación para estructurar el código,
-  es importante ser cuidadoso, y por ejemplo, no mezclar en un fichero
-  indentación con tabuladores con indentación con espacios y si es con
-  espacios, usar consistenemente el mismo número de espacios para cada nivel.
+	```python
+	while False :
+	    print("hola") # la primera subsentencia del grupo define el nivel
+	    print("mundo") # esta lo sigue
+	     print("sobrada")  # ¡¡¡esta se ha pasado!!!
+	  print("oops")  # ¡¡¡esta se ha quedado corta!!!
+	print("al nivel del while, correctamente fuera del while")
+	```
 
-- Si abrimos un símbolo que haya que cerrar, como los paréntesis,
+- Dada la importancia de la indentación para estructurar el código,
+  es importante ser cuidadoso, y por ejemplo, no hay que mezclar, en un fichero,
+  indentación con tabuladores y indentación con espacios y si es con
+  espacios, usar consistenemente el mismo número de espacios para cada nivel.
+  Que en todo el proyecto cada nivel sea 1, 2, 4, o 8 espacios.
+
+	- A mi personalmente me gustan los tabuladores, aunque Guido, el autor de Python, los odia.
+		- Los tabuladores cada uno puede ajustarlos en el editor al tamaño que le gusten.
+		- Es más difícil visualmente que te dejes un espacio
+		- Si pretendes aliniar usa espacios, si pretendes indentar, usa tabuladores.
+
+- Si abrimos un símbolo que haya que cerrar, como, por ejemplo, los paréntesis,
   podemos extendernos varias lineas y despreocuparnos por la indentación,
   hasta que lo cerremos.
 
@@ -227,7 +256,7 @@ o en un fichero script como hemos visto antes.
 	```
 
 - Otros elementos que se abren y se cierran
-y que me permiten extender la sentencias en varias líneas hasta cerrarlos son:
+y que permiten extender la sentencias en varias líneas hasta cerrarlos son:
 	- Paréntesis: `( )`
 	- Corchetes planos: `[ ]`
 	- Corchetes rizados: `{ }`
@@ -236,40 +265,46 @@ y que me permiten extender la sentencias en varias líneas hasta cerrarlos son:
 	- Comillas triples: `""" """`
 	- Comillas simples triples: `'''  '''`
 
-- Si una sentencia se nos hace larga (80 caracteres es lo máximo recomendado),
-  y no hemos abierto un paréntesis o similar,
-  podemos continuar en la siguiente línea
-  acabando la línea con una contrabarra (`\`).
-  La contrabarra al final de línea, hace que el intérprete considere que ese salto de línea no existe.
-
-- Si queremos juntar dos sentencias en una sola línea,
-  tenemos que separarlas con un `;`.
-  **No es recomendable porque ofusca el código**.
-
-- Todo lo que haya a la derecha de una almohadilla es un comentario.
-Es ignorado por el interprete y se usa para documentar.
+- Si el último caracter de una línea es una contrabarra (`\`),
+  el interprete **ignora el salto de línia como si no estuviera**,
+  **No hay que abusar de ello**, pero es la opción de último recurso
+  cuando una sentencia se nos hace larga (80 caracteres es lo máximo recomendado),
+  y no tenemos un paréntesis o similar para cortar.
 
 	```python
-	# esto es un comentario
-	print("hola mundo")  # y esto otro
+	print \
+		("hola mundo")
+	```
+
+- Al revés, se puede **juntar sentencias en una sola línea**
+  si las separamos con un punto y coma (`;`).
+  **No es recomendable hacerlo porque suele ofuscar el código**.
+  Lo hace más difícil de leer.
+
+	```python
+	print("hola"); print("mundo")
 	```
 
 Sabiendo todo esto, aprendamos a escribir todas esas sentencias mágicas.
 
+
 # Calculando expresiones en Python
 
-La sentencia más típica es la que se compone sólo de una **expresión**.
-Una expresión combina varios elementos para obtener un **valor**.
-Para comenzar a entender Python,
-escribiremos expresiones, cada vez más complejas,
-en el interprete.
+El primer tipo de sentencia que veremos será la expresión.
+Una **expresión** es una construcción del lenguaje que resulta en un **valor**.
+Por ejemplo: `3+4` es una expresión que resulta en el valor `7`.
+
+Las expresiones se usan en muchos sitios pero también son sentencias de pleno derecho.
+Así que podemos introducir expresiones en el interprete interactivo de Python y usarlo de calculadora.
 
 
 ## Tipos de datos y literales
 
-La expresión más simple es el literal.
-El **literal** expresa directamente un valor de un tipo concreto.
-A continuación, ejemplos de literales de los tipos de dato más comunmente usados.
+Decíamos que  `3+4` es una expresión que da el valor `7`.
+De hecho, `3`, `4` y `7` son expresiones también, de las que llamamos literales.
+Los **literales** son la forma más directa de representar un valor de un tipo concreto.
+
+A continuación, vemos ejemplos de literales de los tipos de dato más comunmente usados.
 Entre paréntesis, en el comentario, el nombre que se le da al tipo en Python.
 
 ```python
@@ -301,7 +336,7 @@ A lo largo del tutorial iremos explicando como trabajar con estos tipos de objet
 ## Trabajando con números, tipos `int` y `float`
 
 Podemos usar Python como una calculadora.
-Combinando literales coperadores obtenemos expresiones numéricas.
+Combinando literales y operadores obtenemos expresiones numéricas.
 
 ~~~{.python}
 >>> 10+3  # suma
@@ -320,21 +355,26 @@ Combinando literales coperadores obtenemos expresiones numéricas.
 1000
 ~~~
 
-Cuando combinamos varios operadores,
+Cuando combinamos varios operadores en una expresión,
 se resuelven por prioridad.
 Por ejemplo, la multiplicacion y división tienen más prioridad que la suma y la resta.
 La exponenciación tiene más prioridad que la mutiplicación y la división.
 Por eso:
 
 ```python
->>> 2 * 3 + 4
+>>> 2*3+4  # se resuelve como (2*3)+4
 10
->>> 2 + 3 * 4
+>>> 2+3*4  # se resuelve como 2+(3*4)
 14
 ```
 
 Cuando combinamos operadores del mismo nivel, resuelven de izquierda a derecha,
 es decir, tal y como se lee.
+
+```python
+>>> 2 + 3 + 4 + 5 # se resuelve ((2+3)+4)+5
+14
+```
 
 Si el orden que sale de la prioridad de operadores no nos gusta,
 podemos agrupar con paréntesis:
@@ -408,11 +448,11 @@ Pero, si el texto contiene ambas, tenemos otras soluciones:
 Usando sequencias de 'escape'
 >>> print('''Usando las "triples" 'comillas'.''')
 Usando las "triples" 'comillas'.
->>> print("""Que tambien pueden ser "dobles" 'triples'.""")
-Que tambien pueden ser "dobles" 'triples'.
+>>> print("""Que tambíén pueden ser "dobles" 'triples'.""")
+Que tambíén pueden ser "dobles" 'triples'.
 ~~~
 
-Las secuencias de escape con la contrabarra `\` tambien sirven para
+Las secuencias de escape con la contrabarra `\` tambíén sirven para
 insertar saltos de línea (`\n`), tabuladores (`\t`)...
 De hecho para incluir una contrabarra hay que poner dos `\\`.
 Si un literal de texto contiene muchas contrabarras,
@@ -431,7 +471,7 @@ c:\temp\newitem
 c:\temp\newitem
 ~~~
 
-Podemos usar algunos operadores numéricos tambien con texto:
+Podemos usar algunos operadores numéricos tambíén con texto:
 
 ~~~{.python}
 >>> "Hola" + "mundo"  # juntamos los dos textos (sin espacio!)
@@ -664,7 +704,7 @@ Lo hacemos de la siguiente manera:
 ¿Qué pasaría si se llega al final de la función y no encuentra ningún return?
 
 Pues que el llamante recibiría un no-valor. También llamado `None`.
-Cuando no ponemos ninguna expresión en el return tambien se retorna `None`.
+Cuando no ponemos ninguna expresión en el return tambíén se retorna `None`.
 
 ~~~{.python}
 >>> None # El interprete no muestra resultado si una sentencia resulta en None
@@ -921,7 +961,7 @@ False
 `is` y `is not` deciden si un objeto es el mismo o no.
 Estos dos operadores son equivalentes al operador de igualdad `==` y desigualdad `!=` para los tipos básicos:
 numéricos, textos...
-Eso sí, son mucho mas expresivos porque conseguimos frases casi en inglés como estas:
+Eso sí, son mucho más expresivos porque conseguimos frases casi en inglés como estas:
 
 ~~~{.python}
 >>> guy = 'alf' + 'redo'
@@ -983,7 +1023,7 @@ else:
 	print ('Hola, desconocido, ya te puedes pirar')
 ~~~
 
-Está bien, pero tambien podemos tener más de una alternativa.
+Está bien, pero tambíén podemos tener más de una alternativa.
 Para eso sirve la sentencia `elif` (viene de _else if_).
 
 ~~~{.python}
@@ -1235,7 +1275,7 @@ La intención sería excluir el 16.
 Pero, como la variable se actualiza después del `continue`, el script se queda colgado en el 16.
 Puedes pulsar Control+C para salir.
 
-La solución podría ser actualizar la variable tambien en el `if` antes del `continue`.
+La solución podría ser actualizar la variable tambíén en el `if` antes del `continue`.
 
 ```python
 a = 1
@@ -1916,7 +1956,7 @@ Solución:
 
 - **Para dinero no usar nunca `float`.**
 - Usar ints contando en centimos o la clase `Decimal` del modulo `decimal` o una clase `money` de alguna librería que esté bien.
-- Cuando apliques porcentajes por impuestos, augmenta la precisión dos dígitos (centésima de céntimo) o más si el porcentaje tambien tiene decimales.
+- Cuando apliques porcentajes por impuestos, augmenta la precisión dos dígitos (centésima de céntimo) o más si el porcentaje tambíén tiene decimales.
 - Justo después de aplicar el porcentaje redondea al céntimo con el metodo de redondeo HALF_FROM_ZERO.
 
 ```python
