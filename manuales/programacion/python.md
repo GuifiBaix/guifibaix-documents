@@ -59,7 +59,7 @@ Un __interprete__, en cambio, traduce el programa a código máquina
 a la vez que lo ejecuta.
 No genera el archivo binario intermedio
 y, cada vez que lo queramos ejectuar,
-necesitaremos tanto el texto del programa (script) como el interprete.
+necesitaremos tanto el texto del programa (script) como el intérprete.
   
 - Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
 
@@ -94,14 +94,14 @@ Para aprender Python hay tres elementos:
 
 Hay dos formas de ejecutar código Python:
 
-- tecleando sentencias en el interprete en modo interactivo (python3 o, mejor, ipython3),
+- tecleando sentencias en el intérprete en modo interactivo (python3 o, mejor, ipython3),
 para experimentar y probar cosas.
 - escribiendo las sentencias en un archivo de texto (script) y lanzándolas de golpe con el intérprete,
 cuando estemos evolucionando un código o queremos que quede para la posteridad.
 
 ## Usando el intérprete interactivo
 
-- El interprete interactivo te permite escribir código Python y ver los resultados de forma inmediata
+- El intérprete interactivo te permite escribir código Python y ver los resultados de forma inmediata
 - Es ideal para probar cosas cortas, lo usaremos sobre todo al principio del tutorial
 - El intérprete clásico es `python3`.
 	- Instalación en Ubuntu: `sudo apt-get install python3`
@@ -114,17 +114,17 @@ cuando estemos evolucionando un código o queremos que quede para la posteridad.
 	- Puedes ejecutar comandos del shell precediendolos con `!`
 	- Si le pones un signo `?` a una expresion te muestra ayuda sobre el objeto resultante
 
-Cuando digamos de ejecutar algo en un interprete lo solemos escribir así:
+Cuando digamos de ejecutar algo en un intérprete lo solemos escribir así:
 
 ~~~{.python}
 >>> print("hola mundo")
 hola mundo
 ~~~
 
-- El `>>>` indica el símbolo que el interprete pone para decirte que puedes escribir.
+- El `>>>` indica el símbolo que el intérprete pone para decirte que puedes escribir.
 	- En ipython3 es algo como `In [1]:`
-- Lo que has de escribir es lo que va despues, del `print` en adelante.
-- La segunda linea es el resultado, lo que ha imprimido por la pantalla el interprete.
+- Lo que has de escribir es lo que va después, del `print` en adelante.
+- La segunda linea es el resultado, lo que ha imprimido por la pantalla el intérprete.
 
 **Nota:** Si has programado en Python 2, ojo que en Python 3, la instrucción `print` requiere paréntesis.
 
@@ -150,7 +150,7 @@ Para que se pueda ejecutar sin problemas en Unix:
 - Lo editamos con un editor de texto plano: kate, vim, gedit, nano, notepad++...
 Asegúrate de que el editor usa el juego de carácteres UTF-8.
 
-- La primera linea del fichero debe ser el _shebang_ que indica al shell con qué interprete se ejecuta el script.
+- La primera linea del fichero debe ser el _shebang_ que indica al shell con qué intérprete se ejecuta el script.
   En `myscript.py` escribiriamos:
 
 	~~~{.python}
@@ -184,7 +184,7 @@ detecten que es un fichero escrito en Python y lo coloreen adecuadamente.
 La sintaxis de Python sigue unos principios generales.
 
 - Un script en Python se compone de una serie de **sentencias**.
-Esas sentencias, las podemos escribir directamente en el interprete
+Esas sentencias, las podemos escribir directamente en el intérprete
 o en un fichero script como hemos visto antes.
 
 - Normalmente, se escribe una sentencia por línea
@@ -195,7 +195,7 @@ o en un fichero script como hemos visto antes.
 	```
 
 - Todo lo que haya a la derecha de una almohadilla es un **comentario**.
-Es ignorado por el interprete y se usa para explicar el código a los otros humanos.
+Es ignorado por el intérprete y se usa para explicar el código a los otros humanos.
 
 	```python
 	# esto es un comentario
@@ -243,7 +243,7 @@ que van **indentadas a un nivel más adentro**.
 	- A mi personalmente me gustan los tabuladores, aunque Guido, el autor de Python, los odia.
 		- Los tabuladores cada uno puede ajustarlos en el editor al tamaño que le gusten.
 		- Es más difícil visualmente que te dejes un espacio
-		- Si pretendes aliniar usa espacios, si pretendes indentar, usa tabuladores.
+		- Si pretendes alinear usa espacios, si pretendes indentar, usa tabuladores.
 
 - Si abrimos un símbolo que haya que cerrar, como, por ejemplo, los paréntesis,
   podemos extendernos varias lineas y despreocuparnos por la indentación,
@@ -266,7 +266,7 @@ y que permiten extender la sentencias en varias líneas hasta cerrarlos son:
 	- Comillas simples triples: `'''  '''`
 
 - Si el último caracter de una línea es una contrabarra (`\`),
-  el interprete **ignora el salto de línia como si no estuviera**,
+  el intérprete **ignora el salto de línea como si no estuviera**,
   **No hay que abusar de ello**, pero es la opción de último recurso
   cuando una sentencia se nos hace larga (80 caracteres es lo máximo recomendado),
   y no tenemos un paréntesis o similar para cortar.
@@ -295,7 +295,7 @@ Una **expresión** es una construcción del lenguaje que resulta en un **valor**
 Por ejemplo: `3+4` es una expresión que resulta en el valor `7`.
 
 Las expresiones se usan en muchos sitios pero también son sentencias de pleno derecho.
-Así que podemos introducir expresiones en el interprete interactivo de Python y usarlo de calculadora.
+Así que podemos introducir expresiones en el intérprete interactivo de Python y usarlo de calculadora.
 
 
 ## Tipos de datos y literales
@@ -325,12 +325,25 @@ Entre paréntesis, en el comentario, el nombre que se le da al tipo en Python.
 >>> # un diccionario (dict) 2 con parejas clave: valor
 >>> { 'David': 40, 'Aitor': 25 }
 { 'David': 40, 'Aitor': 25 }
->>> None   # el no-objeto (NoneType), el interprete ni lo imprime
+>>> None   # el no-objeto (NoneType), el intérprete ni lo imprime
 >>> True   # un valor lógico (bool), su antitesis es False
 True
 ```
 
 A lo largo del tutorial iremos explicando como trabajar con estos tipos de objetos.
+Un aperitivo:
+
+- Con los tipos numéricos (`int`, `float`,`complex`) podemos hacer operaciones aritméticas.
+- Con los textos (`str`) podemos concatenarlos, substituir, partir, buscar...
+- Las tuplas (`tuple`) son parejas, trios... de valores que juntamos para pasarlos como un solo valor.
+- Las listas (`list`) son como las tuplas pero podemos insertar y eliminar elementos.
+- Los conjuntos (`set`) son como las listas,
+  pero no guarda el orden entre los elementos,
+  y no tienen repetidos
+  (por eso, en el ejemplo, uno de los dos `1` desaparece).
+- Los diccionarios (`dict`) contienen parejas clave-valor, en los que se puede acceder al valor mediante la clave.
+- El no-valor `None` (`NoneType`) representa el concepto de _ningún valor_, más útil de lo que parece.
+- Los valores lógicos (`bool`) representan una condición que puede ser cierta o falsa, y sirven para tomar decisiones.
 
 
 ## Trabajando con números, tipos `int` y `float`
@@ -419,6 +432,48 @@ podemos usar otras notaciones para los literales numéricos:
 > [científica](https://es.wikipedia.org/wiki/Notaci%C3%B3n_cient%C3%ADfica).
 
 
+## Llamando funciones
+
+Otro elemento que podemos usar en una expresión son las funciones.
+Las **funciones** retornan valores calculados a partir de los parámetros que les enviamos con el operador paréntesis.
+
+Por ejemplo, la función `max`, incluida en el lenguaje,
+retorna el mayor de los valores que le pasemos como parámetros.
+
+~~~{.python}
+>>> max(50,200)  # El máximo de 2 valores: 50 y 200
+200
+~~~
+
+A estas funciones que están disponibles desde el principio
+se les llama _built-in_.
+
+Desde el primer ejemplo hemos estado usando una de ellas, la función `print`.
+`print` es una función que no devuelve nada pero tiene el efecto lateral
+de mostrar por pantalla los valores que le pasamos.
+
+Si una sentencia es una expresion,
+el intérprete interactivo ya muestra el resultado por pantalla,
+pero eso no pasa si la ejecutamos desde un script.
+Desde un script, si quieres ver un valor en la consola, necesitas llamar a `print`.
+
+```python
+print(max(50,200))
+```
+
+Como una función retorna un valor,
+podemos usar el resultado de esa función dentro de otra expresión.
+En este caso el resultado de la funcion `max` lo hemos pasado a la funcion `print`.
+
+El tutorial oficial de Python tiene una
+[lista de las funciones incluidas](https://docs.python.org/3/library/functions.html)
+en el lenguaje (_built-in_)
+que podemos usar sin incluir ninguna libreria (estándard o no).
+
+Las funciones también las podemos crear nosotros,
+o importarlas de librerías, pero eso lo veremos más adelante.
+
+
 ## Trabajando con texto, tipo `str`
 
 El tipo `str` sirve para representar texto.
@@ -444,8 +499,8 @@ Castellar de N'Hug
 Pero, si el texto contiene ambas, tenemos otras soluciones:
 
 ~~~{.python}
->>> print('Usando sequencias de \'escape\'')
-Usando sequencias de 'escape'
+>>> print('Usando la contrabarra para \'escapar\' la comilla')
+Usando la contrabarra para 'escapar'
 >>> print('''Usando las "triples" 'comillas'.''')
 Usando las "triples" 'comillas'.
 >>> print("""Que tambíén pueden ser "dobles" 'triples'.""")
@@ -454,20 +509,22 @@ Que tambíén pueden ser "dobles" 'triples'.
 
 Las secuencias de escape con la contrabarra `\` tambíén sirven para
 insertar saltos de línea (`\n`), tabuladores (`\t`)...
-De hecho para incluir una contrabarra hay que poner dos `\\`.
+De hecho para incluir una contrabarra en un texto
+hay que _escaparla con contrabarra_, es decir, poner dos `\\`.
 Si un literal de texto contiene muchas contrabarras,
 igual nos combiene deshabilitar las secuencias de escape
-prefijando una `r` de 'raw' (crudo) al literal.
+prefijando una `r` de 'raw' (en crudo) al literal.
 
 Un uso común, por ejemplo, los ficheros en Windows:
 
 ~~~{.python}
->>> print("c:\temp\newitem")  # Las contrabarras se convierten en un tab y un salto de línea
+>>> # Las contrabarras se convierten en un tab y un salto de línea
+>>> print("c:\temp\newitem")
 c:	emp
 ewitem
 >>> print("c:\\temp\\newitem")   # Escapando contrabarras
 c:\temp\newitem
->>> print(r"c:\temp\newitem")    # Deshabilitando secuencias de escape con el prefijo 'r'
+>>> print(r"c:\temp\newitem")    # Texto 'en crudo', prefijo 'r'
 c:\temp\newitem
 ~~~
 
@@ -480,13 +537,25 @@ Podemos usar algunos operadores numéricos tambíén con texto:
 'holaholaholahola'
 ~~~
 
-Y tenemos algunas funciones _built-in_ que podemos usar con ellas:
+De hecho si tenemos literales, sumarlos es una perdida de CPU.
+Python considera los literales seguidos como un solo literal
+lo que nos permite escribir texto como éste:
+
+~~~{.python}
+print(
+	"No es verdad, angel de amor\n"
+	"que aquella apartada parrilla\n"
+	"estan friendo morcillas\n"
+	"y hasta aquí llega el olor?\n"
+	)
+~~~
+
+Y tenemos algunas funciones _built-in_ que podemos usar con secuencias:
 
 ~~~{.python}
 >>> len('hola')   # longitud de un texto
 4
 ~~~
-
 
 ## Reusando resultados: variables y la sentencia de asignación
 
@@ -496,14 +565,16 @@ generan valores que una vez los hemos hecho servir desaparecen.
 
 Las **variables** nos permiten mantener una referencia a un **valor**,
 para volverlo a usar después.
+La sentencia en la asociamos un valor a un nombre se llama *sentencia de asignación*.
+Decimos que *asignamos un valor a la variable*.
 
 ~~~{.python}
 >>> a = 23  # sentencia de asignacion
->>> a
+>>> a       # uso de la variable
 23
->>> b = 10*10
+>>> b = 10*a
 >>> b
-100
+230
 ~~~
 
 En Python, una misma variable en un script puede ir apuntando a valores diferentes.
@@ -547,12 +618,13 @@ Como con el estilo de indentación, cada uno tiene sus preferencias y motivos,
 pero conviene que el criterio sea coherente dentro de cada proyecto.
 
 
-## Indexando y recortando (slices)
+## Indexando y rebanando (slices)
 
 La indexacion con los simbolos `[ ]` nos permite selecionar letras de un texto.
 En general, el enésimo elemento de una secuencia.
 Una **sequencia** es una estructura en la que sus elementos están ordenados.
 La única secuencia que hemos explorado en profundidad es el texto,
+así que para los ejemplos usaremos textos,
 pero también podremos hacer lo mismo con tuplas y listas.
 
 **¡Ojo! ¡Los índices empiezan por el cero!**
@@ -617,7 +689,7 @@ Normalmente es 1, pero si lo especificamos...
 'ogaleicrum'
 ~~~
 
-**Pregunta:** ¿Porqué en la última expresión no son las mismas letras invertidas que con `a[2:6]`?
+**Pregunta:** ¿Porqué `a[6:2:-1]` no son las mismas letras invertidas que con `a[2:6]`?
 
 **Pregunta:** ¿Qué retornaria a[5:5]? ¿Porqué?
 
@@ -631,38 +703,13 @@ Normalmente es 1, pero si lo especificamos...
 > Las operaciones con índices basados en 0 son mucho más simples.
 > Que los índices empiecen por 1 acaba siendo un incordio.
 >
-> **Esos lenguajes que lo intentaron perecieron o malviven siendo muy odiados.**
+> **Esos lenguajes que intentaron empezar los índices con 1 perecieron o malviven siendo muy odiados.**
 
-
-## Llamando funciones
-
-Otro elemento que podemos usar en una expresión son las funciones.
-Las **funciones** retornan valores calculados a partir de los parámetros que les enviamos con el operador paréntesis.
-
-Por ejemplo, la función `max`, incluida en el lenguaje,
-retorna el mayor de los valores que le pasemos como parámetros.
-
-~~~{.python}
->>> a = 100
->>> b = 200
->>> c = max(50,a,b)  # El máximo de 3 valores: 50, 100 y 200
->>> print(c)
-200
-~~~
-
-Observa que `print`, que hemos usado antes,
-también es una función que llamamos con el operador paréntesis.
-
-El tutorial oficial de Python tiene una
-[lista de las funciones incluidas](https://docs.python.org/3/library/functions.html)
-en el lenguaje (_built-in_)
-que podemos usar sin incluir ninguna libreria (estándard o no).
 
 
 ## Definiendo funciones
 
-Podemos definir nuestras propias funciones.
-Lo hacemos de la siguiente manera:
+En nuestro script podemos definir nuestras propias funciones.
 
 ~~~{.python}
 >>> def media(a, b):
@@ -680,15 +727,15 @@ Lo hacemos de la siguiente manera:
 	- El nombre sigue las mismas normas que para las variables.
 	- De hecho usan el mismo espacio de nombres:
 		- si declaramos después una variable llamada `media` perderemos nuestra función.
-- Después, entre parentesis y separados por comas, la lista de parámetros.
-	- Los parametros son variables que existiran sólo mientras se ejecute la función
+- Después, entre paréntesis y separados por comas, la lista de parámetros.
+	- Los parámetros los podemos usar como variables
 	- Se les asignan los valores que pasamos entre paréntesis
 		- En la primera llamada a=3. En la segunda llamada a=4.
 		- En la primera llamada b=1. En la segunda llamada b=5.
-- Todas las sentencias que finalizan con `:`, van seguidas de un conjunto de sentencias indentadas un nivel más.
-	- Decimos que estas sentencias indentadas están dentro de la sentencia que les da paso con los dos puntos.
-	- En el caso de una función son las sentencias que se ejecutarán cuando la llamemos.
-	- Los tres puntos los escribe el interprete, en vez de los `>>>` para indicar que aun tenemos que acabar la sentencia.
+	- Existirán sólo mientras se ejecute esa llamada a la función
+- La sentencia `def` acaba con dos puntos (`:`) lo que quiere decir que le sigue una série de subsentencias indentadas.
+	- Las sentencias de dentro son las que se ejecutarán cada vez que llamemos la función.
+	- Los tres puntos los escribe el intérprete, en vez de los `>>>` para indicar que aun tenemos que acabar la sentencia.
 	- Para salir de los tres puntos dejamos una linea en blanco
 - La primera sentencia de dentro crea una variable `suma`
 	- Las variables que creemos dentro de una función solo existen mientras la función se ejecuta.
@@ -703,32 +750,40 @@ Lo hacemos de la siguiente manera:
 
 ¿Qué pasaría si se llega al final de la función y no encuentra ningún return?
 
-Pues que el llamante recibiría un no-valor. También llamado `None`.
-Cuando no ponemos ninguna expresión en el return tambíén se retorna `None`.
+Pues que el llamante recibiría un valor especial que representa el _no-valor_.
+Se trata del `None` que es el único valor del tipo `NoneType`.
 
 ~~~{.python}
->>> None # El interprete no muestra resultado si una sentencia resulta en None
+>>> None # El intérprete no muestra resultado si una sentencia resulta en None
 >>> print(None)  # Pero lo podemos imprimir explícitamente
 None
->>> a = print("hola")  # La funcion print tampoco retorna nada
+>>> a = print("hola")  # La función print tampoco retorna nada
 hola
 >>> a   # Lo dicho
 >>> print(a)
 None
 >>> def noReturnFunction():
-...     2+2
+...     2+2  # ojo, error típico queriamos retornar algo y nos dejamos el return
 ...
 >>> noReturnFunction()
 >>> print(noReturnFunction())
 None
 ~~~
 
-## Parámetros por defecto
+## Parámetros opcionales, valores por defecto
 
 Se puede indicar que, para una función,
 algunos parámetros son opcionales.
 Lo hacemos indicando el valor por defecto
 que adoptará el parámetro si no lo pasamos.
+
+En el siguiente ejemplo definimos una función
+para aplicar el iva a una base imponible.
+Como el IVA típico ahora mismo es del 21%,
+para no tener que especificarlo siempre,
+lo ponemos como parámetro opcional,
+y en el caso de que no se lo pasemos,
+lo ponemos a `0.21`.
 
 ```python
 >>> def aplicaIva(baseImponible, factorIva=0.21):
@@ -742,11 +797,12 @@ que adoptará el parámetro si no lo pasamos.
 
 Fíjate que, en la declaración de los parámetros,
 hemos igualado el `factorIva` al valor que adoptará
-en el caso que el llamante no lo proporcione `0.21`.
+en el caso que el llamante no lo proporcione, `0.21`.
 
-Hay una restricción:
+La declaración de parámetros opcionales tiene una restricción importante:
 **Todos los parámetros obligatorios han de ir delante de los opcionales.**
-De esta forma, el interprete puede ir asignando valores a los parámetros sin problemas.
+De esta forma, el intérprete puede ir asignando valores a los parámetros sin problemas.
+
 
 
 ## Parámetros por clave
@@ -771,7 +827,9 @@ No sólo genera errores si no que a alguien que está leyendo el código,
 le cuesta seguirlo.
 Así que especificar el nombre del parámetro ayuda a esa lectura.
 
-Si más adelante necesitamos alterar los parámetros de la función,
+Otro caso en que es útil especificar los nombres:
+Si, durante la evolución del script,
+decidimos alterar los parámetros de la función,
 hay que actualizar también las llamadas.
 En este caso especificar el nombre también facilita
 la detección de errores en el proceso de migración.
@@ -791,9 +849,20 @@ y luego van los nombrados.
 107
 ```
 
+Si después de repartir los parámetros, ambos, posicionales y con nombre,
+hay algun parámetro sin valor, el intérprete se quejará:
+
+```python
+>>> aplicaIva(factorIva=0.07)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: aplicaIva() missing 1 required positional argument: 'baseImponible'
+```
+
+
 ## Llamando a métodos
 
-El espacio de nombres es un recurso escaso que afecta a nuestra salud mental.
+El espacio de nombres es un recurso escaso cuyo abuso puede afectar a nuestra salud mental.
 Cuantos menos nombres tengas que tener en cuenta cuando te metes en un código en concreto, mejor.
 Normalmente, los lenguajes aportan herramientas
 para partir ese espacio de nombres en trocitos aislados.
@@ -806,10 +875,10 @@ Un método es una función que está ligada a un tipo de objeto/valor.
 Se llaman con la sintaxis del punto (`.`) a partir del objeto/valor.
 
 ~~~{.python}
-objeto.metodo(parametros)
+objeto.metodo(parámetros)
 ~~~
 
-El interprete interactivo nos deja explorar los métodos disponibles
+El intérprete interactivo nos deja explorar los métodos disponibles
 si tecleamos un literal o una variable, un punto y damos al tabulador
 y lo autocompleta si lo empezamos a teclear y le damos al tabulador.
 
@@ -1178,8 +1247,8 @@ if condicionDeError:
 	die("Se ha dado la condición de error!!")
 ~~~
 
-Donde `die` es una funcion que imprime el mensaje y sale del programa.
-El cortocircuito de evaluación hace que la funcion `die` no se ejecute
+Donde `die` es una función que imprime el mensaje y sale del programa.
+El cortocircuito de evaluación hace que la función `die` no se ejecute
 si `condicionNecesaria` es `True` o si `condicionDeError` es `False`.
 
 En cualquier caso, hay que tener cuidado cuando usemos expresiones booleanas
@@ -1573,7 +1642,7 @@ En python podemos asignar a dos variables a la vez:
 2
 ~~~
 
-Por eso no hay la funcion de `swap`, típica de otros lenguajes,
+Por eso no hay la función de `swap`, típica de otros lenguajes,
 para intercambiar los valores de dos variables.
 En Python se hace simplemente así:
 
@@ -1590,7 +1659,7 @@ muy parecido a una lista, pero no permite modificar su contenido.
 Como con los textos, podemos generar una a partir de otra, pero no modificar la existente.
 Sus literales son como las listas pero sin corchetes.
 A menudo se necesitan paréntesis cuando se usan en sitios donde podría haber comas:
-como parámetro de una funcion, dentro de un literal de lista...
+como parámetro de una función, dentro de un literal de lista...
 Así que por si acaso siempre se ponen los paréntesis,
 al menos que como en la expresión de arriba sea muy claro.
 
@@ -1613,14 +1682,14 @@ Podemos crear una lista, a partir de una tupla y al revés usando los constructo
 >>> t1,t2,t3 = t   # desempaquetando
 >>> list(t)
 [2,4,6]
->>> list( (2,4,6) )   # el literal requiere parentesis si es un parámetro
+>>> list( (2,4,6) )   # el literal requiere paréntesis si es un parámetro
 [2,4,6]
 >>> tuple(list( (2,4,6) ) )
 (2,4,6)
 ~~~
 
 Las tuplas son muy útiles cuando funciones retornan más de un valor.
-Por ejemplo la funcion _built-in_ `divmod` retorna la división entera
+Por ejemplo la función _built-in_ `divmod` retorna la división entera
 y el resto a la vez evitando tener que calcular dos veces la división.
 
 ~~~{.python}
@@ -1823,11 +1892,11 @@ for i, nombre in enumerate(top5):
 **Ejercicio:**
 Usa el generador `reversed`, para darle emoción a la lista y acabar por el ganador.
 ¿Que pasa si lo aplicas antes de `enumerate`?
-¿Que pasa si lo aplicas despues de `enumerate`?
+¿Que pasa si lo aplicas después de `enumerate`?
 
 **Ejercicio:**
 Usa el generador `sorted` para ordenar una lista de nombres.
-Investiga y experimenta los parametros de `sorted` hasta que los entiendas.
+Investiga y experimenta los parámetros de `sorted` hasta que los entiendas.
 
 
 ### Emparejando sequencias, `zip`
@@ -1903,7 +1972,7 @@ Los literales del set son como los de las listas, pero usan los corchetes rizado
 [1,2,3]
 >>> ''.join(set('abracadabra')) # cuantas letras diferentes usa un texto?
 'rcabd'
->>> ''.join(sorted(set('abracadabra'))) # no nos aseguran orden, usamos la funcion sorted
+>>> ''.join(sorted(set('abracadabra'))) # no nos aseguran orden, usamos la función sorted
 'abcdr'
 ~~~
 
