@@ -933,7 +933,13 @@ True
 'ABRACADABRA'
 >>> 'AbRaCaDaBra'.lower() # todo a minúsculas
 'abracadabra'
-```
+>>> 'abracadabra'.split('a')
+['', 'br', 'c', 'd', 'br', '']
+>>> 'hola tu que tal'.split()
+['hola', 'tu', 'que', 'tal']
+>>> '-'.join(['hola', 'tu', 'que', 'tal'])
+'hola-tu-que-tal'
+~~~
 
 Objetos de tipos diferentes pueden tener métodos con el mismo nombre,
 lo cual tiene sentido si hacen cosas conceptualmente similares
@@ -953,7 +959,7 @@ los valores con corchetes `{}`.
 
 ```python
 >>> 'El resultado es {}'.format(4)
-'El resultado es 4.
+'El resultado es 4'
 >>> '{} tiene {} puntos'.format('Aitor', 14)
 'Aitor tiene 14 puntos'
 ```
