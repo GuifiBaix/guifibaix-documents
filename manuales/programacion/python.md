@@ -7,9 +7,9 @@ documenclass: book
 
 # Introducción
 
-> «Hacer un programa que entienda el ordenador es un reto.
-> Pero el mérito verdadero está en escribir un programa
-> que le sea fácil de entender a otros programadores...
+> «Escribir un programa que entienda el ordenador puede ser complicado.
+> Pero donde está el mérito es en escribir programas
+> que le sea fácil de entender a otras personas...
 > (o a uno mismo, cuando pase el tiempo)»
 >
 > Martin Fowler (parafraseado)
@@ -18,19 +18,21 @@ documenclass: book
 ## Lenguajes de programación
 
 Un lenguaje de programación es la forma en que las personas
-indicamos al ordenador como se tiene que comportar.
+indicamos a los programas cómo se tienen que comportar.
 Hay muchos lenguajes de programación.
 Cada uno tiene sus puntos fuertes
-o es más expresivo para según que tareas.
+o está más adaptado a según que tareas,
+sin contar con las preferencias de cada cual.
 Por eso existen una miriada de lenguajes.
 
-El ordenador solo entiende de instrucciones en código máquina.
+Al final, el ordenador solo entiende de código máquina.
 El codigo máquina no está pensado para que lo entiendan las personas;
 es una secuencia de números sin sentido aparente,
 en la que cada número codifica
 algo que tiene que hacer el ordenador:
 Cargar un número en el procesador desde una posición de memoria,
-operar con ese número, colocar el resultado en otra posición de memoria...
+operar con ese número, colocar el resultado en otra posición de memoria,
+enviar un código a un dispositivo...
 Cosas de muy de tocar el hierro.
 
 Los lenguajes de programación son más cercanos
@@ -42,7 +44,7 @@ que es lo que es propio de cada lenguaje.
 
 Esos ficheros de texto,
 escritos en un lenguaje de programación,
-tienen que ser traducidos a 
+tienen que ser traducidos a
 código máquina ejecutable por el ordenador.
 Según la estrategia que se use para hacerlo
 hablamos de _lenguajes compilados_ o
@@ -113,6 +115,7 @@ cuando estemos evolucionando un código o queremos que quede para la posteridad.
 	- Te completa expresiones con la tecla del tabulador
 	- Puedes ejecutar comandos del shell precediendolos con `!`
 	- Si le pones un signo `?` a una expresion te muestra ayuda sobre el objeto resultante
+- Nota: Las ultimas versiones del intérprete clásico, tiene ya historial y completa expresiones.
 
 Cuando digamos de ejecutar algo en un intérprete lo solemos escribir así:
 
@@ -2118,7 +2121,7 @@ Crea un bucle que haga lo mismo que si usaras `enumerate`,
 pero usando `zip`, `range` y `len`.
 
 
-### Nuestras propias funciones generadoras
+### Nuestras propias funciones generadoras, `yield`
 
 Podemos crear nuestros propios generadores con una expresión generadora que ya hemos visto.
 Pero en las expresiones generadoras estamos limitados a una sola expresión.
@@ -2138,9 +2141,10 @@ function squares(limit=None):
 
 La sentencia `yield` (igual que las señales de 'ceda el paso' en inglés)
 es similar al `return` en el sentido que devuelve un valor.
-Pero se deja un
-
-
+Pero a diferencia del `return`, no abandona del todo la función,
+solo devuelve el control al llamante temporalmente
+y cuando el llamante pide el siguente valor
+la función sigue ejecutándose por donde iba.
 
 
 
@@ -2194,6 +2198,12 @@ False
 
 # Temas pendientes TODO's
 
+- Diccionarios
+- Manejando exepciones, `try`-`except`
+- Lanzando exepciones, `raise`
+- Leyendo ficheros, `open`, `read`, `close`
+- Controlando cierre de recursos `with`
+- Escribiendo ficheros, `write`
 - Usando modulos `import`
 - Instalando librerías
 - Entornos virtuales
