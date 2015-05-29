@@ -116,10 +116,10 @@ cuando estemos evolucionando un código o queremos que quede para la posteridad.
 
 Cuando digamos de ejecutar algo en un intérprete lo solemos escribir así:
 
-~~~{.python}
+```python
 >>> print("hola mundo")
 hola mundo
-~~~
+```
 
 - El `>>>` indica el símbolo que el intérprete pone para decirte que puedes escribir.
 	- En ipython3 es algo como `In [1]:`
@@ -142,10 +142,10 @@ Para que se pueda ejecutar sin problemas en Unix:
 
 - Necesitan permisos de escritura
 
-	~~~{.bash}
+	```bash
 	$ touch miscript.py   # Crea un archivo si no existe
 	$ chmod +x miscript.py  # Activa los permisos de ejecución
-	~~~
+	```
 
 - Lo editamos con un editor de texto plano: kate, vim, gedit, nano, notepad++...
 Asegúrate de que el editor usa el juego de carácteres UTF-8.
@@ -153,33 +153,33 @@ Asegúrate de que el editor usa el juego de carácteres UTF-8.
 - La primera linea del fichero debe ser el _shebang_ que indica al shell con qué intérprete se ejecuta el script.
   En `myscript.py` escribiriamos:
 
-	~~~{.python}
+	```python
 	#!/usr/bin/env python3
 	
 	print('hola mundo')
-	~~~
+	```
 
 - Teniendolo así podemos ejecutarlo desde el shell con:
 
-	~~~{.bash}
+	```bash
 	$ ./miscript.py
 	hola mundo
-	~~~
+	```
 
 - Alternativamente, si el script bien no lleva ni shebang o no tiene permisos,
 podemos ejecutarlo pasandoselo como primer parámetro al intérprete:
 
-	~~~{.bash}
+	```bash
 	$ python3 miscript.py
 	hola mundo
-	~~~
+	```
 
 - La extension `.py` del fichero no es necesaria para ejecutarlo en Linux.
 Aunque puede serlo para ejecutarlo en otros sistemas.
 Si que va bien para que los editores con resaltado de sintaxis
 detecten que es un fichero escrito en Python y lo coloreen adecuadamente.
 
-## Reglas básicas de sintaxis
+## Reglas generales de sintaxis
 
 La sintaxis de Python sigue unos principios generales.
 
@@ -218,7 +218,18 @@ que van **indentadas a un nivel más adentro**.
 	while False :    # repite las subsentencias mientras... nunca
 		print("hola") # esta sentencia pertenece al while
 		print("mundo") # esta también
-	print("Acabé!")  # esta sentencia se ejecuta cuando se sale del while
+	print("¡Acabé!")  # esta sentencia se ejecuta cuando se sale del while
+	```
+
+- Cada sentencia con dos puntos, inicia un nivel de indentación nuevo
+
+	```python
+	while False :
+		print("hola")
+		while True:
+			print("que tal") # esta pertenece al segundo while
+		print("mundo") # esta vuelve a ser del primero
+	print("¡Acabé!") # y esta cuando sale del primer while
 	```
 
 - Tanto si se incrementa la indentación sin que haya una sentencia con dos puntos que lo justifique,
@@ -235,15 +246,17 @@ que van **indentadas a un nivel más adentro**.
 	```
 
 - Dada la importancia de la indentación para estructurar el código,
-  es importante ser cuidadoso, y por ejemplo, no hay que mezclar, en un fichero,
-  indentación con tabuladores y indentación con espacios y si es con
-  espacios, usar consistenemente el mismo número de espacios para cada nivel.
-  Que en todo el proyecto cada nivel sea 1, 2, 4, o 8 espacios.
+  es importante ser cuidadoso.
+  No hay que mezclar, en un fichero, indentación con tabuladores y indentación con espacios
+  y, si es con espacios, usar consistenemente el mismo número de espacios para cada nivel.
+  Es decir, que en todo el proyecto cada nivel sea 1, 2, 4, o 8 espacios.
 
-	- A mi personalmente me gustan los tabuladores, aunque Guido, el autor de Python, los odia.
-		- Los tabuladores cada uno puede ajustarlos en el editor al tamaño que le gusten.
-		- Es más difícil visualmente que te dejes un espacio
-		- Si pretendes alinear usa espacios, si pretendes indentar, usa tabuladores.
+	- Aunque a Guido, el autor de Python, odia los tabuladores, personalmente, los prefiero por:
+		- Con espacios aun tenemos la guerra de cuantos espacios usar
+		- En cambio, los tabuladores cada uno puede ajustarlos en el editor al tamaño que le gusten.
+		- Con espacios es más fácil visualmente que te dejes un espacio de más o de menos.
+	- En cualquier caso, si no empezamos proyecto nuevo, hay que ajustarse a lo que use el proyecto.
+	  Peor que tener tabuladores o espacios, es tener una mezcla de ellos.
 
 - Si abrimos un símbolo que haya que cerrar, como, por ejemplo, los paréntesis,
   podemos extendernos varias lineas y despreocuparnos por la indentación,
@@ -283,6 +296,15 @@ y que permiten extender la sentencias en varias líneas hasta cerrarlos son:
 
 	```python
 	print("hola"); print("mundo")
+	```
+
+- Cuando una sentencia compuesta solo tiene una subsentencia,
+  se puede poner en la misma línea.
+  Tampoco es recomendable hacerlo,
+  y sólo con subsentencias realmente cortas.
+
+	```python
+	while True: print("hola mundo")
 	```
 
 Sabiendo todo esto, aprendamos a escribir todas esas sentencias mágicas.
@@ -351,7 +373,7 @@ Un aperitivo:
 Podemos usar Python como una calculadora.
 Combinando literales y operadores obtenemos expresiones numéricas.
 
-~~~{.python}
+```python
 >>> 10+3  # suma
 13
 >>> 10-3  # resta
@@ -366,7 +388,7 @@ Combinando literales y operadores obtenemos expresiones numéricas.
 1
 >>> 10**3  # potencia
 1000
-~~~
+```
 
 Cuando combinamos varios operadores en una expresión,
 se resuelven por prioridad.
@@ -440,10 +462,10 @@ Las **funciones** retornan valores calculados a partir de los parámetros que le
 Por ejemplo, la función `max`, incluida en el lenguaje,
 retorna el mayor de los valores que le pasemos como parámetros.
 
-~~~{.python}
+```python
 >>> max(50,200)  # El máximo de 2 valores: 50 y 200
 200
-~~~
+```
 
 A estas funciones que están disponibles desde el principio
 se les llama _built-in_.
@@ -479,33 +501,33 @@ o importarlas de librerías, pero eso lo veremos más adelante.
 El tipo `str` sirve para representar texto.
 Podemos construir literales de texto delimitando el texto entre comillas dobles o simples.
 
-~~~{.python}
+```python
 >>> "hola"
 'hola'
 >>> 'hola'
 'hola'
-~~~
+```
 
 Tener dos tipos de comillas va bien cuando el texto
 contiene una de ellas, usamos la otra:
 
-~~~{.python}
+```python
 >>> print('Me dijo: "Adios" y me fuí')
 Me dijo: "Adios" y me fuí
 >>> print("Castellar de N'Hug")
 Castellar de N'Hug
-~~~
+```
 
 Pero, si el texto contiene ambas, tenemos otras soluciones:
 
-~~~{.python}
+```python
 >>> print('Usando la contrabarra para \'escapar\' la comilla')
 Usando la contrabarra para 'escapar'
 >>> print('''Usando las "triples" 'comillas'.''')
 Usando las "triples" 'comillas'.
 >>> print("""Que tambíén pueden ser "dobles" 'triples'.""")
 Que tambíén pueden ser "dobles" 'triples'.
-~~~
+```
 
 Las secuencias de escape con la contrabarra `\` tambíén sirven para
 insertar saltos de línea (`\n`), tabuladores (`\t`)...
@@ -517,7 +539,7 @@ prefijando una `r` de 'raw' (en crudo) al literal.
 
 Un uso común, por ejemplo, los ficheros en Windows:
 
-~~~{.python}
+```python
 >>> # Las contrabarras se convierten en un tab y un salto de línea
 >>> print("c:\temp\newitem")
 c:	emp
@@ -526,36 +548,36 @@ ewitem
 c:\temp\newitem
 >>> print(r"c:\temp\newitem")    # Texto 'en crudo', prefijo 'r'
 c:\temp\newitem
-~~~
+```
 
 Podemos usar algunos operadores numéricos tambíén con texto:
 
-~~~{.python}
+```python
 >>> "Hola" + "mundo"  # juntamos los dos textos (sin espacio!)
 'Holamundo'
 >>> 'hola'*4    # Multiplicar por un numero, repite el texto
 'holaholaholahola'
-~~~
+```
 
 De hecho si tenemos literales, sumarlos es una perdida de CPU.
 Python considera los literales seguidos como un solo literal
 lo que nos permite escribir texto como éste:
 
-~~~{.python}
+```python
 print(
 	"No es verdad, angel de amor\n"
 	"que aquella apartada parrilla\n"
 	"estan friendo morcillas\n"
 	"y hasta aquí llega el olor?\n"
 	)
-~~~
+```
 
 Y tenemos algunas funciones _built-in_ que podemos usar con secuencias:
 
-~~~{.python}
+```python
 >>> len('hola')   # longitud de un texto
 4
-~~~
+```
 
 ## Reusando resultados: variables y la sentencia de asignación
 
@@ -568,23 +590,23 @@ para volverlo a usar después.
 La sentencia en la asociamos un valor a un nombre se llama *sentencia de asignación*.
 Decimos que *asignamos un valor a la variable*.
 
-~~~{.python}
+```python
 >>> a = 23  # sentencia de asignacion
 >>> a       # uso de la variable
 23
 >>> b = 10*a
 >>> b
 230
-~~~
+```
 
 En Python, una misma variable en un script puede ir apuntando a valores diferentes.
 De hecho, puede apuntar incluso a valores de diferente tipo.
 
-~~~{.python}
+```python
 a = 12        # tipo entero (int)
 a = 'hola'    # tipo texto (str)
 a = 3.1416   # tipo coma flotante (float)
-~~~
+```
 
 Consejos del programador abuelete:
 
@@ -620,16 +642,16 @@ pero conviene que el criterio sea coherente dentro de cada proyecto.
 
 ## Indexando y rebanando (slices)
 
-La indexacion con los simbolos `[ ]` nos permite selecionar letras de un texto.
-En general, el enésimo elemento de una secuencia.
-Una **sequencia** es una estructura en la que sus elementos están ordenados.
+La indexacion con los simbolos `[ ]` nos permite selecionar letras de un texto por su posición.
+En general, nos permiten acceder al enésimo elemento de una secuencia,
+siendo una **secuencia** cualquier estructura que contenga elementos en un orden determinado.
 La única secuencia que hemos explorado en profundidad es el texto,
 así que para los ejemplos usaremos textos,
-pero también podremos hacer lo mismo con tuplas y listas.
+pero también podremos hacer lo mismo con tuplas y listas, que también son secuencias.
 
-**¡Ojo! ¡Los índices empiezan por el cero!**
+**¡Ojo! ¡Los índices empiezan siempre por el cero!**
 
-~~~{.python}
+```python
 >>> a = 'murcielago'
 >>> a[1]   # ¡ojo! ¡La primera letra es la 0!
 'u'
@@ -643,23 +665,23 @@ Traceback (most recent call last):
 IndexError: string index out of range
 >>> a[9]   # así sí
 'o'
-~~~
+```
 
 Si usamos índices negativos, empezamos por el final.
 El último es el -1, el penúltimo el -2.
 
-~~~{.python}
+```python
 >>> a[-1]  # Con índices negativos empezamos por el final
 'o'
 >>> a[-2]
 'g'
-~~~
+```
 
 También podemos sacar rebanadas (_slices_)
 usando inicio y final separado por dos puntos.
 El final no se incluye.
 
-~~~{.python}
+```python
 >>> a[2:6] # de la tercera (2) a la sexta letra (5)
 'rcie'
 >>> a[:6] # Si no ponemos el inicio se deduce desde el principio
@@ -668,7 +690,7 @@ El final no se incluye.
 'rcielago'
 >>> a[:5] + a[5:]  # ¿porque el índice 5 no esta repetido?
 'murcielago'
-~~~
+```
 
 > **Ejercicio:** ¿Porque en la ultima expresión no se repite el índice 5?
 
@@ -676,7 +698,7 @@ Un tercer elemento en el _slice_ es el paso;
 cuantas casillas saltamos.
 Normalmente es 1, pero si lo especificamos...
 
-~~~{.python}
+```python
 >>> a[::2]  # saltamos las letras de dos en dos
 'mrilg'
 >>> a[1::2]  # si le damos un offset
@@ -687,7 +709,7 @@ Normalmente es 1, pero si lo especificamos...
 'leic'
 >>> a[::-1]  # guárdate esta, sirve para voltear cualquier secuencia
 'ogaleicrum'
-~~~
+```
 
 **Pregunta:** ¿Porqué `a[6:2:-1]` no son las mismas letras invertidas que con `a[2:6]`?
 
@@ -711,7 +733,7 @@ Normalmente es 1, pero si lo especificamos...
 
 En nuestro script podemos definir nuestras propias funciones.
 
-~~~{.python}
+```python
 >>> def media(a, b):
 ...     suma = a+b
 ...     return suma/2
@@ -720,7 +742,7 @@ En nuestro script podemos definir nuestras propias funciones.
 2.0
 >>> media(4, 5)
 4.5
-~~~
+```
 
 - La definición de una función comienza con la palabra reservada `def`.
 - Le sigue el nombre que daremos a la función, `media` en este caso.
@@ -753,7 +775,7 @@ En nuestro script podemos definir nuestras propias funciones.
 Pues que el llamante recibiría un valor especial que representa el _no-valor_.
 Se trata del `None` que es el único valor del tipo `NoneType`.
 
-~~~{.python}
+```python
 >>> None # El intérprete no muestra resultado si una sentencia resulta en None
 >>> print(None)  # Pero lo podemos imprimir explícitamente
 None
@@ -768,7 +790,7 @@ None
 >>> noReturnFunction()
 >>> print(noReturnFunction())
 None
-~~~
+```
 
 ## Parámetros opcionales, valores por defecto
 
@@ -843,20 +865,23 @@ En resumen, se recomienda explicitar los nombres de paràmetros:
 Se pueden combinar parámetros posicionales con nombrados.
 La regla es que primero se especifican los posicionales
 y luego van los nombrados.
+Los posicionales se reparten en orden tal i como están en la definición de la funcion (`def`).
 
 ```python
 >>> aplicaIva(100, factorIva=0.07)
 107
 ```
 
-Si después de repartir los parámetros, ambos, posicionales y con nombre,
-hay algun parámetro sin valor, el intérprete se quejará:
+Si después de repartir los parámetros,
+hay algun parámetro, que no se le haya asignado valor y tampoco tenga uno por defecto,
+el intérprete se quejará:
 
 ```python
 >>> aplicaIva(factorIva=0.07)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: aplicaIva() missing 1 required positional argument: 'baseImponible'
+TypeError: aplicaIva() missing 1 required positional argument:
+'baseImponible'
 ```
 
 
@@ -874,9 +899,9 @@ Una solución para definir funciones que no colisionen son los **métodos**.
 Un método es una función que está ligada a un tipo de objeto/valor.
 Se llaman con la sintaxis del punto (`.`) a partir del objeto/valor.
 
-~~~{.python}
+```python
 objeto.metodo(parámetros)
-~~~
+```
 
 El intérprete interactivo nos deja explorar los métodos disponibles
 si tecleamos un literal o una variable, un punto y damos al tabulador
@@ -884,7 +909,7 @@ y lo autocompleta si lo empezamos a teclear y le damos al tabulador.
 
 Los textos `str` tienen varios métodos disponibles:
 
-~~~{.python}
+```python
 >>> s = 'abracadabra'
 >>> s.count('bra')  # Cuantas veces contiene el parámetro en el receptor
 2
@@ -908,7 +933,7 @@ True
 'ABRACADABRA'
 >>> 'AbRaCaDaBra'.lower() # todo a minúsculas
 'abracadabra'
-~~~
+```
 
 Objetos de tipos diferentes pueden tener métodos con el mismo nombre,
 lo cual tiene sentido si hacen cosas conceptualmente similares
@@ -1010,7 +1035,7 @@ Los **operadores relacionales**
 devuelven `True` o `False`
 dependiendo de la relación de menor a mayor que tengan.
 
-~~~{.python}
+```python
 >>> a = 3
 >>> 1<a  # operador de inequalidad 'menor que'
 True
@@ -1024,7 +1049,7 @@ True
 True
 >>> 'alfredo' != 'alfredo' # desigualdad
 False
-~~~
+```
 
 **Operadores de identidad:**
 `is` y `is not` deciden si un objeto es el mismo o no.
@@ -1032,13 +1057,13 @@ Estos dos operadores son equivalentes al operador de igualdad `==` y desigualdad
 numéricos, textos...
 Eso sí, son mucho más expresivos porque conseguimos frases casi en inglés como estas:
 
-~~~{.python}
+```python
 >>> guy = 'alf' + 'redo'
 >>> guy is 'alfredo'
 True
 >>> guy is not 'alfredo'
 False
-~~~
+```
 
 La diferencia la encontraremos con
 los valores tipo estructura, como las listas, los diccionarios...
@@ -1067,12 +1092,12 @@ de ejecutar o no código dependiendo de una condición.
 La sentencia `if` nos permite ejecutar una serie de subsentencias
 solo si se cumple una condición:
 
-~~~{.python}
+```python
 if name is 'Aitor':
 	print ('Hola Aitor, bienvenido a casa')
 if name is not 'Aitor':
 	print ('Hola, desconocido, ya te puedes pirar')
-~~~
+```
 
 
 ## Alternativas, `else` y  `elif`
@@ -1085,31 +1110,74 @@ Hay que ponerlo al nivel del `if` y contiene su bloque de sentencias alternativa
 
 Reescribiendo el ejemplo anterior solo evaluando una condición:
 
-~~~{.python}
+```python
 if name is 'Aitor':
 	print ('Hola Aitor, bienvenido a casa')
 else:
 	print ('Hola, desconocido, ya te puedes pirar')
-~~~
+```
 
 Está bien, pero tambíén podemos tener más de una alternativa.
 Para eso sirve la sentencia `elif` (viene de _else if_).
 
-~~~{.python}
+```python
 if name is 'Aitor':
 	print ('Hola Aitor, bienvenido a casa')
 elif name is 'David':
 	print ('Hola David, Aitor llegará en un momento.')
 else:
 	print ('Hola, desconocido, ya te puedes pirar')
-~~~
+```
+
+## Condiciones anidadas
+
+Podemos anidar un `if` dentro de otro formando un árbol de decisión:
+
+```python
+if meGustaElFutbol :
+	if miEquipo is 'Real Madrid':
+		print("Merenge!")
+	elif miEquipo is 'Barça':
+		print("Cules!")
+	else:
+		print("whatever")
+else
+	print("Mejor pensemos en otras cosas más productivas")
+```
+
+Observa que los `else`s y `elif`s estan al mismo nivel que el `if`
+al que se corresponden y que los bloques de sentencias estan
+indentados aún más adentro.
+
+
+## Expresiones condicionales, `if` en modo expresión
+
+A menudo usamos el if para decidir un valor.
+Por ejemplo:
+
+```python
+if condicion:
+	valor = valor1
+else:
+	valor = valor2
+```
+
+Sin embargo hay una construcción del lenguaje que nos permite
+crear una expresión cuyo valor depende de la condicion.
+Se hace así:
+
+```python
+valor = valor1 if condicion else valor2
+```
+
+TODO: Ejercicio para reforzar
 
 
 ## Decisiones complejas, operadores booleanos
 
 Los booleanos se pueden combinar en expresiones mediante los operadores booleanos `or`, `and` y `not`.
 
-~~~{.python}
+```python
 annaQuiereConducir = True
 toniQuiereConducir = False
 
@@ -1118,7 +1186,7 @@ toniConduce = toniQuiereConducir and (not annaQuiereConducir)
 losDosQuieren = annaQuiereConducir and toniQuiereConducir
 ningunoQuiere = (not annaQuiereConducir) and (not toniQuiereConducir)
 loEchamosASuerte = losDosQuieren or ningunoQuiere
-~~~
+```
 
 Los valores resultantes de los operadores
 se indican esta tabla de verdad:
@@ -1144,9 +1212,12 @@ La regla es:
 > ```python
 > >>> (a > b) is (b < a)
 > True
+> >>> (a >= b) is not(a < b)
+> True
 > >>> (a != b) is ((a < b) or (b < a))
 > True
 > ```
+> Faltan `<=` y `==`.
 
 
 > **Ejercicio:**
@@ -1214,14 +1285,14 @@ y se hace para que el programa vaya más rápido.
 Optimizamos el programa si ponemos primero el operando
 que con más frecuencia evalue al valor dominante.
 
-~~~{.python}
+```python
 >>> pi = 3.1416
 >>> r = 10
 >>> # Como la primera parte ya es cierta, la segunda no se llegara a evaluar
 >>> # Intentaremos poner a la izquierda la condición que sea cierta más veces para optimizar
 >>> (2*r*pi > 3)  or   (3*r**2*pi>10)
 True
-~~~
+```
 
 Cuando alguien hace algo por algún motivo,
 siempre sale alguien que lo utiliza para otra cosa.
@@ -1229,7 +1300,7 @@ Mucha gente aprovecha los cortocircuitos para construcciones
 condicionales que la verdad es que quedan
 bastante expresivas (y barriobajeras) como:
 
-~~~{.python}
+```python
 # Barriobajeras? claro:
 giveMeTheMoney or die("you sucker")
 touchMe and die("you dared shit")
@@ -1245,7 +1316,7 @@ condicionDeError and die("Se ha dado la condición de error!!")
 # equivalente a:
 if condicionDeError:
 	die("Se ha dado la condición de error!!")
-~~~
+```
 
 Donde `die` es una función que imprime el mensaje y sale del programa.
 El cortocircuito de evaluación hace que la función `die` no se ejecute
@@ -1256,25 +1327,52 @@ porque puede que una parte de los operandos, no se lleguen a evaluar.
 Si la expresion del segundo operando tiene efectos colaterales necesarios,
 no se ejecutarían.
 
-## Condiciones anidadas
+## Operadores booleanos con operandos no booleanos
 
-Podemos anidar un `if` dentro de otro formando un árbol de decisión:
+Los operadores booleanos también se usan con valores no booleanos.
+Cuando los usamos así en cada tipo, ciertos valores que se evaluan como `False`
+y el resto como `True`.
 
-~~~{.python}
-if meGustaElFutbol :
-	if miEquipo is 'Real Madrid':
-		print("Merenge!")
-	elif miEquipo is 'Barça':
-		print("Cules!")
-	else:
-		print("whatever")
-else
-	print("Mejor pensemos en otras cosas más productivas")
-~~~
+Los valores que se consideran `False` son:
 
-Observa que los `else`s y `elif`s estan al mismo nivel que el `if`
-al que se corresponden y que los bloques de sentencias estan
-indentados aún más adentro.
+- `False` (¡Por su puesto!)
+- `None`
+- Los ceros de los tipos numéricos: `0`, `0.0`, `0j`
+- Los valores vacíos: `""`, `[]`, `()`, `{}`, `set()`
+
+A menudo se usa este hecho
+combinado con los cortocircuitos lógicos
+para hacer expresiones condicionales más sencillas.
+Por ejemplo, se usan mucho expresiones como la siguiente
+para dar valores por defecto en caso de que no haya:
+
+```python
+miApellido = apellidoPaterno or 'Expósito'
+```
+
+Si `apellidoPaterno` es un texto no vacío por cortocircuito
+`miApellido` adoptará ese valor.
+En cambio, si soy huérfano y `apellidoPaterno` está vacío o es `None`,
+me llamaré `Expósito`.
+
+Cabe destacar que aquí no se está convirtiendo los otros tipos a tipos `bool`.
+Simplemente los operadores booleanos usan la lógica por cortocircuito
+para escoger que operando eligen:
+
+- Si el primer operando es el dominante para el operador, escógelo
+- Si no, escoge el segundo (sea o no dominante)
+
+> **Ejercicio:**
+> Piensa los resultados de estas expresiones y compruébalas luego con el intérprete:
+> 
+> ```python
+> 'algo' or 'otro'
+> [] or (3,3)
+> [] or {}
+> '' and 5
+> 5 and 'algo'
+> 5 and None
+> ```
 
 
 ## Bucles condicionales, sentencia `while`
@@ -1301,7 +1399,7 @@ Este código se ejecuta de la siguiente manera:
 
 - La variable `a` se inicializa a `1`
 - Antes de entrar en las sub-sentencias del while, se evalua la condición `a<50`
-- Si es cierta se procede a ejecutar las subsentencia
+- Si es cierta se procede a ejecutar las subsentencias
 - La primera sentencia del bucle imprime el valor actual de `a`
 - La segunda sentencia del bucle actualiza `a` multiplicando el valor por 2
 - Cuando se acaban las subsentencias se vuelve a evaluar la condición con el nuevo valor de `a`.
@@ -1309,81 +1407,159 @@ Este código se ejecuta de la siguiente manera:
 - Fuera de la función `a` valdra `64` aunque no se haya llegado a imprimir ese valor.
 
 Cada vez que la ejecución entra en las subsentencias se llama una **iteración**.
-Diremos pues que el bucle ha ejecutado 6 iteraciones.
+Diremos pues que el **bucle** ha ejecutado 6 iteraciones.
+
+
+## Llamándose a sí mismo, recursividad
+
+La recursividad es otra forma de repetir las cosas,
+de basar un caso en un caso más simple.
+
+El ejemplo típico es una funcion factorial.
+El factorial de 5 se puede resolver multiplicando 5 por el factorial de 4,
+el de 4 multiplicando 4 por el factorial de 3,
+y así hasta que llegamos al factorial de 0 que es 1.
+
+En un bucle normal lo podemos calcular así:
+
+```python
+def factorial(n) :
+	f = 1
+	while n>0
+		f *= n
+		n -= 1
+	return f
+
+>>> factorial(5)
+120
+```
+
+Otra forma de hacerlo es la recursividad.
+Hacer que la funcion retorne algo basado en el resultado de llamarse a si misma con otros paràmetros:
+
+```python
+def factorial(n)
+	if n is 0 : return 1
+	return n*factorial(n-1)
+```
+
+A menudo la recursión es mucho más simple.
+Solo hay que tener en cuenta que siempre hay que tener un caso,
+el caso básico, que no se resuelve por recursión
+y al que siempre acabamos llegando.
+En este caso, cuando llegamos al 0, retornamos 1.
+
+> **Ejercicio:**
+> Prueba quitarle el caso base y ejecutarlo, ¿que pasa?
+
+> **Ejercicio:**
+> Vuelve a ponerle el caso base y pruébalo con un número negativo.
+> ¿Como arreglarías la función para estos casos?
+
+Cualquier iteración se puede resolver de forma recursiva y al revés.
+En cada caso hay que evaluar cual es la versión más sencilla, de escribir y de entender.
+
 
 
 ## Salidas prematuras: sentencias `break` y `continue`
 
+TODO: Moverlo con el for, el while necesita actualizar la condicion y no mola con continue y break
+
 Las sentencias `break` y `continue` sirven para alterar la ejecución normal de un bucle.
 Clásicamente se considera que usar este tipo de sentencias es una abobinación para la programación formal.
-Bien usadas, ayudan a que el código sea mucho más entendible.
-Mal usadas, pueden complicarlo infinitamente.
+**Bien usadas, ayudan a que el código sea mucho más entendible.
+Mal usadas, pueden complicarlo infinitamente.**
 
 La sentencia `continue`, sirve para saltar a la siguiente iteración.
-Si ejecuta el `continue`, lo que quede de subsentencias, para iteración actual, no se llega a ejecutar.
+Si se ejecuta una sentencia `continue`, lo que quede de sentencias de esa iteración, ya no se ejecutará.
+Un ejemplo:
 
-La forma ordenada de usarlo es:
-
-- A modo de filtro: hay iteraciones que no es necesario ejecutar
-- Siempre guardado con una condición
-- Todo lo que es necesario ejectuar, para una iteración, tiene que haberse ejecutado antes del continue
-- No es buena opción si en la condición del `continue` tenemos que introducir cierres de cosas.
-
-Aquí tenemos un caso problemático:
 
 ```python
-a = 1
-while a<50:
-	if a==16:
-		continue
-	print(a)
-	a =* 2
+>>> a = 'abracadabra'
+>>> while len(a)>3:
+... 	a=a[:-1]
+... 	if a[-1] is 'a':
+... 		continue
+... 	print(a[-1])
+r
+b
+d
+c
+r
 ```
 
-La intención sería excluir el 16.
-Pero, como la variable se actualiza después del `continue`, el script se queda colgado en el 16.
-Puedes pulsar Control+C para salir.
+El bucle anterior va recortando la cadena por el final,
+y imprimiendo la última letra siempre que no sea una `a`.
+Cuando es una `a`, se ejecuta el `continue`
+por lo que no se llega al `print`.
 
-La solución podría ser actualizar la variable tambíén en el `if` antes del `continue`.
+Un bucle equivalente podría ser:
 
 ```python
-a = 1
-while a<50:
-	if a == 16:
-		a =* 2
-		continue
-	print(a)
-	a =* 2
+a = 'abracadabra'
+while len(a)>3:
+	a=a[:-1]
+	if a[-1] is not 'a':
+		print(a[-1])
 ```
 
-Funciona, pero tenemos duplicacion de código.
-Si actualizamos la potencia tenemos dos sitios donde actualizarla.
-Mejor invertimos la lógica, de la condición, sin `continue` y metemos el print a dentro.
+Fíjate que lo que hemos hecho es invertir la condición
+y lo que iba despues del `continue`, lo hemos puesto en el `if`.
 
-```python
-a = 1
-while a<50:
-	if a != 16:
-		print(a)
-	a =* 2
-```
+Realmente, la versión sin `continue` parece más sencilla.
+Sin embargo, a la que empezamos a añadir condiciones de salida,
+las tornas cambian.
+Más adelante, veremos ejemplos en los que usar un `continue`
+simplifica mucho más la lectura.
 
-En este caso el `continue` no era oportuno, pero hay muchos casos en que lo es.
 
 La otra sentencia corta rollos es `break`.
 Es más contundente que `continue`,
 pues no solo corta la iteración en curso,
-sinó toda iteración subsecuente.
-
-La forma correcta de usarse es también guardada por una condición
-y también tenemos que tener en cuenta que se ejecuta todo lo que necesitamos
-antes de salir del bucle de forma prematura.
+sinó todas las iteraciones subsecuentes.
 
 
+Si la labor del bucle fuera buscar sitios para irnos de vacaciones,
+tal que tenemos una iteración para cada lugar,
+el `continue` lo usariamos para filtrar los lugares a los que les encontramos una pega
+y el `break` para cuando sabemos que no es necesario buscar más,
+que ya hemos encontrado el lugar ideal.
 
+TODO: Repensar el ejemplo
 
+```python
+mejorPuntuacion = 0
+mejorLugar = None
+lugar = proponLugar()
+while lugar is not None:
 
+	if lugar is 'DisneyWorld':
+		# No lo pensamos
+		print('Vayamos a DisneyWorld')
+		break
 
+	if hayMosquitosEn(lugar):
+		lugar=proponLugar()
+		continue
+
+	if esCaro(lugar):
+		lugar=proponLugar()
+		continue
+
+	puntuacion = puntua(lugar)
+	if puntuacion > mejorPuntuacion:
+		mejorPuntuacion = puntuacion
+		mejorLugar = lugar
+
+	lugar=proponLugar()
+
+else:
+	if mejorLugar is None:
+		print("Pues nos quedamos en casa")
+	else:
+		print("Vayamos a {}".format(mejorLugar))
+```
 
 
 # Estructuras de datos
@@ -1391,14 +1567,14 @@ antes de salir del bucle de forma prematura.
 Hasta ahora hemos visto valores muy simples.
 Una de las potencias de Python es la facilidad con la que se manejan estructuras de datos más complejas.
 
-## Listas
+## Usando listas, tipo `list`
 
-Las listas (tipo `list`) son sequencias ordenadas de valores.
+Las listas (tipo `list`) son secuencias ordenadas de valores.
 
 Los literales de las listas se construyen incluyendo los valores entre corchetes `[]` y separados por comas.
 Podemos acceder a los elementos con indices y rebanadas igual que con los textos `str`.
 
-~~~{.python}
+```python
 >>> l = [1,2,3,4,5]
 >>> l[3]
 4
@@ -1406,12 +1582,12 @@ Podemos acceder a los elementos con indices y rebanadas igual que con los textos
 5
 >>> l[2::2]
 [3,5]
-~~~
+```
 
 Los valores incluidos en la lista pueden ser de tipos diferentes.
 Incluso pueden ser otras listas.
 
-~~~{.python}
+```python
 >>> # Una lista que contiene listas
 >>> l = [[11,12],[21,22],'ultimo']
 >>> l[-1]
@@ -1420,23 +1596,23 @@ Incluso pueden ser otras listas.
 [21,22]
 >>> l[1][1]
 22
-~~~
+```
 
 Podemos usar los operadores numericos como hacíamos con los textos:
 
-~~~{.python}
+```python
 >>> [1,2,3] + [4,5,6] # Uniendo dos listas
 [1,2,3,4,5,6]
 >>> [0]*10  # creando una lista de 10 ceros
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-~~~
+```
 
 Cuando trabajamos con textos, siempre creamos
 nuevos valores a partir de los anteriores.
 En cambio las listas las podemos modificar
 y mantienen su identidad aunque cambien su valor.
 
-~~~{.python}
+```python
 >>> l = [1,2,3,4]
 >>> l2 = l   # l2 apunta a la misma lista
 >>> l.append(5)  # añadir un elemento
@@ -1465,9 +1641,16 @@ True
 >>> l4 = l[:]  # Un slice es una copia, aunque sea entera
 >>> l is l4
 False
-~~~
-
-
+>>> # Atencion a los problemas de alias
+>>> l += [7]   # la suma asignada afecta a l2
+>>> l2
+[1,2,3,6,5,6,7]
+>>> l = l + [8,9]  # en cambio si asignamos a la suma
+>>> l
+[1,2,3,6,5,6,7,8,9]  # creamos una lista nueva diferente
+>>> l2
+[1,2,3,6,5,6,7]  # y dejamos la original como estaba, aun accedible desde l2
+```
 
 
 ## Bucles sobre iterables, la sentencia `for`
@@ -1480,7 +1663,7 @@ Es decir, que nos pueden proporcionar valores en secuencia.
 
 La sentencia `for` define una variable que va adoptando para cada iteración un valor distinto de la lista.
 
-~~~{.python}
+```python
 >>> l = [1,2,3,4]
 >>> for item in l :
 ...     doble = item*2
@@ -1489,13 +1672,17 @@ La sentencia `for` define una variable que va adoptando para cada iteración un 
 4
 6
 8
-~~~
+```
 
 En este código, la variable `item` va adoptando los valores
 incluidos en la lista y ejecuta las sentencias de dentro.
 
 A diferencia de cuando definimos una función,
 aquí las variables como `doble` o `item` no se limitan al `for`.
+
+## Filtrando la iteración, `continue`
+
+## Parando el bucle, `break`
 
 
 ## Uniendo y separando (`split` y `join`)
@@ -1507,26 +1694,26 @@ o al revés, dada una lista juntarla con un separador.
 Para ello usaremos los métodos `join` y `split` del tipo `str`.
 
 
-~~~{.python}
+```python
 >>> l = ['a','b','c']
 >>> s = '-'.join(l) # Las juntamos con el '-'
 >>> s
 'a-b-c'
 >>> s.split('-') # Usamos el '-' como separador
 ['a','b','c']
-~~~
+```
 
 
 
 El constructor de lista recibe un iterable.
 Como los textos son iterables, crea una lista con cada letra como elemento.
 
-~~~{.python}
+```python
 >>> list('abc') # Separamos por letras
 ['a','b','c']
 >>> ''.join(['a','b','c']) # Juntarlas con la cadena vacia como separador
 'abc'
-~~~
+```
 
 
 **Ejercició:** Haz un script que dada una lista de listas,
@@ -1534,7 +1721,7 @@ que representa lineas de columnas,
 imprima por pantalla un CSV con el tabulador como separador.
 
 
-~~~{.python}
+```python
 #!/usr/bin/env python3
 
 tabla = [
@@ -1553,30 +1740,30 @@ tabla = [
 ]
 for linea in tabla:
 	print('\t'.join(linea))
-~~~
+```
 
 ## Listas del tirón
 
 Si quisieramos crear una nueva lista con los valores que antes hemos imprimido:
 
-~~~{.python}
+```python
 >>> l = [1,2,3,4]
 >>> l2 = []
 >>> for item in l:
 ...     l2.append(item*2)
 >>> l2
 [2,4,6,8]
-~~~
+```
 
 Python ofrece una forma directa de crear listas a partir de otras listas,
 las _comprehension lists_, o listas creadas del tirón.
 
-~~~{.python}
+```python
 >>> l = [1,2,3,4]
 >>> l2 = [ item*2 for item in l ]
 >>> l2
 [2,4,6,8]
-~~~
+```
 
 La mayoría de lenguajes no tienen construcciones como esta.
 Si es la primera vez que ves una de estas, mejor que la expliquemos.
@@ -1592,7 +1779,7 @@ Si es la primera vez que ves una de estas, mejor que la expliquemos.
 A partir de un texto CSV con tabuladores, genera una tabla.
 
 
-~~~{.python}
+```python
 #!/usr/bin/env python3
 
 csv = """\
@@ -1606,14 +1793,14 @@ tabla = [
 	for line in csv.split('\n')
 	]
 print tabla
-~~~
+```
 
 Problema la linea vacia del final.
 Las _comprehension lists_ tienen una parte opcional que les permite
 filtrar los items del iterable de entrada.
 
 
-~~~{.python}
+```python
 #!/usr/bin/env python3
 
 csv = """\
@@ -1628,27 +1815,27 @@ tabla = [
 	if line != ''  # filtro
 	]
 print tabla
-~~~
+```
 
 ## Empaquetando y despempaquetando valores, las tuplas `tuple`
 
 En python podemos asignar a dos variables a la vez:
 
-~~~{.python}
+```python
 >>> a, b = 1, 2
 >>> a
 1
 >>> b
 2
-~~~
+```
 
 Por eso no hay la función de `swap`, típica de otros lenguajes,
 para intercambiar los valores de dos variables.
 En Python se hace simplemente así:
 
-~~~{.python}
+```python
 a, b = b, a
-~~~
+```
 
 A sentencias como las de arriba se les llama desempaquetar una tupla.
 Por tupla nos referimos a la parte derecha:
@@ -1665,17 +1852,17 @@ al menos que como en la expresión de arriba sea muy claro.
 
 Tambien podemos desempaquetar listas:
 
-~~~{.python}
+```python
 >>> a, b = [3, 4]
 >>> a
 3
 >>> b
 4
-~~~
+```
 
 Podemos crear una lista, a partir de una tupla y al revés usando los constructores:
 
-~~~{.python}
+```python
 >>> t = 2, 4, 6
 >>> t
 (2,4,6)
@@ -1686,13 +1873,13 @@ Podemos crear una lista, a partir de una tupla y al revés usando los constructo
 [2,4,6]
 >>> tuple(list( (2,4,6) ) )
 (2,4,6)
-~~~
+```
 
 Las tuplas son muy útiles cuando funciones retornan más de un valor.
 Por ejemplo la función _built-in_ `divmod` retorna la división entera
 y el resto a la vez evitando tener que calcular dos veces la división.
 
-~~~{.python}
+```python
 >>> div, mod = dm = divmod(30,7)
 >>> dm
 (4,2)
@@ -1700,11 +1887,11 @@ y el resto a la vez evitando tener que calcular dos veces la división.
 4
 >>> mod
 2
-~~~
+```
 
 Tambien podemos desempaquetar en un `for`:
 
-~~~{.python}
+```python
 >>> edades = [
 ...     ('Antonio', 35),
 ...     ('Pedro', 15),
@@ -1717,14 +1904,14 @@ Tambien podemos desempaquetar en un `for`:
 La edad de Antonio es 35
 La edad de Pedro es 15
 La edad de Enrique es 55
-~~~
+```
 
 **Ojo:**
 El desempaquetado debe hacerse solo cuando estamos seguros de que
 el numero de valores que aceptamos coincide con el que desempaquetamos.
 Si no, veremos errores. Familiaricemonos con ellos, que saldrán:
 
-~~~{.python}
+```python
 >>> a,b = 1,2,3  # Nos sobran valores
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -1733,7 +1920,7 @@ ValueError: too many values to unpack (expected 2)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError: need more than 2 values to unpack
-~~~
+```
 
 Que se puede hacer con una tupla igual que con una lista:
 
@@ -1755,7 +1942,7 @@ Que se puede hacer pero tienen resultados distintos:
 
 - `+=` en la lista modifica la lista original.
 
-~~~{.python}
+```python
 >>> t = 1,2
 >>> t2 = t
 >>> t += 3,4
@@ -1763,12 +1950,12 @@ Que se puede hacer pero tienen resultados distintos:
 (1,2,3,4)
 >>> t2 # Aun apunta al anterior valor
 (1,2)
-~~~
+```
 
 Es decir, pasa igual que con los textos.
 En cambio con listas, como habíamos visto:
 
-~~~{.python}
+```python
 >>> l = [1,2]
 >>> l2 = l
 >>> l += [3,4]
@@ -1776,14 +1963,14 @@ En cambio con listas, como habíamos visto:
 [1,2,3,4]
 >>> l2
 [1,2,3,4]
-~~~
+```
 
 ## Usando generadores
 
 Un generador es un objeto que retorna objetos en los que iterar.
 La diferencia con una lista sería que el generador no construye la lista en memória pero si que ofrece los items.
 
-### Generando sequencias de números, el generador `range`
+### Generando secuencias de números, el generador `range`
 
 Uno de los generadores más usado es el _built-in_ `range`, genera enteros y 
 sus tres parámetros son equivalentes a los de un slice: inicio, fin y paso.
@@ -1899,7 +2086,7 @@ Usa el generador `sorted` para ordenar una lista de nombres.
 Investiga y experimenta los parámetros de `sorted` hasta que los entiendas.
 
 
-### Emparejando sequencias, `zip`
+### Emparejando secuencias, `zip`
 
 El generador `zip` toma varios iterables y empareja sus valores.
 
@@ -1963,7 +2150,7 @@ Un `set` es un contenedor, como lo es una lista, pero con las siguientes diferen
 
 Los literales del set son como los de las listas, pero usan los corchetes rizados `{}`.
 
-~~~{.python}
+```python
 >>> { 1, 2, 3, 1 }  # El 1 esta duplicado
 {1,2,3}
 >>> set([1,2,3])  # con el constructor lo podemos crear a partir de una lista
@@ -1974,14 +2161,14 @@ Los literales del set son como los de las listas, pero usan los corchetes rizado
 'rcabd'
 >>> ''.join(sorted(set('abracadabra'))) # no nos aseguran orden, usamos la función sorted
 'abcdr'
-~~~
+```
 
 Es muy práctico para algunas cosas:
 
 - Comprobar si un valor esta incluido con el operador `in` o `not in` (la lista también lo tiene pero es más lenta)
 - Calcular intersecciones, uniones, y todas aquellas cosas de teoría de conjuntos que hicimos en mates
 
-~~~{.python}
+```python
 >>> s1 = set(range(3,9))
 >>> s1
 {3,5,6,7,8}
@@ -1997,7 +2184,24 @@ False
 {3,4}
 >>> set(range(1,5)).differenc(set(range(3,8))  # Diferencia
 {1,2}
-~~~
+```
+
+# Temas pendientes TODO's
+
+- Usando modulos `import`
+- Instalando librerías
+- Entornos virtuales
+- Manejando fechas, `datetime` y `dateutils`
+- Manejando dinero, `decimal`
+- Creando mòdulos
+- Creando paquetes
+- Definiendo proyectos
+- Subiendo proyectos al PyPI
+- Definiendo clases, `class`
+- Definiendo atributos y métodos, `self`
+- Usando herencia
+- Propiedades `@property`
+- Unit Testing `unittest`
 
 
 # Manejando dinero
