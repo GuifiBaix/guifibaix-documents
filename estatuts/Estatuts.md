@@ -1,5 +1,5 @@
 ---
-title: Estatuts Cooperativa GUIFIBAIX SCCL. (Esborrany)
+title: Estatuts Cooperativa GUIFIBAIX SCCL.
 lang: catalan
 mainfont: Ubuntu
 papersize: a4paper
@@ -336,13 +336,15 @@ tant les obligatòries com les voluntàries,
 no poden meritar un interès superior a l’interès legal del diner,
 sens perjudici de les actualitzacions corresponents.
 
-
 Els títols han de tenir un valor de DEU euros cadascun.
 L'aportació mínima per adquirir la condició de soci treballador ha de ser de MIL euros,
 la qual s'ha de desemborsar de la manera que estableixen
 els articles 55 i 56 de la Llei de cooperatives de Catalunya.
 
 El capital social mínim es fixa en TRES MIL euros.
+
+El compte bancari s'obrirà a nom de "GuifiBaix, SCCL", i la operativa i signatura sobre aquest compte
+nomès podrà ser exercida per el President, Vicepresident i Tresorer de la cooperativa.
 
 
 ## Article 20. Transmissió de les aportacions
