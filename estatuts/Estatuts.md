@@ -4,13 +4,12 @@ lang: catalan
 mainfont: Ubuntu
 papersize: a4paper
 fontsize: 10pt
-geometry: margin=25mm
+geometry: margin=24mm
 header-includes:
 - \renewcommand*{\familydefault}{\sfdefault}
 
 ---
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
 
 # CAPÍTOL I. BASES DE LA SOCIETAT
 
@@ -57,10 +56,7 @@ La cooperativa desenvolupa principalment la seva activitat cooperativitzada
 a la comarca del Baix Llobregat.
 
 
-
-
 # CAPÍTOL II. DE LES PERSONES SÒCIES
-
 
 ## Article 5. Persones sòcies
 
@@ -68,7 +64,6 @@ Poden ser sòcies treballadores
 totes les persones que puguin prestar el seu treball per
 realitzar l'objecte i les activitats especificats a l'article 2 d'aquests estatuts,
 i en les condicions especificades a l'article 25 d'aquests estatuts.
-
 
 ## Article 6. Requisits per a l'admissió
 
@@ -116,8 +111,6 @@ h) Guardar secret sobre els assumptes i dades de la cooperativa,
 
 i) Complir els altres deures que resultin de preceptes legals i d'aquests estatuts.
 
-
-
 ## Article 8. Drets dels socis
 
 Les persones sòcies treballadores tenen dret a:
@@ -143,7 +136,6 @@ e) Percebre el reemborsament de l'aportació actualitzada
 f) Tot allò que resulti de les normes legals i estatutàries,
    i dels altres acords vàlidament adoptats pels òrgans de la cooperativa.
 
-
 ## Article 9. La responsabilitat dels socis pels deutes socials
 
 La responsabilitat patrimonial dels socis per les obligacions socials
@@ -156,13 +148,11 @@ continua sent responsable davant la cooperativa,
 durant 5 anys,
 de les obligacions contretes per la cooperativa abans de la data de la baixa.
 
-
 ## Article 10. Baixa dels socis
 
 Qualsevol soci es pot donar de baixa voluntàriament
 fent-ne la notificació per escrit al Consell Rector
 amb 3 mesos d'antelació.
-
 
 ## Article 11. Baixa justificada i baixa forçosa
 
@@ -189,7 +179,6 @@ amb la conciliació prèvia davant el Consell Superior de la Cooperació.
 3. Poden ser donats forçosament de baixa
 els socis que perdin els requisits objectius,
 exigits per aquests estatuts, per formar part de la cooperativa.
-
 
 ## Article 12. Dret de reemborsament
 
@@ -232,7 +221,6 @@ s'ha de fer en el termini que es fixi de mutu acord
 o, si no és així, en el que assenyali el Consell Rector,
 que no pot ser mai superior a 5 anys a partir de la data de la baixa.
 La persona sòcia té dret a percebre l'interès legal del diner incrementat de dos punts.
-
 
 ## Article 13. Faltes dels socis
 
@@ -345,6 +333,8 @@ El capital social mínim es fixa en TRES MIL euros.
 
 El compte bancari s'obrirà a nom de "GuifiBaix, SCCL", i la operativa i signatura sobre aquest compte
 nomès podrà ser exercida per el President, Vicepresident i Tresorer de la cooperativa.
+La signatura no serà mancomunada per la operativa diara. Serà requerit una signatura mancomunada de com a mínim dues
+persones en el cas de moviments superiors a 5000€.
 
 
 ## Article 20. Transmissió de les aportacions
