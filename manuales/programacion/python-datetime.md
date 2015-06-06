@@ -343,8 +343,8 @@ es llamar a date sobre lo que sea que le pasemos por parámetro,
 las funciones de formato se vuelven muy versátiles:
 
 ```python
->>> def slashDate(arg):
-... 	adate = date(arg)
+>>> def slashDate(*args):
+... 	adate = date(*args)
 ... 	return adate.strftime('%d/%m/%Y')
 >>> slashDate('20150602')
 '02/06/2015'
@@ -539,7 +539,7 @@ Lo esencial pues es averiguar donde se usan esos campos.
 Usa el comando `grep` para buscar donde se usan los campos `dataEmisio` y `dataVenciment`.
 
 ```bash
-$ grep -rI 'data\(Emisio\|Venciment\)'
+$ grep -rIn 'data\(Emisio\|Venciment\)'
 ```
 
 Veremos que se usan en ficheros de código y en ficheros de datos.
@@ -561,7 +561,7 @@ Normalmente los usos son:
 Piensa para cada uso como sería si usamos `dateutils.Date`.
 
 
-## Asegurando el suelo por el que pisamos
+### Asegurando el suelo por el que pisamos
 
 Para asegurarnos de que no la cagamos,
 nos aseguraremos de que todo cambio tiene un test unitario que lo hace fallar,
@@ -663,7 +663,7 @@ if __name__ == '__main__'
 		invoice.dump(file)
 ```
 
-## Creando los atributos en código
+### Creando los atributos en código
 
 Hay que localizar los puntos del código donde se crean o dan valor a los atributos antiguos.
 En esos puntos, crearemos también los atributos nuevos, con el valor apropiado.
@@ -680,7 +680,7 @@ Si fallan, cada commit es un punto seguro al que volver.
 Nos podemos saltar lo anterior pero contra más grandes hagamos los pasos,
 más grande puede ser el cachiporrazo.
 
-## Substituyendo los usos
+### Substituyendo los usos
 
 Los usos que no son para dar valor al atributo,
 normalmente son para usarlo y transmitirlo a otra parte.
@@ -698,7 +698,7 @@ Es importante de hacerlo en dos pasos,
 primero burda substitución, pasar los tests,
 después el refactoring y volver a pasar los tests.
 
-# Limpiando el atributo
+### Limpiando el atributo
 
 En este punto, deberían de quedar sólo los usos de los atributos
 que le daban o actualizaban valor.
