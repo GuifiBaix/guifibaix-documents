@@ -678,11 +678,15 @@ No hemos borrado el atributo antiguo.
 No lo queremos eliminar hasta que el código ya no lo use para nada.
 Pero podemos preparar el script de migración.
 
-Tendrá una pinta así:
 
-`migration_02_deleteDataEmisioVencimient.py`
+Lo podemos llamar `migration_02_deleteDataEmisioVencimient.py`
+y tendría una pinta como:
 
 ```python
+import sys
+from namespace import namespace as ns
+from consolemsg import step
+
 if __name__ == '__main__'
 	step("Eliminant atributs 'dataEmisio' i 'dataVenciment'"))
 	for file in sys.argv[1:]:
@@ -693,12 +697,12 @@ if __name__ == '__main__'
 		invoice.dump(file)
 ```
 
-### Creando los atributos en código
+### Creando los atributos en código ('setters')
 
 En nuestro caso vamos a hacer los pasos de 'Duplicar' y 'Rellenar' juntos.
-Hay que identificar en el código,
-de los sitios que encontraba el `grep` que usabamos los atributos,
-aquellos en los que se les da un valor.
+De los sitios donde el `grep` decía que usabamos los atributos,
+hay que identificar aquellos en los que se les da un valor (`set`, dar valor)
+que son distintos en los que se toma el valor para hacer algo (`get`, coger).
 
 Por ejemplo:
 
@@ -712,20 +716,21 @@ o
 invoice.dataEmisio = issueDate
 ```
 
-Tenemos que mantener esas linias y añadir unas al lado como:
+Tenemos que mantener esas linias y añadir unas al lado. Para la primera sería:
 
 ```python
 invoice.dataEmisio = '01/02/2015'
 invoice.issueDate = dateutils.date('01/02/2015')
 ```
 
-O en datos YAML en el código, si tenemos:
+A las apariciones de los atributos en ficheros YAML ya les pasaremos nuestro script de migración de datos.
+Pero hay YAML que esta escrito en el código, por ejemplo para los tests.
 
 ```yaml
 dataEmisio: 01/02/2015
 ```
 
-Duplicarlo así:
+Como aquí no entra el script de migración, lo duplicaremos nosotros así:
 
 ```yaml
 dataEmisio: 01/02/2015
@@ -735,29 +740,37 @@ issueDate: 2015-02-01
 Atención:
 
 **Pasamos los tests a cada modificación que hacemos.**
-En teoría esta modificación no debería de tener consecuencias.
+En teoría estas modificaciones no deberían tener consecuencias.
 Pero si las tiene, algo hemos hecho mal y está bien darse cuenta
 cuanto antes mejor.
 
 **Comiteamos cada vez que pasamos los tests.**
 Los tests nos dicen si vamos bien.
-Si fallan, cada commit es un punto seguro al que volver.
+Pero cuando fallan, cada commit es un punto seguro al que volver.
+Si tienes un punto de retorno cerca, mejor.
 
-Nos podemos saltar lo de pasar tests o commitear bajo nuestra responsabilidad,
+Nos podemos saltar, bajo nuestra responsabilidad,
+lo de pasar tanto los tests o commitear tan amenudo,
 pero contra más grandes hagamos los pasos,
 más grande puede ser el cachiporrazo.
 
-### Substituyendo los usos
 
-Las ocurrencias en el código del atributo que no son para darle valor,
-son para usarlo y quizás transmitirlo a otra parte.
+### Substituyendo los usos ('getters')
+
+Una vez que tenemos los atributos nuevos rellenados
+y teoricamente, con un valor equivalente a los viejos,
+toca substituir los _getters_,
+es decir, donde no se da valor al atributo sino
+que se usa dicho valor para hacer algo.
 Por ejemplo usarlo en una plantilla,
 imprimirlo por pantalla,
-generar un nombre de fichero en base a el,
+generar un nombre de fichero en base a él,
 tranferirlo a otra estructura,
 o hacer algún cálculo.
 
 Esos usos, tenemos que irlos substituyendo y usar el nuevo atributo.
+No duplicamos como con los _setters_.
+
 Dado que el nuevo atributo tiene funcionalidad nueva,
 es posible que podamos simplificar código de conversión de formatos.
 Por ejemplo:
@@ -772,13 +785,13 @@ después el refactoring y volver a pasar los tests.
 
 ### Limpiando el atributo
 
-En este punto, deberían de quedar sólo los usos de los atributos
-que le daban o actualizaban valor y que hemos duplicado al principio.
+En este punto, deberían de quedar sólo los usos _set_ de los atributos.
+Los que le daban o actualizaban valor y que hemos duplicado al principio.
 
 Puesto que dicho valor no se usa ya para nada,
 pues estamos utilizando los atributos nuevos,
 podemos ir eliminando.
-Siempre pasando los tests.
+Siempre un uso cada vez y siempre pasando los tests.
 
 Finalmente podemos pasar el segundo script de migración,
 el que elimina el atributo de los datos.
@@ -787,7 +800,7 @@ Y ya tenemos el refactoring hecho.
 Échale un ojo lo que has modificado por si se te ocurriera
 algún refactoring pendiente que simplificara el código.
 
-
+Haz un diff con la revisión original y contempla tu obra.
 
 
 
