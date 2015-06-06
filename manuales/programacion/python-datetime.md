@@ -582,7 +582,7 @@ Otros scripts susceptibles de plantear un b2b son:
 - TODO: básate en el analisis que has hecho en el anterior punto
 
 
-### Creamos un script de migración
+### Creamos los scripts de migración
 
 Una migración en informática es saltar de un sistema a otro.
 Por ejemplo, se migra de Windows a Linux o de una versión de Ubuntu a otra.
@@ -592,23 +592,40 @@ lo que hacemos es actualizar los datos,
 por ejemplo nuestros YAML,
 para que funcionen con una nueva versión del código diferente.
 
-Pero como hemos dicho antes, antes de quitar lo viejo hay que crear lo nuevo.
-Añadamos los dos campos nuevos a los datos existentes.
+En nuestro caso lo que hay que hacer es
+substituir los atributos viejos con nombres en catalán y de tipo texto
+por los nuevos atributos con nombres en inglés y de tipo `dateutils.Date`.
+Pero como hemos dicho, en los refactorings, antes de quitar lo viejo
+hay que tener lo nuevo funcionando, y, durante el transito,
+hay que mantener las dos estructuras.
+Asi que la migración la haremos en dos pasos:
 
-- Crea un script `migra_fechas_facturas.py` para migrar los datos, dale permisos y demás
+- Añadir los atributos nuevos basandonos en los viejos
+- Eliminar los atributos viejos para cuando se acabe el refactor.
+
+Para el primer script:
+
+- Crea un script `./migration_01_addIssueDateAndDueDate.py`, dale permisos y demás
 - Este script leera ficheros YAML de las facturas y le añadirá dos atributos en inglés `issueDate` y `dueDate`
-- Lo mas práctico es empezar con un fichero que le pasamos por línea de comandos
-	- Recuerda `sys.argv[1]` y hay que hacer `import sys`.
+- Lo mas práctico es empezar con un fichero que le pasamos por línea de comandos los yaml's
+	- Recuerda para acceder al primer parámetro de la línea de comandos: `sys.argv[1]` y hay que hacer `import sys`.
 - Empezaremos las pruebas con una factura que esté controlada con el git
 	- Si la fastidiamos: `git checkout factura.yaml`
 - Usa el método (de clase!) `namespace.namespace.load` para cargar el fichero yaml como `namespace` en una variable, por ejemplo `factura`.
 	- Si necesitas algun ejemplo haz un grep de `load`
 - Para asegurarnos de que alcanzamos los datos imprime `factura.dataEmisio` y `factura.dataVenciment`
+
+	```python
+	invoice = ns.load(sys.argv[1])
+	print(invoice.dataEmisio)
+	print(invoice.dataVenciment)
+	```
+
 - Convierte la carga en un `for` para `file` en `argv[1:]`, de esta manera podemos aplicar el script a todas las facturas usando comodines.
 
 
 	```bash
-	$ ./migra_dates_factura.py factura*.yaml
+	$ ./migration_01_addIssueDateAndDueDate.py factura*.yaml
 	```
 
 - Puedes usar la función `step` de `consolemsg.py` para indicar el progreso.
@@ -617,20 +634,35 @@ Añadamos los dos campos nuevos a los datos existentes.
 	for file in sys.argv[1:]:
 		step(file)
 		invoice = ns.load(file)
-		print(invoice.dataEmisio, invoice.dataVenciment)
+		print(invoice.dataEmisio)
+		print(invoice.dataVenciment)
 	```
 
 - En vez de imprimir los campos tal cual, prueba de convertirlo en `dateutils.Date`
-	- Si alguno falla es que seguramente no contenga una fecha, lo resolvemos
 
 	```python
-		print(dateutils.Date(invoice.dataEmisio)
-		print(dateutils.Date(invoice.dataVenciment)
+		...
+		print(dateutils.Date(invoice.dataEmisio))
+		print(dateutils.Date(invoice.dataVenciment))
+		...
 	```
+	- Si alguno falla es que seguramente no contenga una fecha, lo resolvemos
 
 - Puedes usar la función `step` de `consolemsg.py` para indicar el progreso.
 
 	```python
+	...
+	from consolemsg import step
+	...
+	for file in sys.argv[1:]:
+		step(file)
+		...
+	```
+
+- Y finalmente podemos crear los atributos nuevos y sobreescribir el fichero
+
+	```python
+	...
 	for file in sys.argv[1:]:
 		step(file)
 		invoice = ns.load(file)
@@ -639,14 +671,12 @@ Añadamos los dos campos nuevos a los datos existentes.
 		invoice.dump(file)
 	```
 
-- Si haces un `git diff` podrás ver los cambios y si todos son buenos
-- Seguro que hay algunos que se han perdido (comentarios, formatos...) edítalos a mano si hiciera falta.
-
+- Si haces un `git diff` de las facturas podrás ver los cambios y si todos son buenos o no
+- Seguro que hay alguna informacion que se ha perdido (comentarios, formatos...) edítalos a mano si hiciera falta.
 
 No hemos borrado el atributo antiguo.
-Es el último paso del refactoring,
-para despues de que cambiemos todo el código,
-pero podemos preparar el script de migración.
+No lo queremos eliminar hasta que el código ya no lo use para nada.
+Pero podemos preparar el script de migración.
 
 Tendrá una pinta así:
 
@@ -665,8 +695,44 @@ if __name__ == '__main__'
 
 ### Creando los atributos en código
 
-Hay que localizar los puntos del código donde se crean o dan valor a los atributos antiguos.
-En esos puntos, crearemos también los atributos nuevos, con el valor apropiado.
+En nuestro caso vamos a hacer los pasos de 'Duplicar' y 'Rellenar' juntos.
+Hay que identificar en el código,
+de los sitios que encontraba el `grep` que usabamos los atributos,
+aquellos en los que se les da un valor.
+
+Por ejemplo:
+
+```python
+invoice.dataEmisio = '01/02/2015'
+```
+
+o
+
+```python
+invoice.dataEmisio = issueDate
+```
+
+Tenemos que mantener esas linias y añadir unas al lado como:
+
+```python
+invoice.dataEmisio = '01/02/2015'
+invoice.issueDate = dateutils.date('01/02/2015')
+```
+
+O en datos YAML en el código, si tenemos:
+
+```yaml
+dataEmisio: 01/02/2015
+```
+
+Duplicarlo así:
+
+```yaml
+dataEmisio: 01/02/2015
+issueDate: 2015-02-01
+```
+
+Atención:
 
 **Pasamos los tests a cada modificación que hacemos.**
 En teoría esta modificación no debería de tener consecuencias.
@@ -677,13 +743,14 @@ cuanto antes mejor.
 Los tests nos dicen si vamos bien.
 Si fallan, cada commit es un punto seguro al que volver.
 
-Nos podemos saltar lo anterior pero contra más grandes hagamos los pasos,
+Nos podemos saltar lo de pasar tests o commitear bajo nuestra responsabilidad,
+pero contra más grandes hagamos los pasos,
 más grande puede ser el cachiporrazo.
 
 ### Substituyendo los usos
 
-Los usos que no son para dar valor al atributo,
-normalmente son para usarlo y transmitirlo a otra parte.
+Las ocurrencias en el código del atributo que no son para darle valor,
+son para usarlo y quizás transmitirlo a otra parte.
 Por ejemplo usarlo en una plantilla,
 imprimirlo por pantalla,
 generar un nombre de fichero en base a el,
@@ -693,6 +760,11 @@ o hacer algún cálculo.
 Esos usos, tenemos que irlos substituyendo y usar el nuevo atributo.
 Dado que el nuevo atributo tiene funcionalidad nueva,
 es posible que podamos simplificar código de conversión de formatos.
+Por ejemplo:
+
+- Si se convertia a `datetime.date`, o a `dateutils.Date` o se llamaba a `dateutils.date`,
+ahora ya no serà necesario.
+- Si se usaba para imprimirlo tal cual, ahora hay que usar el atributo `slashDate`.
 
 Es importante de hacerlo en dos pasos,
 primero burda substitución, pasar los tests,
@@ -701,7 +773,7 @@ después el refactoring y volver a pasar los tests.
 ### Limpiando el atributo
 
 En este punto, deberían de quedar sólo los usos de los atributos
-que le daban o actualizaban valor.
+que le daban o actualizaban valor y que hemos duplicado al principio.
 
 Puesto que dicho valor no se usa ya para nada,
 pues estamos utilizando los atributos nuevos,
@@ -711,6 +783,9 @@ Siempre pasando los tests.
 Finalmente podemos pasar el segundo script de migración,
 el que elimina el atributo de los datos.
 
+Y ya tenemos el refactoring hecho.
+Échale un ojo lo que has modificado por si se te ocurriera
+algún refactoring pendiente que simplificara el código.
 
 
 
