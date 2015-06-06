@@ -312,30 +312,31 @@ si es posible, lo que sea a un objeto `datetime.date`.
 Por ejemplo:
 
 ```python
->>> dateutils.date(2015, 6, 2)
+>>> dateutils.date(2015, 6, 2)  # tres enteros como el constructor de datetime.date
 datetime.date(2015,6,2)
->>> dateutils.date((2015, 6, 2))
+>>> dateutils.date((2015, 6, 2))  # Una tupla
 datetime.date(2015,6,2)
->>> dateutils(datetime.date(2015,6,2))
+>>> dateutils(datetime.date(2015,6,2)) # un datetime.date
 datetime.date(2015,6,2)
->>> dateutils.date("2015-06-02")
+>>> dateutils.date("2015-06-02")  # una fecha iso
 datetime.date(2015,6,2)
->>> dateutils.date("02-06-2015")
+>>> dateutils.date("02-06-2015")  # fecha tradicional con guiones
 datetime.date(2015,6,2)
->>> dateutils.date("02/06/2015")
+>>> dateutils.date("02/06/2015")  # fecha tradicional con barras
 datetime.date(2015,6,2)
->>> dateutils.date("02062015")
+>>> dateutils.date("02062015")   # compacto orden tradicional
 datetime.date(2015,6,2)
->>> dateutils.date("20150602")
+>>> dateutils.date("20150602")   # compacto orden iso
 datetime.date(2015,6,2)
 ```
 
 Implementada en un solo sitio y cubierta por tests,
-nos da la seguridad de que si falla es porque no es una fecha.
+la función nos da la seguridad de que si falla es porque no es una fecha.
 
 > **Ejercicio:**
 > Usa la función `dateutils.date` e intenta putearla.
 > Si encuentras un caso que no funcione, implementa el test y hazlo pasar.
+> Algún caso habrá.
 
 Haciendo que todas las funciones de formateo lo primero que hagan
 es llamar a date sobre lo que sea que le pasemos por parámetro,
@@ -344,7 +345,7 @@ las funciones de formato se vuelven muy versátiles:
 ```python
 >>> def slashDate(arg):
 ... 	adate = date(arg)
-...	return adate.strftime('%d/%m/%Y')
+... 	return adate.strftime('%d/%m/%Y')
 >>> slashDate('20150602')
 '02/06/2015'
 ```
@@ -474,8 +475,9 @@ Los refactorings no se acabaron ahí.
 
 Y ese es el código que tenemos ahora.
 Todas las funciones libres (`date`, `catalanDate`...)
-crean un objeto `Date` y llaman a la propiedad que toca
-que es la que implementa la funcionalidad.
+crean un objeto `Date` y usan sus métodos y propiedades para obtener el resultado.
+
+Echale un ojo al código.
 
 
 ## La misión, refactorizar fechas de facturas
