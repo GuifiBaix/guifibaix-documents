@@ -470,15 +470,17 @@ Y ese es el código que tenemos ahora.
 
 ## La misión, refactorizar fechas de facturas
 
-Hay sitios donde las fechas aún son textos.
-En el YAML de las facturas dos campos, `dataEmisió` y `dataVenciment`, están formateados como `slashDate` y no en iso.
+Aún hay sitios en el código de GuifiBaix donde las fechas son textos.
+En el YAML de las facturas dos campos, `dataEmisio` y `dataVenciment`,
+están formateados en formato `slashDate` y no en iso.
 Eso implica que cuando lo cargamos, python no lo maneja como una fecha sino como un texto.
-En su día ya nos iba bien porque solo la usabamos para generar la factura,
-y la factura usaba ese formato, por lo que simplemente poniamos la cadena y ya está.
+En su día ya nos iba bien porque solo la usabamos traspasar el texto al PDF de la factura,
+con ese mismo formato.
 
 Pero ahora usamos ese dato en más sitios,
 así que tenemos que usar la función `date`
-para generar una fecha manejable.
+así que tenemos que usar la función `date`
+para generar una fecha manipulable como tal.
 
 Además, posiblemente en un futuro tengamos que integrarlo en una base de datos
 y para ello combiene que las fechas sean fechas y no textos.
@@ -486,7 +488,7 @@ y para ello combiene que las fechas sean fechas y no textos.
 El objetivo de este refactoring es:
 
 - Substituir esos campos por otros en formato ISO y con nombres en inglés: `dueDate`, `issueDate`
-- Simplificar el código que los manejan usando las utilidades de `dateutils`
+- Simplificar el código que maneja estos datos explotando las utilidades de `dateutils`
 
 
 ### La esencia de los refactorings
@@ -499,8 +501,9 @@ Normalmente tenemos un código existente,
 una función, un método, una variable, un campo, un cacho de código...
 que queremos substituir por otro.
 ¿Como procedemos?
-Pues como procederíamos en una obra,
+Pues como procederíamos en una reforma,
 construyendo andamiaje para que nada se caiga
+hasta que tengamos lo nuevo funcionando.
 
 - **Duplicar:** Crear la nueva estructura sin tumbar la que había
 - **Rellenar:** Rellenar la nueva estructura para que en cada momento contenga lo mismo que la antigua
@@ -512,20 +515,28 @@ Si lo hacemos en este orden, podemos mantener el programa (¡y los tests!) funci
 En nuestro caso, tendremos que:
 
 - Añadir los campos nuevos donde se añaden los viejos
-- Modificar los campos nuevos donde se modifican los viejos
-- Substituir los campos nuevos donde se usan los viejos
-- Limpiar los campos viejos y el código resultante
+- Modificar el valor de los campos nuevos donde se modifican los viejos
+- Hacer que el resto de código pase a depender de los atributos nuevos en vez de en los viejos
+- Limpiar lo que quede de los campos viejos y el código relacionado
 
 ### Situémonos
 
 Lo esencial pues es averiguar donde se usan esos campos.
-Usa el comando `grep` para buscar donde se usan los campos `dataEmisió` y `dataVenciment`.
+Usa el comando `grep` para buscar donde se usan los campos `dataEmisio` y `dataVenciment`.
 
 ```bash
 $ grep -rI 'data\(Emisio\|Venciment\)'
 ```
 
 Veremos que se usan en ficheros de código y en ficheros de datos.
+
+- `data/example-maintainment-invoice.yaml`
+- `gb_registrafactura.py`
+- `gb_remesasepa.py`
+- `gb_facturamanteniment.py`
+- `gb_factura.py`
+
+
 Normalmente los usos son:
 
 - Se le da un valor al campo
@@ -535,7 +546,7 @@ Normalmente los usos son:
 
 Piensa para cada uso como sería si usamos `dateutils.Date`.
 
-### Creamos un script de migración 
+### Creamos un script de migración
 
 Una migración en informática es saltar de un sistema a otro.
 Por ejemplo, se migra de Windows a Linux o de una versión de Ubuntu a otra.
@@ -547,6 +558,67 @@ para que funcionen con una nueva versión del código diferente.
 
 Pero como hemos dicho antes, antes de quitar lo viejo hay que crear lo nuevo.
 Añadamos los dos campos nuevos a los datos existentes.
+
+- Crea un script `migra_fechas_facturas.py` para migrar los datos, dale permisos y demás
+- Este script leera ficheros YAML de las facturas y le añadirá dos atributos en inglés `issueDate` y `dueDate`
+- Lo mas práctico es empezar con un fichero que le pasamos por línea de comandos
+	- Recuerda `sys.argv[1]` y hay que hacer `import sys`.
+- Empezaremos las pruebas con una factura que esté controlada con el git
+	- Si la fastidiamos: `git checkout factura.yaml`
+- Usa el método (de clase!) `namespace.namespace.load` para cargar el fichero yaml como `namespace` en una variable, por ejemplo `factura`.
+	- Si necesitas algun ejemplo haz un grep de `load`
+- Para asegurarnos de que alcanzamos los datos imprime `factura.dataEmisio` y `factura.dataVenciment`
+- Convierte la carga en un `for` para `file` en `argv[1:]`, de esta manera podemos aplicar el script a todas las facturas usando comodines.
+
+
+	```bash
+	$ ./migra_dates_factura.py factura*.yaml
+	```
+
+- Puedes usar la función `step` de `consolemsg.py` para indicar el progreso.
+
+	```python
+	for file in sys.argv[1:]:
+		step(file)
+		invoice = ns.load(file)
+		print(invoice.dataEmisio, invoice.dataVenciment)
+	```
+
+- En vez de imprimir los campos tal cual, prueba de convertirlo en `dateutils.Date`
+	- Si alguno falla es que seguramente no contenga una fecha, lo resolvemos
+
+	```python
+		print(dateutils.Date(invoice.dataEmisio)
+		print(dateutils.Date(invoice.dataVenciment)
+	```
+
+- Puedes usar la función `step` de `consolemsg.py` para indicar el progreso.
+
+	```python
+	for file in sys.argv[1:]:
+		step(file)
+		invoice = ns.load(file)
+		invoice.issueDate = dateutils.Date(invoice.dataEmisio)
+		invoice.dueDate = dateutils.Date(invoice.dataVenciment)
+		invoice.dump(file)
+	```
+
+- NOTA: Yo aquí me he quedado porque hace falta arreglar algo en la escritura de Date en yaml
+
+
+- `gb_facturamanteniment.generateInvoice`
+	- Aquí se rellena con una fecha convertida en `slashDate`
+	- Con llamar a `Date` nos ahorramos la conversión
+	- Localiza de donde vienen las dos fechas
+		- Encontrarás dos vias: como parámetros o si no se los pasamos, los cogeran de `defaultDueDate` y `defaultIssueDate`
+		- Para ver lo que recibe la funcion buscamos quien la llama
+		- Échale un ojo a las funciones que proporcionan los por defecto.
+		- Entiende lo que hacen con lo que has aprendido hoy
+		- Fijate en el código usado para convertir en isoDate y en date y demás.
+		- Piensa como seria si usaramos un Date como formato.
+		- Busca donde se usan mas las funciones
+		- Encontraras los tests, que comparan textos en iso.
+
 
 
 
