@@ -262,6 +262,7 @@ a veces simplemente emborronaban el código.
 > **Máxima: Don't Repeat Yourself, DRY, No te repitas.**
 > Si estás escribiendo el mismo código una y otra vez, busca la forma de no repetirlo.
 > El código repetido,
+> 
 > - Es trabajo de más
 > - Aunque para escribirlo podemos cortar y pegar y es fácil, para leerlo sigue estando ahi
 > - Si tienes que corregir un error, tienes que arreglarlo en un monton de sitios ¡y acordarte!
@@ -295,12 +296,13 @@ Como `today` es un método de clase y factoria.
 
 ```python
 > s = '2015-06-02'
-> datetime.date.strptime('%Y-%m-%d')
-datetime.date(2015,6,2)
+> datetime.datetime.strptime(s,'%Y-%m-%d')
+datetime.datetime(2015,6,2,0,0)
 ```
 
 Claro que esto funciona porque sabemos que formato nos va a llegar,
-y esto era así la mayoria de las veces, pero a veces no y ese día el programa fallaba.
+y esto era así la mayoria de las veces.
+Pero a veces no llegaba el formato esperado y ese día el programa fallaba.
 Así que, si queremos que nuestro programa se sepa adaptar a la mayoría de casos,
 debemos detectar el formato y generar la fecha.
 
@@ -429,15 +431,17 @@ Así que podríamos hacer:
 > Algunos son atributos, que se pueden acceder sin paréntesis,
 > otros son funciones y para acceder necesitaremos llamarlas.
 
-Para poder escoger que formato imprimimos
-en una plantilla, aplicándole un YAML directamente,
+Para poder escoger que formato imprimimos en una plantilla,
+aplicándole un YAML directamente,
 convendría tener nuestros formatos disponibles como atributos en las fechas.
+Igual que estan disponibles `day`, `year`, `month` y `weekday`.
 
 Con ese propósito,
 lo que se hizo fue crear una clase, `dateutils.Date`,
 que extiende la clase `dateutils.date` y además:
 
-- su constructor acepta todo lo que acepta la función `dateutils.date`.
+- su constructor acepta, no sólo tres parametros `year`, `month`, `date`,
+  sinó también todo lo que acepta la función `dateutils.date`.
 - tiene atributos (calculados) `compact`, `slashDate`, `catalanDate`...
 
 > **Detalle avanzado:**
@@ -446,7 +450,9 @@ que extiende la clase `dateutils.date` y además:
 > se accede a ellos como si fueran atributos,
 > pero estás llamando a un método.
 > `format` no nos deja llamar métodos, pero si son properties, no hay problema porque no usamos el operador llamada (paréntesis).
+> Son conceptos parecidos, pero no confundas estas _properties_ con las de Qt.
 
+Con estos atributos podemos hacer código como:
 
 ```python
 >>> from namespace import namespace as ns
@@ -456,7 +462,8 @@ que extiende la clase `dateutils.date` y además:
 'Hoy es 02/06/2015'
 ```
 
-¿Cómo evolucionó el código?
+Los refactorings no se acabaron ahí.
+¿Cómo siguió evolucionando el código?
 
 - Primero `dateutils.Date`, delegaba en las funciones que habíamos hecho en `dateutils`
 	- Si lo que recibía el constructor no era un `datetime.date` se llamaba a la función `dateutils.date` para obtenerlo.
@@ -466,9 +473,15 @@ que extiende la clase `dateutils.date` y además:
 	- Después hacíamos que la función llamara a la clase, eliminando la duplicación
 
 Y ese es el código que tenemos ahora.
+Todas las funciones libres (`date`, `catalanDate`...)
+crean un objeto `Date` y llaman a la propiedad que toca
+que es la que implementa la funcionalidad.
 
 
 ## La misión, refactorizar fechas de facturas
+
+Hemos visto todos los refactorings que hemos ido haciendo
+para simplificar el código de manejo de fechas.
 
 Aún hay sitios en el código de GuifiBaix donde las fechas son textos.
 En el YAML de las facturas dos campos, `dataEmisio` y `dataVenciment`,
@@ -479,11 +492,10 @@ con ese mismo formato.
 
 Pero ahora usamos ese dato en más sitios,
 así que tenemos que usar la función `date`
-así que tenemos que usar la función `date`
 para generar una fecha manipulable como tal.
 
 Además, posiblemente en un futuro tengamos que integrarlo en una base de datos
-y para ello combiene que las fechas sean fechas y no textos.
+y para ello también combiene tener fechas reales y no textos.
 
 El objetivo de este refactoring es:
 
@@ -654,6 +666,17 @@ if __name__ == '__main__'
 Hay que localizar los puntos del código donde se crean o dan valor a los atributos antiguos.
 En esos puntos, crearemos también los atributos nuevos, con el valor apropiado.
 
+**Pasamos los tests a cada modificación que hacemos.**
+En teoría esta modificación no debería de tener consecuencias.
+Pero si las tiene, algo hemos hecho mal y está bien darse cuenta
+cuanto antes mejor.
+
+**Comiteamos cada vez que pasamos los tests.**
+Los tests nos dicen si vamos bien.
+Si fallan, cada commit es un punto seguro al que volver.
+
+Nos podemos saltar lo anterior pero contra más grandes hagamos los pasos,
+más grande puede ser el cachiporrazo.
 
 ## Substituyendo los usos
 
