@@ -20,9 +20,7 @@ Para ello:
 - Finalmente, plantearemos paso a paso un refactoring pendiente, para que las fechas de los yaml de las facturas sean fechas y no textos, incluyendo el refactoring en sí y la migración de los datos.
 
 
-## Base teòrica
-
-### El módulo `datetime`
+## El módulo `datetime`
 
 El módulo `datetime` es el módulo estándard para representar tiempo.
 Contiene cuatro clases importantes:
@@ -49,6 +47,9 @@ Repasando un poco como llamar a funciones y métodos:
 - El constructor de `date`, requiere 3 parametros obligatorios: `year`, `month` y `day`
 - El constructor de `timedelta`, puedes escoger como expresas el intervalo
   usando los nombres de los parámetros opcionales: `days`, `hours`, `minutes`, `seconds` y `microseconds`
+  Siendo `hours` el primer parámetro,
+  podríamos haber usado `datetime.timedelta(2)` pero este es un ejemplo
+  de como especificar el nombre del parámetro ayuda a entender que hacemos.
 
 > **Ejercicio:**
 > Prueba replicar el ejemplo anterior expresando el `timedelta` en horas.
@@ -61,12 +62,12 @@ Repasando un poco como llamar a funciones y métodos:
 > 
 > - uno de ellos no sea un entero, por ejemplo un texto o un `float`
 > - falte o sobre uno
-> - Que uno de ellos (mes o día) este fuera de rango
+> - Que uno de ellos (mes o día) este fuera de rango (0 o 100)
 > - En orden inverso (no iso)
 
 > **Ejercicio:**
-> Crea una funcion para calcular la fecha de vencimiento a partir de una fecha
-> de emisión de la factura, sabiendo que son 15 días.
+> Crea una función dada una fecha de emisión de una factura,
+> devuelva la fecha de vencimiento sumándole 15 días.
 > Usa para ello un `timedelta`.
 
 Las clases `date`, `datetime`, y `time` tienen métodos útiles como `today` y `now`
@@ -80,9 +81,10 @@ cuyo resultado depende del momento actual.
 
 Fíjate que aquí llamamos a un método usando la sintaxis de punto (`.`)
 con una clase y no con una instancia.
-Esto lo podemos hacer con los llamados **métodos de clase**
-que no necesitan una instancia para poder ser llamados.
+Llamar a un método sin instáncia, usando la clase directamente,
+se puede hacer sólo si el método es de los llamados **métodos de clase**,
 En la documentación de las clases se suele indicar cuando lo son.
+En oposición los otros métodos se llaman **métodos de instancia**.
 
 Ademas este método es lo que llamamos un **método factoría**.
 Es decir un método cuyo propósito es crear, _fabricar_, objetos.
@@ -90,11 +92,12 @@ Es decir un método cuyo propósito es crear, _fabricar_, objetos.
 > **Ejercicio:**
 > Averigua tu edad en días restándole tu fecha de nacimiento a `date.today()`.
 > Obtendras un objeto tipo intervalo con tu edad en dias.
+> Divídelo por `365.25` y tendrás tus años astronómicos.
 
 Otra cosa interesante del ejemplo anterior es que,
 cuando enviamos una fecha al `print`, ya no nos devuelve
-el texto de una llamada al constructor `datetime.date(2016,6,2)`
-sino una fecha en formato ISO 8601 (YYYY-MM-DD).
+el texto de una llamada al constructor `datetime.date(2015,6,2)`
+sino una fecha en formato ISO 8601 (YYYY-MM-DD) como `2015-06-02`.
 Esta es una representación en texto de la fecha muy práctica
 pues el orden cronológico (por fecha) coincide
 con el orden lexicográfico (alfabético) de la representación.
@@ -120,7 +123,11 @@ Los códigos con `%` estan documentados en la [referéncia de la librerias está
 
 ## Refactorizar
 
-Una refactorización es una modificación del código que no tiene impacto en el comportamiento externo.
+Una **refactorización** (refactoring) es una modificación del código que no tiene impacto en el comportamiento externo.
+
+El nombre viene del algebra, donde puedes alterar el orden de los factores sin alterar el producto.
+
+### Ejemplo
 
 Por ejemplo:
 
@@ -153,6 +160,16 @@ Podemos llevarlo más allá extrayendo una función:
 def saluda(nombre) :
 	print("Hola {}".format(nombre))
 
+nombre = "Aitor"
+print("Hola {}".format(nombre))
+```
+
+Y finalmente usando la función
+
+```python
+def saluda(nombre) :
+	print("Hola {}".format(nombre))
+
 saluda("Aitor")
 ```
 
@@ -168,10 +185,15 @@ saluda("David")
 ```
 
 Estos pequeños pasos estan sistematizados,
-de forma que cada receta (extraer una funcion, añadir un parámetro...)
+de forma que cada acción de refactoring (extraer una función, añadir un parámetro...)
 tienen recetas con un listado de cosas, de sentido común,
 a comprobar para asegurarnos de que modificando el código
 no se modifica el comportamiento.
+
+Fíjate que ponemos nuestra mente en dos modos:
+
+- Modo refactoring: Ponemos toda nuestra atención en que las modificaciónes que hagamos no alteren el producto
+- Modo funcionalidad: Nos centramos en alterar ese producto, cambiando lo mínimo posible el código
 
 Es muy importante no mezclar refactorings con cambios en el comportamiento.
 Todo es mucho más sencillo si cuando refactorizas, esperas que todo funcione igual.
@@ -179,32 +201,54 @@ Si algo cambia, no has refactorizado bien.
 Cuando cambias comportamiento, que sea porque añades o has modificado un test,
 y que ese test refleje ese cambio de comportamiento.
 
+En resumen, cuando refactorizamos:
 
 - Pequeños pasos
 - No han de añadir funcionalidad
 - Nos apoyamos en los tests que tenemos (¿no tenemos? ya sabemos lo que toca)
 
-¿Hemos dicho test? ¿De donde salen los tests?
+### Tests: Refactorizar con tranquilidad
+
+Para refactorizar con la conciencia tranquila
+es importante tener una batería de tests que te avisen
+cuando te sales del camino.
 
 - Los tests han de comprobarse muy a menudo.
 - Comprobar a ojo que el resultado es el que toca es una tarea muy pesada.
 - Si lo tenemos que hacer a ojo, no lo vamos a hacer o no vamos a prestar la atención necesaria.
 - **Solucion:** Hagamos que el ordenador compruebe los resultados por nosotros.
-	- Si funciona no nos marea
-	- Si algo no funciona entonces grita y nos enseña la salida no esperada comparada con la esperada.
-
+	- Si funciona, que no nos maree enseñándonos la salida, que simplemente nos diga que 'todo bien'.
+	- Si algo no funciona, que entonces grite y nos enseñe la salida errónea comparada con la esperada.
 
 > **Ejercicio:**
 > Construye un script en bash (usando entre otros el comando `diff`)
 > que compare la salida estandard del script anterior
 > contra una salida esperada.
-> Si es igual no muestra nada, si muestra algo
+> Si es igual no muestra nada; si cambia, enciende alarmas y muestra la diferencia
 
-> Una forma de testear de forma automática es el test de espalda contra espalda (back-to-back o b2b).
-> Es práctica si ya tenemos algo que funciona pero no tenemos tests unitarios.
+Normalmente, los tests se añaden son de los que se llaman _unitarios_,
+testean una sola cosa.
+Antes de cada modificación que no es un refactoring,
+hay que hacer un test que la justifique.
+Es decir, un test que falle mientras no añadamos la nueva funcionalidad.
 
+Con esta _norma_ nos aseguramos
+de que todas las funcionalidades estén cubiertas y
+de que no hagamos tests innecesarios.
 
-## Un caso real
+A menudo, encontramos código a refactorizar no está cubierto por tests unitarios.
+Si queremos tener algo de confianza a la hora de refactorizar,
+una solución pasable puede ser plantear tests de espalda contra espalda (back-to-back, b2b).
+Un tests b2b, ve el programa como una caja negra,
+dada una misma entrada compara una salida antigua con la actual con el código modificado.
+No nos planteamos, si la salida es buena o mala, simplemente queremos que no cambie.
+
+A diferencia de los unitarios que añadimos para cada variación de la funcionalidad,
+los b2b no consideran todos los casos, así que son débiles:
+Es posible que cambie la funcionalidad y no lo detectemos.
+El tests que has hecho antes, es el típico b2b.
+
+## Un caso real: el origen del modulo `dateutils`
 
 ### Centralizando el formateo de fechas
 
@@ -258,7 +302,7 @@ y esto era así la mayoria de las veces, pero a veces no y ese día el programa 
 Así que, si queremos que nuestro programa se sepa adaptar a la mayoría de casos,
 debemos detectar el formato y generar la fecha.
 
-Así que para eso creamos la funcion `dateutils.date`, que transparentemente convertía,
+Así que para eso creamos la función `dateutils.date`, que transparentemente convertía,
 si es posible, lo que sea a un objeto `datetime.date`.
 
 Por ejemplo:
@@ -282,8 +326,8 @@ datetime.date(2015,6,2)
 datetime.date(2015,6,2)
 ```
 
-Implementada en un solo sitio y cubierta por tests, nos da la
-seguridad de que si falla es porque no es una fecha.
+Implementada en un solo sitio y cubierta por tests,
+nos da la seguridad de que si falla es porque no es una fecha.
 
 > **Ejercicio:**
 > Usa la función `dateutils.date` e intenta putearla.
@@ -301,32 +345,97 @@ las funciones de formato se vuelven muy versátiles:
 '02/06/2015'
 ```
 
+### Rellenando plantillas con templates
+
+Repasamos como rellenar plantillas con ficheros YAML.
+
+Creamos datos YAML con los que rellenar plantillas con el modulo de GuifiBaix `namespace`.
+
+```python
+>>> from namespace import namespace as ns
+>>> datos = ns()
+>>> datos.nombre = "Perico"
+>>> datos.apellido1 = "Palotes"
+>>> datos.direccion = ns()
+>>> datos.direccion.via = "Rue del Percebe"
+>>> datos.direccion.numero = 13
+>>> datos.direccion.municipio = "Villabotijo"
+>>> datos.direccion.provincia = "Zamora"
+>>> datos.fechaNacimiento = datetime.date(1988,3,20)
+>>> datos.dump()
+nombre: Perico
+apellido1: Palotes
+direccion:
+	via: Rue del Percebe
+	numero: 13
+	municipio: Villabotijo
+	provincia: Zamora
+fechaNacimiento: 1988-03-20
+>>> datos.dump("perico.yaml")
+```
+
+```python
+plantilla = """\
+Hola, me llamo {nombre} {apellido1}.
+Nací el {fechaNacimiento}.
+Vivo en {direccion.via}, número {direccion.numero}
+de {direccion.municipio}
+en la província de {direccion.provincia}.
+"""
+
+datos = ns.load('perico.yaml')
+salida = plantilla.format(**datos)
+print(salida)
+```
+
+**Nota:**
+Hay un comando de GuifiBaix que permite,
+desde línia de comandos,
+aplicar un YAML a un fichero con la plantilla.
+
+```bash
+$ nstemplate.py apply datos.yaml plantilla.md salida.md
+```
 
 ### Formateando fechas en los templates
 
-En las librerías propias de GuifiBaix tenemos utilidades para coger un yaml
-y rellenar una plantilla con `format`.
-
-Cuando leemos un `namespace` de un YAML,
-la librería `python-yaml` detecta los campos que son fechas ISO
-y las devuelve como `datetime.date`.
-El problema es que si rellenamos una plantilla con ese campo,
-siempre lo va a representar como fecha ISO y no suele ser lo que necesitamos.
+La librería `python-yaml` que usamos para cargar los ficheros YAML
+detecta los campos con fechas ISO y genera datos de tipo `datetime.data`.
+Y cuando usamos una fecha `datetime.date` en un `format`
+lo que se imprime es la fecha en formato ISO.
 
 ```python
->>> import namespace
->>> date = namespace.namespace(today = datetime.today())
->>> "Hoy es {today}".format(date)
+>>> from namespace import namespace as ns
+>>> datos = ns()
+>>> datos.today = datetime.today()
+>>> "Hoy es {today}".format(**datos)
 'Hoy es 2015-06-02'
 ```
+El problema llega si queremos obtener en una plantilla
+algun formato diferente al ISO, que es lo que suele pasar.
 
-Pero el método `format` nos permite acceder a partes del dato:
-atributos (con la sintaxis de punto) y indices (con la sintaxis de `[]`).
+El método `format` nos permite poder acceder a los attributos usando la sintaxis del punto.
+Las fechas tienen atributos como `year`. `month`, `day`...
+Así que podríamos hacer:
 
-Lo que se hizo fue crear una clase, `dateutils.Date`,
+```python
+>>> "Hoy es {today.weekday} y estamos en el mes de {today.month}".format(**datos)
+```
+
+> **Ejercicio:**
+> Explora otros atributos de la fecha usando el tabulador.
+> Algunos son atributos, que se pueden acceder sin paréntesis,
+> otros son funciones y para acceder necesitaremos llamarlas.
+
+Para poder escoger que formato imprimimos
+en una plantilla, aplicándole un YAML directamente,
+convendría tener nuestros formatos disponibles como atributos en las fechas.
+
+Con ese propósito,
+lo que se hizo fue crear una clase, `dateutils.Date`,
 que extiende la clase `dateutils.date` y además:
 
-- su constructor acepta todo lo que acepta la funcion `dateutils.date`.
+- su constructor acepta todo lo que acepta la función `dateutils.date`.
 - tiene atributos (calculados) `compact`, `slashDate`, `catalanDate`...
 
 > **Detalle avanzado:**
@@ -338,18 +447,23 @@ que extiende la clase `dateutils.date` y además:
 
 
 ```python
->>> import namespace
->>> date = namespace.namespace(today = dateutils.Date(datetime.today()))
->>> "Hoy es {today.slashDate}".format(date)
+>>> from namespace import namespace as ns
+>>> datos = ns()
+>>> datos.today = dateutils.Date.today()
+>>> "Hoy es {today.slashDate}".format(**datos)
 'Hoy es 02/06/2015'
 ```
 
-El módulo `namespace` ya tunea la librería de YAML para que cuando
-encuentra una iso, devuelva un `dateutils.Date` en vez de un `datetime.date`.
+¿Cómo evolucionó el código?
 
-Para no duplicar código, al principio `Date` delegaba en las funciones que
-habíamos ido haciendo, pero en un refactoring posterior, invertimos la dependencia,
-y ahora son las funciones las que crean un objeto `Date` y delegan en él,
+- Primero `dateutils.Date`, delegaba en las funciones que habíamos hecho en `dateutils`
+	- Si lo que recibía el constructor no era un `datetime.date` se llamaba a la función `dateutils.date` para obtenerlo.
+	- Los atributos de formateo llamaban a las funciones `dateutils.slashDate` y compañía.
+- En un refactoring posterior, se invirtió la delegación:
+	- Primero se duplicaba el codigo de la función dentro de la clase
+	- Después hacíamos que la función llamara a la clase, eliminando la duplicación
+
+Y ese es el código que tenemos ahora.
 
 
 ## La misión, refactorizar fechas de facturas
@@ -360,24 +474,78 @@ Eso implica que cuando lo cargamos, python no lo maneja como una fecha sino como
 En su día ya nos iba bien porque solo la usabamos para generar la factura,
 y la factura usaba ese formato, por lo que simplemente poniamos la cadena y ya está.
 
-Pero ahora usamos ese dato en más sitios, asi que tenemos que usar la función `date`
-para generar.
+Pero ahora usamos ese dato en más sitios,
+así que tenemos que usar la función `date`
+para generar una fecha manejable.
 
 Además, posiblemente en un futuro tengamos que integrarlo en una base de datos
 y para ello combiene que las fechas sean fechas y no textos.
 
-- Sitúate:
-	- Usa el comando `grep` para buscar donde se usan los campos `dataEmisió` y `dataVenciment`.
-	- Localizados los ficheros abrelos para ver que uso se hace del campo:
-		- Se usa para una salida, formateados o tal cual
-		- Lo usamos para obtener otro dato
-		- Le damos un valor
-		- ...
-	- Piensa para cada uso como sería si usamos `dateutils.Date`
-	- Aquí analizaríamos si es conveniente o no usarlo
+El objetivo de este refactoring es:
+
+- Substituir esos campos por otros en formato ISO y con nombres en inglés: `dueDate`, `issueDate`
+- Simplificar el código que los manejan usando las utilidades de `dateutils`
 
 
-- Crea un script para migrar los datos, que lea el YAML, y añada un atributo en inglés `issueDate` y `dueDate`
+### La esencia de los refactorings
+
+Dijimos que los refactorings son recetas para cada tipo de accion.
+Estas recetas estan escritas en un libro precioso de Martin Fowler.
+Pero no es necesario que nos aprendamos los pasos de las recetas si nos quedamos con la fórmula general.
+
+Normalmente tenemos un código existente,
+una función, un método, una variable, un campo, un cacho de código...
+que queremos substituir por otro.
+¿Como procedemos?
+Pues como procederíamos en una obra,
+construyendo andamiaje para que nada se caiga
+
+- **Duplicar:** Crear la nueva estructura sin tumbar la que había
+- **Rellenar:** Rellenar la nueva estructura para que en cada momento contenga lo mismo que la antigua
+- **Usar:** Que el código que se basaba en la estructura vieja se base en la nueva.
+- **Limpiar:** Eliminar los usos de la estructura antigua.
+
+Si lo hacemos en este orden, podemos mantener el programa (¡y los tests!) funcionando en todo momento.
+
+En nuestro caso, tendremos que:
+
+- Añadir los campos nuevos donde se añaden los viejos
+- Modificar los campos nuevos donde se modifican los viejos
+- Substituir los campos nuevos donde se usan los viejos
+- Limpiar los campos viejos y el código resultante
+
+### Situémonos
+
+Lo esencial pues es averiguar donde se usan esos campos.
+Usa el comando `grep` para buscar donde se usan los campos `dataEmisió` y `dataVenciment`.
+
+```bash
+$ grep -rI 'data\(Emisio\|Venciment\)'
+```
+
+Veremos que se usan en ficheros de código y en ficheros de datos.
+Normalmente los usos son:
+
+- Se le da un valor al campo
+- Se usa el valor para:
+	- formatear una salia
+	- obtener otro dato
+
+Piensa para cada uso como sería si usamos `dateutils.Date`.
+
+### Creamos un script de migración 
+
+Una migración en informática es saltar de un sistema a otro.
+Por ejemplo, se migra de Windows a Linux o de una versión de Ubuntu a otra.
+
+Cuando hablamos de migración de datos,
+lo que hacemos es actualizar los datos,
+por ejemplo nuestros YAML,
+para que funcionen con una nueva versión del código.
+
+
+
+
 
 
 
