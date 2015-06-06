@@ -17,7 +17,9 @@ Para ello:
 - Veremos lo básico del módulo `datetime`
 - Introduciremos el concepto de _refactoring_.
 - Veremos un ejemplo de como sucesivos refactorings de código que usaba `datetime`, derivaron contenido actual del módulo `dateutils`
-- Finalmente, plantearemos paso a paso un refactoring pendiente, para que las fechas de los yaml de las facturas sean fechas y no textos, incluyendo el refactoring en sí y la migración de los datos.
+- Finalmente, plantearemos paso a paso un refactoring pendiente,
+  para que las fechas de los yaml de las facturas sean fechas y no textos,
+  incluyendo el refactoring en sí y la migración de los datos.
 
 
 ## El módulo `datetime`
@@ -207,7 +209,7 @@ En resumen, cuando refactorizamos:
 - No han de añadir funcionalidad
 - Nos apoyamos en los tests que tenemos (¿no tenemos? ya sabemos lo que toca)
 
-### Tests: Refactorizar con tranquilidad
+### Refactorizando con tranquilidad: los tests
 
 Para refactorizar con la conciencia tranquila
 es importante tener una batería de tests que te avisen
@@ -538,10 +540,14 @@ Piensa para cada uso como sería si usamos `dateutils.Date`.
 Una migración en informática es saltar de un sistema a otro.
 Por ejemplo, se migra de Windows a Linux o de una versión de Ubuntu a otra.
 
-Cuando hablamos de migración de datos,
+Cuando hablamos de **migración de datos**,
 lo que hacemos es actualizar los datos,
 por ejemplo nuestros YAML,
-para que funcionen con una nueva versión del código.
+para que funcionen con una nueva versión del código diferente.
+
+Pero como hemos dicho antes, antes de quitar lo viejo hay que crear lo nuevo.
+Añadamos los dos campos nuevos a los datos existentes.
+
 
 
 
