@@ -546,6 +546,28 @@ Normalmente los usos son:
 
 Piensa para cada uso como sería si usamos `dateutils.Date`.
 
+
+## Asegurando el suelo por el que pisamos
+
+Para asegurarnos de que no la cagamos,
+nos aseguraremos de que todo cambio tiene un test unitario que lo hace fallar,
+y si no, como mínimo crearemos un back-to-back.
+
+Una parte importante de los scripts es el `gb_balance.py`
+y no tiene tests unitarios para el conjunto.
+
+Genera un script shell que haga un b2b sobre su resultado.
+Añadelo a `test_all.sh` (no lo comitees).
+
+La salida de este tests b2b cambiará cuando cambien los datos,
+ya dijimos que los b2b son bastane débiles,
+pero nos servirá mientras hacemos el refactoring.
+
+Otros scripts susceptibles de plantear un b2b son:
+
+- TODO: básate en el analisis que has hecho en el anterior punto
+
+
 ### Creamos un script de migración
 
 Una migración en informática es saltar de un sistema a otro.
@@ -603,26 +625,66 @@ Añadamos los dos campos nuevos a los datos existentes.
 		invoice.dump(file)
 	```
 
-- NOTA: Yo aquí me he quedado porque hace falta arreglar algo en la escritura de Date en yaml
+- Si haces un `git diff` podrás ver los cambios y si todos son buenos
+- Seguro que hay algunos que se han perdido (comentarios, formatos...) edítalos a mano si hiciera falta.
 
 
-- `gb_facturamanteniment.generateInvoice`
-	- Aquí se rellena con una fecha convertida en `slashDate`
-	- Con llamar a `Date` nos ahorramos la conversión
-	- Localiza de donde vienen las dos fechas
-		- Encontrarás dos vias: como parámetros o si no se los pasamos, los cogeran de `defaultDueDate` y `defaultIssueDate`
-		- Para ver lo que recibe la funcion buscamos quien la llama
-		- Échale un ojo a las funciones que proporcionan los por defecto.
-		- Entiende lo que hacen con lo que has aprendido hoy
-		- Fijate en el código usado para convertir en isoDate y en date y demás.
-		- Piensa como seria si usaramos un Date como formato.
-		- Busca donde se usan mas las funciones
-		- Encontraras los tests, que comparan textos en iso.
+No hemos borrado el atributo antiguo.
+Es el último paso del refactoring,
+para despues de que cambiemos todo el código,
+pero podemos preparar el script de migración.
+
+Tendrá una pinta así:
+
+`migration_02_deleteDataEmisioVencimient.py`
+
+```python
+if __name__ == '__main__'
+	step("Eliminant atributs 'dataEmisio' i 'dataVenciment'"))
+	for file in sys.argv[1:]:
+		step(file)
+		invoice = ns.load(file)
+		del invoice.dataEmisio
+		del invoice.dataVenciment
+		invoice.dump(file)
+```
+
+## Creando los atributos en código
+
+Hay que localizar los puntos del código donde se crean o dan valor a los atributos antiguos.
+En esos puntos, crearemos también los atributos nuevos, con el valor apropiado.
 
 
+## Substituyendo los usos
 
+Los usos que no son para dar valor al atributo,
+normalmente son para usarlo y transmitirlo a otra parte.
+Por ejemplo usarlo en una plantilla,
+imprimirlo por pantalla,
+generar un nombre de fichero en base a el,
+tranferirlo a otra estructura,
+o hacer algún cálculo.
 
+Esos usos, tenemos que irlos substituyendo y usar el nuevo atributo.
+Dado que el nuevo atributo tiene funcionalidad nueva,
+es posible que podamos simplificar código de conversión de formatos.
 
+Es importante de hacerlo en dos pasos,
+primero burda substitución, pasar los tests,
+después el refactoring y volver a pasar los tests.
+
+# Limpiando el atributo
+
+En este punto, deberían de quedar sólo los usos de los atributos
+que le daban o actualizaban valor.
+
+Puesto que dicho valor no se usa ya para nada,
+pues estamos utilizando los atributos nuevos,
+podemos ir eliminando.
+Siempre pasando los tests.
+
+Finalmente podemos pasar el segundo script de migración,
+el que elimina el atributo de los datos.
 
 
 
