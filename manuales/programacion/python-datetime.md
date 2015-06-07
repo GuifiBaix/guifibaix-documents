@@ -230,8 +230,9 @@ Cuando añadimos/modificamos funcionalidad
 ### Refactorizando con tranquilidad: los tests
 
 Para refactorizar con la conciencia tranquila
-es importante tener una batería de tests que te avisen
-cuando te sales del camino.
+de no haber estropeado nada
+es importante tener una batería de tests
+que te avisen cuando te sales del camino.
 
 Los tests han de comprobarse muy a menudo y
 comprobar a ojo que el resultado es el que toca es una tarea muy pesada.
@@ -252,23 +253,34 @@ Si lo tenemos que hacer a ojo, no lo vamos a hacer o no vamos a prestar la atenc
 > - Hacemos el `diff` entre los dos.
 > - Si son iguales el diff no muestra nada y da un codigo de error 0.
 > - Si son diferentes el diff muestra las diferencias y da un codigo de error distinto de 0.
-> - Puedes usar `diff file1 file2 && echo Todo bien! || echo LOS TESTS FALLAN!!!
+> - Puedes usar `diff file1 file2 && echo Todo bien! || echo LOS TESTS FALLAN!!!`
 
 
-Normalmente, los tests se añaden son de los que se llaman _unitarios_,
-testean una sola cosa.
-Antes de cada modificación que no es un refactoring,
-hay que hacer un test que la justifique.
+El esfuerzo lo hacemos solo una vez para escribir el test, y ahí queda.
+
+### Tests unitarios
+
+Normalmente, los tests se añaden son de los que se llaman _unitarios_.
+Los test unitarios son los que testean un solo cambio en el comportamiento.
+Antes de cada modificación que no sea un refactoring,
+hay que proponer un test unitario que la justifique.
 Es decir, un test que falle mientras no añadamos la nueva funcionalidad.
 
 Con esta _norma_ nos aseguramos
 de que todas las funcionalidades estén cubiertas y
 de que no hagamos tests innecesarios.
+Si no logramos que un test unitario falle,
+seguramente es porque no es necesario.
+Al mismo tiempo, hacer fallar el test, es una forma de _testear el test_.
+
+### Tests de espalda contra espalda (back-to-back)
 
 A menudo, encontramos código a refactorizar no está cubierto por tests unitarios.
 Si queremos tener algo de confianza a la hora de refactorizar,
 una solución pasable puede ser plantear tests de espalda contra espalda (back-to-back, b2b).
+
 El tests que has hecho antes con el comando `diff` es un test b2b.
+
 Un tests b2b, ve el programa como una caja negra,
 dada una misma entrada compara una salida antigua con la actual con el código modificado.
 No nos planteamos, si la salida es buena o mala, simplemente queremos que no cambie.
@@ -541,7 +553,8 @@ El objetivo de este refactoring es:
 
 Dijimos que los refactorings son recetas para cada tipo de accion.
 Estas recetas estan escritas en un libro precioso de Martin Fowler.
-Pero no es necesario que nos aprendamos los pasos de las recetas si nos quedamos con la fórmula general.
+Pero, si nos quedamos con la fórmula general,
+no es necesario que nos aprendamos los pasos de las recetas.
 
 Normalmente tenemos un código existente,
 una función, un método, una variable, un campo, un cacho de código...
