@@ -281,8 +281,8 @@ una solución pasable puede ser plantear tests de espalda contra espalda (back-t
 
 El tests que has hecho antes con el comando `diff` es un test b2b.
 
-Un tests b2b, ve el programa como una caja negra,
-dada una misma entrada compara una salida antigua con la actual con el código modificado.
+Un tests b2b, ve el programa como una caja negra:
+dada una misma entrada, compara una salida antigua con la actual.
 No nos planteamos, si la salida es buena o mala, simplemente queremos que no cambie.
 Si validamos la primera vez a ojo la salida, debería seguir siendo igual.
 
@@ -292,7 +292,21 @@ Es posible que cambie la funcionalidad y no lo detectemos.
 O, como veremos, si la salida depende de unos datos que evolucionan,
 la salida podría variar sin que cambie el programa, solo el entorno o los datos.
 Por eso decimos que son tests débiles.
+
 Pero para tomar el pulso a unos cambios puntuales nos puede sacar del atolladero.
+Es mucho mejor que no tener nada y hacer los cambios a ciegas.
+
+Yo los uso a menudo como primer paso para introducir tests unitarios.
+Los tests unitarios se hacen mejor si tienes el sistema dividido en funciones pequeñas
+sobre las que comprobar cosas más puntuales y concretas.
+
+Pero partir un código largo en funciones pequeñas es un refactoring
+que puede introducir errores.
+Para tener cierta confianza, primero planteo unos b2b,
+para tomar el control,
+y despues voy dividiendo en funciones a las que ya
+protejo con sus tests unitarios.
+
 
 ## Un caso real: el origen del modulo `dateutils`
 
