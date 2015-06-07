@@ -47,14 +47,15 @@ datetime.date(2016,6,17)
 Repasando un poco como llamar a funciones y métodos:
 
 - El constructor de `date`, requiere 3 parametros obligatorios: `year`, `month` y `day`
-- El constructor de `timedelta`, puedes escoger como expresas el intervalo
-  usando los nombres de los parámetros opcionales: `days`, `hours`, `minutes`, `seconds` y `microseconds`
+- Los parámetros del constructor de `timedelta`, en cambio, son opcionales,
+  así que puedes escoger cuales usas para expresar el intervalo explicitando el nombre:
+  `days`, `hours`, `minutes`, `seconds` y `microseconds`.
   Siendo `hours` el primer parámetro,
-  podríamos haber usado `datetime.timedelta(2)` pero este es un ejemplo
-  de como especificar el nombre del parámetro ayuda a entender que hacemos.
+  podríamos haber usado `datetime.timedelta(2)` pero este es un ejemplo claro
+  en el que explicitar el nombre del parámetro ayuda a entender que hacemos.
 
 > **Ejercicio:**
-> Prueba replicar el ejemplo anterior expresando el `timedelta` en horas.
+> Prueba replicar el ejemplo anterior un `timedelta` de 48 horas.
 
 
 > **Ejercicio:**
@@ -84,44 +85,51 @@ cuyo resultado depende del momento actual.
 Fíjate que aquí llamamos a un método usando la sintaxis de punto (`.`)
 con una clase y no con una instancia.
 Llamar a un método sin instáncia, usando la clase directamente,
-se puede hacer sólo si el método es de los llamados **métodos de clase**,
+se puede hacer sólo si el método es de los llamados **métodos de clase**.
 En la documentación de las clases se suele indicar cuando lo son.
-En oposición los otros métodos se llaman **métodos de instancia**.
+En oposición los otros métodos, los normales, se llaman **métodos de instancia**.
 
 Ademas este método es lo que llamamos un **método factoría**.
 Es decir un método cuyo propósito es crear, _fabricar_, objetos.
+Cuando el método factoria genera instancias de la misma clase
+suele ser tambien método de clase como en este caso, pero
+no tiene porqué.
 
 > **Ejercicio:**
 > Averigua tu edad en días restándole tu fecha de nacimiento a `date.today()`.
 > Obtendras un objeto tipo intervalo con tu edad en dias.
-> Divídelo por `365.25` y tendrás tus años astronómicos.
+> Averigua como extraer los dias como un entero y
+> divídelo por `365.25` para conocer tus edad astronómica.
 
 Otra cosa interesante del ejemplo anterior es que,
 cuando enviamos una fecha al `print`, ya no nos devuelve
 el texto de una llamada al constructor `datetime.date(2015,6,2)`
 sino una fecha en formato ISO 8601 (YYYY-MM-DD) como `2015-06-02`.
-Esta es una representación en texto de la fecha muy práctica
-pues el orden cronológico (por fecha) coincide
+Esta es una representación en texto de la fecha muy práctica,
+pues en ella coinciden el orden cronológico (por fecha)
 con el orden lexicográfico (alfabético) de la representación.
 
-La representación por defecto de las fechas es en formato ISO.
+La representación por defecto de las fechas es en formato ISO 8601.
 Si queremos obtener otro formato, por ejemplo el típico `DD/MM/YYYY`
+o el anglosajón `MM/DD/YYYY`
 tenemos que usar el método `strftime`.
 
 ```python
 >>> fecha.strftime('%d/%m/%Y')
 '02/06/2015`
+>>> fecha.strftime('%m/%d/%Y')
+'06/02/2015`
 ```
 
-Los códigos con `%` estan documentados en la [referéncia de la librerias estándard](TODO).
+Los códigos con `%` estan documentados en la [referéncia de la librerias estándard](https://docs.python.org/3/library/time.html#time.strftime).
 
 > **Ejercicio:**
 > En algunos procedimientos administrativos, por ejemplo los ficheros SEPA,
 > se tienen que generar fechas usando el que llamamos formato compacto
 > que es igual que el ISO pero sin guiones, pe `20150602`.
 >
-> - Genera con el `strftime` ese formato.
-> - Genera tambien el formato iso con el strftime
+> - Genera con el `strftime` ese formato YYYYMMDD
+> - Genera tambien el formato iso con el strftime YYYY-MM-DD
 
 ## Refactorizar
 
@@ -194,14 +202,17 @@ no se modifica el comportamiento.
 
 Fíjate que ponemos nuestra mente en dos modos:
 
-- Modo refactoring: Ponemos toda nuestra atención en que las modificaciónes que hagamos no alteren el producto
-- Modo funcionalidad: Nos centramos en alterar ese producto, cambiando lo mínimo posible el código
+- **Modo refactoring:** Ponemos toda nuestra atención en que las modificaciónes que hagamos no alteren el producto
+- **Modo funcionalidad:** Nos centramos en alterar ese producto, cambiando lo mínimo posible el código, para pasar un test en concreto
 
 Es muy importante no mezclar refactorings con cambios en el comportamiento.
 Todo es mucho más sencillo si cuando refactorizas, esperas que todo funcione igual.
 Si algo cambia, no has refactorizado bien.
 Cuando cambias comportamiento, que sea porque añades o has modificado un test,
 y que ese test refleje ese cambio de comportamiento.
+
+Si tenemos que cambiar mucho el código para añadir una funcionalidad,
+es señal de que nos hemos dejado refactorings por el medio.
 
 En resumen, cuando refactorizamos:
 
@@ -215,18 +226,27 @@ Para refactorizar con la conciencia tranquila
 es importante tener una batería de tests que te avisen
 cuando te sales del camino.
 
-- Los tests han de comprobarse muy a menudo.
-- Comprobar a ojo que el resultado es el que toca es una tarea muy pesada.
-- Si lo tenemos que hacer a ojo, no lo vamos a hacer o no vamos a prestar la atención necesaria.
-- **Solucion:** Hagamos que el ordenador compruebe los resultados por nosotros.
-	- Si funciona, que no nos maree enseñándonos la salida, que simplemente nos diga que 'todo bien'.
-	- Si algo no funciona, que entonces grite y nos enseñe la salida errónea comparada con la esperada.
+Los tests han de comprobarse muy a menudo y
+comprobar a ojo que el resultado es el que toca es una tarea muy pesada.
+Si lo tenemos que hacer a ojo, no lo vamos a hacer o no vamos a prestar la atención necesaria.
+
+**Solucion:** Hagamos que el ordenador compruebe los resultados por nosotros.
+
+- Si funciona, que no nos maree enseñándonos la salida, que simplemente nos diga que 'todo bien'.
+- Si algo no funciona, que entonces grite y nos enseñe la salida errónea comparada con la esperada.
 
 > **Ejercicio:**
 > Construye un script en bash (usando entre otros el comando `diff`)
 > que compare la salida estandard del script anterior
 > contra una salida esperada.
-> Si es igual no muestra nada; si cambia, enciende alarmas y muestra la diferencia
+>
+> - Tenemos la salida esperada guardada en un fichero.
+> - Redireccionamos la salida obtenida en un segundo fichero
+> - Hacemos el `diff` entre los dos.
+> - Si son iguales el diff no muestra nada y da un codigo de error 0.
+> - Si son diferentes el diff muestra las diferencias y da un codigo de error distinto de 0.
+> - Puedes usar `diff file1 file2 && echo Todo bien! || echo LOS TESTS FALLAN!!!
+
 
 Normalmente, los tests se añaden son de los que se llaman _unitarios_,
 testean una sola cosa.
@@ -241,14 +261,19 @@ de que no hagamos tests innecesarios.
 A menudo, encontramos código a refactorizar no está cubierto por tests unitarios.
 Si queremos tener algo de confianza a la hora de refactorizar,
 una solución pasable puede ser plantear tests de espalda contra espalda (back-to-back, b2b).
+El tests que has hecho antes con el comando `diff` es un test b2b.
 Un tests b2b, ve el programa como una caja negra,
 dada una misma entrada compara una salida antigua con la actual con el código modificado.
 No nos planteamos, si la salida es buena o mala, simplemente queremos que no cambie.
+Si validamos la primera vez a ojo la salida, debería seguir siendo igual.
 
 A diferencia de los unitarios que añadimos para cada variación de la funcionalidad,
 los b2b no consideran todos los casos, así que son débiles:
 Es posible que cambie la funcionalidad y no lo detectemos.
-El tests que has hecho antes, es el típico b2b.
+O, como veremos, si la salida depende de unos datos que evolucionan,
+la salida podría variar sin que cambie el programa, solo el entorno o los datos.
+Por eso decimos que son tests débiles.
+Pero para tomar el pulso a unos cambios puntuales nos puede sacar del atolladero.
 
 ## Un caso real: el origen del modulo `dateutils`
 
