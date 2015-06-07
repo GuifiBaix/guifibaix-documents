@@ -310,6 +310,13 @@ protejo con sus tests unitarios.
 
 ## Un caso real: el origen del modulo `dateutils`
 
+Una vez introducidos al mundo del refactoring.
+Recuperemos el tema de las fechas
+y veamos como a lo largo del desarrollo del sistema de gestión de Guifibaix,
+los diferentes refactorings sobre el código que trabajaba con fechas
+han dado lugar al módulo `dateutils`.
+
+
 ### Centralizando el formateo de fechas
 
 Desarrollando nuestro programa de gestión, pasó que las llamadas a `strftime`
@@ -326,7 +333,7 @@ a veces simplemente emborronaban el código.
 > - Si tienes que corregir un error, tienes que arreglarlo en un monton de sitios ¡y acordarte!
 
 Para solventar la repetición fuimos creando funciones
-que dada una fecha retornaban un formato o otro:
+que dada una fecha retornaban un formato u otro:
 
 ```python
 def slashDate(date):
@@ -339,12 +346,14 @@ acabamos creando un módulo llamado `dateutils` con ellas dentro.
 - `catalanDate` para las fechas de inicio y fin de los periodos de facturación y descuentos en las facturas: `2 de Juny de 2015`
 - `slashDate` para las fechas de las facturas, para adaptarnos al formato de factura de Gats.
 - `compactDate` para los ficheros SEPA y algunos mas
+- `isoDate` lo usamos como formato por defecto
 
 
 ### Parseando fechas
 
-Otra cosa que teniamos que hacer en varios sitios es tomar algo que nos llega
-y asegurar que lo que tenemos sea un `datetime`.
+Otra cosa que teniamos que hacer en varios sitios es tomar algo que nos llega,
+bien escrito en un fichero, por línea de comandos...
+y construir con ello un `datetime` que podamos manipular.
 Por ejemplo, nos puede llegar un texto con la fecha en formato ISO,
 o cualquier otro de los que teniamos arriba,
 nos puede llegar un `datetime`, una tupla año-mes-día, o al reves una tupla de día-mes-año.
@@ -358,14 +367,15 @@ Como `today` es un método de clase y factoria.
 datetime.datetime(2015,6,2,0,0)
 ```
 
-Claro que esto funciona porque sabemos que formato nos va a llegar,
-y esto era así la mayoria de las veces.
-Pero a veces no llegaba el formato esperado y ese día el programa fallaba.
+Claro que esto funciona porque sabemos que formato nos va a llegar.
+Aunque esto era así la mayoria de las veces,
+a veces no llegaba el formato esperado y ese día el programa fallaba.
 Así que, si queremos que nuestro programa se sepa adaptar a la mayoría de casos,
 debemos detectar el formato y generar la fecha.
 
-Así que para eso creamos la función `dateutils.date`, que transparentemente convertía,
-si es posible, lo que sea a un objeto `datetime.date`.
+Así que para eso creamos la función `dateutils.date`,
+que transparentemente convertía,
+si es posible, lo que sea a un objeto de tipo `datetime.date`.
 
 Por ejemplo:
 
@@ -390,6 +400,9 @@ datetime.date(2015,6,2)
 
 Implementada en un solo sitio y cubierta por tests,
 la función nos da la seguridad de que si falla es porque no es una fecha.
+El código de conversion a fecha que tambien estaba duplicado por muchos sitios se redujo a una llamada.
+Además no todo el código de conversión antiguo soportaba todos los casos, ahora sí,
+y si apareciera uno nuevo, solo tendriamos un punto donde añadirlo.
 
 > **Ejercicio:**
 > Usa la función `dateutils.date` e intenta putearla.
@@ -397,7 +410,7 @@ la función nos da la seguridad de que si falla es porque no es una fecha.
 > Algún caso habrá.
 
 Haciendo que todas las funciones de formateo lo primero que hagan
-es llamar a date sobre lo que sea que le pasemos por parámetro,
+es llamar a `date` sobre lo que sea que le pasemos por parámetro,
 las funciones de formato se vuelven muy versátiles:
 
 ```python
@@ -410,9 +423,11 @@ las funciones de formato se vuelven muy versátiles:
 
 ### Rellenando plantillas con templates
 
-Repasamos como rellenar plantillas con ficheros YAML.
+Para entender el siguiente paso de evolucion de `dateutils`
+combiene hacer un repaso a como rellenar plantillas con ficheros YAML.
 
-Creamos datos YAML con los que rellenar plantillas con el modulo de GuifiBaix `namespace`.
+Recordamos como crear datos YAML con los que rellenar plantillas
+con el modulo de GuifiBaix `namespace`.
 
 ```python
 >>> from namespace import namespace as ns
@@ -437,6 +452,8 @@ fechaNacimiento: 1988-03-20
 >>> datos.dump("perico.yaml")
 ```
 
+Estos datos los podemos usar para rellenar una plantilla de esta manera:
+
 ```python
 plantilla = """\
 Hola, me llamo {nombre} {apellido1}.
@@ -460,11 +477,12 @@ aplicar un YAML a un fichero con la plantilla.
 $ nstemplate.py apply datos.yaml plantilla.md salida.md
 ```
 
+
 ### Formateando fechas en los templates
 
 La librería `python-yaml` que usamos para cargar los ficheros YAML
 detecta los campos con fechas ISO y genera datos de tipo `datetime.data`.
-Y cuando usamos una fecha `datetime.date` en un `format`
+Y cuando rellenamos una plantilla con un dato tipo `datetime.date`
 lo que se imprime es la fecha en formato ISO.
 
 ```python
@@ -474,11 +492,13 @@ lo que se imprime es la fecha en formato ISO.
 >>> "Hoy es {today}".format(**datos)
 'Hoy es 2015-06-02'
 ```
+
 El problema llega si queremos obtener en una plantilla
-algun formato diferente al ISO, que es lo que suele pasar.
+algun formato diferente al ISO, que es lo que suele pasar
+puesto que solo los frikis usan el ISO.
 
 El método `format` nos permite poder acceder a los attributos usando la sintaxis del punto.
-Las fechas tienen atributos como `year`. `month`, `day`...
+Las fechas tienen atributos como `year`, `month`, `day`...
 Así que podríamos hacer:
 
 ```python
@@ -486,11 +506,12 @@ Así que podríamos hacer:
 ```
 
 > **Ejercicio:**
-> Explora otros atributos de la fecha usando el tabulador.
+> Explora otros atributos de la fecha usando el tabulador en el interprete interactivo.
 > Algunos son atributos, que se pueden acceder sin paréntesis,
 > otros son funciones y para acceder necesitaremos llamarlas.
 
-Para poder escoger que formato imprimimos en una plantilla,
+Para poder escoger que formato,
+imprimimos en una plantilla,
 aplicándole un YAML directamente,
 convendría tener nuestros formatos disponibles como atributos en las fechas.
 Igual que estan disponibles `day`, `year`, `month` y `weekday`.
@@ -521,15 +542,22 @@ Con estos atributos podemos hacer código como:
 'Hoy es 02/06/2015'
 ```
 
-Los refactorings no se acabaron ahí.
-¿Cómo siguió evolucionando el código?
+Además, la se cambió librería `namespace` para decirle a la libreria de los YAML's
+que, para las fechas, se usara el tipo `dateutils.Date` en vez de `datetime.time`.
 
-- Primero `dateutils.Date`, delegaba en las funciones que habíamos hecho en `dateutils`
-	- Si lo que recibía el constructor no era un `datetime.date` se llamaba a la función `dateutils.date` para obtenerlo.
-	- Los atributos de formateo llamaban a las funciones `dateutils.slashDate` y compañía.
-- En un refactoring posterior, se invirtió la delegación:
-	- Primero se duplicaba el codigo de la función dentro de la clase
-	- Después hacíamos que la función llamara a la clase, eliminando la duplicación
+### Inversión de responsabilidades
+
+Los últimos refactorings importantes relacionados con el módulo `dateutils`
+fue invertir quien delegaba la faena a quien.
+
+Al principio, la implementación de las conversiones de formato
+estaban en las funciones libres:
+`date`, `slashDate`...
+La clase `dateutils.Date` delegaba en ellas para ofrecer su funcionalidad.
+
+El refactoring final consistio en invertir la delegación.
+Las funciones libres construian un `dateutils.Date`
+y delegaban en los métodos de la clase a donde se movió el código original.
 
 Y ese es el código que tenemos ahora.
 Todas las funciones libres (`date`, `catalanDate`...)
@@ -543,7 +571,8 @@ Echale un ojo al código.
 Hemos visto todos los refactorings que hemos ido haciendo
 para simplificar el código de manejo de fechas.
 
-Aún hay sitios en el código de GuifiBaix donde las fechas son textos.
+Aún hay sitios en el código de GuifiBaix donde las fechas son textos
+y tenemos código antiguo de conversión.
 En el YAML de las facturas dos campos, `dataEmisio` y `dataVenciment`,
 están formateados en formato `slashDate` y no en iso.
 Eso implica que cuando lo cargamos, python no lo maneja como una fecha sino como un texto.
@@ -577,10 +606,11 @@ que queremos substituir por otro.
 Pues como procederíamos en una reforma,
 construyendo andamiaje para que nada se caiga
 hasta que tengamos lo nuevo funcionando.
+Por eso, dividimos el proceso en cuatro pasos:
 
 - **Duplicar:** Crear la nueva estructura sin tumbar la que había
-- **Rellenar:** Rellenar la nueva estructura para que en cada momento contenga lo mismo que la antigua
-- **Usar:** Que el código que se basaba en la estructura vieja se base en la nueva.
+- **Rellenar:** Rellenar la nueva estructura igual que se rellena la nueva para que en cada momento las dos contengan lo mismo.
+- **Usar:** Que el código que se basa en el contenido de la estructura vieja se base en el de la nueva, que ahora es igual.
 - **Limpiar:** Eliminar los usos de la estructura antigua.
 
 Si lo hacemos en este orden, podemos mantener el programa (¡y los tests!) funcionando en todo momento.
@@ -595,7 +625,7 @@ En nuestro caso, tendremos que:
 ### Situémonos
 
 Lo esencial pues es averiguar donde se usan esos campos.
-Y donde se usan, identificar si se usan para darles valor (_set_) o para tomar su valor (_get_).
+Y, de esos usos, identificar si son para darles valor (_set_) o para tomar su valor (_get_).
 También si el hecho de tener un `dateutils.Date` da pie a simplificar el código.
 
 Usa el comando `grep` para buscar donde se usan los campos `dataEmisio` y `dataVenciment`.
@@ -805,17 +835,24 @@ basándose en `dataEmisio` y `dataVenciment`.
 	- Recuerda para acceder al primer parámetro de la línea de comandos: `sys.argv[1]` y necesita un `import sys`.
 - Empezaremos las pruebas con una factura que esté controlada con el git
 	- Si la fastidiamos: `git checkout factura.yaml`
-- Usa el método (de clase!) `namespace.namespace.load` para cargar el fichero yaml como `namespace` en una variable, por ejemplo `factura`.
-	- Si necesitas algun ejemplo haz un grep de `load`
+- Usa el método `namespace.namespace.load` para cargar el fichero yaml como `namespace` en una variable, por ejemplo `factura`.
+	- Ey, ¡`load` es otro método de clase y factoría!
+
+	```python
+	import sys
+	from namespace import namespace as ns
+	if __name__ == '__main__':
+		invoice = ns.load(sys.argv[1])
+	```
+
 - Para asegurarnos de que alcanzamos los datos imprime `factura.dataEmisio` y `factura.dataVenciment`
 
 	```python
-	invoice = ns.load(sys.argv[1])
-	print(invoice.dataEmisio)
-	print(invoice.dataVenciment)
+		print(invoice.dataEmisio)
+		print(invoice.dataVenciment)
 	```
 
-- Convierte la carga en un `for` para `file` en `argv[1:]`, de esta manera podemos aplicar el script a todas las facturas usando comodines.
+- Convierte la carga en un `for` para `yaml` en `argv[1:]`, de esta manera podemos aplicar el script a todas las facturas usando comodines.
 
 
 	```bash
@@ -823,10 +860,10 @@ basándose en `dataEmisio` y `dataVenciment`.
 	```
 
 	```python
-	for yaml in sys.argv[1:]:
-		invoice = ns.load(yaml)
-		print(invoice.dataEmisio)
-		print(invoice.dataVenciment)
+		for yaml in sys.argv[1:]:
+			invoice = ns.load(yaml)
+			print(invoice.dataEmisio)
+			print(invoice.dataVenciment)
 	```
 
 - Puedes usar la función `step` de `consolemsg.py` para ver por donde va
@@ -834,18 +871,18 @@ basándose en `dataEmisio` y `dataVenciment`.
 	```python
 	from consolemsg import step
 	...
-	for yaml in sys.argv[1:]:
-		step(yaml)
+		for yaml in sys.argv[1:]:
+			step(yaml)
 		...
 	```
 
 - En vez de imprimir los campos tal cual, prueba de convertirlo en `dateutils.Date`
 
 	```python
-		...
-		print(dateutils.Date(invoice.dataEmisio))
-		print(dateutils.Date(invoice.dataVenciment))
-		...
+			...
+			print(dateutils.Date(invoice.dataEmisio))
+			print(dateutils.Date(invoice.dataVenciment))
+			...
 	```
 	- Si alguno falla, hemos detectado un error que podemos corregir a tiempo.
 
@@ -853,16 +890,16 @@ basándose en `dataEmisio` y `dataVenciment`.
 
 	```python
 	...
-	for file in sys.argv[1:]:
-		step(file)
-		invoice = ns.load(file)
-		invoice.issueDate = dateutils.Date(invoice.dataEmisio)
-		invoice.dueDate = dateutils.Date(invoice.dataVenciment)
-		invoice.dump(file)
+		for yaml in sys.argv[1:]:
+			step(yaml)
+			invoice = ns.load(yaml)
+			invoice.issueDate = dateutils.Date(invoice.dataEmisio)
+			invoice.dueDate = dateutils.Date(invoice.dataVenciment)
+			invoice.dump(yaml)
 	```
 
 - Si haces un `git diff` de las facturas podrás ver los cambios y si todos son buenos o no
-- Seguro que hay alguna informacion que se ha perdido (comentarios, formatos...) edítalos a mano si hiciera falta.
+- Seguro ves alguna informacion que se ha perdido (comentarios, formatos...) edítalos a mano si hiciera falta conservarlos.
 
 No hemos borrado el atributo antiguo.
 No lo queremos eliminar hasta que el código ya no lo use para nada.
@@ -878,13 +915,21 @@ from consolemsg import step
 
 if __name__ == '__main__'
 	step("Eliminant atributs 'dataEmisio' i 'dataVenciment'"))
-	for file in sys.argv[1:]:
-		step(file)
-		invoice = ns.load(file)
+	for yaml in sys.argv[1:]:
+		step(yaml)
+		invoice = ns.load(yaml)
 		del invoice.dataEmisio
 		del invoice.dataVenciment
-		invoice.dump(file)
+		invoice.dump(yaml)
 ```
+
+Una vez listos los scripts de migración de datos,
+vayamos a por el refactoring del código.
+
+**Si has aplicado el segundo script,
+acuerdate de restaurar los datos con el git, antes de proceder.**
+Solo tiene que aplicarse el primero.
+El segundo se aplica al final del refactoring.
 
 ### Duplicando donde se da valor a los atributos ('setters')
 
@@ -948,6 +993,8 @@ Nos podemos saltar, bajo nuestra responsabilidad,
 lo de pasar tanto los tests o commitear tan amenudo,
 pero contra más grandes hagamos los pasos,
 más grande puede ser el cachiporrazo.
+Es bueno empezar haciendo pasitos y
+dar los pasos grandes cuando sabemos que los podemos dar.
 
 
 ### Substituyendo donde se usan los valores ('getters')
