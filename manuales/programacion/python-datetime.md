@@ -536,53 +536,187 @@ En nuestro caso, tendremos que:
 ### Situémonos
 
 Lo esencial pues es averiguar donde se usan esos campos.
+Y donde se usan, identificar si se usan para darles valor (_set_) o para tomar su valor (_get_).
+También si el hecho de tener un `dateutils.Date` da pie a simplificar el código.
+
 Usa el comando `grep` para buscar donde se usan los campos `dataEmisio` y `dataVenciment`.
 
 ```bash
 $ grep -rIn 'data\(Emisio\|Venciment\)'
 ```
 
-Veremos que se usan en ficheros de código y en ficheros de datos.
+Veremos que se usan en los siguientes ficheros de código:
 
-- `data/example-maintainment-invoice.yaml`
 - `gb_registrafactura.py`
+	- Aqui usamos `dataVenciment` para generar un vencimiento en `cobraments.yaml`
+	- Es un uso de tipo _get_
+	- De hecho decodificamos a mano el slashDate, ni usamos las funciones de `dateutils`.
+      Nos estamos repitiendo, seguramente no lo estamos haciendo tan correcto como en `dateutils` y eso se podría simplificar.
 - `gb_remesasepa.py`
+	- Aquí tomamos (_get_) `dataVenciment` i `dataEmisio` para usarlas en los ficheros de remesa
+	- Hacemos conversión explicita a `dateutils.Date` que no haría falta
+	- Hacemos `dateutils.slashDate(invoice.dataEmisio)`, bastaría con `invoice.issueDate.slashDate`
 - `gb_facturamanteniment.py`
+	- Usos de tipo _set_ en dos sitios:
+		- Funcion `generateInvoice` donde tomamos algo que representa una fecha y lo convertimos en `slashDate`.
+		  No haria falta convertirlo a `slashDate` pero si a `dateutils.Date`.
+		- En los datos de test, donde lo asignamos a un texto literal con el _slashDate_.
 - `gb_factura.py`
+	- Un uso de tipo _set_ en `dummyInvoice`
+	- Un uso de tipo _get_ cuando se rellena el valor de la fecha en la casilla de la factura correspondiente con el `slashDate`
+	- Un uso de tipo _set_ cuando indicamos las fechas con la línea de comandos o sinó tomamos los que tengan sentido (emisión hoy, vencimiento en 15 días)
+	- Un uso de tipo _get_ de `dataEmisio` cuando la usamos para deducir `dataVenciment` y el año del ejercicio (`year`)
 
+Podríamos cambiarlo al tajo,
+pero es improbable que salga bien a la primera,
+si fallara algo nos costaría detectar que es,
+y seguro que, una vez que pensemos que esta todo,
+no tendremos paciencia para comprobar
+que cada cosa que hemos cambiado funcione bien
+y algo se nos quedaría sin funcionar.
 
-Normalmente los usos son:
-
-- Se le da un valor al campo
-- Se usa el valor para:
-	- formatear una salia
-	- obtener otro dato
-
-Piensa para cada uso como sería si usamos `dateutils.Date`.
-
+Vamos a aprender como hacerlo bien,
+para que no perder el control.
 
 ### Asegurando el suelo por el que pisamos
 
 Para asegurarnos de que no la cagamos,
-nos aseguraremos de que todo cambio tiene un test unitario que lo hace fallar,
-y si no, como mínimo crearemos un back-to-back.
+nos aseguraremos de que todo comportamiento
+tenga un test unitario que falle si cambia.
+y si no, como mínimo, crearemos un back-to-back.
 
-Una parte importante de los scripts es el `gb_balance.py`
-y no tiene tests unitarios para el conjunto.
+Para ejecutar los tests unitarios tenemos el script `test_all.sh`.
 
-Genera un script shell que haga un b2b sobre su resultado.
-Añadelo a `test_all.sh` (no lo comitees).
+Una forma rápida de tener un b2b funcionando
+es usar un git temporal para poner las salidas de los comandos
+y detectar cuando cambian.
 
-La salida de este tests b2b cambiará cuando cambien los datos,
+Para crear un repositorio nuevo temporal
+para los datos de referencia del b2b:
+
+```bash
+$ git init b2bdata
+```
+
+Las salidas de b2b las colocaremos en ese directorio.
+La primera vez que ejecutemos los scripts,
+añadiremos esas salidas al control del git y comitearemos.
+Si las sucesivas ejecuciones varian, git lo detectará como cambio.
+
+El script que ejecute los b2b:
+
+- borrará todos los archivos de `b2bdata` para asegurarnos de que son los comandos que los generan
+- ejecutará los comandos de b2b
+- `git status` para detectar las diferencias y `git diff` para mostrarlas.
+- Lo llamaremos temporalmente desde el `test_all.sh` que también ejecuta los unitarios
+
+Veamos que necesidades de testing tenemos:
+
+- `gb_factura.py`:
+	No tiene tests unitarios, y la salida, un PDF es binária.
+	No habrá más opción cuando modifiquemos este que comprobar visualmente el PDF.
+	Si podemos hacer un b2b a la opción `--dump`:
+
+	```bash
+	$ gb_factura --dump b2bdata/factura-default.yaml
+	$ gb_factura --dump b2bdata/factura-issue.yaml --issue 2010-09-08
+	$ gb_factura --dump b2bdata/factura-due.yaml --due 2017-09-08
+	```
+
+- `gb_facturamanteniment.py`
+	Este script está suficientemente cubierto por los tests unitarios.
+
+- `gb_remesasepa.py`
+	Esta cubierto por tests pero justamente el uso que hacemos de los atributos
+	queda fuera, pues se usa en la función principal asi que también
+	añadiremos un b2b:
+
+	```bash
+	$ gb_remesasepa.py --paid --reference 1234567890123 \
+		--now 00:00:00 --today 2014-01-01
+	```
+
+	Genera dos ficheros con todos los vencimientos sobre el cual hacer b2b
+
+	- `PRE-20140101-010203-00000-1234567890123.csv` y
+	- `PRE-20140101-010203-00000-1234567890123.c19`.
+
+	El script de b2b tendrá que moverlos al directorio `b2bdata`.
+	De hecho hay que ejecutarlo desde `tresoreria`, 
+	el script de b2b entrará y volverá a ese directorio.
+
+- `gb_registrafactura.py`
+
+	Podemos hacer el b2b con la salida de:
+
+	```bash
+	$ gb_registrafactura.py --all
+	```
+
+	También hay que ejecutarlo desde `tresoreria`.
+
+El script de back2back quedaria como sigue:
+
+
+```bash
+#!/bin/bash
+
+# Esto hay que cambiarlo para que apunte donde toca
+TRESORERIA=path/to/tresoreria
+# Obtenemos el path del propio script
+BASEPATH=$(dirname $(realpath -s $0))
+B2BDATA=$BASEPATH/b2bdata
+
+# Crea el repositorio de b2bdata si no existe
+[ -d "$B2BDATA" ] || git init "$B2BDATA"
+
+# Borra las referencias, si no se generan no estarán
+rm "$B2BDATA"/*
+
+# Ejecutamos los comandos que queremos controlar
+(
+	gb_factura.py --dump $B2BDATA/factura-default.yaml
+	gb_factura.py --dump $B2BDATA/factura-issue.yaml --issue 2010-09-08
+	gb_factura.py --dump $B2BDATA/factura-due.yaml --due 2017-09-08
+)
+(
+	cd $TRESORERIA
+	gb_remesasepa.py --paid --reference 1234567890123 \
+		--now 01:02:03 --today 2014-01-01
+
+	mv PRE-20140101-010203-00000-1234567890123.csv $B2BDATA/
+	mv PRE-20140101-010203-00000-1234567890123.c19 $B2BDATA/
+
+	gb_registrafactura.py --all > $B2BDATA/cobraments.yaml
+)
+
+# Miramos que referencias han cambiado con el git
+(
+	cd $B2BDATA/
+	git status --porcelain
+	[ "$(git status --porcelain)" == "" ] &&
+		echo -e '\033[32;1mTest passed!!\033[0m' ||
+		echo -e '\033[31;1mTest failed!!\033[0m'
+)
+
+```
+
+La primera vez que se ejecute, hay que entrar establecer la referencia:
+
+```bash
+cd b2bdata
+git add *
+git commit . -m 'first'
+```
+
+
+Ojo que la salida de estos comandos que usamos de b2b
+cambia a la que cambien los datos (entren facturas, cobros...),
 ya dijimos que los b2b son bastane débiles,
 pero nos servirá mientras hacemos el refactoring.
 
-Otros scripts susceptibles de plantear un b2b son:
 
-- TODO: básate en el analisis que has hecho en el anterior punto
-
-
-### Creamos los scripts de migración
+### Creando los scripts de migración de datos
 
 Una migración en informática es saltar de un sistema a otro.
 Por ejemplo, se migra de Windows a Linux o de una versión de Ubuntu a otra.
@@ -590,25 +724,26 @@ Por ejemplo, se migra de Windows a Linux o de una versión de Ubuntu a otra.
 Cuando hablamos de **migración de datos**,
 lo que hacemos es actualizar los datos,
 por ejemplo nuestros YAML,
-para que funcionen con una nueva versión del código diferente.
+para que funcionen con una versión del código diferente.
 
 En nuestro caso lo que hay que hacer es
-substituir los atributos viejos con nombres en catalán y de tipo texto
-por los nuevos atributos con nombres en inglés y de tipo `dateutils.Date`.
+substituir los atributos viejos, con nombres en catalán y de tipo texto,
+por los nuevos atributos, con nombres en inglés y de tipo `dateutils.Date`.
 Pero como hemos dicho, en los refactorings, antes de quitar lo viejo
 hay que tener lo nuevo funcionando, y, durante el transito,
 hay que mantener las dos estructuras.
 Asi que la migración la haremos en dos pasos:
 
-- Añadir los atributos nuevos basandonos en los viejos
-- Eliminar los atributos viejos para cuando se acabe el refactor.
+1. Añadir los atributos nuevos basandonos en (y manteniendo) los viejos
+1. Eliminar los atributos viejos para cuando se acabe el refactor.
 
-Para el primer script:
+El primer script lo podemos llamar `migration_01_addIssueDateAndDueDate.py`.
+Leera ficheros YAML de las facturas y le añadirá dos atributos en inglés, `issueDate` y `dueDate`,
+basándose en `dataEmisio` y `dataVenciment`.
 
-- Crea un script `./migration_01_addIssueDateAndDueDate.py`, dale permisos y demás
-- Este script leera ficheros YAML de las facturas y le añadirá dos atributos en inglés `issueDate` y `dueDate`
-- Lo mas práctico es empezar con un fichero que le pasamos por línea de comandos los yaml's
-	- Recuerda para acceder al primer parámetro de la línea de comandos: `sys.argv[1]` y hay que hacer `import sys`.
+- Crea el script, dale permisos y demás
+- Lo mas práctico es pasarle el nombre del YAML por línea de comandos
+	- Recuerda para acceder al primer parámetro de la línea de comandos: `sys.argv[1]` y necesita un `import sys`.
 - Empezaremos las pruebas con una factura que esté controlada con el git
 	- Si la fastidiamos: `git checkout factura.yaml`
 - Usa el método (de clase!) `namespace.namespace.load` para cargar el fichero yaml como `namespace` en una variable, por ejemplo `factura`.
@@ -628,14 +763,21 @@ Para el primer script:
 	$ ./migration_01_addIssueDateAndDueDate.py factura*.yaml
 	```
 
-- Puedes usar la función `step` de `consolemsg.py` para indicar el progreso.
-
 	```python
-	for file in sys.argv[1:]:
-		step(file)
-		invoice = ns.load(file)
+	for yaml in sys.argv[1:]:
+		invoice = ns.load(yaml)
 		print(invoice.dataEmisio)
 		print(invoice.dataVenciment)
+	```
+
+- Puedes usar la función `step` de `consolemsg.py` para ver por donde va
+
+	```python
+	from consolemsg import step
+	...
+	for yaml in sys.argv[1:]:
+		step(yaml)
+		...
 	```
 
 - En vez de imprimir los campos tal cual, prueba de convertirlo en `dateutils.Date`
@@ -646,18 +788,7 @@ Para el primer script:
 		print(dateutils.Date(invoice.dataVenciment))
 		...
 	```
-	- Si alguno falla es que seguramente no contenga una fecha, lo resolvemos
-
-- Puedes usar la función `step` de `consolemsg.py` para indicar el progreso.
-
-	```python
-	...
-	from consolemsg import step
-	...
-	for file in sys.argv[1:]:
-		step(file)
-		...
-	```
+	- Si alguno falla, hemos detectado un error que podemos corregir a tiempo.
 
 - Y finalmente podemos crear los atributos nuevos y sobreescribir el fichero
 
@@ -676,8 +807,7 @@ Para el primer script:
 
 No hemos borrado el atributo antiguo.
 No lo queremos eliminar hasta que el código ya no lo use para nada.
-Pero podemos preparar el script de migración.
-
+Pero podemos preparar el script de migración que lo borra, para después.
 
 Lo podemos llamar `migration_02_deleteDataEmisioVencimient.py`
 y tendría una pinta como:
@@ -697,14 +827,14 @@ if __name__ == '__main__'
 		invoice.dump(file)
 ```
 
-### Creando los atributos en código ('setters')
+### Duplicando donde se da valor a los atributos ('setters')
 
-En nuestro caso vamos a hacer los pasos de 'Duplicar' y 'Rellenar' juntos.
+En este caso vamos a hacer los pasos de 'Duplicar' y 'Rellenar' juntos.
 De los sitios donde el `grep` decía que usabamos los atributos,
 hay que identificar aquellos en los que se les da un valor (`set`, dar valor)
 que son distintos en los que se toma el valor para hacer algo (`get`, coger).
 
-Por ejemplo:
+Ejemplos de _set_:
 
 ```python
 invoice.dataEmisio = '01/02/2015'
@@ -723,11 +853,17 @@ invoice.dataEmisio = '01/02/2015'
 invoice.issueDate = dateutils.date('01/02/2015')
 ```
 
-A las apariciones de los atributos en ficheros YAML ya les pasaremos nuestro script de migración de datos.
-Pero hay YAML que esta escrito en el código, por ejemplo para los tests.
+Si bien, a las apariciones de los atributos en ficheros YAML
+ya les pasaremos nuestro script de migración de datos,
+hay YAML que está escrito en el código como literales de texto,
+por ejemplo para los tests.
 
-```yaml
+```python
+testData = """\
+...
 dataEmisio: 01/02/2015
+...
+"""
 ```
 
 Como aquí no entra el script de migración, lo duplicaremos nosotros así:
@@ -755,7 +891,7 @@ pero contra más grandes hagamos los pasos,
 más grande puede ser el cachiporrazo.
 
 
-### Substituyendo los usos ('getters')
+### Substituyendo donde se usan los valores ('getters')
 
 Una vez que tenemos los atributos nuevos rellenados
 y teoricamente, con un valor equivalente a los viejos,
@@ -801,6 +937,25 @@ Y ya tenemos el refactoring hecho.
 algún refactoring pendiente que simplificara el código.
 
 Haz un diff con la revisión original y contempla tu obra.
+
+
+### Reflexionando sobre lo hecho
+
+Muchas veces nos parece tan obvio el cambio que vamos directamente a modificarlo todo a la vez.
+Puede salir bien, pero, casi siempre que he hecho esto, he acabado metiéndome en camisa de once varas.
+
+Fíjate que en ningún momento los programas han dejado de funcionar.
+
+Esto es muy importante, porque a veces nos metemos en modificaciones
+que duran más de lo previsto, y si, por el hecho de estar en medio
+de un refactoring, el sistema no está listo, todo se para.
+
+O, al revés, por miedo de que se pare,
+no hacemos un refactoring que facilitaría la inclusión de nuevas funcionalidades.
+Esta forma de trabajar nos permite coger al toro por los cuernos,
+ser más valientes a la hora de modificar el código,
+porque tenemos una red de tests que parará nuestra caída.
+
 
 
 
