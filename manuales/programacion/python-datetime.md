@@ -544,12 +544,12 @@ que extiende la clase `dateutils.date` y además:
 - tiene atributos (calculados) `compact`, `slashDate`, `catalanDate`...
 
 > **Detalle avanzado:**
-> En la clase `dateutils.Date`, `catalanDate` y compañía son **atributos calculados**, o **properties**,
-> son métodos que llevan delante de su definición `@property`,
-> se accede a ellos como si fueran atributos,
-> pero estás llamando a un método.
-> `format` no nos deja llamar métodos, pero si son properties, no hay problema porque no usamos el operador llamada (paréntesis).
-> Son conceptos parecidos, pero no confundas estas _properties_ con las de Qt.
+> En la clase `dateutils.Date`, `catalanDate` y compañía son **atributos calculados**, o **properties**.
+> Son métodos que llevan delante de su definición `@property`.
+> Se accede a ellos como si fueran atributos,
+> pero el valor no está ahi sino que se llama al método para obtenerlo.
+> `format` no nos deja llamar métodos, pero sí nos deja acceder a atributos.
+> **Nota:** Son conceptos parecidos, pero no confundas estas _properties_ de Python con las de Qt.
 
 Con estos atributos podemos hacer código como:
 
@@ -561,8 +561,9 @@ Con estos atributos podemos hacer código como:
 'Hoy es 02/06/2015'
 ```
 
-Además, la se cambió librería `namespace` para decirle a la libreria de los YAML's
-que, para las fechas, se usara el tipo `dateutils.Date` en vez de `datetime.time`.
+Para tener esta funcionalidad disponible nada más cargar el YAML
+se cambió librería `namespace` para que el YAML nos diera objetos
+`dateutils.Date` en vez de `datetime.time`.
 
 ### Inversión de responsabilidades
 
