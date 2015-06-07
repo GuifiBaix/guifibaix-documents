@@ -7,9 +7,11 @@ documenclass: book
 
 # Introducción
 
-> «Escribir código que entienda el ordenador puede ser complicado.
-> Pero el buen programador es el que escribe código
-> que entienden con facilidad otras personas...
+> «Para un programador es necesaria la habilidad
+> de escribir código que entienda el ordenador.
+> Pero acaba siendo una habilidad inútil si no tiene
+> también la habilidad de escribir código
+> que entiendan con facilidad otras personas...
 > (o uno mismo, cuando pase el tiempo)»
 >
 > Martin Fowler (parafraseado)
@@ -62,7 +64,7 @@ a la vez que lo ejecuta.
 No genera el archivo binario intermedio
 y, cada vez que lo queramos ejectuar,
 necesitaremos tanto el texto del programa (script) como el intérprete.
-  
+
 - Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
 
 En general, un lenguaje interpretado se ejecutará más
@@ -184,7 +186,7 @@ detecten que es un fichero escrito en Python y lo coloreen adecuadamente.
 
 ## Reglas generales de sintaxis
 
-La sintaxis de Python sigue unos principios generales.
+La sintaxis de Python sigue unos principios generales bastante homogéneos:
 
 - Un script en Python se compone de una serie de **sentencias**.
 Esas sentencias, las podemos escribir directamente en el intérprete
@@ -210,6 +212,7 @@ Los dos puntos indican que se da paso a una serie de **subsentencias**,
 que van **indentadas a un nivel más adentro**.
 
 	```python
+	# Repetición infinita
 	while True :  # Repite las subsentencias mientras... siempre
 		print("hola")
 		print("mundo")
@@ -406,15 +409,7 @@ Por eso:
 14
 ```
 
-Cuando combinamos operadores del mismo nivel, resuelven de izquierda a derecha,
-es decir, tal y como se lee.
-
-```python
->>> 2 + 3 + 4 + 5 # se resuelve ((2+3)+4)+5
-14
-```
-
-Si el orden que sale de la prioridad de operadores no nos gusta,
+Sí, cuando el orden que sale de la prioridad de operadores no nos gusta,
 podemos agrupar con paréntesis:
 
 ```python
@@ -427,12 +422,21 @@ podemos agrupar con paréntesis:
 Los paréntesis aunque no sean necesarios porque la prioridad ya lo ejecuta como queremos,
 también ayudan a leer y entender la expresión.
 
-Hay que recordar que no solo escribimos código para el ordenador.
+Recuerda que no solo escribimos código para el ordenador.
 También escribimos código para el siguiente programador que tenga
 que revisarlo, que podemos ser nosotros mismos de aquí a un tiempo
 cuando ya apenas recordemos como iba el programa.
 Si vemos los paréntesis no tendremos que pensar en cual es la
 prioridad o sospechar si cuando lo escribimos la teníamos clara.
+
+Cuando combinamos operadores del mismo nivel,
+se resuelven de izquierda a derecha,
+es decir, tal y como se lee.
+
+```python
+>>> 2 + 3 + 4 + 5 # se resuelve ((2+3)+4)+5
+14
+```
 
 > **Ejercicio:** Usa el ipython3 como calculadora para hacer algunos cálculos.
 
@@ -440,12 +444,12 @@ A parte de los literales que hemos visto,
 podemos usar otras notaciones para los literales numéricos:
 
 ```python
->>> # Notaciones alternativas (int)
+>>> # Notaciones alternativas para int
 >>> 0xF0  # notacion hexadecimal, con 0x delante
 240
 >>> 0b10010  # notacion en binario, con 0b delante
 18
->>> # Notaciones alternativas (float)
+>>> # Notaciones alternativas para float
 >>> 1.3e-5  # notación científica, equivale a 1.3*(10**(-5))
 1.3e-5
 ```
@@ -474,7 +478,8 @@ A estas funciones que están disponibles desde el principio
 se les llama _built-in_.
 
 Desde el primer ejemplo hemos estado usando una de ellas, la función `print`.
-`print` es una función que no devuelve nada pero tiene el efecto lateral
+`print` es una función que no devuelve nada (un objeto `None`)
+pero tiene el efecto lateral
 de mostrar por pantalla los valores que le pasamos.
 
 Si una sentencia es una expresion,
@@ -586,7 +591,7 @@ Y tenemos algunas funciones _built-in_ que podemos usar con secuencias:
 
 Todas las  expresiones que hemos visto anteriormente,
 incluyendo las que forman parte de otras expresiones,
-generan valores que una vez los hemos hecho servir desaparecen.
+generan valores que una vez los hemos hecho servir desaparecen de la memoria del ordenado.
 
 Las **variables** nos permiten mantener una referencia a un **valor**,
 para volverlo a usar después.
@@ -603,11 +608,12 @@ Decimos que *asignamos un valor a la variable*.
 ```
 
 En Python, una misma variable en un script puede ir apuntando a valores diferentes.
-De hecho, puede apuntar incluso a valores de diferente tipo.
+De hecho, puede apuntar incluso a valores de diferente tipo,
+cosa que en otros lenguages como C o Java no se puede.
 
 ```python
-a = 12        # tipo entero (int)
-a = 'hola'    # tipo texto (str)
+a = 12       # tipo entero (int)
+a = 'hola'   # tipo texto (str)
 a = 3.1416   # tipo coma flotante (float)
 ```
 
@@ -625,10 +631,11 @@ Martin Fowler vendrá por la noche, matará tus procesos y violará a tus segmen
 
 Así que para dar a entender el significado de una variable
 en vez de llamarla `a`, la llamaremos `anguloRecorrido`.
-Para que sea explicativa una variable suele necesitar
-más de una palabra,
+
+Para que el nombre de una variable sea explicativo
+se suele necesitar más de una palabra,
 pero los nombres de variables no pueden contener espacios,
-así que podemos usar varias nomenclaturas:
+así que se usan diferentes nomenclaturas:
 
 - **Lower Case**: `sinningunadiferenciaentrepalabras`
 - **Camel Case**: `alteramosLasMayusculasAlInicioDePalabra`
@@ -637,7 +644,8 @@ así que podemos usar varias nomenclaturas:
 La primera estrategia es bastante ilegible aunque para nombres cortos funciona.
 La segunda es más legibles sobretodo cuando te acostumbras.
 Y la tercera aunque parezca más legible,
-confunde cuando lo mezclas con otros operadores.
+confunde cuando se mezcla con otros operadores que se parecen al guión bajo,
+como el punto, la coma o el guión normal.
 
 Como con el estilo de indentación, cada uno tiene sus preferencias y motivos,
 pero conviene que el criterio sea coherente dentro de cada proyecto.
@@ -682,7 +690,7 @@ El último es el -1, el penúltimo el -2.
 
 También podemos sacar rebanadas (_slices_)
 usando inicio y final separado por dos puntos.
-El final no se incluye.
+**El índice final no se incluye.**
 
 ```python
 >>> a[2:6] # de la tercera (2) a la sexta letra (5)
@@ -695,7 +703,7 @@ El final no se incluye.
 'murcielago'
 ```
 
-> **Ejercicio:** ¿Porque en la ultima expresión no se repite el índice 5?
+> **Pregunta:** ¿Porque en la ultima expresión no se repite el índice 5?
 
 Un tercer elemento en el _slice_ es el paso;
 cuantas casillas saltamos.
@@ -714,16 +722,18 @@ Normalmente es 1, pero si lo especificamos...
 'ogaleicrum'
 ```
 
-**Pregunta:** ¿Porqué `a[6:2:-1]` no son las mismas letras invertidas que con `a[2:6]`?
+> **Pregunta:** ¿Porqué `a[6:2:-1]` no son las mismas letras invertidas que con `a[2:6]`?
 
-**Pregunta:** ¿Qué retornaria a[5:5]? ¿Porqué?
+> **Pregunta:** ¿Qué retornaria a[5:5]? ¿Porqué?
 
 **Reflexión:**
 
 > **¿Porqué lo complican todo empiezando los índices por cero y haciendo que el final de los intervalos no se incluya?**
 >
 > Es heréncia de cuando se trabajaba con el hardware.
-> Hubo una ola de lenguajes que intentaron usar el 1 como primer índice, pretendiendo ser más simples.
+> El texto está en una posición de memoria,
+> para acceder a la segunda letra hay que saltar 1 posicion, para acceder a la primera, cero posiciones.
+> Hubo una ola de lenguajes que intentaron usar el 1 como primer índice, pretendiendo ser más naturales.
 > Resultó que todo el código acabo siendo más complicado.
 > Las operaciones con índices basados en 0 son mucho más simples.
 > Que los índices empiecen por 1 acaba siendo un incordio.
@@ -2199,6 +2209,8 @@ False
 # Temas pendientes TODO's
 
 - Diccionarios
+- Desempaquetando parámetros, llamadas con `*` y `**`
+- Parámetros abiertos, declaraciones con `*` y `**`
 - Manejando exepciones, `try`-`except`
 - Lanzando exepciones, `raise`
 - Leyendo ficheros, `open`, `read`, `close`
