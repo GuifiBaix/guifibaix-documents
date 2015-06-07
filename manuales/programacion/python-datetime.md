@@ -220,6 +220,13 @@ En resumen, cuando refactorizamos:
 - No han de añadir funcionalidad
 - Nos apoyamos en los tests que tenemos (¿no tenemos? ya sabemos lo que toca)
 
+Cuando añadimos/modificamos funcionalidad
+
+- El test primero, indica la funcionalidad
+- Hacemos que el test falle (para probar el test)
+- Hacemos el cambio mínimo para que pase
+
+
 ### Refactorizando con tranquilidad: los tests
 
 Para refactorizar con la conciencia tranquila
