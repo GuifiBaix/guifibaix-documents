@@ -7,10 +7,10 @@ documenclass: book
 
 # Introducción
 
-> «Escribir un programa que entienda el ordenador puede ser complicado.
-> Pero donde está el mérito es en escribir programas
-> que le sea fácil de entender a otras personas...
-> (o a uno mismo, cuando pase el tiempo)»
+> «Escribir código que entienda el ordenador puede ser complicado.
+> Pero el buen programador es el que escribe código
+> que entienden con facilidad otras personas...
+> (o uno mismo, cuando pase el tiempo)»
 >
 > Martin Fowler (parafraseado)
 

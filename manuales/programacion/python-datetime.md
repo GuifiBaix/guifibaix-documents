@@ -367,15 +367,31 @@ Como `today` es un método de clase y factoria.
 datetime.datetime(2015,6,2,0,0)
 ```
 
+O por ejemplo para parsear una fecha iso a pelo:
+
+```python
+> s = '2015-06-02'
+> datetime.date(*(int(x) for x in s.split('-')))
+datetime.date(2015,6,2)
+```
+
+o una slash date en orden europeo:
+
+```python
+> s = '02/06/2015'
+> datetime.date(*(int(x) for x in s.split('/')[::-1]))
+datetime.date(2015,6,2)
+```
+
 Claro que esto funciona porque sabemos que formato nos va a llegar.
 Aunque esto era así la mayoria de las veces,
 a veces no llegaba el formato esperado y ese día el programa fallaba.
 Así que, si queremos que nuestro programa se sepa adaptar a la mayoría de casos,
 debemos detectar el formato y generar la fecha.
 
-Así que para eso creamos la función `dateutils.date`,
-que transparentemente convertía,
-si es posible, lo que sea a un objeto de tipo `datetime.date`.
+Para eso creamos la función `dateutils.date`,
+que transparentemente convertía lo que fuera a un objeto de tipo `datetime.date`,
+si es posible.
 
 Por ejemplo:
 
@@ -409,15 +425,18 @@ y si apareciera uno nuevo, solo tendriamos un punto donde añadirlo.
 > Si encuentras un caso que no funcione, implementa el test y hazlo pasar.
 > Algún caso habrá.
 
-Haciendo que todas las funciones de formateo lo primero que hagan
-es llamar a `date` sobre lo que sea que le pasemos por parámetro,
-las funciones de formato se vuelven muy versátiles:
+Un refactoring muy conveniente después de este
+fue hacer que todas las funciones de formateo
+llamaran a `date` para convertir sus parametros fueran lo que fueran en una fecha.
+Las funciones de formato se volvieron así de versátiles:
 
 ```python
 >>> def slashDate(*args):
 ... 	adate = date(*args)
 ... 	return adate.strftime('%d/%m/%Y')
 >>> slashDate('20150602')
+'02/06/2015'
+>>> slashDate(2015,06,02)
 '02/06/2015'
 ```
 
@@ -426,7 +445,7 @@ las funciones de formato se vuelven muy versátiles:
 Para entender el siguiente paso de evolucion de `dateutils`
 combiene hacer un repaso a como rellenar plantillas con ficheros YAML.
 
-Recordamos como crear datos YAML con los que rellenar plantillas
+Recordemos como crear datos YAML con los que rellenar plantillas
 con el modulo de GuifiBaix `namespace`.
 
 ```python
