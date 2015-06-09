@@ -16,15 +16,35 @@ documenclass: book
 >
 > Martin Fowler (parafraseado)
 
+Este manual explica las bases del lenguaje de programación Python.
+Su propósito es formar a algunos compañeros de Guifibaix,
+pero es extendible a lectores con un perfil similar:
+que no hayan programado nunca
+aunque con nociones básicas de la consola Linux:
+como manejar ficheros desde línia de comandos,
+instalar programas, o hacer un script de `bash`.
+
+A lo largo del manual identificarás las ordenes que hay
+que ejecutar desde el terminal porque van precedidas de un signo `$`.
+Así:
+
+```bash
+$ echo hola mundo
+```
+
+Para algunos ejemplos y ejercicios,
+también es aconsejable conocer
+el uso del sistema de control de versiones `git`.
+
 
 ## Lenguajes de programación
 
 Un lenguaje de programación es la forma en que las personas
-indicamos a los programas cómo se tienen que comportar.
+definimos el comportamiento de los programas informáticos.
 Hay muchos lenguajes de programación.
-Cada uno tiene sus puntos fuertes
+Cada lenguaje tiene sus puntos fuertes
 o está más adaptado a según que tareas,
-sin contar con las preferencias de cada cual.
+o a las preferencias de cada persona.
 Por eso existen una miriada de lenguajes.
 
 Al final, el ordenador solo entiende de código máquina.
@@ -33,13 +53,17 @@ es una secuencia de números sin sentido aparente,
 en la que cada número codifica
 algo que tiene que hacer el ordenador:
 Cargar un número en el procesador desde una posición de memoria,
-operar con ese número, colocar el resultado en otra posición de memoria,
+operar con ese número,
+colocar el resultado en otra posición de memoria,
 enviar un código a un dispositivo...
 Cosas de muy de tocar el hierro.
 
 Los lenguajes de programación son más cercanos
 a algo que una persona puede entender,
 haciendo de puente entre las personas y el ordenador.
+Nos permiten abstraernos de las interioridades del ordenador,
+y pensar en términos más cercanos al problema que queremos resolver.
+
 Los programas se escriben en archivos de texto,
 con unas reglas bastante rígidas, lo que se llama **sintaxis**,
 que es lo que es propio de cada lenguaje.
@@ -67,13 +91,44 @@ necesitaremos tanto el texto del programa (script) como el intérprete.
 
 - Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
 
+
 En general, un lenguaje interpretado se ejecutará más
 lento que uno compilado, puesto que, a parte de la tarea que haya que hacer,
 tiene el trabajo extra de interpretar el texto para
 decidir que código máquina ejecutar.
-Esto, con los ordenadores actuales, cada vez es menos problema.
-Por otro lado, un lenguaje interpretado tiene un ciclo
-de desarrollo más ágil al ahorrarnos el paso de compilación.
+
+Con los rápidos ordenadores actuales,
+el tiempo de interpretación dejó de ser un problema.
+Y se prefiere en muchos casos un lenguaje interpretado porque,
+al no requerir el paso de compilación,
+el proceso de desarrollo es mucho más rápido y simple.
+
+> **Ejercicio:**
+> En Linux la mayoría de programas (archivos ejecutables) se encuentran en `/usr/bin/`.
+> El comando `file` identifica tipos de ficheros.
+> Mira que tipo de ejecutables tienes ahí con:
+>
+> ```bash
+> $ file /usr/bin/*
+> ```
+>
+> Verás que la mayoría de ejecutables que aparecen tienen formato `ELF`.
+> Es el formato que generan los compiladores en Linux y contiene el código máquina del programa.
+> Estos programas se escribieron seguramente en C, C++... pero ya no nos importa para ejecutarlo.
+> Si miramos su contenido, solo veremos basura digital, por ejemplo:
+>
+> ```bash
+> $ cat /usr/bin/man
+> ```
+>
+> Junto con los ELF también aparecen un montón de archivos que identificados como de _texto ejecutable_ (o scripts)
+> escritos en Python, Perl, Bash, Ruby, Javascript...
+> Si haces un `cat` de uno de estos, verás el código fuente tal cual.
+> Es texto que podríamos incluso editar:
+>
+> ```bash
+> $ cat /usr/bin/rgrep
+> ```
 
 
 ## Buscando más cosas sobre Python
@@ -88,7 +143,7 @@ Para aprender Python hay tres elementos:
 - El **lenguaje**, que son las reglas de como decir las cosas.
 	- La descripción formal de la sintaxis la puedes encontrar en la [referencia del lenguaje](https://docs.python.org/3/reference)
 	- Un poco más explicado, aunque en inglés, lo tienes en el [tutorial](https://docs.python.org/3/tutorial)
-- Las **librerias estandard**, que són cosas que no hace falta que programes tú, porqué ya están programadas y vienen de serie:
+- Las **librerias estándard**, que són cosas que no hace falta que programes tú, porqué ya están programadas y vienen de serie:
 	- Encontrarás informacion en la [referencia de la libreria estándard](https://docs.python.org/3/library/)
 - Las **librerías no estándard**. Aunque no vengan por defecto algunas son de uso muy extendido.
 	- Toda librería que se precie está incluida en el [índice de paquetes](https://pypi.python.org/pypi)
@@ -171,7 +226,7 @@ Asegúrate de que el editor usa el juego de carácteres UTF-8.
 	hola mundo
 	```
 
-- Alternativamente, si el script bien no lleva ni shebang o no tiene permisos,
+- Alternativamente, si el script bien no lleva shebang o no tiene permisos,
 podemos ejecutarlo pasandoselo como primer parámetro al intérprete:
 
 	```bash
@@ -180,8 +235,8 @@ podemos ejecutarlo pasandoselo como primer parámetro al intérprete:
 	```
 
 - La extension `.py` del fichero no es necesaria para ejecutarlo en Linux.
-Aunque puede serlo para ejecutarlo en otros sistemas.
-Si que va bien para que los editores con resaltado de sintaxis
+Aunque puede serlo para ejecutarlo en otros sistemas
+También sirve para que los editores con resaltado de sintaxis
 detecten que es un fichero escrito en Python y lo coloreen adecuadamente.
 
 ## Reglas generales de sintaxis
@@ -285,7 +340,7 @@ y que permiten extender la sentencias en varias líneas hasta cerrarlos son:
 	- Comillas simples triples: `'''  '''`
 
 - Si el último caracter de una línea es una contrabarra (`\`),
-  el intérprete **ignora el salto de línea como si no estuviera**,
+  el intérprete **ignora el salto de línea como si no estuviera**.
   **No hay que abusar de ello**, pero es la opción de último recurso
   cuando una sentencia se nos hace larga (80 caracteres es lo máximo recomendado),
   y no tenemos un paréntesis o similar para cortar.
@@ -461,6 +516,110 @@ podemos usar otras notaciones para los literales numéricos:
 > [científica](https://es.wikipedia.org/wiki/Notaci%C3%B3n_cient%C3%ADfica).
 
 
+## Reusando resultados: variables y la sentencia de asignación
+
+Todas las  expresiones que hemos visto anteriormente,
+incluyendo las que forman parte de otras expresiones,
+generan valores que una vez los hemos hecho servir desaparecen de la memoria del ordenado.
+
+Las **variables** nos permiten mantener una referencia a un **valor**,
+para volverlo a usar después.
+La sentencia en la asociamos un valor a un nombre se llama *sentencia de asignación*.
+Decimos que *asignamos un valor a la variable*.
+
+```python
+>>> a = 23  # sentencia de asignacion
+>>> a       # uso de la variable
+23
+>>> b = 10*a
+>>> b
+230
+```
+
+En Python, una misma variable en un script puede ir apuntando a valores diferentes.
+De hecho, puede apuntar incluso a valores de diferente tipo,
+cosa que no permiten otros lenguages como C o Java.
+
+```python
+a = 12       # tipo entero (int)
+a = 'hola'   # tipo texto (str)
+a = 3.1416   # tipo coma flotante (float)
+```
+
+Consejos del programador abuelete:
+
+- Aunque puedas, no es recomendable reusar las variables.
+  Si, en un punto, una variable se refiere a una cosa,
+  confunde que después se refiera a otra cosa.
+- Usar nombres de variables de una letra, como `a`, tampoco es bueno,
+  **los nombres de las variables tienen que recordarnos a que se refieren**.
+
+En los ejemplos, normalmente se abusa de los nombres tontos de variables.
+**No uses nombres tontos cuando estés programando de verdad.**
+Martin Fowler vendrá por la noche, matará tus procesos y violará a tus segmentos.
+
+Así que para dar a entender el significado de una variable
+en vez de llamarla `a`, la llamaremos `anguloRecorrido`.
+
+Para que el nombre de una variable sea explicativo
+se suele necesitar más de una palabra,
+pero los nombres de variables no pueden contener espacios,
+así que se usan diferentes nomenclaturas:
+
+- **Lower Case**: `sinningunadiferenciaentrepalabras`
+- **Camel Case**: `alteramosLasMayusculasAlInicioDePalabra`
+- **Underscore**: `separamos_las_palabras_con_subrayados`
+
+La primera estrategia es bastante ilegible aunque para nombres cortos funciona.
+La segunda es más legibles sobretodo cuando te acostumbras.
+Y la tercera aunque parezca más legible,
+confunde cuando se mezcla con otros operadores que se parecen al guión bajo,
+como el punto, la coma o el guión normal.
+
+Como con el estilo de indentación, cada uno tiene sus preferencias y motivos,
+pero conviene que el criterio sea coherente dentro de cada proyecto.
+
+
+## Operadores de actualizacion (`+=`, `*=`...)
+
+Muy a menudo queremos actualizar el valor de una variable
+en base al valor anterior. Por ejemplo:
+
+```python
+saldo = 0
+# aqui hago una venta, incremento el saldo
+saldo = saldo + 200
+```
+
+Todos los operadores con signo tienen su versión de actualización
+que actualizan la variable en base al antiguo valor,
+añadiendo un `=` al operador original.
+
+Usando esos operadores, la última línea del ejemplo anterior quedaría así:
+
+```python
+saldo += 200
+```
+
+Otro ejemplo con mas operadores:
+
+
+```python
+costeAntena = 100
+costeSwitch = 45
+descuento = 20
+factorIva = 0.21
+
+costeFactura = 0
+costeFactura += costeAntena
+costeFactura += costeSwitch
+costeFactura -= descuento
+costeFactura *= 1 + factorIva
+print(costeFactura)
+```
+
+
+
 ## Llamando funciones
 
 Otro elemento que podemos usar en una expresión son las funciones.
@@ -473,35 +632,39 @@ retorna el mayor de los valores que le pasemos como parámetros.
 >>> max(50,200)  # El máximo de 2 valores: 50 y 200
 200
 ```
+Como una función retorna un valor,
+podemos usar el resultado de esa función dentro de otra expresión más compleja.
 
-A estas funciones que están disponibles desde el principio
-se les llama _built-in_.
+```python
+>>> max(50,200) + 4
+204
+```
 
-Desde el primer ejemplo hemos estado usando una de ellas, la función `print`.
+Las funciones pueden ser _built-in_, si, como `max`,
+están siempre disponibles en el lenguaje.
+También podemos definirlas nosotros,
+o importarlas de librerías existentes,
+pero eso lo veremos más adelante.
+
+Te habrás dado cuenta que desde el primer ejemplo
+hemos estado usando una de estas funciones _built-in_, la función `print`.
 `print` es una función que no devuelve nada (un objeto `None`)
 pero tiene el efecto lateral
-de mostrar por pantalla los valores que le pasamos.
+de mostrar por el terminal los valores que le pasamos.
 
-Si una sentencia es una expresion,
-el intérprete interactivo ya muestra el resultado por pantalla,
-pero eso no pasa si la ejecutamos desde un script.
-Desde un script, si quieres ver un valor en la consola, necesitas llamar a `print`.
+Cuando usamos el intérprete interactivo,
+es el intérprete el que nos va enseñando los resultados de las expresiones.
+Pero cuando ejecutamos un script,
+si queremos ver algo por consola,
+hay que llamar a la funcion `print`.
 
+Por ejemplo, para ver el resultado de llamar a la funcion `max`:
 ```python
 print(max(50,200))
 ```
 
-Como una función retorna un valor,
-podemos usar el resultado de esa función dentro de otra expresión.
-En este caso el resultado de la funcion `max` lo hemos pasado a la funcion `print`.
-
-El tutorial oficial de Python tiene una
-[lista de las funciones incluidas](https://docs.python.org/3/library/functions.html)
-en el lenguaje (_built-in_)
-que podemos usar sin incluir ninguna libreria (estándard o no).
-
-Las funciones también las podemos crear nosotros,
-o importarlas de librerías, pero eso lo veremos más adelante.
+Fíjate que hemos usado la salida de una función, `max`,
+como parámetro (entrada) de otra, `print`.
 
 
 ## Trabajando con texto, tipo `str`
@@ -516,8 +679,8 @@ Podemos construir literales de texto delimitando el texto entre comillas dobles 
 'hola'
 ```
 
-Tener dos tipos de comillas va bien cuando el texto
-contiene una de ellas, usamos la otra:
+Tener dos tipos de comillas va bien:
+cuando el texto contiene una de ellas, usamos la otra.
 
 ```python
 >>> print('Me dijo: "Adios" y me fuí')
@@ -526,11 +689,11 @@ Me dijo: "Adios" y me fuí
 Castellar de N'Hug
 ```
 
-Pero, si el texto contiene ambas, tenemos otras soluciones:
+Si el texto contiene ambas, tenemos otras soluciones:
 
 ```python
 >>> print('Usando la contrabarra para \'escapar\' la comilla')
-Usando la contrabarra para 'escapar'
+Usando la contrabarra para 'escapar' la comilla
 >>> print('''Usando las "triples" 'comillas'.''')
 Usando las "triples" 'comillas'.
 >>> print("""Que tambíén pueden ser "dobles" 'triples'.""")
@@ -586,69 +749,6 @@ Y tenemos algunas funciones _built-in_ que podemos usar con secuencias:
 >>> len('hola')   # longitud de un texto
 4
 ```
-
-## Reusando resultados: variables y la sentencia de asignación
-
-Todas las  expresiones que hemos visto anteriormente,
-incluyendo las que forman parte de otras expresiones,
-generan valores que una vez los hemos hecho servir desaparecen de la memoria del ordenado.
-
-Las **variables** nos permiten mantener una referencia a un **valor**,
-para volverlo a usar después.
-La sentencia en la asociamos un valor a un nombre se llama *sentencia de asignación*.
-Decimos que *asignamos un valor a la variable*.
-
-```python
->>> a = 23  # sentencia de asignacion
->>> a       # uso de la variable
-23
->>> b = 10*a
->>> b
-230
-```
-
-En Python, una misma variable en un script puede ir apuntando a valores diferentes.
-De hecho, puede apuntar incluso a valores de diferente tipo,
-cosa que en otros lenguages como C o Java no se puede.
-
-```python
-a = 12       # tipo entero (int)
-a = 'hola'   # tipo texto (str)
-a = 3.1416   # tipo coma flotante (float)
-```
-
-Consejos del programador abuelete:
-
-- Aunque puedas, no es recomendable reusar las variables.
-  Si, en un punto, una variable se refiere a una cosa,
-  confunde que después se refiera a otra cosa.
-- Usar nombres de variables de una letra, como `a`, tampoco es bueno,
-  **los nombres de las variables tienen que recordarnos a que se refieren**.
-
-En los ejemplos, normalmente se abusa de los nombres tontos de variables.
-**No uses nombres tontos cuando estés programando de verdad.**
-Martin Fowler vendrá por la noche, matará tus procesos y violará a tus segmentos.
-
-Así que para dar a entender el significado de una variable
-en vez de llamarla `a`, la llamaremos `anguloRecorrido`.
-
-Para que el nombre de una variable sea explicativo
-se suele necesitar más de una palabra,
-pero los nombres de variables no pueden contener espacios,
-así que se usan diferentes nomenclaturas:
-
-- **Lower Case**: `sinningunadiferenciaentrepalabras`
-- **Camel Case**: `alteramosLasMayusculasAlInicioDePalabra`
-- **Underscore**: `separamos_las_palabras_con_subrayados`
-
-La primera estrategia es bastante ilegible aunque para nombres cortos funciona.
-La segunda es más legibles sobretodo cuando te acostumbras.
-Y la tercera aunque parezca más legible,
-confunde cuando se mezcla con otros operadores que se parecen al guión bajo,
-como el punto, la coma o el guión normal.
-
-Como con el estilo de indentación, cada uno tiene sus preferencias y motivos,
-pero conviene que el criterio sea coherente dentro de cada proyecto.
 
 
 ## Indexando y rebanando (slices)
@@ -760,21 +860,21 @@ En nuestro script podemos definir nuestras propias funciones.
 - La definición de una función comienza con la palabra reservada `def`.
 - Le sigue el nombre que daremos a la función, `media` en este caso.
 	- El nombre sigue las mismas normas que para las variables.
-	- De hecho usan el mismo espacio de nombres:
+	- De hecho compiten por el mismo espacio de nombres:
 		- si declaramos después una variable llamada `media` perderemos nuestra función.
 - Después, entre paréntesis y separados por comas, la lista de parámetros.
-	- Los parámetros los podemos usar como variables
-	- Se les asignan los valores que pasamos entre paréntesis
+	- Los parámetros en las subsentencias se usan como variables
+	- Se les asignan los valores que pasamos entre paréntesis cuando llamamos la función
 		- En la primera llamada a=3. En la segunda llamada a=4.
 		- En la primera llamada b=1. En la segunda llamada b=5.
 	- Existirán sólo mientras se ejecute esa llamada a la función
-- La sentencia `def` acaba con dos puntos (`:`) lo que quiere decir que le sigue una série de subsentencias indentadas.
+- La sentencia `def` acaba con dos puntos (`:`), siguen subsentencias indentadas un nivel
 	- Las sentencias de dentro son las que se ejecutarán cada vez que llamemos la función.
 	- Los tres puntos los escribe el intérprete, en vez de los `>>>` para indicar que aun tenemos que acabar la sentencia.
-	- Para salir de los tres puntos dejamos una linea en blanco
+	- Para salir de los tres puntos en el intérprete dejamos una linea en blanco
 - La primera sentencia de dentro crea una variable `suma`
 	- Las variables que creemos dentro de una función solo existen mientras la función se ejecuta.
-	- En jerga se dice que es una variable _local_, en contraposicion de las variables que se definen fuera de funciones que se les llama _globales_
+	- En jerga se dice que es una _variable local_, en contraposicion de las variables que se definen fuera de funciones que se les llama _globales_
 	- Que las variables tengan un ámbito local nos ayuda a no tener que buscar nombres que no colisionen con los de otras funciones
 - La ultima sentencia es una sentencia especial `return`
 	- Una sentencia `return` sale de la función y devuelve el control al llamante
@@ -804,6 +904,12 @@ None
 >>> print(noReturnFunction())
 None
 ```
+Una función retorna `None` 
+
+- Porque explícitamente hace un `return None`
+- Porque hace un return sin expresión: `return`
+- Porque se le acaban las sentencias de la función sin haber hecho un `return`
+
 
 ## Parámetros opcionales, valores por defecto
 
@@ -952,21 +1058,28 @@ True
 ['hola', 'tu', 'que', 'tal']
 >>> '-'.join(['hola', 'tu', 'que', 'tal'])
 'hola-tu-que-tal'
-~~~
+>>>  s.replace('a', 'o')
+'obrocodobro'
+>>>  s.replace('ab', 'XXX')
+'XXXracadXXXra'
+```
 
 Objetos de tipos diferentes pueden tener métodos con el mismo nombre,
 lo cual tiene sentido si hacen cosas conceptualmente similares
-pero se programan de formas distintas.
+aunque la implementación sea distinta para cada tipo.
 
 Por ejemplo, los métodos `count` y `index`, que tiene `str`,
 también los tienen los otros tipos secuencia, `tupla` y `list`.
-Que tenga el mismo nombre y se use igual facilita que lo aprendamos.
+Tienen el mismo nombre y se usan igual,
+facilitando así el aprendizaje por analogía.
+Como estan definidos en clases distintas pueden tener el mismo nombre
+y tener implementaciones distintas.
 
 
 ## Rellenando textos con valores, el método `format`
 
 Un método muy usado del `str` es el metodo `format`.
-Permite rellenar un texto con valores del programa.
+Permite rellenar un texto con valores del programa como si fuera una plantilla.
 El texto tiene que marcar los sitios donde introducir
 los valores con corchetes `{}`.
 
@@ -1103,7 +1216,7 @@ True
 False
 ```
 
-## Sentencia condicional `if`
+## Tomando decisiones, la sentencia condicional `if`
 
 Una de las utilidades de los booleanos es la capacidad
 de ejecutar o no código dependiendo de una condición.
@@ -1119,7 +1232,7 @@ if name is not 'Aitor':
 ```
 
 
-## Alternativas, `else` y  `elif`
+## Considerando alternativas, `else` y  `elif`
 
 Es frecuente, como en el ejemplo anterior,
 que después de evaluar una condición para ver si tenemos que hacer algo,
@@ -1393,6 +1506,7 @@ para escoger que operando eligen:
 > 5 and None
 > ```
 
+# Repitiendo cosas, los bucles
 
 ## Bucles condicionales, sentencia `while`
 
@@ -1418,7 +1532,7 @@ Este código se ejecuta de la siguiente manera:
 
 - La variable `a` se inicializa a `1`
 - Antes de entrar en las sub-sentencias del while, se evalua la condición `a<50`
-- Si es cierta se procede a ejecutar las subsentencias
+- Como es cierta se procede a ejecutar las subsentencias
 - La primera sentencia del bucle imprime el valor actual de `a`
 - La segunda sentencia del bucle actualiza `a` multiplicando el valor por 2
 - Cuando se acaban las subsentencias se vuelve a evaluar la condición con el nuevo valor de `a`.
@@ -1479,105 +1593,184 @@ Cualquier iteración se puede resolver de forma recursiva y al revés.
 En cada caso hay que evaluar cual es la versión más sencilla, de escribir y de entender.
 
 
+## Bucles sobre iterables: sentencia `for`
+
+La verdad es que la sentencia `while` apenas se usa,
+porque en Python la verdadera reina es la sentencia `for`.
+La sentencia `for` permite repetir sentencias para cada
+uno de los elementos de un texto, o una lista o...
+cualquier cosa que tenga elementos en los que iterar.
+
+Por ejemplo, el algoritmo de las animadoras,
+itera sobre las letras de una palabra:
+
+```python
+>>> def animadora(palabra):
+... 	for letra in palabra:
+... 		print("¡Dame una {}!".format(letra))
+... 	print("¡{}!".format(palabra))
+...
+>>> animadora("abracadabra")
+¡Dame una a!
+¡Dame una b!
+¡Dame una r!
+¡Dame una a!
+¡Dame una c!
+¡Dame una a!
+¡Dame una d!
+¡Dame una a!
+¡Dame una b!
+¡Dame una r!
+¡Dame una a!
+¡abracadabra!
+```
+
+La sentencia `for`, tiene la estructura:
+
+```python
+for variable in expresion:
+	sentencias
+```
+
+Si la _expresión_ resulta en algo que contenga elementos,
+las _sentencias_ se ejecutan para cada elemento,
+asignado dicho elemento a la _variable_.
+
+Otro ejemplo con una lista de textos:
+
+```python
+>>> for nombre in ['Aitor', 'Victor', 'Raúl', 'David']:
+... 	print("{} es socio de GuifiBaix".format(nombre))
+Aitor es socio de GuifiBaix
+Victor es socio de GuifiBaix
+Raúl es socio de GuifiBaix
+David es socio de GuifiBaix
+```
+
+La potencia del `for` radica en que se puede aplicar
+a cualquier cosa que nos ofrezca elementos en los que iterar.
+Y eso son muchas cosas en Python, como veremos.
+
+
 
 ## Salidas prematuras: sentencias `break` y `continue`
-
-TODO: Moverlo con el for, el while necesita actualizar la condicion y no mola con continue y break
 
 Las sentencias `break` y `continue` sirven para alterar la ejecución normal de un bucle.
 Clásicamente se considera que usar este tipo de sentencias es una abobinación para la programación formal.
 **Bien usadas, ayudan a que el código sea mucho más entendible.
-Mal usadas, pueden complicarlo infinitamente.**
+Mal usadas, sí, pueden complicarlo abovinablemente.**
 
 La sentencia `continue`, sirve para saltar a la siguiente iteración.
 Si se ejecuta una sentencia `continue`, lo que quede de sentencias de esa iteración, ya no se ejecutará.
-Un ejemplo:
 
-
-```python
->>> a = 'abracadabra'
->>> while len(a)>3:
-... 	a=a[:-1]
-... 	if a[-1] is 'a':
-... 		continue
-... 	print(a[-1])
-r
-b
-d
-c
-r
-```
-
-El bucle anterior va recortando la cadena por el final,
-y imprimiendo la última letra siempre que no sea una `a`.
-Cuando es una `a`, se ejecuta el `continue`
-por lo que no se llega al `print`.
-
-Un bucle equivalente podría ser:
+Volviendo al ejemplo de las animadoras.
+Las animadoras francesas saben que la gente se rie cuando pronuncian la 'r',
+así que directamente se la cuelan:
 
 ```python
-a = 'abracadabra'
-while len(a)>3:
-	a=a[:-1]
-	if a[-1] is not 'a':
-		print(a[-1])
+>>> def animadoraFrancesa(palabra):
+... 	for letra in palabra:
+... 		if letra is 'r':
+... 			continue
+... 		print("¡Dame una {}!".format(letra))
+... 	print("¡{}!".format(palabra.replace('r','g')))
+...
+>>> animadoraFrancesa("rabo")
+¡Dame una a!
+¡Dame una b!
+¡Dame una o!
+¡gabo!
 ```
-
-Fíjate que lo que hemos hecho es invertir la condición
-y lo que iba despues del `continue`, lo hemos puesto en el `if`.
-
-Realmente, la versión sin `continue` parece más sencilla.
-Sin embargo, a la que empezamos a añadir condiciones de salida,
-las tornas cambian.
-Más adelante, veremos ejemplos en los que usar un `continue`
-simplifica mucho más la lectura.
-
 
 La otra sentencia corta rollos es `break`.
 Es más contundente que `continue`,
 pues no solo corta la iteración en curso,
-sinó todas las iteraciones subsecuentes.
+sinó para todas las iteraciones siguientes.
 
-
-Si la labor del bucle fuera buscar sitios para irnos de vacaciones,
-tal que tenemos una iteración para cada lugar,
-el `continue` lo usariamos para filtrar los lugares a los que les encontramos una pega
-y el `break` para cuando sabemos que no es necesario buscar más,
-que ya hemos encontrado el lugar ideal.
-
-TODO: Repensar el ejemplo
 
 ```python
-mejorPuntuacion = 0
-mejorLugar = None
-lugar = proponLugar()
-while lugar is not None:
+>>> def animadoraFrancesaEscarmentada(palabra):
+... 	for letra in palabra:
+... 		if letra is 'r':
+... 			print("Basta ya de greigos, ¡me vuelvo a mi país!")
+... 			break
+... 		print("¡Dame una {}!".format(letra))
+... 	print("¡{}!".format(palabra.replace('r','g')))
+...
+>>> animadoraFrancesaEscarmentada("abracadabra")
+¡Dame una a!
+¡Dame una b!
+Basta ya de greigos, ¡me vuelvo a mi país!
+¡abgacadabga!
+```
 
-	if lugar is 'DisneyWorld':
-		# No lo pensamos
-		print('Vayamos a DisneyWorld')
-		break
+De hecho no tiene sentido que si salimos por un `break` despues diga la palabra.
+El `else` en una iteración se ejecuta cuando se sale normalmente del bucle.
+Es decir, cuando no hacemos un `break`.
 
-	if hayMosquitosEn(lugar):
-		lugar=proponLugar()
-		continue
+```python
+>>> def animadoraFrancesaEscarmentada(palabra):
+... 	for letra in palabra:
+... 		if letra is 'r':
+... 			print("Basta ya de greigos, ¡me vuelvo a mi país!")
+... 			break
+... 		print("¡Dame una {}!".format(letra))
+... 	else:
+... 		print("¡{}!".format(palabra.replace('r','g')))
+...
+>>> animadoraFrancesaEscarmentada("casa")
+¡Dame una c!
+¡Dame una a!
+¡Dame una s!
+¡Dame una a!
+¡casa!
+>>> animadoraFrancesaEscarmentada("abracadabra")
+¡Dame una a!
+¡Dame una b!
+Basta ya de greigos, ¡me vuelvo a mi país!
+```
 
-	if esCaro(lugar):
-		lugar=proponLugar()
-		continue
 
-	puntuacion = puntua(lugar)
-	if puntuacion > mejorPuntuacion:
-		mejorPuntuacion = puntuacion
-		mejorLugar = lugar
+## Intérvalos de números, tipo `range`
 
-	lugar=proponLugar()
+Una fuente muy usada de elementos iterables son los intervalos o `range`.
 
-else:
-	if mejorLugar is None:
-		print("Pues nos quedamos en casa")
-	else:
-		print("Vayamos a {}".format(mejorLugar))
+Un intérvalo es un objeto que genera números.
+Lo creamos con la función _built-in_ `range`.
+
+```python
+>>> for i in range(6):
+>>> 	print(i)
+0
+1
+2
+3
+4
+5
+```
+
+Vemos que, igual que las rebanadas,
+empieza en el 0 y no incluye el último.
+
+Podemos indicar un inicio diferente de 0.
+
+
+```python
+>>> for i in range(3,6):
+>>> 	print(i)
+3
+4
+5
+```
+
+Y como en las rebanadas podemos especificar un paso.
+
+```python
+>>> for i in range(1,6,2):
+>>> 	print(i)
+1
+3
+5
 ```
 
 
@@ -1607,7 +1800,7 @@ Los valores incluidos en la lista pueden ser de tipos diferentes.
 Incluso pueden ser otras listas.
 
 ```python
->>> # Una lista que contiene listas
+>>> # Una lista que contiene listas y algo más
 >>> l = [[11,12],[21,22],'ultimo']
 >>> l[-1]
 'ultimo'
@@ -1671,37 +1864,6 @@ False
 [1,2,3,6,5,6,7]  # y dejamos la original como estaba, aun accedible desde l2
 ```
 
-
-## Bucles sobre iterables, la sentencia `for`
-
-La sentencia `for` realiza una iteración
-para cada uno de los valores de, por ejemplo, una lista.
-Hablamos de lista pero podría ser una de las varias estructuras
-que llamaremos en general **iterables**.
-Es decir, que nos pueden proporcionar valores en secuencia.
-
-La sentencia `for` define una variable que va adoptando para cada iteración un valor distinto de la lista.
-
-```python
->>> l = [1,2,3,4]
->>> for item in l :
-...     doble = item*2
-...     print(doble)
-2
-4
-6
-8
-```
-
-En este código, la variable `item` va adoptando los valores
-incluidos en la lista y ejecuta las sentencias de dentro.
-
-A diferencia de cuando definimos una función,
-aquí las variables como `doble` o `item` no se limitan al `for`.
-
-## Filtrando la iteración, `continue`
-
-## Parando el bucle, `break`
 
 
 ## Uniendo y separando (`split` y `join`)
@@ -1984,6 +2146,49 @@ En cambio con listas, como habíamos visto:
 [1,2,3,4]
 ```
 
+## Diccionarios, tipo `dict`
+
+Un diccionario de Python es una estructura que nos permite acceder a valores a partir de una clave.
+
+Para acceder a los valores usamos la sintaxis de indexación (`[ ]`) con la clave entre los corchetes.
+
+Veamos ejemplos de su uso:
+
+```python
+>>> saldos = {
+... 	'David': 200,
+... 	'Aitor': 500,
+... 	}
+>>> saldos['David']
+200
+>>> saldos['Aitor'] += 300
+>>> saldos['Aitor']
+800
+>>> saldos
+>>> del saldos['David']  # borramos la clave 'David'
+>>> saldos
+{'Aitor': 800}
+>>> 'Aitor' in saldos  # ¿Tiene la clave 'Aitor'?
+True
+>>> 'David' in saldos
+False
+>>> saldos['Victor']  # Accediendo a una clave que no está
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'Victor'
+>>> # El método get permite cogerlo de forma segura
+>>> saldos.get('Aitor',0) # Coge el valor y si no está, 0
+800
+>>> saldos.get('Victor',0)
+0
+```
+
+
+
+
+
+
+
 ## Usando generadores
 
 Un generador es un objeto que retorna objetos en los que iterar.
@@ -2074,7 +2279,7 @@ Dado un iterable, genera tuplas con la posicion y el valor de cada elemento del 
 >>> list(enumerate([
 ... 	'perro',
 ... 	'gato',
-... 	'raton,
+... 	'raton',
 ... 	]))
 ...
 [(0,'perro'), (1,'gato'), (2,'raton')]
@@ -2124,11 +2329,10 @@ El generador `zip` toma varios iterables y empareja sus valores.
 9 19
 ```
 
-TODO: Explicar como se puede usar con * para transponer matrices
-
 **Ejercicio:**
-Crea un bucle que haga lo mismo que si usaras `enumerate`,
-pero usando `zip`, `range` y `len`.
+Reimplementa `enumerate` como una funcion `enumerate2`
+que use `zip`, `range` y `len`.
+
 
 
 ### Nuestras propias funciones generadoras, `yield`
