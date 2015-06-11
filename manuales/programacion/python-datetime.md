@@ -544,14 +544,17 @@ que extiende la clase `dateutils.date` y además:
 - tiene atributos (calculados) `compact`, `slashDate`, `catalanDate`...
 
 > **Detalle avanzado:**
-> En la clase `dateutils.Date`, `catalanDate` y compañía son **atributos calculados**, o **properties**.
-> Son métodos que llevan delante de su definición `@property`.
-> Se accede a ellos como si fueran atributos,
-> pero el valor no está ahi sino que se llama al método para obtenerlo.
-> `format` no nos deja llamar métodos, pero sí nos deja acceder a atributos.
+> Estos atributos de la clase `Date`, (`compact`, `slashDate`, `catalanDate`...)
+> no almacenan un valor como los atributos que hemos visto hasta ahora.
+> Los llamo **atributos calculados** porque en realidad son métodos,
+> al precederlos (decorarlos) con `@property` (échale un ojo al código),
+> podemos acceder a ellos sin usar el operador de llamada.
+> De hecho, tal y como estan definidos son atributos de solo lectura.
+>
 > **Nota:** Son conceptos parecidos, pero no confundas estas _properties_ de Python con las de Qt.
 
-Con estos atributos podemos hacer código como:
+Lo bueno de estos atributos es que podemos seleccionarlos desde el template
+y tener código como este:
 
 ```python
 >>> from namespace import namespace as ns
@@ -561,27 +564,30 @@ Con estos atributos podemos hacer código como:
 'Hoy es 02/06/2015'
 ```
 
-Para tener esta funcionalidad disponible nada más cargar el YAML
-se cambió librería `namespace` para que el YAML nos diera objetos
-`dateutils.Date` en vez de `datetime.time`.
+Un detalle de implementación:
+La libreria que lee y escribe YAML
+trabaja con objetos `datetime.time`.
+Para que todo esto funcione,
+el módulo `namespace` modifica la libreria de YAML
+para que el tipo de fecha por defecto sea el `dateutils.Date`.
+De esta manera del YAML obtenemos directamente fechas con esteroides,
+y, cuando grabamos las fechas con esteroides,
+se almacenan como si fueran fechas convencionales (en iso)
+manteniendo la compatibilidad con otros programas que lean YAML.
+
 
 ### Inversión de responsabilidades
 
 Los últimos refactorings importantes relacionados con el módulo `dateutils`
 fue invertir quien delegaba la faena a quien.
 
-Al principio, la implementación de las conversiones de formato
-estaban en las funciones libres:
+Al principio, todo estaba implementado en las funciones libres.
 `date`, `slashDate`...
-La clase `dateutils.Date` delegaba en ellas para ofrecer su funcionalidad.
+Los métodos homónimos de la clase `Date` delegaban en dichas funciones.
 
-El refactoring final consistio en invertir la delegación.
-Las funciones libres construian un `dateutils.Date`
-y delegaban en los métodos de la clase a donde se movió el código original.
-
-Y ese es el código que tenemos ahora.
-Todas las funciones libres (`date`, `catalanDate`...)
-crean un objeto `Date` y usan sus métodos y propiedades para obtener el resultado.
+Un refactoring posterior invirtió quien delegaba en quien,
+de forma que ahora son las funciones libres las que crean
+un objeto `Date` y llaman a uno de los métodos.
 
 Echale un ojo al código.
 
