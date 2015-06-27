@@ -2676,7 +2676,7 @@ $ ./miscript.py entrada.txt
 
 Ahora ya tenemos un `cat`, bueno, casi.
 
-## Errores y finales abruptos
+## Gestionando errores de línea de comandos
 
 ¿Qué pasa si no le pasamos parámetros a nuestro script?
 
@@ -2885,14 +2885,12 @@ print('unfichero.csv')
 ```
 
 
+## Convirtiendo una tabla en CSV
 
+## Conviertiendo un CSV en una tabla
 
+## Usando las cabeceras para crear un diccionario
 
-
-
-
-
-## Interpretando la línea de comandos
 
 
 
