@@ -349,16 +349,27 @@ acabamos creando un módulo llamado `dateutils` con ellas dentro.
 - `isoDate` lo usamos como formato por defecto
 
 
-### Parseando fechas
+### Teniendo cintura para recibir fechas
 
-Otra cosa que teniamos que hacer en varios sitios es tomar algo que nos llega,
-bien escrito en un fichero, por línea de comandos...
-y construir con ello un `datetime` que podamos manipular.
-Por ejemplo, nos puede llegar un texto con la fecha en formato ISO,
-o cualquier otro de los que teniamos arriba,
-nos puede llegar un `datetime`, una tupla año-mes-día, o al reves una tupla de día-mes-año.
+Otra tarea que teniamos que hacer en varios sitios es tomar algo que nos llega,
+y construir con ello una fecha que podamos manipular, es decir,
+un objeto `datetime.date`.
 
-Las clases de `datetime`, tienen el inverso de `strftime` que es `strptime`.
+
+¿Como nos puede llegar?
+
+- Como texto escrito en un fichero (hay que entenderlo, _parsearlo_ en ingles españolizado).
+- Nos viene como texto en la línea de comandos
+- Un parámetro de una función que escribimos de que no podemos asegurar como nos pasarán el objeto,
+
+Y ¿cómo nos lo pueden pasar? Pues nos puede llegar:
+
+- Texto con los año, mes y día en varios ordenes, separados o no por algún símbolo como el guión, la barra...
+- Una tupla con orden ISO (año, mes, dia) o al revés (dia, mes, año)
+- Un objeto `datetime.date` (sí en este caso, perfecto, pero también tenemos que identificarlo)
+
+Para cuando lo que recibimos es un texto, y conocemos el formato,
+las clases de `datetime`, tienen el inverso de `strftime` que es `strptime`.
 Como `today` es un método de clase y factoria.
 
 ```python
@@ -385,7 +396,7 @@ datetime.date(2015,6,2)
 
 Claro que esto funciona porque sabemos que formato nos va a llegar.
 Aunque esto era así la mayoria de las veces,
-a veces no llegaba el formato esperado y ese día el programa fallaba.
+siempre acaba pasando que no nos llega el formato esperado y ese día el programa falla.
 Así que, si queremos que nuestro programa se sepa adaptar a la mayoría de casos,
 debemos detectar el formato y generar la fecha.
 
@@ -419,6 +430,8 @@ la función nos da la seguridad de que si falla es porque no es una fecha.
 El código de conversion a fecha que tambien estaba duplicado por muchos sitios se redujo a una llamada.
 Además no todo el código de conversión antiguo soportaba todos los casos, ahora sí,
 y si apareciera uno nuevo, solo tendriamos un punto donde añadirlo.
+
+Estas son las ventajas de centralizar código repetido en una función siguiendo la máxima **don't repeat yourself.**
 
 > **Ejercicio:**
 > Usa la función `dateutils.date` e intenta putearla.
