@@ -144,10 +144,10 @@ Para aprender Python hay tres elementos:
 	- La descripción formal de la sintaxis la puedes encontrar en la [referencia del lenguaje](https://docs.python.org/3/reference)
 	- Un poco más explicado, aunque en inglés, lo tienes en el [tutorial](https://docs.python.org/3/tutorial)
 - Las **librerias estándard**, que són cosas que no hace falta que programes tú, porqué ya están programadas y vienen de serie:
-	- Encontrarás informacion en la [referencia de la libreria estándard](https://docs.python.org/3/library/)
+	- Encontrarás informacion en la [referencia de la librería estándard](https://docs.python.org/3/library/)
 - Las **librerías no estándard**. Aunque no vengan por defecto algunas son de uso muy extendido.
 	- Toda librería que se precie está incluida en el [índice de paquetes](https://pypi.python.org/pypi)
-	- Cada libreria tiene su propia documentación.
+	- Cada librería tiene su propia documentación.
 	Normalmente con un formato similar a la documentación de las librerías estándard.
 - Si necesitas algo más, esta es [toda la documentación del lenguaje](https://docs.python.org/3/)
 
@@ -188,7 +188,7 @@ hola mundo
 
 **Nota:** Si has programado en Python 2, ojo que en Python 3, la instrucción `print` requiere paréntesis.
 
-**Nota:** En modo interactivo, siempre nos imprimira el resultado de la expresion que hayamos introducido.
+**Nota:** En modo interactivo, siempre nos imprimirá el resultado de la expresion que hayamos introducido.
 No necesitamos el `print`, para verlo.
 
 
@@ -211,7 +211,7 @@ Para que se pueda ejecutar sin problemas en Unix:
 Asegúrate de que el editor usa el juego de carácteres UTF-8.
 
 - La primera linea del fichero debe ser el _shebang_ que indica al shell con qué intérprete se ejecuta el script.
-  En `myscript.py` escribiriamos:
+  En `myscript.py` escribiríamos:
 
 	```python
 	#!/usr/bin/env python3
@@ -418,7 +418,7 @@ A lo largo del tutorial iremos explicando como trabajar con estos tipos de objet
 Un aperitivo:
 
 - Con los tipos numéricos (`int`, `float`,`complex`) podemos hacer operaciones aritméticas.
-- Con los textos (`str`) podemos concatenarlos, substituir, partir, buscar...
+- Con los textos (`str`) podemos concatenarlos, sustituir, partir, buscar...
 - Las tuplas (`tuple`) son parejas, trios... de valores que juntamos para pasarlos como un solo valor.
 - Las listas (`list`) son como las tuplas pero podemos insertar y eliminar elementos.
 - Los conjuntos (`set`) son como las listas,
@@ -526,7 +526,7 @@ desaparecen de la memoria del ordenador.
 
 Las **variables** nos permiten mantener una referencia a un **valor**,
 para volverlo a usar después.
-La sentencia en la asociamos un valor a un nombre se llama *sentencia de asignación*.
+La sentencia en la que asociamos un valor a un nombre se llama *sentencia de asignación*.
 Decimos que *asignamos un valor a la variable*.
 Una vez asignada, en adelante,
 podemos usar la variable como si fuera un literal más.
@@ -660,9 +660,9 @@ Cuando usamos el intérprete interactivo,
 es el intérprete el que nos va enseñando los resultados de las expresiones.
 Pero cuando ejecutamos un script,
 si queremos ver algo por consola,
-hay que llamar a la funcion `print`.
+hay que llamar a la función `print`.
 
-Por ejemplo, para ver el resultado de llamar a la funcion `max`:
+Por ejemplo, para ver el resultado de llamar a la función `max`:
 ```python
 print(max(50,200))
 ```
@@ -859,7 +859,7 @@ Normalmente es 1, pero si lo especificamos...
 
 
 
-## Definiendo funciones
+## Definiendo funciones, sentencia `def`
 
 En nuestro script podemos definir nuestras propias funciones.
 
@@ -880,7 +880,7 @@ En nuestro script podemos definir nuestras propias funciones.
 	- De hecho compiten por el mismo espacio de nombres:
 		- si declaramos después una variable llamada `media` perderemos nuestra función.
 - Después, entre paréntesis y separados por comas, la lista de parámetros.
-	- Los parámetros en las subsentencias se usan como variables
+	- Los parámetros en las subsentencias se usan igual que variables
 	- Se les asignan los valores que pasamos entre paréntesis cuando llamamos la función
 		- En la primera llamada a=3. En la segunda llamada a=4.
 		- En la primera llamada b=1. En la segunda llamada b=5.
@@ -890,7 +890,7 @@ En nuestro script podemos definir nuestras propias funciones.
 	- Los tres puntos los escribe el intérprete, en vez de los `>>>` para indicar que aun tenemos que acabar la sentencia.
 	- Para salir de los tres puntos en el intérprete dejamos una linea en blanco
 - La primera sentencia de dentro crea una variable `suma`
-	- Las variables que creemos dentro de una función solo existen mientras la función se ejecuta.
+	- Las variables que creemos dentro de una función, igual que los parámetros, solo existen mientras la función se ejecuta.
 	- En jerga se dice que es una _variable local_, en contraposicion de las variables que se definen fuera de funciones que se les llama _globales_
 	- Que las variables tengan un ámbito local nos ayuda a no tener que buscar nombres que no colisionen con los de otras funciones
 - La ultima sentencia es una sentencia especial `return`
@@ -915,7 +915,7 @@ hola
 >>> print(a)
 None
 >>> def noReturnFunction():
-...     2+2  # ojo, error típico queriamos retornar algo y nos dejamos el return
+...     2+2  # ojo, error típico queríamos retornar algo y nos dejamos el return
 ...
 >>> noReturnFunction()
 >>> print(noReturnFunction())
@@ -1001,7 +1001,7 @@ En resumen, se recomienda explicitar los nombres de paràmetros:
 Se pueden combinar parámetros posicionales con nombrados.
 La regla es que primero se especifican los posicionales
 y luego van los nombrados.
-Los posicionales se reparten en orden tal i como están en la definición de la funcion (`def`).
+Los posicionales se reparten en orden tal i como están en la definición de la función (`def`).
 
 ```python
 >>> aplicaIva(100, factorIva=0.07)
@@ -1157,19 +1157,22 @@ Puedes encontrar más detalles sobre el mini lenguaje de formateo en el
 [manual de referencia](https://docs.python.org/3/library/string.html#format-specification-mini-language)
 
 
-
 # Tomando decisiones
 
 Programar es dejar que el ordenador tome sus decisiones.
 El programa define que acciones tomar según lo que
 se encuentre en cada momento.
 Es lo que dota de inteligencia al ordenador.
+Según los parámetros que le llegan al programa,
+calcular un _sí_ o un _no_ a cada acción posible.
 
-Para programar decisiones es necesario entender bien los booleanos.
+En esta unidad,
+veremos como obtener y manipular valores booleanos, síes y noes,
+y como hacer depender el curso del programa de dichos valores.
 
 ## Tipos booleanos
 
-Los booleanos son valores representan condiciones,
+Los booleanos son valores que representan condiciones,
 cosas que pueden ser bien ciertas o bien falsas.
 
 El tipo booleano (`bool`) solo tiene dos valores posibles
@@ -1304,32 +1307,6 @@ e incluso no poner el `else`.
 > - Prueba que pasa si le quitamos el `else`, ¿se lo traga? ¿qué hace?
 
 
-## Condiciones anidadas
-
-Podemos anidar un `if` dentro de otro formando un árbol de decisión:
-
-```python
-if 'futbol' in aficiones :
-	if miEquipo is 'Real Madrid':
-		print("Merenge!")
-	elif miEquipo is 'Barça':
-		print("Cules!")
-	else:
-		print("whatever")
-else
-	print("Mejor pensemos en otras cosas más productivas")
-```
-
-Observa que los `else`s y `elif`s estan al mismo nivel que el `if`
-al que se corresponden y que los bloques de sentencias estan
-indentados aún más adentro.
-
-> **Consejo de estilo:**
-> Podemos hacer las mismas cosas anidando o con `elif`.
-> Un buen criterio para hacer anidados es que queramos
-> estructurar niveles de decisión.
-> Pero en cualquier caso hay que evitar
-
 
 ## Expresiones condicionales, `if` en modo expresión
 
@@ -1353,7 +1330,7 @@ valor = valor1 if condicion else valor2
 
 > **Ejercicio:**
 > Construye una sola expresion que dependiendo de el tipo de producto (una variable dada `esPrimeraNecesidad`)
-> llame a la funcion `aplicaIva` con el porcentaje de IVA que toca (7% o 21%).
+> llame a la función `aplicaIva` con el porcentaje de IVA que toca (7% o 21%).
 > Es decir, el resultado de la expresion `if-else` no se va asignar a una variable
 > sino que lo vas a pasar directamente como parámetro a una función.
 
@@ -1393,8 +1370,8 @@ o al revés:
 - el `and` es falso si cualquiera de los operandos es falso.
 - el `or` es falso si todos los operandos son falsos.
 
-Vemos que para el `or`, `True` es dominante.
-Quiere decir eso solo que alguno de los operandos fuera `True`,
+Vemos que para el `or`, `True` es dominante:
+Con que solo alguno de los operandos fuera `True`,
 el resultado es `True`.
 Y que para que el débil, `False`, acabe ganando, por decirlo así,
 los dos operadores han de ser `False`.
@@ -1405,37 +1382,46 @@ Para obtener el resultado débil, `True`, los dos han de ser `True`.
 
 Quédate con el concepto de dominancia que lo recuperaremos después.
 
+## Equivalencias lógicas
 
+Es muy importante que conozcamos equivalencias,
+de cara a manipular el código.
+A veces, podemos simplificar el código aplicándolas
+y conociéndolas podremos saber que podemos cambiar y lo que no.
+
+Todos los operadores relacionales que vimos se pueden expresar
+en términos de un solo operador de inequalidad (`<`, `<=`, `>` o `>=`)
+combinados mediante operadores lógicos.
+Algunos ejemplos expresados en términos del `<`:
+
+```python
+# Para qualquier número como a o b
+>>> (a > b) is (b < a)  # invertimos el orden de los operandos
+True
+>>> (a >= b) is not(a < b) # es el complementario, negamos
+True
+>>> (a != b) is ((a < b) or (b < a)) # si es mayor o menor no es igual
+True
+```
 > **Ejercicio:**
-> Todos los operadores relacionales que vimos se pueden expresar
-> combinando uno solo de ellos con operadores lógicos.
-> Expresa todos los operadores relacionales usando solo el 'menor que' y operaciones lógicas.
-> Ejemplos:
-> 
-> ```python
-> # Para qualquier número como a o b
-> >>> (a > b) is (b < a)
-> True
-> >>> (a >= b) is not(a < b)
-> True
-> >>> (a != b) is ((a < b) or (b < a))
-> True
-> ```
-> Faltan `<=` y `==`.
+> Faltan `<=` y `==`. ¿Te atreves?
+
+Cuando manipulamos expresiones booleanas,
+también hay algunas equivalencias.
+
+- `not not a == a` (Doble negación)
+- `not(a and b) == (not a or not b)` (De Morgan)
+- `not(a or b) == (not a and not b)` (De Morgan)
+- `(a and b) == (b and a)`  (Conmutativa)
+- `(a or b) == (b or a)`  (Conmutativa)
+- `a or (b and c) == (a or b) and (a or c)` (Distribuitiva)
+- `a and (b or c) == (a and b) or (a and c)` (Distribuitiva)
+- `a and (b and c) == (a and b) and c` (Asociativa)
+- `a or (b or c) == (a or b) or c` (Asociativa)
 
 
 > **Ejercicio:**
 > Comprueba con una tabla de verdad que estas expresiones son equivalentes
-> 
-> - `not not a == a` (Doble negación)
-> - `not(a and b) == (not a or not b)` (De Morgan)
-> - `not(a or b) == (not a and not b)` (De Morgan)
-> - `(a and b) == (b and a)`  (Conmutativa)
-> - `(a or b) == (b or a)`  (Conmutativa)
-> - `a or (b and c) == (a or b) and (a or c)` (Distribuitiva)
-> - `a and (b or c) == (a and b) or (a and c)` (Distribuitiva)
-> - `a and (b and c) == (a and b) and c` (Asociativa)
-> - `a or (b or c) == (a or b) or c` (Asociativa)
 
 Las equivalencias del anterior ejercicio
 nos van de coña para simplificar las condiciones
@@ -1452,8 +1438,11 @@ Es decir, hacer un refactoring, que veremos más adelante.
 > - Lee las expresiones a ver si, por lógica, aún tienen sentido.
 > - Quédate con las reescrituras que simplifiquen la expresión.
 
+Es notable las diferentes formas de entender los booleanos.
 
-Otra forma de ver los booleanos es como numeros con dos únicos valores 0 (`False`, nada) y 1 (`True`, algo, cualquier número positivo diferente de cero).
+Una forma de verlos es como numeros con dos únicos valores:
+0 (`False`, nada) y
+1 (`True`, algo, cualquier número positivo diferente de cero).
 El `and` es la multiplicación y el `or` es la suma.
 
 - `1 + 1 = 1`  (algo más algo, da algo)
@@ -1463,59 +1452,88 @@ El `and` es la multiplicación y el `or` es la suma.
 - `1 * 0 = 0`  (algo por nada, da nada)
 - `0 * 0 = 0`  (nada por nada, da nada)
 
-Y otra forma de ver los booleanos, como interruptores de un circuito eléctrico
-que a su vez estan activados o no por otros circuitos eléctricos:
+Y otra forma de verlos: como interruptores de un circuito eléctrico
+que a su vez estan activados o no por otros circuitos eléctricos.
 
-- Una `or` son interruptores en paralelo. Con que uno este encendido pasa la luz.
-- Una `and` son interruptores en serie. Los dos tiene que estar encendidos para que pase la luz.
+TODO: Diagramas
+
+- Una `or` son interruptores en paralelo: Con que uno de los dos esté encendido pasa la luz.
+- Una `and` son interruptores en serie: Los dos tiene que estar encendidos para que pase la luz.
 - Un `not` es un interruptor que se apaga cuando le llega corriente, al revés que los normales.
 
+De hecho esta idea se parece mucho a la implementación electrónica
+de los ordenadores.
 
 ## Evalua con cortocircuito o muere
 
-Cuando hablabamos del valor dominantes en un operador booleano,
+Cuando hablabamos del valor dominante de un operador booleano,
 dijimos que es un concepto que nos iba a ser útil.
-Temeos que:
+Veamos porqué.
 
-- Si los operandos son el mismo valor, retornar ese valor
-- Si son distintos:
-	- en el `or`, el `True` es dominante sobre el `False`
-	- en el `and`, el `False` es dominante sobre el `True`
+Cuando Python evalúa una expresion `or` o `and`,
+listo y vago como él solo,
+si ve que el primer operando evalúa al valor dominante del operador,
+se escaquea y ya no calcula el segundo operando.
+Total, ya sabe lo que va a dar, ¿no?
 
-Así pues, en una expresion `or` o `and`,
-cuando evaluamos el primer operando
-y nos da el valor dominante,
-Python ya no evalua el segundo operando porque ya sabe el resultado.
-Solo evalua el segundo operando si el primero es el no dominante.
-Es lo que se llama evaluación por cortocircuito,
-y se hace para que el programa vaya más rápido.
-Optimizamos el programa si ponemos primero el operando
-que con más frecuencia evalue al valor dominante.
+Por ejemplo:
 
 ```python
->>> pi = 3.1416
->>> r = 10
->>> # Si la primera parte ya es cierta, la segunda no se llegara a calcular
->>> (2*r*pi > 3)  or   (3*r**2*pi>10)
-True
+>>> a=3; b=6; c=9
+>>> (a < b) or (c > a)
 ```
 
-Por un lado, tenemos que ir con cuidado con esto,
-si el segundo operando llama a alguna función
-que tenga algún efecto lateral requerido,
-ya que en algunos casos, la función no se ejecutará.
+La primera expresión `a < b` es `True`,
+que es el valor dominante para `or`.
+Así que, Python, sin llegar a calcular el segundo operando,
+dice que toda la expresión es `True`, y no se come la olla.
+Lo que fuera a dar la segunda parte, `True` o `False`,
+no le quita el sueño.
+No lo calcula, finito.
 
-Pero esto lo podemos usar para acelerar la ejecución de nuestro código:
+Esto se llama _evaluación por cortocircuito_,
+y se hace para acelerar la ejecución de los programas.
 
-- Poniendo la expresión más barata de calcular primero para ahorrarnos, algunas veces, el calculo de la segunda más costosa
-- Si son igual de costosas, poner primero la que más frecuentemente preveamos que evalue a dominante
+Si además lo sabemos, podemos aprovecharlo:
+
+- Se puede poner primero
+la expresión más barata de calcular para ahorrarnos
+evaluar la más cara en algunos casos,
+cuando la barata evalúe a dominante.
+
+	```python
+	>>> noCuestoMuchoYAVecesSoyFalso() and cuestoMuchoDeCalcular()
+	```
+
+- O si las dos son más o menos igual de caras,
+pero una sabemos que evalua dominante más a menudo,
+ponemos esa primero para la mayor parte de las veces
+ahorrarnos evaluar una de las dos.
+
+	```python
+	>>> evaluoMuchoACierto() or yoNoTanto()
+	```
+
+En los ejemplos anteriores los operandos son llamadas a funciones,
+dando a entender que
+_'vete a a saber qué cálculos más complejos hacen'_.
+
+**¡Ojo si en esas funciones tienen efectos
+laterales que sean necesarios!**
+
+Un bug frecuente y difícil de encontrar,
+es que hayamos colocado en el segundo operando de un operador booleano
+una llamada a función que haga algo que necesitamos hacer siempre,
+evalúe el primer operando a `True` o a `False`.
 
 
-Además, cuando alguien hace algo por algún motivo,
+Suele pasar que, cuando alguien hace algo por algún motivo,
+por ejemplo, que el programa vaya más rápido evaluando en cortocircuto,
 siempre sale alguien que lo utiliza para otra cosa.
-Mucha gente aprovecha los cortocircuitos para construcciones
-condicionales que la verdad es que quedan
-bastante expresivas (y barriobajeras) como:
+Mucha gente aprovecha los cortocircuitos 
+para como construcciones condicionales.
+Normalmente los abusos del lenguaje suelen ser feos,
+pero la verdad es que estos abusos quedan bastante expresivos (y barriobajeros):
 
 ```python
 # Barriobajeras? claro:
@@ -1539,10 +1557,13 @@ Donde `die` es una función que imprime el mensaje y sale del programa.
 El cortocircuito de evaluación hace que la función `die` no se ejecute
 si `condicionNecesaria` es `True` o si `condicionDeError` es `False`.
 
-En cualquier caso, hay que tener cuidado cuando usemos expresiones booleanas
-porque puede que una parte de los operandos, no se lleguen a evaluar.
-Si la expresion del segundo operando tiene efectos colaterales necesarios,
-no se ejecutarían.
+En resumen:
+
+- La evaluación por cortocircuito deja de evaluar el segundo operando, si evaluando el primero ya se conoce el resultado.
+- Se hace para optimizar, y podemos potenciar su efecto escogiendo el orden de los operandos.
+- Es fuente frecuente de errores, si ponemos un segundo operando con efectos laterales necesarios. Porque se nos olvide que se ejecuta con cortocircuito, o porque se nos olvide que tiene dichos efectos.
+- También se (ab)usa la evaluación por cortocircuito como alternativa _expresiva_ a los `if`.
+
 
 ## Operadores booleanos con operandos no booleanos
 
@@ -1591,11 +1612,35 @@ para escoger que operando eligen:
 > 5 and None
 > ```
 
+## Recopilando
+
+Hemos visto que:
+
+- La sentencia `if` (con ayuda de `else` y `elif`) permiten tomar la decisión de si ejecutar un grupo de sentencias o otro dependiendo de valores booleanos.
+- Cuando de la decisión solo depende un valor, podemos usar una expresión `if-else` en vez de una sentencia.
+- Podemos obtener booleanos comparando valores entre sí.
+- Podemos combinar booleanos con `not`, `and` y `or` para tomar decisiones más complejas.
+- Podemos reescribir expresiones complejas usando equivalencias
+- Los operadores booleanos se evaluan por cortocircuito. Explotamos este hecho para optimizar, para ir de barriobajero o para generar bugs difíciles de encontrar (ejem).
+- Tambien podemos usar otros valores no booleanos como si fueran booleanos dando pie a algunas fórmulas expresivas más.
+
+
 # Repitiendo cosas, los bucles
+
+En tomar decisiones, no lo tengo claro,
+pero si hay algo en lo que los ordenadores
+son unos machacas es en repetir cosas.
+
+En esta unidad veremos diferentes formas de repetir cosas.
+Con `while`, con `for`, con llamadas recursivas...
+También veremos como controlar el flujo del bucle
+en casos excepcionales.
+
 
 ## Bucles condicionales, sentencia `while`
 
-La sentencia `while` ejecuta las subsentencias mientras que una condición sea cierta.
+La sentencia `while` ejecuta las subsentencias
+mientras que una condición sea cierta.
 
 El siguiente código imprime las potencias de 2 menores que 50:
 
@@ -1603,7 +1648,7 @@ El siguiente código imprime las potencias de 2 menores que 50:
 >>> a = 1
 >>> while a < 50:
 ...     print(a)
-...     a *= 2   # equivalente: a = a*2
+...     a *= 2
 ...
 1
 2
@@ -1616,16 +1661,17 @@ El siguiente código imprime las potencias de 2 menores que 50:
 Este código se ejecuta de la siguiente manera:
 
 - La variable `a` se inicializa a `1`
-- Antes de entrar en las sub-sentencias del while, se evalua la condición `a<50`
+- Se evalua la condición `a<50`
 - Como es cierta se procede a ejecutar las subsentencias
 - La primera sentencia del bucle imprime el valor actual de `a`
 - La segunda sentencia del bucle actualiza `a` multiplicando el valor por 2
 - Cuando se acaban las subsentencias se vuelve a evaluar la condición con el nuevo valor de `a`.
+- Como la expresión, con el nuevo valor actualizado, sigue siendo `True`, sigue.
 - Después de la vuelta en que `a` pasa a valer `64`, la condición evalua `False`, y se sale de la sentencia `while`
 - Fuera de la función `a` valdra `64` aunque no se haya llegado a imprimir ese valor.
 
 Cada vez que la ejecución entra en las subsentencias se llama una **iteración**.
-Diremos pues que el **bucle** ha ejecutado 6 iteraciones.
+Diremos pues que el **bucle** ha dado 6 iteraciones.
 
 
 ## Llamándose a sí mismo, recursividad
@@ -1633,7 +1679,7 @@ Diremos pues que el **bucle** ha ejecutado 6 iteraciones.
 La recursividad es otra forma de repetir las cosas,
 de basar un caso en un caso más simple.
 
-El ejemplo típico es una funcion factorial.
+El ejemplo típico es una función factorial.
 El factorial de 5 se puede resolver multiplicando 5 por el factorial de 4,
 el de 4 multiplicando 4 por el factorial de 3,
 y así hasta que llegamos al factorial de 0 que es 1.
@@ -1653,7 +1699,7 @@ def factorial(n) :
 ```
 
 Otra forma de hacerlo es la recursividad.
-Hacer que la funcion retorne algo basado en el resultado de llamarse a si misma con otros paràmetros:
+Hacer que la función retorne algo basado en el resultado de llamarse a si misma con otros paràmetros:
 
 ```python
 def factorial(n)
@@ -1741,16 +1787,16 @@ Y eso son muchas cosas en Python, como veremos.
 ## Salidas prematuras: sentencias `break` y `continue`
 
 Las sentencias `break` y `continue` sirven para alterar la ejecución normal de un bucle.
-Clásicamente se considera que usar este tipo de sentencias es una abobinación para la programación formal.
+Clásicamente se considera que usar este tipo de sentencias es una abominación para la programación formal.
 **Bien usadas, ayudan a que el código sea mucho más entendible.
-Mal usadas, sí, pueden complicarlo abovinablemente.**
+Mal usadas, sí, pueden complicarlo abominablemente.**
 
 La sentencia `continue`, sirve para saltar a la siguiente iteración.
 Si se ejecuta una sentencia `continue`, lo que quede de sentencias de esa iteración, ya no se ejecutará.
 
 Volviendo al ejemplo de las animadoras.
 Las animadoras francesas saben que la gente se rie cuando pronuncian la 'r',
-así que directamente se la cuelan:
+así que directamente se la cuelan y dejan que las demas animadoras la digan:
 
 ```python
 >>> def animadoraFrancesa(palabra):
@@ -1832,23 +1878,101 @@ Es una buena estrategia para funciones y métodos de búsqueda.
 ... 	print("¡{}!".format(palabra))
 ```
 
+> **Ejercicio:**
+> Reescribe la función `animadoraFrancesaPerspicaz`
+> sustituyendo el primer bucle por una expresión con el operador `in`.
 
-## Operador de inclusión `in`
 
-El operador de inclusión `in` sirve para ver si una secuencia (texto, lista, tupla...)
-contiene un valor.
-Funciona con esta estructura:
+## Intérvalos numéricos, tipo `range`
+
+Una fuente muy usada de elementos iterables para los bucles
+son los intervalos o `range`.
+Un intérvalo es un objeto que genera números.
+No los contiene físicamente, como una `list` o una `tuple`.
+Simplemente los genera cuando se los pide un `for`.
+
+Lo creamos con la función _built-in_ `range`.
 
 ```python
->>> 'a' in 'abracadabra'
-True
->>> 'z' in 'abracadabra'
-False
+>>> for i in range(4):
+>>> 	print(i)
+0
+1
+2
+3
+```
+
+Vemos que, igual que las rebanadas,
+empieza en el 0 y no incluye el último.
+
+Podemos indicar un inicio diferente de 0.
+
+```python
+>>> for i in range(3,6):
+>>> 	print(i)
+3
+4
+5
+```
+
+Y, como en las rebanadas, podemos especificar un paso.
+
+```python
+>>> for i in range(1,6,2):
+>>> 	print(i)
+1
+3
+5
+```
+
+Lo bueno de los `range` es que, como hemos dicho,
+no contienen los números físicamente.
+Así que podrías hacer un `range` de 4 millones de números
+y ocuparía tanto como uno de 10.
+
+Ahora, si queremos tener los números,
+solo hay que pasarle el `range` al constructor
+de `list`, `tuple` o `set`:
+
+```python
+>>> list(range(10))
+[0,1,2,3,4,5,6,8,9]
+>>> set(range(10))
+{0,1,2,3,4,5,6,8,9}
+>>> tuple(range(10))
+(0,1,2,3,4,5,6,8,9)
 ```
 
 > **Ejercicio:**
-> Reescribe la funcion `animadoraFrancesaPerspicaz`
-> substituyendo el primer bucle por una expresión con `in`.
+> ¿Que pasa si aplicamos un slice (`[ ]`) a un range como haciamos con los textos?
+>
+> - Haz una hipótesis
+> - Comprueba lo que pasa realmente
+> - Experimenta hasta que tengas claro el comportamiento
+> - Complica los casos de prueba, introduciendo, tanto en el _slice_ como en el `range`, cosas mas complicadas como _pasos_, indices negativos...
+
+
+> **Ejercicio:**
+> ¿Que le pasa a un `range` cuando lo usamos con la función `len`, o el operador `in`?
+
+> **Ejercicio avanzado:**
+> Piensa como debe funcionar el objeto range por dentro.
+> Sin crear un objeto `range`:
+> 
+> - Implementa una función `inrange(n, inicio, final, paso)`
+>   que devuelva si `n` esta incluido.
+> - Implementa una función `rangelen(inicio, final, paso)`
+>   que devuelva el número de items.
+> - Implementa una función `rangeslice(inicio, final, paso, inicioSlice, finalSlice, stepSlice)`
+>   que devuelva el rango resultante de aplicar la rebanada.
+
+
+> **Ejercicio:**
+> ¿Qué pasa si sumas dos `range`?
+> ¡Ojo! en este caso no retorna otro `range`.
+> ¿Qué retorna? ¿Qué pasa si los intervalos se solapan?
+> ¿Qué pasa si multiplicas el `range` por un entero? ¿Te lo esperabas?
+
 
 
 # Estructuras de datos
@@ -1941,87 +2065,6 @@ False
 >>> l2
 [1,2,3,6,5,6,7]  # y dejamos la original como estaba, aun accedible desde l2
 ```
-
-## Intérvalos de números, tipo `range`
-
-Una fuente muy usada de elementos iterables para los bucles son los intervalos o `range`.
-
-Un intérvalo es un objeto que genera números.
-Lo creamos con la función _built-in_ `range`.
-
-```python
->>> for i in range(6):
->>> 	print(i)
-0
-1
-2
-3
-4
-5
-```
-
-Vemos que, igual que las rebanadas,
-empieza en el 0 y no incluye el último.
-
-Podemos indicar un inicio diferente de 0.
-
-
-```python
->>> for i in range(3,6):
->>> 	print(i)
-3
-4
-5
-```
-
-Y como en las rebanadas podemos especificar un paso.
-
-```python
->>> for i in range(1,6,2):
->>> 	print(i)
-1
-3
-5
-```
-
-Al contrario de una lista como habíamos anteriormente con los socios,
-aquí no se genera un objeto que contenga todos los elementos,
-sino que el range va generando los números a medida que lo requiere el bucle.
-
-Si queremos tener una lista con los 10 primeros números,
-podemos pasarle al constructor de lista un range:
-
-```python
->>> l = list(range(10))
->>> l
-[0,1,2,3,4,5,6,8,9]
-```
-
-Lo bueno del `range` respecto al `list` es que si quieres
-abarcar todos los números del 0 al 100.000,
-con un list hay que tener todos esos números en memoria,
-y el `range` solo tiene que saber el primero, el último y el salto.
-
-
-> **Ejercicio:**
-> ¿Que pasa si aplicamos un slice (`[ ]`) a un range como haciamos con listas y textos?
->
-> - Haz una hipótesis
-> - Comprueba lo que pasa realmente
-> - Experimenta hasta que tengas claro el comportamiento
-> - Complica los casos de prueba, introduciendo, tanto en el _slice_ como en el `range`, cosas mas complicadas como _pasos_, indices negativos...
-
-
-> **Ejercicio:**
-> ¿Que le pasa a un `range` cuando lo usamos con la función `len`, o el operador `in`?
-
-
-> **Ejercicio:**
-> ¿Qué pasa si sumas dos `range`?
-> ¡Ojo! en este caso no retorna otro `range`.
-> ¿Qué retorna? ¿Qué pasa si los intervalos se solapan?
-> ¿Qué pasa si multiplicas el `range` por un entero? ¿Te lo esperabas?
-
 
 
 ## Uniendo y separando, métodos `split` y `join`
@@ -2492,15 +2535,283 @@ Si queremos tener parejas de raiz y quadrado, con un diccionario del tirón:
 > Añade un filtro `if` que filtre los socios que estan en el grupo.
 
 
+## Llenando parámetros con estructuras (`*` y `**` en llamada)
+
+Recuperemos por un momento uno de los ejemplos del método `format`:
+
+```python
+>>> '{nombre} tiene {puntos} puntos.'.format(
+... 	nombre='Aitor', puntos=14)
+'Aitor tiene 14 puntos.'
+```
+
+Imagina que ya disponemos de un diccionario como el siguiente:
+
+```python
+>>> data = { 'nombre': 'Aitor', 'puntos': 14 }
+```
+
+Para usarlo en esa misma plantilla deberíamos hacer:
+
+```python
+>>> '{nombre} tiene {puntos} puntos.'.format(
+... 	nombre=data['nombre'], puntos=data['puntos'])
+'Aitor tiene 14 puntos.'
+```
+
+Existe el operador unario `**`
+que permite desempaquetar un diccionario como parámetros por clave
+en una llamada a función (o método).
+
+```python
+>>> '{nombre} tiene {puntos} puntos.'.format(**data)
+'Aitor tiene 14 puntos.'
+```
+
+
+Análogamente, al operador `**`, 
+existe el operador unario `*` permite desempaquetar,
+en una llamada a función,
+listas o tuplas como parámetros posicionales.
+
+```python
+>>> # Si tenemos
+>>> data = [ 'Aitor', 14 ]
+>>> # En vez de hacer
+>>> '{0} tiene {1} puntos. ¡Felicidades {0}!'.format(data[0], data[1])
+'Aitor tiene 14 puntos. ¡Felicidades Aitor!'
+>>> # Podemos hacer
+>>> '{0} tiene {1} puntos. ¡Felicidades {0}!'.format(*data)
+'Aitor tiene 14 puntos. ¡Felicidades Aitor!'
+```
+
+Se puede combinar distintos modos de introducir parámetros en la llamada,
+pero siempre, hay que cumplir ciertas normas:
+
+- Los posicionales siempre al principio
+- Los de clave y el argumento con `*`, en cualquier orden, en medio.
+- El argumento con `**` siempre el último
+
+
+## Definiendo funciones con parámetros abiertos (`*` y `**` en definición)
+
+Las funciones que hemos definido hasta ahora,
+tenian unos parámetros definidos.
+Podían ser opcionales, pero eran definidos.
+Había unos nombres de parámetros definidos para rellenarlos con claves
+y un número mínimo y máximo de parametros para rellenar posicionalmente.
+
+¿Cómo debe estar definida la función `format`
+para recibir cualquier número de parámetros posicionales,
+y cualesquiera claves en los parámetros con clave?
+
+En una función se pueden definir dos parámetros especiales:
+
+- uno precedido de `*` en la definicion,
+  que recibe, en una lista,
+  el exceso de parámetros posicionales.
+  Por convención llamado `args`, 
+- otro precedido de `**` en la definición,
+  que recibe, en un diccionario,
+  el exceso de parámetros por clave.
+  Por convención llamado `kwds`.
+
+
+```python
+>>> def aceptoTodo(estoSiempre, estoAVeces='default', *args, **kwds):
+... 	print("estoSiempre:", estoSiempre)
+... 	print("estoAVeces:", estoAVeces)
+... 	print("args:", args)
+... 	print("kwds:",kwds)
+>>> aceptoTodo(1)
+estoSiempre: 1
+estoAVeces: default
+args: []
+kwds: {}
+>>> aceptoTodo(1, 2, 3, 4, 5)
+estoSiempre: 1
+estoAVeces: 2
+args: [3, 4, 5]
+kwds: {}
+>>> aceptoTodo(1, otro=5, estoAVeces=6)
+estoSiempre: 1
+estoAVeces: 6
+args: []
+kwds: {'otro': 5}
+```
+
+Como en la llamada, en la definición tambien hay un orden,
+más estricto si cabe.
+
+- Primero los parámetros no opcionales
+- Después los opcionales
+- Después el parámetro con `*`
+- Por último, el parámetro con `**`
+
+
+# Usando generadores
+
+Un generador es un objeto que retorna objetos en los que iterar.
+La diferencia con una estructura como la lista
+sería que los valores del generador no existen en memoria,
+sino que los genera a medida que se los van pidiendo.
+De hecho ya hemos visto un tipo de generador, `range`.
+
+En esta unidad vamos a ver unas cuantas maneras de generar valores,
+o de modificar los valores provenientes de otros iterables.
+
+
+## Expresiones generadoras
+
+Hemos visto como las listas tenian las _comprehension lists_,
+o listas _del tirón_,
+que introducían un `for` dentro de los mismos corchetes planos (`[ ]`)
+que usan las listas para los literales.
+
+Análogamente, los `set` y los `dict`, tenían su expresion _del tirón_
+con los corchetes rizados (`{ }`).
+
+Sin embargo, si intentamos hacer una tuplas _del tirón_,
+con paréntesis el objeto que obtenemos no es una tupla.
+Es un generador.
+
+La principal ventaja de usarlos es con volúmenes grandes de datos,
+evitando que se creen grandes listas intermedias en memoria.
+
+Analicemos, por ejemplo, este código:
+
+```python
+# Busca los cuadrados de los números hasta 999 que acaben en 5
+[
+	square
+	for square in [n*n for n in range(10000)]
+	if square % 10 == 5
+]
+```
+
+En el código de arriba estamos generando una lista de mil cuadrados,
+iteramos sobre ella y seleccionamos aquellos que el numero anterior
+sea divisible por 10.
+
+El problema es para que generar una lista intermedia, la de los 1000 cuadrados,
+que no vamos a usar más.
+Ocupamos memoria y hacemos que todo vaya más lento.
+
+En canvio si convertimos la lista interna en una expresion generadora
+cambiando los corchetes por paréntesis:
+
+```python
+# Busca los cuadrados de los numeros hasta 999 que acaben en 5
+[
+	square
+	for square in (n*n for n in range(1000))
+	if square % 10 == 5
+]
+```
+
+La lista interna de 1000 elementos no se generará, solo la final filtrada de 100 elementos.
+
+
+## Enumerando elementos, función `enumerate`
+
+Otro generador muy util es `enumerate`.
+Dado un iterable, genera tuplas con la posicion y el valor de cada elemento del iterable.
+
+```python
+>>> list(enumerate([
+... 	'perro',
+... 	'gato',
+... 	'raton',
+... 	]))
+...
+[(0,'perro'), (1,'gato'), (2,'raton')]
+```
+Es tremendamente útil cuando en un bucle necesitamos saber la posición de cada elemento.
+
+```python
+top5 = [
+	'Miguel Jacobez',
+	'Los Gansos Rosas',
+	'Francisco Ferdinando',
+	'Pimientos rojos de chilly picantes',
+	'Mermelada de Perlas',
+	'',
+	]
+
+for i, nombre in enumerate(top5):
+	print("En el puesto {}: {}".format(i+1, nombre))
+```
+
+**Ejercicio:**
+Usa el generador `reversed`, para darle emoción a la lista y acabar por el ganador.
+¿Que pasa si lo aplicas antes de `enumerate`?
+¿Que pasa si lo aplicas después de `enumerate`?
+
+**Ejercicio:**
+Usa el generador `sorted` para ordenar una lista de nombres.
+Investiga y experimenta los parámetros de `sorted` hasta que los entiendas.
+
+
+## Emparejando secuencias, función `zip`
+
+El generador `zip` toma varios iterables y empareja sus valores.
+
+```python
+>>> for a, b in zip(range(10), range(10,20)):
+... 	print(a, b)
+0 10
+1 11
+2 12
+3 13
+4 14
+5 15
+6 16
+7 17
+8 18
+9 19
+```
+
+**Ejercicio:**
+Reimplementa `enumerate` como una función `enumerate2`
+que use `zip`, `range` y `len`.
+
+
+
+## Nuestras propias funciones generadoras, sentencia `yield`
+
+Podemos crear nuestros propios generadores con una expresión generadora que ya hemos visto.
+Pero en las expresiones generadoras estamos limitados a una sola expresión.
+Si queremos hacer algo más complejo tenemos que usar funciones generadoras.
+
+Una función generadora no retorna un valor, retorna muchos,
+y lo hace acordandose de por donde iba para cuando se le vuelva a necesitar.
+
+```python
+function squares(limit=None):
+	n = 0
+	while limit is None or n<limit:
+		n += 1
+		yield n*n
+	return
+```
+
+La sentencia `yield` (igual que las señales de 'ceda el paso' en inglés)
+es similar al `return` en el sentido que devuelve un valor.
+Pero a diferencia del `return`, no abandona del todo la función,
+solo devuelve el control al llamante temporalmente
+y cuando el llamante pide el siguente valor
+la función sigue ejecutándose por donde iba.
+
+
+
 # Armando una aplicación de línea de comandos
 
 Si has hecho una lectura lineal de este tutorial,
 llegado a este punto tendrás un montón de bagaje
 que estarás deseando aplicar para hacer algo útil.
 
-Si has saltado directamente hasta aquí,
-la recomendación es que vayas tirando atrás cuando indiquemos
-que hay algo de lenguaje que necesitas.
+Si has saltado directamente hasta aquí, también es correcto.
+Hemos puesto enlaces a las anteriores secciones que son necesarias si algo no se entiende.
 
 En esta unidad, vamos a reforzar todo lo anterior al mismo tiempo que
 introduciremos conceptos claves para cualquier aplicación como
@@ -2515,6 +2826,7 @@ Conceptos que introduciremos:
 
 - Argumentos de línia de comandos
 - Lectura y escritura de ficheros
+- Entrada y salida estándard
 - Uso y definición de librerías
 
 
@@ -2570,9 +2882,11 @@ infile.close()
 ```
 
 Puedes ejecutar el script para ver su resultado.
-A la función `open` le pasamos el nombre del fichero a leer.
+A la función _built-in_ `open` le pasamos el nombre del fichero a leer.
 Retorna un objeto, que guardamos en la variable `infile`,
 y que representa el fichero.
+En este caso es un fichero de lectura,
+del cual podemos leer.
 Este objeto nos da métodos para manipular el fichero.
 Por ejemplo, `read` nos retorna el contenido íntegro.
 Y `close` libera el fichero para que otros usuarios lo usen.
@@ -2590,7 +2904,8 @@ cuando acabamos de usar algun recurso, que no se nos puede olvidar.
 Una sentencia `with` nos sirve para asegurar que
 ciertas cosas se hacen al acabar.
 
-Usando el `with` con un `open`, nos asegura que se llama al `close` cuando salimos.
+Usando el `with` con un `open`, 
+nos asegura que se llama al `close` cuando salimos del bloque de subsentencias.
 
 
 ```python
@@ -2600,12 +2915,13 @@ with open('entrada.txt') as infile:
 	print(contenido)
 ```
 
-Fíjate que ya no llamamos al `close` y que la asignacion de `infile` la hacemos con `as`.
+Fíjate, ya no llamamos al `close` y la asignacion de `infile` la hacemos con `as`.
 Después de ejecutar la sentencia `print`, el `with` llamará al `close`.
 Incluso si alguna sentencia dentro del `with` falla, el `with` llamará al `close`.
 
 Dado que queremos tener los ficheros bloqueados el menor tiempo posible,
-una vez que hemos hecho el read podriamos cerrar el fichero.
+una vez que hemos hecho el `read` podríamos ya cerrar el fichero.
+Es decir, dejar el `print` fuera del `with`.
 
 ```python
 #!/usr/bin/env python3
@@ -2614,11 +2930,11 @@ with open('entrada.txt') as infile:
 print(contenido) # Aquí el fichero ya estaria cerrado
 ```
 
-## Interpretando la linea de comandos `sys.argv`
+## Interpretando la linea de comandos, la lista `sys.argv`
 
 Hemos dicho antes que queríamos hacer un comando `cat`.
 Pero al comando `cat` se le pasa el fichero por línia de comandos,
-y nosotros si decimos:
+y ahora, si decimos:
 
 ```bash
 $ ./miscript.py cualquierotrofichero.txt
@@ -2629,7 +2945,7 @@ nos ignora; siempre enseña `entrada.txt`.
 Para acceder a la línea de comandos,
 vamos a usar la librería estándard `sys`.
 
-Hay que indicar que usamos la libreria con una sentencia `import`.
+Hay que indicar que usamos la librería con una sentencia `import`.
 
 ```python
 import sys
@@ -2638,7 +2954,7 @@ import sys
 Cuando importamos una librería de este modo,
 las cosas que estan dentro de la librería son accesibles
 con la sintaxis de punto (`.`), por ejemplo,
-si importamos `libreria` podemos acceder a `libreria.cosaDeDentro`.
+si importamos `librería` podemos acceder a `librería.cosaDeDentro`.
 
 Importamos `sys`, podemos acceder a la linea de comandos como `sys.argv`.
 Es una lista con los elementos de la línea de comandos.
@@ -2646,7 +2962,10 @@ El primer elemento, el 0, siempre es el comando, en nuestro caso `./myscript.py`
 El resto de elementos son los diferentes argumentos que le pasamos.
 
 > **Ejercicio:**
-> Para acabar de entender `sys.argv`, prueba de imprimir `sys.argv` sin indexar y haz las siguientes pruebas:
+> Para acabar de entender `sys.argv`,
+> comenta temporalmente el resto del código menos el `import sys`,
+> añade una sentencia `print(sys.argv)`, y
+> haz las siguientes pruebas para ver que devuelve:
 > 
 > ```bash
 > $ ./miscript.py
@@ -2656,6 +2975,7 @@ El resto de elementos son los diferentes argumentos que le pasamos.
 
 Así que, si queremos coger el primer argumento de la línea de comandos,
 tendremos que acceder a `sys.argv[1]`.
+Recuerda que el `0` es el nombre del comando.
 Substituimos en nuestro script:
 
 ```python
@@ -2665,7 +2985,7 @@ import sys
 
 with open(sys.argv[1]) as infile:
 	contenido = infile.read()
-print(contenido) # Aquí el fichero ya estaria cerrado
+print(contenido)
 ```
 
 Y lo llamamos con:
@@ -2678,7 +2998,7 @@ Ahora ya tenemos un `cat`, bueno, casi.
 
 ## Gestionando errores de línea de comandos
 
-¿Qué pasa si no le pasamos parámetros a nuestro script?
+¿Qué pasa ahora si no le pasamos parámetros a nuestro script?
 
 ```bash
 $ ./myscript.py
@@ -2692,17 +3012,22 @@ Para nosotros que sabemos Python,
 entendemos que estamos accediendo
 a los argumentos más allá de los elementos que hay.
 Es decir, que accedemos a un argumento 1 que no existe.
+Y si no lo ves claro, 
+`sys.argv` es una lista, así que repasa la [sección sobre listas](Usando listas, tipo `list`).
 
-Si nosotros no lo vemos claro,
-`sys.argv` es una lista, así que nos repasamos la [sección sobre listas](Usando listas, tipo `list`)
-y entendemos que pasa.
-
-Pero al usuario incauto no le vas a pedir hacerlo.
-Vamos a interceptar el error antes de que pase y le vamos a avisar como `$DEITY` manda.
-(A algunos les sale `$DEITY` a None.)
+Al usuario incauto no le vas a pedir que aprenda Python
+para descifrar este mensaje.
+Vamos a interceptar el error antes de que pase
+y le vamos a avisar como `$DEITY`
+^[
+Simulando otras variables de entorno configurables reales como `$LANGUAGE`, `$HOME`, `$USER`...
+se usa `$DEITY` en coña en los foros de programacion
+para de referirse deforma neutra a Dios, Ala, Buda, Ghanesha...
+incluso algunos la tenemos definida como `None`.
+] manda,
+es decir, explicando que el script requiere un argumento.
 
 Para detectar el error vamos a comprobar que la longitud de `sys.argv` sea 2 (el comando y un argumento).
-
 
 ```python
 #!/usr/bin/env python3
@@ -2714,7 +3039,7 @@ if len(sys.argv) != 2 :
 
 with open(sys.argv[1]) as infile:
 	contenido = infile.read()
-print(contenido) # Aquí el fichero ya estaria cerrado
+print(contenido)
 ```
 
 Ups, ahora en caso de error imprime el error pero, tambien el error antiguo.
@@ -2731,23 +3056,45 @@ if len(sys.argv) != 2 :
 else:
 	with open(sys.argv[1]) as infile:
 		contenido = infile.read()
-	print(contenido) # Aquí el fichero ya estaria cerrado
+	print(contenido)
 ```
 
-## Saliendo del script prematuramente, función `sys.exit`
+¡Ya lo tenemos!
 
-El estilo de programación de la última versión es bastante feo.
-Más que nada porque si tienes unas cuantas condiciones de error
-al final tu script parecerán las cataratas del Niagara
-con tanto nivel.
 
-Lo mejor es hacer una salida temprana, como las que haciamos con `return`, `break` o `continue`.
-Pero si no estamos en un bucle no podemos hacer `break`,
-y si no estamos en una función, no podemos hacer `return`.
-¿Cómo podemos salir de un script?
+## Verificando que un fichero existe, función `os.access`
 
-Pues usamos la funcion `sys.exit`.
-Reescribimos el script:
+¿Qué pasa cuando el fichero no existe?
+
+```bash
+$ ./myscript.py dios.txt
+Traceback (most recent call last):
+  File "runme.py", line 5, in <module>
+    with open(sys.argv[1]) as infile:
+FileNotFoundError: [Errno 2] No such file or directory: 'dios.txt'
+```
+
+Otra vez hay que adelantarnos a los acontecimientos y detectar el error.
+Usaremos la función `access` de la librería `os` (_operating system_)
+que nos dice si podemos acceder a un fichero en un determinado modo.
+Los modos son los de los permisos del `chmod`:
+
+- `os.R_OK`: Podemos leerlo (_Reading is OK_)
+- `os.W_OK`: Podemos escribir (_Writing is OK_)
+- `os.X_OK`: Podemos ejecutarlo (_eXecuting is OK_), con los directorios, implica que podemos entrar
+- `os.F_OK`: El fichero (_File is OK_) existe, tengamos o no permisos
+
+En nuestro caso, no nos basta con que exista,
+queremos poder leerlo, asi que usaremos
+`os.R_OK`, (_Reading is OK_).
+
+Antes de pringarnos metiéndolo en el código, un poco de previsión.
+Como vamos a usar el nombre de fichero que sacamos de `argv`,
+en varios sitios y `sys.argv[1]` es algo bastante ilegible,
+primero vamos a reescribir el código anterior para introducir
+una variable llamada `infilename`.
+La introducimos una vez sabemos que el argumento existe,
+es decir, en el `else`.
 
 ```python
 #!/usr/bin/env python3
@@ -2756,59 +3103,194 @@ import sys
 
 if len(sys.argv) != 2 :
 	print("Se esperaba un argumento")
-	sys.exit(-1)
+else:
+	infilename = sys.argv[1]
+	with open(infilename) as infile:
+		contenido = infile.read()
+	print(contenido)
+```
+Y ahora si, con la variable definida,
+comprobemos que el fichero existe antes de abrirlo.
 
-with open(sys.argv[1]) as infile:
-	contenido = infile.read()
-print(contenido) # Aquí el fichero ya estaria cerrado
+```python
+#!/usr/bin/env python3
+
+import sys
+import os # libreria nueva
+
+if len(sys.argv) != 2 :
+	print("Se esperaba un argumento")
+else:
+	infilename = sys.argv[1]
+	# condicion de error nueva 
+	if not os.access(infilename, os.R_OK) :
+		print("No se pudo leer el fichero '{}'".format(infilename))
+	else:
+		with open(sys.argv[1]) as infile:
+			contenido = infile.read()
+		print(contenido)
 ```
 
+
+## Saliendo del script prematuramente, función `sys.exit`
+
+El estilo de programación de la última versión es bastante... feo.
+Más que nada porque si tienes unas cuantas condiciones de error
+al final tu script parecerán las cataratas del Niagara
+con tanto nivel.
+Como siempre, el ordenador lo entenderá pero los humanitos y las humanitas
+perderán su preciado tiempo resiguiendo los niveles de indentación.
+
+Lo mejor es hacer una salida prematura.
+Para salir prematuramente de una función lo hacíamos con `return`.
+Para salir prematuramente de un bucle, lo hacíamos con `break`, o
+de una iteración a la siguiente con `continue`.
+Pero ¿cómo podemos salir prematuramente de un script?
+
+Para salir prematuramente de un script, se usa la función `sys.exit`.
+
+Reescribamos el script, pues:
+
+```python
+#!/usr/bin/env python3
+
+import sys
+import os
+
+if len(sys.argv) != 2 :
+	print("Se esperaba un argumento")
+	sys.exit(-1)
+
+infilename = sys.argv[1]
+
+if not os.access(infilename, os.R_OK) :
+	print("No se pudo leer el fichero '{}'".format(infilename))
+	sys.exit(-1)
+
+with open(infilename) as infile:
+	contenido = infile.read()
+print(contenido)
+```
+
+Ahora las condiciones de error nos han quedado bastante identificadas
+y no tenemos la tensión cognitiva de estar dentro de un `if`-`else`
+en el resto del código.
+Detectamos una condición de error, la gestionamos y nos olvidamos de ella.
+
 ¿Qué quiere decir el -1?
-La convención de los scripts de shell es que si funcionan normalmente devuelvan un valor 0
-al shell y si hay cualquier otro problema devuelvan un valor diferente de 0.
-Sería como el return de los programas.
-Serviría para que un script en `bash` que use nuestro script en Python,
-pueda reaccionar en caso de que falle nuestro script.
+
+Ese número que se le pasa es el _estado de salida_ o _exit status_ del programa.
+Son códigos que pueden usar los llamantes de un programa
+para saber si ha habido un error o si ha pasado algo anormal.
+Si todo ha funcionado como toca, el código será `0`.
+El resto de números sirven para codificar diferentes motivos,
+y se suele usar el `-1` para indicar que es un error sin especificar cual.
+
+De hecho, igual que pasaba en las funciones con el `return None`,
+si las sentencias se ejecutan hasta la última y el script termina,
+automáticamente es como si se ejecutara un `sys.exit(0)` al final.
+
+
+> **Ejercicio:**
+> ¿Quieres ver cual es el código que ha retornado un programa?
+> En el mismo shell que lo ha lanzado, justo despues de terminar, lanza:
+> 
+> ```bash
+> $ echo $?
+> ```
+> 
+> Prueba con el `grep` o el `diff`,
+> verás que es diferente dependiendo de si encuentran o no lo que buscan
+> (que encuentre la palabra el primero, diferencias entre los ficheros el segundo),
+> o de si alguno de los parámetros falta o es erróneo.
 
 
 ## La función `die`
 
 Como comentamos cuando hablabamos de condicionales y booleanos,
 para estos casos es muy práctico montarse una función `die`.
+Hagámoslo:
 
 ```python
 #!/usr/bin/env python3
 
 import sys
+import os
 
 def die(message):
 	print(message)
 	sys.exit(-1)
 
-len(sys.argv) is 2 or die("Se esperaba un argumento")
+if len(sys.argv) is not 2:
+	die("Se esperaba un argumento")
 
-with open(sys.argv[1]) as infile:
+infilename = sys.argv[1]
+
+if not os.access(infilename, os.R_OK):
+	die("No se pudo leer el fichero '{}'".format(infilename))
+
+with open(infilename) as infile:
 	contenido = infile.read()
-print(contenido) # Aquí el fichero ya estaria cerrado
+print(contenido)
 ```
 
-En Guifibaix tenemos la función `die` definida en el módulo `consoleutils`.
-Las ventajas de tenerlo centralizado es que puedes hacer cosas como que
-si estas usando entorno de ventanas, el mensaje, en vez de salir por consola,
-te aparezca en una ventana.
-Todas las llamadas al `die` se beneficiarán de esa mejora.
+Es muy interesante tener esta función centralizada
+en vez de tener los `print` y `exit` repartidos por todo el script.
 
+Con todo el ruido fuera,
+nos es más fácil hilar más fino y diferenciar el mensaje de error:
+
+```python
+if len(sys.argv) < 2:
+	die("Se esperaba un argumento")
+if len(sys.argv) > 2:
+	die("Demasiados argumentos, se esperaba uno solo")
+```
+
+Ahora imagina que queremos que todos los mensajes de error del `die`
+queremos que empiecen con `Error crítico`.
+Si tuviéramos varias salidas como esta sin una función `die`,
+tendriamos que añadir eso en cada sitio.
+Pero con `die` solo tenemos que hacerlo en un punto y ya está.
+
+```python
+def die(message):
+	print('Error crítico: ' + message)
+	sys.exit(-1)
+```
+
+Todas las llamadas al `die` se beneficiarán de la mejora.
+
+
+> **Ejercicio:**
+> Otra mejora más llamativa que se le puede hacer es hacer que los mensajes de error se vean en color rojo.
+> Hay que sumarle al mensaje delante `\033[31;1m` para activar el color
+> y `\033[0m` al final para desactivarlo.
+> El `\033` es un carácter especial (escape) y sirve para entrar
+> las llamadas [secuencias ANSI de control de terminal](https://es.wikipedia.org/wiki/C%C3%B3digo_escape_ANSI).
+
+
+El módulo `consoleutils` de GuifiBaix
+tiene funciones para varios tipos de mensajes:
+`error`, `fatal`, `warning`, `step`...
+Si estás programando para la cooperativa,
+no te construyas otra función `die`, usa las funciones de ese módulo.
 
 ## Salidas y entradas estandard
 
-Pero vayamos a mejoras más factibles.
+Sigamos mejorando la función `die`.
 El mensaje de error se imprime con `print`.
 En consola, esto hace que vaya a la salida estándard.
 
 Recordemos lo que aprendimos en los tutoriales de `bash`
 sobre lo que eran la salida estándard, y la salida de error.
 
-Todos los programas de UNIX,
+En UNIX todo es un fichero.
+El teclado es un fichero del cual podemos leer,
+la pantalla es un fichero en el cual podemos escribir,
+los ficheros de disco son ficheros en los que podemos leer y escribir...
+
+Así que todos los programas de UNIX,
 (por extension los de Linux y Mac, y por mala copia, los de Windows),
 por el hecho de ejecutarse tienen siempre 3 ficheros abiertos:
 
@@ -2823,46 +3305,343 @@ desde `bash`, podemos redirigirlas.
 Por ejemplo:
 
 ```bash
+$ # Enviamos la salida de nuestro script a un fichero 'salida.txt'
+$ ./miscript.py entrada.txt > salida.txt
+$ # Enviamos la salida de nuestro script como entrada del `grep`
+$ # sustituyendo al teclado
 $ ./miscript.py entrada.txt | grep ganchitos
 de comer ganchitos.
-$ ./miscript.py entrada.txt > salida.txt
 ```
 
 En el primer caso enviamos la salida estándard al fichero `salida.txt`.
-En el segundo  estábamos enviando la salida estandard al comando `grep` que filtra las líneas que contienen una palabra.
+En el segundo conectamos, con lo que se llama una tuberia,
+la salida de nuestro script con la entrada del comando `grep`,
+que filtra las líneas que contengan la palabra _ganchitos_.
 El comando `grep` en vez de leer su entrada del teclado la lee de la salida de nuestro script.
 
-Debido a este tipo de uso es importante que los mensajes de error no se mezclen
+Debido a este tipo de uso, es importante que los mensajes de error no se mezclen
 con la salida esperada del comando y por eso hay dos ficheros diferenciados
-aunque a veces los dos se envien al mismo.
+aunque a veces los dos se envien al mismo destino.
+Al estar separados, aunque redirigamos la salida estándard,
+los errores aún apareceran por pantalla.
 
-Esos ficheros estan disponibles como `sys.stdin`, `sys.stdout` y `sys.stderr`.
-La funcion `print`, trabaja normalmente con `sys.stdout`,
+Estos tres ficheros estan disponibles como `sys.stdin`, `sys.stdout` y `sys.stderr`.
+Son objetos parecidos al objeto `infile` que nos devolvía `open`,
+que usamos para leer el fichero `entrada.txt`.
+
+La función `print`, trabaja normalmente con `sys.stdout`,
 si queremos cambiarlo, podemos especificar la salida con el parámetro `file`.
 
 Modifiquemos la función `die` para que no nos mezcle los errores con nuestra salida:
 
 
 ```python
-def die(message, file=sys.stderr):
-	print(message)
+def die(message):
+	print(
+		'\033[31;1m' +
+		'Error crítico: ' + message +
+		'\033[0m',
+		file=sys.stderr)
 	sys.exit(-1)
+```
+
+> **Culturilla:**
+> Sin exagerar, en UNIX todo es un fichero.
+> La entrada y salida de una consola, el teclado y la pantalla de texto, estan abstraidos en el fichero especial `/dev/tty`.
+> Si redirijes texto a ese fichero, saldrá por el terminal,
+> si lees de ese fichero, leeras lo que escribas en ese terminal.
+
+
+## Los ficheros como iterables
+
+El método `read` que estamos usando carga todo el fichero en memória a la vez.
+Es bastante conveniente pero si el fichero es grande,
+la aplicación empezará a ir lenta pues se nos llenará la memoria.
+
+La solución es ir leyendo a trozos.
+En el caso de los ficheros de texto, a líneas.
+Y para ello, la función `read` ya no nos vale.
+
+Lo bueno es que Python intenta ver todo como un iterable.
+Es decir, como si fuera una lista.
+Y si iteramos sobre un fichero de texto,
+los items que nos va a ofrecer, son justamente, las líneas.
+
+Modificamos nuestro `with` de esta manera:
+
+```python
+with open(infilename) as infile:
+	for linea in infile:
+		print(linea)
+```
+
+Si miramos la salida, veremos que algo esta pasando.
+Hay una línea en blanco que antes no estaba.
+Ese salto de línea nos lo introduce el `print`.
+El método `write` de los ficheros no lo introduce,
+así que lo usamos con `sys.stdout`.
+
+```python
+with open(infilename) as infile:
+	for linea in infile:
+		sys.stdout.write(linea)
+```
+
+Ya está, arreglado.
+
+> **Ejercicio:**
+> Modifica el script para que se convierta en una especie de `grep`
+> sencillo, sin expresiones regulares, que simplemente filtre palabras.
+>
+> Claves:
+>
+> - Recibirá un parámetro extra por linea de comandos que será la palabra. Hay que ampliar los parámetros a recibir.
+> - Dentro del `for` usaremos el operador `in` para saber si la línea contiene la palabra.
+
+
+## Sofisticando la línea de comandos, librería `argparse`
+
+¿Cómo sería el script para hacer que,
+si recibe sólo un parámetro, se comporte como el `cat`
+y si recibe un segundo, se comporte como el `grep`?
+
+
+```python
+#!/usr/bin/env python3
+
+import sys
+import os
+
+def die(message):
+	...
+
+if len(sys.argv) < 2: 
+	die("Se esperaba mínimo un argumento")
+
+if len(sys.argv) > 3: 
+	die("Se esperaban máximo dos argumentos")
+
+infilename = sys.argv[1]
+
+if not os.access(infilename, os.R_OK):
+	die("No se pudo leer el fichero '{}'".format(infilename))
+
+filtro = sys.argv[2] if len(sys.argv) is 3 else None
+
+with open(infilename) as infile:
+	for line in infile:
+		if filtro and filtro not in line:
+			continue
+		sys.stdout.write(line)
+```
+
+Observa que, aunque las opciones son mínimas,
+y hemos hecho algunos trucos para reducir la lógica relacionada ellas,
+la gran parte del código aún tiene que ver con las opciones.
+
+Las líneas de comandos se pueden complicar mucho más:
+Parámetros opcionales y múltiples,
+opciones (esas que empiezan con guion como `--force`),
+subcomandos (como los `commit` y `push` del `git`)...
+
+Podemos currárnoslo nosotros, trabajando con la lista `sys.argv`.
+Pero, cuando ya tienes varios parámetros y alguna opción,
+combiene usar la libreria estándard
+[`argparse`](https://docs.python.org/3/library/argparse.html).
+
+Esa libreria, no solo nos recogerá apropiadamente
+los valores de las opciones,
+sino que nos dará mensajes de error apropiados cuando no se especifiquen correctamente.
+Y, como extra, añade la opción `--help`, que los usuarios agradecen.
+Saca por pantalla una ayuda de como usar el script,
+aprovechando la descripción que le damos de las opciones.
+
+Cuando usamos `argparse`, lo hacemos en dos pasos:
+
+- Creamos un objeto analizador (_parser_)
+- Añadimos al parser las opciones y argumentos que queremos recibir
+- Le decimos al parser que procese `sys.argv`, llamando al método `parse_args`
+- Nos devuelve un segundo objeto con las opciones como atributos que podemos acceder con la sintaxis de punto (`.`).
+- Si hay un error o llaman a la opción `--help`, ya se encarga él.
+
+```python
+#!/usr/bin/env python3
+
+import sys
+import os
+import argparse
+
+def die(message):
+	...
+
+parser = argparse.ArgumentParser(
+	description = "Muestra el fichero, opcionalmente filtrando lineas",
+	)
+parser.add_argument(
+	'infilename',
+	help="Fichero de entrada",
+	)
+parser.add_argument(
+	'filter',
+	help="Palabra por la que filtrar la salida",
+	# Con nargs decimos que es opcional
+	nargs='?',
+	# Si no lo pasan, recibiremos el default
+	default = None,
+	)
+
+options = parser.parse_args(sys.argv)
+
+if not os.access(options.infilename, os.R_OK):
+	die("No se pudo leer el fichero '{}'".format(options.infilename))
+
+with open(options.infilename) as infile:
+	for line in infile:
+		if options.filter and options.filter not in line:
+			continue
+		sys.stdout.write(line)
+```
+
+Quizás es verdad que ahora nuestro script es más largo,
+pero tenemos un monton de cosas nuevas gratis
+que agradeceran nuestros usuarios.
+Y cuando compliquemos de verdad las opciones no habrá color.
+
+Hagámoslo.
+Vamos a añadir una opción `--upper` 
+para que convierta todo lo que salga en mayúsculas.
+Añadamos en las opciones:
+
+```python
+parser.add_argument(
+	'--upper',
+	help = "Convierte la salida a mayúsculas",
+	# si existe la opción, el atributo valdra True
+	action = 'store_true',
+	)
+```
+
+Y el bucle quedaría:
+
+```python
+with open(options.infilename) as infile:
+	for line in infile:
+		if options.filter and options.filter not in line:
+			continue
+		# código nuevo
+		if options.upper:
+			line=line.upper()
+
+		sys.stdout.write(line)
+```
+
+> **Ejercicio:**
+> Añade otra opción para que aplique algun otro método
+> de los textos como `lower`, `capitalize`, `title`, `swapcase`,
+> `lstrip`, `strip`, `rstrip`...
+
+De los métodos de texto que devuelven otro texto,
+algunos llevan un parámetro.
+Es el caso de `center`, 
+que centra el texto con espacios a un cierto ancho.
+
+Vamos a ver como añadir una opción que lleve un parámetro:
+
+
+```python
+parser.add_argument(
+	'--center',
+	help = "Centra el contenido a WIDTH espacios",
+	# el texto de la opción lo pasara por el constructor de int
+	type=int,
+	# en el ejemplo de uso el parámetro saldra como WIDTH
+	metavar='WIDTH',
+	)
+```
+
+Como no especificamos el `store_true`,
+la opción tomará un parametro.
+
+Observa que las opciones y argumentos son todos textos.
+Ahora necesitamos un número entero.
+El valor de `type` es una función que se llamará
+para construir el valor del atributo a partir del texto.
+Como le pasamos el tipo `int`, usado como función
+interpreta el texto como entero, y si no lo es se queja.
+
+> **Ejercicio:**
+>
+> - Comprueba que si le pasamos algo que no sea un entero, se nos queja.
+> - Comprueba que si no le pasamos el parámetro, también se queja.
+
+Dado que la opción lleva un parámetro, hemos indicado una `metavar`
+que es como saldrá el parámetro en la descripción de uso.
+Si no lo indicamos, cogería el nombre de la opción en mayúsculas.
+Pero vemos que `CENTER` tiene menos sentido que `WIDTH`,
+por eso lo indicamos.
+
+Ataquemos ahora el bucle.
+La implementación directa sería añadir:
+
+```python
+		if options.center:
+			line=line.center(options.center)
+```
+
+Sin embargo, verás que el resultado no es el esperado.
+
+> **Ejercicio:**
+> Arregla el center para que funcione.
+> Lo que hace `center` es añadir espacios
+> a ambos lados del texto hasta que el numero de caracteres
+> sea el especificado.
+> El problema es que nuestro texto acaba con un `\n`.
+> Una de las líneas es:
+> 
+> ```python
+> 'de comer ganchitos.\n'
+> ```
+> 
+> Si centramos a 30, añadiremos unos 5 espacios por cada lado, quedando:
+> 
+> ```python
+> '      de comer ganchitos.\n     '
+> ```
+> 
+> Fíjate que los espacios de la derecha se han añadido despues del `\n`,
+> por lo que afectarán al alineamiento de la siguiente línea.
+> Puedes usar `strip` o `rstrip` pero no te olvides volver a añadir el `\n`.
+
+
+En este punto si usamos la opción `--help`, nos saldrá algo como:
+
+```
+usage: myscript.py [-h] [--upper] [--center WIDTH] infilename [filter]
+
+Muestra el fichero, opcionalmente filtrando lineas
+
+positional arguments:
+  infilename      Fichero de entrada
+  filter          Palabra por la que filtrar la salida
+
+optional arguments:
+  -h, --help      show this help message and exit
+  --upper         Convierte la salida a mayúsculas
+  --center WIDTH  Centra el contenido a WIDTH espacios
 ```
 
 
 
 
-
-
-
+# Ficheros de texto tabulares, CSV
 
 ## El formato CSV
 
 Vamos a crear un fichero `csv`.
-CSV son las siglas de `Comma separated values`,
+CSV son las siglas de _comma separated values_,
 es decir, valores separados por comas.
-Es una forma de representar valores en forma de tabla
-en que cada línea del fichero es una línea de la tabla
+Es una forma de representar una tabla de valores
+en que cada línea del fichero es una fila de la tabla
 y los valores de cada columna de la fila, se separan entre ellos por una coma.
 
 De hecho, la extensión `.csv` se usa de forma generalizada
@@ -2870,27 +3649,287 @@ para ficheros de texto que tengan datos tabulados,
 se use o no la coma como separador.
 Las aplicaciones de hoja de cálculo permiten
 exportar e importar esos ficheros especificando
-el separador o otros parsámetros.
+el caracter separador o otras convenciones.
 
-
-
-Aunque el nombre explicite el uso de comas,
-la verdad es que CSV se utiliza para diversos tipos de representacion.
-
-
-```python
-#!/usr/bin/env python3
-
-print('unfichero.csv')
-```
-
+Nosotros vamos a usar el caracter tabulador `'\t'` como separador de columnas.
 
 ## Convirtiendo una tabla en CSV
 
+Imaginemos que tenemos los datos en una tabla.
+
+```python
+table = [
+	[ 'valor 11', 'valor 12', 'valor 13', 'valor 14'],
+	[ 'valor 21', 'valor 22', 'valor 23', 'valor 24'],
+	[ 'valor 31', 'valor 32', 'valor 33', 'valor 34'],
+	[ 'valor 41', 'valor 42', 'valor 43', 'valor 44'],
+]
+```
+
+Y queremos representar esos valores en una fichero csv para abrirlos con nuestra aplicación de hoja de cálculo.
+Tenemos que unir los valores de cada fila con el tabulador, y los de cada columna con el salto de línea, se encarga el `print`.
+
+```python
+for row in table:
+	print('\t'.join(row))
+```
+
+Si quisieramos tener el texto en memoria o guardarlo en un segundo fichero
+podemos hacer un doble `join`.
+
+```python
+csv = '\n'.join( '\t'.join(row) for row in table )
+with open('tabla.csv', 'w') as outfile:
+	outfile.write(csv)
+```
+
+Prueba de abrir el fichero generado con una suite de ofimática.
+Con el LibreOffice, nos preguntará que tipo de CSV
+estamos abriendo.
+Hay que seleccionar que el separador es el tabulador,
+que no estamos usando comillas
+y que la codificacion de los caracteres es UTF-8.
+
+
 ## Conviertiendo un CSV en una tabla
+
+¿Y al revés? ¿Como leemos un CSV?
+
+Pues si para escribirlo usabamos `join`, para leerlo usaremos `split`.
+
+```python
+# Este texto lo podríamos obtener igual con un read de un fichero.
+
+csv = """\
+valor 11\tvalor 12\tvalor 13\tvalor 14
+valor 21\tvalor 22\tvalor 23\tvalor 24
+valor 31\tvalor 32\tvalor 33\tvalor 34
+valor 41\tvalor 42\tvalor 43\tvalor 44
+"""
+# Componemos la tabla (lista de listas)
+tabla = [
+	row.split('\t')
+	for row in csv.split('\n')
+	]
+```
+
+Ojo, el `split` nos da una fila extra por la ultima línea vacía.
+Hay un `'\n'` pero no hay fila después.
+Para filtrarla, podemos usar un `if`.
+
+```python
+tabla = [
+	row.split('\t')
+	for row in csv.split('\n')
+	if row.strip() # la función strip elimina caracteres blancos
+	]
+```
+
+> **Ejercicio:**
+> Crea con el LibreOffice una tabla con los datos de los socios:
+> Nombre, apellidos, municipio...
+> Grábala en formato CSV ("Guardar como" y cambia el tipo de archivo abajo).
+> Te pedirá los parámetros del CSV, como siempre tabuladores, UTF-8 y sin comillas.
+> Carga la tabla en Python.
+
 
 ## Usando las cabeceras para crear un diccionario
 
+A menudo se reserva la primera fila para las cabeceras de las columnas.
+Podemos aprovechar este hecho para en vez de una lista de listas,
+usar una lista de diccionarios donde las claves sean el título de cada atributo.
+Momento de revisar el capítulo sobre diccionarios y el de diccionarios _del tirón_.
+
+```python
+csv = """\
+columna 1\tcolumna 2\tcolumna 3\tcolumna 4
+valor 11\tvalor 12\tvalor 13\tvalor 14
+valor 21\tvalor 22\tvalor 23\tvalor 24
+valor 31\tvalor 32\tvalor 33\tvalor 34
+valor 41\tvalor 42\tvalor 43\tvalor 44
+"""
+# Repetimos la operación anterior
+tabla = [
+	row.split('\t')
+	for row in csv.split('\n')
+	if row
+	]
+# Una vez tenemos la tabla en crudo,
+# construyamos la lista de diccionarios.
+objetos = [
+	{
+		key: value
+		for key, value in zip(tabla[0], row)
+	} for row in tabla[1:]
+]
+print(objetos[2]['columna 3']
+# imprime: valor 23
+print(objetos)
+# imprime una lista de diccionarios:
+#[
+#	{
+#		'columna1' : 'valor 11',
+#		'columna2' : 'valor 12',
+#		'columna3' : 'valor 13',
+#		'columna4' : 'valor 14',
+#	},{
+#		'columna1' : 'valor 21',
+#		'columna2' : 'valor 22',
+#		'columna3' : 'valor 23',
+#		'columna4' : 'valor 24',
+#	},{
+#		'columna1' : 'valor 31',
+#		'columna2' : 'valor 32',
+#		'columna3' : 'valor 33',
+#		'columna4' : 'valor 34',
+#	},{
+#		'columna1' : 'valor 41',
+#		'columna2' : 'valor 42',
+#		'columna3' : 'valor 43',
+#		'columna4' : 'valor 44',
+#	},
+#]
+```
+
+La función _built-in_ `zip` coge los dos iterables
+y construye un iterable con tuplas de ambos.
+Estamos cogiendo la primera fila que contiene las cabeceras
+y las emparajamos con cada una de las siguentes filas.
+
+Con columnas tan sosas como `columna 1`,
+igual no tiene sentido.
+Empezarás a verlo cuando tengas columnas que se llamen
+`Nombre`, `Apellidos`, `DNI`...
+
+La ventaja está en que dejamos de contar
+y referenciamos las columnas por su nombre.
+Imaginate que en nuestro csv añadimos una columna
+deberíamos de revisar todos los índices.
+Son números, así que un busca y sustituye
+es bastante tedioso y tendiente a errores.
+
+Accedemos por nombre y si no tenemos cabeceras para hacerlo
+las deberiamos de inventar.
+Es decir, es tan bueno referenciar las celdas por su
+nombre que si no tenemos cabeceras, es bueno
+definir una lista con los nombres de los campos,
+y acceder por ellos.
+¿Porqué?
+Primero, el código se va a entender mejor y nos ahorramos
+el estar contando todo el rato mientras escribimos o leemos el código,
+para saber cual es la columna del nombre y la del apellido.
+Segundo, si modificamos la estructura del csv,
+si cambiamos el orden de las columnas o añadimos alguna, solo
+tendremos que cambiar la lista de las cabeceras.
+
+
+
+## La clase namespace
+
+# Trabajando con rutas
+
+## Manipulando rutas, el módulo `os.path`
+
+Otro tipo de operaciones muy importantes cuando estamos manejando ficheros
+es la manipulación de rutas de archivos.
+La **ruta** (_path_) es la secuencia de cambios de directorio
+que hay que hacer para llegar a un recurso en el sistema de ficheros.
+
+En UNIX (e hijos, como Linux y Mac), la ruta se expresa
+separando los pasos con una barra (`/`).
+En Windows, se separan con contrabarras (`\`).
+Para construir rutas sin ir preguntando en qué sistema estás,
+Python proporciona la función `os.path.join`.
+
+```python
+>>> os.path.join('expedients', 'sjd-verdaguer42', 'contracte.yaml')
+'expedients/sjd-verdaguer42/contracte.yaml'
+```
+
+Hablamos de **ruta absoluta** cuando se expresa a partir de la raiz.
+En Unix las absolutas empiezan todas con la barra (`/`), por ejemplo, `/home/aitor`.
+En contraste, hablamos de **ruta relativa** cuando se expresa a partir de otro directorio.
+Las rutas relativas se identifican (en UNIX) porque no llevan la barra inicial, por ejemplo, `Documents/guifibaix/suro`.
+
+Normalmente el directorio de referencia para las rutas relativas es el llamado **directorio de trabajo**.
+El directorio de trabajo es el que cambiamos en linea de comandos con `cd`.
+Desde Python podemos cambiarlo con la función `os.chwd(directorio)`.
+Pero una ruta relativa sirve también para aplicarse a otro directorio base,
+por ejemplo, combinándolos con la función `os.path.join`.
+
+```python
+>>> miCasa = '/home/aitor'
+>>> suro = 'Documents/guifibaix/suro'
+>>> os.path.join(miCasa, suro)
+'/home/aitor/Documents/guifibaix/suro'
+```
+
+De hecho esta suele ser una buena estrategia para localizar los recursos de un programa.
+Combinar un directorio absoluto que puede cambiar,
+con las rutas a los recursos a partir de ese punto base.
+De esta manera evitamos tener que cambiar todas las localizaciones en el código.
+Las rutas relativas dependen solo de nuestro programa,
+y la base dependerá de a donde se vaya a vivir
+finalmente nuestro programa,
+sea un path de instalación o el directorio del usuario que sea.
+
+
+## Rutas estándard, la librería externa `appdirs`
+
+De hecho, existen estándares que especifican donde tienen que ir
+cada tipo de fichero de una aplicacion.
+Dichos estándares dependen del sistema,
+pero afortunadamente hay una librería externa (que hay que instalar)
+que nos dice, estemos en el sistema que estemos, cuales son.
+
+Es una librería externa, así que hay que instalarla.
+
+En Ubuntu/Debian, está disponible como paquete así que podemos instalarla en el sistema con:
+
+```bash
+$ sudo apt-get install python3-appdirs
+```
+
+Si no estuviera como paquete en la distribución,
+también podríamos instalarla desde el Package Index, PyPI:
+
+```bash
+$ sudo pip install appdirs
+```
+
+Una vez instalado, podemos hacer `import`
+como hemos hecho con las librerías estándard.
+
+La librería nos da varias localizaciones útiles.
+No está de mas que con el `ipython3` exploraras
+la librería con el tabulador y
+consultaras su ayuda añadiendo el `?` a las funciones que ofrece.
+
+Para nuestras aplicaciones, me centraría en estas:
+
+- `appdirs.user_data_dir(appname, appauthor)`: Donde están los datos de aplicación para el usuario.
+- `appdirs.user_config_dir(appname, appauthor)`: Donde están los ficheros de configuración de la aplicación, para el usuario.
+
+## Comodines, la función `glob.glob`
+
+En `bash` podemos expandir cosas con asteriscos `*` para que se expandan en varios nombres que coincidan con un patron.
+
+Por ejemplo: `*.py` se expande con todos los ficheros Python del actual directorio de trabajo.
+
+Python ofrece una librería estándard, `glob`, que nos hace esta expansión.
+
+Le pasamos un string con los comodines y nos devuelve una lista con
+los ficheros que coinciden.
+
+> **Culturilla:**
+> `glob` viene de _global match_.
+> Era una función que tenía algún sistema Unix antiguo
+> para hacer que un comando en vez de aplicarse a un fichero,
+> se aplicara _globalmente_ a un conjunto de ficheros.
+> 
+> La expresión _global_ hoy en dia ha perdido mucho de su significado,
+> pero se usa _glob_ (o _globear_ en castellano malo) como verbo,
+> y globbing a las expresiones.
 
 
 
@@ -2903,240 +3942,6 @@ A partir de aquí hay dragones.
 
 
 
-## Parámetros de entrada abiertos (`*` y `**` en la definición)
-
-Hay varias funciones estàndard que pueden recibir un número indeterminado de paràmetros.
-
-Por ejemplo, la función `max`, podemos pasarle dos paràmetros, como vimos,
-o podemos pasarle 3, 4 o los parámetros que quieras.
-
-```python
->>> max(3,76,23,102,31)
-102
-```
-
-Lo mismo con la función `print`:
-
-```python
->>> print('hola', 'mundo')
-hola mundo
-```
-
-¿Cómo se puede definir una función que reciba un número indeterminado de parámetros?
-
-Si definimos el último parámetro posicional precedido de un asterisco (`*`),
-dicho parámetro recibirá todos los parámetros que sobren como una lista.
-
-```python
->>> def f(a, *args):
-... 	print(a)
-... 	print(args)
-...
->>> f(1,2,3,4,5,6,7,8)
-1
-[2,3,4,5,6,7,8]
-```
-
-
-
-
-## Desempaquetando parámetros (`*` y `**` en la llamada)
-
-
-
-Hagamos una función para imprimir en colores
-
-
-```python
->>> def colorPrint(color, *args)
-... 	print('\033]{}m'+args[0], *args[1:], )
-
-```
-
-
-El operador `*` dentro de los 
-Se puede desplegar una lista como valores pasados como parámetros a una función.
-
-
-
-
-
-
-
-## Usando generadores
-
-Un generador es un objeto que retorna objetos en los que iterar.
-La diferencia con una lista sería que el generador no construye la lista en memória pero si que ofrece los items.
-
-### Generando secuencias de números, el generador `range`
-
-Uno de los generadores más usado es el _built-in_ `range`, genera enteros y 
-sus tres parámetros son equivalentes a los de un slice: inicio, fin y paso.
-
-```python
->>> for i in range(3,20,3):
-... 	print(i)
-...
-3
-6
-9
-12
-15
-18
->>> print(range(3,20,3)) # No es una lista es otro tipo de objeto
-range(3,20,3)
->>> list(range(3,20,3))  # como es iterable lo podemos pasar al constructor de list
-[3,6,9,12,15,18]
->>> tuple(range(3,20,3)) # o al constructor de tuple
-(3,6,9,12,15,18)
-```
-**Ejercicio:**
-
-- Prueba que pasa si recibe solo dos argumentos `range(2,10)`
-- Prueba que pasa si recibe solo un argumento `range(10)`
-- Prueba como funcionan los numeros negativos para cada parámetro.
-- Escribe una _comprehension list_ en la que esten los cuadrados de los números del 1 al 10
-	- Pista, código en el camino pero erróneo:
-
-		```python
-		[ n*n for n in range(1,10) ]
-		```
-
-
-
-
-
-### Expresiones generadoras
-
-Las expresiones generadoras son muy parecidas a las _comprehension lists_:
-
-- Usan la misma sintaxis pero en vez de usar corchetes usan paréntesis, como si fueran tuplas.
-- En vez de crear una lista en memoria, crean un 'generador'
-
-La principal ventaja de usarlos es con volúmenes grandes de datos,
-evitando que se creen grandes listas intermedias en memoria.
-
-```python
-# Busca los cuadrados de los numeros hasta 999 que acaben en 5
-[
-	square
-	for square in [n*n for n in range(1000)]
-	if square % 10 == 5
-]
-```
-
-En el código de arriba estamos generando una lista de mil cuadrados,
-iteramos sobre ella y seleccionamos aquellos que el numero anterior
-sea divisible por 10.
-
-El problema es para que generar una lista intermedia, la de los 1000 cuadrados,
-que no vamos a usar más.
-Ocupamos memoria y hacemos que todo vaya más lento.
-
-En canvio si convertimos la lista interna en una expresion generadora
-cambiando los corchetes por paréntesis:
-
-```python
-# Busca los cuadrados de los numeros hasta 999 que acaben en 5
-[
-	square
-	for square in (n*n for n in range(1000))
-	if square % 10 == 5
-]
-```
-
-La lista interna de 1000 elementos no se generará, solo la final filtrada de 100 elementos.
-
-
-### Enumerando elementos, `enumerate`
-
-Otro generador muy util es `enumerate`.
-Dado un iterable, genera tuplas con la posicion y el valor de cada elemento del iterable.
-
-```python
->>> list(enumerate([
-... 	'perro',
-... 	'gato',
-... 	'raton',
-... 	]))
-...
-[(0,'perro'), (1,'gato'), (2,'raton')]
-```
-Es tremendamente útil cuando en un bucle necesitamos saber la posición de cada elemento.
-
-```python
-top5 = [
-	'Miguel Jacobez',
-	'Los Gansos Rosas',
-	'Francisco Ferdinando',
-	'Pimientos rojos de chilly picantes',
-	'Mermelada de Perlas',
-	'',
-	]
-
-for i, nombre in enumerate(top5):
-	print("En el puesto {}: {}".format(i+1, nombre))
-```
-
-**Ejercicio:**
-Usa el generador `reversed`, para darle emoción a la lista y acabar por el ganador.
-¿Que pasa si lo aplicas antes de `enumerate`?
-¿Que pasa si lo aplicas después de `enumerate`?
-
-**Ejercicio:**
-Usa el generador `sorted` para ordenar una lista de nombres.
-Investiga y experimenta los parámetros de `sorted` hasta que los entiendas.
-
-
-### Emparejando secuencias, `zip`
-
-El generador `zip` toma varios iterables y empareja sus valores.
-
-```python
->>> for a, b in zip(range(10), range(10,20)):
-... 	print(a, b)
-0 10
-1 11
-2 12
-3 13
-4 14
-5 15
-6 16
-7 17
-8 18
-9 19
-```
-
-**Ejercicio:**
-Reimplementa `enumerate` como una funcion `enumerate2`
-que use `zip`, `range` y `len`.
-
-
-
-### Nuestras propias funciones generadoras, `yield`
-
-Podemos crear nuestros propios generadores con una expresión generadora que ya hemos visto.
-Pero en las expresiones generadoras estamos limitados a una sola expresión.
-Si queremos hacer algo más complejo tenemos que usar funciones generadoras.
-
-Una función generadora no retorna un valor, retorna muchos,
-y lo hace acordandose de por donde iba para cuando se le vuelva a necesitar.
-
-```python
-function squares(limit=None):
-	n = 0
-	while limit is None or n<limit:
-		n += 1
-		yield n*n
-	return
-```
-
-La sentencia `yield` (igual que las señales de 'ceda el paso' en inglés)
-es similar al `return` en el sentido que devuelve un valor.
-Pero a diferencia del `return`, no abandona del todo la función,
-solo devuelve el control al llamante temporalmente
-y cuando el llamante pide el siguente valor
-la función sigue ejecutándose por donde iba.
 
 
 
@@ -3146,17 +3951,15 @@ la función sigue ejecutándose por donde iba.
 
 # Temas pendientes TODO's
 
-- Desempaquetando parámetros, llamadas con `*` y `**`
-- Parámetros abiertos, declaraciones con `*` y `**`
 - Manejando exepciones, `try`-`except`
 - Lanzando exepciones, `raise`
-- Leyendo ficheros, `open`, `read`, `close`
-- Controlando cierre de recursos `with`
-- Escribiendo ficheros, `write`
-- Usando modulos `import`
-- Instalando librerías
+- ~~Leyendo ficheros, `open`, `read`, `close`~~
+- ~~Controlando cierre de recursos `with`~~
+- ~~Escribiendo ficheros, `write`~~
+- ~~Usando modulos `import`~~
+- ~~Instalando librerías~~
 - Entornos virtuales
-- Manejando fechas, `datetime` y `dateutils`
+- ~~Manejando fechas, `datetime` y `dateutils`~~
 - Manejando dinero, `decimal`
 - Creando mòdulos
 - Creando paquetes
@@ -3203,5 +4006,6 @@ from decimal import Decimal as D, ROUND_HALF_UP
 >>> (D('2.50')*D('1.21')).quantize(D('0.01'), rounding=ROUND_HALF_UP)
 Decimal('3.03')
 ```
+
 
 
