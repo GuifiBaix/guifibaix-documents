@@ -6,16 +6,16 @@
 
 ## Els barrets
 
-<img width='20%' src='logo-guifibaix.svg' >
-<img width='20%' src='logo-eticom.png' >
+<img width='20%' src='../imatges/logo-guifibaix.svg' >
+<img width='20%' src='../imatges/logo-eticom.png' >
 
-<img width='20%' src='logo-guifi.png' >
-<img width='20%' src='logo-desconexionibex35.svg' >
+<img width='20%' src='../imatges/logo-guifi.png' >
+<img width='20%' src='../imatges/logo-desconexionibex35.svg' >
 
 ----
 
 
-<img width='50%' src='logo-desconexionibex35.svg' >
+<img width='50%' src='../imatges/logo-desconexionibex35.svg' >
 
 **Cerca, difusió i construcció d'alternatives**
 
@@ -30,7 +30,7 @@ Oberta a la col·laboració
 
 ---
 
-<img width='50%' src='logo-guifi.png' >
+<img width='50%' src='../imatges/logo-guifi.png' >
 
 **Xarxa ciutadana de comuns**
 
@@ -44,7 +44,7 @@ Coordinats per una Fundació
 
 ---
 
-<img width='50%' src='logo-guifibaix.svg' >
+<img width='50%' src='../imatges/logo-guifibaix.svg' >
 
 <b>Cooperativa de treballadors sense anim de lucre</b>
 
@@ -57,7 +57,7 @@ Telèfon fixe i Internet fora de les grans companyies
 
 ---
 
-<img width='50%' src='logo-eticom.png' >
+<img width='50%' src='../imatges/logo-eticom.png' >
 
 **Cooperativa de consumidors**
 
@@ -78,31 +78,31 @@ Reinverteixen projectes de comuns
 ## Els dolents
 
 <!-- .slide: data-background="#ff0000" -->
-<img width='50%' src='politician.jpg' >
+<img width='50%' src='../imatges/politician.jpg' >
 
 ## Els dolents
 
-<img width='40%' src='Lou.png' >
+<img width='40%' src='../imatges/Lou.png' >
 
 ## Els dolents
 
-<img width='40%' src='mrburns.jpeg' >
+<img width='40%' src='../imatges/mrburns.jpeg' >
 
 ## Els nostres Mr.Burns
 
-<img width='13%' src='lacaixa-isidrefaine.jpeg'>
-<img width='13%' src='ms-billgates.jpeg'>
-<img width='13%' src='telefonica-alierta.jpeg'>
-<img width='13%' src='mercadona-joanroig.jpeg'>
-<img width='13%' src='gasnaturalfenosa-salvadorgabarro.jpeg'>
-<img width='13%' src='acciona-entrecanales.jpg'>
-<img width='13%' src='agbar-angelsimo.jpeg'>
+<img width='13%' src='../imatges/lacaixa-isidrefaine.jpeg'>
+<img width='13%' src='../imatges/ms-billgates.jpeg'>
+<img width='13%' src='../imatges/telefonica-alierta.jpeg'>
+<img width='13%' src='../imatges/mercadona-joanroig.jpeg'>
+<img width='13%' src='../imatges/gasnaturalfenosa-salvadorgabarro.jpeg'>
+<img width='13%' src='../imatges/acciona-entrecanales.jpg'>
+<img width='13%' src='../imatges/agbar-angelsimo.jpeg'>
 
-<img width='15%' src='acs-florentinoperez.jpeg'>
-<img width='15%' src='bbvafranciscogonzalez.jpeg'>
-<img width='15%' src='inditex-amancioortega.jpeg'>
-<img width='15%' src='repsol-antoniobrufau.jpg'>
-<img width='15%' src='santander-botin.jpg'>
+<img width='15%' src='../imatges/acs-florentinoperez.jpeg'>
+<img width='15%' src='../imatges/bbvafranciscogonzalez.jpeg'>
+<img width='15%' src='../imatges/inditex-amancioortega.jpeg'>
+<img width='15%' src='../imatges/repsol-antoniobrufau.jpg'>
+<img width='15%' src='../imatges/santander-botin.jpg'>
 
 
 ## Per què són els dolents?
@@ -143,43 +143,43 @@ Contaminació, degradació de l'entorn
 
 ## Mercats Cautius
 
-<img width='90%' src='mercadocautivo.svg'>
+<img width='90%' src='../imatges/mercadocautivo.svg'>
 
 
 
 ## Alternatives?
 
 Banca:
-<img width='6%' src='logo-casx.jpg'>
-<img width='10%' src='logo-oikocredit.svg'>
-<img width='10%' src='logo-coop57.png'>
-<img width='14%' src='logo-fiare.jpeg'>
-<img width='14%' src='logo-triodos.svg'>
+<img width='6%' src='../imatges/logo-casx.jpg'>
+<img width='10%' src='../imatges/logo-oikocredit.svg'>
+<img width='10%' src='../imatges/logo-coop57.png'>
+<img width='14%' src='../imatges/logo-fiare.jpeg'>
+<img width='14%' src='../imatges/logo-triodos.svg'>
 
 Energia:
-<img width='10%' src='logo-goiener.jpg'>
-<img width='10%' src='logo-eco-logo.jpg'>
-<img width='10%' src='logo-somenergia.svg'>
-<img width='10%' src='logo-zencer.jpg'>
+<img width='10%' src='../imatges/logo-goiener.jpg'>
+<img width='10%' src='../imatges/logo-eco-logo.jpg'>
+<img width='10%' src='../imatges/logo-somenergia.svg'>
+<img width='10%' src='../imatges/logo-zencer.jpg'>
 
 Comunicacions:
-<img width='10%' src='logo-eticom.png'>
-<img width='10%' src='logo-guifibaix.svg'>
-<img width='10%' src='logo-guifi.png'>
-<img width='10%' src='logo-fairphone.png'>
+<img width='10%' src='../imatges/logo-eticom.png'>
+<img width='10%' src='../imatges/logo-guifibaix.svg'>
+<img width='10%' src='../imatges/logo-guifi.png'>
+<img width='10%' src='../imatges/logo-fairphone.png'>
 
 Serveis online:
-<img width='10%' src='logo-identi_ca.svg'>
-<img width='10%' src='logo-diaspora.jpg'>
-<img width='10%' src='logo-jabber.svg'>
-<img width='8%' src='logo-wikipedia.png'>
-<img width='14%' src='logo-openstreetmap.jpeg'>
+<img width='10%' src='../imatges/logo-identi_ca.svg'>
+<img width='10%' src='../imatges/logo-diaspora.jpg'>
+<img width='10%' src='../imatges/logo-jabber.svg'>
+<img width='8%' src='../imatges/logo-wikipedia.png'>
+<img width='14%' src='../imatges/logo-openstreetmap.jpeg'>
 
 Programari:
-<img width='12%' src='logo-libreoffice.jpeg'>
-<img width='10%' src='logo-gimp.png'>
-<img width='8%' src='logo-linux.jpeg'>
-<img width='10%' src='logo-inkscape.svg'>
+<img width='12%' src='../imatges/logo-libreoffice.jpeg'>
+<img width='10%' src='../imatges/logo-gimp.png'>
+<img width='8%' src='../imatges/logo-linux.jpeg'>
+<img width='10%' src='../imatges/logo-inkscape.svg'>
 
 
 # Perque no les fem servir?
@@ -212,9 +212,9 @@ Marc legal advers
 Fins i tot a mercats cautius han sortit alternatives
 
 
-<img width='30%' src='logo-somenergia.svg'>
+<img width='30%' src='../imatges/logo-somenergia.svg'>
 &nbsp;
-<img width='30%' src='logo-guifi.png'>
+<img width='30%' src='../imatges/logo-guifi.png'>
 
 
 ## Mal plantejades?
@@ -234,13 +234,13 @@ Aprofitant lliçons apreses
 
 ## El nostre exemple
 
-<img width='30%' src='logo-guifi.png'>
+<img width='30%' src='../imatges/logo-guifi.png'>
 <svg width='150' height='100'>
 <path
 	d='M 150 50 L 110 0 v 30 h -110 v 40 h 110 v 30 z'
 	style='fill:darkred; stroke: black'
 	/>
-<img width='30%' src='logo-guifibaix.svg'>
+<img width='30%' src='../imatges/logo-guifibaix.svg'>
 </svg>
 
 Era massa complexe per l'usuari
@@ -253,29 +253,29 @@ No dupliquem
 
 ## Les grans se les menjen?
 
-<img width='80%' src='fishes-bigeatssmall.svg'>
+<img width='80%' src='../imatges/fishes-bigeatssmall.svg'>
 
 
 ---
 
-<img width='100%' src='fishes-organizedsmalleatsbig.svg'>
+<img width='100%' src='../imatges/fishes-organizedsmalleatsbig.svg'>
 
 ### **Organització**
 
-<img width='30%' src='logo-triodos.svg'>
-<img width='20%' src='logo-somenergia.svg'>
-<img width='20%' src='logo-coop57.png'>
+<img width='30%' src='../imatges/logo-triodos.svg'>
+<img width='20%' src='../imatges/logo-somenergia.svg'>
+<img width='20%' src='../imatges/logo-coop57.png'>
 
 ---
 
-<img width='100%' src='fishes-smallturnbig.svg'>
+<img width='100%' src='../imatges/fishes-smallturnbig.svg'>
 
 ### **Viralitat**
 
-<img width='20%' src='logo-cc.svg'>
-<img width='12%' src='logo-gplv3.svg'>
-<img width='20%' src='logo-guifi.png'>
-<img width='15%' src='logo-ohw.svg'>
+<img width='20%' src='../imatges/logo-cc.svg'>
+<img width='12%' src='../imatges/logo-gplv3.svg'>
+<img width='20%' src='../imatges/logo-guifi.png'>
+<img width='15%' src='../imatges/logo-ohw.svg'>
 
 
 ## Resistència al canvi?
@@ -345,7 +345,7 @@ Instàncies superiors
 
 Recollim lo bo i lo dolent
 
-<img width='40%' src='web-desconexionibex35.png'>
+<img width='40%' src='../imatges/web-desconexionibex35.png'>
 
 <http://desconexionibex35.org>
 
@@ -354,8 +354,8 @@ Recollim lo bo i lo dolent
 
 La primera de SomEnergia a Sant Joan
 
-<img width='30%' src='CartellSaltCollectiuSomEnergia.png'>
-<img width='55%' src='DSCN8093-SaltCollectiuSomEnergia-TrencantLaFactura.jpg'>
+<img width='30%' src='../imatges/CartellSaltCollectiuSomEnergia.png'>
+<img width='55%' src='../imatges/DSCN8093-SaltCollectiuSomEnergia-TrencantLaFactura.jpg'>
 
 ...i van 4.
 
@@ -364,8 +364,8 @@ La primera de SomEnergia a Sant Joan
 
 Difusió i demostració
 
-<img width='40%' src='GuifiBaixEsperanzah.jpg'>
-<img width='40%' src='GuifiBaixFiraEntitatsSJD.jpg'>
+<img width='40%' src='../imatges/GuifiBaixEsperanzah.jpg'>
+<img width='40%' src='../imatges/GuifiBaixFiraEntitatsSJD.jpg'>
 
 
 
@@ -408,8 +408,8 @@ Promoure-ho al vostre àmbit
 
 ## guifibaix.coop
 
-<img width='30%' src='logo-guifibaix.svg'>
-<img width='75%' src='PanoramicaTorreDeLaCreu.jpg'>
+<img width='30%' src='../imatges/logo-guifibaix.svg'>
+<img width='75%' src='../imatges/PanoramicaTorreDeLaCreu.jpg'>
 
 ## Objectius
 
@@ -435,9 +435,9 @@ Basada en programari lliure, estàndars oberts i xarxa documentada
 Servidors alimentats amb renovables
 
 
-## <img width='30%' src='logo-guifi.png'>
+## <img width='30%' src='../imatges/logo-guifi.png'>
 
-<img width='40%' src='figura-xarxaciutadana-cami.svg'>
+<img width='40%' src='../imatges/figura-xarxaciutadana-cami.svg'>
 
 Principi víric:
 
@@ -448,24 +448,24 @@ Principi víric:
 ## Els nodes
 
 
-<img width='50%' src='NanostationM5.jpeg'>
+<img width='50%' src='../imatges/NanostationM5.jpeg'>
 
 
 ## La xarxa
 
-<img width='80%' src='internet-sharing.svg'>
+<img width='80%' src='../imatges/internet-sharing.svg'>
 
 
 ## Cobertura peninsular
 
-<img width='60%' src='guifinet-cobertura-peninsula.png'>
+<img width='60%' src='../imatges/guifinet-cobertura-peninsula.png'>
 
 ### Més de 25.000 nodes!
 
 
 ## Cobertura província
 
-<img width='90%' src='guifinet-cobertura-barcelona.png'>
+<img width='90%' src='../imatges/guifinet-cobertura-barcelona.png'>
 
 ## Cal professionalitzar?
 
@@ -478,29 +478,29 @@ Recomanació dels voluntaris existents al poble.
 
 ## Rodalies: Sant Feliu
 
-<img width='80%' src='guifinet-cobertura-santfeliu.png'>
+<img width='80%' src='../imatges/guifinet-cobertura-santfeliu.png'>
 
 ## Rodalies: Torrelles
 
-<img width='80%' src='guifinet-cobertura-torrellas.png'>
+<img width='80%' src='../imatges/guifinet-cobertura-torrellas.png'>
 
 
 ## Compartició d'Internet
 
-<img width='80%' src='internet-sharing.svg'>
+<img width='80%' src='../imatges/internet-sharing.svg'>
 
 
 ## Sant Joan Despí
 
-<img width='80%' src='guifinet-cobertura-santjoandespi.svg'>
+<img width='80%' src='../imatges/guifinet-cobertura-santjoandespi.svg'>
 
 ## El Prat
 
-<img width='70%' src='guifibaix-Mapa-Prat-2014-05-10.png'>
+<img width='70%' src='../imatges/guifibaix-Mapa-Prat-2014-05-10.png'>
 
 ## Telefonia IP
 
-<img width='90%' src='figura-telefoniaip.svg'>
+<img width='90%' src='../imatges/figura-telefoniaip.svg'>
 
 ## Serveis afegits
 
@@ -512,7 +512,7 @@ Molt més potent que una connexio ADSL o fibra stàndard
 ## Serveis: Mediateca
 
 
-<img width='70%' src='guifibaix-pantallazo-mediateca.png'>
+<img width='70%' src='../imatges/guifibaix-pantallazo-mediateca.png'>
 
 ## Serveis afegits
 
