@@ -1640,6 +1640,19 @@
          stdDeviation="0.98839268"
          id="feGaussianBlur5326" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4485"
+       x="-0.028997596"
+       width="1.0579952"
+       y="-0.13925543"
+       height="1.2785109">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.89106743"
+         id="feGaussianBlur4487" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1648,9 +1661,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="77.555359"
-     inkscape:cy="97.241741"
+     inkscape:zoom="3.959798"
+     inkscape:cx="94.89004"
+     inkscape:cy="94.098215"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1667,7 +1680,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1678,7 +1691,7 @@
      transform="translate(0,-889.37008)">
     <g
        id="g5184"
-       transform="matrix(0.07152165,0,0,0.07152165,-2.8910259,891.66332)">
+       transform="matrix(0.04965788,0,0,0.04965788,142.48874,899.42058)">
       <g
          style="display:inline"
          transform="matrix(1.25,0,0,-1.25,-407.6,1115.4013)"
@@ -1748,74 +1761,103 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.87222862px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Sans;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="217.20387"
-       y="919.60553"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.87222862px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="16.908323"
+       y="910.2843"
        id="text5198"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="219.3643"
-         y="919.60553"
-         style="font-size:9.37408066px;text-align:end;text-anchor:end"
-         id="tspan5220">Saps que a El Prat </tspan><tspan
+         x="16.908323"
+         y="910.2843"
+         style="font-size:9.37408066px;text-align:start;text-anchor:start"
+         id="tspan5220">Saps que a Cornellà</tspan><tspan
          sodipodi:role="line"
-         x="217.20387"
-         y="931.32312"
-         style="font-size:9.37408066px;text-align:end;text-anchor:end"
+         x="16.908323"
+         y="922.00189"
+         style="font-size:9.37408066px;text-align:start;text-anchor:start"
          id="tspan5228">hi ha una xarxa ciutadana</tspan><tspan
          sodipodi:role="line"
-         x="217.20387"
-         y="943.04071"
-         style="font-size:9.37408066px;text-align:end;text-anchor:end"
+         x="16.908323"
+         y="933.71948"
+         style="font-size:9.37408066px;text-align:start;text-anchor:start"
          id="tspan5304">per connectar-se a Internet?</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot5210"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(0,897.37008)"><flowRegion
+       transform="translate(0,901.37008)"><flowRegion
          id="flowRegion5212"><rect
            id="rect5214"
            width="3.2142856"
            height="24.642857"
            x="67.85714"
            y="85.134987" /></flowRegion><flowPara
-         id="flowPara5216"></flowPara></flowRoot>    <text
+         id="flowPara5216" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.55243587px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="108.04794"
-       y="966.0929"
+       x="113.54655"
+       y="976.32031"
        id="text5198-0"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="108.04794"
-         y="966.0929"
+         x="113.54655"
+         y="976.32031"
          style="font-size:10.60393429px;text-align:center;text-anchor:middle"
          id="tspan5259">Comunicacions cooperatives</tspan><tspan
          sodipodi:role="line"
-         x="108.04794"
-         y="979.34784"
+         x="113.54655"
+         y="989.57526"
          style="font-size:10.60393429px;text-align:center;text-anchor:middle"
-         id="tspan5298">Ètiques - Econòmiques - Lliures</tspan></text>
+         id="tspan5298">Justes - Assequibles - Lliures</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.24866104px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Sans;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="216.41298"
-       y="1024.9738"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.24866104px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="113.11758"
+       y="961.76068"
        id="text5198-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="216.41298"
-         y="1024.9738"
-         style="font-size:11.25px;text-align:end;text-anchor:end"
-         id="tspan5204-3">Connecta't a l'Internet lliure</tspan><tspan
-         sodipodi:role="line"
-         x="216.41298"
-         y="1039.0363"
-         style="font-size:11.25px;text-align:end;text-anchor:end"
-         id="tspan5292">Allibera't dels oligopolis</tspan></text>
+         x="113.11758"
+         y="961.76068"
+         style="font-size:11.25px;text-align:center;text-anchor:middle"
+         id="tspan5292">La xarxa que pertany als usuaris</tspan></text>
+    <g
+       transform="translate(-58.444554,2.0484045)"
+       id="g4459">
+      <rect
+         rx="5.1785278"
+         ry="4.7257814"
+         y="1000.3469"
+         x="198.638"
+         height="15.357117"
+         width="73.749626"
+         id="rect4471"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;filter:url(#filter4485);enable-background:accumulate" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#a02c2c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="rect4463"
+         width="73.749626"
+         height="15.357117"
+         x="196.638"
+         y="998.34692"
+         ry="4.7257814"
+         rx="5.1785278" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="233.38655"
+         y="1009.4185"
+         id="text4465"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4467"
+           x="233.38655"
+           y="1009.4185"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#ffffff">694 495 972</tspan></text>
+    </g>
     <g
        id="g5336"
-       transform="translate(46.785714,-11.785715)">
+       transform="translate(-40.366413,0.0324535)">
       <rect
          style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;filter:url(#filter5324);enable-background:accumulate"
          id="rect5314"
@@ -1833,7 +1875,7 @@
          height="15.357117"
          width="116.42857"
          id="rect5312"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#aa0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#a02c2c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
       <text
          sodipodi:linespacing="125%"
          id="text5308"
@@ -1847,5 +1889,17 @@
            id="tspan5310"
            sodipodi:role="line">http://guifibaix.coop</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="113.47876"
+       y="1037.9268"
+       id="text4495"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4497"
+         x="113.47876"
+         y="1037.9268"
+         style="font-size:15px">Connecta-t'hi!</tspan></text>
   </g>
 </svg>
