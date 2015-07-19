@@ -100,14 +100,14 @@ TODO: Coses que poden anar malament
 		- Canviar l'inventari a privat/tresoreria/inventari-cacharreria.md
 		- Canviar el registre de ip's a privat/rangos_ip
 	- Interface Modes (Nuevas XW):
-		- eth0.2: wan
 		- eth0.1: lan
-		- wlan: mesh
+		- eth0.2: wan
+		- wlan: Ad hoc (mesh)
 	- Interface Modes (Antiguas):
 		- eth1: wan
 		- eth0: lan
 		- wlan: mesh
-	- Save and Apply
+	- Submit
 - qMp/Node configuration/Basic Settings
 	- Node name: GuifiBaix-Proves   (o el de la zona mesh que toque)
 	- Latitude: el primer numero del expediente.coords
@@ -127,7 +127,7 @@ TODO: Coses que poden anar malament
 - qMp/Node configuration/Wireless Settings
 	- Country code: ES
 	- BSSID: 02:CA:FF:EE:BA:BE (es el que pone por defecto)
-	- Channel: 140-  (el - es importante)
+	- Channel: 136-  (el - es importante)
 	- Power: 17dB (se puede ajustar a mas o menos si vamos teniendo buena señal)
 	- Save and Apply
 - Comprobar que a partir de aqui vemos a las otras antenas
