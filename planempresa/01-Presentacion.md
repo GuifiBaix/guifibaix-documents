@@ -192,7 +192,7 @@ para empezar la andadura del proyecto con entidad jurídica propia.
 
 
 - Técnico auxiliar en electrónica en el Centro de Estudios Llobregat
-- 15 años de experiencia en trabajos de albañileria y instalaciones
+- 15 años de experiencia en trabajos de albañileria e instalaciones
 - Curso de Mantenimiento de Sistemas Industriales y Producción Automatizada
 - Curso de Instalaciones de Energías Renovables en edificios
 - Cursos de Emprendedoría en el Area de Promoció Econòmica, Comerç i Turisme del Ayuntamiento del Prat de Llobregat
