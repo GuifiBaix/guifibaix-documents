@@ -46,7 +46,7 @@ datetime.date(2016,6,17)
 
 Repasando un poco como llamar a funciones y métodos:
 
-- El constructor de `date`, requiere 3 parametros obligatorios: `year`, `month` y `day`
+- El constructor de `date`, requiere 3 parámetros obligatorios: `year`, `month` y `day`
 - Los parámetros del constructor de `timedelta`, en cambio, son opcionales,
   así que puedes escoger cuales usas para expresar el intervalo explicitando el nombre:
   `days`, `hours`, `minutes`, `seconds` y `microseconds`.
@@ -440,7 +440,7 @@ Estas son las ventajas de centralizar código repetido en una función siguiendo
 
 Un refactoring muy conveniente después de este
 fue hacer que todas las funciones de formateo
-llamaran a `date` para convertir sus parametros fueran lo que fueran en una fecha.
+llamaran a `date` para convertir sus parámetros fueran lo que fueran en una fecha.
 Las funciones de formato se volvieron así de versátiles:
 
 ```python
@@ -500,6 +500,28 @@ salida = plantilla.format(**datos)
 print(salida)
 ```
 
+> **Repaso:**
+>
+> En el siguiente ejemplo usamos un doble asterisco en una llamada a función.
+>
+> El **doble asterisco** sirve para despempaquetar y pasar
+> las parejas clave:valor como **parámetros por nombre**.
+>
+> ```pythone
+> a = {'p1': 1, 'p2': 2
+> f(**a) # equivale a f(p1=1, p2=2)
+> ```
+>
+> Un **solo asterisco** servia para desempaquetar y pasar
+> los elementos de una lista como **parametros posicionales**.
+>
+> ```python
+> a = [1,2,3]
+> f(*a) # equivale a f(1,2,3)
+> ```
+>
+> Ver el capitulo TODO del manual GB del lenguaje.
+
 **Nota:**
 Hay un comando de GuifiBaix que permite,
 desde línia de comandos,
@@ -512,10 +534,14 @@ $ nstemplate.py apply datos.yaml plantilla.md salida.md
 
 ### Formateando fechas en los templates
 
-La librería `python-yaml` que usamos para cargar los ficheros YAML
-detecta los campos con fechas ISO y genera datos de tipo `datetime.data`.
-Y cuando rellenamos una plantilla con un dato tipo `datetime.date`
+La librería `python-yaml` que usamos para cargar los ficheros YAML,
+cuando detecta los campos que tienen pinta de fechas ISO,
+en vez de generar datos de tipo texto,
+genera datos de tipo `datetime.data`.
+
+Cuando rellenamos una plantilla con un dato tipo `datetime.date`
 lo que se imprime es la fecha en formato ISO.
+Lo mismo que se muestra con `print`.
 
 ```python
 >>> from namespace import namespace as ns
@@ -552,7 +578,7 @@ Con ese propósito,
 lo que se hizo fue crear una clase, `dateutils.Date`,
 que extiende la clase `dateutils.date` y además:
 
-- su constructor acepta, no sólo tres parametros `year`, `month`, `date`,
+- su constructor acepta, no sólo tres parámetros `year`, `month`, `date`,
   sinó también todo lo que acepta la función `dateutils.date`.
 - tiene atributos (calculados) `compact`, `slashDate`, `catalanDate`...
 
