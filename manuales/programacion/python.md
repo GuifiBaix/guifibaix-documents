@@ -7,12 +7,10 @@ documenclass: book
 
 # Introducción
 
-> «Un programador necesita la habilidad
-> de escribir código que entienda el ordenador.
-> Pero acaba siendo una habilidad inútil si no tiene
-> también la habilidad de escribir código
-> que entiendan con facilidad otras personas...
-> (o uno mismo, cuando pase el tiempo)»
+> «Los programadores escriben código para comunicarse con el ordenador.
+> Un buen programador escribe código que además le sea fácil de entender 
+> a los programadores que tendrán que leerlo después,
+> incluyendo uno mismo, cuando pase el tiempo.»
 >
 > Martin Fowler (parafraseado)
 
@@ -40,19 +38,19 @@ el uso del sistema de control de versiones `git`.
 ## Lenguajes de programación
 
 Un lenguaje de programación es la forma en que las personas
-definimos el comportamiento de los programas informáticos.
-Hay muchos lenguajes de programación.
+definimos el comportamiento de las aplicaciones.
+Existen muchos lenguajes de programación.
 Cada lenguaje tiene sus puntos fuertes
 o está más adaptado a según que tareas,
 o a las preferencias de cada persona.
-Por eso existen una miriada de lenguajes.
+Por eso hay tantos lenguajes.
 
 Al final, el ordenador solo entiende de código máquina.
 El codigo máquina no está pensado para que lo entiendan las personas;
 es una secuencia de números sin sentido aparente,
 en la que cada número codifica
 algo que tiene que hacer el ordenador:
-Cargar un número en el procesador desde una posición de memoria,
+Cargar en el procesador un número contenido en una posición de memoria,
 operar con ese número,
 colocar el resultado en otra posición de memoria,
 enviar un código a un dispositivo...
@@ -64,8 +62,9 @@ haciendo de puente entre las personas y el ordenador.
 Nos permiten abstraernos de las interioridades del ordenador,
 y pensar en términos más cercanos al problema que queremos resolver.
 
-Los programas se escriben en archivos de texto,
-con unas reglas bastante rígidas, lo que se llama **sintaxis**,
+Los programas se escriben en archivos de texto plano,
+con unas reglas bastante rígidas.
+Las reglas conforman lo que se llama **sintaxis**,
 que es lo que es propio de cada lenguaje.
 
 Esos ficheros de texto,
@@ -91,17 +90,27 @@ necesitaremos tanto el texto del programa (script) como el intérprete.
 
 - Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
 
+Haciendo la analogía en terminos de lenguages humanos,
+un intérprete sería la traducción simultánea,
+el intérprete tiene que ir buscando la traducción al vuelo,
+mientras que un compilador seria como el traductor de un libro,
+puede dedicar tiempo en encontrar la mejor traducción
+porque una vez traducido el libro traducido queda ahí para quien lo lea.
 
 En general, un lenguaje interpretado se ejecutará más
-lento que uno compilado, puesto que, a parte de la tarea que haya que hacer,
-tiene el trabajo extra de interpretar el texto para
-decidir que código máquina ejecutar.
+lento que uno compilado, puesto que, el ordenador tiene que
+ejecutar, a parte de la tarea que indica el programa,
+la traduccion a cógigo máquina.
 
 Con los rápidos ordenadores actuales,
 el tiempo de interpretación dejó de ser un problema.
 Y se prefiere en muchos casos un lenguaje interpretado porque,
 al no requerir el paso de compilación,
 el proceso de desarrollo es mucho más rápido y simple.
+
+Si te lo puedes permitir es más flexible viajar al extrangero
+con un traductor simultáneo, que
+salir con un papelito en el que tienes escrito en guirilandés lo que debes decir.
 
 > **Ejercicio:**
 > En Linux la mayoría de programas (archivos ejecutables) se encuentran en `/usr/bin/`.
@@ -171,7 +180,7 @@ cuando estemos evolucionando un código o queremos que quede para la posteridad.
 	- Tienes historial de lo que has escrito, que puedes recuperar con la tecla del cursor hacia arriba.
 	- Te completa expresiones con la tecla del tabulador
 	- Puedes ejecutar comandos del shell precediendolos con `!`
-	- Si le pones un signo `?` a una expresion te muestra ayuda sobre el objeto resultante
+	- Si le añades un signo `?` a una expresion te muestra ayuda sobre el objeto resultante
 - Nota: Las ultimas versiones del intérprete clásico, tiene ya historial y completa expresiones.
 
 Cuando digamos de ejecutar algo en un intérprete lo solemos escribir así:
@@ -186,7 +195,7 @@ hola mundo
 - Lo que has de escribir es lo que va después, del `print` en adelante.
 - La segunda linea es el resultado, lo que ha imprimido por la pantalla el intérprete.
 
-**Nota:** Si has programado en Python 2, ojo que en Python 3, la instrucción `print` requiere paréntesis.
+**Nota:** Si has programado antes en Python 2, ojo que en Python 3, la instrucción `print` requiere paréntesis.
 
 **Nota:** En modo interactivo, siempre nos imprimirá el resultado de la expresion que hayamos introducido.
 No necesitamos el `print`, para verlo.
@@ -374,6 +383,8 @@ Sabiendo todo esto, aprendamos a escribir todas esas sentencias mágicas.
 
 # Calculando expresiones en Python
 
+Escribamos nuestro primer código con sentido.
+
 El primer tipo de sentencia que veremos será la expresión.
 Una **expresión** es una construcción del lenguaje que resulta en un **valor**.
 Por ejemplo: `3+4` es una expresión que resulta en el valor `7`.
@@ -386,7 +397,8 @@ Así que podemos introducir expresiones en el intérprete interactivo de Python 
 
 Decíamos que  `3+4` es una expresión que da el valor `7`.
 De hecho, `3`, `4` y `7` son expresiones también, de las que llamamos literales.
-Los **literales** son la forma más directa de representar un valor de un tipo concreto.
+Los **literales** son la forma más directa de representar un valor.
+Los valores pueden ser de diferentes **tipos** y cada tipo de dato tiene su forma de expresar sus literales.
 
 A continuación, vemos ejemplos de literales de los tipos de dato más comunmente usados.
 Entre paréntesis, en el comentario, el nombre que se le da al tipo en Python.
@@ -418,17 +430,18 @@ A lo largo del tutorial iremos explicando como trabajar con estos tipos de objet
 Un aperitivo:
 
 - Con los tipos numéricos (`int`, `float`,`complex`) podemos hacer operaciones aritméticas.
-- Con los textos (`str`) podemos concatenarlos, sustituir, partir, buscar...
-- Las tuplas (`tuple`) son parejas, trios... de valores que juntamos para pasarlos como un solo valor.
+- Con los textos (`str`) podemos concatenarlos, substituir, partir, buscar...
+- Las tuplas (`tuple`) son parejas, trios... de valores que juntamos para pasarlos juntos como un solo valor.
 - Las listas (`list`) son como las tuplas pero podemos insertar y eliminar elementos.
 - Los conjuntos (`set`) son como las listas,
   pero no guarda el orden entre los elementos,
-  y no tienen repetidos
+  y descarta los valores repetidos
   (por eso, en el ejemplo, uno de los dos `1` desaparece).
-- Los diccionarios (`dict`) contienen parejas clave-valor, en los que se puede acceder al valor mediante la clave.
+- Los diccionarios (`dict`) contienen parejas clave-valor, en los que se puede acceder al valor indicando la clave.
 - El no-valor `None` (`NoneType`) representa el concepto de _ningún valor_, más útil de lo que parece.
 - Los valores lógicos (`bool`) representan una condición que puede ser cierta o falsa, y sirven para tomar decisiones.
 
+A continuación, veremos estos tipos más en detalle.
 
 ## Trabajando con números, tipos `int` y `float`
 
@@ -454,7 +467,7 @@ Combinando literales y operadores obtenemos expresiones numéricas.
 
 Cuando combinamos varios operadores en una expresión,
 se resuelven por prioridad.
-Por ejemplo, la multiplicacion y división tienen más prioridad que la suma y la resta.
+Por ejemplo, la multiplicación y división tienen más prioridad que la suma y la resta.
 La exponenciación tiene más prioridad que la mutiplicación y la división.
 Por eso:
 
@@ -465,13 +478,12 @@ Por eso:
 14
 ```
 
-Sí, cuando el orden que sale de la prioridad de operadores no nos gusta,
-podemos agrupar con paréntesis:
+Igual que en mates, podemos alterar esa prioridad, usando paréntesis:
 
 ```python
->>> 2 * (3 + 4)
+>>> 2 * (3 + 4)    #  = 2 * 7 = 14
 14
->>> (2 + 3) * 4
+>>> (2 + 3) * 4    #  = 5 * 4 = 20
 20
 ```
 
@@ -483,7 +495,7 @@ También escribimos código para el siguiente programador que tenga
 que revisarlo, que podemos ser nosotros mismos de aquí a un tiempo
 cuando ya apenas recordemos como iba el programa.
 Si vemos los paréntesis no tendremos que pensar en cual es la
-prioridad o sospechar si cuando lo escribimos la teníamos clara.
+prioridad o sospechar que cuando lo escribimos no la teníamos clara.
 
 Cuando combinamos operadores del mismo nivel,
 se resuelven de izquierda a derecha,
@@ -524,7 +536,7 @@ incluyendo las que forman parte de otras expresiones,
 generan valores que, una vez los hemos hecho servir,
 desaparecen de la memoria del ordenador.
 
-Las **variables** nos permiten mantener una referencia a un **valor**,
+Las **variables** nos permiten conservar un **valor**, dándole un nombre,
 para volverlo a usar después.
 La sentencia en la que asociamos un valor a un nombre se llama *sentencia de asignación*.
 Decimos que *asignamos un valor a la variable*.
@@ -542,7 +554,7 @@ podemos usar la variable como si fuera un literal más.
 
 En Python, una misma variable en un script puede ir apuntando a valores diferentes.
 De hecho, puede apuntar incluso a valores de diferente tipo,
-cosa que no permiten otros lenguages como C o Java.
+cosa que no se permite en otros lenguages como C o Java.
 
 ```python
 a = 12       # tipo entero (int)
@@ -595,7 +607,7 @@ saldo = 0
 saldo = saldo + 200
 ```
 
-Todos los operadores con signo tienen su versión de actualización
+Todos los operadores numéricos tienen su versión de actualización
 que actualizan la variable en base al antiguo valor,
 añadiendo un `=` al operador original.
 
@@ -626,7 +638,7 @@ print(costeFactura)
 
 ## Llamando funciones
 
-Otro elemento que podemos usar en una expresión son las funciones.
+Otro elemento útil que podemos usar en una expresión son las funciones.
 Las **funciones** retornan valores calculados a partir de los parámetros que les enviamos con el operador paréntesis.
 
 Por ejemplo, la función `max`, incluida en el lenguaje,
@@ -684,7 +696,7 @@ Podemos construir literales de texto delimitando el texto entre comillas dobles 
 ```
 
 Tener dos tipos de comillas va bien:
-cuando el texto contiene una de ellas, usamos la otra.
+Si el texto contiene una de ellas, usamos la otra.
 
 ```python
 >>> print('Me dijo: "Adios" y me fuí')
@@ -822,9 +834,9 @@ usando inicio y final separado por dos puntos.
 
 > **Pregunta:** ¿Porque en la ultima expresión no se repite el índice 5?
 
-Un tercer elemento en el _slice_ es el paso;
+Un tercer elemento que se le puede añadir al _slice_ es el paso;
 cuantas casillas saltamos.
-Normalmente es 1, pero si lo especificamos...
+Cuando no lo especificamos el salto es 1, pero si lo especificamos...
 
 ```python
 >>> a[::2]  # saltamos las letras de dos en dos
@@ -880,11 +892,11 @@ En nuestro script podemos definir nuestras propias funciones.
 	- De hecho compiten por el mismo espacio de nombres:
 		- si declaramos después una variable llamada `media` perderemos nuestra función.
 - Después, entre paréntesis y separados por comas, la lista de parámetros.
-	- Los parámetros en las subsentencias se usan igual que variables
+	- Los parámetros se pueden usar en las subsentencias como si fueran variables
 	- Se les asignan los valores que pasamos entre paréntesis cuando llamamos la función
-		- En la primera llamada a=3. En la segunda llamada a=4.
-		- En la primera llamada b=1. En la segunda llamada b=5.
-	- Existirán sólo mientras se ejecute esa llamada a la función
+		- En la primera llamada `a=3`. En la segunda llamada `a=4`.
+		- En la primera llamada `b=1`. En la segunda llamada `b=5`.
+	- La asociación de los parámetros existe sólo mientras se ejecute esa llamada a la función
 - La sentencia `def` acaba con dos puntos (`:`), siguen subsentencias indentadas un nivel
 	- Las sentencias de dentro son las que se ejecutarán cada vez que llamemos la función.
 	- Los tres puntos los escribe el intérprete, en vez de los `>>>` para indicar que aun tenemos que acabar la sentencia.
@@ -893,10 +905,11 @@ En nuestro script podemos definir nuestras propias funciones.
 	- Las variables que creemos dentro de una función, igual que los parámetros, solo existen mientras la función se ejecuta.
 	- En jerga se dice que es una _variable local_, en contraposicion de las variables que se definen fuera de funciones que se les llama _globales_
 	- Que las variables tengan un ámbito local nos ayuda a no tener que buscar nombres que no colisionen con los de otras funciones
+	- Los paràmetros `a` y `b` también se consideran variables locales.
 - La ultima sentencia es una sentencia especial `return`
 	- Una sentencia `return` sale de la función y devuelve el control al llamante
 	- Además el llamante recibirá el valor resultante de la expresión que va después del `return`
-	- Si hubiera más sentencias después del return, no se seguirían ejecutando
+	- Si hubiera más sentencias después del return, no se seguirían ejecutando (se _sale_ de la función)
 
 ## El no-valor `None`
 
@@ -925,7 +938,7 @@ Una función retorna `None`
 
 - Porque explícitamente hace un `return None`
 - Porque hace un return sin expresión: `return`
-- Porque se le acaban las sentencias de la función sin haber hecho un `return`
+- Porque se acaban las sentencias de la función sin haber llegado un `return`
 
 
 ## Parámetros opcionales, valores por defecto
@@ -959,7 +972,14 @@ en el caso que el llamante no lo proporcione, `0.21`.
 
 La declaración de parámetros opcionales tiene una restricción importante:
 **Todos los parámetros obligatorios han de ir delante de los opcionales.**
-De esta forma, el intérprete puede ir asignando valores a los parámetros sin problemas.
+De esta forma, el intérprete puede ir asignando valores a los parámetros
+hasta que se acaban y completar el resto con los valores por defecto.
+
+> **Exercicio:**
+> Define una función con dos parámetros obligatorios y dos opcionales
+> que imprima los valores para ver que le llega.
+> Llámala con 1, 2, 3, 4 y 5 valores a ver que dice en cada caso.
+
 
 
 
@@ -997,6 +1017,7 @@ En resumen, se recomienda explicitar los nombres de paràmetros:
 - Cuando alteremos el orden en los parámetros de llamada
 - Cuando haya muchos parámetros, para no liarnos
 - Cuando preveamos una evolución en los parámetros
+- Cuando hay varios opcionales de los que normalmente queremos especificar pocos (si los llamaramos po
 
 Se pueden combinar parámetros posicionales con nombrados.
 La regla es que primero se especifican los posicionales
