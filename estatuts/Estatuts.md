@@ -332,7 +332,7 @@ els articles 55 i 56 de la Llei de cooperatives de Catalunya.
 El capital social mínim es fixa en TRES MIL euros.
 
 El compte bancari s'obrirà a nom de "GuifiBaix, SCCL", i la operativa i signatura sobre aquest compte
-nomès podrà ser exercida per el President, Vicepresident i Tresorer de la cooperativa.
+nomès podrà ser exercida per el President, Secretari i Tresorer de la cooperativa.
 La signatura no serà mancomunada per la operativa diara. Serà requerit una signatura mancomunada de com a mínim dues
 persones en el cas de moviments superiors a 5000€.
 
@@ -629,7 +629,7 @@ si es manté durant més d'1 any.
 
 d) La reducció del capital social
 per sota del mínim legalment establert a la llei o als estatuts,
-si es manté durant més d'1 any.
+si es manté durant més de 6 mesos.
 
 e) La fusió i l'escissió a què fan referència
 els articles del 74 al 83 de la Llei de cooperatives de Catalunya. 
@@ -656,8 +656,7 @@ s'ha d'aplicar el que disposa la Llei de cooperatives de Catalunya.
 
 # Disposició addicional 3
 
-Els socis treballadors opten per inscriure's a la Seguretat Social en el règim general,
-excepte que algun dels socis ja sigui inscrit al règim d’autònoms i no desitji fer el canvi.
+Tots els socis treballadors s'inscriuran a la Seguretat Social en el règim general.
 
 
 
