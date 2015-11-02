@@ -81,7 +81,7 @@ class conf(dict) :
 	@classmethod
 	def load(cls, filename) :
 		import yaml
-		result = cls.wrap(yaml.load(stream=open(filename)))
+		result = cls.wrap(yaml.load(stream=open(filename,encoding="utf8")))
 		return result
 
 
@@ -110,21 +110,21 @@ masculino = conf(
 	)
 
 proveedora = conf.load(args.provider) if args.provider else conf(
-	nombre = "AT2, Acció Transversal per la Transformació Social",
-	cif = "G64922131",
+	nombre = "GUIFIBAIX SCCL",
+	cif = "F66576380",
 	telefono = "93-164-0492",
 	email = "soporte"+ "@" + "guifibaix.coop",
 	emailcontacto = "contacto"+"@"+"guifibaix.coop",
 	domicilio = conf(
-		direccion = "C/Riu Llobregat, 47, Bxos",
-		municipio = "El Prat de Llobregat",
-		codigopostal = '08820',
+		direccion = "C/Major 22, 3",
+		municipio = "Sant Joan Despí",
+		codigopostal = '08970',
 	),
 	representante = conf(
-		nombre = "Paco Ibàñez",
-		dni = "52623709P",
+		nombre = "David García Garzón",
+		dni = "36517097C",
 		genero = masculino,
-		cargo = "Dibujante oficial de AT2",
+		cargo = "Presidente",
 	),
 )
 
@@ -145,7 +145,7 @@ data.genero = femenino if data.cliente.genero.lower() == 'femenino' else masculi
 data.imagepath = sourceRelative('')
 
 
-with open(sourceRelative("00-content.md")) as f :
+with open(sourceRelative("00-content.md"),encoding="utf8") as f :
 	template = f.read()
 filled = template.format(**data)
 
