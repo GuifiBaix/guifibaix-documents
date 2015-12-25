@@ -6,7 +6,7 @@ fontsize: 11pt
 papersize: a4paper
 geometry: margin=1in
 title: "Contrato de mantenimiento y servicios"
-pdftitle: "GuifiBaix: Contrato de mantenimiento y servicios, {cliente.nombre}"
+pdftitle: "GuifiBaix: Contrato de mantenimiento y servicios, {client.name}"
 pdfauthor: GuifiBaix
 imagepath: {imagepath}
 ---
@@ -17,12 +17,12 @@ En {lugar}, a {fecha.dia} de {fecha.mes} de {fecha.any}
 ## REUNIDOS
 
 DE UNA  PARTE,
-**{cliente.nombre}** mayor de edad,
-con N.I.F. número **{cliente.dni}**,
+**{client.name}** mayor de edad,
+con N.I.F. número **{client.nif}**,
 en adelante, {genero.quotedElCliente},
-con domicilio en **{cliente.domicilio.municipio}**,
-**{cliente.domicilio.direccion}**,
-C.P. **{cliente.domicilio.codigopostal}**.
+con domicilio en **{client.domicilio.municipio}**,
+**{client.domicilio.direccion}**,
+C.P. **{client.domicilio.codigopostal}**.
 
 DE OTRA  PARTE,
 **{proveedor.representante.nombre}**,
@@ -433,10 +433,10 @@ en caso de incumplimiento de las obligaciones establecidas en el mismo.
 Las notificaciones que se realicen las Partes deberán realizarse por correo electrónico, teléfono o correo ordinario, a las siguientes direcciones:
 
 	{genero.cliente}:
-		Dirección:	{cliente.domicilio.direccion}
-					{cliente.domicilio.codigopostal} {cliente.domicilio.municipio}
-		Email: 		{cliente.email}
-		Teléfono:	{cliente.telefono}
+		Dirección:	{client.domicilio.direccion}
+					{client.domicilio.codigopostal} {client.domicilio.municipio}
+		Email: 		{client.email}
+		Teléfono:	{client.telefono}
 
 	PROVEEDOR:
 		Dirección:	{proveedor.domicilio.direccion}

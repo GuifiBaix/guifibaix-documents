@@ -84,7 +84,6 @@ class conf(dict) :
 		result = cls.wrap(yaml.load(stream=open(filename,encoding="utf8")))
 		return result
 
-
 femenino = conf(
 	quotedElCliente = "la \"CLIENTA\"",
 	cliente = "CLIENTA",
@@ -137,11 +136,11 @@ data = conf(
 		dia = args.data[2],
 		),
 	lugar = "Sant Joan Despí",
-	cliente = conf.load(args.user),
+	client = conf.load(args.user),
 	proveedor = proveedora,
 )
 
-data.genero = femenino if data.cliente.genero.lower() == 'femenino' else masculino
+data.genero = femenino if data.client.genero.lower() == 'femenino' else masculino
 data.imagepath = sourceRelative('')
 
 
