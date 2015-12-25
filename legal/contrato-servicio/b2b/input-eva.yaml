@@ -1,10 +1,22 @@
+name: Alberta Gijón
+nif: 12345678V
+gender: femenino
+contact:
+  phone:
+  - 93-111-2222
+  email:
+  - email@usuario.test
+address: C/Rue Percebe, 13, 4o 3a
+city: Sant Joan Despí
+postalcode: 08970
+# Deprecated
 nombre: Alberta Gijón
-dni: 12345678V
-telefono: 93-111-2222
-email: email@usuario.test
 genero: femenino
+dni: 12345678V
 domicilio:
     direccion: C/Rue Percebe, 13, 4o 3a
     municipio: Sant Joan Despí
     codigopostal: 08970
+telefono: 93-111-2222
+email: email@usuario.test
 

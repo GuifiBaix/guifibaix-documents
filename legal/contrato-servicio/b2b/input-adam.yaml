@@ -1,8 +1,20 @@
+name: Alberto Gijón
+nif: 12345678V
+gender: masculino
+contact:
+  email:
+  - email@usuario.test
+  phone:
+  - 93-111-2222
+address: C/Rue Percebe, 13, 4o 3a
+city: Sant Joan Despí
+postalcode: 08970
+# deprecated
 nombre: Alberto Gijón
 dni: 12345678V
+genero: masculino
 telefono: 93-111-2222
 email: email@usuario.test
-genero: masculino
 domicilio:
     direccion: C/Rue Percebe, 13, 4o 3a
     municipio: Sant Joan Despí
