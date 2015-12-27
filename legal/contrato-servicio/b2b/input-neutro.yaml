@@ -5,6 +5,5 @@ email: email@usuario.test
 genero: masculino
 address: DIRECCION N, P
 city: POBLACION
-domicilio:
-    codigopostal: COD.POSTAL
+postalcode: COD.POSTAL
 

@@ -22,7 +22,7 @@ con N.I.F. número **{client.nif}**,
 en adelante, {genero.quotedElCliente},
 con domicilio en **{client.city}**,
 **{client.address}**,
-C.P. **{client.domicilio.codigopostal}**.
+C.P. **{client.postalcode}**.
 
 DE OTRA  PARTE,
 **{proveedor.representante.name}**,
@@ -31,7 +31,7 @@ y en nombre y representación de **{proveedor.name}**,
 en adelante, la “PROVEEDORA”,
 con domicilio en **{proveedor.city}**,
 **{proveedor.address}**,
-C.P. **{proveedor.domicilio.codigopostal}**
+C.P. **{proveedor.postalcode}**
 y C.I.F. **{proveedor.nif}**.
 
 {genero.ElCliente} y la PROVEEDORA, en adelante, podrán ser denominadas,
@@ -434,13 +434,13 @@ Las notificaciones que se realicen las Partes deberán realizarse por correo ele
 
 	{genero.cliente}:
 		Dirección:	{client.address}
-					{client.domicilio.codigopostal} {client.city}
+					{client.postalcode} {client.city}
 		Email: 		{client.email}
 		Teléfono:	{client.telefono}
 
 	PROVEEDOR:
 		Dirección:	{proveedor.address}
-					{proveedor.domicilio.codigopostal} {proveedor.city}
+					{proveedor.postalcode} {proveedor.city}
 		Email: 		{proveedor.emailcontacto}
 		Teléfono:	{proveedor.telefono}
 
