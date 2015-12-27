@@ -25,14 +25,14 @@ con domicilio en **Sant Joan Despí**,
 C.P. **08970**.
 
 DE OTRA  PARTE,
-**Paco Ibàñez**,
-con N.I.F. número **52623709P**
-y en nombre y representación de **AT2, Acció Transversal per la Transformació Social**,
+**David García Garzón**,
+con N.I.F. número **36517097C**
+y en nombre y representación de **GUIFIBAIX SCCL**,
 en adelante, la “PROVEEDORA”,
-con domicilio en **El Prat de Llobregat**,
-**C/Riu Llobregat, 47, Bxos**,
-C.P. **08820**
-y C.I.F. **G64922131**.
+con domicilio en **Sant Joan Despí**,
+**C/Major 22, 3**,
+C.P. **08970**
+y C.I.F. **F66576380**.
 
 La CLIENTA y la PROVEEDORA, en adelante, podrán ser denominadas,
 individualmente, “la Parte” y, conjuntamente, “las Partes”,
@@ -439,8 +439,8 @@ Las notificaciones que se realicen las Partes deberán realizarse por correo ele
 		Teléfono:	93-111-2222
 
 	PROVEEDOR:
-		Dirección:	C/Riu Llobregat, 47, Bxos
-					08820 El Prat de Llobregat
+		Dirección:	C/Major 22, 3
+					08970 Sant Joan Despí
 		Email: 		contacto@guifibaix.coop
 		Teléfono:	93-164-0492
 
