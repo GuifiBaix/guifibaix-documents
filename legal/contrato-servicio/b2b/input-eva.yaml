@@ -12,7 +12,6 @@ postalcode: 08970
 # Deprecated
 genero: femenino
 domicilio:
-    municipio: Sant Joan Despí
     codigopostal: 08970
 telefono: 93-111-2222
 email: email@usuario.test

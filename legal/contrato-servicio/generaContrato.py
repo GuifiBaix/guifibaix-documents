@@ -115,8 +115,8 @@ proveedora = conf.load(args.provider) if args.provider else conf(
 	email = "soporte"+ "@" + "guifibaix.coop",
 	emailcontacto = "contacto"+"@"+"guifibaix.coop",
 	address = "C/Major 22, 3",
+	city = "Sant Joan Despí",
 	domicilio = conf(
-		municipio = "Sant Joan Despí",
 		codigopostal = '08970',
 	),
 	representante = conf(
