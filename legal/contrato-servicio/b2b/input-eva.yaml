@@ -11,7 +11,6 @@ city: Sant Joan Despí
 postalcode: 08970
 # Deprecated
 genero: femenino
-dni: 12345678V
 domicilio:
     direccion: C/Rue Percebe, 13, 4o 3a
     municipio: Sant Joan Despí

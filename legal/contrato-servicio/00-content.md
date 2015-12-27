@@ -25,14 +25,14 @@ con domicilio en **{client.domicilio.municipio}**,
 C.P. **{client.domicilio.codigopostal}**.
 
 DE OTRA  PARTE,
-**{proveedor.representante.nombre}**,
-con N.I.F. número **{proveedor.representante.dni}**
-y en nombre y representación de **{proveedor.nombre}**,
+**{proveedor.representante.name}**,
+con N.I.F. número **{proveedor.representante.nif}**
+y en nombre y representación de **{proveedor.name}**,
 en adelante, la “PROVEEDORA”,
 con domicilio en **{proveedor.domicilio.municipio}**,
 **{proveedor.domicilio.direccion}**,
 C.P. **{proveedor.domicilio.codigopostal}**
-y C.I.F. **{proveedor.cif}**.
+y C.I.F. **{proveedor.nif}**.
 
 {genero.ElCliente} y la PROVEEDORA, en adelante, podrán ser denominadas,
 individualmente, “la Parte” y, conjuntamente, “las Partes”,

@@ -109,8 +109,8 @@ masculino = conf(
 	)
 
 proveedora = conf.load(args.provider) if args.provider else conf(
-	nombre = "GUIFIBAIX SCCL",
-	cif = "F66576380",
+	name = "GUIFIBAIX SCCL",
+	nif = "F66576380",
 	telefono = "93-164-0492",
 	email = "soporte"+ "@" + "guifibaix.coop",
 	emailcontacto = "contacto"+"@"+"guifibaix.coop",
@@ -120,8 +120,8 @@ proveedora = conf.load(args.provider) if args.provider else conf(
 		codigopostal = '08970',
 	),
 	representante = conf(
-		nombre = "David García Garzón",
-		dni = "36517097C",
+		name = "David García Garzón",
+		nif = "36517097C",
 		genero = masculino,
 		cargo = "Presidente",
 	),
@@ -155,8 +155,8 @@ if args.generateMarkdown :
 outputfile = args.output or (
 	"contrato-guifibaix-{}-{}-{}.pdf".format(
 		datetime.date(*args.data).isoformat(),
-		data.cliente.dni,
-		''.join(data.cliente.nombre.split())
+		data.cliente.nif,
+		''.join(data.cliente.name.split())
 	))
 
 import pypandoc
