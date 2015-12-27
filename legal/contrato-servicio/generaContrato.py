@@ -64,25 +64,7 @@ parser.add_argument(
 	)
 args = parser.parse_args()
 
-class conf(dict) :
-	def __init__(self, *args, **keyw) :
-		super(conf,self).__init__(*args, **keyw)
-		self.__dict__ = self
-
-	@classmethod
-	def wrap(cls, data) :
-		if type(data) is dict :
-			return conf({
-				k: cls.wrap(v)
-				for k,v in data.items()
-				})
-		return data
-
-	@classmethod
-	def load(cls, filename) :
-		import yaml
-		result = cls.wrap(yaml.load(stream=open(filename,encoding="utf8")))
-		return result
+from yamlns import namespace as conf
 
 femenino = conf(
 	quotedElCliente = "la \"CLIENTA\"",
