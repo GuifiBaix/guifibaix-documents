@@ -21,7 +21,7 @@ DE UNA  PARTE,
 con N.I.F. número **{client.nif}**,
 en adelante, {genero.quotedElCliente},
 con domicilio en **{client.domicilio.municipio}**,
-**{client.domicilio.direccion}**,
+**{client.address}**,
 C.P. **{client.domicilio.codigopostal}**.
 
 DE OTRA  PARTE,
@@ -30,7 +30,7 @@ con N.I.F. número **{proveedor.representante.nif}**
 y en nombre y representación de **{proveedor.name}**,
 en adelante, la “PROVEEDORA”,
 con domicilio en **{proveedor.domicilio.municipio}**,
-**{proveedor.domicilio.direccion}**,
+**{proveedor.address}**,
 C.P. **{proveedor.domicilio.codigopostal}**
 y C.I.F. **{proveedor.nif}**.
 
@@ -433,13 +433,13 @@ en caso de incumplimiento de las obligaciones establecidas en el mismo.
 Las notificaciones que se realicen las Partes deberán realizarse por correo electrónico, teléfono o correo ordinario, a las siguientes direcciones:
 
 	{genero.cliente}:
-		Dirección:	{client.domicilio.direccion}
+		Dirección:	{client.address}
 					{client.domicilio.codigopostal} {client.domicilio.municipio}
 		Email: 		{client.email}
 		Teléfono:	{client.telefono}
 
 	PROVEEDOR:
-		Dirección:	{proveedor.domicilio.direccion}
+		Dirección:	{proveedor.address}
 					{proveedor.domicilio.codigopostal} {proveedor.domicilio.municipio}
 		Email: 		{proveedor.emailcontacto}
 		Teléfono:	{proveedor.telefono}

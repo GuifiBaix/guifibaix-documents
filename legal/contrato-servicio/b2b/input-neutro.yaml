@@ -3,8 +3,8 @@ nif: 12345678V
 telefono: 93-111-2222
 email: email@usuario.test
 genero: masculino
+address: DIRECCION N, P
 domicilio:
-    direccion: DIRECCION N, P
     municipio: POBLACION
     codigopostal: COD.POSTAL
 
