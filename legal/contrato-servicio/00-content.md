@@ -181,7 +181,7 @@ de acuerdo con las instrucciones y el manual del fabricante.
 
 2.2.6. La PROVEEDORA ofrecerá un servicio de soporte técnico
 de 9 a 17 horas todos los días laborables no festivos
-mediante llamada telefónica al ({proveedor.telefono}) o correo electrónico a {proveedor.email}.
+mediante llamada telefónica al ({proveedor.contact.phone[0]}) o correo electrónico a {proveedor.email}.
 Las vísperas de festivos nacionales, el horario de atención telefónica será de 9 a 15 horas.
 Los fines de semana o festivos, el servicio estará disponible a través del correo electrónico {proveedor.email}.
 Cualquiera incidencia que se produzca, {genero.elCliente} deberá comunicarla a la PROVEEDORA,
@@ -365,7 +365,7 @@ de conformidad con lo dispuesto en las presentes Condiciones.
 
 6.2.
 	Las averías o el mal funcionamiento de los Servicios se comunicarán a la PROVEEDORA
-	a través de llamada telefónica ({proveedor.telefono}) o
+	a través de llamada telefónica ({proveedor.contact.phone[0]}) o
 	envío de correo electrónico {proveedor.email}.
 	Los horarios de atención, son los especificados en el punto 2.2.6
 
@@ -436,13 +436,13 @@ Las notificaciones que se realicen las Partes deberán realizarse por correo ele
 		Dirección:	{client.address}
 					{client.postalcode} {client.city}
 		Email: 		{client.email}
-		Teléfono:	{client.telefono}
+		Teléfono:	{client.contact.phone[0]}
 
 	PROVEEDOR:
 		Dirección:	{proveedor.address}
 					{proveedor.postalcode} {proveedor.city}
 		Email: 		{proveedor.emailcontacto}
-		Teléfono:	{proveedor.telefono}
+		Teléfono:	{proveedor.contact.phone[0]}
 
 
 

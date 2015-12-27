@@ -111,7 +111,11 @@ masculino = conf(
 proveedora = conf.load(args.provider) if args.provider else conf(
 	name = "GUIFIBAIX SCCL",
 	nif = "F66576380",
-	telefono = "93-164-0492",
+	contact = conf(
+		phone = [
+			"93-164-0492",
+		],
+	),
 	email = "soporte"+ "@" + "guifibaix.coop",
 	emailcontacto = "contacto"+"@"+"guifibaix.coop",
 	address = "C/Major 22, 3",

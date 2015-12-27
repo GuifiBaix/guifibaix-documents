@@ -1,6 +1,8 @@
 name: NOMBRE APELLIDO
 nif: 12345678V
-telefono: 93-111-2222
+contact:
+  phone:
+  - 93-111-2222
 email: email@usuario.test
 genero: masculino
 address: DIRECCION N, P
