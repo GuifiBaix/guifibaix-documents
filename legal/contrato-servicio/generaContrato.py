@@ -97,6 +97,10 @@ proveedora = conf.load(args.provider) if args.provider else conf(
 		phone = [
 			"93-164-0492",
 		],
+		email = [
+			"contacto@guifibaix.coop",
+			"soporte@guifibaix.coop",
+		],
 	),
 	email = "soporte"+ "@" + "guifibaix.coop",
 	emailcontacto = "contacto"+"@"+"guifibaix.coop",
@@ -139,8 +143,8 @@ if args.generateMarkdown :
 outputfile = args.output or (
 	"contrato-guifibaix-{}-{}-{}.pdf".format(
 		datetime.date(*args.data).isoformat(),
-		data.cliente.nif,
-		''.join(data.cliente.name.split())
+		data.client.nif,
+		''.join(data.client.name.split())
 	))
 
 import pypandoc
