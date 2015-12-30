@@ -435,13 +435,13 @@ Las notificaciones que se realicen las Partes deberán realizarse por correo ele
 	{genero.cliente}:
 		Dirección:	{client.address}
 					{client.postalcode} {client.city}
-		Email: 		{client.email}
+		Email: 		{client.contact.email[0]}
 		Teléfono:	{client.contact.phone[0]}
 
 	PROVEEDOR:
 		Dirección:	{proveedor.address}
 					{proveedor.postalcode} {proveedor.city}
-		Email: 		{proveedor.emailcontacto}
+		Email: 		{proveedor.contact.email[0]}
 		Teléfono:	{proveedor.contact.phone[0]}
 
 

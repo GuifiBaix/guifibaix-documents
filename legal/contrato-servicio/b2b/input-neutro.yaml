@@ -3,7 +3,8 @@ nif: 12345678V
 contact:
   phone:
   - 93-111-2222
-email: email@usuario.test
+  email:
+  - email@usuario.test
 genero: masculino
 address: DIRECCION N, P
 city: POBLACION
