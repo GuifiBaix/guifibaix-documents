@@ -66,7 +66,7 @@ args = parser.parse_args()
 
 from yamlns import namespace as conf
 
-femenino = conf(
+female = conf(
 	quotedElCliente = "la \"CLIENTA\"",
 	cliente = "CLIENTA",
 	elCliente = "la CLIENTA",
@@ -78,7 +78,7 @@ femenino = conf(
 	AlCliente = "A la CLIENTA",
 	)
 
-masculino = conf(
+male = conf(
 	quotedElCliente = "el \"CLIENTE\"",
 	cliente = "CLIENTE",
 	elCliente = "el CLIENTE",
@@ -110,7 +110,7 @@ proveedora = conf.load(args.provider) if args.provider else conf(
 	representante = conf(
 		name = "David García Garzón",
 		nif = "36517097C",
-		genero = masculino,
+		genre = male,
 		cargo = "Presidente",
 	),
 )
@@ -128,7 +128,7 @@ data = conf(
 	proveedor = proveedora,
 )
 
-data.genero = femenino if data.client.genero.lower() == 'femenino' else masculino
+data.genre = female if data.client.genre.lower() == 'female' else male
 data.imagepath = sourceRelative('')
 
 
