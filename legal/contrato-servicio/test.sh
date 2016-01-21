@@ -9,7 +9,7 @@ fail()
 for input in b2b/input*yaml; do
 	output=$(echo $input | sed s/input/output/ | sed 's/\.yaml$/.md/' )
 	echo Generating $input '->' $output
-	python3 generaContrato.py --md $input -d 2014-02-20 > $output || fail Command returned an error
+	gb_generacontratoservicio.py --md $input -d 2014-02-20 > $output || fail Command returned an error
 done
 
 false && (
