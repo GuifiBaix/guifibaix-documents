@@ -12,9 +12,9 @@ for input in b2b/input*yaml; do
 	gb_generacontratoservicio.py --md $input -d 2014-02-20 > $output || fail Command returned an error
 done
 
-false && (
+true && (
 echo Generating b2b/input-eva.yaml '->' b2b/output-eva.tex
-	python3 generaContrato.py \
+	gb_generacontratoservicio.py \
 		b2b/input-eva.yaml \
 		-d 2014-02-20 \
 		-o b2b/output-eva.tex ||
