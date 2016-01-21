@@ -27,10 +27,10 @@ C.P. **08970**.
 DE OTRA  PARTE,
 **David García Garzón**,
 con N.I.F. número **36517097C**
-y en nombre y representación de **GUIFIBAIX SCCL**,
+y en nombre y representación de **GUIFIBAIX, SCCL**,
 en adelante, la “PROVEEDORA”,
 con domicilio en **Sant Joan Despí**,
-**C/Major 22, 3**,
+**Carrer Major 22, 3a**,
 C.P. **08970**
 y C.I.F. **F66576380**.
 
@@ -181,9 +181,9 @@ de acuerdo con las instrucciones y el manual del fabricante.
 
 2.2.6. La PROVEEDORA ofrecerá un servicio de soporte técnico
 de 9 a 17 horas todos los días laborables no festivos
-mediante llamada telefónica al (93-164-0492) o correo electrónico a soporte@guifibaix.coop.
+mediante llamada telefónica al (694-495-972) o correo electrónico a suport@guifibaix.coop.
 Las vísperas de festivos nacionales, el horario de atención telefónica será de 9 a 15 horas.
-Los fines de semana o festivos, el servicio estará disponible a través del correo electrónico soporte@guifibaix.coop.
+Los fines de semana o festivos, el servicio estará disponible a través del correo electrónico suport@guifibaix.coop.
 Cualquiera incidencia que se produzca, el CLIENTE deberá comunicarla a la PROVEEDORA,
 a través del teléfono o correo electrónico mencionados, para proceder a su solución.
 
@@ -365,8 +365,8 @@ de conformidad con lo dispuesto en las presentes Condiciones.
 
 6.2.
 	Las averías o el mal funcionamiento de los Servicios se comunicarán a la PROVEEDORA
-	a través de llamada telefónica (93-164-0492) o
-	envío de correo electrónico soporte@guifibaix.coop.
+	a través de llamada telefónica (694-495-972) o
+	envío de correo electrónico suport@guifibaix.coop.
 	Los horarios de atención, son los especificados en el punto 2.2.6
 
 6.3.
@@ -439,10 +439,10 @@ Las notificaciones que se realicen las Partes deberán realizarse por correo ele
 		Teléfono:	93-111-2222
 
 	PROVEEDOR:
-		Dirección:	C/Major 22, 3
+		Dirección:	Carrer Major 22, 3a
 					08970 Sant Joan Despí
-		Email: 		contacto@guifibaix.coop
-		Teléfono:	93-164-0492
+		Email: 		contacte@guifibaix.coop
+		Teléfono:	694-495-972
 
 
 
