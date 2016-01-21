@@ -64,9 +64,9 @@ parser.add_argument(
 	)
 args = parser.parse_args()
 
-from yamlns import namespace as conf
+from yamlns import namespace as ns
 
-female = conf(
+female = ns(
 	quotedElCliente = "la \"CLIENTA\"",
 	cliente = "CLIENTA",
 	elCliente = "la CLIENTA",
@@ -78,7 +78,7 @@ female = conf(
 	AlCliente = "A la CLIENTA",
 	)
 
-male = conf(
+male = ns(
 	quotedElCliente = "el \"CLIENTE\"",
 	cliente = "CLIENTE",
 	elCliente = "el CLIENTE",
@@ -90,10 +90,10 @@ male = conf(
 	AlCliente = "Al CLIENTE",
 	)
 
-proveedora = conf.load(args.provider) if args.provider else conf(
+proveedora = ns.load(args.provider) if args.provider else ns(
 	name = "GUIFIBAIX SCCL",
 	nif = "F66576380",
-	contact = conf(
+	contact = ns(
 		phone = [
 			"93-164-0492",
 		],
@@ -107,7 +107,7 @@ proveedora = conf.load(args.provider) if args.provider else conf(
 	address = "C/Major 22, 3",
 	city = "Sant Joan Despí",
 	postalcode = '08970',
-	representante = conf(
+	representante = ns(
 		name = "David García Garzón",
 		nif = "36517097C",
 		genre = male,
@@ -117,14 +117,14 @@ proveedora = conf.load(args.provider) if args.provider else conf(
 
 
 meses="enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split()
-data = conf(
-	fecha = conf(
+data = ns(
+	fecha = ns(
 		any = args.data[0],
 		mes = meses[args.data[1]-1],
 		dia = args.data[2],
 		),
 	lugar = "Sant Joan Despí",
-	client = conf.load(args.user),
+	client = ns.load(args.user),
 	proveedor = proveedora,
 )
 
