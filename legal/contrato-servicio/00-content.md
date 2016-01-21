@@ -25,8 +25,8 @@ con domicilio en **{client.city}**,
 C.P. **{client.postalcode}**.
 
 DE OTRA  PARTE,
-**{proveedor.representante.name}**,
-con N.I.F. número **{proveedor.representante.nif}**
+**{proveedor.proxy.name}**,
+con N.I.F. número **{proveedor.proxy.nif}**
 y en nombre y representación de **{proveedor.name}**,
 en adelante, la “PROVEEDORA”,
 con domicilio en **{proveedor.city}**,

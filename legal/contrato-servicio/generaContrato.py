@@ -23,6 +23,7 @@ def parseDate(v) :
 	year, month, day = (int(x) for x in v.split('-'))
 	if day<1 or day > 31 : raise ValueError
 	return year, month, day
+
 def isodate(value) :
 	try : return parseDate(value)
 	except ValueError: raise argparse.ArgumentError()
@@ -107,11 +108,10 @@ proveedora = ns.load(args.provider) if args.provider else ns(
 	address = "C/Major 22, 3",
 	city = "Sant Joan Despí",
 	postalcode = '08970',
-	representante = ns(
+	proxy = ns(
 		name = "David García Garzón",
 		nif = "36517097C",
 		genre = male,
-		cargo = "Presidente",
 	),
 )
 
