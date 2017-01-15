@@ -1,5 +1,5 @@
 ---
-title: Estatuts Associació Promotora GUIFIBAIX
+title: Estatuts Associació Fem GUIFIBAIX
 babel-lang: catalan
 lang: ca_ES
 mainfont: Ubuntu
@@ -18,7 +18,7 @@ header-includes:
 
 ### Article 1
 
-Amb la denominació Associació Promotora GuifiBaix es constitueix aquesta entitat, que regula les seves activitats d’acord amb el que estableix la Llei 4/2008, de 24 d’abril, del llibre tercer del Codi civil de Catalunya, relatiu a les persones jurídiques; la Llei orgànica 1/2002, de 22 de març, reguladora del dret d’associació, i els seus estatuts.
+Amb la denominació Associació Fem GuifiBaix es constitueix aquesta entitat, que regula les seves activitats d’acord amb el que estableix la Llei 4/2008, de 24 d’abril, del llibre tercer del Codi civil de Catalunya, relatiu a les persones jurídiques; la Llei orgànica 1/2002, de 22 de març, reguladora del dret d’associació, i els seus estatuts.
 
 ### Article 2
 
@@ -164,9 +164,7 @@ Al començament de cada reunió de l'Assemblea General es llegeix l'acta de la s
 
 ### Article 15
 
-1. Els membres de la Junta Directiva exerceixen el càrrec durant un període\footnote{
-La durada del càrrec pot ser diferent, però no  superior a cinc anys.
-} de cinc anys, sense perjudici que puguin ser reelegits.
+1. Els membres de la Junta Directiva exerceixen el càrrec durant un període de cinc anys, sense perjudici que puguin ser reelegits.
 2. El cessament dels càrrecs abans d'extingir-se el termini reglamentari del seu mandat pot esdevenir-se per:
 	a) mort o declaració d’absència, en el cas de les persones físiques, o extinció, en el cas de les jurídiques
 	b) incapacitat o inhabilitació
@@ -202,9 +200,7 @@ La durada del càrrec pot ser diferent, però no  superior a cinc anys.
 ### Article 17
 
 1. La Junta Directiva, convocada prèviament pel president o per la persona que l’hagi de substituir, s'ha de reunir en sessió ordinària amb la periodicitat que els seus membres decideixin, que en cap cas no pot ser inferior a una vegada cada trimestre.
-\footnote{Es pot fixar una altra periodicitat.}
 2. S'ha de reunir en sessió extraordinària quan el president la convoqui amb aquest caràcter o bé si ho sol·licita un terç dels membres que la componen.
-\footnote{Es pot fixar un altre percentatge.}
 
 
 ### Article 18
@@ -282,8 +278,6 @@ L'Assemblea General pot establir quotes d'ingrés, quotes periòdiques mensuals 
 ### Article 27
 
 L'exercici econòmic coincideix amb l'any natural i queda tancat el 31 de desembre.
-\footnote{ La data de tancament de l’exercici econòmic pot ser diferent.}
-
 
 
 ### Article 28
@@ -314,10 +308,13 @@ L'associació pot ser dissolta si ho acorda l'Assemblea General, convocada amb c
 4. El romanent net que resulti de la liquidació s'ha de lliurar directament a l'entitat pública o privada  sense afany de lucre que, en l'àmbit territorial d'actuació de l'associació, hagi destacat més en la seva activitat a favor d'obres benèfiques.
 5. Les funcions de liquidació i d'execució dels acords a què fan referència els apartats anteriors d'aquest mateix article, són competència de la Junta Directiva si l'Assemblea General no confereix aquesta missió a una comissió liquidadora especialment designada a aquest efecte.
 
-Sant Joan Despí, 30 de Gener der 2017\footnote{
-La localitat i la data que es consignin aquí han de coincidir amb la localitat i la data que figurin a l’acta fundacional.}
+\vspace{1cm}
 
-Signatures de tots els socis fundadors 
+Sant Joan Despí, 15 de Gener der 2017
+
+\vspace{6cm}
+
+Signatures de tots els socis fundadors
 
 
 
