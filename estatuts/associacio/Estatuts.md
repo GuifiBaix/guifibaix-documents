@@ -26,7 +26,7 @@ Els fins de l’associació són:
 
 - La expansió de la xarxa de telecomunucacions oberta i neutral i de comuns
 - Facilitar la incorporació de les persones i entitats als entorns de noves tecnologies
-- Crear l'entorn on sigui viable una activitat econòmica en la xarxa seguint un model cooperatiu controlat pels usuaris i els treballadors.
+- Viabilitzar una activitat econòmica autosostenible al voltant de la xarxa seguint un model cooperatiu controlat pels usuaris i els treballadors.
 
 Per aconseguir les seves finalitats, l’associació realitza les activitats següents:
 
@@ -38,10 +38,8 @@ En queda exclòs tot ànim de lucre.
 
 ### Article 3
 
-1. El domicili de l’associació s’estableix a Sant Joan Despí, i radica al carrer Major, núm. 22, 3.
+1. El domicili de l’associació s’estableix a Sant Joan Despí, i radica al carrer Major, núm. 22, 3era.
 2. Les funcions d’aquesta associació s’exerceixen majoritàriament a Catalunya.
-
-
 
 
 
@@ -166,7 +164,9 @@ Al començament de cada reunió de l'Assemblea General es llegeix l'acta de la s
 
 ### Article 15
 
-1. Els membres de la Junta Directiva exerceixen el càrrec durant un període3 de cinc anys, sense perjudici que puguin ser reelegits.
+1. Els membres de la Junta Directiva exerceixen el càrrec durant un període\footnote{
+La durada del càrrec pot ser diferent, però no  superior a cinc anys.
+} de cinc anys, sense perjudici que puguin ser reelegits.
 2. El cessament dels càrrecs abans d'extingir-se el termini reglamentari del seu mandat pot esdevenir-se per:
 	a) mort o declaració d’absència, en el cas de les persones físiques, o extinció, en el cas de les jurídiques
 	b) incapacitat o inhabilitació
@@ -176,7 +176,6 @@ Al començament de cada reunió de l'Assemblea General es llegeix l'acta de la s
 3. Les vacants que es produeixin a la Junta Directiva s'han de cobrir en la primera reunió de l'Assemblea General que tingui lloc. Mentrestant, un membre de l'associació pot ocupar provisionalment el càrrec vacant.
 
 
-3. La durada del càrrec pot ser diferent, però no  superior a cinc anys.
 
 
 
@@ -202,11 +201,11 @@ Al començament de cada reunió de l'Assemblea General es llegeix l'acta de la s
 
 ### Article 17
 
-1. La Junta Directiva, convocada prèviament pel president o per la persona que l’hagi de substituir, s'ha de reunir en sessió ordinària amb la periodicitat que els seus membres decideixin, que en cap cas no pot ser inferior a una vegada cada trimestre.4
-2. S'ha de reunir en sessió extraordinària quan el president la convoqui amb aquest caràcter o bé si ho sol·licita un terç dels membres que la componen.5
+1. La Junta Directiva, convocada prèviament pel president o per la persona que l’hagi de substituir, s'ha de reunir en sessió ordinària amb la periodicitat que els seus membres decideixin, que en cap cas no pot ser inferior a una vegada cada trimestre.
+\footnote{Es pot fixar una altra periodicitat.}
+2. S'ha de reunir en sessió extraordinària quan el president la convoqui amb aquest caràcter o bé si ho sol·licita un terç dels membres que la componen.
+\footnote{Es pot fixar un altre percentatge.}
 
-4. Es pot fixar una altra periodicitat.
-5. Es pot fixar un altre percentatge.
 
 ### Article 18
 
@@ -282,9 +281,8 @@ L'Assemblea General pot establir quotes d'ingrés, quotes periòdiques mensuals 
 
 ### Article 27
 
-L'exercici econòmic coincideix amb l'any natural i queda tancat el 31 de desembre.6
-
-6. La data de tancament de l’exercici econòmic pot ser diferent.
+L'exercici econòmic coincideix amb l'any natural i queda tancat el 31 de desembre.
+\footnote{ La data de tancament de l’exercici econòmic pot ser diferent.}
 
 
 
@@ -316,13 +314,13 @@ L'associació pot ser dissolta si ho acorda l'Assemblea General, convocada amb c
 4. El romanent net que resulti de la liquidació s'ha de lliurar directament a l'entitat pública o privada  sense afany de lucre que, en l'àmbit territorial d'actuació de l'associació, hagi destacat més en la seva activitat a favor d'obres benèfiques.
 5. Les funcions de liquidació i d'execució dels acords a què fan referència els apartats anteriors d'aquest mateix article, són competència de la Junta Directiva si l'Assemblea General no confereix aquesta missió a una comissió liquidadora especialment designada a aquest efecte.
 
-Sant Joan Despí, 30 de Gener der 2017
+Sant Joan Despí, 30 de Gener der 2017\footnote{
+La localitat i la data que es consignin aquí han de coincidir amb la localitat i la data que figurin a l’acta fundacional.}
 
 Signatures de tots els socis fundadors 
 
 
 
-7. La localitat i la data que es consignin aquí han de coincidir amb la localitat i la data que figurin a l’acta fundacional.
 
 
 
