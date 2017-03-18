@@ -310,7 +310,7 @@ L'associació pot ser dissolta si ho acorda l'Assemblea General, convocada amb c
 
 \vspace{1cm}
 
-Sant Joan Despí, 15 de Gener der 2017
+Sant Joan Despí, 18 de Març der 2017
 
 \vspace{6cm}
 
