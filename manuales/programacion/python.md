@@ -37,84 +37,46 @@ el uso del sistema de control de versiones `git`.
 
 ## Lenguajes de programación
 
-Un lenguaje de programación es la forma en que las personas
-definimos el comportamiento de las aplicaciones.
-Existen muchos lenguajes de programación.
-Cada lenguaje tiene sus puntos fuertes
-o está más adaptado a según que tareas,
-o a las preferencias de cada persona.
-Por eso hay tantos lenguajes.
 
-Al final, el ordenador solo entiende de código máquina.
-El codigo máquina no está pensado para que lo entiendan las personas;
-es una secuencia de números sin sentido aparente,
-en la que cada número codifica
-algo que tiene que hacer el ordenador:
-Cargar en el procesador un número contenido en una posición de memoria,
-operar con ese número,
-colocar el resultado en otra posición de memoria,
-enviar un código a un dispositivo...
-Cosas de muy de tocar el hierro.
+Python es un lenguaje de programación.
+Los lenguajes de programación sirven para indicar el comportamiento de las aplicaciones.
+Hay casi tantos lenguajes como necesidades y gustos.
 
-Los lenguajes de programación son más cercanos
-a algo que una persona puede entender,
-haciendo de puente entre las personas y el ordenador.
-Nos permiten abstraernos de las interioridades del ordenador,
-y pensar en términos más cercanos al problema que queremos resolver.
+Los ordenadores en el fondo sólo entienden de __código máquina__,
+que es una ristra de números incomprensibles para la mayoría de los mortales.
+Por eso, las personas no escribimos los programas en código máquina,
+y usamos los lenguajes de programación que son mucho más inteligibles para nosotros.
+Pero entonces hay que traducir lo que escribimos con el lenguaje,
+el llamado __código fuente__, en __código máquina__ que entienda el ordenador.
 
-Los programas se escriben en archivos de texto plano,
-con unas reglas bastante rígidas.
-Las reglas conforman lo que se llama **sintaxis**,
-que es lo que es propio de cada lenguaje.
+Para hacer la traducción, se suelen seguir dos estrategias:
 
-Esos ficheros de texto,
-escritos en un lenguaje de programación,
-tienen que ser traducidos a
-código máquina ejecutable por el ordenador.
-Según la estrategia que se use para hacerlo
-hablamos de _lenguajes compilados_ o
-de _lenguajes interpretados_.
+- __Lenguajes interpretados:__
+La traducción se hace de forma simultanea a la ejecución.
+El programa traductor se llama __intérprete__, y al código fuente ejecutable, __script__.
+Necesitas el intérprete cada vez que quieras ejecutar el script.
 
-Un __compilador__ hace la traducción una vez,
-generando un archivo ejecutable/binario que incluye el código máquina.
-Ese archivo binario, una vez generado, lo podremos ejecutar sin necesitar ya
-ni el compilador ni el texto del programa original.
+	- Ejemplos: Python, Bash, Perl, PHP...
 
-- Ejemplos: C++, Java, Pascal... son lenguajes compilados.
+- __Lenguajes compilados:__
+La traducción se hace una vez, generando un ejecutable binario (en Windows los .EXE).
+Una vez compilado, el binario que contiene el código máquina se puede ejecutar
+las veces que queramos sin necesitar ya el compilador o el código fuente.
 
-Un __interprete__, en cambio, traduce el programa a código máquina
-a la vez que lo ejecuta.
-No genera el archivo binario intermedio
-y, cada vez que lo queramos ejectuar,
-necesitaremos tanto el texto del programa (script) como el intérprete.
+	- Ejemplos: C++, Java, Pascal...
 
-- Ejemplos: Bash, Python, Perl, PHP... son lenguajes interpretados.
+Los interpretados suelen ser más lentos que los compilados porque a la vez que ejecutan, traducen.
+Además, los compiladores pueden invertir en optimizar el código máquina generado,
+porque se compila una vez y se ejecuta muchas.
 
-Haciendo la analogía en terminos de lenguages humanos,
-un intérprete sería la traducción simultánea,
-el intérprete tiene que ir buscando la traducción al vuelo,
-mientras que un compilador seria como el traductor de un libro,
-puede dedicar tiempo en encontrar la mejor traducción
-porque una vez traducido el libro traducido queda ahí para quien lo lea.
+Hoy en dia, para según que aplicaciones, no se nota mucho la diferencia en velocidad,
+y vale la pena usar intérpretes porque agilizan el proceso de desarrollo.
+Por eso lenguajes como Python y compañía han cobrado relevancia.
 
-En general, un lenguaje interpretado se ejecutará más
-lento que uno compilado, puesto que, el ordenador tiene que
-ejecutar, a parte de la tarea que indica el programa,
-la traduccion a cógigo máquina.
-
-Con los rápidos ordenadores actuales,
-el tiempo de interpretación dejó de ser un problema.
-Y se prefiere en muchos casos un lenguaje interpretado porque,
-al no requerir el paso de compilación,
-el proceso de desarrollo es mucho más rápido y simple.
-
-Si te lo puedes permitir es más flexible viajar al extrangero
-con un traductor simultáneo, que
-salir con un papelito en el que tienes escrito en guirilandés lo que debes decir.
 
 > **Ejercicio:**
 > En Linux la mayoría de programas (archivos ejecutables) se encuentran en `/usr/bin/`.
-> El comando `file` identifica tipos de ficheros.
+> El comando `file` identifica el tipo de los ficheros.
 > Mira que tipo de ejecutables tienes ahí con:
 >
 > ```bash
