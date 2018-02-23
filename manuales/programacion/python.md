@@ -92,7 +92,7 @@ Por eso lenguajes como Python y compañía han cobrado relevancia.
 > $ cat /usr/bin/man
 > ```
 >
-> Junto con los ELF también aparecen un montón de archivos que identificados como de _texto ejecutable_ (o scripts)
+> Aparte de los ELF también aparecen un montón de archivos que identificados como de _texto ejecutable_ (o scripts)
 > escritos en Python, Perl, Bash, Ruby, Javascript...
 > Si haces un `cat` de uno de estos, verás el código fuente tal cual.
 > Es texto que podríamos incluso editar:
@@ -384,7 +384,7 @@ Entre paréntesis, en el comentario, el nombre que se le da al tipo en Python.
 >>> { 'David': 40, 'Aitor': 25 }
 { 'David': 40, 'Aitor': 25 }
 >>> None   # el no-objeto (NoneType), el intérprete ni lo imprime
->>> True   # un valor lógico (bool), su antitesis es False
+>>> True   # un valor lógico (bool), su antítesis es False
 True
 ```
 
@@ -475,14 +475,22 @@ podemos usar otras notaciones para los literales numéricos:
 
 ```python
 >>> # Notaciones alternativas para int
->>> 0xF0  # notacion hexadecimal, con 0x delante
+>>> 0xF0  # notacion hexadecimal (base 16), con 0x delante
 240
->>> 0b10010  # notacion en binario, con 0b delante
+>>> 0b10010  # notacion en binario (base 2), con 0b delante
 18
+>>> 015 # notacion octal (base 8), con 0 delante
+13
 >>> # Notaciones alternativas para float
 >>> 1.3e-5  # notación científica, equivale a 1.3*(10**(-5))
 1.3e-5
 ```
+
+**Importante:** Aunque no vayas a usar la notacion octal,
+es importante saber que existe porque en el mundo real
+es normal poner un cero a la izquierda para rellenar y que se ignore.
+Pe. `000032`. Si hacemos eso en Python tendremos un número no esperado,
+el `26`.
 
 > **Ejercicio:**
 > Experimenta con las notaciones
@@ -549,10 +557,10 @@ así que se usan diferentes nomenclaturas:
 - **Underscore**: `separamos_las_palabras_con_subrayados`
 
 La primera estrategia es bastante ilegible aunque para nombres cortos funciona.
-La segunda es más legibles sobretodo cuando te acostumbras.
+La segunda es más legible sobretodo cuando te acostumbras.
 Y la tercera aunque parezca más legible,
 confunde cuando se mezcla con otros operadores que se parecen al guión bajo,
-como el punto, la coma o el guión normal.
+como el punto, la coma o el guión normal. Aún así, se usa mucho.
 
 Como con el estilo de indentación, cada uno tiene sus preferencias y motivos,
 pero conviene que el criterio sea coherente dentro de cada proyecto.
@@ -728,7 +736,7 @@ Tenemos algunas funciones _built-in_ que podemos usar con secuencias:
 4
 ```
 
-Y algunos operadores específicos tambien para sequencias como son el operador `in` y su complementario `not in`.
+Y algunos operadores específicos también para sequencias como son el operador `in` y su complementario `not in`.
 
 ```python
 >>> 'ol' in 'hola'
@@ -823,7 +831,7 @@ Cuando no lo especificamos el salto es 1, pero si lo especificamos...
 >
 > Es heréncia de cuando se trabajaba con el hardware.
 > El texto está en una posición de memoria,
-> para acceder a la segunda letra hay que saltar 1 posicion, para acceder a la primera, cero posiciones.
+> para acceder a la segunda letra hay que saltar 1 posición, para acceder a la primera, cero posiciones.
 > Hubo una ola de lenguajes que intentaron usar el 1 como primer índice, pretendiendo ser más naturales.
 > Resultó que todo el código acabo siendo más complicado.
 > Las operaciones con índices basados en 0 son mucho más simples.
@@ -834,6 +842,10 @@ Cuando no lo especificamos el salto es 1, pero si lo especificamos...
 
 
 ## Definiendo funciones, sentencia `def`
+
+Antes hemos visto como llamábamos a funciones _built-in_, `print` y `max`
+que vienen con el lenguaje.
+Las funciones nos permiten agrupar sentencias para reusarlas una y otra vez.
 
 En nuestro script podemos definir nuestras propias funciones.
 
@@ -853,6 +865,7 @@ En nuestro script podemos definir nuestras propias funciones.
 	- El nombre sigue las mismas normas que para las variables.
 	- De hecho compiten por el mismo espacio de nombres:
 		- si declaramos después una variable llamada `media` perderemos nuestra función.
+	- Es importante usar nombres que resuman bien lo que hacen así, cuando leemos el código que las usa, no 
 - Después, entre paréntesis y separados por comas, la lista de parámetros.
 	- Los parámetros se pueden usar en las subsentencias como si fueran variables
 	- Se les asignan los valores que pasamos entre paréntesis cuando llamamos la función
@@ -861,7 +874,8 @@ En nuestro script podemos definir nuestras propias funciones.
 	- La asociación de los parámetros existe sólo mientras se ejecute esa llamada a la función
 - La sentencia `def` acaba con dos puntos (`:`), siguen subsentencias indentadas un nivel
 	- Las sentencias de dentro son las que se ejecutarán cada vez que llamemos la función.
-	- Los tres puntos los escribe el intérprete, en vez de los `>>>` para indicar que aun tenemos que acabar la sentencia.
+	- A diferencia de las sentencias que hemos escrito hasta ahora, no se ejecutan de forma inmediata.
+	- Los tres puntos los escribe el intérprete, en vez de los `>>>` para indicar que aun tenemos que acabar la sentencia `def`.
 	- Para salir de los tres puntos en el intérprete dejamos una linea en blanco
 - La primera sentencia de dentro crea una variable `suma`
 	- Las variables que creemos dentro de una función, igual que los parámetros, solo existen mientras la función se ejecuta.
@@ -919,13 +933,14 @@ y en el caso de que no se lo pasemos,
 lo ponemos a `0.21`.
 
 ```python
+>>> # factorIva tiene un valor por defecto de 0.21
 >>> def aplicaIva(baseImponible, factorIva=0.21):
 ... 	return baseImponible + baseImponible*factorIva
 ...
 >>> aplicaIva(100, 0.07)
-107
->>> aplicaIva(100)
-121
+107.0
+>>> aplicaIva(100) # si no pasamos el factorIva, por defecto
+121.0
 ```
 
 Fíjate que, en la declaración de los parámetros,
@@ -943,12 +958,10 @@ hasta que se acaban y completar el resto con los valores por defecto.
 > Llámala con 1, 2, 3, 4 y 5 valores a ver que dice en cada caso.
 
 
-
-
 ## Parámetros por clave
 
 Otra virguería que podemos hacer con las funciones
-es especificar los parámetros por su nombre
+es pasar los parámetros, no por posición, sinó por su nombre
 cuando llamamos a una función.
 
 ```python
@@ -960,31 +973,34 @@ Como se ve en el ejemplo,
 si indicamos el nombre de los parámetros,
 podemos colocarlos en el orden que queramos.
 
-Pero no sólo sirve para desordenar los parámetros.
-Cuando las funciones tienen muchos parámetros,
-determinar por posición qué parámetro corresponde con cual es muy dado a errores.
-No sólo genera errores si no que a alguien que está leyendo el código,
-le cuesta seguirlo.
-Así que especificar el nombre del parámetro ayuda a esa lectura.
+En funciones con muchos parámetros, pasar los parámetros por nombre
+evita errores y ayuda a la legibilidad
+porque no te tienes que acordar del orden de los parámetros,
+A menudo, leyendo código que pasa muchos parámetros posicionales a una función,
+hay que ir a la definición de la función para entender que le estamos pasando.
 
-Otro caso en que es útil especificar los nombres:
-Si, durante la evolución del script,
-decidimos alterar los parámetros de la función,
-hay que actualizar también las llamadas.
-En este caso especificar el nombre también facilita
-la detección de errores en el proceso de migración.
+Otro uso útil de pasar parámetros por nombre es escoger qué opcionales
+modificas y cuáles dejas por defecto.
+Posicionalmente, si pasas un opcional tienes que pasar todos los anteriores.
+Pero si pasas el opcional por nombre, puedes dejar los anteriores por defecto.
+Un ejemplo:
 
-En resumen, se recomienda explicitar los nombres de paràmetros:
+```python
+>>> def dibujaCirculo(cx, cy, radio, color='negro', fondo=None):
+...    .....
 
-- Cuando alteremos el orden en los parámetros de llamada
-- Cuando haya muchos parámetros, para no liarnos
-- Cuando preveamos una evolución en los parámetros
-- Cuando hay varios opcionales de los que normalmente queremos especificar pocos (si los llamaramos po
+>>> dibujaCirculo(100, 100, 10) # colores por defecto
+>>> # Posicionalmente tenemos que indicar el color aunque sea
+>>> # igual que el valor por defecto
+>>> dibujaCirculo(100, 100, 6, 'negro', 'rojo')
+>>> # Si pasamos el fondo por nombre, deja el color por defecto
+>>> dibujaCirculo(100, 100, 6, fondo='rojo')
+```
 
-Se pueden combinar parámetros posicionales con nombrados.
-La regla es que primero se especifican los posicionales
-y luego van los nombrados.
-Los posicionales se reparten en orden tal i como están en la definición de la función (`def`).
+Como vemos en el ejemplo, se puede combinar pasar parámetros posicionales con nombrados.
+La regla es que primero se pasan los posicionales y luego van los nombrados.
+Los posicionales se reparten en orden tal y como están en la definición de la función (`def`).
+Después se asignan los nombrados.
 
 ```python
 >>> aplicaIva(100, factorIva=0.07)
@@ -992,7 +1008,7 @@ Los posicionales se reparten en orden tal i como están en la definición de la 
 ```
 
 Si después de repartir los parámetros,
-hay algun parámetro, que no se le haya asignado valor y tampoco tenga uno por defecto,
+hay algún parámetro no opcional sin asignar,
 el intérprete se quejará:
 
 ```python
@@ -1001,6 +1017,16 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: aplicaIva() missing 1 required positional argument:
 'baseImponible'
+```
+
+Del mismo modo, si por posición pasamos por parámetro y luego
+lo volvemos apasar por nombre, también da error:
+
+```python
+>>> aplicaIva(10, 0.21, factorIva=0.07)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: aplicaIva() got multiple values for keyword argument 'factorIva'.
 ```
 
 
@@ -1022,9 +1048,11 @@ Se llaman con la sintaxis del punto (`.`) a partir del objeto/valor.
 objeto.metodo(parámetros)
 ```
 
-El intérprete interactivo nos deja explorar los métodos disponibles
-si tecleamos un literal o una variable, un punto y damos al tabulador
-y lo autocompleta si lo empezamos a teclear y le damos al tabulador.
+El intérprete interactivo nos deja explorar los métodos disponibles en un objeto.
+Si escribimos el nombre de una variable, un punto y le damos al tabulador,
+el intérprete interactivo nos muestra los metodos disponibles para el objeto.
+Si empezamos a escribir el nombre del método, y le damos al tabulador,
+el intérprete interactivo nos completa el nombre.
 
 Los textos `str` tienen varios métodos disponibles:
 
@@ -1034,9 +1062,9 @@ Los textos `str` tienen varios métodos disponibles:
 2
 >>> s.count('a')
 5
->>> s.index('b') # En que posicion esta la primera 'b'
+>>> s.index('b') # En que posición esta la primera 'b'
 1
->>> s.index('b',2)  # ...a partir de la posicion 2
+>>> s.index('b',2)  # ...a partir de la posición 2
 8
 >>> s.startswith('abra')
 True
@@ -1052,9 +1080,9 @@ True
 'ABRACADABRA'
 >>> 'AbRaCaDaBra'.lower() # todo a minúsculas
 'abracadabra'
->>> 'abracadabra'.split('a')
+>>> 'abracadabra'.split('a') # parte usando las 'a' de separador
 ['', 'br', 'c', 'd', 'br', '']
->>> 'hola tu que tal'.split()
+>>> 'hola tu que tal'.split() # si no le pasas separador, por espacios
 ['hola', 'tu', 'que', 'tal']
 >>> '-'.join(['hola', 'tu', 'que', 'tal'])
 'hola-tu-que-tal'
@@ -1065,15 +1093,13 @@ True
 ```
 
 Objetos de tipos diferentes pueden tener métodos con el mismo nombre,
-lo cual tiene sentido si hacen cosas conceptualmente similares
-aunque la implementación sea distinta para cada tipo.
+lo cual tiene mucho sentido si hacen cosas conceptualmente similares
+aunque la definición, las sentencias que ejecuta, sea distinta para cada tipo.
 
 Por ejemplo, los métodos `count` y `index`, que tiene `str`,
 también los tienen los otros tipos secuencia, `tupla` y `list`.
-Tienen el mismo nombre y se usan igual,
+Tienen el mismo nombre y parámetros y se usan igual,
 facilitando así el aprendizaje por analogía.
-Como estan definidos en clases distintas pueden tener el mismo nombre
-y tener implementaciones distintas.
 
 
 ## Rellenando textos con valores, el método `format`
@@ -1102,9 +1128,10 @@ o repetir un valor.
 Usar los índices es muy práctico cuando la cadena a rellenar viene de una traducción.
 Idiomas diferentes pueden tener los huecos en ordenes diferentes.
 
-Cuando tenemos muchos parámetros que rellenar,
-seguirle la pista a cual es cual se vuelve complicado.
-Por eso, a menudo es util usar claves para rellenarlo.
+Como nos pasaba con las funciones, cuando tenemos muchos
+valores que rellenar, seguirles la pista posicionalmente
+se vuelve complicado.
+Por eso, a menudo es util usar nombres para rellenar la plantilla.
 Fíjate en este ejemplo como le estamos pasando los parámetros.
 
 ```python
@@ -1142,15 +1169,13 @@ Puedes encontrar más detalles sobre el mini lenguaje de formateo en el
 
 # Tomando decisiones
 
-Programar es dejar que el ordenador tome sus decisiones.
-El programa define que acciones tomar según lo que
-se encuentre en cada momento.
-Es lo que dota de inteligencia al ordenador.
-Según los parámetros que le llegan al programa,
-calcular un _sí_ o un _no_ a cada acción posible.
+Lo que otorga inteligencia al ordenador
+es que pueda tomar decisiones según lo que se encuentra en cada momento.
+Que pueda decidir si tiene que hacer algo o no.
 
 En esta unidad,
 veremos como obtener y manipular valores booleanos, síes y noes,
+verdaderos y falsos,
 y como hacer depender el curso del programa de dichos valores.
 
 ## Tipos booleanos
@@ -1185,6 +1210,10 @@ True
 >>> 'alfredo' != 'alfredo' # desigualdad
 False
 ```
+__¡Ojo!:__
+No confundas el operador de assignación `=` que usamos para dar valores a las variables
+con el comparador de igualdad `==`.
+
 
 **Operadores de identidad:**
 `is` y `is not` deciden si un objeto es el mismo o no.
@@ -1219,7 +1248,6 @@ True
 >>> l1 is l3  # No son el mismo objeto, aunque tengan el mismo contenido
 False
 ```
-
 ## Tomando decisiones, la sentencia condicional `if`
 
 Una de las utilidades de los booleanos es la capacidad
@@ -1615,7 +1643,7 @@ pero si hay algo en lo que los ordenadores
 son unos machacas es en repetir cosas.
 
 En esta unidad veremos diferentes formas de repetir cosas.
-Con `while`, con `for`, con llamadas recursivas...
+Con `while`, con `for`, con llamadas recursivas a funciones...
 También veremos como controlar el flujo del bucle
 en casos excepcionales.
 
@@ -2021,8 +2049,8 @@ y mantienen su identidad aunque cambien su valor.
 >>> del l[::3] # borra un elemento cada 3
 >>> l2
 [2,3,5,6]
->>> l.insert(0,1) # en la posicion 0 inserta un 1
->>> l.insert(3,6) # en la posicion 3 inserta un 4
+>>> l.insert(0,1) # en la posición 0 inserta un 1
+>>> l.insert(3,6) # en la posición 3 inserta un 6
 >>> l2
 [1,2,3,6,5,6]
 >>> l[3] = 4  # modificar directamente un valor
@@ -2475,11 +2503,10 @@ TODO: Diagramas de conjuntos
 
 ## Diccionarios y conjuntos _del tirón_
 
-Vimos que teníamos la sintaxis _del tiron_ para construir listas
-en la que obteniamos los elementos de la lista nueva a partir de una expresión
-calculada en base de los elementos de otro iterable.
+Vimos que teníamos la sintaxis _del tirón_ para construir listas
+calculando una expresion para cada elemento de un iterable.
 
-También existe una sintaxis para crear diccionarios y conjuntos del tiron.
+También existe una sintaxis para crear diccionarios y conjuntos del tirón.
 Por analogía, si para la lista usabamos los corchetes planos (`[ ]`),
 para los conjuntos usaremos corchetes rizados (`{ }`).
 
@@ -2508,12 +2535,12 @@ Si queremos tener parejas de raiz y quadrado, con un diccionario del tirón:
 > **Ejercicio:**
 > Tenemos que retribuir un 2% del saldo de cada socio.
 > Calcula _del tirón_ un diccionario con las retribuciones a partir del diccionario de los saldos.
-> Ayuda: Dado que el iterable en el que nos basamos tambien es un diccionario,
+> Ayuda: Dado que el iterable en el que nos basamos también es un diccionario,
 > hay que usar el método `items` y desempaquetar clave y valor.
 > Es decir, dentro de los corchetes habrá algo como: `for nombre, saldo in saldos.items()`
 
 > **Ejercicio:**
-> Hay ciertos socios que han renunciado a cobrar retribución.
+> Hay ciertos socios que están por el decrecimiento y han renunciado a cobrar retribución.
 > Pon a esos socios en un conjunto `antiIntereses`.
 > Añade un filtro `if` que filtre los socios que estan en el grupo.
 
@@ -2623,7 +2650,7 @@ args: []
 kwds: {'otro': 5}
 ```
 
-Como en la llamada, en la definición tambien hay un orden,
+Como en la llamada, en la definición también hay un orden,
 más estricto si cabe.
 
 - Primero los parámetros no opcionales
@@ -2664,7 +2691,7 @@ evitando que se creen grandes listas intermedias en memoria.
 Analicemos, por ejemplo, este código:
 
 ```python
-# Busca los cuadrados de los números hasta 999 que acaben en 5
+# Busca los cuadrados de los números hasta 9999 que acaben en 5
 [
 	square
 	for square in [n*n for n in range(10000)]
@@ -2672,33 +2699,32 @@ Analicemos, por ejemplo, este código:
 ]
 ```
 
-En el código de arriba estamos generando una lista de mil cuadrados,
+En el código de arriba estamos generando una lista de diez mil cuadrados,
 iteramos sobre ella y seleccionamos aquellos que el numero anterior
-sea divisible por 10.
+sea divisible por 10 para obtener la lista final.
 
-El problema es para que generar una lista intermedia, la de los 1000 cuadrados,
-que no vamos a usar más.
+Es una lista de 10.000 cuadrados en memoria que no vamos a usar mas.
 Ocupamos memoria y hacemos que todo vaya más lento.
 
 En canvio si convertimos la lista interna en una expresion generadora
 cambiando los corchetes por paréntesis:
 
 ```python
-# Busca los cuadrados de los numeros hasta 999 que acaben en 5
+# Busca los cuadrados de los numeros hasta 9999 que acaben en 5
 [
 	square
-	for square in (n*n for n in range(1000))
+	for square in (n*n for n in range(10000))
 	if square % 10 == 5
 ]
 ```
 
-La lista interna de 1000 elementos no se generará, solo la final filtrada de 100 elementos.
+La lista interna de 10.000 elementos no se generará, solo la final ya filtrada de 1.000 elementos.
 
 
 ## Enumerando elementos, función `enumerate`
 
 Otro generador muy util es `enumerate`.
-Dado un iterable, genera tuplas con la posicion y el valor de cada elemento del iterable.
+Dado un iterable, genera tuplas con la posición y el valor de cada elemento del iterable.
 
 ```python
 >>> list(enumerate([
@@ -2724,6 +2750,10 @@ top5 = [
 for i, nombre in enumerate(top5):
 	print("En el puesto {}: {}".format(i+1, nombre))
 ```
+
+**Ejercicio:**
+`enumerate` tiene como parámetros opcionales, inicio, fin y paso como el `range`.
+Úsalos para no tener que sumarle 1 al índice en el `format`.
 
 **Ejercicio:**
 Usa el generador `reversed`, para darle emoción a la lista y acabar por el ganador.
@@ -2755,14 +2785,14 @@ El generador `zip` toma varios iterables y empareja sus valores.
 ```
 
 **Ejercicio:**
-Reimplementa `enumerate` como una función `enumerate2`
-que use `zip`, `range` y `len`.
+Implementa la funcion `mi_enumerado` que haga lo mismo que `enumerate`
+usando `zip`, `range` y `len`.
 
 
 
 ## Nuestras propias funciones generadoras, sentencia `yield`
 
-Podemos crear nuestros propios generadores con una expresión generadora que ya hemos visto.
+Vimos que podemos crear nuestros propios generadores con una expresion generadora.
 Pero en las expresiones generadoras estamos limitados a una sola expresión.
 Si queremos hacer algo más complejo tenemos que usar funciones generadoras.
 
@@ -2820,7 +2850,7 @@ Partiremos de un script _hola mundo_ como el que habíamos explicado
 
 Crearemos un script con el editor de texto llamado `miscript.py`.
 Recuerda usar la codificación UTF-8,
-y darle permisos de ejecucion en Linux.
+y darle permisos de ejecucion en Linux tal i como explicamos en el primer capítulo.
 
 
 ```python
@@ -2883,7 +2913,7 @@ siempre que abramos un archivo, lo vamos a hacer con la sentencia `with`.
 
 La sentencia `with` sirve para controlar la vida de los recursos.
 Es tan importante llamar a métodos como el `close`
-cuando acabamos de usar algun recurso, que no se nos puede olvidar.
+cuando acabamos de usar algún recurso, que no se nos puede olvidar.
 Una sentencia `with` nos sirve para asegurar que
 ciertas cosas se hacen al acabar.
 
@@ -2935,7 +2965,7 @@ import sys
 ```
 
 Cuando importamos una librería de este modo,
-las cosas que estan dentro de la librería son accesibles
+las cosas que se definen dentro de la librería son accesibles
 con la sintaxis de punto (`.`), por ejemplo,
 si importamos `librería` podemos acceder a `librería.cosaDeDentro`.
 
@@ -3025,7 +3055,7 @@ with open(sys.argv[1]) as infile:
 print(contenido)
 ```
 
-Ups, ahora en caso de error imprime el error pero, tambien el error antiguo.
+Ups, ahora en caso de error imprime el error pero, también el error antiguo.
 Podemos poner el resto del código en un `else`:
 
 
@@ -3519,7 +3549,7 @@ with open(options.infilename) as infile:
 ```
 
 > **Ejercicio:**
-> Añade otra opción para que aplique algun otro método
+> Añade otra opción para que aplique algún otro método
 > de los textos como `lower`, `capitalize`, `title`, `swapcase`,
 > `lstrip`, `strip`, `rstrip`...
 
@@ -3808,6 +3838,60 @@ tendremos que cambiar la lista de las cabeceras.
 
 
 ## La clase namespace
+
+Los diccionarios son una herramienta genial
+pero la sintaxis para acceder a las claves
+a veces es tediosa `diccionario['miclave']`.
+
+En Guifibaix usamos una libreria llamada `yamlns`
+que contiene el tipo de objeto `namespace`.
+Este tipo se comporta como un diccionario normal
+de Python pero entre otras cosas permite acceder
+a las claves también con sintaxis de atributo: `diccionario.miclave`.
+En algunos casos, la clave no se puede usar con la sintaxis de punto,
+por ejemplo, cuando la clave no es un texto, es un valor calculado o tiene espacios o otros símbolos.
+En esos casos, aún podemos usar la sintaxis con corchetes.
+
+Otras diferencias con el diccionario estándar es que mantiene
+el orden de insercion y tiene formas de grabar y guardar
+la estructura en un formato muy interesante llamado YAML.
+Este formato es similar al XML y al JSON, si los conoces, pero es mucho más claro de leer.
+
+```python
+>>> from yamlns import namespace as ns
+>>> data = ns(
+...     empresa="Chapuzas a domicilio",
+...     personal=[
+...         ns(
+...             nombre='Pepe',
+...             apellido='Gotera',
+...             edad=45,
+...         ),
+...         ns(
+...             nombre='Otilio',
+...             apellido='Gomez',
+...             edad=43,
+...         ),
+...     ])
+>>> print(data.dump()) # imprime el yaml
+empresa: Chapuzas a domicilio
+personal:
+- nombre: Pepe
+  apellido: Gotera
+  edad: 45
+- nombre: Otilio
+  apellido: Gomez
+  edad: 43
+>>> data.dump("empresa.yaml") # crea un fichero con el yaml
+>>> data2 = ns.load("empresa.yaml") carga el fichero en data2
+>>> data.personal.append(ns(
+...     nombre="Rompetechos",
+...     apellido="Ibáñez",
+...     edad=32,
+...     ))
+```
+
+
 
 # Trabajando con rutas
 
