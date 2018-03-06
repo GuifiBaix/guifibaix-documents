@@ -1,0 +1,25 @@
+body,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal .slides
+{
+	background: white;
+	font-family: ubuntu;
+	color: black;
+}
+
+.reveal .slides.slides h1 {
+	font-size: 110%;
+}
+
+.reveal .caca {
+	display: block;
+	background-color: yellow;
+	color: red;
+}
+.reveal .caca:before {
+	content: "TODO: "
+}

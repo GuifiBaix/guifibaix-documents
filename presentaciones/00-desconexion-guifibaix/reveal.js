@@ -1,1 +1,1 @@
-../reveal.js-2.6.2
+../reveal.js

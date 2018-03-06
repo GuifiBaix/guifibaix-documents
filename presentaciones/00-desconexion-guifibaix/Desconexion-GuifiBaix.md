@@ -1,21 +1,29 @@
 % Cooperativisme i comunicacions lliures
 % Jornades Llibertàries
 % David García Garzón, Guifibaix
+---
+css: guifibaix.css
+revealjs-transition: slide
+---
 
 # Qui som?
 
 ## Els barrets
 
-<img width='20%' src='../imatges/logo-guifibaix.svg' >
-<img width='20%' src='../imatges/logo-eticom.png' >
+![](../imatges/logo-guifibaix.svg){width=20%}
+![](../imatges/logo-somconnexio.png){width=20%}
 
-<img width='20%' src='../imatges/logo-guifi.png' >
-<img width='20%' src='../imatges/logo-desconexionibex35.svg' >
+![](../imatges/logo-guifi.png){width=20%}
+![](../imatges/logo-desconexionibex35.svg){width=20%}
+
+<div class="fragment">
+![](../imatges/logo-somenergia.svg){width=20%}
+</div>
 
 ----
 
 
-<img width='50%' src='../imatges/logo-desconexionibex35.svg' >
+![](../imatges/logo-desconexionibex35.svg){width=50%}
 
 **Cerca, difusió i construcció d'alternatives**
 
@@ -30,7 +38,7 @@ Oberta a la col·laboració
 
 ---
 
-<img width='50%' src='../imatges/logo-guifi.png' >
+![](../imatges/logo-guifi.png){width=40%}
 
 **Xarxa ciutadana de comuns**
 
@@ -44,30 +52,32 @@ Coordinats per una Fundació
 
 ---
 
-<img width='50%' src='../imatges/logo-guifibaix.svg' >
+![](../imatges/logo-guifibaix.svg){width=30%}
 
-<b>Cooperativa de treballadors sense anim de lucre</b>
+**Instal·la i manté la xarxa de comuns al Baix Llobregat**
 
-Instal·lem i mantenim xarxes de comuns
+Cooperativa de treball sense ànim de lucre
 
-Compartir conexions entre els veïns
+(De moment constituïda com associació)
 
-Telèfon fixe i Internet fora de les grans companyies
+Facilita la compartició de conexions entre els veïns
+
+Dona serveis afegits (mediateca, núvol privat...)
 
 
 ---
 
-<img width='50%' src='../imatges/logo-eticom.png' >
+![](../imatges/logo-somconnexio.png){width=40%}
 
 **Cooperativa de consumidors**
 
-Objectiu: Comunicacions ètiques controlades pels usuaris
-
-Engegant, constituida al Març del 2014
+Comunicacions ètiques controlades pels usuaris
 
 Operador virtual: Comercialitza serveis de tercers
 
-Reinverteixen projectes de comuns
+Mòbil (masmobil/orange) i ADSL/fibra (vodafone)
+
+Reinverteixen en projectes de comuns
 
 
 
@@ -75,18 +85,18 @@ Reinverteixen projectes de comuns
 # Per què ho fem?
 
 
-## Els dolents
+## Els "dolents"
+
+<img width='30%' src='../imatges/Lou.png' >
+
+## Els "dolents"
 
 <!-- .slide: data-background="#ff0000" -->
-<img width='50%' src='../imatges/politician.jpg' >
+<img width='40%' src='../imatges/politician.jpg' >
 
-## Els dolents
+## Els "dolents"
 
-<img width='40%' src='../imatges/Lou.png' >
-
-## Els dolents
-
-<img width='40%' src='../imatges/mrburns.jpeg' >
+<img width='30%' src='../imatges/mrburns.jpeg' >
 
 ## Els nostres Mr.Burns
 
@@ -124,71 +134,73 @@ Lleis fetes a mida per ells i contra nosaltres
 Contaminació, degradació de l'entorn
 
 
-## El teu sou
-
-(si el tens)
-
-
-<svg width=100%>
-
-<rect x=0 y=0 width=100% height=100px style='stroke:black; fill:orange;'/>
-<rect x=1% y=10 width=30% height=80px style='stroke:black; stroke-width:2;fill:darkgreen;'/>
-<rect x=32% y=10 width=36% height=80px style='stroke:black; stroke-width:2;fill:darkred;'/>
-<rect x=69% y=10 width=30% height=80px style='stroke:black; stroke-width:2;fill:darkblue;'/>
-<text x=4% y=60px style='fill:white;'>Impostos</text>
-<text x=35% y=60px style='fill:white;'>Consum Variable</text>
-<text x=74% y=60px style='fill:white;'>Factures</text>
-</svg>
-
-
 ## Mercats Cautius
 
 <img width='90%' src='../imatges/mercadocautivo.svg'>
 
 
+## El teu sou {data-transition='fade'}
 
-## Alternatives?
-
-Banca:
-<img width='6%' src='../imatges/logo-casx.jpg'>
-<img width='10%' src='../imatges/logo-oikocredit.svg'>
-<img width='10%' src='../imatges/logo-coop57.png'>
-<img width='14%' src='../imatges/logo-fiare.jpeg'>
-<img width='14%' src='../imatges/logo-triodos.svg'>
-
-Energia:
-<img width='10%' src='../imatges/logo-goiener.jpg'>
-<img width='10%' src='../imatges/logo-eco-logo.jpg'>
-<img width='10%' src='../imatges/logo-somenergia.svg'>
-<img width='10%' src='../imatges/logo-zencer.jpg'>
-
-Comunicacions:
-<img width='10%' src='../imatges/logo-eticom.png'>
-<img width='10%' src='../imatges/logo-guifibaix.svg'>
-<img width='10%' src='../imatges/logo-guifi.png'>
-<img width='10%' src='../imatges/logo-fairphone.png'>
-
-Serveis online:
-<img width='10%' src='../imatges/logo-identi_ca.svg'>
-<img width='10%' src='../imatges/logo-diaspora.jpg'>
-<img width='10%' src='../imatges/logo-jabber.svg'>
-<img width='8%' src='../imatges/logo-wikipedia.png'>
-<img width='14%' src='../imatges/logo-openstreetmap.jpeg'>
-
-Programari:
-<img width='12%' src='../imatges/logo-libreoffice.jpeg'>
-<img width='10%' src='../imatges/logo-gimp.png'>
-<img width='8%' src='../imatges/logo-linux.jpeg'>
-<img width='10%' src='../imatges/logo-inkscape.svg'>
+(si el tens)
 
 
-# Perque no les fem servir?
+<svg width=100%>
+<rect x=0 y=0 width=100% height=100px style='stroke:black; fill:orange;'/>
+<rect x=1% y=10 width=30% height=80px style='stroke:black; stroke-width:2;fill:darkgreen;'/>
+<rect x=32% y=10 width=36% height=80px style='stroke:black; stroke-width:2;fill:darkred;'/>
+<rect x=69% y=10 width=30% height=80px style='stroke:black; stroke-width:2;fill:darkblue;'/>
+<text x=15% y=60px style='text-anchor:middle; fill:white;'>Impostos</text>
+<text x=50% y=60px style='text-anchor:middle; fill:white;'>Consum</text>
+<text x=84% y=60px style='text-anchor:middle; fill:white;'>Factures</text>
+</svg>
 
+- Impostos ➡ Estat
+- Factures ➡ Oligopolis
+- Consum ➡ Economia productiva
+
+## El teu sou {data-transition='fade'}
+
+Amb la crisi...
+
+<svg width=100%>
+<rect x=5% y=0 width=90% height=100px style='stroke:black; fill:orange;'/>
+<rect x=6% y=10 width=30% height=80px style='stroke:black; stroke-width:2;fill:darkgreen;'/>
+<rect x=37% y=10 width=26% height=80px style='stroke:black; stroke-width:2;fill:darkred;'/>
+<rect x=64% y=10 width=30% height=80px style='stroke:black; stroke-width:2;fill:darkblue;'/>
+<text x=20% y=60px style='text-anchor:middle; fill:white;'>Impostos</text>
+<text x=50% y=60px style='text-anchor:middle; fill:white;'>Consum</text>
+<text x=80% y=60px style='text-anchor:middle; fill:white;'>Factures</text>
+</svg>
+
+- El teu sou es va reduir
+- Pateix la teva capacitat de consum
+- Factures i impostos no es redueixen
+
+## El teu sou {data-transition='fade'}
+
+...i de fet
+
+<svg width=100%>
+<rect x=5% y=0 width=90% height=100px style='stroke:black; fill:orange;'/>
+<rect x=6% y=10 width=35% height=80px style='stroke:black; stroke-width:2;fill:darkgreen;'/>
+<rect x=42% y=10 width=16% height=80px style='stroke:black; stroke-width:2;fill:darkred;'/>
+<rect x=59% y=10 width=35% height=80px style='stroke:black; stroke-width:2;fill:darkblue;'/>
+<text x=23% y=60px style='text-anchor:middle; fill:white;'>Impostos</text>
+<text x=50% y=60px style='text-anchor:middle; fill:white;'>Consum</text>
+<text x=77% y=60px style='text-anchor:middle; fill:white;'>Factures</text>
+</svg>
+
+- L'estat necessita recaptar més
+- Els oligopolis ens tenen collats i pujen preus
+- Encara menys consum
+
+
+# A quins reptes ens enfrontem?
 
 
 ## Les excuses
 
-No existeix alternativa
+No hi ha alternatives
 
 No estan ben plantejades
 
@@ -203,6 +215,47 @@ Por, dubte i incertesa
 Peresa i resistencia al canvi
 
 Marc legal advers
+
+## Alternatives?
+
+- Banca:
+<img width='6%' src='../imatges/logo-casx.jpg'>
+<img width='6%' src='../imatges/logo-oikocredit.svg'>
+<img width='6%' src='../imatges/logo-coop57.png'>
+<img width='12%' src='../imatges/logo-fiare.jpeg'>
+<img width='10%' src='../imatges/logo-triodos.svg'>
+<img width='10%' src='../imatges/logo-faircoin.png'>
+<img width='5%' src='../imatges/logo-botc.png'>
+<img width='5%' src='../imatges/logo-caixacatalana.png'>
+- Assegurances:
+<img width='4%' src='../imatges/logo-arç.png'>
+<img width='4%' src='../imatges/logo-seryes.jpg'>
+<img width='8%' src='../imatges/logo-atlantis.jpg'>
+<img width='12%' src='../imatges/logo-sinera.jpg'>
+- Energia:
+<img width='10%' src='../imatges/logo-goiener.jpg'>
+<img width='10%' src='../imatges/logo-eco-logo.jpg'>
+<img width='8%' src='../imatges/logo-somenergia.svg'>
+<img width='8%' src='../imatges/logo-energetica.png' style="background: #111;">
+<img width='10%' src='../imatges/logo-zencer.jpg'>
+<img width='10%' src='../imatges/logo-lacorriente.jpg'>
+<img width='10%' src='../imatges/logo-nosaenerxia.jpg'>
+- Comunicacions:
+<img width='10%' src='../imatges/logo-somconnexio.png'>
+<img width='8%' src='../imatges/logo-guifibaix.svg'>
+<img width='10%' src='../imatges/logo-guifi.png'>
+<img width='10%' src='../imatges/logo-fairphone.png'>
+- Serveis online:
+<img width='6%' src='../imatges/logo-identi_ca.svg'>
+<img width='10%' src='../imatges/logo-diaspora.jpg'>
+<img width='10%' src='../imatges/logo-jabber.svg'>
+<img width='5%' src='../imatges/logo-wikipedia.png'>
+<img width='14%' src='../imatges/logo-openstreetmap.jpeg'>
+- Programari:
+<img width='12%' src='../imatges/logo-libreoffice.jpeg'>
+<img width='10%' src='../imatges/logo-gimp.png'>
+<img width='8%' src='../imatges/logo-linux.jpeg'>
+<img width='10%' src='../imatges/logo-inkscape.svg'>
 
 
 ## Que no existeixen?
@@ -317,9 +370,9 @@ Acompanyament del salt, salts col·lectius
 
 Lobbies
 
-Corrupció
-
 Portes giratòries
+
+Corrupció
 
 Nepotisme
 
@@ -458,14 +511,14 @@ Principi víric:
 
 ## Cobertura peninsular
 
-<img width='60%' src='../imatges/guifinet-cobertura-peninsula.png'>
+<img width='60%' src='../imatges/guifinet-cobertura-peninsula-2018-03-06.png'>
 
-### Més de 25.000 nodes!
+### Més de 34.000 nodes!
 
 
 ## Cobertura província
 
-<img width='90%' src='../imatges/guifinet-cobertura-barcelona.png'>
+<img width='90%' src='../imatges/guifinet-cobertura-barcelona-2018-03-06.png'>
 
 ## Cal professionalitzar?
 
@@ -490,13 +543,9 @@ Recomanació dels voluntaris existents al poble.
 <img width='80%' src='../imatges/internet-sharing.svg'>
 
 
-## Sant Joan Despí
+## Baix Llobregat
 
-<img width='80%' src='../imatges/guifinet-cobertura-santjoandespi.svg'>
-
-## El Prat
-
-<img width='70%' src='../imatges/guifibaix-Mapa-Prat-2014-05-10.png'>
+<img width='80%' src='../imatges/guifinet-cobertura-baixllobregat-2018-03-06.png'>
 
 ## Telefonia IP
 
@@ -547,9 +596,9 @@ Sense ànim de lucre però cal cobrir:
 
 Cadascú es paga la seva
 
-Depén de la complexitat de l'edifici
+Hem fet un preu standard de 310€
 
-Típic: Entre 200€ i 290€ per veí
+Pot pujar si cal màstil, obres...
 
 Es paga un sol cop
 
@@ -557,23 +606,20 @@ Es pot repartir en mesos
 
 ## Preus: Manteniment
 
-**Normal:** 12'50€+IVA/mes
+**Normal:**
+(12'50€+IVA/mes)
+El mode senzill, no em preocupo d'on surt la connexió.
 
-El mode senzill: no em preocupo d'on surt la connexió.
-
-**Aportador:** 0€+IVA/mes
-
-El mode voluntari: aporto la meva connexió a Internet
-
+**Aportador:**
+(0€+IVA/mes)
+El mode voluntari: aporto la meva connexió a Internet.
 Puc designar acompanyants, que m'ajuden a pagar-la.
+Màxim 4 acompanyants amb ADSL, 7 amb Fibra.
 
-Màxim 4 acompanyants amb ADSL, 7 amb Fibra
-
-**Acompanyant:** 7'50€+IVA/mes
-
-El mode solidari: ajudo a pagar la connexió a l'aportador
-
-Rebo un descompte pel manteniment
+**Acompanyant:**
+(7'50€+IVA/mes)
+El mode solidari: ajudo a pagar la connexió a l'aportador.
+Rebo un descompte pel manteniment.
 
 
 ## Preus: Telefonia IP
