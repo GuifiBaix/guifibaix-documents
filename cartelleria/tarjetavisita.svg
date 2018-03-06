@@ -14,8 +14,8 @@
    height="50mm"
    id="svg4988"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 23">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="tarjetavisita.svg">
   <defs
      id="defs3">
     <radialGradient
@@ -177,18 +177,6 @@
        inkscape:collect="always" />
     <filter
        inkscape:collect="always"
-       id="filter5806"
-       x="-0.013109863"
-       width="1.0262197"
-       y="-0.14174577"
-       height="1.2834915">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.697711"
-         id="feGaussianBlur5808" />
-    </filter>
-    <filter
-       inkscape:collect="always"
        id="filter5826"
        x="-0.013488121"
        width="1.0269762"
@@ -207,7 +195,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
+     inkscape:zoom="2.8284271"
      inkscape:cx="222.61323"
      inkscape:cy="72.83808"
      inkscape:document-units="mm"
@@ -216,10 +204,10 @@
      inkscape:snap-page="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="995"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4992">
@@ -229,7 +217,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -293,13 +281,12 @@
          d="m 556.15194,380.92164 c 0,14.51267 11.76344,26.2761 26.2761,26.2761 l 0,0 c 14.50944,0 26.27611,-11.76343 26.27611,-26.2761 l 0,0 c 0,-14.50981 -11.76667,-26.27288 -26.27611,-26.27288 l 0,0 c -14.51266,0 -26.2761,11.76307 -26.2761,26.27288" />
       <text
          transform="scale(0.99344149,1.0066018)"
-         sodipodi:linespacing="125%"
          id="text4232"
          y="330.58871"
          x="352.12143"
-         style="font-size:85.57880402px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:url(#linearGradient5049);fill-opacity:1;stroke:#424242;stroke-width:4.29009247;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:ubunutu;-inkscape-font-specification:Ubuntu Medium"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:0%;font-family:ubunutu;-inkscape-font-specification:'Ubuntu Medium';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:url(#linearGradient5049);fill-opacity:1;stroke:#424242;stroke-width:4.29009247;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-weight:500;text-align:start;text-anchor:start;fill:url(#linearGradient5049);fill-opacity:1;stroke:#424242;stroke-width:4.29009247;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
+           style="font-weight:500;font-size:85.57880402px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:start;text-anchor:start;fill:url(#linearGradient5049);fill-opacity:1;stroke:#424242;stroke-width:4.29009247;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            y="330.58871"
            x="352.12143"
            id="tspan4234"
@@ -307,57 +294,59 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:16.24877739000000076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
        x="313.54233"
        y="27.116333"
-       id="text14613-8"
-       sodipodi:linespacing="125%"><tspan
+       id="text14613-8"><tspan
          sodipodi:role="line"
-         id="tspan14615-5"
          x="313.54233"
-         y="27.116333">Telefonia fixa</tspan><tspan
+         y="27.116333"
+         id="tspan14660"
+         style="font-size:16.24877739px;line-height:1.25">La xarxa lliure del</tspan><tspan
          sodipodi:role="line"
          x="313.54233"
          y="47.427303"
-         id="tspan5810">i Internet</tspan><tspan
-         sodipodi:role="line"
-         x="313.54233"
-         y="67.738274"
-         id="tspan14660">fora de l'oligopoli</tspan></text>
+         style="font-size:16.24877739px;line-height:1.25"
+         id="tspan66">Baix Llobregat</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="96.499992"
-       y="143.16536"
-       id="text5146"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
+       x="13.443794"
+       y="145.28668"
+       id="text5146"><tspan
          sodipodi:role="line"
          id="tspan5148"
-         x="96.499992"
-         y="143.16536">Raúl Beas Hernández</tspan></text>
+         x="85.539841"
+         y="145.28668"
+         style="font-size:18px;line-height:1.25;text-anchor:start;text-align:start;">Aitor Pueyo Vispe</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="114.56532"
-       y="164.04137"
-       id="text5146-4"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="13.357414"
+       y="167.57689"
+       id="text5146-4"><tspan
          sodipodi:role="line"
          id="tspan5148-2"
-         x="114.56532"
-         y="164.04137">raul.beas@guifibaix.coop</tspan></text>
+         x="13.357414"
+         y="167.57689"
+         style="font-size:18px;line-height:1.25;text-align:start;text-anchor:start">aitor.pueyo@guifibaix.coop</tspan><tspan
+         sodipodi:role="line"
+         x="13.357414"
+         y="176.98193"
+         style="font-size:18px;line-height:1.25;text-align:start;text-anchor:start"
+         id="tspan68" /></text>
     <text
-       sodipodi:linespacing="100%"
        id="text15456"
        y="112.61517"
        x="201.14209"
-       style="font-size:17.07749748px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
        xml:space="preserve"
        transform="scale(0.9982689,1.0017341)"><tspan
          y="112.61517"
          x="201.14209"
          sodipodi:role="line"
-         id="tspan3251"><tspan
+         id="tspan3251"
+         style="font-size:17.07749748px;line-height:1"><tspan
    dx="0 0 0 0 0"
    dy="0 0 0 0 0"
    rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -366,12 +355,13 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot5812"
-       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Ubuntu;font-style:normal;font-weight:normal;font-size:56px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center;-inkscape-font-specification:Ubuntu;font-stretch:normal;font-variant:normal"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion5814"><rect
            id="rect5816"
            width="207.5"
            height="102"
            x="171"
            y="-15.334641" /></flowRegion><flowPara
-         id="flowPara5818"></flowPara></flowRoot>  </g>
+         id="flowPara5818"
+         style="font-size:56px;line-height:1.25"> </flowPara></flowRoot>  </g>
 </svg>

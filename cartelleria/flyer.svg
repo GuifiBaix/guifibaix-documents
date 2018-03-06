@@ -14,7 +14,7 @@
    height="524.40942"
    id="svg3090"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="flyer.svg"
    inkscape:export-filename="/home/vokimon/Documents/guifibaix/guifibaix-documents/cartelleria/flyer.png"
    inkscape:export-xdpi="90"
@@ -369,36 +369,40 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="68.692291"
-     inkscape:cy="207.71718"
+     inkscape:cx="149.61238"
+     inkscape:cy="272.42781"
      inkscape:current-layer="layer1"
      id="namedview3094"
      showgrid="false"
      units="mm"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="995"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-page="true">
     <sodipodi:guide
        orientation="1,0"
        position="10.652795,590.51034"
-       id="guide3633" />
+       id="guide3633"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="359.02798,517.38034"
-       id="guide3635" />
+       id="guide3635"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="315.26515,513.92538"
-       id="guide3637" />
+       id="guide3637"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="10.652795,10.364882"
-       id="guide3639" />
+       id="guide3639"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata3096">
@@ -418,8 +422,8 @@
      id="layer1"
      transform="translate(0,-219.685)">
     <image
-       y="602.10718"
-       x="10.652795"
+       y="653.04327"
+       x="278.34167"
        id="image3380"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAIAAADeJhTwAAAAA3NCSVQICAjb4U/gAAACq0lEQVR4 nO2dS47jMAwFx4O5/5XTy/ZGAAk+ZspG1TJwFBsFipGpz/X5fP4Ig7//+wbkF2WAUAYIZYBQBghl gFAGCGWAUAYIZYBQBghlgFAGCGWAUAaIf90vXNcVv4l7TeXe/unzSfsntp+rgpEBQhkglAGinTPu TOrnpz66kj+67XTZeK4KRgYIZYBQBohRzrhT6Ssn//e7OSZF6rkqGBkglAFCGSBiOSNFdzwxyTE0 jAwQygChDBC4nDGhWxeh5Q8jA4QyQCgDRCxnpPrfbp/efTfVvc9v5hUjA4QyQCgDxChnbNQPKkzm WU3q6tsYGSCUAUIZIC7a+5kKqTlXNIwMEMoAoQwQ7ZyRqhNM5kFt54DuWCSVq4wMEMoAoQwQK/WM Sr95uj717qibeyptbqw3vGNkgFAGCGWAaOeM7v/u0zWVNrtMauaTOb6p/GFkgFAGCGWAiO0dUumL U3t4pGrdlXuYjJ+6GBkglAFCGSBW1oFvr82usFGH6OY86xkPRhkglAFi9G5qMiYg7PlR+e439zc0 MkAoA4QyQKzsa1t5N7XRL6fW9E3qMdYzXoIyQCgDxPr6jMm81dM1J7b32d3GyAChDBDKAPHVGnil nQrfXL+dynkVjAwQygChDBCxubapa1L9fqp/n8y1tQb+YJQBQhkgcOf0nT6vrPtLvZvaHk+cMDJA KAOEMkA85py+yu9O5mWlxka+m3oJygChDBC4c/pSv7XRzsZ8sDtGBghlgFAGiMecuTT5j58au1Q+ d5zxEpQBQhkgcDmDfO5F5XcdZ7wEZYBQBgjcOX0b+6hvr0VPPbuRAUIZIJQBAndO32QOK2GeruOM l6AMEMoA8chz+t6KkQFCGSCUAUIZIJQBQhkglAFCGSCUAUIZIJQBQhkglAFCGSCUAeIH0QqEKog4 AzMAAAAASUVORK5CYII= "
        height="80.686295"
@@ -434,17 +438,17 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot3206"
-       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
-       transform="matrix(0.14798193,0,0,0.14798193,-113.70812,-112.82704)"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0.01%;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.14798193,0,0,0.14798193,-58.208122,-101.32704)"><flowRegion
          id="flowRegion3208"><rect
            id="rect3210"
            width="2729.1958"
            height="443.85596"
            x="285.71429"
            y="4286.6138"
-           style="font-weight:bold;-inkscape-font-specification:Sawasdee Bold" /></flowRegion><flowPara
-         id="flowPara3212">Internet, telèfon i més</flowPara><flowPara
-         id="flowPara4001">fora de l'oligopoli.</flowPara></flowRoot>    <g
+           style="font-weight:bold;-inkscape-font-specification:'Sawasdee Bold'" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold'"
+         id="flowPara3843">La xarxa lliure del Baix Llobregat</flowPara></flowRoot>    <g
        id="g6178"
        transform="matrix(0.09937349,0,0,0.09937349,82.353544,648.02437)">
       <g
@@ -464,7 +468,7 @@
         <flowRoot
            xml:space="preserve"
            id="flowRoot6112"
-           style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#280b0b;fill-opacity:1;stroke:#ffffff;stroke-width:2.32122493;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0.01%;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#280b0b;fill-opacity:1;stroke:#ffffff;stroke-width:2.32122493;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            transform="matrix(1.7992275,0,0,1.7992275,-80.515002,-8825.5822)"><flowRegion
              id="flowRegion6114"><rect
                id="rect6116"
@@ -472,8 +476,9 @@
                height="1817.1431"
                x="285.71429"
                y="4286.6138"
-               style="font-weight:bold;fill:#280b0b;stroke:#ffffff;stroke-width:2.32122493;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;-inkscape-font-specification:Sawasdee Bold" /></flowRegion><flowPara
-             id="flowPara6118">http://guifibaix.coop</flowPara></flowRoot>      </g>
+               style="font-weight:bold;-inkscape-font-specification:'Sawasdee Bold';fill:#280b0b;stroke:#ffffff;stroke-width:2.32122493;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
+             id="flowPara6118"
+             style="font-size:144px;line-height:1.25">http://guifibaix.coop</flowPara></flowRoot>      </g>
       <g
          transform="matrix(0.84879725,0,0,0.84879725,53.252426,-1131.0815)"
          id="g3994"
@@ -490,17 +495,18 @@
            ry="93.063477" />
         <flowRoot
            transform="matrix(1.7992275,0,0,1.7992275,-80.515002,-8825.5822)"
-           style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.66958426999999965;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0.01%;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.66958427;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="flowRoot3214"
            xml:space="preserve"><flowRegion
              id="flowRegion3216"><rect
-               style="font-weight:bold;fill:#ffffff;stroke:none;stroke-width:4.66958426999999965;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;-inkscape-font-specification:Sawasdee Bold;fill-opacity:1"
+               style="font-weight:bold;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.66958427;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                y="4286.6138"
                x="285.71429"
                height="205.01138"
                width="1401.2996"
                id="rect3218" /></flowRegion><flowPara
-             id="flowPara3220">http://guifibaix.coop</flowPara></flowRoot>      </g>
+             id="flowPara3220"
+             style="font-size:144px;line-height:1.25">http://guifibaix.coop</flowPara></flowRoot>      </g>
     </g>
     <g
        style="stroke:none"
@@ -526,17 +532,18 @@
          ry="100.72143" />
       <flowRoot
          transform="matrix(1.7992275,0,0,1.7992275,-412.04184,-8797.0545)"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4.46896505;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0.01%;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4.46896505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="flowRoot4007"
          xml:space="preserve"><flowRegion
            id="flowRegion4009"><rect
-             style="font-weight:bold;fill:#ffffff;stroke:#ffffff;stroke-width:4.46896505;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;-inkscape-font-specification:Sawasdee Bold"
+             style="font-weight:bold;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;stroke:#ffffff;stroke-width:4.46896505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              y="4286.6138"
              x="285.71429"
              height="1817.1431"
              width="1401.2996"
              id="rect4011" /></flowRegion><flowPara
-           id="flowPara4015">Guifibaix</flowPara></flowRoot>    </g>
+           id="flowPara4015"
+           style="font-size:144px;line-height:1.25">Guifibaix</flowPara></flowRoot>    </g>
     <g
        transform="matrix(0.07954322,0,0,0.07954322,24.058568,696.06406)"
        id="g7020">
@@ -559,7 +566,7 @@
        sodipodi:cy="155.29968"
        sodipodi:rx="103.61424"
        sodipodi:ry="62.932503"
-       d="m 10.652794,155.29968 a 103.61424,62.932503 0 1 1 -207.228484,0 103.61424,62.932503 0 1 1 207.228484,0 z"
+       d="M 10.652794,155.29968 A 103.61424,62.932503 0 0 1 -92.961449,218.23219 103.61424,62.932503 0 0 1 -196.57569,155.29968 103.61424,62.932503 0 0 1 -92.961449,92.36718 103.61424,62.932503 0 0 1 10.652794,155.29968 Z"
        transform="matrix(1.3223374,-0.31852093,0.31852093,1.3223374,184.49906,23.264948)" />
     <g
        id="g6872"
@@ -609,13 +616,12 @@
          d="m -1552.0608,-4637.6747 c 0,87.0451 70.5556,157.6006 157.6007,157.6006 l 0,0 c 87.0257,0 157.6007,-70.5555 157.6007,-157.6006 l 0,0 c 0,-87.028 -70.575,-157.5813 -157.6007,-157.5813 l 0,0 c -87.0451,0 -157.6007,70.5533 -157.6007,157.5813" />
       <text
          transform="scale(0.99344149,1.0066018)"
-         sodipodi:linespacing="125%"
          id="text4232"
          y="-4894.1646"
          x="-2808.0776"
-         style="font-size:513.29058838px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:url(#linearGradient6890-7);fill-opacity:1;stroke:#424242;stroke-width:25.73142242;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:ubunutu;-inkscape-font-specification:Ubuntu Medium"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:0%;font-family:ubunutu;-inkscape-font-specification:'Ubuntu Medium';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:url(#linearGradient6890-7);fill-opacity:1;stroke:#424242;stroke-width:25.73142242;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-weight:500;text-align:start;text-anchor:start;fill:url(#linearGradient6890-7);fill-opacity:1;stroke:#424242;stroke-width:25.73142242;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
+           style="font-weight:500;font-size:513.29058838px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:start;text-anchor:start;fill:url(#linearGradient6890-7);fill-opacity:1;stroke:#424242;stroke-width:25.73142242;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            y="-4894.1646"
            x="-2808.0776"
            id="tspan4234"
@@ -624,45 +630,31 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot6945"
-       style="font-size:161.00874329px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2b0000;fill-opacity:1;stroke:#aa0000;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       transform="matrix(0.09937349,0,0,0.09937349,73.961779,103.3588)"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2b0000;fill-opacity:1;stroke:#aa0000"
+       transform="matrix(0.09937349,0,0,0.09937349,-79.038217,94.3588)"><flowRegion
          id="flowRegion6947"><rect
            id="rect6949"
-           width="2400.1221"
-           height="1357.645"
+           width="3295.7332"
+           height="472.09698"
            x="468.71078"
            y="4791.5474"
            style="font-size:161.00874329px;text-align:center;text-anchor:middle;fill:#2b0000;stroke:#aa0000" /></flowRegion><flowPara
-         id="flowPara3691">· Connectem el teu edifici a la</flowPara><flowPara
-         id="flowPara3695">xarxa ciutadana                    </flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.09937349,0,0,0.09937349,72.541965,195.35881)"
-       style="font-size:161.00874329px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2b0000;fill-opacity:1;stroke:#aa0000;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         style="font-size:161.00874329px;line-height:1.25"
+         id="flowPara3856">· Accés col·laboratiu a Internet </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.09937349,0,0,0.09937349,-57.458032,125.85881)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2b0000;fill-opacity:1;stroke:#aa0000"
        id="flowRoot3645"
        xml:space="preserve"><flowRegion
          id="flowRegion3647"><rect
            style="font-size:161.00874329px;text-align:center;text-anchor:middle;fill:#2b0000;stroke:#aa0000"
            y="4791.5474"
            x="468.71078"
-           height="1357.645"
-           width="2400.1221"
+           height="235.61542"
+           width="3361.1428"
            id="rect3649" /></flowRegion><flowPara
-         id="flowPara3657">· L'alternativa local, ètica</flowPara><flowPara
-         id="flowPara3697"> i econòmica</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3659"
-       style="font-size:161.00874329px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2b0000;fill-opacity:1;stroke:#aa0000;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       transform="matrix(0.09937349,0,0,0.09937349,73.961773,150.61091)"><flowRegion
-         id="flowRegion3661"><rect
-           id="rect3663"
-           width="2400.1221"
-           height="1357.645"
-           x="468.71078"
-           y="4791.5474"
-           style="font-size:161.00874329px;text-align:center;text-anchor:middle;fill:#2b0000;stroke:#aa0000" /></flowRegion><flowPara
-         id="flowPara3667">· T'ho deixem preparat per</flowPara><flowPara
-         id="flowPara3669">endollar i funcionar</flowPara><flowPara
-         id="flowPara3671" /></flowRoot>    <g
-       transform="matrix(0.03398411,0,0,0.03398411,269.80566,599.13414)"
+         id="flowPara3697"
+         style="font-size:161.00874329px;line-height:1.25">· L'alternativa local, ètica i econòmica</flowPara></flowRoot>    <g
+       transform="matrix(0.03398411,0,0,0.03398411,174.84825,631.78742)"
        id="g4016"
        style="overflow:visible">
       <g
@@ -673,10 +665,9 @@
            d="m 1793.546,499.044 c -40.234,-5.855 -68.156,-17.115 -85.285,-50.409 -17.136,-33.295 -20.514,-78.406 -10.128,-135.335 10.235,-56.095 29.72,-100.312 58.478,-132.664 28.758,-32.351 62.959,-48.524 102.615,-48.524 42.007,0 71.532,15.917 88.578,47.757 17.046,31.84 20.199,77.184 9.465,136.028 l -2.8,14.665 c -0.671,3.255 -1.438,6.354 -2.293,9.299 h -183.013 c -3.901,26.89 -2.354,47.16 4.646,60.814 7.008,13.654 20.528,25.691 61.236,28.185 22.103,-0.325 49.113,-4.698 75.416,-14.563 l 15.712,68.891 c -17.016,11.551 -48.798,14.276 -76.457,17.44 -11.84,1.347 -53.151,-1.146 -56.17,-1.584 z"
            id="path4020" />
         <path
-           style="fill-rule:evenodd"
+           style="clip-rule:evenodd;fill-rule:evenodd"
            inkscape:connector-curvature="0"
-           clip-rule="evenodd"
-           d="m 15.714,539.963 c 32.692,12.271 66.479,16.043 90.576,14.101 22.858,-1.847 39.894,-6.038 51.163,-18.109 11.266,-12.076 19.871,-34.388 25.803,-66.923 l 5.57,-30.528 c -10.748,16.575 -23.017,28.794 -36.797,36.659 -13.789,7.868 -29.922,11.803 -48.405,11.803 -35.445,0 -60.953,-15.813 -76.524,-47.432 C 11.532,407.911 8.534,365.841 18.115,313.319 28.229,257.85 46.726,213.786 73.6,181.116 c 26.877,-32.669 58.043,-49.004 93.491,-49.004 18.481,0 33.429,4.422 44.837,13.268 11.408,8.853 19.573,22.33 24.503,40.44 l 7.559,-41.449 h 69.71 l -58.358,319.94 c -6.556,35.936 -14.241,63.365 -23.072,82.279 -8.825,18.909 -20.871,34.776 -36.148,47.596 -13.042,10.715 -28.597,18.865 -46.659,24.432 -18.069,5.567 -38.022,8.351 -59.857,8.351 -28.75,0 -72.593,-6.556 -89.606,-18.111 l 15.714,-68.895 z"
+           d="m 15.714,539.963 c 32.692,12.271 66.479,16.043 90.576,14.101 22.858,-1.847 39.894,-6.038 51.163,-18.109 11.266,-12.076 19.871,-34.388 25.803,-66.923 l 5.57,-30.528 c -10.748,16.575 -23.017,28.794 -36.797,36.659 -13.789,7.868 -29.922,11.803 -48.405,11.803 -35.445,0 -60.953,-15.813 -76.524,-47.432 C 11.532,407.911 8.534,365.841 18.115,313.319 28.229,257.85 46.726,213.786 73.6,181.116 c 26.877,-32.669 58.043,-49.004 93.491,-49.004 18.481,0 33.429,4.422 44.837,13.268 11.408,8.853 19.573,22.33 24.503,40.44 l 7.559,-41.449 h 69.71 l -58.358,319.94 c -6.556,35.936 -14.241,63.365 -23.072,82.279 -8.825,18.909 -20.871,34.776 -36.148,47.596 -13.042,10.715 -28.597,18.865 -46.659,24.432 -18.069,5.567 -38.022,8.351 -59.857,8.351 -28.75,0 -72.593,-6.556 -89.606,-18.111 z"
            id="path4022" />
         <path
            style="fill:#fbfafa"
@@ -684,21 +675,18 @@
            d="m 1780.106,279.86 h 107.867 c 3.545,-23.133 1.847,-40.743 -5.115,-52.836 -6.95,-12.091 -18.985,-18.134 -36.122,-18.134 -15.964,0 -29.637,6.096 -41.018,18.295 -11.388,12.199 -19.927,29.755 -25.612,52.675 z"
            id="path4024" />
         <path
-           style="fill:#fcfcfc;fill-rule:evenodd"
+           style="clip-rule:evenodd;fill:#fcfcfc;fill-rule:evenodd"
            inkscape:connector-curvature="0"
-           clip-rule="evenodd"
            d="m 92.976,310.341 c -5.856,32.125 -5.191,56.801 2.003,74.017 7.191,17.219 20.368,25.829 39.531,25.829 19.32,0 35.636,-8.61 48.945,-25.829 13.304,-17.216 22.962,-42.312 28.975,-75.277 5.708,-31.28 4.87,-55.478 -2.511,-72.592 -7.382,-17.108 -20.735,-25.666 -40.055,-25.666 -18.654,0 -34.697,8.713 -48.124,26.14 -13.429,17.427 -23.019,41.883 -28.764,73.378 z"
            id="path4026" />
         <path
-           style="fill-rule:evenodd"
+           style="clip-rule:evenodd;fill-rule:evenodd"
            inkscape:connector-curvature="0"
-           clip-rule="evenodd"
-           d="m 645.667,144.371 -62.491,342.595 h -71.779 l 7.414,-40.651 c -13.437,16.567 -27.84,28.98 -43.209,37.26 -15.372,8.278 -31.71,12.424 -49.017,12.424 -30.071,0 -50.828,-9.865 -62.266,-29.602 -11.436,-19.729 -13.572,-49.218 -6.412,-88.468 l 42.601,-233.558 h 73.29 l -37.774,207.087 c -4.443,24.372 -4.337,41.76 0.322,52.16 4.658,10.402 14.547,15.599 29.673,15.599 17.145,0 31.982,-6.462 44.506,-19.383 12.53,-12.925 20.823,-30.52 24.885,-52.795 l 36.964,-202.668 h 73.293 z"
+           d="m 645.667,144.371 -62.491,342.595 h -71.779 l 7.414,-40.651 c -13.437,16.567 -27.84,28.98 -43.209,37.26 -15.372,8.278 -31.71,12.424 -49.017,12.424 -30.071,0 -50.828,-9.865 -62.266,-29.602 -11.436,-19.729 -13.572,-49.218 -6.412,-88.468 l 42.601,-233.558 h 73.29 l -37.774,207.087 c -4.443,24.372 -4.337,41.76 0.322,52.16 4.658,10.402 14.547,15.599 29.673,15.599 17.145,0 31.982,-6.462 44.506,-19.383 12.53,-12.925 20.823,-30.52 24.885,-52.795 l 36.964,-202.668 z"
            id="path4028" />
         <polygon
-           style="fill-rule:evenodd"
-           clip-rule="evenodd"
-           points="747.155,144.371 820.442,144.371 757.957,486.965 684.663,486.965 "
+           style="clip-rule:evenodd;fill-rule:evenodd"
+           points="820.442,144.371 757.957,486.965 684.663,486.965 747.155,144.371 "
            id="polygon4030" />
         <g
            id="g4032">
@@ -723,20 +711,18 @@
              id="path4042" />
         </g>
         <path
-           style="fill:#ff3300;fill-rule:evenodd"
+           style="clip-rule:evenodd;fill:#ff3300;fill-rule:evenodd"
            inkscape:connector-curvature="0"
-           clip-rule="evenodd"
            d="m 1372.172,486.965 62.49,-342.595 h 71.781 l -7.41,40.635 c 13.268,-16.562 27.626,-28.979 43.083,-37.252 15.449,-8.277 31.75,-12.417 48.886,-12.417 30.24,0 51.083,9.812 62.541,29.435 11.459,19.627 13.591,49.167 6.389,88.624 l -42.596,233.57 h -73.291 l 37.774,-207.1 c 4.479,-24.58 4.366,-42.128 -0.359,-52.634 -4.726,-10.508 -14.563,-15.763 -29.52,-15.763 -17.314,0 -32.19,6.462 -44.634,19.387 -12.44,12.923 -20.689,30.522 -24.758,52.793 l -37.087,203.316 h -73.289 z"
            id="path4044" />
         <path
-           style="fill:#ff3300;fill-rule:evenodd"
+           style="clip-rule:evenodd;fill:#ff3300;fill-rule:evenodd"
            inkscape:connector-curvature="0"
-           clip-rule="evenodd"
-           d="m 2095.44,489.543 c -6.772,0.216 -14.868,0.594 -24.307,1.131 -9.438,0.534 -15.427,0.806 -17.947,0.806 -28.092,0 -46.118,-6.569 -54.072,-19.701 -7.955,-13.139 -8.404,-39.045 -1.358,-77.72 l 33.782,-185.169 h -36.195 l 11.767,-64.52 h 36.195 l 17.065,-93.555 h 72.77 l -17.064,93.555 h 42.324 l -11.767,64.52 h -42.324 l -34.574,189.571 c -1.652,9.027 -1.134,14.955 1.542,17.794 2.669,2.835 8.959,4.257 18.873,4.257 h 17.888 l -12.598,69.031 z"
+           d="m 2095.44,489.543 c -6.772,0.216 -14.868,0.594 -24.307,1.131 -9.438,0.534 -15.427,0.806 -17.947,0.806 -28.092,0 -46.118,-6.569 -54.072,-19.701 -7.955,-13.139 -8.404,-39.045 -1.358,-77.72 l 33.782,-185.169 h -36.195 l 11.767,-64.52 h 36.195 l 17.065,-93.555 h 72.77 l -17.064,93.555 h 42.324 l -11.767,64.52 h -42.324 l -34.574,189.571 c -1.652,9.027 -1.134,14.955 1.542,17.794 2.669,2.835 8.959,4.257 18.873,4.257 h 17.888 z"
            id="path4046" />
         <path
            inkscape:connector-curvature="0"
-           d="M 910.843,208.89 H 871.62 l 11.767,-64.52 h 55.497 c 5.726,-27.093 12.225,-48.422 19.484,-63.988 8.83,-18.915 20.876,-34.783 36.152,-47.596 13.037,-10.723 28.593,-18.867 46.655,-24.434 C 1059.244,2.786 1079.196,0 1101.034,0 c 28.747,0 72.589,6.559 89.607,18.114 l -15.717,68.892 c -32.692,-12.269 -66.478,-16.046 -90.572,-14.099 -22.859,1.845 -39.895,6.035 -51.165,18.113 -9.627,10.312 -17.31,28.099 -23.043,53.351 h 188.996 l -62.485,342.595 h -73.285 l 50.719,-278.075 H 997.854 L 946.65,482.601 H 876.94 L 926.862,208.89 h -16.019 z"
+           d="M 910.843,208.89 H 871.62 l 11.767,-64.52 h 55.497 c 5.726,-27.093 12.225,-48.422 19.484,-63.988 8.83,-18.915 20.876,-34.783 36.152,-47.596 13.037,-10.723 28.593,-18.867 46.655,-24.434 C 1059.244,2.786 1079.196,0 1101.034,0 c 28.747,0 72.589,6.559 89.607,18.114 l -15.717,68.892 c -32.692,-12.269 -66.478,-16.046 -90.572,-14.099 -22.859,1.845 -39.895,6.035 -51.165,18.113 -9.627,10.312 -17.31,28.099 -23.043,53.351 h 188.996 l -62.485,342.595 h -73.285 l 50.719,-278.075 H 997.854 L 946.65,482.601 H 876.94 L 926.862,208.89 Z"
            id="path4048" />
       </g>
     </g>
@@ -767,7 +753,7 @@
       <flowRoot
          xml:space="preserve"
          id="flowRoot3946"
-         style="font-size:119.92374420000000157px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.46896505000000044;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0.01%;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.46896505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          transform="matrix(1.9026529,0,0,1.9026529,-1027.8555,-9237.5525)"><flowRegion
            id="flowRegion3948"><rect
              id="rect3950"
@@ -775,8 +761,23 @@
              height="150.31483"
              x="285.71429"
              y="4286.6138"
-             style="font-size:119.92374420000000157px;font-weight:bold;fill:#ffffff;stroke:none;stroke-width:4.46896505000000044;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;-inkscape-font-specification:Sawasdee Bold;fill-opacity:1"
+             style="font-weight:bold;font-size:119.9237442px;-inkscape-font-specification:'Sawasdee Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.46896505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              ry="0" /></flowRegion><flowPara
-           id="flowPara3952">contacte@guifibaix.coop</flowPara></flowRoot>    </g>
-  </g>
+           id="flowPara3952"
+           style="font-size:119.9237442px;line-height:1.25">contacte@guifibaix.coop</flowPara></flowRoot>    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3930"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#2b0000;fill-opacity:1;stroke:#aa0000"
+       transform="matrix(0.09937349,0,0,0.09937349,-23.458032,155.85881)"><flowRegion
+         id="flowRegion3926"
+         style="text-align:start;text-anchor:start"><rect
+           id="rect3924"
+           width="3361.1428"
+           height="235.61542"
+           x="468.71078"
+           y="4791.5474"
+           style="font-size:161.00874329px;text-align:start;text-anchor:start;fill:#2b0000;stroke:#aa0000" /></flowRegion><flowPara
+         style="font-size:161.00874329px;line-height:1.25;text-align:start;text-anchor:start"
+         id="flowPara3928">· Integrat a la xarxa </flowPara></flowRoot>  </g>
 </svg>
